@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Raw data (large files)
+docs/Extractor/*/raw/*.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ruby/Jekyll
+Gemfile.lock
+_site/
+.jekyll-cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/

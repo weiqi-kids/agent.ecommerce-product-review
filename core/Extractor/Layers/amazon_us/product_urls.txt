@@ -1,0 +1,108 @@
+# Amazon US 商品 URL 清單
+# 每行一個 URL，# 開頭為註解
+# 格式：https://www.amazon.com/dp/{ASIN}
+
+# === 測試商品（熱門電子產品）===
+https://www.amazon.com/dp/B0D1XD1ZV3
+# Apple AirPods Pro (2nd Gen, USB-C) — electronics
+
+https://www.amazon.com/dp/B09XS7JWHH
+# Sony WH-1000XM5 — electronics
+
+https://www.amazon.com/dp/B0BSHF7WHW
+# Anker Soundcore Space A40 — electronics
+
+# === 測試商品（美妝保養）===
+https://www.amazon.com/dp/B00TTD9BRC
+# CeraVe Moisturizing Cream — beauty
+
+# === 派對用品（Party Supplies）===
+https://www.amazon.com/dp/B093672RHQ
+# GOER Number 30 Balloons for 30th Birthday — party-supplies
+
+https://www.amazon.com/dp/B0DK8HSQ9L
+# 50 PCS Football Party Supplies Napkins — party-supplies
+
+https://www.amazon.com/dp/B0DK22Y1KZ
+# JOYIN 28 PCS Valentines Cards with Keychains — party-supplies
+
+https://www.amazon.com/dp/B0G43VCG7C
+# Valentine Day Cards for Kids Classroom — party-supplies
+
+https://www.amazon.com/dp/B0G451Y3YF
+# 24 Pcs Monster Valentines Day Gifts — party-supplies
+
+https://www.amazon.com/dp/B0G3P71JWG
+# 6 Pcs Wooden Hearts Valentines Decor — party-supplies
+
+https://www.amazon.com/dp/B0G1L8J8PK
+# 50th Birthday Gifts for Her — party-supplies
+
+https://www.amazon.com/dp/B0G1Y9KZ3P
+# 100 Days of School Costume for Boys — party-supplies
+
+# === 競品（Step 3 研究發現）===
+https://www.amazon.com/dp/B074PVTPBW
+# Mighty Patch Original — acne-treatment (競品)
+
+https://www.amazon.com/dp/B019NZC39U
+# Differin Gel (Adapalene 0.1%) — acne-treatment (競品)
+
+https://www.amazon.com/dp/B00A6H33OW
+# Burt's Bees Original Beeswax Lip Balm — lip-care (競品)
+
+https://www.amazon.com/dp/B082TPDTM2
+# Lumineux Teeth Whitening Strips — teeth-whitening (競品)
+
+https://www.amazon.com/dp/B001T6JTMY
+# If You Care Parchment Paper — parchment-paper (競品)
+
+https://www.amazon.com/dp/B00006IDL6
+# Band-Aid Flexible Fabric — wound-bandage (競品)
+
+https://www.amazon.com/dp/B0B6R8N6WQ
+# Sabre Quick Release Keychain Pepper Spray — pepper-spray (競品)
+
+https://www.amazon.com/dp/B0CH38DGNY
+# DUMOS 9-Drawer Dresser — dresser-drawer (競品)
+
+# === 2026-02-07 排行榜發現（Playwright 抓取）===
+https://www.amazon.com/dp/B09V7Z4TJG
+# Medicube Zero Pore Pads 2.0 — acne-treatment
+
+https://www.amazon.com/dp/B081KL2QYJ
+# PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash — acne-treatment
+
+https://www.amazon.com/dp/B0CM2PPNMW
+# Medicube Collagen Jelly Cream — face-moisturizing
+
+https://www.amazon.com/dp/B0B2RM68G2
+# Biodance Bio-Collagen Real Deep Mask — face-moisturizing
+
+https://www.amazon.com/dp/B08KT2Z93D
+# eos Shea Better Body Lotion Vanilla Cashmere — body-moisturizing
+
+https://www.amazon.com/dp/B0D4NKT1TH
+# Tree Hut Vanilla Foaming Gel Wash — body-moisturizing
+
+# === 2026-02-08 排行榜發現（增量更新）===
+https://www.amazon.com/dp/B0DBRVHR38
+# RoC Derm Correxion Retinol Firming Serum Stick — body-firming
+
+https://www.amazon.com/dp/B0FB9LWGY5
+# (待識別) — Beauty #48
+
+https://www.amazon.com/dp/B0B854YTCF
+# (待識別) — Beauty #49
+
+https://www.amazon.com/dp/B0B1CNJL7N
+# upsimples 8x10 Picture Frame — picture-frame
+
+https://www.amazon.com/dp/B07V6M4MSN
+# Amazon Basics Ceramic Space Heater — space-heater
+
+https://www.amazon.com/dp/B00OCGUG02
+# (待識別) — Home-Kitchen #44
+
+https://www.amazon.com/dp/B01M0AGUPO
+# (待識別) — Home-Kitchen #50

@@ -1,0 +1,345 @@
+{
+  "last_updated": "2026-02-08T22:30:00Z",
+  "products": [
+    {
+      "asin": "B07V6M4MSN",
+      "name": "Amazon Basics Ceramic Space Heater",
+      "category": "space-heater",
+      "watch_reason": "fire_hazard",
+      "severity": "critical",
+      "added_date": "2026-02-08",
+      "last_checked": "2026-02-08",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "recall_check",
+          "description": "監控是否有召回行動"
+        },
+        {
+          "type": "fire_incidents",
+          "description": "監控火災事件報告數量變化"
+        },
+        {
+          "type": "safety_feature_failure",
+          "description": "監控過熱保護失效案例"
+        }
+      ],
+      "baseline": {
+        "fire_rate": "10%",
+        "overheat_failure_rate": "8%",
+        "premature_failure_rate": "30%",
+        "avg_rating": 4.4,
+        "review_count": 50
+      },
+      "check_result": {
+        "date": "2026-02-08",
+        "status": "warning_issued",
+        "notes": "已產出警告報告，10% 火災事件率為極高風險",
+        "report": "docs/Narrator/warnings/amazon-basics-space-heater--2026-02-08.md"
+      }
+    },
+    {
+      "asin": "B00OCGUG02",
+      "name": "Hefty Party On Disposable Cups",
+      "category": "party-tableware",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-02-08",
+      "last_checked": "2026-02-08",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "quality_control",
+          "description": "監控品質控制問題是否改善"
+        },
+        {
+          "type": "durability_issues",
+          "description": "監控耐用性問題報告"
+        }
+      ],
+      "baseline": {
+        "defect_rate": "18%",
+        "durability_issue_rate": "14%",
+        "avg_rating": 4.85,
+        "review_count": 50
+      },
+      "check_result": {
+        "date": "2026-02-08",
+        "status": "warning_issued",
+        "notes": "已產出警告報告，32% 用戶報告問題",
+        "report": "docs/Narrator/warnings/hefty-party-cups--2026-02-08.md"
+      }
+    },
+    {
+      "asin": "B0B1CNJL7N",
+      "name": "upsimples 8x10 Picture Frame",
+      "category": "picture-frame",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-02-08",
+      "last_checked": "2026-02-08",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "material_mismatch",
+          "description": "監控材質期望落差問題"
+        },
+        {
+          "type": "shipping_damage",
+          "description": "監控運送損壞率"
+        },
+        {
+          "type": "dimension_accuracy",
+          "description": "監控尺寸準確度問題"
+        }
+      ],
+      "baseline": {
+        "material_mismatch_rate": "56%",
+        "shipping_damage_rate": "36%",
+        "dimension_error_rate": "16%",
+        "success_rate": "24%"
+      },
+      "check_result": {
+        "date": "2026-02-08",
+        "status": "warning_issued",
+        "notes": "已產出警告報告，僅 24% 成功率，[REVIEW_NEEDED] 無競品資料",
+        "report": "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md"
+      }
+    },
+    {
+      "asin": "B092J8LPWR",
+      "name": "HANYCONY 8 Outlets Power Strip",
+      "category": "power-strip",
+      "watch_reason": "fire_hazard",
+      "severity": "critical",
+      "added_date": "2026-02-06",
+      "last_checked": "2026-02-07",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "recall_check",
+          "description": "監控是否有召回行動"
+        },
+        {
+          "type": "review_pattern",
+          "description": "監控火災相關評論是否增加"
+        }
+      ],
+      "baseline": {
+        "fire_rate": "4%",
+        "failure_rate": "8%",
+        "avg_rating": 4.2,
+        "review_count": 1500
+      },
+      "check_result": {
+        "date": "2026-02-07",
+        "status": "no_change",
+        "notes": "無召回公告，其他品牌（ANNQUAN、HEZI）有召回"
+      }
+    },
+    {
+      "asin": "B093KDDGMJ",
+      "name": "HANYCONY 12 Outlets Power Strip",
+      "category": "power-strip",
+      "watch_reason": "fire_hazard",
+      "severity": "critical",
+      "added_date": "2026-02-06",
+      "last_checked": "2026-02-07",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "recall_check",
+          "description": "監控是否有召回行動"
+        },
+        {
+          "type": "surge_protection",
+          "description": "監控突波保護失效案例"
+        }
+      ],
+      "baseline": {
+        "surge_failure_rate": "6%",
+        "avg_rating": 4.3
+      },
+      "check_result": {
+        "date": "2026-02-07",
+        "status": "no_change",
+        "notes": "無召回公告"
+      }
+    },
+    {
+      "asin": "B00016RL9G",
+      "name": "Emergen-C Vitamin C",
+      "category": "vitamin-c-supplement",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-02-06",
+      "last_checked": "2026-02-07",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "batch_quality",
+          "description": "監控新批次是否仍有固化問題"
+        }
+      ],
+      "baseline": {
+        "solidification_rate": "28%",
+        "avg_rating": 4.5,
+        "review_count": 50000
+      },
+      "check_result": {
+        "date": "2026-02-07",
+        "status": "ongoing_litigation",
+        "notes": "2024 訴訟進行中（維生素C含量不實、天然風味標示），無 2026 新召回"
+      }
+    },
+    {
+      "asin": "B0BSHF7WHW",
+      "name": "Pokemon TCG Collector Chest",
+      "category": "trading-cards",
+      "watch_reason": "product_integrity",
+      "severity": "high",
+      "added_date": "2026-02-06",
+      "last_checked": "2026-02-07",
+      "check_interval_days": 14,
+      "alerts": [
+        {
+          "type": "reseal_pattern",
+          "description": "監控重新密封率是否改善"
+        },
+        {
+          "type": "seller_policy",
+          "description": "監控 Amazon 賣家政策變更"
+        }
+      ],
+      "baseline": {
+        "reseal_rate": "24%",
+        "missing_content_rate": "8%"
+      },
+      "check_result": {
+        "date": "2026-02-07",
+        "status": "ongoing",
+        "notes": "問題持續存在，無 2026 特定新聞，Pokemon Day 2026 Collection 即將發布"
+      }
+    },
+    {
+      "asin": "B0G4Z5G1NT",
+      "name": "RELIEF SUN SPF50+",
+      "category": "sun-protection",
+      "watch_reason": "counterfeit_risk",
+      "severity": "high",
+      "added_date": "2026-02-06",
+      "last_checked": "2026-02-08",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "verified_purchase_rate",
+          "description": "監控驗證購買率是否提升"
+        },
+        {
+          "type": "review_count",
+          "description": "等待累積更多評論"
+        },
+        {
+          "type": "counterfeit_check",
+          "description": "監控賣家變更、官方聲明"
+        }
+      ],
+      "baseline": {
+        "verified_rate": "0%",
+        "five_star_rate": "100%",
+        "review_count": 7
+      },
+      "check_result": {
+        "date": "2026-02-08",
+        "status": "counterfeit_confirmed",
+        "notes": "已產出假貨報告。Beauty of Joseon 官方聲明不授權 Amazon.com 銷售防曬產品。",
+        "report": "docs/Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md"
+      }
+    },
+    {
+      "asin": "B08KT2Z93D",
+      "name": "eos Shea Better Body Lotion Vanilla Cashmere",
+      "category": "body-moisturizing",
+      "watch_reason": "quality_crisis",
+      "severity": "medium",
+      "added_date": "2026-02-07",
+      "last_checked": "2026-02-07",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "scent_quality",
+          "description": "監控化學味問題是否持續或改善"
+        },
+        {
+          "type": "batch_quality",
+          "description": "監控新批次評論是否恢復正常香味"
+        }
+      ],
+      "baseline": {
+        "scent_issue_rate": "6%",
+        "issue_first_detected": "2025-12",
+        "avg_rating": 4.75,
+        "review_count": 61858
+      },
+      "discovery_source": "L5 issue detection from 2026-02-07 extraction"
+    }
+  ],
+  "categories": [],
+  "deferred_categories": [],
+  "completed_gap_fills": {
+    "2026-02-08": [
+      {
+        "name": "body-firming",
+        "action": "new_category_research",
+        "result": "success",
+        "competitors_found": 27,
+        "competitors_with_asin": 7
+      },
+      {
+        "name": "nail-glue",
+        "action": "new_category_research",
+        "result": "success",
+        "competitors_found": 15,
+        "competitors_with_asin": 15
+      },
+      {
+        "name": "party-tableware",
+        "action": "new_category_research",
+        "result": "partial",
+        "competitors_found": 15,
+        "competitors_with_asin": 8,
+        "notes": "[REVIEW_NEEDED] WebFetch 不足 100 次"
+      },
+      {
+        "name": "pillow-case",
+        "action": "new_category_research",
+        "result": "success",
+        "competitors_found": 15,
+        "competitors_with_asin": 9
+      }
+    ],
+    "2026-02-07": [
+      {
+        "name": "squishy-toy",
+        "action": "supplement_research",
+        "result": "success",
+        "competitors_found": 20,
+        "competitors_with_asin": 17
+      },
+      {
+        "name": "kids-tent",
+        "action": "supplement_competitors",
+        "result": "success",
+        "competitors_found": 20,
+        "competitors_with_asin": 20
+      },
+      {
+        "name": "playing-cards",
+        "action": "supplement_competitors",
+        "result": "success",
+        "competitors_found": 17,
+        "competitors_with_asin": 15
+      }
+    ]
+  }
+}

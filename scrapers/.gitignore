@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Output
+output/
+*.jsonl
+
+# Browser profiles (contains login sessions)
+.browser-profiles/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript build
+dist/
+*.tsbuildinfo

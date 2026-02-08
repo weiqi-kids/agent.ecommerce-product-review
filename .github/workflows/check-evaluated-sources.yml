@@ -1,0 +1,31 @@
+name: Check evaluated sources
+
+on:
+  schedule:
+    # 每日 UTC 06:00 執行（台灣時間 14:00）
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-sources:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check evaluated sources connectivity
+        run: bash scripts/check-evaluated-sources.sh
+
+      - name: Commit updated explored.md
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/explored.md
+          if git diff --cached --quiet; then
+            echo "No changes to explored.md"
+          else
+            git commit -m "chore: daily source evaluation check ($(date -u '+%Y-%m-%d'))"
+            git push
+          fi

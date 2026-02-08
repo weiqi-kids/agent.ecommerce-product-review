@@ -1,0 +1,96 @@
+# Site settings
+title: 電商商品評論分析系統
+description: 自動化商品評論萃取、假貨偵測與比較分析
+baseurl: ""
+url: ""
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Color scheme
+color_scheme: light
+
+# Logo
+logo: "/assets/images/logo.svg"
+
+# Footer
+footer_content: "電商商品評論智慧分析系統 &copy; 2026"
+
+# Aux links
+aux_links:
+  "GitHub":
+    - "https://github.com/example/agent.ecommerce-product-review"
+
+# Navigation
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Collections
+collections:
+  counterfeits:
+    permalink: "/:collection/:path/"
+    output: true
+  comparisons:
+    permalink: "/:collection/:path/"
+    output: true
+  pain_points:
+    permalink: "/:collection/:path/"
+    output: true
+  research:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "counterfeits"
+    values:
+      layout: "default"
+      parent: "假貨報告"
+      grand_parent: "報告"
+  - scope:
+      path: ""
+      type: "comparisons"
+    values:
+      layout: "default"
+      parent: "比較報告"
+      grand_parent: "報告"
+  - scope:
+      path: ""
+      type: "pain_points"
+    values:
+      layout: "default"
+      parent: "痛點報告"
+      grand_parent: "報告"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "default"
+      parent: "研究報告"
+      grand_parent: "資料"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

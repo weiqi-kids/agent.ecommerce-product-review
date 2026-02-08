@@ -1,0 +1,16 @@
+{
+  "last_updated": "2026-02-07T01:10:00Z",
+  "pending_decisions": [],
+  "resolved_decisions": [
+    {
+      "category": "body-moisturizing",
+      "product": "B08KT2Z93D",
+      "product_name": "eos Shea Better Body Lotion",
+      "report_type": "watchlist_candidate",
+      "reason": "近期批次（2025末-2026初）6% 評論報告化學味取代香草味，威脅產品核心價值",
+      "resolution": "added_to_watchlist",
+      "resolved_at": "2026-02-07T01:05:00Z",
+      "notes": "直接加入 watchlist.json，不依賴 pending_decisions 機制"
+    }
+  ]
+}

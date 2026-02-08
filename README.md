@@ -1,0 +1,139 @@
+# 電商商品評論智慧分析系統
+
+E-commerce Product Review Intelligence System — 透過 Claude CLI 多角色協作，自動化擷取、分析與報告電商商品評論。
+
+## 架構
+
+```
+電商平台 → Playwright 爬蟲 → JSONL → L1-L6 萃取 → Markdown → Qdrant → Mode 報告
+```
+
+| 角色 | 職責 |
+|------|------|
+| **Architect** | 系統編排、指揮協調、監控追蹤 |
+| **Extractor** | 資料擷取 + L1-L6 六層萃取 |
+| **Narrator** | 跨來源綜合分析、報告產出 |
+
+## 執行流程（Step 1-8）
+
+| Step | 說明 |
+|------|------|
+| 1 | 監控清單追蹤 |
+| 2 | 研究缺口補齊 |
+| 3 | 抓取排行榜 |
+| 4 | 產品分組（按具體問題） |
+| 5 | 問題研究 + 競品發現 |
+| 6 | 抓取評論 + L1-L6 萃取 |
+| 7 | 比較分析 |
+| 8 | 條件性產出報告 |
+
+## 支援平台（Layer）
+
+| Layer | 平台 | 語系 | 狀態 |
+|-------|------|------|------|
+| `amazon_us` | Amazon.com | en-US | ✅ |
+
+## 報告類型（Mode）
+
+| Mode | 說明 |
+|------|------|
+| `problem_solver` | 問題解決指南 — 問題導向的完整分析報告 |
+
+> 舊 Mode（aspect_scorecard、pros_cons_digest、issue_radar、claim_verification、usecase_fit）已整合至 `problem_solver`。
+
+## 報告輸出
+
+| 報告類型 | 路徑 | 說明 |
+|---------|------|------|
+| 推薦報告 | `docs/Narrator/recommendations/` | 能解決問題，且比競品好 |
+| 比較報告 | `docs/Narrator/comparisons/` | 能解決問題，但有更好選擇 |
+| 警告報告 | `docs/Narrator/warnings/` | 無法解決問題 |
+| 痛點報告 | `docs/Narrator/pain_points/` | 全部產品都有嚴重問題 |
+| 暫緩報告 | `docs/Narrator/deferred/` | 資料不足且補齊失敗 |
+
+## L1-L6 萃取協議
+
+| Level | 名稱 | 說明 |
+|-------|------|------|
+| L1 | Product Grounding | 商品基本資訊定錨 |
+| L2 | Claim Extraction | 行銷聲明提取 |
+| L3 | Aspect Extraction | 體驗面向識別 |
+| L4 | Aspect Sentiment | 面向情感分析 |
+| L5 | Issue Pattern | 問題模式識別 |
+| L6 | Evidence Summary | 證據摘要 |
+
+## 快速開始
+
+```bash
+# 1. 安裝爬蟲依賴
+cd scrapers && npm install && cd ..
+
+# 2. 設定環境變數
+cp .env.example .env
+# 編輯 .env 填入 API keys
+
+# 3. 首次登入 Amazon（需手動完成驗證）
+cd scrapers && npx tsx src/amazon/scraper.ts --login && cd ..
+
+# 4. 執行完整流程
+# 在 Claude CLI 中執行：
+# 執行完整流程
+```
+
+## 系統健康度
+
+### Layer 狀態
+
+| Layer | 最後更新 | 商品數 | 評論數 | 狀態 |
+|-------|----------|--------|--------|------|
+| amazon_us | — | — | — | ⚠️ 待更新 |
+
+### 監控清單
+
+| 類型 | 數量 |
+|------|------|
+| 監控產品 | 5 |
+| 研究缺口類別 | 3 |
+| 暫緩發佈類別 | 0 |
+
+> 詳細資訊見 `docs/Extractor/watchlist.json`
+
+## 目錄結構
+
+```
+agent.ecommerce-product-review/
+├── CLAUDE.md                    # 系統規格（Claude CLI 自動載入）
+├── core/                        # 角色定義與 Layer/Mode 設定
+│   ├── Architect/               # Architect 角色定義
+│   ├── Extractor/Layers/        # 平台定義（amazon_us）
+│   └── Narrator/Modes/          # 報告類型定義（problem_solver）
+├── lib/                         # Shell 工具函式庫
+├── scrapers/                    # Playwright 爬蟲（TypeScript）
+└── docs/                        # 萃取結果與報告輸出
+    ├── Extractor/
+    │   ├── {layer}/{category}/  # 萃取 .md
+    │   ├── research/            # 問題研究報告
+    │   ├── competitors/         # 競品清單
+    │   ├── discovery_cache/     # 排行榜快取
+    │   ├── execution_state.json # 執行狀態
+    │   ├── watchlist.json       # 監控清單
+    │   ├── pending_decisions.json # 待決策佇列
+    │   ├── decision_log.json    # 決策記錄
+    │   └── error_log.json       # 錯誤記錄
+    ├── Narrator/
+    │   ├── recommendations/     # 推薦報告
+    │   ├── comparisons/         # 比較報告
+    │   ├── warnings/            # 警告報告
+    │   ├── pain_points/         # 痛點報告
+    │   └── deferred/            # 暫緩報告
+    └── daily_summary/           # 每日執行摘要
+```
+
+## 環境需求
+
+- Node.js 18+
+- Playwright
+- jq
+- curl
+- Qdrant（雲端或本地）
+- OpenAI API Key（embedding 用）
