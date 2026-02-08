@@ -1,0 +1,84 @@
+name: Check Links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**/*.md'
+      - 'docs/_sidebar.md'
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run weekly on Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install link checker
+        run: npm install -g markdown-link-check
+
+      - name: Check sidebar links
+        id: check-sidebar
+        continue-on-error: true
+        run: |
+          echo "## Sidebar Link Check" >> $GITHUB_STEP_SUMMARY
+          cd docs
+          markdown-link-check _sidebar.md --config ../.github/link-check-config.json 2>&1 | tee sidebar-result.txt
+          if grep -q "ERROR" sidebar-result.txt; then
+            echo "::error::Broken links found in _sidebar.md"
+            echo "❌ Broken links found" >> $GITHUB_STEP_SUMMARY
+            cat sidebar-result.txt >> $GITHUB_STEP_SUMMARY
+            exit 1
+          else
+            echo "✅ All sidebar links are valid" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Check all markdown files
+        id: check-all
+        continue-on-error: true
+        run: |
+          echo "## All Markdown Files Link Check" >> $GITHUB_STEP_SUMMARY
+          cd docs
+          find . -name "*.md" -not -path "./_sidebar.md" | head -50 | while read file; do
+            echo "Checking: $file"
+            markdown-link-check "$file" --config ../.github/link-check-config.json --quiet || echo "::warning::Broken links in $file"
+          done
+
+      - name: Generate broken links report
+        if: failure()
+        run: |
+          echo "## Broken Links Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Please fix the broken links listed above." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Common fixes:" >> $GITHUB_STEP_SUMMARY
+          echo "- Check if the target file exists" >> $GITHUB_STEP_SUMMARY
+          echo "- Verify the file path is correct (case-sensitive)" >> $GITHUB_STEP_SUMMARY
+          echo "- Ensure no typos in the filename" >> $GITHUB_STEP_SUMMARY
+
+      - name: Create issue for broken links
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const result = fs.readFileSync('docs/sidebar-result.txt', 'utf8');
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🔗 Broken links detected',
+              body: `## Automated Link Check Report\n\nBroken links were detected during the scheduled weekly check.\n\n\`\`\`\n${result}\n\`\`\`\n\nPlease review and fix these links.`,
+              labels: ['bug', 'documentation']
+            });

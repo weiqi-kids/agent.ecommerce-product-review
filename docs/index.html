@@ -32,8 +32,11 @@
   <script>
     window.$docsify = {
       name: '電商評論分析',
-      repo: '',
-      loadSidebar: true,
+      repo: 'weiqi-kids/agent.ecommerce-product-review',
+      loadSidebar: '_sidebar.md',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       subMaxLevel: 3,
       search: {
         placeholder: '搜尋...',
