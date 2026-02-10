@@ -8,11 +8,11 @@
     "source_mode": "pain_points"
   },
   {
-    "id": "squishy-toy--pain-points--2026-02-06-md",
-    "title": "Squishy Toy 市場痛點報告：紓壓玩具的定位混亂與安全疑慮",
-    "date": "2026-02-06",
+    "id": "squishy-toy--pain-points--2026-02-09-md",
+    "title": "Squishy Toy 市場系統性危機：紓壓玩具的安全隱憂與科學證據空白",
+    "date": "2026-02-09",
     "product_id": "",
-    "file": "squishy-toy--pain-points--2026-02-06.md",
+    "file": "squishy-toy--pain-points--2026-02-09.md",
     "source_mode": "pain_points"
   },
   {
@@ -21,6 +21,14 @@
     "date": "2026-02-06",
     "product_id": "",
     "file": "power-strip--pain-points--2026-02-06.md",
+    "source_mode": "pain_points"
+  },
+  {
+    "id": "picture-frame--2026-02-09-md",
+    "title": "picture-frame 痛點報告",
+    "date": "2026-02-09",
+    "product_id": "",
+    "file": "picture-frame--2026-02-09.md",
     "source_mode": "pain_points"
   }
 ]

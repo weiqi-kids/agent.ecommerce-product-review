@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-02-09-md",
+    "title": "Amazon Bestsellers 排行榜抓取 — 2026-02-09",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "2026-02-09.md",
+    "source_layer": "discovery_cache"
+  },
+  {
     "id": "2026-02-08-md",
     "title": "Amazon Bestsellers 排行榜抓取 — 2026-02-08",
     "category": "other",

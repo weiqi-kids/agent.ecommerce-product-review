@@ -480,6 +480,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "picture-frame-B0D476HH7J--amazon_us--2026-02-09-md",
+    "title": "Product Review Analysis: FIXSMITH 8x10 Picture Frame Set",
+    "category": "picture-frame",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "picture-frame/B0D476HH7J--amazon_us--2026-02-09.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "picture-frame-B0B1CNJL7N--amazon_us--2026-02-08-md",
     "title": "Product Review Analysis: upsimples 8x10 Picture Frame",
     "category": "picture-frame",
@@ -489,6 +501,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "picture-frame/B0B1CNJL7N--amazon_us--2026-02-08.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "picture-frame-B079LFHT64--amazon_us--2026-02-09-md",
+    "title": "Amazon Basics Rectangular Photo Picture Frame - Product Review Analysis",
+    "category": "picture-frame",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "picture-frame/B079LFHT64--amazon_us--2026-02-09.md",
     "source_layer": "amazon_us"
   },
   {
@@ -645,6 +669,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "nail-glue/B0B854YTCF--amazon_us--2026-02-08.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "nail-glue-B01I70RA8E--amazon_us--2026-02-09-md",
+    "title": "L1: Product Grounding",
+    "category": "nail-glue",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "nail-glue/B01I70RA8E--amazon_us--2026-02-09.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1128,6 +1164,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "hand-care-B011KMZ2WW--amazon_us--2026-02-10-md",
+    "title": "O'Keeffe's Working Hands Hand Cream 3oz",
+    "category": "hand-care",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "hand-care/B011KMZ2WW--amazon_us--2026-02-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "fashion-B0DFZ5MDDF--amazon_us--2026-02-05-md",
     "title": "Zubaz NFL Women's Full Length High Waist Basic 1.0 Leggings",
     "category": "fashion",
@@ -1344,18 +1392,6 @@
     "source_layer": "amazon_us"
   },
   {
-    "id": "body-firming-B0DBRVHR38--amazon_us--2026-02-08-md",
-    "title": "Product Extraction Report",
-    "category": "body-firming",
-    "product_id": "",
-    "brand": "",
-    "platform": "",
-    "avg_rating": "",
-    "review_count": "",
-    "file": "body-firming/B0DBRVHR38--amazon_us--2026-02-08.md",
-    "source_layer": "amazon_us"
-  },
-  {
     "id": "beauty-B0G4Z5G1NT--amazon_us--2026-02-05-md",
     "title": "Product Review Analysis: RELIEF SUN Organic Korean Sunscreen SPF50+ PA++++",
     "category": "beauty",
@@ -1545,6 +1581,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "beauty/B0BRR6Q2ZD--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "beauty-B0BFXM9NNW--amazon_us--2026-02-09-md",
+    "title": "L1-L6 萃取報告",
+    "category": "beauty",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "beauty/B0BFXM9NNW--amazon_us--2026-02-09.md",
     "source_layer": "amazon_us"
   },
   {
