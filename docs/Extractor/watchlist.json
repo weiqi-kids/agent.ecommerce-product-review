@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-08T22:30:00Z",
+  "last_updated": "2026-02-09T12:00:00Z",
   "products": [
     {
       "asin": "B07V6M4MSN",
@@ -68,6 +68,13 @@
         "status": "warning_issued",
         "notes": "已產出警告報告，32% 用戶報告問題",
         "report": "docs/Narrator/warnings/hefty-party-cups--2026-02-08.md"
+      },
+      "recommended_alternative": {
+        "asin": "B099XCDQDS",
+        "name": "Hefty ECOSAVE Compostable Plates",
+        "added_date": "2026-02-09",
+        "status": "pending_analysis",
+        "notes": "party-tableware 比較報告推薦的替代品，待下次執行時萃取分析"
       }
     },
     {
