@@ -4,38 +4,59 @@
 
 ---
 
-## 最新報告 (2026-02-08)
+## 最新報告 (2026-02-10)
 
-### 警告報告
+### 推薦報告
+
+| 類別 | 推薦產品 | 推薦理由 |
+|------|---------|---------|
+| [手部乾裂護理](Narrator/recommendations/hand-care--2026-02-10.md) | O'Keeffe's Working Hands | 88% 正面評價、CNN/GH 推薦、最佳平價選擇 |
+
+### 痛點報告 (2026-02-09)
+
+| 類別 | 核心問題 |
+|------|---------|
+| [相框品質](Narrator/pain_points/picture-frame--2026-02-09.md) | Amazon 預算相框系統性品質問題（尺寸不準、材質虛報） |
+| [紓壓玩具](Narrator/pain_points/squishy-toy--pain-points--2026-02-09.md) | 化學異味、耐用度差、品質不一致 |
+
+### 警告報告 (2026-02-09)
 
 | 產品 | 風險等級 | 核心問題 |
 |------|---------|---------|
-| [Amazon Basics 陶瓷暖風機](Narrator/warnings/amazon-basics-space-heater--2026-02-08.md) | 🔴 CRITICAL | 10% 火災風險 |
-| [Hefty 派對杯](Narrator/warnings/hefty-party-cups--2026-02-08.md) | 🟠 HIGH | 18% 品質缺陷 |
-| [upsimples 相框](Narrator/warnings/upsimples-picture-frame--2026-02-08.md) | 🟠 HIGH | 56% 材質不符 |
+| [垃圾袋品質](Narrator/warnings/trash-bags--2026-02-09.md) | 🟠 HIGH | 品質不穩定、易破損 |
 
-### 比較報告
+### 比較報告 (2026-02-09)
 
 | 類別 | 結論 |
 |------|------|
-| [身體緊實](Narrator/comparisons/body-firming--2026-02-08.md) | Palmer's 保濕優秀，緊實效果不確定 |
-| [美甲膠](Narrator/comparisons/nail-glue--2026-02-08.md) | UNA GELLA 22% 失敗率，不如 KISS PowerFlex |
-| [枕頭套](Narrator/comparisons/pillow-case--2026-02-08.md) | CGK 基本滿足，Bedsure Satin 性價比更高 |
+| [派對餐具](Narrator/comparisons/party-tableware--2026-02-09.md) | Hefty ECOSAVE 環保可堆肥，勝過傳統塑膠杯 |
+| [洗碗海綿](Narrator/comparisons/dish-sponge--2026-02-09.md) | Scrub Daddy 耐用但價高，O-Cedar 性價比佳 |
+| [地板拖把](Narrator/comparisons/floor-mopping--2026-02-09.md) | Swiffer 方便但耗材貴，O-Cedar 可重複使用 |
+| [洗衣去漬](Narrator/comparisons/laundry-stain--2026-02-09.md) | OxiClean 全能型首選 |
+| [皮革保養](Narrator/comparisons/leather-care--2026-02-09.md) | Leather Honey 深層滋養效果最佳 |
+| [紙巾](Narrator/comparisons/paper-towel--2026-02-09.md) | Bounty 吸水強但貴，Sparkle 預算選擇 |
 
 ---
 
 ## 監控清單
 
-| 產品 | 監控原因 | 嚴重度 |
-|------|---------|--------|
-| Amazon Basics Space Heater | fire_hazard | 🔴 critical |
-| HANYCONY 8 Outlets Power Strip | fire_hazard | 🔴 critical |
-| HANYCONY 12 Outlets Power Strip | fire_hazard | 🔴 critical |
-| Hefty Party Cups | quality_crisis | 🟠 high |
-| upsimples Picture Frame | quality_crisis | 🟠 high |
+| 產品 | 監控原因 | 嚴重度 | 狀態 |
+|------|---------|--------|------|
+| RELIEF SUN (B0CM5GBNPB) | 假貨風險 | 🔴 critical | 持續監控 |
+| Amazon Basics Space Heater | 火災風險 | 🔴 critical | 持續監控 |
+| HANYCONY Power Strip | 火災風險 | 🔴 critical | 持續監控 |
+| Hefty Party Cups | 品質危機 | 🟠 high | 持續監控 |
+| upsimples Picture Frame | 品質危機 | 🟠 high | 持續監控 |
+| Emergen-C | 品質危機 | 🟠 high | 持續監控 |
 
 ---
 
 ## 導覽
 
 使用左側選單瀏覽所有報告。
+
+- **警告報告**：有重大品質/安全問題的產品
+- **推薦報告**：經分析後值得購買的產品
+- **比較報告**：同類產品優劣比較
+- **痛點報告**：整個品類都有問題的市場缺口
+- **假貨警報**：發現假貨風險的產品
