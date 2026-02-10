@@ -1669,6 +1669,38 @@ PLAYWRIGHT_TIMEOUT=30000
 
 **教訓**：推薦替代品不應只停留在報告文字，應納入追蹤系統以便後續驗證推薦是否正確。
 
+### 網站更新驗證（2026-02-10）
+
+**錯誤**：執行完流程後只 commit + push，沒有驗證網站是否真的更新。
+
+**後果**：
+- `_sidebar.md` 是手動維護的檔案，不會自動更新
+- 即使 `index.json` 由 GitHub Actions 自動產生，sidebar 沒更新導致新報告無法在網站上看到
+- 使用者以為網站已更新，實際上新內容不可見
+
+**正確做法**：
+1. **更新 `docs/_sidebar.md`**：每次產出新報告後，必須手動更新 sidebar
+   ```markdown
+   * **推薦報告**
+     * 2026-02-10
+       * [手部乾裂護理](Narrator/recommendations/hand-care--2026-02-10.md)
+   ```
+
+2. **Commit + Push 後等待部署**：GitHub Pages 需要約 30-60 秒完成部署
+
+3. **驗證網站更新**：
+   ```bash
+   # 檢查 GitHub Actions 狀態
+   gh run list --limit 3
+
+   # 用 curl 驗證（加 cache-busting 參數）
+   curl -s "https://weiqi-kids.github.io/agent.ecommerce-product-review/_sidebar.md?v=$(date +%s)" | head -30
+   ```
+
+4. **確認報告可存取**：實際 WebFetch 報告頁面確認內容正確
+
+**教訓**：任務不是 push 完就結束，必須親自驗證網站更新才算完成。
+
 ---
 
 ## 輸出規則
@@ -1738,13 +1770,19 @@ Step 8 完成
     ↓
 5. 更新 README.md 健康度儀表板
     ↓
-6. Git commit + push（觸發 GitHub Actions 更新網站）
+6. 更新 docs/_sidebar.md（加入新報告連結）
+    ↓
+7. Git commit + push（觸發 GitHub Actions 更新網站）
+    ↓
+8. 驗證網站更新（curl + WebFetch 確認內容可見）
     ↓
 執行完成 ✅
 ```
 
 > ⚠️ **未完成以上事項視為執行未完成**，下次執行時會從中斷點繼續。
-> ⚠️ **步驟 6 特別重要**：網站需要 push 後才會更新，不可遺漏！
+> ⚠️ **步驟 6-8 特別重要**：
+> - `_sidebar.md` 是手動維護的，不更新則新報告在網站上不可見
+> - 必須親自驗證網站更新，不能假設 push 後就完成
 
 ### 執行回報
 
