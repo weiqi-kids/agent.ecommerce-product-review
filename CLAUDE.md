@@ -1772,16 +1772,19 @@ Step 8 完成
     ↓
 6. 更新 docs/_sidebar.md（加入新報告連結）
     ↓
-7. Git commit + push（觸發 GitHub Actions 更新網站）
+7. 更新 docs/README.md 首頁（更新「最新報告」區塊）
     ↓
-8. 驗證網站更新（curl + WebFetch 確認內容可見）
+8. Git commit + push（觸發 GitHub Actions 更新網站）
+    ↓
+9. 驗證網站更新（curl + WebFetch 確認內容可見）
     ↓
 執行完成 ✅
 ```
 
 > ⚠️ **未完成以上事項視為執行未完成**，下次執行時會從中斷點繼續。
-> ⚠️ **步驟 6-8 特別重要**：
-> - `_sidebar.md` 是手動維護的，不更新則新報告在網站上不可見
+> ⚠️ **步驟 6-9 特別重要**：
+> - `_sidebar.md` 是手動維護的，不更新則新報告在側邊欄不可見
+> - `README.md` 首頁的「最新報告」區塊也需手動更新
 > - 必須親自驗證網站更新，不能假設 push 後就完成
 
 ### 執行回報
