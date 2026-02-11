@@ -1236,6 +1236,42 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "hand-care-B0148PKYXU--amazon_us--batch-2-md",
+    "title": "O'Keeffe's Working Hands Hand Cream — Batch 2/2",
+    "category": "hand-care",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "hand-care/B0148PKYXU--amazon_us--batch-2.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "hand-care-B0148PKYXU--amazon_us--batch-1-md",
+    "title": "O'Keeffe's Working Hands Hand Cream - Batch 1 Extraction",
+    "category": "hand-care",
+    "product_id": "",
+    "brand": "- **Brand**: O'Keeffe's",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "hand-care/B0148PKYXU--amazon_us--batch-1.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "hand-care-B0148PKYXU--amazon_us--2026-02-12-md",
+    "title": "O'Keeffe's Working Hands Hand Cream - Final Extraction",
+    "category": "hand-care",
+    "product_id": "",
+    "brand": "- **Brand**: O'Keeffe's",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "hand-care/B0148PKYXU--amazon_us--2026-02-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "hand-care-B011KMZ2WW--amazon_us--2026-02-10-md",
     "title": "O'Keeffe's Working Hands Hand Cream 3oz",
     "category": "hand-care",
