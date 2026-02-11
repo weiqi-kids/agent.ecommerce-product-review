@@ -1,12 +1,16 @@
 * [首頁](/)
 
 * **每日摘要**
+  * [2026-02-12](daily_summary/2026-02-12.md)
   * [2026-02-11](daily_summary/2026-02-11.md)
   * [2026-02-10](daily_summary/2026-02-10.md)
   * [2026-02-09](daily_summary/2026-02-09.md)
   * [2026-02-08](daily_summary/2026-02-08.md)
   * [2026-02-07](daily_summary/2026-02-07.md)
   * [2026-02-05](daily_summary/2026-02-05.md)
+
+* **2026-02-12** (1)
+  * [⚖️ 手部乾裂護理](Narrator/comparisons/hand-care--2026-02-12.md)
 
 * **2026-02-11** (7)
   * [⚠️ bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md)

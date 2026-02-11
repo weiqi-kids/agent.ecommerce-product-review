@@ -26,7 +26,7 @@
   * [髮型造型](Narrator/comparisons/hair-styling--2026-02-05.md)
 
 * **健康保健**
-  * [手部乾裂護理](Narrator/recommendations/hand-care--2026-02-10.md)
+  * [手部乾裂護理](Narrator/comparisons/hand-care--2026-02-12.md)
   * [胃酸逆流](Narrator/recommendations/acid-reflux--2026-02-05.md)
   * [維他命D補充](Narrator/recommendations/vitamin-d-supplement--recommendation--2026-02-06.md)
   * [維他命C補充品](Narrator/pain_points/vitamin-c-supplement--pain-points--2026-02-06.md)

@@ -1,11 +1,29 @@
 {
-  "last_updated": "2026-02-11T12:30:00Z",
-  "last_completed_date": "2026-02-11",
-  "execution_start_date": "2026-02-11",
+  "last_updated": "2026-02-12T12:00:00Z",
+  "last_completed_date": "2026-02-12",
+  "execution_start_date": "2026-02-12",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "next_action": "執行完成，等待下次執行",
   "daily_stats": {
+    "2026-02-12": {
+      "new_products": 1,
+      "updated_extractions": 1,
+      "reports_generated": 1,
+      "watchlist_checked": 8,
+      "watchlist_status_changes": 1,
+      "research_gaps_filled": 0,
+      "discovery_products": 100,
+      "discovery_products_with_asin": 100,
+      "new_categories": 0,
+      "categories_updated": 1,
+      "products_grouped": 1,
+      "skipped_products": 4,
+      "skipped_reason": "同類競品、彩妝、基礎用品、季節性產品",
+      "comparison_reports": 1,
+      "categories_analyzed": 1,
+      "notes": "hand-care 類別：O'Keeffe's Working Hands 2-Pack 萃取完成，比較報告產出。eos Body Lotion 監控等級升級為 high。"
+    },
     "2026-02-06": {
       "new_products": 0,
       "updated_extractions": 3,
@@ -103,129 +121,114 @@
   "steps": {
     "step_1": {
       "status": "completed",
-      "completed_at": "2026-02-11T08:30:00Z",
+      "completed_at": "2026-02-12T08:00:00Z",
       "description": "監控清單追蹤",
-      "products_checked": 9,
-      "changes_detected": 0,
-      "notes": "所有監控產品均在檢查間隔內，無需檢查。Hefty ECOSAVE (B099XCDQDS) 已執行萃取但評論不足"
+      "products_checked": 8,
+      "changes_detected": 1,
+      "notes": "eos Body Lotion 化學異味問題惡化，監控等級從 medium 升級為 high"
     },
     "step_2": {
       "status": "completed",
-      "completed_at": "2026-02-11T08:35:00Z",
+      "completed_at": "2026-02-12T08:05:00Z",
       "description": "研究缺口補齊",
-      "gaps_identified": 20,
+      "gaps_identified": 22,
       "gaps_filled": 0,
-      "notes": "識別到 20 個 [REVIEW_NEEDED] 報告，多數為首批分析的結構性限制"
+      "notes": "識別到 22 個 [REVIEW_NEEDED] 報告，多數為早期分析的結構性限制，今日不強制補齊"
     },
     "step_3": {
       "status": "completed",
-      "completed_at": "2026-02-11T08:45:00Z",
+      "completed_at": "2026-02-12T08:15:00Z",
       "description": "抓取排行榜（增量模式）",
       "mode": "incremental",
       "products_discovered": 100,
-      "new_products": 8,
+      "new_products": 5,
       "dropped_products": 0,
       "categories_scraped": ["beauty", "home-kitchen"],
       "new_products_detail": [
-        "B00365DABC - CeraVe PM (已在 face-moisturizing)",
-        "B07SRRLVQ1 - Aquaphor Lip Repair Stick (新增 lip-care)",
-        "B0DK4Y2YP3 - celimax Retinal (新增 anti-aging-serum)",
-        "B08CRPWQHB - BigFoot Shower Curtain (跳過)",
-        "B0BQR2BQYZ - upsimples 11x14 Picture Frame (跳過)",
-        "B0C4Z6SKCS - Amazon Basics Coffee Filters (跳過)",
-        "B0CYJBB2JQ - bella Toaster (跳過)",
-        "B0DLN1B4MJ - Pink Backdrop (跳過)"
+        "B0148PKYXU - O'Keeffe's Working Hands 2-Pack (處理→hand-care)",
+        "B01MSSDEPK - CeraVe Therapeutic Hand Cream (跳過，同類競品)",
+        "B08SNSSTPZ - L3 Powder (跳過，彩妝)",
+        "B0DDRJ4Y8K - Secret Deodorant (跳過，基礎用品)",
+        "B0DR9MZ563 - STANLEY Tumbler (跳過，季節性)"
       ],
       "output_files": [
-        "docs/Extractor/discovery_cache/beauty-bestsellers-2026-02-11.txt",
-        "docs/Extractor/discovery_cache/home-kitchen-bestsellers-2026-02-11.txt"
+        "docs/Extractor/discovery_cache/beauty-bestsellers-2026-02-12.txt",
+        "docs/Extractor/discovery_cache/home-kitchen-bestsellers-2026-02-12.txt"
       ]
     },
     "step_4": {
       "status": "completed",
-      "completed_at": "2026-02-11T08:50:00Z",
+      "completed_at": "2026-02-12T08:20:00Z",
       "description": "產品分組（按具體問題）",
       "categories_created": 0,
-      "categories_updated": 2,
-      "products_grouped": 2,
+      "categories_updated": 1,
+      "products_grouped": 1,
       "new_categories": [],
-      "existing_categories_updated": ["lip-care", "anti-aging-serum"],
-      "skipped_products": 6,
+      "existing_categories_updated": ["hand-care"],
+      "skipped_products": 4,
       "skipped_products_detail": [
-        "B08CRPWQHB - 浴簾（基礎用品）",
-        "B0C4Z6SKCS - 咖啡濾紙（基礎耗材）",
-        "B0CYJBB2JQ - 烤麵包機（基礎廚房設備）",
-        "B0DLN1B4MJ - 派對背景（裝飾用品）",
-        "B0BQR2BQYZ - 相框（特殊類）",
-        "B00365DABC - CeraVe PM（已在類別中）"
+        "B01MSSDEPK - CeraVe Therapeutic (同類競品)",
+        "B08SNSSTPZ - L3 Powder (彩妝)",
+        "B0DDRJ4Y8K - Secret Deodorant (基礎用品)",
+        "B0DR9MZ563 - STANLEY Tumbler (季節性)"
       ],
       "output_file": "docs/Extractor/problem_groups.md"
     },
     "step_5": {
       "status": "completed",
-      "completed_at": "2026-02-11T08:50:00Z",
+      "completed_at": "2026-02-12T09:30:00Z",
       "description": "問題研究 + 競品發現",
-      "categories_researched": 0,
-      "notes": "使用既有研究（lip-care、anti-aging-serum 研究未過期）"
+      "categories_researched": 1,
+      "websearch_count": 20,
+      "webfetch_count": 30,
+      "competitors_identified": 40,
+      "competitors_with_asin": 25,
+      "output_files": [
+        "docs/Extractor/research/hand-care--2026-02-12.md",
+        "docs/Extractor/competitors/hand-care--2026-02-12.md"
+      ],
+      "notes": "hand-care 類別完整研究，識別 40 個競品，約 25 個有 Amazon ASIN"
     },
     "step_6": {
       "status": "completed",
-      "completed_at": "2026-02-11T12:00:00Z",
+      "completed_at": "2026-02-12T10:30:00Z",
       "description": "抓取評論 + L1-L6 萃取",
-      "products_scraped": 8,
-      "products_extracted": 8,
-      "total_reviews": 351,
+      "products_scraped": 1,
+      "products_extracted": 1,
+      "total_reviews": 100,
       "extraction_files": [
-        "docs/Extractor/amazon_us/anti-aging-serum/B0DK4Y2YP3--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/lip-care/B07SRRLVQ1--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/party-tableware/B099XCDQDS--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/shower-curtain/B08CRPWQHB--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/picture-frame/B0BQR2BQYZ--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/coffee-filter/B0C4Z6SKCS--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/toaster/B0CYJBB2JQ--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/photo-backdrop/B0DLN1B4MJ--amazon_us--2026-02-11.md"
+        "docs/Extractor/amazon_us/hand-care/B0148PKYXU--amazon_us--2026-02-12.md"
       ],
       "key_findings": [
-        "B0DK4Y2YP3 (celimax Retinal): 效果兩極化 68%正面/12%負面，2%過敏風險",
-        "B07SRRLVQ1 (Aquaphor Lip Stick): 88%支持快速修復，持久性不足16%投訴",
-        "B099XCDQDS (Hefty ECOSAVE): [REVIEW_NEEDED] 僅1則評論",
-        "B08CRPWQHB (BigFoot Shower Curtain): 20%發霉報告，防霉聲明被打臉",
-        "B0BQR2BQYZ (upsimples 11x14): 32%損壞到貨，28%材質虛報",
-        "B0C4Z6SKCS (Amazon Basics Coffee Filters): 84%正面，尺寸聲明不準確",
-        "B0CYJBB2JQ (bella Toaster): 🔴 46%一年內故障，嚴重品控問題",
-        "B0DLN1B4MJ (ZATAYE Pink Backdrop): 36%材質撕裂，44%黏膠失效"
+        "B0148PKYXU (O'Keeffe's Working Hands 2-Pack): 94%有效性，0.93情感分，5%擠壓困難，1%過敏反應"
       ]
     },
     "step_7": {
       "status": "completed",
-      "completed_at": "2026-02-11T12:20:00Z",
+      "completed_at": "2026-02-12T11:00:00Z",
       "description": "比較分析",
-      "categories_analyzed": 6,
-      "notes": "第一階段：lip-care、anti-aging-serum。第二階段：shower-curtain（嚴重問題）、toaster（嚴重問題）、picture-frame、coffee-filter、photo-backdrop",
-      "severe_issues_found": [
-        "bella Toaster: 46% 一年內故障率",
-        "BigFoot Shower Curtain: 防霉/重型聲明與評論矛盾"
-      ]
+      "categories_analyzed": 1,
+      "notes": "hand-care 類別比較分析：O'Keeffe's 86.7% 成功率，但有更好選擇（敏感肌→CeraVe，預算→Curél）",
+      "negative_review_classification": {
+        "cannot_solve_problem": "7.3%",
+        "creates_new_problems": "2.0%",
+        "product_unrelated": "4.0%",
+        "successfully_solved": "86.7%"
+      }
     },
     "step_8": {
       "status": "completed",
-      "completed_at": "2026-02-11T12:30:00Z",
+      "completed_at": "2026-02-12T11:30:00Z",
       "description": "條件性產出報告",
       "reports_generated": {
-        "warnings": 2,
-        "comparisons": 3,
-        "recommendations": 1,
-        "pain_points": 1
+        "warnings": 0,
+        "comparisons": 1,
+        "recommendations": 0,
+        "pain_points": 0
       },
-      "notes": "第一階段：anti-aging-serum 比較報告、lip-care 推薦報告。第二階段：bella-toaster 警告、bigfoot-shower-curtain 警告、picture-frame 痛點更新、coffee-filter 比較、photo-backdrop 比較",
+      "notes": "hand-care 比較報告：O'Keeffe's 能解決問題但有更好選擇",
       "output_files": [
-        "docs/Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md",
-        "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md",
-        "docs/Narrator/warnings/bella-toaster--2026-02-11.md",
-        "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md",
-        "docs/Narrator/pain_points/picture-frame--2026-02-11.md",
-        "docs/Narrator/comparisons/coffee-filter--comparison--2026-02-11.md",
-        "docs/Narrator/comparisons/photo-backdrop--2026-02-11.md"
+        "docs/Narrator/comparisons/hand-care--2026-02-12.md"
       ]
     }
   },

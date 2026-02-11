@@ -38,6 +38,7 @@
   * [傷口保護](Narrator/recommendations/wound-protection--2026-02-05.md)
 
 * **⚖️ 比較報告**
+  * [手部乾裂護理](Narrator/comparisons/hand-care--2026-02-12.md)
   * [咖啡濾紙](Narrator/comparisons/coffee-filter--comparison--2026-02-11.md)
   * [攝影背景布](Narrator/comparisons/photo-backdrop--2026-02-11.md)
   * [抗老精華](Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md)

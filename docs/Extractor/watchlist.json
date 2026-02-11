@@ -76,7 +76,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-08",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -113,7 +113,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-08",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -152,7 +152,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-08",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -188,7 +188,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-07",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -219,7 +219,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-07",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -248,7 +248,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-07",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -303,7 +303,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-08",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -336,9 +336,9 @@
       "name": "eos Shea Better Body Lotion Vanilla Cashmere",
       "category": "body-moisturizing",
       "watch_reason": "quality_crisis",
-      "severity": "medium",
+      "severity": "high",
       "added_date": "2026-02-07",
-      "last_checked": "2026-02-07",
+      "last_checked": "2026-02-12",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -348,6 +348,10 @@
         {
           "type": "batch_quality",
           "description": "監控新批次評論是否恢復正常香味"
+        },
+        {
+          "type": "formula_change",
+          "description": "監控配方變更影響"
         }
       ],
       "baseline": {
@@ -356,7 +360,13 @@
         "avg_rating": 4.75,
         "review_count": 61858
       },
-      "discovery_source": "L5 issue detection from 2026-02-07 extraction"
+      "discovery_source": "L5 issue detection from 2026-02-07 extraction",
+      "check_result": {
+        "date": "2026-02-12",
+        "status": "worsening",
+        "notes": "化學味問題持續擴大，配方變更 + 批次不穩定，TikTok 廣泛討論。嚴重度提升至 high。",
+        "action_needed": "考慮更新警告或痛點報告"
+      }
     }
   ],
   "categories": [],
