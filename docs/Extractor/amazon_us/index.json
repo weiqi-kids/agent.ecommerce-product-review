@@ -312,6 +312,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "toaster-B0CYJBB2JQ--amazon_us--2026-02-11-md",
+    "title": "bella 2 Slice Slim Toaster - Amazon US 萃取報告",
+    "category": "toaster",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toaster/B0CYJBB2JQ--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "sports_outdoor-B0GF7QT5YW--amazon_us--2026-02-05-md",
     "title": "Product Analysis: Pedal Resistance Bands with Handles",
     "category": "sports_outdoor",
@@ -468,6 +480,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "shower-curtain-B08CRPWQHB--amazon_us--2026-02-11-md",
+    "title": "BigFoot Clear Shower Curtain Liner - Amazon US 萃取報告",
+    "category": "shower-curtain",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "shower-curtain/B08CRPWQHB--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "pillow-case-B01M0AGUPO--amazon_us--2026-02-08-md",
     "title": "Product Review Analysis: CGK Unlimited King Pillow Cases",
     "category": "pillow-case",
@@ -492,6 +516,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "picture-frame-B0BQR2BQYZ--amazon_us--2026-02-11-md",
+    "title": "upsimples 11x14 Picture Frame, Display Pictures 8x10 with Mat or 11x14 Without Mat, Wall Hanging Photo Frame, Black, 1 Pack",
+    "category": "picture-frame",
+    "product_id": "",
+    "brand": "**Brand**: upsimples",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "picture-frame/B0BQR2BQYZ--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "picture-frame-B0B1CNJL7N--amazon_us--2026-02-08-md",
     "title": "Product Review Analysis: upsimples 8x10 Picture Frame",
     "category": "picture-frame",
@@ -513,6 +549,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "picture-frame/B079LFHT64--amazon_us--2026-02-09.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "photo-backdrop-B0DLN1B4MJ--amazon_us--2026-02-11-md",
+    "title": "Product Review Analysis: ZATAYE Glitter Pink Backdrop",
+    "category": "photo-backdrop",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "photo-backdrop/B0DLN1B4MJ--amazon_us--2026-02-11.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1401,6 +1449,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "electronics/B0916TKFF2--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "coffee-filter-B0C4Z6SKCS--amazon_us--2026-02-11-md",
+    "title": "Amazon Basics Basket Coffee Filters for 8-12 Cup Coffee Makers, White, 200 Count",
+    "category": "coffee-filter",
+    "product_id": "",
+    "brand": "**Brand**: Amazon Basics",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "coffee-filter/B0C4Z6SKCS--amazon_us--2026-02-11.md",
     "source_layer": "amazon_us"
   },
   {
