@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T09:15:00Z",
+  "last_updated": "2026-02-11T12:30:00Z",
   "last_completed_date": "2026-02-11",
   "execution_start_date": "2026-02-11",
   "execution_mode": "daily_incremental",
@@ -77,19 +77,27 @@
     },
     "2026-02-11": {
       "new_products": 8,
-      "updated_extractions": 3,
-      "reports_generated": 2,
+      "updated_extractions": 8,
+      "reports_generated": 7,
       "watchlist_checked": 9,
-      "watchlist_added": 0,
+      "watchlist_added": 2,
       "research_gaps_filled": 0,
       "discovery_products": 100,
       "discovery_products_with_asin": 100,
-      "new_categories": 0,
-      "categories_updated": 2,
-      "products_grouped": 2,
-      "skipped_products": 6,
-      "skipped_reason": "基礎用品（浴簾、咖啡濾紙、烤麵包機、派對背景）、相框、已有產品",
-      "notes": "B0DK4Y2YP3 加入 anti-aging-serum, B07SRRLVQ1 加入 lip-care, B099XCDQDS 只有 1 則評論需標記 [REVIEW_NEEDED]"
+      "new_categories": 4,
+      "categories_updated": 3,
+      "products_grouped": 7,
+      "skipped_products": 1,
+      "skipped_reason": "CeraVe PM 已在 face-moisturizing",
+      "supplemental_processing": {
+        "triggered_by": "用戶要求處理跳過產品",
+        "products_processed": 5,
+        "new_categories_created": ["shower-curtain", "coffee-filter", "toaster", "photo-backdrop"],
+        "warnings_issued": 2,
+        "pain_points_updated": 1,
+        "comparisons_created": 2
+      },
+      "notes": "第一階段處理 3 個產品（lip-care, anti-aging-serum），第二階段處理 5 個原跳過產品（shower-curtain, picture-frame, coffee-filter, toaster, photo-backdrop）"
     }
   },
   "steps": {
@@ -162,43 +170,62 @@
     },
     "step_6": {
       "status": "completed",
-      "completed_at": "2026-02-11T09:05:00Z",
+      "completed_at": "2026-02-11T12:00:00Z",
       "description": "抓取評論 + L1-L6 萃取",
-      "products_scraped": 3,
-      "products_extracted": 3,
-      "total_reviews": 101,
+      "products_scraped": 8,
+      "products_extracted": 8,
+      "total_reviews": 351,
       "extraction_files": [
         "docs/Extractor/amazon_us/anti-aging-serum/B0DK4Y2YP3--amazon_us--2026-02-11.md",
         "docs/Extractor/amazon_us/lip-care/B07SRRLVQ1--amazon_us--2026-02-11.md",
-        "docs/Extractor/amazon_us/party-tableware/B099XCDQDS--amazon_us--2026-02-11.md"
+        "docs/Extractor/amazon_us/party-tableware/B099XCDQDS--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/shower-curtain/B08CRPWQHB--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/picture-frame/B0BQR2BQYZ--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/coffee-filter/B0C4Z6SKCS--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/toaster/B0CYJBB2JQ--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/photo-backdrop/B0DLN1B4MJ--amazon_us--2026-02-11.md"
       ],
       "key_findings": [
         "B0DK4Y2YP3 (celimax Retinal): 效果兩極化 68%正面/12%負面，2%過敏風險",
         "B07SRRLVQ1 (Aquaphor Lip Stick): 88%支持快速修復，持久性不足16%投訴",
-        "B099XCDQDS (Hefty ECOSAVE): [REVIEW_NEEDED] 僅1則評論"
+        "B099XCDQDS (Hefty ECOSAVE): [REVIEW_NEEDED] 僅1則評論",
+        "B08CRPWQHB (BigFoot Shower Curtain): 20%發霉報告，防霉聲明被打臉",
+        "B0BQR2BQYZ (upsimples 11x14): 32%損壞到貨，28%材質虛報",
+        "B0C4Z6SKCS (Amazon Basics Coffee Filters): 84%正面，尺寸聲明不準確",
+        "B0CYJBB2JQ (bella Toaster): 🔴 46%一年內故障，嚴重品控問題",
+        "B0DLN1B4MJ (ZATAYE Pink Backdrop): 36%材質撕裂，44%黏膠失效"
       ]
     },
     "step_7": {
       "status": "completed",
-      "completed_at": "2026-02-11T09:10:00Z",
+      "completed_at": "2026-02-11T12:20:00Z",
       "description": "比較分析",
-      "categories_analyzed": 2,
-      "notes": "新產品歸入既有類別，無重大安全問題，無需產出新報告"
+      "categories_analyzed": 6,
+      "notes": "第一階段：lip-care、anti-aging-serum。第二階段：shower-curtain（嚴重問題）、toaster（嚴重問題）、picture-frame、coffee-filter、photo-backdrop",
+      "severe_issues_found": [
+        "bella Toaster: 46% 一年內故障率",
+        "BigFoot Shower Curtain: 防霉/重型聲明與評論矛盾"
+      ]
     },
     "step_8": {
       "status": "completed",
-      "completed_at": "2026-02-11T09:15:00Z",
+      "completed_at": "2026-02-11T12:30:00Z",
       "description": "條件性產出報告",
       "reports_generated": {
-        "warnings": 0,
-        "comparisons": 1,
+        "warnings": 2,
+        "comparisons": 3,
         "recommendations": 1,
-        "pain_points": 0
+        "pain_points": 1
       },
-      "notes": "更新 anti-aging-serum 比較報告（新增 celimax）、lip-care 推薦報告（新增 Aquaphor Stick）",
+      "notes": "第一階段：anti-aging-serum 比較報告、lip-care 推薦報告。第二階段：bella-toaster 警告、bigfoot-shower-curtain 警告、picture-frame 痛點更新、coffee-filter 比較、photo-backdrop 比較",
       "output_files": [
         "docs/Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md",
-        "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md"
+        "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md",
+        "docs/Narrator/warnings/bella-toaster--2026-02-11.md",
+        "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md",
+        "docs/Narrator/pain_points/picture-frame--2026-02-11.md",
+        "docs/Narrator/comparisons/coffee-filter--comparison--2026-02-11.md",
+        "docs/Narrator/comparisons/photo-backdrop--2026-02-11.md"
       ]
     }
   },

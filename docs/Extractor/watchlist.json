@@ -1,6 +1,74 @@
 {
-  "last_updated": "2026-02-09T12:00:00Z",
+  "last_updated": "2026-02-11T12:30:00Z",
   "products": [
+    {
+      "asin": "B0CYJBB2JQ",
+      "name": "bella 2 Slice Toaster",
+      "category": "toaster",
+      "watch_reason": "quality_crisis",
+      "severity": "critical",
+      "added_date": "2026-02-11",
+      "last_checked": "2026-02-11",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "failure_rate",
+          "description": "監控 46% 一年內故障率是否改善"
+        },
+        {
+          "type": "electrical_issues",
+          "description": "監控電氣問題報告"
+        },
+        {
+          "type": "recall_check",
+          "description": "監控是否有召回行動"
+        }
+      ],
+      "baseline": {
+        "failure_rate": "46%",
+        "electrical_issue_rate": "20%",
+        "avg_rating": 4.55,
+        "review_count": 50
+      },
+      "check_result": {
+        "date": "2026-02-11",
+        "status": "warning_issued",
+        "notes": "已產出警告報告，46% 故障率為極高風險",
+        "report": "docs/Narrator/warnings/bella-toaster--2026-02-11.md"
+      }
+    },
+    {
+      "asin": "B08CRPWQHB",
+      "name": "BigFoot Clear Shower Curtain Liner",
+      "category": "shower-curtain",
+      "watch_reason": "claim_contradiction",
+      "severity": "high",
+      "added_date": "2026-02-11",
+      "last_checked": "2026-02-11",
+      "check_interval_days": 14,
+      "alerts": [
+        {
+          "type": "mildew_issues",
+          "description": "監控發霉問題報告率"
+        },
+        {
+          "type": "claim_accuracy",
+          "description": "監控「防霉」「重型」聲明是否被修改"
+        }
+      ],
+      "baseline": {
+        "mildew_rate": "20%",
+        "thickness_complaint_rate": "16%",
+        "avg_rating": 4.55,
+        "review_count": 67824
+      },
+      "check_result": {
+        "date": "2026-02-11",
+        "status": "warning_issued",
+        "notes": "已產出警告報告，防霉和重型聲明與評論矛盾",
+        "report": "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md"
+      }
+    },
     {
       "asin": "B07V6M4MSN",
       "name": "Amazon Basics Ceramic Space Heater",

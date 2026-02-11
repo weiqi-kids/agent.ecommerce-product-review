@@ -9,6 +9,9 @@
   * [2026-02-05](daily_summary/2026-02-05.md)
 
 * **警告報告**
+  * 2026-02-11
+    * [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md)
+    * [BigFoot 浴簾](Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md)
   * 2026-02-09
     * [垃圾袋品質問題](Narrator/warnings/trash-bags--2026-02-09.md)
   * 2026-02-08
@@ -41,6 +44,8 @@
     * [傷口保護](Narrator/recommendations/wound-protection--2026-02-05.md)
 
 * **痛點報告**
+  * 2026-02-11
+    * [相框品質問題（更新）](Narrator/pain_points/picture-frame--2026-02-11.md)
   * 2026-02-09
     * [相框品質問題](Narrator/pain_points/picture-frame--2026-02-09.md)
     * [紓壓玩具](Narrator/pain_points/squishy-toy--pain-points--2026-02-09.md)
@@ -51,6 +56,8 @@
 * **比較報告**
   * 2026-02-11
     * [抗老精華（更新）](Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md)
+    * [咖啡濾紙](Narrator/comparisons/coffee-filter--comparison--2026-02-11.md)
+    * [攝影背景布](Narrator/comparisons/photo-backdrop--2026-02-11.md)
   * 2026-02-09
     * [洗碗海綿](Narrator/comparisons/dish-sponge--2026-02-09.md)
     * [地板拖把](Narrator/comparisons/floor-mopping--2026-02-09.md)
