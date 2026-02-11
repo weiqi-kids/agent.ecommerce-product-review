@@ -78,7 +78,7 @@
     "2026-02-11": {
       "new_products": 8,
       "updated_extractions": 3,
-      "reports_generated": 0,
+      "reports_generated": 2,
       "watchlist_checked": 9,
       "watchlist_added": 0,
       "research_gaps_filled": 0,
@@ -191,11 +191,15 @@
       "description": "條件性產出報告",
       "reports_generated": {
         "warnings": 0,
-        "comparisons": 0,
-        "recommendations": 0,
+        "comparisons": 1,
+        "recommendations": 1,
         "pain_points": 0
       },
-      "notes": "今日新產品歸入既有類別，萃取結果已儲存，待下次類別更新時納入報告"
+      "notes": "更新 anti-aging-serum 比較報告（新增 celimax）、lip-care 推薦報告（新增 Aquaphor Stick）",
+      "output_files": [
+        "docs/Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md",
+        "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md"
+      ]
     }
   },
   "watchlist_sync": {

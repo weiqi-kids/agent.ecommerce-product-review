@@ -6,7 +6,19 @@
 
 ## 最新報告 (2026-02-11 更新)
 
-> 2026-02-11：2 個新產品歸入現有類別（anti-aging-serum、lip-care），完成 3 個產品萃取，無需產出新報告。
+> 2026-02-11：2 個新產品歸入現有類別，完成 3 個產品萃取，更新 2 份報告（anti-aging-serum 比較、lip-care 推薦）。
+
+### 推薦報告 (2026-02-11)
+
+| 類別 | 推薦產品 | 推薦理由 |
+|------|---------|---------|
+| [護唇產品（更新）](Narrator/recommendations/lip-care--recommendation--2026-02-11.md) | Burt's Bees / Aquaphor | 新增 Aquaphor Stick 分析，88% 快速修復支持 |
+
+### 比較報告 (2026-02-11)
+
+| 類別 | 結論 |
+|------|------|
+| [抗老精華（更新）](Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md) | 新增 celimax Retinal 分析：效果兩極化 68% 正面/12% 無效 |
 
 ### 推薦報告 (2026-02-10)
 

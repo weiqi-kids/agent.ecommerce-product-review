@@ -24,6 +24,8 @@
     * [eos Body Lotion](Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md)
 
 * **推薦報告**
+  * 2026-02-11
+    * [護唇產品（更新）](Narrator/recommendations/lip-care--recommendation--2026-02-11.md)
   * 2026-02-10
     * [手部乾裂護理](Narrator/recommendations/hand-care--2026-02-10.md)
   * 2026-02-06
@@ -47,6 +49,8 @@
     * [維他命C補充品](Narrator/pain_points/vitamin-c-supplement--pain-points--2026-02-06.md)
 
 * **比較報告**
+  * 2026-02-11
+    * [抗老精華（更新）](Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md)
   * 2026-02-09
     * [洗碗海綿](Narrator/comparisons/dish-sponge--2026-02-09.md)
     * [地板拖把](Narrator/comparisons/floor-mopping--2026-02-09.md)
