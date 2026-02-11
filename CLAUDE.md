@@ -1486,6 +1486,41 @@ PLAYWRIGHT_HEADLESS=true
 PLAYWRIGHT_TIMEOUT=30000
 ```
 
+### MCP Server 配置
+
+本系統使用 [Fetcher MCP](https://github.com/jae-jae/fetcher-mcp) 進行網頁抓取，支援 JavaScript 渲染。
+
+**已安裝的 MCP Server**：
+
+| Server | 功能 | 指令 |
+|--------|------|------|
+| `fetcher` | 網頁抓取（Playwright） | `npx -y fetcher-mcp` |
+
+**提供的 MCP 工具**：
+
+| 工具 | 說明 | 用途 |
+|------|------|------|
+| `fetch_url` | 抓取單一 URL，回傳 Markdown | Step 5 WebFetch 替代方案 |
+| `fetch_urls` | 批次抓取多個 URL | 提升抓取效率 |
+
+**管理指令**：
+
+```bash
+# 查看已安裝的 MCP server
+claude mcp list
+
+# 移除 MCP server
+claude mcp remove fetcher
+
+# 重新安裝
+claude mcp add fetcher -- npx -y fetcher-mcp
+```
+
+**優點**（相比 WebFetch）：
+- 不需要每次授權確認
+- 支援 JavaScript 渲染
+- 可批次抓取多個 URL
+
 ---
 
 ## 錯誤經驗記錄（流程相關）
