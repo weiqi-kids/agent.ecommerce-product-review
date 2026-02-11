@@ -24,3 +24,7 @@ Thumbs.db
 # TypeScript build
 dist/
 *.tsbuildinfo
+
+# Scraper cache files
+beauty
+home-kitchen
