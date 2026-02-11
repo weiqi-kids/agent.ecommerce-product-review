@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-10T12:00:00Z",
-  "last_completed_date": "2026-02-10",
-  "execution_start_date": "2026-02-10",
+  "last_updated": "2026-02-11T09:15:00Z",
+  "last_completed_date": "2026-02-11",
+  "execution_start_date": "2026-02-11",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "next_action": "執行完成，等待下次執行",
@@ -74,146 +74,160 @@
       "categories_analyzed": 1,
       "skipped_products": 2,
       "skipped_reason": "基礎用品（寢具、溫度計）"
+    },
+    "2026-02-11": {
+      "new_products": 8,
+      "updated_extractions": 3,
+      "reports_generated": 0,
+      "watchlist_checked": 9,
+      "watchlist_added": 0,
+      "research_gaps_filled": 0,
+      "discovery_products": 100,
+      "discovery_products_with_asin": 100,
+      "new_categories": 0,
+      "categories_updated": 2,
+      "products_grouped": 2,
+      "skipped_products": 6,
+      "skipped_reason": "基礎用品（浴簾、咖啡濾紙、烤麵包機、派對背景）、相框、已有產品",
+      "notes": "B0DK4Y2YP3 加入 anti-aging-serum, B07SRRLVQ1 加入 lip-care, B099XCDQDS 只有 1 則評論需標記 [REVIEW_NEEDED]"
     }
   },
   "steps": {
     "step_1": {
       "status": "completed",
-      "completed_at": "2026-02-10T10:00:00Z",
+      "completed_at": "2026-02-11T08:30:00Z",
       "description": "監控清單追蹤",
       "products_checked": 9,
       "changes_detected": 0,
-      "notes": "所有 9 個監控產品均在檢查間隔內，無需檢查。Hefty ECOSAVE (B099XCDQDS) 為推薦替代品，狀態 pending_analysis"
+      "notes": "所有監控產品均在檢查間隔內，無需檢查。Hefty ECOSAVE (B099XCDQDS) 已執行萃取但評論不足"
     },
     "step_2": {
       "status": "completed",
-      "completed_at": "2026-02-10T10:10:00Z",
+      "completed_at": "2026-02-11T08:35:00Z",
       "description": "研究缺口補齊",
       "gaps_identified": 20,
       "gaps_filled": 0,
-      "notes": "識別到 20 個 [REVIEW_NEEDED] 報告，多數為首批分析的類別（研究資料有限）。picture-frame 已於昨日補齊"
+      "notes": "識別到 20 個 [REVIEW_NEEDED] 報告，多數為首批分析的結構性限制"
     },
     "step_3": {
       "status": "completed",
-      "completed_at": "2026-02-10T10:30:00Z",
+      "completed_at": "2026-02-11T08:45:00Z",
       "description": "抓取排行榜（增量模式）",
       "mode": "incremental",
       "products_discovered": 100,
-      "new_products": 4,
-      "dropped_products": 4,
+      "new_products": 8,
+      "dropped_products": 0,
       "categories_scraped": ["beauty", "home-kitchen"],
       "new_products_detail": [
-        "B00SNPCSUY - CeraVe Skin Renewing Night Cream (Beauty #50)",
-        "B011KMZ2WW - O'Keeffe's Working Hands (Beauty #41)",
-        "B00NESCOY0 - Utopia Bedding Mattress Pad (Home-Kitchen #50)",
-        "B00S93EQUK - Alpha Grillers Meat Thermometer (Home-Kitchen #49)"
+        "B00365DABC - CeraVe PM (已在 face-moisturizing)",
+        "B07SRRLVQ1 - Aquaphor Lip Repair Stick (新增 lip-care)",
+        "B0DK4Y2YP3 - celimax Retinal (新增 anti-aging-serum)",
+        "B08CRPWQHB - BigFoot Shower Curtain (跳過)",
+        "B0BQR2BQYZ - upsimples 11x14 Picture Frame (跳過)",
+        "B0C4Z6SKCS - Amazon Basics Coffee Filters (跳過)",
+        "B0CYJBB2JQ - bella Toaster (跳過)",
+        "B0DLN1B4MJ - Pink Backdrop (跳過)"
       ],
       "output_files": [
-        "docs/Extractor/discovery_cache/2026-02-10.md"
+        "docs/Extractor/discovery_cache/beauty-bestsellers-2026-02-11.txt",
+        "docs/Extractor/discovery_cache/home-kitchen-bestsellers-2026-02-11.txt"
       ]
     },
     "step_4": {
       "status": "completed",
-      "completed_at": "2026-02-10T10:45:00Z",
+      "completed_at": "2026-02-11T08:50:00Z",
       "description": "產品分組（按具體問題）",
-      "categories_created": 1,
-      "categories_updated": 1,
+      "categories_created": 0,
+      "categories_updated": 2,
       "products_grouped": 2,
-      "new_categories": ["hand-care"],
-      "existing_categories_updated": ["face-moisturizing"],
-      "skipped_products": 2,
+      "new_categories": [],
+      "existing_categories_updated": ["lip-care", "anti-aging-serum"],
+      "skipped_products": 6,
       "skipped_products_detail": [
-        "B00NESCOY0 - Utopia Bedding Mattress Pad（基礎寢具用品）",
-        "B00S93EQUK - Alpha Grillers Meat Thermometer（廚房基礎工具）"
+        "B08CRPWQHB - 浴簾（基礎用品）",
+        "B0C4Z6SKCS - 咖啡濾紙（基礎耗材）",
+        "B0CYJBB2JQ - 烤麵包機（基礎廚房設備）",
+        "B0DLN1B4MJ - 派對背景（裝飾用品）",
+        "B0BQR2BQYZ - 相框（特殊類）",
+        "B00365DABC - CeraVe PM（已在類別中）"
       ],
       "output_file": "docs/Extractor/problem_groups.md"
     },
     "step_5": {
       "status": "completed",
-      "completed_at": "2026-02-10T11:15:00Z",
+      "completed_at": "2026-02-11T08:50:00Z",
       "description": "問題研究 + 競品發現",
-      "categories_researched": 1,
-      "total_competitors_found": 12,
-      "competitors_with_asin": 10,
-      "research_files": [
-        "docs/Extractor/research/hand-care--2026-02-10.md"
-      ],
-      "competitor_files": [
-        "docs/Extractor/competitors/hand-care--2026-02-10.md"
-      ],
-      "notes": "hand-care 新類別研究完成，發現 12 個競品（10 個有 ASIN）"
+      "categories_researched": 0,
+      "notes": "使用既有研究（lip-care、anti-aging-serum 研究未過期）"
     },
     "step_6": {
       "status": "completed",
-      "completed_at": "2026-02-10T11:45:00Z",
+      "completed_at": "2026-02-11T09:05:00Z",
       "description": "抓取評論 + L1-L6 萃取",
-      "products_scraped": 1,
-      "products_extracted": 1,
-      "total_reviews": 50,
+      "products_scraped": 3,
+      "products_extracted": 3,
+      "total_reviews": 101,
       "extraction_files": [
-        "docs/Extractor/amazon_us/hand-care/B011KMZ2WW--amazon_us--2026-02-10.md"
+        "docs/Extractor/amazon_us/anti-aging-serum/B0DK4Y2YP3--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/lip-care/B07SRRLVQ1--amazon_us--2026-02-11.md",
+        "docs/Extractor/amazon_us/party-tableware/B099XCDQDS--amazon_us--2026-02-11.md"
       ],
       "key_findings": [
-        "B011KMZ2WW: 88% 保濕效果正面、4% 過敏反應、10% 對部分用戶無效"
-      ],
-      "pending_extraction": [
-        "B00SNPCSUY - CeraVe Skin Renewing Night Cream（已加入 product_urls.txt）"
+        "B0DK4Y2YP3 (celimax Retinal): 效果兩極化 68%正面/12%負面，2%過敏風險",
+        "B07SRRLVQ1 (Aquaphor Lip Stick): 88%支持快速修復，持久性不足16%投訴",
+        "B099XCDQDS (Hefty ECOSAVE): [REVIEW_NEEDED] 僅1則評論"
       ]
     },
     "step_7": {
       "status": "completed",
-      "completed_at": "2026-02-10T11:55:00Z",
+      "completed_at": "2026-02-11T09:10:00Z",
       "description": "比較分析",
-      "categories_analyzed": 1,
-      "comparison_files": [],
-      "report_type_decisions": {
-        "recommendations": ["hand-care"]
-      },
-      "notes": "hand-care 產品表現優異（88% 正面），決定產出推薦報告"
+      "categories_analyzed": 2,
+      "notes": "新產品歸入既有類別，無重大安全問題，無需產出新報告"
     },
     "step_8": {
       "status": "completed",
-      "completed_at": "2026-02-10T12:00:00Z",
+      "completed_at": "2026-02-11T09:15:00Z",
       "description": "條件性產出報告",
       "reports_generated": {
         "warnings": 0,
         "comparisons": 0,
-        "recommendations": 1,
+        "recommendations": 0,
         "pain_points": 0
       },
-      "output_files": {
-        "recommendations": [
-          "docs/Narrator/recommendations/hand-care--2026-02-10.md"
-        ]
-      },
-      "notes": "hand-care 推薦報告完成，O'Keeffe's Working Hands 為最佳平價選擇"
+      "notes": "今日新產品歸入既有類別，萃取結果已儲存，待下次類別更新時納入報告"
     }
   },
   "watchlist_sync": {
-    "last_sync": "2026-02-10T10:00:00Z",
+    "last_sync": "2026-02-11T08:30:00Z",
     "products_monitored": 9,
     "categories_monitored": 0,
     "next_check_due": [],
-    "pending_analysis": ["B099XCDQDS (Hefty ECOSAVE)"]
+    "pending_analysis": []
   },
   "research_gaps": {
     "pending": [],
     "pending_reason": {},
     "in_progress": [],
-    "completed_today": ["hand-care"],
+    "completed_today": [],
     "deferred": []
   },
   "pending_decisions": {
-    "count": 0,
-    "file": "docs/Extractor/pending_decisions.json",
-    "items": [],
-    "notes": "無待決策項目"
+    "count": 1,
+    "items": [
+      {
+        "category": "party-tableware",
+        "product": "B099XCDQDS",
+        "reason": "評論數不足（僅 1 則）",
+        "options": ["等待更多評論", "標記為資料不足", "移除此替代品追蹤"]
+      }
+    ]
   },
   "previous_execution": {
-    "date": "2026-02-09",
+    "date": "2026-02-10",
     "step_completed": 8,
     "new_products": 4,
-    "reports_generated": 2
+    "reports_generated": 1
   },
   "important_rules": {
     "websearch_webfetch": "WebFetch 的 URL 必須來自 WebSearch 結果，禁止猜測 URL",

@@ -1,9 +1,9 @@
 # 產品問題分組
 
-最後更新：2026-02-10
+最後更新：2026-02-11
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：148
+產品總數：150
 問題類別數：47
 分組原則：按具體問題分組（v2 - 問題導向）
 
@@ -144,6 +144,7 @@
 | B0G1H24GPP | e.l.f. Halo Glow Silky Powder Highlighter | 光澤打亮 |
 | B0G1H283LW | e.l.f. Soft Glam Brightening Corrector | 亮白遮瑕 |
 | B0DBRVHR38 | RoC Derm Correxion Retinol Firming Serum Stick | 視黃醇精華棒 |
+| B0DK4Y2YP3 | celimax The Vita A Retinal Shot Tightening Booster | A醇精華（韓系） |
 
 **研究文件**：`research/anti-aging-serum--2026-02-06.md`
 **競品文件**：`competitors/anti-aging-serum--2026-02-06.md`
@@ -168,6 +169,7 @@
 | B0054LHI5A | Burt's Bees Lip Balm Original Beeswax | 蜂蠟護唇膏 |
 | B0C42HJRBF | Summer Fridays Tinted Lip Butter Balm | 潤色護唇 |
 | B0G1H1NQY8 | e.l.f. Glow Reviver Slipstick | 潤色護唇油 |
+| B07SRRLVQ1 | Aquaphor Lip Repair Stick | 修復護唇膏 |
 
 **研究文件**：`research/lip-care--2026-02-06.md`
 **競品文件**：`competitors/lip-care--2026-02-06.md`
