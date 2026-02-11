@@ -20,6 +20,22 @@ Narrator 負責**問題導向的綜合分析**，回答「這個問題怎麼解�
 
 > 舊 Mode（aspect_scorecard、pros_cons_digest、issue_radar、claim_verification、usecase_fit）已整合至 `problem_solver`。
 
+## 報告產出時機
+
+報告必須產出或更新當：
+1. Step 6 完成該類別的任何產品萃取
+2. 監控產品偵測到重大變化
+3. 研究報告過期（>30天）並已重新研究
+
+> ⚠️ **有萃取就有報告**：只要 Step 6 有新萃取，Step 7-8 必須執行，不可跳過。
+
+**報告版本管理**：
+
+| 情況 | 處理 |
+|------|------|
+| 新類別 | 產出新報告 `{類別}--{date}.md` |
+| 已有類別 + 新萃取 | 更新報告（覆寫同名檔案，更新日期） |
+
 ## 跨平台資料取得
 
 Mode 執行時透過 Qdrant scroll 查詢取得跨平台資料：
