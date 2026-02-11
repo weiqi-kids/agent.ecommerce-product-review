@@ -516,6 +516,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "party-tableware-B099XCDQDS--amazon_us--2026-02-11-md",
+    "title": "Hefty EcoSave Disposable Plates",
+    "category": "party-tableware",
+    "product_id": "",
+    "brand": "**Brand**: Hefty",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 1",
+    "file": "party-tableware/B099XCDQDS--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "party-tableware-B00OCGUG02--amazon_us--2026-02-08-md",
     "title": "Product Extraction Report",
     "category": "party-tableware",
@@ -681,6 +693,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "nail-glue/B01I70RA8E--amazon_us--2026-02-09.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "lip-care-B07SRRLVQ1--amazon_us--2026-02-11-md",
+    "title": "Aquaphor Lip Repair Stick — 萃取報告",
+    "category": "lip-care",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "lip-care/B07SRRLVQ1--amazon_us--2026-02-11.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1845,6 +1869,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "baby/B0010SGZEG--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "anti-aging-serum-B0DK4Y2YP3--amazon_us--2026-02-11-md",
+    "title": "celimax The Vita A Retinal Shot Tightening Booster",
+    "category": "anti-aging-serum",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "**Reviews Analyzed**: 50",
+    "file": "anti-aging-serum/B0DK4Y2YP3--amazon_us--2026-02-11.md",
     "source_layer": "amazon_us"
   }
 ]
