@@ -1,5 +1,13 @@
 * [首頁](/)
 
+* **每日摘要**
+  * [2026-02-11](daily_summary/2026-02-11.md)
+  * [2026-02-10](daily_summary/2026-02-10.md)
+  * [2026-02-09](daily_summary/2026-02-09.md)
+  * [2026-02-08](daily_summary/2026-02-08.md)
+  * [2026-02-07](daily_summary/2026-02-07.md)
+  * [2026-02-05](daily_summary/2026-02-05.md)
+
 * **⚠️ 問題產品**
   * [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md)
   * [BigFoot 浴簾](Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md)
@@ -21,7 +29,7 @@
   * [身體保濕](Narrator/comparisons/body-moisturizing--comparison--2026-02-07.md)
   * [身體緊實](Narrator/comparisons/body-firming--2026-02-08.md)
   * [痘痘治療](Narrator/comparisons/acne-treatment--2026-02-07.md)
-  * [防曬](Narrator/recommendations/sun-protection--2026-02-05.md)
+  * [防曬](Narrator/comparisons/sun-protection--comparison--2026-02-06.md)
   * [美甲膠](Narrator/comparisons/nail-glue--2026-02-08.md)
   * [髮型造型](Narrator/comparisons/hair-styling--2026-02-05.md)
 
@@ -30,8 +38,9 @@
   * [胃酸逆流](Narrator/recommendations/acid-reflux--2026-02-05.md)
   * [維他命D補充](Narrator/recommendations/vitamin-d-supplement--recommendation--2026-02-06.md)
   * [維他命C補充品](Narrator/pain_points/vitamin-c-supplement--pain-points--2026-02-06.md)
-  * [牙齒美白](Narrator/recommendations/teeth-whitening--2026-02-05.md)
+  * [牙齒美白](Narrator/comparisons/teeth-whitening--comparison--2026-02-06.md)
   * [傷口保護](Narrator/recommendations/wound-protection--2026-02-05.md)
+  * [傷口繃帶](Narrator/comparisons/wound-bandage--comparison--2026-02-06.md)
   * [感冒防護](Narrator/comparisons/cold-protection--2026-02-05.md)
   * [免疫支援](Narrator/comparisons/immune-support--2026-02-05.md)
   * [個人安全](Narrator/recommendations/personal-safety--2026-02-05.md)
@@ -46,6 +55,7 @@
 
 * **居家用品**
   * [相框品質](Narrator/pain_points/picture-frame--2026-02-11.md)
+  * [相框比較](Narrator/comparisons/picture-frame--2026-02-09.md)
   * [攝影背景布](Narrator/comparisons/photo-backdrop--2026-02-11.md)
   * [枕頭套](Narrator/comparisons/pillow-case--2026-02-08.md)
   * [居家收納](Narrator/comparisons/home-storage--2026-02-05.md)
