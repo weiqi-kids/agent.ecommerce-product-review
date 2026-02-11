@@ -26,24 +26,79 @@
     }
     .warning-critical { color: #d32f2f; font-weight: bold; }
     .warning-high { color: #f57c00; font-weight: bold; }
-    /* 侧边栏折叠样式 */
-    .sidebar-nav li.collapse > ul {
-      display: none;
+
+    /* 侧边栏视图切换按钮 */
+    .sidebar-view-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+      background: #f8f8f8;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
-    .sidebar-nav li.open > ul {
+    .sidebar-view-toggle button {
+      border: none;
+      background: transparent;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: all 0.2s;
+      opacity: 0.5;
+    }
+    .sidebar-view-toggle button:hover {
+      background: #e8e8e8;
+      opacity: 0.8;
+    }
+    .sidebar-view-toggle button.active {
+      background: var(--theme-color);
+      opacity: 1;
+    }
+    .sidebar-view-toggle button[title]::after {
+      content: attr(title);
+      font-size: 10px;
       display: block;
+      margin-top: 2px;
     }
   </style>
 </head>
 <body>
   <div id="app">Loading...</div>
   <script>
+    // 侧边栏视图配置
+    const SIDEBAR_VIEWS = {
+      timeline: { file: '_sidebar.md', icon: '📅', label: '時間' },
+      category: { file: '_sidebar-category.md', icon: '📁', label: '類別' },
+      type: { file: '_sidebar-type.md', icon: '📋', label: '類型' }
+    };
+
+    // 获取用户偏好或默认值
+    function getSidebarView() {
+      return localStorage.getItem('sidebarView') || 'timeline';
+    }
+
+    // 保存用户偏好
+    function setSidebarView(view) {
+      localStorage.setItem('sidebarView', view);
+    }
+
+    // 获取当前侧边栏文件
+    function getSidebarFile() {
+      const view = getSidebarView();
+      return SIDEBAR_VIEWS[view]?.file || '_sidebar.md';
+    }
+
     window.$docsify = {
       name: '電商評論分析',
       repo: 'weiqi-kids/agent.ecommerce-product-review',
-      loadSidebar: '_sidebar.md',
+      loadSidebar: getSidebarFile(),
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/' + getSidebarFile(),
+        '/.*/_sidebar-category.md': '/_sidebar-category.md',
+        '/.*/_sidebar-type.md': '/_sidebar-type.md'
       },
       subMaxLevel: 3,
       sidebarDisplayLevel: 1,
@@ -58,7 +113,46 @@
       },
       auto2top: true,
       coverpage: false,
-      notFoundPage: true
+      notFoundPage: true,
+      plugins: [
+        function(hook, vm) {
+          // 在侧边栏渲染后注入切换按钮
+          hook.doneEach(function() {
+            // 检查是否已存在切换按钮
+            if (document.querySelector('.sidebar-view-toggle')) return;
+
+            const sidebar = document.querySelector('.sidebar');
+            if (!sidebar) return;
+
+            // 创建切换按钮容器
+            const toggleContainer = document.createElement('div');
+            toggleContainer.className = 'sidebar-view-toggle';
+
+            const currentView = getSidebarView();
+
+            // 创建按钮
+            Object.entries(SIDEBAR_VIEWS).forEach(([key, config]) => {
+              const btn = document.createElement('button');
+              btn.innerHTML = config.icon;
+              btn.title = config.label;
+              btn.dataset.view = key;
+              if (key === currentView) btn.classList.add('active');
+
+              btn.addEventListener('click', function() {
+                const newView = this.dataset.view;
+                setSidebarView(newView);
+                // 重新加载页面以应用新的侧边栏
+                window.location.reload();
+              });
+
+              toggleContainer.appendChild(btn);
+            });
+
+            // 插入到侧边栏开头
+            sidebar.insertBefore(toggleContainer, sidebar.firstChild);
+          });
+        }
+      ]
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
