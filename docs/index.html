@@ -7,6 +7,7 @@
   <meta name="description" content="Product Review Intelligence Reports">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <style>
     :root {
       --theme-color: #3884ff;
@@ -25,6 +26,13 @@
     }
     .warning-critical { color: #d32f2f; font-weight: bold; }
     .warning-high { color: #f57c00; font-weight: bold; }
+    /* 侧边栏折叠样式 */
+    .sidebar-nav li.collapse > ul {
+      display: none;
+    }
+    .sidebar-nav li.open > ul {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -38,6 +46,7 @@
         '/.*/_sidebar.md': '/_sidebar.md'
       },
       subMaxLevel: 3,
+      sidebarDisplayLevel: 1,
       search: {
         placeholder: '搜尋...',
         noData: '找不到結果',
@@ -57,5 +66,6 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
