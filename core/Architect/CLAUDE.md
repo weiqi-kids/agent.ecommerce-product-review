@@ -104,3 +104,167 @@ Architect 需要人工確認：
 3. 加入 `watchlist.json` 的 `deferred_categories`
 4. 每週一自動重試
 5. 在每日摘要中顯示暫緩清單
+
+---
+
+## 狀態追蹤機制
+
+執行流程支援中斷恢復。每個 Step/子任務完成後更新狀態文件。
+
+### 狀態文件
+
+`docs/Extractor/execution_state.json`
+
+```json
+{
+  "last_updated": "ISO timestamp",
+  "last_completed_date": "YYYY-MM-DD",
+  "execution_mode": "daily_incremental | full | recovery",
+  "current_step": 1-8,
+  "daily_stats": { "YYYY-MM-DD": { ... } },
+  "steps": { "step_1": { "status": "completed", ... }, ... },
+  "watchlist_sync": { ... },
+  "research_gaps": { ... }
+}
+```
+
+### 恢復邏輯
+
+```
+「執行完整流程」
+    ↓
+檢查 execution_state.json
+    ├── 不存在 → 從頭開始
+    └── 存在 → 讀取狀態，從中斷點繼續
+```
+
+### 狀態更新時機
+
+| 事件 | 更新內容 |
+|------|---------|
+| Step 完成 | `status: completed`, `completed_at` |
+| 類別研究完成 | `completed_categories` 新增 |
+| JSONL 萃取完成 | `completed_jsonl` 新增 |
+
+### JSON 文件初始化
+
+| 文件 | 初始化時機 |
+|------|-----------|
+| `execution_state.json` | 首次執行 |
+| `watchlist.json` | 首次產出警告報告 |
+| `pending_decisions.json` | 首次 `[REVIEW_NEEDED]` |
+| `decision_log.json` | 首次記錄決策 |
+| `error_log.json` | 首次發生錯誤 |
+
+---
+
+## 每日執行模式
+
+### 執行模式判斷
+
+```
+讀取 execution_state.json
+    ├── last_completed_date = 今日 → 增量模式
+    ├── last_completed_date = 昨日 → 標準每日更新
+    └── last_completed_date > 1 天前 → 完整重跑
+```
+
+### 跨日執行處理
+
+| 時間點 | 判定規則 |
+|--------|---------|
+| 執行開始時間 | 作為「執行日期」基準 |
+| 跨日後完成 | 使用開始日期 |
+| 報告/萃取日期 | 使用執行開始日期 |
+
+### 資料新鮮度
+
+| 資料類型 | 有效期 | 過期處理 |
+|---------|--------|---------|
+| 排行榜快取 | 24 小時 | 重新抓取 |
+| 研究報告 | 30 天 | 標記過期 |
+| 評論萃取 | 7 天 | 可重新抓取 |
+| 最終報告 | 不過期 | 累積歷史版本 |
+
+### JSONL 清理
+
+| 條件 | 處理 |
+|------|------|
+| 已成功萃取 | 保留 7 天後刪除 |
+| 萃取失敗 | 保留 30 天 |
+| 監控產品 | 保留 14 天 |
+| 磁碟空間 < 1GB | 緊急清理 > 3 天 |
+
+### 每日 Checklist
+
+| 檢查項目 | 失敗處理 |
+|---------|---------|
+| Amazon Session | 提示重新登入 |
+| Qdrant 連線 | 使用本地退化 |
+| 磁碟空間 > 1GB | 清理 raw/ |
+
+---
+
+## 每日執行注意事項
+
+### 潛在問題
+
+| 問題 | 症狀 | 解決方案 |
+|------|------|---------|
+| Session 過期 | 抓取返回 0 則 | `npx tsx src/amazon/scraper.ts --login` |
+| Rate Limit | WebSearch 失敗 | 減少平行數 |
+| 監控產品下架 | ASIN 返回 404 | 執行下架處理 |
+| 磁碟空間不足 | 寫入失敗 | 清理 raw/ |
+
+### 下架偵測
+
+| 偵測方式 | 判定 |
+|---------|------|
+| HTTP 404 | 確定下架 |
+| 「目前無法購買」 | 連續 3 天則判定下架 |
+| 評論頁無評論 | Session 問題，非下架 |
+
+### 下架處理
+
+1. 記錄到 `error_log.json`
+2. 更新 `watchlist.json`（status: delisted）
+3. 報告加上「產品已下架」標記
+4. 在每日摘要中列出
+
+### 長期維護
+
+| 頻率 | 任務 |
+|------|------|
+| 每週 | 檢查監控清單，移除已解決問題 |
+| 每月 | 清理 > 30 天 JSONL |
+| 每月 | 審核 `[REVIEW_NEEDED]` 報告 |
+| 每季 | 審核問題類別分組 |
+
+### 效能最佳化
+
+| 項目 | 狀態 |
+|------|------|
+| Discovery JSONL（含產品名稱） | ✅ 已實作 |
+| WebFetch 快取（15 分鐘） | ✅ 內建 |
+| JSONL 快取（同日跳過） | ✅ 已實作 |
+| 增量萃取 | ⏳ 待實作 |
+
+### 錯誤恢復
+
+```
+執行中發生錯誤
+    ↓
+自動儲存到 execution_state.json
+    ↓
+記錄到 error_log.json
+    ↓
+下次執行時顯示錯誤摘要
+```
+
+### 資料一致性檢查
+
+| 檢查項目 | 失敗處理 |
+|---------|---------|
+| 每個類別有 research.md | 標記補齊 |
+| 每個產品有萃取結果 | 重新抓取 |
+| 每個類別有最終報告 | 重新產出 |
