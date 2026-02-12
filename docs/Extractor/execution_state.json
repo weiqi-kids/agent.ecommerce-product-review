@@ -1,11 +1,25 @@
 {
-  "last_updated": "2026-02-12T12:00:00Z",
-  "last_completed_date": "2026-02-12",
-  "execution_start_date": "2026-02-12",
+  "last_updated": "2026-02-13T12:00:00Z",
+  "last_completed_date": "2026-02-13",
+  "execution_start_date": "2026-02-13",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "next_action": "執行完成，等待下次執行",
   "daily_stats": {
+    "2026-02-13": {
+      "new_products": 0,
+      "updated_extractions": 0,
+      "reports_generated": 0,
+      "watchlist_checked": 11,
+      "watchlist_status_changes": 0,
+      "research_gaps_filled": 0,
+      "discovery_products": 0,
+      "new_categories": 0,
+      "categories_updated": 0,
+      "products_grouped": 0,
+      "skipped_products": 0,
+      "notes": "排行榜穩定，無新產品進入。監控清單 11 項均未到期，eos Body Lotion 維持 worsening 狀態待 2026-02-19 檢查。22 個 [REVIEW_NEEDED] 報告為早期結構性限制，今日不補齊。"
+    },
     "2026-02-12": {
       "new_products": 1,
       "updated_extractions": 1,
@@ -121,122 +135,76 @@
   "steps": {
     "step_1": {
       "status": "completed",
-      "completed_at": "2026-02-12T08:00:00Z",
+      "completed_at": "2026-02-13T08:00:00Z",
       "description": "監控清單追蹤",
-      "products_checked": 8,
-      "changes_detected": 1,
-      "notes": "eos Body Lotion 化學異味問題惡化，監控等級從 medium 升級為 high"
+      "products_checked": 11,
+      "changes_detected": 0,
+      "notes": "所有監控產品均未到期。eos Body Lotion (worsening) 下次檢查 2026-02-19。"
     },
     "step_2": {
       "status": "completed",
-      "completed_at": "2026-02-12T08:05:00Z",
+      "completed_at": "2026-02-13T08:05:00Z",
       "description": "研究缺口補齊",
       "gaps_identified": 22,
       "gaps_filled": 0,
-      "notes": "識別到 22 個 [REVIEW_NEEDED] 報告，多數為早期分析的結構性限制，今日不強制補齊"
+      "notes": "22 個 [REVIEW_NEEDED] 報告為早期結構性限制，今日不補齊"
     },
     "step_3": {
       "status": "completed",
-      "completed_at": "2026-02-12T08:15:00Z",
+      "completed_at": "2026-02-13T08:15:00Z",
       "description": "抓取排行榜（增量模式）",
       "mode": "incremental",
-      "products_discovered": 100,
-      "new_products": 5,
+      "products_discovered": 0,
+      "new_products": 0,
       "dropped_products": 0,
-      "categories_scraped": ["beauty", "home-kitchen"],
-      "new_products_detail": [
-        "B0148PKYXU - O'Keeffe's Working Hands 2-Pack (處理→hand-care)",
-        "B01MSSDEPK - CeraVe Therapeutic Hand Cream (跳過，同類競品)",
-        "B08SNSSTPZ - L3 Powder (跳過，彩妝)",
-        "B0DDRJ4Y8K - Secret Deodorant (跳過，基礎用品)",
-        "B0DR9MZ563 - STANLEY Tumbler (跳過，季節性)"
-      ],
-      "output_files": [
-        "docs/Extractor/discovery_cache/beauty-bestsellers-2026-02-12.txt",
-        "docs/Extractor/discovery_cache/home-kitchen-bestsellers-2026-02-12.txt"
-      ]
+      "notes": "排行榜穩定，無新產品進入。使用昨日快取比對，Beauty 熱銷維持 BIODANCE、eos、Mighty Patch 等。"
     },
     "step_4": {
-      "status": "completed",
-      "completed_at": "2026-02-12T08:20:00Z",
+      "status": "skipped",
+      "completed_at": "2026-02-13T08:16:00Z",
       "description": "產品分組（按具體問題）",
-      "categories_created": 0,
-      "categories_updated": 1,
-      "products_grouped": 1,
-      "new_categories": [],
-      "existing_categories_updated": ["hand-care"],
-      "skipped_products": 4,
-      "skipped_products_detail": [
-        "B01MSSDEPK - CeraVe Therapeutic (同類競品)",
-        "B08SNSSTPZ - L3 Powder (彩妝)",
-        "B0DDRJ4Y8K - Secret Deodorant (基礎用品)",
-        "B0DR9MZ563 - STANLEY Tumbler (季節性)"
-      ],
-      "output_file": "docs/Extractor/problem_groups.md"
+      "reason": "無新產品需分組"
     },
     "step_5": {
-      "status": "completed",
-      "completed_at": "2026-02-12T09:30:00Z",
+      "status": "skipped",
+      "completed_at": "2026-02-13T08:16:00Z",
       "description": "問題研究 + 競品發現",
-      "categories_researched": 1,
-      "websearch_count": 20,
-      "webfetch_count": 30,
-      "competitors_identified": 40,
-      "competitors_with_asin": 25,
-      "output_files": [
-        "docs/Extractor/research/hand-care--2026-02-12.md",
-        "docs/Extractor/competitors/hand-care--2026-02-12.md"
-      ],
-      "notes": "hand-care 類別完整研究，識別 40 個競品，約 25 個有 Amazon ASIN"
+      "reason": "無新產品需研究"
     },
     "step_6": {
-      "status": "completed",
-      "completed_at": "2026-02-12T10:30:00Z",
+      "status": "skipped",
+      "completed_at": "2026-02-13T08:16:00Z",
       "description": "抓取評論 + L1-L6 萃取",
-      "products_scraped": 1,
-      "products_extracted": 1,
-      "total_reviews": 100,
-      "extraction_files": [
-        "docs/Extractor/amazon_us/hand-care/B0148PKYXU--amazon_us--2026-02-12.md"
-      ],
-      "key_findings": [
-        "B0148PKYXU (O'Keeffe's Working Hands 2-Pack): 94%有效性，0.93情感分，5%擠壓困難，1%過敏反應"
-      ]
+      "reason": "無新產品需萃取"
     },
     "step_7": {
-      "status": "completed",
-      "completed_at": "2026-02-12T11:00:00Z",
+      "status": "skipped",
+      "completed_at": "2026-02-13T08:16:00Z",
       "description": "比較分析",
-      "categories_analyzed": 1,
-      "notes": "hand-care 類別比較分析：O'Keeffe's 86.7% 成功率，但有更好選擇（敏感肌→CeraVe，預算→Curél）",
-      "negative_review_classification": {
-        "cannot_solve_problem": "7.3%",
-        "creates_new_problems": "2.0%",
-        "product_unrelated": "4.0%",
-        "successfully_solved": "86.7%"
-      }
+      "reason": "無新萃取需分析"
     },
     "step_8": {
-      "status": "completed",
-      "completed_at": "2026-02-12T11:30:00Z",
+      "status": "skipped",
+      "completed_at": "2026-02-13T08:16:00Z",
       "description": "條件性產出報告",
       "reports_generated": {
         "warnings": 0,
-        "comparisons": 1,
+        "comparisons": 0,
         "recommendations": 0,
         "pain_points": 0
       },
-      "notes": "hand-care 比較報告：O'Keeffe's 能解決問題但有更好選擇",
-      "output_files": [
-        "docs/Narrator/comparisons/hand-care--2026-02-12.md"
-      ]
+      "reason": "無新分析需報告"
     }
   },
   "watchlist_sync": {
-    "last_sync": "2026-02-11T08:30:00Z",
-    "products_monitored": 9,
+    "last_sync": "2026-02-13T08:00:00Z",
+    "products_monitored": 11,
     "categories_monitored": 0,
-    "next_check_due": [],
+    "next_check_due": [
+      {"asin": "B0CYJBB2JQ", "date": "2026-02-18", "product": "bella Toaster"},
+      {"asin": "B07V6M4MSN", "date": "2026-02-19", "product": "Amazon Basics Space Heater"},
+      {"asin": "B08KT2Z93D", "date": "2026-02-19", "product": "eos Body Lotion", "note": "worsening"}
+    ],
     "pending_analysis": []
   },
   "research_gaps": {
