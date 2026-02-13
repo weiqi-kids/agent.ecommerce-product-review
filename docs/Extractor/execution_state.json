@@ -11,8 +11,8 @@
     "step_5": { "status": "completed", "note": "Research done in previous session" },
     "step_6": {
       "status": "partial",
-      "note": "20 products extracted (skipped 13 pending), 45 extraction files total today",
-      "pending_asins": ["B019NZC39U", "B08H3JPH74", "B099XCDQDS", "B0B1CNJL7N", "B0B854YTCF", "B0BQR2BQYZ", "B0BRMYHMS5", "B0C4Z6SKCS", "B0CYJBB2JQ", "B0D8W1YVBX", "B0DK4Y2YP3", "B0DLN1B4MJ", "B0FB9LWGY5"],
+      "note": "20 products extracted, 4 truly pending (others already have prior extractions)",
+      "pending_asins": ["B019NZC39U", "B08H3JPH74", "B0BRMYHMS5", "B0D8W1YVBX"],
       "extracted_products": 20,
       "review_needed": ["B0B6R8N6WQ", "B00SNPCSUY", "B00OCGUG02", "B07V6M4MSN"]
     },
@@ -26,7 +26,7 @@
   "summary": {
     "extractions_today": 20,
     "warnings_issued": 1,
-    "pending_refetch": 13,
+    "pending_refetch": 4,
     "review_needed_products": 4
   }
 }
