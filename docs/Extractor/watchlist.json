@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T12:30:00Z",
+  "last_updated": "2026-02-13T14:00:00Z",
   "products": [
     {
       "asin": "B0CYJBB2JQ",
@@ -100,10 +100,10 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-08",
-        "status": "warning_issued",
-        "notes": "已產出警告報告，10% 火災事件率為極高風險",
-        "report": "docs/Narrator/warnings/amazon-basics-space-heater--2026-02-08.md"
+        "date": "2026-02-13",
+        "status": "warning_updated",
+        "notes": "更新警告報告，16% 火災風險率、42% 早期故障率。新數據確認問題持續存在。",
+        "report": "docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"
       }
     },
     {

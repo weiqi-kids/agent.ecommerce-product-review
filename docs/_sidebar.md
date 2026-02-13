@@ -10,7 +10,8 @@
   * [2026-02-07](daily_summary/2026-02-07.md)
   * [2026-02-05](daily_summary/2026-02-05.md)
 
-* **2026-02-13** (7)
+* **2026-02-13** (8)
+  * [⚠️ Amazon Basics 暖風機火災風險](Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md)
   * [⚠️ Sony WH-1000XM5 轉軸斷裂](Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13.md)
   * [⚠️ DUMOS 抽屜櫃品質](Narrator/warnings/dumos-dresser-quality--2026-02-13.md)
   * [⚠️ If You Care 烘焙紙火災風險](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md)

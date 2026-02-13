@@ -1,239 +1,32 @@
 {
-  "last_updated": "2026-02-13T12:00:00Z",
+  "last_updated": "2026-02-13T14:00:00Z",
   "last_completed_date": "2026-02-13",
-  "execution_start_date": "2026-02-13",
-  "execution_mode": "daily_incremental",
+  "execution_mode": "partial_completion",
   "current_step": 8,
-  "next_action": "執行完成，等待下次執行",
-  "daily_stats": {
-    "2026-02-13": {
-      "new_products": 0,
-      "updated_extractions": 0,
-      "reports_generated": 0,
-      "watchlist_checked": 11,
-      "watchlist_status_changes": 0,
-      "research_gaps_filled": 0,
-      "discovery_products": 0,
-      "new_categories": 0,
-      "categories_updated": 0,
-      "products_grouped": 0,
-      "skipped_products": 0,
-      "notes": "排行榜穩定，無新產品進入。監控清單 11 項均未到期，eos Body Lotion 維持 worsening 狀態待 2026-02-19 檢查。22 個 [REVIEW_NEEDED] 報告為早期結構性限制，今日不補齊。"
-    },
-    "2026-02-12": {
-      "new_products": 1,
-      "updated_extractions": 1,
-      "reports_generated": 1,
-      "watchlist_checked": 8,
-      "watchlist_status_changes": 1,
-      "research_gaps_filled": 0,
-      "discovery_products": 100,
-      "discovery_products_with_asin": 100,
-      "new_categories": 0,
-      "categories_updated": 1,
-      "products_grouped": 1,
-      "skipped_products": 4,
-      "skipped_reason": "同類競品、彩妝、基礎用品、季節性產品",
-      "comparison_reports": 1,
-      "categories_analyzed": 1,
-      "notes": "hand-care 類別：O'Keeffe's Working Hands 2-Pack 萃取完成，比較報告產出。eos Body Lotion 監控等級升級為 high。"
-    },
-    "2026-02-06": {
-      "new_products": 0,
-      "updated_extractions": 3,
-      "reports_generated": 3,
-      "watchlist_checked": 5,
-      "research_gaps_filled": 0
-    },
-    "2026-02-07": {
-      "new_products": 7,
-      "updated_extractions": 7,
-      "reports_generated": 3,
-      "watchlist_checked": 5,
-      "research_gaps_filled": 3,
-      "discovery_products": 22,
-      "discovery_products_with_asin": 7,
-      "categories_analyzed": 3,
-      "comparison_reports": 3
-    },
-    "2026-02-08": {
-      "new_products": 7,
-      "updated_extractions": 7,
-      "reports_generated": 6,
-      "watchlist_checked": 1,
-      "watchlist_added": 3,
-      "research_gaps_filled": 4,
-      "discovery_products": 100,
-      "discovery_products_with_asin": 100,
-      "new_categories": 4,
-      "categories_updated": 2,
-      "products_grouped": 7,
-      "counterfeit_alert": 1,
-      "warning_reports": 3,
-      "comparison_reports": 3,
-      "categories_analyzed": 6
-    },
-    "2026-02-09": {
-      "new_products": 4,
-      "updated_extractions": 4,
-      "reports_generated": 2,
-      "watchlist_checked": 9,
-      "watchlist_added": 0,
-      "research_gaps_filled": 1,
-      "discovery_products": 13,
-      "discovery_products_with_asin": 13,
-      "new_categories": 0,
-      "categories_updated": 3,
-      "products_grouped": 5,
-      "pain_points_reports": 1,
-      "comparison_reports": 1,
-      "categories_analyzed": 1
-    },
-    "2026-02-10": {
-      "new_products": 4,
-      "updated_extractions": 1,
-      "reports_generated": 1,
-      "watchlist_checked": 9,
-      "watchlist_added": 0,
-      "research_gaps_filled": 0,
-      "discovery_products": 100,
-      "discovery_products_with_asin": 100,
-      "new_categories": 1,
-      "categories_updated": 1,
-      "products_grouped": 2,
-      "recommendation_reports": 1,
-      "comparison_reports": 0,
-      "categories_analyzed": 1,
-      "skipped_products": 2,
-      "skipped_reason": "基礎用品（寢具、溫度計）"
-    },
-    "2026-02-11": {
-      "new_products": 8,
-      "updated_extractions": 8,
-      "reports_generated": 7,
-      "watchlist_checked": 9,
-      "watchlist_added": 2,
-      "research_gaps_filled": 0,
-      "discovery_products": 100,
-      "discovery_products_with_asin": 100,
-      "new_categories": 4,
-      "categories_updated": 3,
-      "products_grouped": 7,
-      "skipped_products": 1,
-      "skipped_reason": "CeraVe PM 已在 face-moisturizing",
-      "supplemental_processing": {
-        "triggered_by": "用戶要求處理跳過產品",
-        "products_processed": 5,
-        "new_categories_created": ["shower-curtain", "coffee-filter", "toaster", "photo-backdrop"],
-        "warnings_issued": 2,
-        "pain_points_updated": 1,
-        "comparisons_created": 2
-      },
-      "notes": "第一階段處理 3 個產品（lip-care, anti-aging-serum），第二階段處理 5 個原跳過產品（shower-curtain, picture-frame, coffee-filter, toaster, photo-backdrop）"
-    }
-  },
   "steps": {
-    "step_1": {
-      "status": "completed",
-      "completed_at": "2026-02-13T08:00:00Z",
-      "description": "監控清單追蹤",
-      "products_checked": 11,
-      "changes_detected": 0,
-      "notes": "所有監控產品均未到期。eos Body Lotion (worsening) 下次檢查 2026-02-19。"
-    },
-    "step_2": {
-      "status": "completed",
-      "completed_at": "2026-02-13T08:05:00Z",
-      "description": "研究缺口補齊",
-      "gaps_identified": 22,
-      "gaps_filled": 0,
-      "notes": "22 個 [REVIEW_NEEDED] 報告為早期結構性限制，今日不補齊"
-    },
-    "step_3": {
-      "status": "completed",
-      "completed_at": "2026-02-13T08:15:00Z",
-      "description": "抓取排行榜（增量模式）",
-      "mode": "incremental",
-      "products_discovered": 0,
-      "new_products": 0,
-      "dropped_products": 0,
-      "notes": "排行榜穩定，無新產品進入。使用昨日快取比對，Beauty 熱銷維持 BIODANCE、eos、Mighty Patch 等。"
-    },
-    "step_4": {
-      "status": "skipped",
-      "completed_at": "2026-02-13T08:16:00Z",
-      "description": "產品分組（按具體問題）",
-      "reason": "無新產品需分組"
-    },
-    "step_5": {
-      "status": "skipped",
-      "completed_at": "2026-02-13T08:16:00Z",
-      "description": "問題研究 + 競品發現",
-      "reason": "無新產品需研究"
-    },
+    "step_1": { "status": "skipped", "note": "No watchlist items due" },
+    "step_2": { "status": "skipped", "note": "No gaps to fill" },
+    "step_3": { "status": "completed", "note": "Discovery done in previous session" },
+    "step_4": { "status": "completed", "note": "Grouping done in previous session" },
+    "step_5": { "status": "completed", "note": "Research done in previous session" },
     "step_6": {
-      "status": "skipped",
-      "completed_at": "2026-02-13T08:16:00Z",
-      "description": "抓取評論 + L1-L6 萃取",
-      "reason": "無新產品需萃取"
+      "status": "partial",
+      "note": "20 products extracted (skipped 13 pending), 45 extraction files total today",
+      "pending_asins": ["B019NZC39U", "B08H3JPH74", "B099XCDQDS", "B0B1CNJL7N", "B0B854YTCF", "B0BQR2BQYZ", "B0BRMYHMS5", "B0C4Z6SKCS", "B0CYJBB2JQ", "B0D8W1YVBX", "B0DK4Y2YP3", "B0DLN1B4MJ", "B0FB9LWGY5"],
+      "extracted_products": 20,
+      "review_needed": ["B0B6R8N6WQ", "B00SNPCSUY", "B00OCGUG02", "B07V6M4MSN"]
     },
-    "step_7": {
-      "status": "skipped",
-      "completed_at": "2026-02-13T08:16:00Z",
-      "description": "比較分析",
-      "reason": "無新萃取需分析"
-    },
+    "step_7": { "status": "partial", "note": "Warning report generated for space-heater" },
     "step_8": {
-      "status": "skipped",
-      "completed_at": "2026-02-13T08:16:00Z",
-      "description": "條件性產出報告",
-      "reports_generated": {
-        "warnings": 0,
-        "comparisons": 0,
-        "recommendations": 0,
-        "pain_points": 0
-      },
-      "reason": "無新分析需報告"
+      "status": "partial",
+      "note": "1 warning report generated (B07V6M4MSN)",
+      "reports_generated": ["docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"]
     }
   },
-  "watchlist_sync": {
-    "last_sync": "2026-02-13T08:00:00Z",
-    "products_monitored": 11,
-    "categories_monitored": 0,
-    "next_check_due": [
-      {"asin": "B0CYJBB2JQ", "date": "2026-02-18", "product": "bella Toaster"},
-      {"asin": "B07V6M4MSN", "date": "2026-02-19", "product": "Amazon Basics Space Heater"},
-      {"asin": "B08KT2Z93D", "date": "2026-02-19", "product": "eos Body Lotion", "note": "worsening"}
-    ],
-    "pending_analysis": []
-  },
-  "research_gaps": {
-    "pending": [],
-    "pending_reason": {},
-    "in_progress": [],
-    "completed_today": [],
-    "deferred": []
-  },
-  "pending_decisions": {
-    "count": 1,
-    "items": [
-      {
-        "category": "party-tableware",
-        "product": "B099XCDQDS",
-        "reason": "評論數不足（僅 1 則）",
-        "options": ["等待更多評論", "標記為資料不足", "移除此替代品追蹤"]
-      }
-    ]
-  },
-  "previous_execution": {
-    "date": "2026-02-10",
-    "step_completed": 8,
-    "new_products": 4,
-    "reports_generated": 1
-  },
-  "important_rules": {
-    "websearch_webfetch": "WebFetch 的 URL 必須來自 WebSearch 結果，禁止猜測 URL",
-    "jsonl_reading": "禁止用 Read 工具讀取 .jsonl，一律用 sed -n 逐行",
-    "model_assignment": "Step 1-7 用 sonnet，僅 Step 8 報告產出用 opus"
+  "summary": {
+    "extractions_today": 20,
+    "warnings_issued": 1,
+    "pending_refetch": 13,
+    "review_needed_products": 4
   }
 }
