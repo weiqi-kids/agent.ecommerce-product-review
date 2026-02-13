@@ -4,7 +4,30 @@
 
 ---
 
-## 最新報告 (2026-02-12 更新)
+## 最新報告 (2026-02-13 更新)
+
+> 2026-02-13：完整流程執行，發現 28 個新產品、12 個新類別，產出 7 份報告（3 警告、4 比較）。
+
+### 警告報告 (2026-02-13) 🔴
+
+| 產品 | 風險等級 | 核心問題 |
+|------|---------|---------|
+| [Sony WH-1000XM5](Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13.md) | 🔴 CRITICAL | **27% 轉軸斷裂**，12-18 個月內故障，保固不涵蓋 |
+| [DUMOS 抽屜櫃](Narrator/warnings/dumos-dresser-quality--2026-02-13.md) | 🟠 HIGH | **30% 瑕疵率**，塑膠滑軌設計缺陷 |
+| [If You Care 烘焙紙](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md) | 🔴 CRITICAL | **3% 火災風險**，標準烘焙溫度下起火 |
+
+### 比較報告 (2026-02-13)
+
+| 類別 | 結論 |
+|------|------|
+| [痘痘治療](Narrator/comparisons/acne-treatment--2026-02-13.md) | Mighty Patch 最安全、PanOxyl 最強效但刺激高、Medicube 最便宜但反應率 15% |
+| [身體保濕](Narrator/comparisons/body-moisturizing--2026-02-13.md) | CeraVe 97% 保濕滿意度勝出，eos 15% 幫浦故障 |
+| [臉部保濕](Narrator/comparisons/face-moisturizing--2026-02-13.md) | Biodance 92% 保濕滿意但 14% 致痘；Medicube 41% 黏膩感 |
+| [降噪耳機](Narrator/comparisons/noise-canceling-headphones--2026-02-13.md) | Sony 長途飛行首選但轉軸問題；AirPods Pro 便攜但 18% 掉落 |
+
+---
+
+## 往期報告 (2026-02-12)
 
 > 2026-02-12：每日增量更新，處理 1 個新產品（手部護理類別），產出 1 份比較報告。
 
@@ -83,11 +106,14 @@
 
 | 產品 | 監控原因 | 嚴重度 | 狀態 |
 |------|---------|--------|------|
-| bella Toaster (B0CYJBB2JQ) | 品質危機 | 🔴 critical | 🆕 新增監控 |
+| Sony WH-1000XM5 (B09XS7JWHH) | 設計缺陷 | 🔴 critical | 🆕 新增監控 |
+| If You Care Parchment (B001T6JTMY) | 火災風險 | 🔴 critical | 🆕 新增監控 |
+| DUMOS Dresser (B0CH38DGNY) | 品質危機 | 🟠 high | 🆕 新增監控 |
+| bella Toaster (B0CYJBB2JQ) | 品質危機 | 🔴 critical | 持續監控 |
 | RELIEF SUN (B0CM5GBNPB) | 假貨風險 | 🔴 critical | 持續監控 |
 | Amazon Basics Space Heater | 火災風險 | 🔴 critical | 持續監控 |
 | HANYCONY Power Strip | 火災風險 | 🔴 critical | 持續監控 |
-| BigFoot Shower Curtain (B08CRPWQHB) | 聲明矛盾 | 🟠 high | 🆕 新增監控 |
+| BigFoot Shower Curtain (B08CRPWQHB) | 聲明矛盾 | 🟠 high | 持續監控 |
 | Hefty Party Cups | 品質危機 | 🟠 high | 持續監控 |
 | upsimples Picture Frame | 品質危機 | 🟠 high | 持續監控 |
 | Emergen-C | 品質危機 | 🟠 high | 持續監控 |

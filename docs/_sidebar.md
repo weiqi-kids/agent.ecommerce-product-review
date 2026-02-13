@@ -1,6 +1,7 @@
 * [首頁](/)
 
 * **每日摘要**
+  * [2026-02-13](daily_summary/2026-02-13.md)
   * [2026-02-12](daily_summary/2026-02-12.md)
   * [2026-02-11](daily_summary/2026-02-11.md)
   * [2026-02-10](daily_summary/2026-02-10.md)
@@ -8,6 +9,15 @@
   * [2026-02-08](daily_summary/2026-02-08.md)
   * [2026-02-07](daily_summary/2026-02-07.md)
   * [2026-02-05](daily_summary/2026-02-05.md)
+
+* **2026-02-13** (7)
+  * [⚠️ Sony WH-1000XM5 轉軸斷裂](Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13.md)
+  * [⚠️ DUMOS 抽屜櫃品質](Narrator/warnings/dumos-dresser-quality--2026-02-13.md)
+  * [⚠️ If You Care 烘焙紙火災風險](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md)
+  * [⚖️ 痘痘治療](Narrator/comparisons/acne-treatment--2026-02-13.md)
+  * [⚖️ 身體保濕](Narrator/comparisons/body-moisturizing--2026-02-13.md)
+  * [⚖️ 臉部保濕](Narrator/comparisons/face-moisturizing--2026-02-13.md)
+  * [⚖️ 降噪耳機](Narrator/comparisons/noise-canceling-headphones--2026-02-13.md)
 
 * **2026-02-12** (1)
   * [⚖️ 手部乾裂護理](Narrator/comparisons/hand-care--2026-02-12.md)

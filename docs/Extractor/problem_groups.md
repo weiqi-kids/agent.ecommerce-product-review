@@ -1,10 +1,10 @@
 # 產品問題分組
 
-最後更新：2026-02-11
+最後更新：2026-02-13
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：150
-問題類別數：47
+產品總數：173
+問題類別數：59
 分組原則：按具體問題分組（v2 - 問題導向）
 
 ---
@@ -13,10 +13,10 @@
 
 | 問題類別 | 問題描述 | 產品數 | 研究狀態 |
 |---------|---------|-------|---------|
-| body-moisturizing | 身體皮膚乾燥保濕 | 6 | ⚠️ 需補充 |
-| face-moisturizing | 臉部保濕護理 | 6 | ✅ 已完成 |
+| body-moisturizing | 身體皮膚乾燥保濕 | 8 | ⚠️ 需補充 |
+| face-moisturizing | 臉部保濕護理 | 9 | ⚠️ 需補充 |
 | hand-care | 手部乾裂護理 | 1 | ✅ 已完成 |
-| anti-aging-serum | 抗老化精華護理 | 4 | ✅ 已完成 |
+| anti-aging-serum | 抗老化精華護理 | 5 | ⚠️ 需補充 |
 | lip-care | 嘴唇乾裂護理 | 4 | ✅ 已完成 |
 | acne-treatment | 痘痘粉刺治療 | 3 | ✅ 已完成 |
 | sun-protection | 防曬保護 | 1 | ✅ 已完成 |
@@ -70,6 +70,18 @@
 | nail-glue | 美甲固定膠 | 1 | ⏳ 待研究 |
 | party-tableware | 派對一次性餐具 | 1 | ⏳ 待研究 |
 | pillow-case | 枕套更換 | 1 | ⏳ 待研究 |
+| dandruff-treatment | 頭皮屑治療 | 1 | ⏳ 待研究 |
+| mascara | 睫毛增長加密 | 2 | ⏳ 待研究 |
+| makeup-removal | 卸妝清潔 | 2 | ⏳ 待研究 |
+| eye-puffiness | 眼部浮腫黑眼圈 | 1 | ⏳ 待研究 |
+| facial-cleanser | 臉部清潔洗面乳 | 1 | ⏳ 待研究 |
+| hydrating-serum | 保濕精華液 | 1 | ⏳ 待研究 |
+| exfoliating-toner | 去角質化妝水 | 1 | ⏳ 待研究 |
+| natural-deodorant | 天然體香劑 | 1 | ⏳ 待研究 |
+| face-towels | 一次性洗臉巾 | 1 | ⏳ 待研究 |
+| hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
+| brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
+| collagen-mask | 膠原蛋白面膜 | 1 | ⏳ 待研究 |
 
 ---
 
@@ -95,6 +107,8 @@
 | B0BT1WN3ZD | Method Body Wash Sea + Surf | 保濕沐浴乳 |
 | B08KT2Z93D | eos Shea Better Body Lotion Vanilla Cashmere | 乳木果身體乳液 |
 | B0D4NKT1TH | Tree Hut Vanilla Shea Foaming Gel Wash | 乳木果泡沫沐浴乳 |
+| B07RK4HST7 | CeraVe Daily Moisturizing Lotion | 神經醯胺身體乳液 |
+| B0DPHQRLJC | eos Cashmere Body Wash | 乳木果沐浴乳 |
 
 **研究文件**：`research/body-moisturizing--2026-02-06.md`
 **競品文件**：`competitors/body-moisturizing--2026-02-06.md`
@@ -120,6 +134,9 @@
 | B0DJVYFDR2 | goPure Tighten & Lift Neck & Chest Moisturizer | 頸部胸部保濕 |
 | B0CM2PPNMW | Medicube Collagen Jelly Cream | 膠原蛋白果凍霜 |
 | B0B2RM68G2 | Biodance Bio-Collagen Real Deep Mask | 膠原蛋白深層面膜 |
+| B00TTD9BRC | CeraVe Moisturizing Cream | 神經醯胺保濕霜 |
+| B01N9SPQHQ | La Roche-Posay Toleriane Double Repair Face Moisturizer | 雙效修復保濕乳 |
+| B08BW46XXK | Vanicream Daily Facial Moisturizer | 低敏臉部保濕 |
 
 **研究文件**：`research/face-moisturizing--2026-02-06.md`
 **競品文件**：`competitors/face-moisturizing--2026-02-06.md`
@@ -145,6 +162,7 @@
 | B0G1H283LW | e.l.f. Soft Glam Brightening Corrector | 亮白遮瑕 |
 | B0DBRVHR38 | RoC Derm Correxion Retinol Firming Serum Stick | 視黃醇精華棒 |
 | B0DK4Y2YP3 | celimax The Vita A Retinal Shot Tightening Booster | A醇精華（韓系） |
+| B0BBSP2JNQ | SimplyVital Anti-Aging Retinol Moisturizer Cream | 視黃醇保濕霜 |
 
 **研究文件**：`research/anti-aging-serum--2026-02-06.md`
 **競品文件**：`competitors/anti-aging-serum--2026-02-06.md`
@@ -1281,12 +1299,269 @@
 
 ---
 
+### dandruff-treatment
+
+**問題描述**：頭皮屑問題、頭皮發癢
+
+**問題成因**：皮脂分泌異常、馬拉色菌過度生長、頭皮乾燥
+
+**常見解決方法**：
+- 藥用洗髮精（酮康唑）
+- 水楊酸洗髮精
+- 煤焦油洗髮精
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B00AINMFAC | Nizoral Anti-Dandruff Shampoo | 酮康唑藥用洗髮精 |
+
+**研究文件**：`research/dandruff-treatment--{date}.md`
+**競品文件**：`competitors/dandruff-treatment--{date}.md`
+
+---
+
+### mascara
+
+**問題描述**：睫毛稀疏、需要增長加密效果
+
+**問題成因**：睫毛天生稀疏、希望眼妝更突出
+
+**常見解決方法**：
+- 纖長型睫毛膏
+- 濃密型睫毛膏
+- 捲翹型睫毛膏
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B00T0C9XRK | essence Lash Princess False Lash Effect Mascara | 濃密纖長睫毛膏 |
+| B08H3JPH74 | Maybelline Sky High Washable Mascara | 纖長型睫毛膏 |
+
+**研究文件**：`research/mascara--{date}.md`
+**競品文件**：`competitors/mascara--{date}.md`
+
+---
+
+### makeup-removal
+
+**問題描述**：卸妝清潔、殘妝去除
+
+**問題成因**：化妝後需要徹底清潔、防水彩妝難以去除
+
+**常見解決方法**：
+- 卸妝濕巾
+- 卸妝油
+- 卸妝水
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B00U2VQZDS | Neutrogena Makeup Remover Cleansing Face Wipes | 卸妝濕巾 |
+| B07GKVBQDG | Neutrogena Makeup Remover Wipes Singles | 單片裝卸妝濕巾 |
+
+**研究文件**：`research/makeup-removal--{date}.md`
+**競品文件**：`competitors/makeup-removal--{date}.md`
+
+---
+
+### eye-puffiness
+
+**問題描述**：眼部浮腫、黑眼圈問題
+
+**問題成因**：睡眠不足、老化、液體滯留、遺傳
+
+**常見解決方法**：
+- 眼膜貼片
+- 眼霜
+- 冷敷
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B014E2D6BY | grace & stella Under Eye Mask | 眼膜貼片 |
+
+**研究文件**：`research/eye-puffiness--{date}.md`
+**競品文件**：`competitors/eye-puffiness--{date}.md`
+
+---
+
+### facial-cleanser
+
+**問題描述**：臉部清潔、去除髒污油脂
+
+**問題成因**：日常油脂堆積、環境污染、毛孔堵塞
+
+**常見解決方法**：
+- 保濕型洗面乳
+- 泡沫洗面乳
+- 凝膠洗面乳
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B01MSSDEPK | CeraVe Hydrating Facial Cleanser | 保濕型洗面乳 |
+
+**研究文件**：`research/facial-cleanser--{date}.md`
+**競品文件**：`competitors/facial-cleanser--{date}.md`
+
+---
+
+### hydrating-serum
+
+**問題描述**：肌膚缺水、需要深層保濕
+
+**問題成因**：環境乾燥、肌膚屏障受損、年齡增長
+
+**常見解決方法**：
+- 玻尿酸精華
+- 維生素B5精華
+- 神經醯胺精華
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B01MYEZPC8 | The Ordinary Hyaluronic Acid 2% + B5 | 玻尿酸+維生素B5精華 |
+
+**研究文件**：`research/hydrating-serum--{date}.md`
+**競品文件**：`competitors/hydrating-serum--{date}.md`
+
+---
+
+### exfoliating-toner
+
+**問題描述**：角質堆積、膚質粗糙
+
+**問題成因**：角質代謝緩慢、毛孔堵塞、膚色暗沉
+
+**常見解決方法**：
+- 果酸化妝水
+- 水楊酸化妝水
+- 乳酸化妝水
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B071914GGL | The Ordinary Glycolic Acid 7% Toning Solution | 果酸化妝水 |
+
+**研究文件**：`research/exfoliating-toner--{date}.md`
+**競品文件**：`competitors/exfoliating-toner--{date}.md`
+
+---
+
+### natural-deodorant
+
+**問題描述**：體味控制、腋下異味
+
+**問題成因**：汗液與細菌作用、需要無鋁配方
+
+**常見解決方法**：
+- 天然體香劑
+- 鋁鹽止汗劑
+- 體香膏
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B07GB3NVN1 | Native Deodorant | 天然體香劑 |
+
+**研究文件**：`research/natural-deodorant--{date}.md`
+**競品文件**：`competitors/natural-deodorant--{date}.md`
+
+---
+
+### face-towels
+
+**問題描述**：洗臉擦拭、一次性清潔
+
+**問題成因**：毛巾細菌滋生、敏感肌需要乾淨擦拭
+
+**常見解決方法**：
+- 一次性洗臉巾
+- 化妝棉
+- 竹纖維毛巾
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B07PBXXNCY | Clean Skin Club Clean Towels XL | 一次性洗臉巾 |
+
+**研究文件**：`research/face-towels--{date}.md`
+**競品文件**：`competitors/face-towels--{date}.md`
+
+---
+
+### hair-growth-supplement
+
+**問題描述**：女性掉髮、頭髮稀疏
+
+**問題成因**：荷爾蒙變化、營養不足、壓力、更年期
+
+**常見解決方法**：
+- 頭髮生長補充劑
+- 生物素
+- 膠原蛋白
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B07QZ5CTTF | Nutrafol Women's Balance Hair Growth Supplement | 女性頭髮生長補充劑 |
+
+**研究文件**：`research/hair-growth-supplement--{date}.md`
+**競品文件**：`competitors/hair-growth-supplement--{date}.md`
+
+---
+
+### brightening-serum
+
+**問題描述**：膚色暗沉、色斑、需要美白亮膚
+
+**問題成因**：黑色素沉澱、紫外線傷害、肌膚氧化
+
+**常見解決方法**：
+- 維生素C精華
+- 菸鹼醯胺精華
+- 熊果素精華
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0D8W1YVBX | EQQUALBERRY Vitamin C Illuminating Serum | 維生素C亮膚精華 |
+
+**研究文件**：`research/brightening-serum--{date}.md`
+**競品文件**：`competitors/brightening-serum--{date}.md`
+
+---
+
+### collagen-mask
+
+**問題描述**：肌膚鬆弛、需要膠原蛋白補充
+
+**問題成因**：膠原蛋白流失、老化、彈性下降
+
+**常見解決方法**：
+- 膠原蛋白面膜
+- 膠原蛋白精華
+- 緊緻面膜
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0BRMYHMS5 | medicube Collagen Wrapping Mask | 膠原蛋白包覆面膜 |
+
+**研究文件**：`research/collagen-mask--{date}.md`
+**競品文件**：`competitors/collagen-mask--{date}.md`
+
+---
+
 ## 未分類產品
 
 以下產品標題無法識別或為特殊類別，暫不納入比較分析：
 
 | product_id | 產品名稱 | 備註 |
 |-----------|---------|------|
+| B09541P9WH | Amazon Basics Cotton Swabs | 基本衛生用品 - 棉花棒 |
+| B09542G9ZN | Amazon Basics Cotton Rounds | 基本衛生用品 - 化妝棉 |
+| B09HHDHXWX | Amazon Basics Hand Soap | 基本衛生用品 - 洗手乳 |
 | B093ZXFXX9 | Unknown Product | 無法識別 |
 | B0BRR6Q2ZD | Unknown Product | 無法識別 |
 | B0C5QXCDW9 | Unknown Product | 無法識別 |
@@ -1334,4 +1609,4 @@
 
 ---
 
-*Generated: 2026-02-05 | Products: 132 | Categories: 42 | Grouping: Problem-based v2*
+*Generated: 2026-02-13 | Products: 173 | Categories: 59 | Grouping: Problem-based v2*
