@@ -504,6 +504,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "space-heater-B07V6M4MSN--amazon-basics--2026-02-13-md",
+    "title": "Product Extraction Report",
+    "category": "space-heater",
+    "product_id": "",
+    "brand": "- **Brand**: Amazon Basics",
+    "platform": "- **Platform**: Amazon US (en-US locale)",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "space-heater/B07V6M4MSN--amazon-basics--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "shower-curtain-B08CRPWQHB--amazon_us--2026-02-11-md",
     "title": "BigFoot Clear Shower Curtain Liner - Amazon US 萃取報告",
     "category": "shower-curtain",
@@ -588,6 +600,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "pepper-spray-B0B6R8N6WQ--sabre--2026-02-13-md",
+    "title": "SABRE Pepper Spray - Quick Release Keychain for Easy Carry & Fast Access",
+    "category": "pepper-spray",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "pepper-spray/B0B6R8N6WQ--sabre--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "party-tableware-B099XCDQDS--amazon_us--2026-02-11-md",
     "title": "Hefty EcoSave Disposable Plates",
     "category": "party-tableware",
@@ -597,6 +621,18 @@
     "avg_rating": "",
     "review_count": "- **Reviews Analyzed**: 1",
     "file": "party-tableware/B099XCDQDS--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-tableware-B00OCGUG02--hefty--2026-02-13-md",
+    "title": "Hefty Party On Disposable Plastic Cups, Assorted, 16 Ounce, 100 Count",
+    "category": "party-tableware",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-tableware/B00OCGUG02--hefty--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -816,6 +852,30 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "other-B08CRPWQHB--bigfoot--2026-02-13-md",
+    "title": "BigFoot Clear Shower Curtain Liner - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Shower Liner, Rust-Proof Bathroom Essentials",
+    "category": "other",
+    "product_id": "",
+    "brand": "**Brand**: BigFoot",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 90 (Batch 1: 50, Batch 2: 40)",
+    "file": "other/B08CRPWQHB--bigfoot--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "other-B01M0AGUPO--pillow-cases--2026-02-13-md",
+    "title": "King Pillow Cases Set of 2 - Ultra Soft Hotel Quality",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "other/B01M0AGUPO--pillow-cases--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "other-B005MX5ID4--amazon_us--2026-02-05-md",
     "title": "ArtToFrames 15x19 inch Classic Mahogany Frame Picture Frame",
     "category": "other",
@@ -852,6 +912,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "natural-deodorant-B07GB3NVN1--native--2026-02-13-md",
+    "title": "Native Deodorant - Amazon US Product Analysis",
+    "category": "natural-deodorant",
+    "product_id": "",
+    "brand": "**Brand**: Native",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "natural-deodorant/B07GB3NVN1--native--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "nail-glue-B0B854YTCF--amazon_us--2026-02-08-md",
     "title": "Product Extraction Report",
     "category": "nail-glue",
@@ -876,6 +948,54 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "mascara-B00T0C9XRK--essence--2026-02-13-md",
+    "title": "essence | Lash Princess False Lash Effect Mascara",
+    "category": "mascara",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "mascara/B00T0C9XRK--essence--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "makeup-removal-B07GKVBQDG--neutrogena-singles--2026-02-13-md",
+    "title": "Neutrogena Makeup Remover Wipes, Daily Single Face Cleansing Towelettes",
+    "category": "makeup-removal",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "makeup-removal/B07GKVBQDG--neutrogena-singles--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "makeup-removal-B00U2VQZDS--neutrogena--2026-02-13-md",
+    "title": "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes",
+    "category": "makeup-removal",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "makeup-removal/B00U2VQZDS--neutrogena--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "lip-care-B07SRRLVQ1--aquaphor--2026-02-13-md",
+    "title": "Aquaphor Lip Repair Stick - Product Analysis",
+    "category": "lip-care",
+    "product_id": "",
+    "brand": "- **Brand**: Aquaphor",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "lip-care/B07SRRLVQ1--aquaphor--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "lip-care-B07SRRLVQ1--amazon_us--2026-02-11-md",
     "title": "Aquaphor Lip Repair Stick — 萃取報告",
     "category": "lip-care",
@@ -897,6 +1017,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "lip-care/B00A6H33OW--burts-bees--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "hydrating-serum-B01MYEZPC8--the-ordinary--2026-02-13-md",
+    "title": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin",
+    "category": "hydrating-serum",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "hydrating-serum/B01MYEZPC8--the-ordinary--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1248,6 +1380,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "health-B07QZ5CTTF--nutrafol--2026-02-13-md",
+    "title": "Nutrafol Women's Balance Hair Growth Supplements, Ages 45 and Up",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B07QZ5CTTF--nutrafol--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "health-B074F2WCMQ--amazon_us--2026-02-05-md",
     "title": "Amazon Basic Care Omeprazole Delayed Release Tablets 20 mg, Acid Reducer, 14 Count",
     "category": "health",
@@ -1416,6 +1560,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "hand-care-B011KMZ2WW--okeeffes--2026-02-13-md",
+    "title": "O'Keeffe's Working Hands Hand Cream - Product Analysis",
+    "category": "hand-care",
+    "product_id": "",
+    "brand": "- **Brand**: O'Keeffe's",
+    "platform": "- **Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "hand-care/B011KMZ2WW--okeeffes--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "hand-care-B011KMZ2WW--amazon_us--2026-02-10-md",
     "title": "O'Keeffe's Working Hands Hand Cream 3oz",
     "category": "hand-care",
@@ -1488,6 +1644,66 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "facial-cleanser-B01MSSDEPK--cerave--batch-2-md",
+    "title": "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For Dry Skin — Batch 2/2",
+    "category": "facial-cleanser",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "facial-cleanser/B01MSSDEPK--cerave--batch-2.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "facial-cleanser-B01MSSDEPK--cerave--2026-02-13-md",
+    "title": "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For Dry Skin",
+    "category": "facial-cleanser",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "facial-cleanser/B01MSSDEPK--cerave--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "facial-cleanser-B01MSSDEPK--amazon_us--2026-02-13-md",
+    "title": "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For Dry Skin",
+    "category": "facial-cleanser",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "facial-cleanser/B01MSSDEPK--amazon_us--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "face-towels-B07PBXXNCY--clean-skin-club--batch-2-md",
+    "title": "Clean Skin Club Clean Towels XL — Batch 2/2",
+    "category": "face-towels",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "face-towels/B07PBXXNCY--clean-skin-club--batch-2.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "face-towels-B07PBXXNCY--clean-skin-club--2026-02-13-md",
+    "title": "Clean Skin Club Clean Towels XL",
+    "category": "face-towels",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "face-towels/B07PBXXNCY--clean-skin-club--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "face-moisturizing-B0CM2PPNMW--medicube--2026-02-13-md",
     "title": "medicube Jelly Cream with Collagen, Niacinamide | Freeze-Dried Hydrolyzed Collagen for Skin Barrier Hydration & 24H Glow | Plumper, Firmer looking skin | 3.71 fl.oz",
     "category": "face-moisturizing",
@@ -1509,6 +1725,42 @@
     "avg_rating": "",
     "review_count": "",
     "file": "face-moisturizing/B0B2RM68G2--biodance--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "face-moisturizing-B00SNPCSUY--cerave-night--2026-02-13-md",
+    "title": "CeraVe Skin Renewing Night Cream - L1-L6 萃取結果",
+    "category": "face-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "face-moisturizing/B00SNPCSUY--cerave-night--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "eye-puffiness-B014E2D6BY--grace-stella--2026-02-13-md",
+    "title": "grace & stella Award Winning Under Eye Mask",
+    "category": "eye-puffiness",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "eye-puffiness/B014E2D6BY--grace-stella--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "exfoliating-toner-B071914GGL--the-ordinary--2026-02-13-md",
+    "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner",
+    "category": "exfoliating-toner",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "exfoliating-toner/B071914GGL--the-ordinary--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1593,6 +1845,18 @@
     "avg_rating": "",
     "review_count": "- **Reviews Analyzed**: 100",
     "file": "electronics/B0D1XD1ZV3--apple--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "electronics-B0BSHF7WHW--apple-macbook--2026-02-13-md",
+    "title": "Apple 2023 MacBook Pro Laptop with Apple M2 Pro chip with 12‑core CPU and 19‑core GPU",
+    "category": "electronics",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "electronics/B0BSHF7WHW--apple-macbook--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1689,6 +1953,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "dresser-drawer/B0CH38DGNY--dumos--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "dandruff-treatment-B00AINMFAC--nizoral--2026-02-13-md",
+    "title": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz",
+    "category": "dandruff-treatment",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "dandruff-treatment/B00AINMFAC--nizoral--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
