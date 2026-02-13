@@ -1,5 +1,17 @@
 [
   {
+    "id": "wound-bandage-B00006IDL6--band-aid--2026-02-13-md",
+    "title": "Band-Aid Brand Flexible Fabric Adhesive Bandages",
+    "category": "wound-bandage",
+    "product_id": "",
+    "brand": "**Brand**: Band-Aid",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "wound-bandage/B00006IDL6--band-aid--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "toys_games-B0GF6BQX7C--amazon_us--2026-02-05-md",
     "title": "ZURU Fuggler Love Fuggs S2 Pink",
     "category": "toys_games",
@@ -324,6 +336,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "teeth-whitening-B082TPDTM2--lumineux--2026-02-13-md",
+    "title": "Lumineux Teeth Whitening Strips - L1-L6 Extraction",
+    "category": "teeth-whitening",
+    "product_id": "",
+    "brand": "- **Brand**: Lumineux",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "teeth-whitening/B082TPDTM2--lumineux--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "sports_outdoor-B0GF7QT5YW--amazon_us--2026-02-05-md",
     "title": "Product Analysis: Pedal Resistance Bands with Handles",
     "category": "sports_outdoor",
@@ -588,6 +612,114 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "party-supplies-B0G451Y3YF--monster-valentines--2026-02-13-md",
+    "title": "24 Pcs Monster Valentines Day Gifts — Amazon US 萃取報告",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0G451Y3YF--monster-valentines--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B0G43VCG7C--valentine-cards--2026-02-13-md",
+    "title": "Valentine Day Cards for Kids Classroom – 30PCS Cute Squishy Valentines",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0G43VCG7C--valentine-cards--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B0G3P71JWG--wooden-hearts--2026-02-13-md",
+    "title": "6 Pcs Wooden Hearts Valentines Decor",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "**Brand**: ZATAYE",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0G3P71JWG--wooden-hearts--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B0G1Y9KZ3P--school-costume--2026-02-13-md",
+    "title": "100 Days of School Costume for Boys Kids,Old Man Costume for Kids,Grandpa Costume Accessories Boys Set",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "- **Brand**: Boutrele",
+    "platform": "- **Platform**: amazon_us",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0G1Y9KZ3P--school-costume--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B0G1L8J8PK--birthday-gifts--2026-02-13-md",
+    "title": "50th Birthday Gifts for Her - Product Review Analysis",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "**Brand**: Launrada",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0G1L8J8PK--birthday-gifts--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B0DK8HSQ9L--party-napkins--2026-02-13-md",
+    "title": "50 PCS Football Party Supplies, 6.5 Inches Football Napkins",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "**Brand**: QZYL",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0DK8HSQ9L--party-napkins--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B0DK22Y1KZ--joyin--2026-02-13-md",
+    "title": "JOYIN 28 PCS Valentines Cards with Animal Popping Eyes Keychains",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "party-supplies/B0DK22Y1KZ--joyin--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "party-supplies-B093672RHQ--goer--2026-02-13-md",
+    "title": "GOER Number 30 Balloons - Product Review Analysis",
+    "category": "party-supplies",
+    "product_id": "",
+    "brand": "**Brand**: GOER",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 100 (most recent)",
+    "file": "party-supplies/B093672RHQ--goer--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "parchment-paper-B001T6JTMY--if-you-care--2026-02-13-md",
+    "title": "If You Care Parchment Baking Paper, 70 sq ft",
+    "category": "parchment-paper",
+    "product_id": "",
+    "brand": "**Brand**: If You Care",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "parchment-paper/B001T6JTMY--if-you-care--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "other-B0G3P71JWG--amazon_us--2026-02-05-md",
     "title": "Product Review Analysis: B0G3P71JWG",
     "category": "other",
@@ -753,6 +885,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "lip-care/B07SRRLVQ1--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "lip-care-B00A6H33OW--burts-bees--2026-02-13-md",
+    "title": "Burt's Bees Original Beeswax Lip Balm - Product Analysis",
+    "category": "lip-care",
+    "product_id": "",
+    "brand": "- **Brand**: Burt's Bees",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "lip-care/B00A6H33OW--burts-bees--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1344,6 +1488,30 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "face-moisturizing-B0CM2PPNMW--medicube--2026-02-13-md",
+    "title": "medicube Jelly Cream with Collagen, Niacinamide | Freeze-Dried Hydrolyzed Collagen for Skin Barrier Hydration & 24H Glow | Plumper, Firmer looking skin | 3.71 fl.oz",
+    "category": "face-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "face-moisturizing/B0CM2PPNMW--medicube--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "face-moisturizing-B0B2RM68G2--biodance--2026-02-13-md",
+    "title": "BIODANCE Bio-Collagen Real Deep Mask",
+    "category": "face-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "face-moisturizing/B0B2RM68G2--biodance--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "electronics-B0G4MRDT13--amazon_us--2026-02-05-md",
     "title": "Product Extraction Report",
     "category": "electronics",
@@ -1416,6 +1584,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "electronics-B0D1XD1ZV3--apple--2026-02-13-md",
+    "title": "Apple AirPods Pro 2 Wireless Earbuds",
+    "category": "electronics",
+    "product_id": "",
+    "brand": "**Brand**: Apple",
+    "platform": "- **Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 100",
+    "file": "electronics/B0D1XD1ZV3--apple--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "electronics-B0BS1QCFHX--amazon_us--2026-02-05-md",
     "title": "Sony WH-CH720N Noise Canceling Wireless Headphones",
     "category": "electronics",
@@ -1437,6 +1617,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "electronics/B0BRYT2N4D--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "electronics-B09XS7JWHH--sony--2026-02-13-md",
+    "title": "Sony WH-1000XM5 Premium Noise Canceling Headphones",
+    "category": "electronics",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "electronics/B09XS7JWHH--sony--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1488,6 +1680,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "dresser-drawer-B0CH38DGNY--dumos--2026-02-13-md",
+    "title": "DUMOS Dresser for Bedroom, Storage Organizer with 9 Drawers",
+    "category": "dresser-drawer",
+    "product_id": "",
+    "brand": "**Brand**: DUMOS",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "dresser-drawer/B0CH38DGNY--dumos--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "coffee-filter-B0C4Z6SKCS--amazon_us--2026-02-11-md",
     "title": "Amazon Basics Basket Coffee Filters for 8-12 Cup Coffee Makers, White, 200 Count",
     "category": "coffee-filter",
@@ -1500,6 +1704,42 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "body-moisturizing-B0D4NKT1TH--tree-hut--2026-02-13-md",
+    "title": "Tree Hut Vanilla Foaming Gel Wash, Moisturizing & Hydrating Body Wash with Shea Butter",
+    "category": "body-moisturizing",
+    "product_id": "",
+    "brand": "- **Brand**: Tree Hut",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "body-moisturizing/B0D4NKT1TH--tree-hut--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "body-moisturizing-B08KT2Z93D--eos--2026-02-13-md",
+    "title": "eos Shea Better Body Lotion Vanilla Cashmere",
+    "category": "body-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "body-moisturizing/B08KT2Z93D--eos--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "body-moisturizing-B00TTD9BRC--cerave--2026-02-13-md",
+    "title": "CeraVe Moisturizing Cream",
+    "category": "body-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "body-moisturizing/B00TTD9BRC--cerave--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "body-firming-B0FB9LWGY5--amazon_us--2026-02-08-md",
     "title": "Product Extraction Report",
     "category": "body-firming",
@@ -1509,6 +1749,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "body-firming/B0FB9LWGY5--amazon_us--2026-02-08.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "body-firming-B0DBRVHR38--roc--2026-02-13-md",
+    "title": "RoC Derm Correxion Retinol Firming Serum Stick - Product Analysis",
+    "category": "body-firming",
+    "product_id": "",
+    "brand": "**Brand**: RoC",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 70 (recent sample)",
+    "file": "body-firming/B0DBRVHR38--roc--2026-02-13.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1977,6 +2229,42 @@
     "avg_rating": "",
     "review_count": "**Reviews Analyzed**: 50",
     "file": "anti-aging-serum/B0DK4Y2YP3--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "acne-treatment-B09V7Z4TJG--medicube--2026-02-13-md",
+    "title": "medicube Zero Pore Pad 2.0 - Amazon US Extraction",
+    "category": "acne-treatment",
+    "product_id": "",
+    "brand": "**Brand**: medicube",
+    "platform": "**Platform**: Amazon US",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "acne-treatment/B09V7Z4TJG--medicube--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "acne-treatment-B081KL2QYJ--panoxyl--2026-02-13-md",
+    "title": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash",
+    "category": "acne-treatment",
+    "product_id": "",
+    "brand": "- **Brand**: PanOxyl",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "acne-treatment/B081KL2QYJ--panoxyl--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "acne-treatment-B074PVTPBW--hero-cosmetics--2026-02-13-md",
+    "title": "Mighty Patch Original Patch from Hero Cosmetics",
+    "category": "acne-treatment",
+    "product_id": "",
+    "brand": "- **Brand**: Mighty Patch (Hero Cosmetics)",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "acne-treatment/B074PVTPBW--hero-cosmetics--2026-02-13.md",
     "source_layer": "amazon_us"
   }
 ]
