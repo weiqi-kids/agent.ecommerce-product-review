@@ -1,29 +1,5 @@
 * [首頁](/)
 
-* **⚠️ 警告報告**
-  * [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md)
-  * [BigFoot 浴簾](Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md)
-  * [垃圾袋品質](Narrator/warnings/trash-bags--2026-02-09.md)
-  * [Amazon Basics 暖風機](Narrator/warnings/amazon-basics-space-heater--2026-02-08.md)
-  * [Hefty 派對杯](Narrator/warnings/hefty-party-cups--2026-02-08.md)
-  * [upsimples 相框](Narrator/warnings/upsimples-picture-frame--2026-02-08.md)
-  * [HANYCONY 延長線](Narrator/warnings/hanycony-power-strip--warning--2026-02-06.md)
-  * [Pokemon 收藏盒](Narrator/warnings/pokemon-collector-chest--warning--2026-02-06.md)
-  * [AirPods 4 ANC](Narrator/warnings/airpods-4-anc--warning--2026-02-06.md)
-  * [Emergen-C](Narrator/warnings/B00016RL9G--warning--2026-02-06.md)
-  * [RELIEF SUN](Narrator/warnings/B0CH38DGNY--warning--2026-02-06.md)
-  * [eos Body Lotion](Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md)
-
-* **🚨 假貨警報**
-  * [RELIEF SUN 假貨](Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md)
-
-* **📊 痛點報告**
-  * [相框品質問題](Narrator/pain_points/picture-frame--2026-02-11.md)
-  * [相框品質問題](Narrator/pain_points/picture-frame--2026-02-09.md)
-  * [紓壓玩具](Narrator/pain_points/squishy-toy--pain-points--2026-02-09.md)
-  * [電源延長線](Narrator/pain_points/power-strip--pain-points--2026-02-06.md)
-  * [維他命C補充品](Narrator/pain_points/vitamin-c-supplement--pain-points--2026-02-06.md)
-
 * **✅ 推薦報告**
   * [護唇產品](Narrator/recommendations/lip-care--recommendation--2026-02-11.md)
   * [手部乾裂護理](Narrator/recommendations/hand-care--2026-02-10.md)
@@ -86,3 +62,27 @@
   * [肌膚保濕](Narrator/comparisons/skin-hydration--2026-02-05.md)
   * [智慧穿戴](Narrator/comparisons/smart-wearable--2026-02-05.md)
   * [串流裝置](Narrator/comparisons/streaming-device--2026-02-05.md)
+
+* **🚨 假貨警報**
+  * [RELIEF SUN 假貨](Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md)
+
+* **⚠️ 警告報告**
+  * [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md)
+  * [BigFoot 浴簾](Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md)
+  * [垃圾袋品質](Narrator/warnings/trash-bags--2026-02-09.md)
+  * [Amazon Basics 暖風機](Narrator/warnings/amazon-basics-space-heater--2026-02-08.md)
+  * [Hefty 派對杯](Narrator/warnings/hefty-party-cups--2026-02-08.md)
+  * [upsimples 相框](Narrator/warnings/upsimples-picture-frame--2026-02-08.md)
+  * [HANYCONY 延長線](Narrator/warnings/hanycony-power-strip--warning--2026-02-06.md)
+  * [Pokemon 收藏盒](Narrator/warnings/pokemon-collector-chest--warning--2026-02-06.md)
+  * [AirPods 4 ANC](Narrator/warnings/airpods-4-anc--warning--2026-02-06.md)
+  * [Emergen-C](Narrator/warnings/B00016RL9G--warning--2026-02-06.md)
+  * [RELIEF SUN](Narrator/warnings/B0CH38DGNY--warning--2026-02-06.md)
+  * [eos Body Lotion](Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md)
+
+* **📊 痛點報告**
+  * [相框品質問題](Narrator/pain_points/picture-frame--2026-02-11.md)
+  * [相框品質問題](Narrator/pain_points/picture-frame--2026-02-09.md)
+  * [紓壓玩具](Narrator/pain_points/squishy-toy--pain-points--2026-02-09.md)
+  * [電源延長線](Narrator/pain_points/power-strip--pain-points--2026-02-06.md)
+  * [維他命C補充品](Narrator/pain_points/vitamin-c-supplement--pain-points--2026-02-06.md)
