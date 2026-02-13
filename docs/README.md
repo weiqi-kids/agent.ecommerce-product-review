@@ -1,131 +1,94 @@
-# 買前必看
+# Amazon 評論真相報告
 
-智慧分析 Amazon 商品評論，幫你避開地雷、找到好物。
+> **在你下單前，先看看其他買家踩過的坑。**
+
+我們用 AI 分析數千則 Amazon 真實評論，找出產品的**隱藏問題**——那些賣家不會告訴你、星級評分看不出來的真相。
 
 ---
 
-## 最新報告 (2026-02-13 更新)
+## 這網站能幫你什麼？
 
-> 2026-02-13：完整流程執行，發現 28 個新產品、12 個新類別，產出 7 份報告（3 警告、4 比較）。
+| 你的困擾 | 我們的解答 |
+|---------|-----------|
+| 4.5 星的產品怎麼還是踩雷？ | 我們分析負評模式，找出**高頻問題**（如「27% 用戶反映轉軸斷裂」） |
+| 同類產品這麼多，選哪個？ | **比較報告**告訴你每個產品的優缺點和適用場景 |
+| 網路評測是不是業配？ | 我們只分析**真實購買者評論**，不接受廠商合作 |
+| 有些產品會不會有安全問題？ | **警告報告**標記火災風險、設計缺陷等嚴重問題 |
 
-### 警告報告 (2026-02-13) 🔴
+---
 
-| 產品 | 風險等級 | 核心問題 |
-|------|---------|---------|
-| [Sony WH-1000XM5](Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13.md) | 🔴 CRITICAL | **27% 轉軸斷裂**，12-18 個月內故障，保固不涵蓋 |
-| [DUMOS 抽屜櫃](Narrator/warnings/dumos-dresser-quality--2026-02-13.md) | 🟠 HIGH | **30% 瑕疵率**，塑膠滑軌設計缺陷 |
-| [If You Care 烘焙紙](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md) | 🔴 CRITICAL | **3% 火災風險**，標準烘焙溫度下起火 |
+## 我們怎麼做分析？
 
-### 比較報告 (2026-02-13)
+```
+Amazon 評論（最新 50-200 則）
+        ↓
+    AI 萃取關鍵資訊
+    ├── 產品聲明 vs 用戶體驗（有沒有吹牛？）
+    ├── 負評分類（產品問題 vs 物流問題）
+    ├── 問題發生頻率（多少 % 的人遇到）
+    └── 問題嚴重程度（小困擾 vs 安全風險）
+        ↓
+    產出報告（每日更新）
+```
+
+---
+
+## 最新發現
+
+### 🔴 安全警告
+
+| 產品 | 問題 | 風險 |
+|------|------|------|
+| [Sony WH-1000XM5 耳機](Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13.md) | 27% 轉軸斷裂 | 12-18月內故障，保固不涵蓋 |
+| [Amazon Basics 暖風機](Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md) | 16% 火災風險 | 冒煙、融化、燒焦味 |
+| [If You Care 烘焙紙](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md) | 3% 火災風險 | 標準烘焙溫度下起火 |
+| [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md) | 46% 一年內故障 | 嚴重品控問題 |
+
+### ⚖️ 熱門比較
 
 | 類別 | 結論 |
 |------|------|
-| [痘痘治療](Narrator/comparisons/acne-treatment--2026-02-13.md) | Mighty Patch 最安全、PanOxyl 最強效但刺激高、Medicube 最便宜但反應率 15% |
-| [身體保濕](Narrator/comparisons/body-moisturizing--2026-02-13.md) | CeraVe 97% 保濕滿意度勝出，eos 15% 幫浦故障 |
-| [臉部保濕](Narrator/comparisons/face-moisturizing--2026-02-13.md) | Biodance 92% 保濕滿意但 14% 致痘；Medicube 41% 黏膩感 |
-| [降噪耳機](Narrator/comparisons/noise-canceling-headphones--2026-02-13.md) | Sony 長途飛行首選但轉軸問題；AirPods Pro 便攜但 18% 掉落 |
+| [降噪耳機](Narrator/comparisons/noise-canceling-headphones--2026-02-13.md) | Sony 音質最佳但有轉軸問題；AirPods 便攜但 18% 掉落風險 |
+| [痘痘治療](Narrator/comparisons/acne-treatment--2026-02-13.md) | Mighty Patch 最安全；PanOxyl 最強效但刺激性高 |
+| [身體保濕](Narrator/comparisons/body-moisturizing--2026-02-13.md) | CeraVe 97% 滿意度勝出 |
+| [手部護理](Narrator/comparisons/hand-care--2026-02-12.md) | O'Keeffe's 86.7% 有效；敏感肌選 CeraVe |
 
 ---
 
-## 往期報告 (2026-02-12)
+## 報告類型說明
 
-> 2026-02-12：每日增量更新，處理 1 個新產品（手部護理類別），產出 1 份比較報告。
-
-### 比較報告 (2026-02-12)
-
-| 類別 | 結論 |
-|------|------|
-| [手部乾裂護理](Narrator/comparisons/hand-care--2026-02-12.md) | O'Keeffe's 86.7% 有效，但敏感肌建議 CeraVe、預算考量選 Curél |
-
----
-
-## 往期報告 (2026-02-11)
-
-> 2026-02-11：處理 7 個產品，建立 4 個新類別，產出 7 份報告（2 警告、1 痛點更新、2 比較、2 推薦更新）。
-
-### 警告報告 (2026-02-11) 🔴
-
-| 產品 | 風險等級 | 核心問題 |
-|------|---------|---------|
-| [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md) | 🔴 CRITICAL | **46% 一年內故障**，嚴重品控問題 |
-| [BigFoot 浴簾](Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md) | 🟠 HIGH | 「防霉」「重型」聲明與實際不符 |
-
-### 痛點報告 (2026-02-11)
-
-| 類別 | 核心問題 |
-|------|---------|
-| [相框品質（更新）](Narrator/pain_points/picture-frame--2026-02-11.md) | 新增 upsimples 11x14 分析：32% 損壞到貨、28% 材質虛報 |
-
-### 比較報告 (2026-02-11)
-
-| 類別 | 結論 |
-|------|------|
-| [抗老精華（更新）](Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md) | 新增 celimax Retinal 分析：效果兩極化 68% 正面/12% 無效 |
-| [咖啡濾紙](Narrator/comparisons/coffee-filter--comparison--2026-02-11.md) | 條件性推薦：84% 正面但需確認濾杯尺寸 |
-| [攝影背景布](Narrator/comparisons/photo-backdrop--2026-02-11.md) | 條件性推薦：短期使用可接受，耐用度有限 |
-
-### 推薦報告 (2026-02-11)
-
-| 類別 | 推薦產品 | 推薦理由 |
-|------|---------|---------|
-| [護唇產品（更新）](Narrator/recommendations/lip-care--recommendation--2026-02-11.md) | Burt's Bees / Aquaphor | 新增 Aquaphor Stick 分析，88% 快速修復支持 |
-
-### 推薦報告 (2026-02-10)
-
-| 類別 | 推薦產品 | 推薦理由 |
-|------|---------|---------|
-| 手部乾裂護理 | O'Keeffe's Working Hands | 已更新為[比較報告](Narrator/comparisons/hand-care--2026-02-12.md)：有更好選擇 |
-
-### 痛點報告 (2026-02-09)
-
-| 類別 | 核心問題 |
-|------|---------|
-| [相框品質](Narrator/pain_points/picture-frame--2026-02-09.md) | Amazon 預算相框系統性品質問題（尺寸不準、材質虛報） |
-| [紓壓玩具](Narrator/pain_points/squishy-toy--pain-points--2026-02-09.md) | 化學異味、耐用度差、品質不一致 |
-
-### 警告報告 (2026-02-09)
-
-| 產品 | 風險等級 | 核心問題 |
-|------|---------|---------|
-| [垃圾袋品質](Narrator/warnings/trash-bags--2026-02-09.md) | 🟠 HIGH | 品質不穩定、易破損 |
-
-### 比較報告 (2026-02-09)
-
-| 類別 | 結論 |
-|------|------|
-| [派對餐具](Narrator/comparisons/party-tableware--2026-02-09.md) | Hefty ECOSAVE 環保可堆肥，勝過傳統塑膠杯 |
-| [洗碗海綿](Narrator/comparisons/dish-sponge--2026-02-09.md) | Scrub Daddy 耐用但價高，O-Cedar 性價比佳 |
-| [地板拖把](Narrator/comparisons/floor-mopping--2026-02-09.md) | Swiffer 方便但耗材貴，O-Cedar 可重複使用 |
-| [洗衣去漬](Narrator/comparisons/laundry-stain--2026-02-09.md) | OxiClean 全能型首選 |
-| [皮革保養](Narrator/comparisons/leather-care--2026-02-09.md) | Leather Honey 深層滋養效果最佳 |
-| [紙巾](Narrator/comparisons/paper-towel--2026-02-09.md) | Bounty 吸水強但貴，Sparkle 預算選擇 |
+| 類型 | 圖示 | 說明 |
+|------|------|------|
+| **警告報告** | ⚠️ | 有重大品質或安全問題，建議避開 |
+| **比較報告** | ⚖️ | 同類產品優劣分析，幫你選對的 |
+| **推薦報告** | ✅ | 經分析後確實值得購買 |
+| **痛點報告** | 📊 | 整個品類都有問題，目前無好選擇 |
+| **假貨警報** | 🚨 | Amazon 上發現假貨風險 |
 
 ---
 
-## 監控清單
+## 瀏覽方式
 
-| 產品 | 監控原因 | 嚴重度 | 狀態 |
-|------|---------|--------|------|
-| Sony WH-1000XM5 (B09XS7JWHH) | 設計缺陷 | 🔴 critical | 🆕 新增監控 |
-| If You Care Parchment (B001T6JTMY) | 火災風險 | 🔴 critical | 🆕 新增監控 |
-| DUMOS Dresser (B0CH38DGNY) | 品質危機 | 🟠 high | 🆕 新增監控 |
-| bella Toaster (B0CYJBB2JQ) | 品質危機 | 🔴 critical | 持續監控 |
-| RELIEF SUN (B0CM5GBNPB) | 假貨風險 | 🔴 critical | 持續監控 |
-| Amazon Basics Space Heater | 火災風險 | 🔴 critical | 持續監控 |
-| HANYCONY Power Strip | 火災風險 | 🔴 critical | 持續監控 |
-| BigFoot Shower Curtain (B08CRPWQHB) | 聲明矛盾 | 🟠 high | 持續監控 |
-| Hefty Party Cups | 品質危機 | 🟠 high | 持續監控 |
-| upsimples Picture Frame | 品質危機 | 🟠 high | 持續監控 |
-| Emergen-C | 品質危機 | 🟠 high | 持續監控 |
+點擊左上角切換不同視圖：
+
+- 📅 **按時間**：看最新更新了什麼
+- 📁 **按類別**：找特定產品（如耳機、護膚品）
+- 📋 **按類型**：只看警告 / 只看推薦
 
 ---
 
-## 導覽
+## 持續監控中
 
-使用左側選單瀏覽所有報告。
+這些產品有已知問題，我們會持續追蹤是否改善或召回：
 
-- **警告報告**：有重大品質/安全問題的產品
-- **推薦報告**：經分析後值得購買的產品
-- **比較報告**：同類產品優劣比較
-- **痛點報告**：整個品類都有問題的市場缺口
-- **假貨警報**：發現假貨風險的產品
+| 產品 | 問題 | 狀態 |
+|------|------|------|
+| Sony WH-1000XM5 | 轉軸斷裂 | 🔴 新增監控 |
+| Amazon Basics 暖風機 | 火災風險 | 🔴 持續監控 |
+| RELIEF SUN 防曬 | 假貨風險 | 🔴 已確認假貨 |
+| bella 烤麵包機 | 46% 故障率 | 🔴 持續監控 |
+| HANYCONY 延長線 | 火災風險 | 🔴 持續監控 |
+
+---
+
+*最後更新：2026-02-13 ｜ 分析來源：Amazon US 真實購買評論*
