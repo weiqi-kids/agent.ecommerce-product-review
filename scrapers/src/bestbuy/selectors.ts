@@ -62,11 +62,17 @@ export const SELECTORS = {
  * Best Buy 使用多種格式：
  *   - 舊格式：/site/product-name/1234567.p（7 位數 SKU）
  *   - 新格式：/product/product-name/ABC123XYZ（字母數字 ID）
+ *   - 新格式變體：/product/product-name/ABC123XYZ/sku/12345678
+ *   - 新格式變體：/product/product-name/ABC123XYZ#tabbed-customerreviews
  */
 export function extractSkuFromUrl(url: string): string | null {
-  // 新格式：/product/{name}/{id} - ID 在最後一段
-  const newPattern = /\/product\/[^/]+\/([A-Z0-9]+)$/i;
-  const newMatch = url.match(newPattern);
+  // 移除 URL 片段（#...）
+  const cleanUrl = url.split('#')[0];
+
+  // 新格式：/product/{name}/{id} 或 /product/{name}/{id}/sku/{sku_number}
+  // ID 是第三段路徑（字母數字混合，通常 10 個字符）
+  const newPattern = /\/product\/[^/]+\/([A-Z0-9]{8,12})(?:\/|$)/i;
+  const newMatch = cleanUrl.match(newPattern);
   if (newMatch) return newMatch[1];
 
   // 舊格式：/site/{name}/{sku}.p 或 skuId 參數
@@ -77,7 +83,7 @@ export function extractSkuFromUrl(url: string): string | null {
   ];
 
   for (const pattern of oldPatterns) {
-    const match = url.match(pattern);
+    const match = cleanUrl.match(pattern);
     if (match) return match[1];
   }
   return null;

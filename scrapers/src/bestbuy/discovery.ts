@@ -27,10 +27,11 @@ import type { Page } from 'playwright';
 import { DISCOVERY_SELECTORS, extractSkuFromUrl } from './selectors.js';
 
 // Best Buy 熱門頁面 URL 模板（2026 年更新格式）
+// 注意：Best Buy 使用 /site/misc/ 和 /site/shop/ 路徑，非 /site/promo/
 const DISCOVERY_URLS: Record<string, string> = {
-  'top-rated': 'https://www.bestbuy.com/site/promo/top-rated-products',
-  'best-sellers': 'https://www.bestbuy.com/site/promo/best-sellers',
-  'deals': 'https://www.bestbuy.com/site/promo/tv-deals',  // TV deals 作為 deals 示例
+  'top-rated': 'https://www.bestbuy.com/site/misc/top-rated-products/pcmcat140900050011.c?id=pcmcat140900050011',
+  'best-sellers': 'https://www.bestbuy.com/site/shop/best-seller-games',  // 遊戲類最熱銷
+  'deals': 'https://www.bestbuy.com/site/promo/tv-deals',  // TV deals
   'new-arrivals': 'https://www.bestbuy.com/site/promo/new-arrivals',
 };
 
@@ -218,12 +219,22 @@ async function scrapeDiscoveryPage(
 async function scrollToLoadMore(page: Page, targetCount: number): Promise<void> {
   let lastHeight = 0;
   let scrollAttempts = 0;
-  const maxScrolls = Math.ceil(targetCount / 10); // 大約每次捲動載入 10 個
+  const maxScrolls = Math.ceil(targetCount / 5); // 每次捲動約載入 5 個
 
   while (scrollAttempts < maxScrolls) {
     // 捲動到底部
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await randomDelay(1000, 2000);
+    await randomDelay(1500, 2500);
+
+    // 等待 skeleton 元素消失（表示載入完成）
+    try {
+      await page.waitForFunction(
+        () => document.querySelectorAll('.skeleton-product-grid-view').length < 5,
+        { timeout: 5000 }
+      );
+    } catch {
+      // 超時則繼續
+    }
 
     // 檢查是否有新內容
     const newHeight = await page.evaluate(() => document.body.scrollHeight);
@@ -247,10 +258,11 @@ async function extractProducts(
   const selectors = DISCOVERY_SELECTORS.productGrid;
 
   for (const selector of selectors) {
-    const elements = await page.$$(selector);
+    // 排除 skeleton 佔位符和空分隔符
+    const elements = await page.$$(`${selector}:not(:has(.skeleton-product-grid-view)):not(.full-width-divider)`);
     if (elements.length === 0) continue;
 
-    console.log(`   使用選擇器: ${selector} (找到 ${elements.length} 個)`);
+    console.log(`   使用選擇器: ${selector} (找到 ${elements.length} 個有效商品)`);
 
     let rank = 1;
     for (const el of elements) {
