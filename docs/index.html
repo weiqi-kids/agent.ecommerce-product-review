@@ -65,12 +65,18 @@
     }
 
     /* 側邊欄日期標籤 */
-    .sidebar-nav li a {
+    .sidebar-nav li > a {
       display: flex !important;
-      justify-content: space-between;
-      align-items: center;
+      justify-content: space-between !important;
+      align-items: center !important;
     }
-    .sidebar-date {
+    .sidebar-nav li > a .nav-title {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .sidebar-nav li > a .nav-date {
       font-size: 0.75em;
       color: #999;
       margin-left: 8px;
@@ -134,19 +140,18 @@
             const sidebar = document.querySelector('.sidebar');
             if (!sidebar) return;
 
-            // 添加日期標籤到側邊欄連結
-            const links = sidebar.querySelectorAll('.sidebar-nav a[href*="--20"]');
+            // 格式化側邊欄連結：將「標題 MM-DD」分割成兩個 span
+            const links = sidebar.querySelectorAll('.sidebar-nav li > a');
             links.forEach(link => {
-              // 避免重複添加
-              if (link.querySelector('.sidebar-date')) return;
+              // 避免重複處理
+              if (link.querySelector('.nav-date')) return;
 
-              // 從 href 提取日期 (格式: --2026-02-14)
-              const match = link.getAttribute('href').match(/--(\d{4})-(\d{2})-(\d{2})/);
+              const text = link.textContent.trim();
+              // 匹配結尾的日期格式 MM-DD
+              const match = text.match(/^(.+?)\s+(\d{2}-\d{2})$/);
               if (match) {
-                const dateSpan = document.createElement('span');
-                dateSpan.className = 'sidebar-date';
-                dateSpan.textContent = match[2] + '-' + match[3]; // MM-DD
-                link.appendChild(dateSpan);
+                link.innerHTML = '<span class="nav-title">' + match[1] + '</span>' +
+                                 '<span class="nav-date">' + match[2] + '</span>';
               }
             });
 
