@@ -58,18 +58,25 @@ export const SELECTORS = {
 } as const;
 
 /**
- * 從 Best Buy URL 提取 SKU
- * Best Buy 使用 SKU ID 作為產品識別碼
+ * 從 Best Buy URL 提取產品 ID
+ * Best Buy 使用多種格式：
+ *   - 舊格式：/site/product-name/1234567.p（7 位數 SKU）
+ *   - 新格式：/product/product-name/ABC123XYZ（字母數字 ID）
  */
 export function extractSkuFromUrl(url: string): string | null {
-  // 匹配 /site/product-name/1234567.p 或 skuId=1234567
-  const patterns = [
+  // 新格式：/product/{name}/{id} - ID 在最後一段
+  const newPattern = /\/product\/[^/]+\/([A-Z0-9]+)$/i;
+  const newMatch = url.match(newPattern);
+  if (newMatch) return newMatch[1];
+
+  // 舊格式：/site/{name}/{sku}.p 或 skuId 參數
+  const oldPatterns = [
     /\/(\d{7})\.p/,
     /skuId=(\d{7})/,
     /\/product\/(\d{7})/,
   ];
 
-  for (const pattern of patterns) {
+  for (const pattern of oldPatterns) {
     const match = url.match(pattern);
     if (match) return match[1];
   }
@@ -100,31 +107,36 @@ export function buildSearchByNameUrl(name: string): string {
 
 /**
  * 構建產品頁 URL
+ * 根據 ID 格式選擇：7 位數字用舊格式，其他用新格式
  */
-export function buildProductUrl(sku: string): string {
-  return `https://www.bestbuy.com/site/${sku}.p`;
+export function buildProductUrl(productId: string): string {
+  const isOldFormat = /^\d{7}$/.test(productId);
+  return isOldFormat
+    ? `https://www.bestbuy.com/site/${productId}.p`
+    : `https://www.bestbuy.com/product/${productId}`;
 }
 
 /**
  * Discovery 專用選擇器（排名頁面）
+ * 2026 年更新：Best Buy 使用 .product-list-item 作為主要商品容器
  */
 export const DISCOVERY_SELECTORS = {
-  // 商品列表選擇器（按優先級排序）
+  // 商品列表選擇器（按優先級排序，.product-list-item 為 2026 新格式）
   productGrid: [
+    '.product-list-item',  // 2026 新格式（優先）
     '.sku-item',
     '[data-sku-id]',
     '.sku-item-list .sku-item',
-    '.product-list-item',
     'li.sku-item',
   ],
-  // 商品連結
-  productLink: '.sku-title a, .sku-header a, h4.sku-title a',
+  // 商品連結（2026 新格式使用 /product/ 路徑）
+  productLink: 'a[href*="/product/"], .sku-title a, .sku-header a, h4.sku-title a, a[href*=".p"]',
   // SKU 識別
   productSku: '[data-sku-id]',
   // 標題
-  title: '.sku-title, .sku-header a, h4.sku-title',
+  title: 'h4, .sku-title, .sku-header a, h4.sku-title, [class*="title"]',
   // 價格
-  price: '.priceView-customer-price span, .priceView-hero-price span[aria-hidden="true"]',
+  price: '[class*="price"], .priceView-customer-price span, .priceView-hero-price span[aria-hidden="true"]',
   // 評分
   rating: '.c-ratings-reviews .ugc-c-review-average, .c-ratings-reviews-v4 .c-ratings-reviews',
   // 評論數

@@ -26,12 +26,12 @@ import { parseCliArgs } from '../common/output.js';
 import type { Page } from 'playwright';
 import { DISCOVERY_SELECTORS, extractSkuFromUrl } from './selectors.js';
 
-// Best Buy 熱門頁面 URL 模板
+// Best Buy 熱門頁面 URL 模板（2026 年更新格式）
 const DISCOVERY_URLS: Record<string, string> = {
-  'top-rated': 'https://www.bestbuy.com/site/misc/top-rated-products/pcmcat140900050011.c?id=pcmcat140900050011',
-  'best-sellers': 'https://www.bestbuy.com/site/misc/best-sellers/pcmcat1702921702498.c?id=pcmcat1702921702498',
-  'deals': 'https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016',
-  'new-arrivals': 'https://www.bestbuy.com/site/misc/new-arrivals/pcmcat276900050003.c?id=pcmcat276900050003',
+  'top-rated': 'https://www.bestbuy.com/site/promo/top-rated-products',
+  'best-sellers': 'https://www.bestbuy.com/site/promo/best-sellers',
+  'deals': 'https://www.bestbuy.com/site/promo/tv-deals',  // TV deals 作為 deals 示例
+  'new-arrivals': 'https://www.bestbuy.com/site/promo/new-arrivals',
 };
 
 // 品類對應的 category ID（用於過濾）
@@ -87,7 +87,18 @@ async function main() {
   console.log(`🔍 Best Buy 商品發現: source=${source}, category=${category}, limit=${limit}`);
 
   const browser = await launchBrowser({ headless, timeout: 60000 });
-  const context = await createContext(browser, { locale: 'en-US', timeout: 60000 });
+  const context = await createContext(browser, {
+    locale: 'en-US',
+    timeout: 60000,
+    geolocation: { latitude: 37.7749, longitude: -122.4194 }, // San Francisco
+    permissions: ['geolocation'],
+  });
+
+  // 設定 cookies 跳過國家選擇頁面
+  await context.addCookies([
+    { name: 'intl_splash', value: 'false', domain: '.bestbuy.com', path: '/' },
+    { name: 'UID', value: 'US', domain: '.bestbuy.com', path: '/' },
+  ]);
 
   try {
     const page = await createPage(context);
@@ -129,17 +140,24 @@ async function main() {
       mkdirSync(dirname(outputFile), { recursive: true });
 
       // 輸出 JSONL 格式，每行一個產品
-      const lines = uniqueProducts.map(p => JSON.stringify({
-        sku: p.sku,
-        title: p.title,
-        rank: p.rank,
-        price: p.price || null,
-        rating: p.rating || null,
-        review_count: p.reviewCount || null,
-        source: p.source,
-        category: p.category,
-        url: `https://www.bestbuy.com/site/${p.sku}.p`
-      }));
+      // 根據 ID 格式選擇 URL：7 位數字用舊格式，其他用新格式
+      const lines = uniqueProducts.map(p => {
+        const isOldFormat = /^\d{7}$/.test(p.sku);
+        const url = isOldFormat
+          ? `https://www.bestbuy.com/site/${p.sku}.p`
+          : `https://www.bestbuy.com/product/${p.sku}`;
+        return JSON.stringify({
+          sku: p.sku,
+          title: p.title,
+          rank: p.rank,
+          price: p.price || null,
+          rating: p.rating || null,
+          review_count: p.reviewCount || null,
+          source: p.source,
+          category: p.category,
+          url,
+        });
+      });
       writeFileSync(outputFile, lines.join('\n') + '\n');
       console.log(`\n✅ 已輸出到 ${outputFile}（JSONL 格式）`);
     } else {
@@ -174,7 +192,7 @@ async function scrapeDiscoveryPage(
 
   // 如果有品類過濾，加入 URL 參數
   if (categoryId) {
-    url += `&qp=category_facet%3DCategory~${categoryId}`;
+    url += `?qp=category_facet%3DCategory~${categoryId}`;
   }
 
   console.log(`   📄 載入 ${url}`);
@@ -239,25 +257,31 @@ async function extractProducts(
       if (products.length >= limit) break;
 
       try {
-        // 提取 SKU
-        let sku = await el.getAttribute('data-sku-id');
-        if (!sku) {
-          // 嘗試從連結提取
-          const link = await el.$('a[href*=".p"]');
+        // 提取產品 ID（支援新舊格式）
+        let productId = await el.getAttribute('data-sku-id');
+        let productUrl = '';
+
+        if (!productId) {
+          // 嘗試從連結提取（優先新格式 /product/，然後舊格式 .p）
+          const link = await el.$('a[href*="/product/"], a[href*=".p"]');
           if (link) {
             const href = await link.getAttribute('href');
-            sku = href ? extractSkuFromUrl(href) : null;
+            if (href) {
+              productUrl = href;
+              productId = extractSkuFromUrl(href);
+            }
           }
         }
 
-        if (!sku || !/^\d{7}$/.test(sku)) continue;
+        // 驗證產品 ID（新格式為字母數字，舊格式為 7 位數字）
+        if (!productId || productId.length < 5) continue;
 
         // 提取標題
-        const titleEl = await el.$('.sku-title, .sku-header a, h4.sku-title');
+        const titleEl = await el.$('h4, .sku-title, .sku-header a, h4.sku-title, [class*="title"]');
         const title = titleEl ? (await titleEl.textContent())?.trim() || '' : '';
 
         // 提取價格
-        const priceEl = await el.$('.priceView-customer-price span, .priceView-hero-price span[aria-hidden="true"]');
+        const priceEl = await el.$('[class*="price"], .priceView-customer-price span');
         const price = priceEl ? (await priceEl.textContent())?.trim() || '' : '';
 
         // 提取評分
@@ -273,10 +297,10 @@ async function extractProducts(
         const reviewCount = reviewEl ? (await reviewEl.textContent())?.trim() || '' : '';
 
         // 檢查是否已存在
-        if (!products.find(p => p.sku === sku)) {
+        if (!products.find(p => p.sku === productId)) {
           products.push({
-            sku,
-            title: title || `Product ${sku}`,
+            sku: productId!,
+            title: title || `Product ${productId}`,
             rank,
             price,
             rating,

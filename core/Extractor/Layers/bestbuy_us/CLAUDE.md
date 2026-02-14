@@ -192,9 +192,17 @@ Best Buy 評論可作為 Amazon 評論的補充來源：
 
 ## URL 格式
 
-Best Buy 產品頁 URL 格式：
+Best Buy 產品頁 URL 格式（2026 年更新）：
+
+### 新格式（2026 年起）
+- `https://www.bestbuy.com/product/{product-name}/{alphanumeric-id}`
+- 例：`https://www.bestbuy.com/product/pioneer-50-class-led-4k-uhd-smart-roku-tv/J2FPJK9P43`
+- 產品 ID 為字母數字混合
+
+### 舊格式（仍有效）
 - `https://www.bestbuy.com/site/{product-name}/{sku}.p`
 - `https://www.bestbuy.com/site/{sku}.p`
+- SKU 為 7 位數字
 
-評論頁 URL 格式：
+### 評論頁
 - `https://www.bestbuy.com/site/reviews/{sku}?page={n}&sort=MOST_RECENT`
