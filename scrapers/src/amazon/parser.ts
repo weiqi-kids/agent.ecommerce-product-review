@@ -28,12 +28,14 @@ export async function parseProduct(page: Page, sourceUrl: string): Promise<Produ
   const breadcrumb = await parseBreadcrumb(page);
   const asin = extractAsinFromUrl(sourceUrl) || await parseAsin(page) || '';
   const seller = await parseSeller(page);
+  const imageUrl = await parseImageUrl(page);
 
   return {
     asin,
     upc: '',  // UPC 通常不在頁面上顯示
     title: title.trim(),
     brand,
+    image_url: imageUrl,
     price: {
       amount: price.amount,
       currency: price.currency,
@@ -261,6 +263,26 @@ async function parseSeller(page: Page): Promise<ProductSeller> {
     store_name: 'Amazon.com',
     is_official: true,
   };
+}
+
+async function parseImageUrl(page: Page): Promise<string | undefined> {
+  try {
+    const imgEl = await page.$(SELECTORS.product.image);
+    if (imgEl) {
+      // 優先取 data-old-hires（高解析度）或 src
+      let url = await imgEl.getAttribute('data-old-hires');
+      if (!url) {
+        url = await imgEl.getAttribute('src');
+      }
+      // 確保是有效的圖片 URL
+      if (url && url.startsWith('http') && !url.includes('data:image')) {
+        return url;
+      }
+    }
+    return undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 function parseDateString(dateText: string): string {

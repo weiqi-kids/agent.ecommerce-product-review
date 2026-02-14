@@ -15,9 +15,12 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 - `product_id`（ASIN 或 UPC/EAN）
 - `upc`/`ean`
 - `asin`
+- `sku`（Best Buy SKU）
+- `walmart_id`（Walmart Product ID）
 - `brand`
 - `title`（商品標題）
-- `platform`（來源平台）
+- `image_url`（商品主圖 URL）
+- `platform`（來源平台，單一來源時）
 - `store_id` / `store_name`
 - `category`（從品類 enum 中選擇）
 - `language`
@@ -26,6 +29,21 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 - `source_url`
 - `fetched_at`
 - `reviews_analyzed`（本批次分析的評論數）
+
+**多來源支援**（當聚合多平台評論時）：
+- `sources`：各來源統計列表
+  ```json
+  {
+    "sources": [
+      { "platform": "amazon_us", "review_count": 15, "avg_rating": 4.2 },
+      { "platform": "walmart_us", "review_count": 45, "avg_rating": 4.5 },
+      { "platform": "bestbuy_us", "review_count": 30, "avg_rating": 4.3 }
+    ],
+    "total_reviews": 90,
+    "match_method": "upc",
+    "match_confidence": "high"
+  }
+  ```
 
 **分批行為**：僅 batch_index = 1 時執行。
 
@@ -64,6 +82,18 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
   - `customer_service`（客服）
   - `compatibility`（相容性）
 - `mentions`：提及次數
+- `by_source`：按來源分佈（多來源時）
+  ```json
+  {
+    "aspect": "battery_life",
+    "mentions": 25,
+    "by_source": {
+      "amazon_us": 8,
+      "walmart_us": 12,
+      "bestbuy_us": 5
+    }
+  }
+  ```
 
 **分批行為**：每批獨立執行，最後合併加總 mentions。
 
@@ -79,6 +109,19 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 - `evidence`：代表性引述列表（保留原文語言）
   - `quote`：引述文字
   - `count`：持相似觀點的評論數
+  - `source`：來源平台（多來源時）
+- `score_by_source`：各來源情感分數（多來源時）
+  ```json
+  {
+    "aspect": "noise_cancellation",
+    "score": 0.85,
+    "score_by_source": {
+      "amazon_us": 0.82,
+      "walmart_us": 0.88,
+      "bestbuy_us": 0.85
+    }
+  }
+  ```
 
 **分批行為**：每批獨立執行，合併時重新計算加權平均 score。
 
@@ -95,6 +138,20 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
   - `medium`：影響使用體驗
   - `high`：影響產品核心功能或安全
 - `quotes`：代表性引述（保留原文語言）
+  - `quote`：引述文字
+  - `source`：來源平台（多來源時）
+- `frequency_by_source`：各來源問題頻率（多來源時）
+  ```json
+  {
+    "issue": "battery_drains_quickly",
+    "frequency": "15/90 (17%)",
+    "frequency_by_source": {
+      "amazon_us": "3/15 (20%)",
+      "walmart_us": "8/45 (18%)",
+      "bestbuy_us": "4/30 (13%)"
+    }
+  }
+  ```
 
 **分批行為**：每批獨立執行，合併時重新計算 frequency。
 
@@ -141,11 +198,15 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 
 ## L1: Product Grounding
 
+![{product_title}]({image_url})
+
 | Field | Value |
 |---|---|
 | **product_id** | {ASIN or UPC} |
 | **UPC/EAN** | {upc} |
 | **ASIN** | {asin} |
+| **SKU** | {sku} |
+| **Walmart ID** | {walmart_id} |
 | **Brand** | {brand} |
 | **Platform** | {layer_name} |
 | **Store** | {store_name} ({store_id}) |
@@ -157,6 +218,17 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 | **Fetched At** | {timestamp} |
 | **Reviews Analyzed** | {count} |
 
+### Sources (Multi-Source Only)
+
+<!-- 僅多來源聚合時顯示 -->
+
+| Platform | Reviews | Avg Rating | Match Method |
+|---|---|---|---|
+| amazon_us | {n} | {rating} | {upc/name_search} |
+| walmart_us | {n} | {rating} | {upc/name_search} |
+| bestbuy_us | {n} | {rating} | {upc/name_search} |
+| **Total** | **{total}** | **{weighted_avg}** | Confidence: {high/medium/low} |
+
 ## L2: Claim Extraction
 
 | # | Claim | Source | Type |
@@ -165,21 +237,27 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 
 ## L3: Aspect Extraction
 
-| Aspect | Category | Mentions |
-|---|---|---|
-| {aspect_key} | {aspect_category} | {count} |
+| Aspect | Category | Mentions | By Source |
+|---|---|---|---|
+| {aspect_key} | {aspect_category} | {count} | A:{n} W:{n} B:{n} |
+
+<!-- By Source 欄位僅多來源時顯示，格式為 A:Amazon W:Walmart B:BestBuy -->
 
 ## L4: Aspect Sentiment
 
-| Aspect | Sentiment | Score | Key Evidence |
-|---|---|---|---|
-| {aspect} | {pos/neg/mixed} | {0.0-1.0} | "{quote}" (x{n}) |
+| Aspect | Sentiment | Score | By Source | Key Evidence |
+|---|---|---|---|---|
+| {aspect} | {pos/neg/mixed} | {0.0-1.0} | A:{s} W:{s} B:{s} | "{quote}" (x{n}) |
+
+<!-- By Source 欄位僅多來源時顯示，顯示各來源的情感分數 -->
 
 ## L5: Issue Patterns
 
-| Issue | Frequency | Severity | Representative Quotes |
-|---|---|---|---|
-| {issue_key} | {n}/{total} ({pct}%) | {low/med/high} | "{quote}" |
+| Issue | Frequency | Severity | By Source | Representative Quotes |
+|---|---|---|---|---|
+| {issue_key} | {n}/{total} ({pct}%) | {low/med/high} | A:{n} W:{n} B:{n} | "{quote}" |
+
+<!-- By Source 欄位僅多來源時顯示，顯示各來源的問題頻率 -->
 
 ## L6: Evidence-Based Summary
 
@@ -236,6 +314,10 @@ batch_index > 1 時，只包含 L3-L5：
    - `high`：影響產品核心功能或安全（如電池爆炸、過敏反應）
    - `medium`：影響使用體驗（如續航短、噪音大）
    - `low`：不影響主要功能（如包裝不精美、顏色與圖片略有差異）
+5. **多來源合併**：
+   - 評論 ID 格式：`{platform}:{original_id}`（例：`walmart_us:R123456`）
+   - 引述標註來源：`"Great product" (Amazon)` 或 `"Excellent quality" (Walmart)`
+   - 各來源評論數需達 5 則以上才納入統計
 
 ## JSONL 行結構
 
@@ -291,7 +373,7 @@ batch_index > 1 時，只包含 L3-L5：
 
 萃取完成後，子代理必須逐項確認：
 
-- [ ] product_id 正確提取（ASIN 或 UPC/EAN）
+- [ ] product_id 正確提取（ASIN 或 UPC/EAN/SKU）
 - [ ] category 使用 enum 定義值
 - [ ] aspect 名稱使用英文
 - [ ] score 在 0.0-1.0 範圍內
@@ -301,3 +383,29 @@ batch_index > 1 時，只包含 L3-L5：
 - [ ] 未自行擴大 REVIEW_NEEDED 判定範圍
 - [ ] 未產生無來源的聲明
 - [ ] batch_index > 1 時未執行 L1-L2
+
+**多來源額外檢查**（僅適用於聚合多平台資料時）：
+
+- [ ] 各來源評論 ID 格式正確（`{platform}:{id}`）
+- [ ] 引述標註來源平台
+- [ ] by_source 欄位數據一致（加總等於 total）
+- [ ] match_confidence 反映實際匹配方式（UPC=high, name=low）
+- [ ] 各來源至少 5 則評論才納入統計
+
+## [REVIEW_NEEDED] 觸發規則
+
+### 單一來源
+
+1. 評論數 < 10 則
+2. 商品標題與 registry 不符 >30%
+3. 偵測到語言不符
+4. 聲明驗證發現直接矛盾
+5. 情感分數異常（同商品跨平台差異 >0.5）
+6. 價格異常（同商品跨店家差異 >50%）
+
+### 多來源聚合
+
+1. **所有來源加總** < 20 則（取代單一來源 < 10）
+2. 僅單一來源有效（其他來源搜尋失敗）
+3. match_confidence = low 且缺乏 UPC 驗證
+4. 各來源情感分數差異 > 0.3（可能匹配到不同產品）

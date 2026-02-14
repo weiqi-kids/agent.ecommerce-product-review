@@ -25,10 +25,13 @@ export interface ProductSeller {
 }
 
 export interface Product {
-  asin?: string;
-  upc?: string;
+  asin?: string;           // Amazon ASIN
+  upc?: string;            // UPC/EAN (跨平台匹配用)
+  sku?: string;            // Best Buy SKU
+  walmart_id?: string;     // Walmart Product ID
   title: string;
   brand: string;
+  image_url?: string;      // 商品主圖 URL
   price: ProductPrice;
   category_breadcrumb: string[];
   description: string;

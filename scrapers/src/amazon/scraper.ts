@@ -263,7 +263,8 @@ async function scrapeReviewsPage(
 }
 
 /**
- * 從商品頁抓取評論（不需登入，但評論數有限）
+ * 從商品頁抓取評論（不需登入，優化版）
+ * 策略：多次捲動 + 展開更多評論 + 嘗試載入更多
  */
 async function scrapeProductPageReviews(
   page: Page,
@@ -272,25 +273,102 @@ async function scrapeProductPageReviews(
   seenIds: Set<string>,
   language: string
 ): Promise<void> {
-  // 捲動載入更多評論
-  console.log('  📜 捲動載入評論...');
-  for (let scrollAttempt = 0; scrollAttempt < 10; scrollAttempt++) {
-    await page.evaluate(() => window.scrollBy(0, 800));
-    await randomDelay(500, 1000);
+  console.log('  📜 開始優化抓取（無需登入模式）...');
+
+  // 策略 1：深度捲動 - 多次捲動並等待動態載入
+  console.log('  ↓ 深度捲動載入評論...');
+  let previousHeight = 0;
+  for (let scrollAttempt = 0; scrollAttempt < 20; scrollAttempt++) {
+    const currentHeight = await page.evaluate(() => document.body.scrollHeight);
+
+    // 捲動到評論區域
+    await page.evaluate(() => {
+      const reviewSection = document.querySelector('#reviewsMedley, #cm-cr-dp-review-list, [data-hook="review"]');
+      if (reviewSection) {
+        reviewSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      window.scrollBy(0, 600);
+    });
+    await randomDelay(800, 1500);
+
+    // 如果頁面高度沒變化，可能已載入完畢
+    if (currentHeight === previousHeight && scrollAttempt > 5) {
+      break;
+    }
+    previousHeight = currentHeight;
   }
 
-  // 等待評論區載入
+  // 策略 2：嘗試點擊「展開更多評論」按鈕
+  const expandButtons = [
+    '[data-hook="see-all-reviews-link-foot"]',
+    '#reviews-medley-footer a',
+    '.cr-lighthouse-more-reviews',
+    '[data-action="reviews:load-more"]',
+    'a[data-hook="expand-review"]'
+  ];
+
+  for (const selector of expandButtons) {
+    try {
+      const button = await page.$(selector);
+      if (button) {
+        console.log(`  🔘 找到展開按鈕: ${selector}`);
+        await button.scrollIntoViewIfNeeded();
+        await randomDelay(300, 600);
+        // 注意：點擊後可能導向評論頁（需登入），所以只記錄不點擊
+        // 如果是 AJAX 載入則可以點擊
+        const href = await button.getAttribute('href');
+        if (!href || href === '#') {
+          await button.click();
+          await randomDelay(1000, 2000);
+        }
+      }
+    } catch {
+      // 繼續嘗試下一個
+    }
+  }
+
+  // 策略 3：等待評論區載入
   try {
     await page.waitForSelector('[data-hook="review"]', { timeout: 10000 });
   } catch {
     console.log('  ⏳ 等待評論元素超時...');
   }
 
-  // 從商品頁擷取評論
-  const reviewElements = await page.$$(SELECTORS.reviews.container);
-  console.log(`  🔍 找到 ${reviewElements.length} 則評論元素`);
+  // 策略 4：收集所有可見評論
+  const reviewContainers = [
+    '[data-hook="review"]',
+    '.review',
+    '#cm-cr-dp-review-list [data-hook="review"]',
+    '.a-section.review'
+  ];
 
-  for (const element of reviewElements) {
+  const allReviewElements: any[] = [];
+  for (const container of reviewContainers) {
+    const elements = await page.$$(container);
+    for (const el of elements) {
+      allReviewElements.push(el);
+    }
+  }
+
+  // 去重
+  const uniqueElements = new Map();
+  for (const element of allReviewElements) {
+    const id = await element.getAttribute('id') || await element.getAttribute('data-review-id');
+    if (id && !uniqueElements.has(id)) {
+      uniqueElements.set(id, element);
+    } else if (!id) {
+      // 無 ID 的元素用位置識別
+      const box = await element.boundingBox();
+      const key = box ? `${box.x}-${box.y}` : Math.random().toString();
+      if (!uniqueElements.has(key)) {
+        uniqueElements.set(key, element);
+      }
+    }
+  }
+
+  console.log(`  🔍 找到 ${uniqueElements.size} 則不重複評論元素`);
+
+  for (const element of uniqueElements.values()) {
     if (reviews.length >= maxReviews) break;
 
     const review = await parseReview(element);
@@ -303,9 +381,9 @@ async function scrapeProductPageReviews(
 
   console.log(`  ✅ 已抓取 ${reviews.length} 則評論`);
 
-  if (reviews.length < maxReviews) {
-    console.log(`  ⚠️ 商品頁評論數有限（約 8-15 則）`);
-    console.log(`     提示：執行 --login 登入後可抓取完整評論`);
+  if (reviews.length < 10) {
+    console.log(`  ⚠️ 評論數較少（${reviews.length} 則）`);
+    console.log(`     系統將搭配其他來源（Walmart, Best Buy）聚合分析`);
   }
 }
 

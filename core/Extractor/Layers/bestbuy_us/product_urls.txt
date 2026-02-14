@@ -1,0 +1,5 @@
+# Best Buy US 產品清單
+# 每行一個 URL 或 7 位數 SKU
+# 範例：
+# https://www.bestbuy.com/site/sony-wh-1000xm5/6505727.p
+# 6505727

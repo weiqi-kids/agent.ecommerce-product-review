@@ -16,11 +16,19 @@ export const SELECTORS = {
     breadcrumb: '#wayfinding-breadcrumbs_container .a-link-normal',
     asin: 'input[name="ASIN"], [data-asin]',
     sellerName: '#sellerProfileTriggerId, #merchant-info',
+    // 商品主圖（依優先順序）
+    image: '#landingImage, #imgBlkFront, #main-image, #ebooksImgBlkFront',
   },
 
   // === 評論列表頁 ===
   reviews: {
     container: '[data-hook="review"]',
+    // 備用容器選擇器（商品頁可能使用不同結構）
+    containerFallbacks: [
+      '#cm-cr-dp-review-list [data-hook="review"]',
+      '.a-section.review',
+      '#customerReviews [data-hook="review"]',
+    ],
     title: '[data-hook="review-title"] span:not(.a-color-secondary)',
     body: '[data-hook="review-body"] span',
     rating: '[data-hook="review-star-rating"] .a-icon-alt, [data-hook="cmps-review-star-rating"] .a-icon-alt',
@@ -31,6 +39,12 @@ export const SELECTORS = {
     pagination: {
       nextPage: 'li.a-last a',
     },
+    // 展開更多評論的按鈕
+    expandButtons: [
+      '[data-hook="see-all-reviews-link-foot"]',
+      '#reviews-medley-footer a',
+      '.cr-lighthouse-more-reviews',
+    ],
   },
 
   // === 評分分佈 ===
