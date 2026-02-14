@@ -948,6 +948,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "mascara-B08H3JPH74--maybelline--2026-02-15-md",
+    "title": "Maybelline Sky High Mascara",
+    "category": "mascara",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "mascara/B08H3JPH74--maybelline--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "mascara-B00T0C9XRK--essence--2026-02-13-md",
     "title": "essence | Lash Princess False Lash Effect Mascara",
     "category": "mascara",
@@ -1968,6 +1980,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "collagen-mask-B0BRMYHMS5--medicube--2026-02-15-md",
+    "title": "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask",
+    "category": "collagen-mask",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "collagen-mask/B0BRMYHMS5--medicube--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "coffee-filter-B0C4Z6SKCS--amazon_us--2026-02-11-md",
     "title": "Amazon Basics Basket Coffee Filters for 8-12 Cup Coffee Makers, White, 200 Count",
     "category": "coffee-filter",
@@ -1977,6 +2001,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "coffee-filter/B0C4Z6SKCS--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "brightening-serum-B0D8W1YVBX--eqqualberry--2026-02-15-md",
+    "title": "EQQUALBERRY Vitamin C Illuminating Serum",
+    "category": "brightening-serum",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "brightening-serum/B0D8W1YVBX--eqqualberry--2026-02-15.md",
     "source_layer": "amazon_us"
   },
   {
