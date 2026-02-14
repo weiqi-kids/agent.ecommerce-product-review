@@ -63,6 +63,19 @@
       display: block;
       margin-top: 2px;
     }
+
+    /* 側邊欄日期標籤 */
+    .sidebar-nav li a {
+      display: flex !important;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .sidebar-date {
+      font-size: 0.75em;
+      color: #999;
+      margin-left: 8px;
+      flex-shrink: 0;
+    }
   </style>
 </head>
 <body>
@@ -116,13 +129,29 @@
       notFoundPage: true,
       plugins: [
         function(hook, vm) {
-          // 在侧边栏渲染后注入切换按钮
+          // 在侧边栏渲染后注入切换按钮和日期標籤
           hook.doneEach(function() {
-            // 检查是否已存在切换按钮
-            if (document.querySelector('.sidebar-view-toggle')) return;
-
             const sidebar = document.querySelector('.sidebar');
             if (!sidebar) return;
+
+            // 添加日期標籤到側邊欄連結
+            const links = sidebar.querySelectorAll('.sidebar-nav a[href*="--20"]');
+            links.forEach(link => {
+              // 避免重複添加
+              if (link.querySelector('.sidebar-date')) return;
+
+              // 從 href 提取日期 (格式: --2026-02-14)
+              const match = link.getAttribute('href').match(/--(\d{4})-(\d{2})-(\d{2})/);
+              if (match) {
+                const dateSpan = document.createElement('span');
+                dateSpan.className = 'sidebar-date';
+                dateSpan.textContent = match[2] + '-' + match[3]; // MM-DD
+                link.appendChild(dateSpan);
+              }
+            });
+
+            // 检查是否已存在切换按钮
+            if (document.querySelector('.sidebar-view-toggle')) return;
 
             // 创建切换按钮容器
             const toggleContainer = document.createElement('div');
