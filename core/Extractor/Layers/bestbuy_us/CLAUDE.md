@@ -36,6 +36,14 @@ npx tsx src/bestbuy/discovery.ts \
   --output ../docs/Extractor/bestbuy_us/discovery/
 ```
 
+### 反爬蟲注意事項
+
+Best Buy 有較強的反爬蟲機制，**headless 模式可能無法正常運作**。
+
+解決方案：
+1. 使用 `--headless false` 開啟瀏覽器視窗執行
+2. 或直接使用 Walmart discovery 作為替代（限制較少）
+
 ### 品類對應
 
 | 品類 | Best Buy Category ID |

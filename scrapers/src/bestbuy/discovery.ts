@@ -16,6 +16,9 @@
  *
  *   # 輸出到檔案（JSONL 格式）
  *   npx tsx src/bestbuy/discovery.ts --source best-sellers --output ./discovered.jsonl
+ *
+ * 注意：Best Buy 有較強的反爬蟲機制，headless 模式可能無法正常運作。
+ *       建議使用 --headless false 開啟瀏覽器視窗執行。
  */
 
 import { launchBrowser, createContext, createPage, randomDelay } from '../common/browser.js';
@@ -110,6 +113,12 @@ async function main() {
     // 去重（同一 SKU 可能出現在多個列表）
     const uniqueProducts = deduplicateProducts(allProducts);
     console.log(`\n📦 共發現 ${uniqueProducts.length} 個不重複商品`);
+
+    // 如果沒找到商品，顯示警告
+    if (uniqueProducts.length === 0 && headless) {
+      console.log(`\n⚠️  未找到商品。Best Buy 有較強的反爬蟲機制。`);
+      console.log(`   建議使用 --headless false 開啟瀏覽器視窗執行。`);
+    }
 
     // 輸出結果
     if (outputFile) {
