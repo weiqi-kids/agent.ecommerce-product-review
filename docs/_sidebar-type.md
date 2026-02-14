@@ -1,6 +1,7 @@
 * [首頁](/)
 
 * **✅ 推薦報告**
+  * [頭皮屑治療](Narrator/recommendations/dandruff-treatment--2026-02-14.md)
   * [護唇產品](Narrator/recommendations/lip-care--recommendation--2026-02-11.md)
   * [手部乾裂護理](Narrator/recommendations/hand-care--2026-02-10.md)
   * [護唇產品](Narrator/recommendations/lip-care--recommendation--2026-02-06.md)

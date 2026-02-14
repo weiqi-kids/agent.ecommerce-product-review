@@ -1,6 +1,7 @@
 * [首頁](/)
 
 * **每日摘要**
+  * [2026-02-14](daily_summary/2026-02-14.md)
   * [2026-02-13](daily_summary/2026-02-13.md)
   * [2026-02-12](daily_summary/2026-02-12.md)
   * [2026-02-11](daily_summary/2026-02-11.md)
@@ -9,6 +10,9 @@
   * [2026-02-08](daily_summary/2026-02-08.md)
   * [2026-02-07](daily_summary/2026-02-07.md)
   * [2026-02-05](daily_summary/2026-02-05.md)
+
+* **2026-02-14** (1)
+  * [✅ 頭皮屑治療](Narrator/recommendations/dandruff-treatment--2026-02-14.md)
 
 * **2026-02-13** (8)
   * [⚠️ Amazon Basics 暖風機火災風險](Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md)

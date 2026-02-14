@@ -44,6 +44,12 @@ Amazon 評論（最新 50-200 則）
 | [If You Care 烘焙紙](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md) | 3% 火災風險 | 標準烘焙溫度下起火 |
 | [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md) | 46% 一年內故障 | 嚴重品控問題 |
 
+### ✅ 最新推薦
+
+| 類別 | 推薦產品 | 理由 |
+|------|----------|------|
+| [頭皮屑治療](Narrator/recommendations/dandruff-treatment--2026-02-14.md) | Nizoral | 92% 有效、93% 止癢，唯一 OTC 含 1% Ketoconazole |
+
 ### ⚖️ 熱門比較
 
 | 類別 | 結論 |

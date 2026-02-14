@@ -1,32 +1,41 @@
 {
-  "last_updated": "2026-02-13T14:00:00Z",
-  "last_completed_date": "2026-02-13",
-  "execution_mode": "partial_completion",
+  "last_updated": "2026-02-14T12:00:00Z",
+  "last_completed_date": "2026-02-14",
+  "execution_mode": "daily_incremental",
   "current_step": 8,
   "steps": {
-    "step_1": { "status": "skipped", "note": "No watchlist items due" },
-    "step_2": { "status": "skipped", "note": "No gaps to fill" },
-    "step_3": { "status": "completed", "note": "Discovery done in previous session" },
-    "step_4": { "status": "completed", "note": "Grouping done in previous session" },
-    "step_5": { "status": "completed", "note": "Research done in previous session" },
+    "step_1": { "status": "skipped", "note": "No watchlist items due today" },
+    "step_2": { "status": "skipped", "note": "23 REVIEW_NEEDED reports identified, no immediate action" },
+    "step_3": { "status": "skipped", "note": "Discovery completed yesterday (2026-02-13)" },
+    "step_4": { "status": "skipped", "note": "Grouping completed yesterday" },
+    "step_5": { "status": "skipped", "note": "Research completed yesterday for 12 new categories" },
     "step_6": {
       "status": "partial",
-      "note": "20 products extracted, 4 truly pending (others already have prior extractions)",
+      "note": "4 ASINs still pending (fetch returned empty data)",
       "pending_asins": ["B019NZC39U", "B08H3JPH74", "B0BRMYHMS5", "B0D8W1YVBX"],
-      "extracted_products": 20,
+      "fetch_issue": "Scraper returned 'Unknown Product' with 0 reviews - needs re-login or retry",
+      "extractions_yesterday": 45,
       "review_needed": ["B0B6R8N6WQ", "B00SNPCSUY", "B00OCGUG02", "B07V6M4MSN"]
     },
-    "step_7": { "status": "partial", "note": "Warning report generated for space-heater" },
+    "step_7": { "status": "completed", "note": "Comparison analysis done for dandruff-treatment" },
     "step_8": {
-      "status": "partial",
-      "note": "1 warning report generated (B07V6M4MSN)",
-      "reports_generated": ["docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"]
+      "status": "completed",
+      "note": "1 new recommendation report generated",
+      "reports_generated": [
+        "docs/Narrator/recommendations/dandruff-treatment--2026-02-14.md"
+      ],
+      "categories_pending_report": [
+        "mascara", "makeup-removal", "eye-puffiness", "facial-cleanser",
+        "hydrating-serum", "exfoliating-toner", "natural-deodorant", "face-towels"
+      ]
     }
   },
   "summary": {
-    "extractions_today": 20,
-    "warnings_issued": 1,
+    "extractions_today": 0,
+    "reports_today": 1,
+    "warnings_issued": 0,
     "pending_refetch": 4,
-    "review_needed_products": 4
+    "review_needed_reports": 23,
+    "new_categories_researched_yesterday": 12
   }
 }

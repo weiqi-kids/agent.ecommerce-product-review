@@ -15,6 +15,7 @@
   * [eos Body Lotion](Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md)
 
 * **美妝保養**
+  * [頭皮屑治療](Narrator/recommendations/dandruff-treatment--2026-02-14.md)
   * [護唇產品](Narrator/recommendations/lip-care--recommendation--2026-02-11.md)
   * [抗老精華](Narrator/comparisons/anti-aging-serum--comparison--2026-02-11.md)
   * [臉部保濕](Narrator/comparisons/face-moisturizing--2026-02-07.md)
