@@ -6,6 +6,7 @@
 #   ./fetch.sh                    # 從 product_urls.txt 抓取
 #   ./fetch.sh --upc 012345678901 # 透過 UPC 搜尋並抓取
 #   ./fetch.sh --search "Sony"    # 透過名稱搜尋
+#   ./fetch.sh --discovery best-sellers electronics 50  # 商品發現
 #
 
 set -e
@@ -26,7 +27,30 @@ mkdir -p "$OUTPUT_DIR"
 cd "$SCRAPER_DIR"
 
 # 處理命令列參數
-if [[ "$1" == "--upc" ]]; then
+if [[ "$1" == "--discovery" ]]; then
+    # Discovery 模式：抓取排行榜
+    SOURCE="${2:-best-sellers}"
+    CATEGORY="${3:-electronics}"
+    LIMIT="${4:-50}"
+    DISCOVERY_DIR="$PROJECT_ROOT/docs/Extractor/walmart_us/discovery"
+
+    mkdir -p "$DISCOVERY_DIR"
+
+    echo "🔍 商品發現模式: source=$SOURCE, category=$CATEGORY, limit=$LIMIT"
+
+    npx tsx src/walmart/discovery.ts \
+        --source "$SOURCE" \
+        --category "$CATEGORY" \
+        --limit "$LIMIT" \
+        --output "$DISCOVERY_DIR/walmart--${CATEGORY}--$(date +%Y-%m-%d).jsonl" \
+        --headless "$HEADLESS"
+
+    echo ""
+    echo "✅ Discovery 完成"
+    echo "📁 輸出檔案: $DISCOVERY_DIR/walmart--${CATEGORY}--$(date +%Y-%m-%d).jsonl"
+    exit 0
+
+elif [[ "$1" == "--upc" ]]; then
     # UPC 搜尋模式
     UPC="$2"
     echo "🔍 透過 UPC 搜尋: $UPC"

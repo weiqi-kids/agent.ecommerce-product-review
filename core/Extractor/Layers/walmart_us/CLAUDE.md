@@ -7,6 +7,70 @@
 - **不需登入**：Walmart 評論頁公開可存取
 - **支援 UPC 匹配**：可透過 UPC 跨平台搜尋對應產品
 - **支援搜尋**：可透過產品名稱搜尋
+- **支援 Discovery**：可自動發現排行榜熱門商品
+
+## Discovery 功能
+
+### 支援的排名來源
+
+| 來源 | 說明 | URL |
+|------|------|-----|
+| `best-sellers` | 銷售排行榜 | `/shop/best-sellers` |
+| `trending` | 趨勢產品 | `/shop/trending` |
+| `deals` | 特價商品 | `/shop/deals` |
+| `new-arrivals` | 新品上架 | `/shop/new-arrivals` |
+
+### 執行方式
+
+```bash
+# 透過 fetch.sh（推薦）
+./fetch.sh --discovery best-sellers electronics 50
+
+# 直接執行 discovery.ts
+cd scrapers
+npx tsx src/walmart/discovery.ts \
+  --source best-sellers \
+  --category electronics \
+  --limit 50 \
+  --output ../docs/Extractor/walmart_us/discovery/
+```
+
+### 品類對應
+
+| 品類 | Walmart URL Path |
+|------|------------------|
+| electronics | electronics |
+| computers | computers |
+| cell-phones | cell-phones |
+| home | home |
+| tv-video | tv-video |
+| toys | toys |
+| baby | baby |
+| beauty | beauty |
+| health | health |
+| sports-outdoors | sports-outdoors |
+| automotive | auto-tires |
+| food-beverage | food |
+| pet | pets |
+| all | （全站） |
+
+### 輸出格式
+
+JSONL 格式，每行一個產品：
+
+```json
+{
+  "product_id": "123456789",
+  "title": "Samsung 65\" Class 4K UHD...",
+  "rank": 1,
+  "price": "$499.00",
+  "rating": "4.5",
+  "review_count": "1,234",
+  "source": "best-sellers",
+  "category": "electronics",
+  "url": "https://www.walmart.com/ip/123456789"
+}
+```
 
 ## 資料流
 

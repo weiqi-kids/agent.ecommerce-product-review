@@ -8,6 +8,67 @@
 - **支援 SKU 搜尋**：Best Buy 使用 7 位數 SKU 作為產品識別碼
 - **支援 UPC 匹配**：可透過 UPC 跨平台搜尋對應產品
 - **電子產品專長**：Best Buy 以電子產品為主，評論質量較高
+- **支援 Discovery**：可自動發現排行榜熱門商品
+
+## Discovery 功能
+
+### 支援的排名來源
+
+| 來源 | 說明 | URL |
+|------|------|-----|
+| `top-rated` | 高評價產品 | `/site/misc/top-rated-products/` |
+| `best-sellers` | 銷售排行榜 | `/site/misc/best-sellers/` |
+| `deals` | 特價商品 | `/site/misc/deal-of-the-day/` |
+| `new-arrivals` | 新品上架 | `/site/misc/new-arrivals/` |
+
+### 執行方式
+
+```bash
+# 透過 fetch.sh（推薦）
+./fetch.sh --discovery best-sellers electronics 50
+
+# 直接執行 discovery.ts
+cd scrapers
+npx tsx src/bestbuy/discovery.ts \
+  --source best-sellers \
+  --category electronics \
+  --limit 50 \
+  --output ../docs/Extractor/bestbuy_us/discovery/
+```
+
+### 品類對應
+
+| 品類 | Best Buy Category ID |
+|------|---------------------|
+| electronics | abcat0100000 |
+| computers | abcat0500000 |
+| cell-phones | abcat0800000 |
+| appliances | abcat0900000 |
+| tv | abcat0101000 |
+| audio | abcat0200000 |
+| cameras | abcat0400000 |
+| gaming | abcat0700000 |
+| wearables | pcmcat332000050000 |
+| smart-home | pcmcat254000050002 |
+| all | （全站） |
+
+### 輸出格式
+
+JSONL 格式，每行一個產品：
+
+```json
+{
+  "sku": "6505727",
+  "title": "Sony - WH-1000XM5...",
+  "rank": 1,
+  "price": "$349.99",
+  "rating": "4.7",
+  "review_count": "2,345",
+  "source": "best-sellers",
+  "category": "electronics",
+  "url": "https://www.bestbuy.com/site/6505727.p"
+}
+```
 
 ## 資料流
 

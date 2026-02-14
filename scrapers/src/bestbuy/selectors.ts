@@ -104,3 +104,34 @@ export function buildSearchByNameUrl(name: string): string {
 export function buildProductUrl(sku: string): string {
   return `https://www.bestbuy.com/site/${sku}.p`;
 }
+
+/**
+ * Discovery 專用選擇器（排名頁面）
+ */
+export const DISCOVERY_SELECTORS = {
+  // 商品列表選擇器（按優先級排序）
+  productGrid: [
+    '.sku-item',
+    '[data-sku-id]',
+    '.sku-item-list .sku-item',
+    '.product-list-item',
+    'li.sku-item',
+  ],
+  // 商品連結
+  productLink: '.sku-title a, .sku-header a, h4.sku-title a',
+  // SKU 識別
+  productSku: '[data-sku-id]',
+  // 標題
+  title: '.sku-title, .sku-header a, h4.sku-title',
+  // 價格
+  price: '.priceView-customer-price span, .priceView-hero-price span[aria-hidden="true"]',
+  // 評分
+  rating: '.c-ratings-reviews .ugc-c-review-average, .c-ratings-reviews-v4 .c-ratings-reviews',
+  // 評論數
+  reviewCount: '.c-reviews .c-total-reviews, .c-ratings-reviews-v4 .c-total-reviews',
+  // 分頁
+  pagination: {
+    nextPage: '.sku-list-page-next, [aria-label="Next page"]',
+    loadMore: '.load-more-button, [data-track="load-more"]',
+  },
+} as const;

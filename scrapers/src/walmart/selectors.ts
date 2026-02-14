@@ -99,3 +99,34 @@ export function buildSearchByNameUrl(name: string): string {
   const encoded = encodeURIComponent(name);
   return `https://www.walmart.com/search?q=${encoded}`;
 }
+
+/**
+ * Discovery 專用選擇器（排名頁面）
+ */
+export const DISCOVERY_SELECTORS = {
+  // 商品列表選擇器（按優先級排序）
+  productGrid: [
+    '[data-item-id]',
+    '[data-testid="item-stack"] > div',
+    '.search-result-gridview-item',
+    '[data-testid="search-result-item"]',
+    '.product-grid-item',
+  ],
+  // 商品連結
+  productLink: '[data-testid="product-title-link"], a[link-identifier="itemLink"]',
+  // Product ID 識別
+  productId: '[data-item-id], [data-product-id]',
+  // 標題
+  title: '[data-automation-id="product-title"], .product-title-link span',
+  // 價格
+  price: '[data-automation-id="product-price"] span, .price-characteristic',
+  // 評分
+  rating: '[data-testid="product-ratings"] .stars-container',
+  // 評論數
+  reviewCount: '[data-testid="product-ratings"] .rating-number',
+  // 分頁
+  pagination: {
+    nextPage: '[data-testid="NextPage"], .paginator-next',
+    loadMore: '[data-testid="load-more"]',
+  },
+} as const;
