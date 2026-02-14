@@ -147,8 +147,8 @@
               if (link.querySelector('.nav-date')) return;
 
               const text = link.textContent.trim();
-              // 匹配結尾的日期格式 MM-DD
-              const match = text.match(/^(.+?)\s+(\d{2}-\d{2})$/);
+              // 匹配結尾的日期格式 YYYY-MM-DD
+              const match = text.match(/^(.+?)\s+(\d{4}-\d{2}-\d{2})$/);
               if (match) {
                 link.innerHTML = '<span class="nav-title">' + match[1] + '</span>' +
                                  '<span class="nav-date">' + match[2] + '</span>';
