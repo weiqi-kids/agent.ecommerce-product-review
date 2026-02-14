@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
     "scrape:amazon": "tsx src/amazon/scraper.ts",
     "discover:amazon": "tsx src/amazon/discovery.ts",
     "batch:amazon": "tsx src/amazon/batch-scrape.ts"
@@ -16,6 +18,7 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsx": "^4.19.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "^4.0.18"
   }
 }
