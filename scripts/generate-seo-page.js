@@ -528,30 +528,53 @@ function processFile(inputPath, outputDir) {
 }
 
 /**
- * 處理所有警告和假貨報告
+ * 處理所有報告（所有類型）
  */
 function processAll() {
   const docsDir = path.join(__dirname, '..', 'docs');
   const outputDir = path.join(docsDir, 'pages');
 
+  // 所有報告類型目錄
   const dirs = [
     path.join(docsDir, 'Narrator', 'warnings'),
-    path.join(docsDir, 'Narrator', 'counterfeits')
+    path.join(docsDir, 'Narrator', 'counterfeits'),
+    path.join(docsDir, 'Narrator', 'pain_points'),
+    path.join(docsDir, 'Narrator', 'recommendations'),
+    path.join(docsDir, 'Narrator', 'comparisons')
   ];
 
   const results = [];
+  const stats = {
+    warning: 0,
+    counterfeit: 0,
+    pain_point: 0,
+    recommendation: 0,
+    comparison: 0
+  };
 
   dirs.forEach(dir => {
     if (!fs.existsSync(dir)) return;
 
     const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
     files.forEach(file => {
-      const result = processFile(path.join(dir, file), outputDir);
-      results.push(result);
+      try {
+        const result = processFile(path.join(dir, file), outputDir);
+        results.push(result);
+        if (stats[result.data.reportType] !== undefined) {
+          stats[result.data.reportType]++;
+        }
+      } catch (err) {
+        console.error(`❌ 錯誤處理 ${file}: ${err.message}`);
+      }
     });
   });
 
   console.log(`\n🎉 完成! 共處理 ${results.length} 個檔案`);
+  console.log('📊 統計:');
+  Object.entries(stats).forEach(([type, count]) => {
+    if (count > 0) console.log(`   ${type}: ${count}`);
+  });
+
   return results;
 }
 
@@ -561,13 +584,23 @@ function processAll() {
 function generateSitemap(results) {
   const docsDir = path.join(__dirname, '..', 'docs');
 
+  // 報告類型優先級
+  const priorityMap = {
+    warning: '0.9',       // 安全警告最高優先
+    counterfeit: '0.9',   // 假貨警報最高優先
+    pain_point: '0.8',    // 痛點報告
+    recommendation: '0.8', // 推薦報告
+    comparison: '0.7'     // 比較報告
+  };
+
   const urls = results.map(r => {
     const url = `${SITE_CONFIG.url}/pages/${r.data.reportType}s/${r.data.fileName}.html`;
+    const priority = priorityMap[r.data.reportType] || '0.7';
     return `  <url>
     <loc>${url}</loc>
     <lastmod>${r.data.date}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>${r.data.reportType === 'warning' ? '0.9' : '0.8'}</priority>
+    <priority>${priority}</priority>
   </url>`;
   });
 
