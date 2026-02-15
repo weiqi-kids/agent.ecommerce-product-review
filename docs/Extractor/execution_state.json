@@ -17,7 +17,13 @@
       "total_discovered": 160,
       "new_products": 116
     },
-    "step_4": { "status": "completed", "note": "56 new products identified, pending grouping for next execution" },
+    "step_4": {
+      "status": "completed",
+      "note": "116 products grouped: 95 to existing categories, 21 uncategorized",
+      "existing_categories_updated": 15,
+      "new_categories_added": 18,
+      "uncategorized": 21
+    },
     "step_5": { "status": "skipped", "note": "8 categories already had research from 2026-02-13" },
     "step_6": {
       "status": "completed",
@@ -64,7 +70,8 @@
       "amazon_us": 80,
       "bestbuy_us": 20,
       "walmart_us": 60,
-      "new_products_pending": 116
+      "new_products_grouped": 116,
+      "new_categories_added": 18
     }
   }
 }

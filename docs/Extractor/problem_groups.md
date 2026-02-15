@@ -1,11 +1,12 @@
 # 產品問題分組
 
-最後更新：2026-02-13
+最後更新：2026-02-15
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：173
-問題類別數：59
+產品總數：289
+問題類別數：77
 分組原則：按具體問題分組（v2 - 問題導向）
+本次更新：多平台 Discovery 新增 116 產品（Amazon 80 + Best Buy 20 + Walmart 60）
 
 ---
 
@@ -18,7 +19,7 @@
 | hand-care | 手部乾裂護理 | 1 | ✅ 已完成 |
 | anti-aging-serum | 抗老化精華護理 | 5 | ⚠️ 需補充 |
 | lip-care | 嘴唇乾裂護理 | 4 | ✅ 已完成 |
-| acne-treatment | 痘痘粉刺治療 | 3 | ✅ 已完成 |
+| acne-treatment | 痘痘粉刺治療 | 7 | ✅ 已完成 |
 | sun-protection | 防曬保護 | 1 | ✅ 已完成 |
 | teeth-whitening | 牙齒美白 | 1 | ✅ 已完成 |
 | hair-extension | 接髮增量 | 1 | ⚠️ 需補充 |
@@ -41,7 +42,7 @@
 | cradle-cap | 嬰兒頭皮乳痂 | 1 | ⚠️ 需補充 |
 | bath-toys | 洗澡玩具 | 1 | ⚠️ 需補充 |
 | baby-car-monitor | 車用嬰兒監視器 | 1 | ⚠️ 需補充 |
-| building-blocks | 積木組裝玩具 | 11 | ⚠️ 需補充 |
+| building-blocks | 積木組裝玩具 | 15 | ⚠️ 需補充 |
 | board-games | 桌遊 | 1 | ⚠️ 需補充 |
 | art-supplies | 繪畫用品 | 2 | ⚠️ 需補充 |
 | trading-cards | 收藏卡牌遊戲 | 3 | ✅ 已完成 |
@@ -50,7 +51,7 @@
 | party-balloon | 派對氣球 | 1 | ⚠️ 需補充 |
 | valentine-cards | 情人節卡片禮物 | 3 | ⚠️ 需補充 |
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
-| streaming-stick | 電視串流棒 | 1 | ✅ 已完成 |
+| streaming-stick | 電視串流棒 | 6 | ✅ 已完成 |
 | noise-cancelling-headphone | 降噪耳機 | 2 | ✅ 已完成 |
 | item-tracker | 物品追蹤器 | 1 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
@@ -71,17 +72,34 @@
 | party-tableware | 派對一次性餐具 | 1 | ⏳ 待研究 |
 | pillow-case | 枕套更換 | 1 | ⏳ 待研究 |
 | dandruff-treatment | 頭皮屑治療 | 1 | ⏳ 待研究 |
-| mascara | 睫毛增長加密 | 2 | ⏳ 待研究 |
-| makeup-removal | 卸妝清潔 | 2 | ⏳ 待研究 |
+| mascara | 睫毛增長加密 | 6 | ⏳ 待研究 |
+| makeup-removal | 卸妝清潔 | 7 | ⏳ 待研究 |
 | eye-puffiness | 眼部浮腫黑眼圈 | 1 | ⏳ 待研究 |
-| facial-cleanser | 臉部清潔洗面乳 | 1 | ⏳ 待研究 |
+| facial-cleanser | 臉部清潔洗面乳 | 4 | ⏳ 待研究 |
 | hydrating-serum | 保濕精華液 | 1 | ⏳ 待研究 |
 | exfoliating-toner | 去角質化妝水 | 1 | ⏳ 待研究 |
 | natural-deodorant | 天然體香劑 | 1 | ⏳ 待研究 |
 | face-towels | 一次性洗臉巾 | 1 | ⏳ 待研究 |
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
-| collagen-mask | 膠原蛋白面膜 | 1 | ⏳ 待研究 |
+| collagen-mask | 膠原蛋白面膜 | 2 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 7 | ⏳ 待研究 |
+| e-reader | 電子書閱讀器 | 2 | ⏳ 待研究 |
+| video-doorbell | 智慧門鈴監控 | 2 | ⏳ 待研究 |
+| electrolyte-hydration | 電解質補充 | 2 | ⏳ 待研究 |
+| probiotic-supplement | 益生菌補充 | 2 | ⏳ 待研究 |
+| flushable-wipes | 可沖式濕紙巾 | 2 | ⏳ 待研究 |
+| hair-styling-hold | 頭髮定型噴霧 | 2 | ⏳ 待研究 |
+| hair-repair-treatment | 受損髮質修復 | 2 | ⏳ 待研究 |
+| hair-frizz-control | 抗毛躁護髮 | 2 | ⏳ 待研究 |
+| home-hair-color | 居家染髮 | 2 | ⏳ 待研究 |
+| nail-polish-remover | 卸甲液 | 2 | ⏳ 待研究 |
+| video-game-console | 主機電玩遊戲 | 10 | ⏳ 待研究 |
+| kids-bike | 兒童腳踏車 | 9 | ⏳ 待研究 |
+| ride-on-toy | 騎乘玩具 | 5 | ⏳ 待研究 |
+| giant-teddy-bear | 大型絨毛玩具 | 3 | ⏳ 待研究 |
+| action-figure | 角色公仔 | 3 | ⏳ 待研究 |
+| toy-cars | 玩具車模型 | 2 | ⏳ 待研究 |
 
 ---
 
@@ -1332,10 +1350,12 @@
 - 捲翹型睫毛膏
 
 **包含產品**：
-| product_id | 商品名稱 | 採用的解決方法 |
-|-----------|---------|---------------|
-| B00T0C9XRK | essence Lash Princess False Lash Effect Mascara | 濃密纖長睫毛膏 |
-| B08H3JPH74 | Maybelline Sky High Washable Mascara | 纖長型睫毛膏 |
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B00T0C9XRK | essence Lash Princess False Lash Effect Mascara | 濃密纖長睫毛膏 | Amazon |
+| B08H3JPH74 | Maybelline Sky High Washable Mascara | 纖長型睫毛膏 | Amazon |
+| 41128609 | Maybelline Lash Sensational Washable Mascara | 纖長型睫毛膏 | Walmart |
+| 895086 | L'Oreal Paris Voluminous Original Mascara | 濃密型睫毛膏 | Walmart |
 
 **研究文件**：`research/mascara--{date}.md`
 **競品文件**：`competitors/mascara--{date}.md`
@@ -1553,6 +1573,224 @@
 
 ---
 
+### wireless-earbuds
+
+**問題描述**：需要無線藍牙耳機收聽音樂/通話
+
+**問題成因**：有線耳機不便、運動需求、多設備切換
+
+**常見解決方法**：
+- 真無線藍牙耳機
+- 頸掛式藍牙耳機
+- 運動防水耳機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| - | Apple AirPods 4 | 真無線藍牙耳機 | Amazon |
+| - | Apple AirPods Pro 3 | 主動降噪真無線 | Amazon |
+| - | TAGRY Bluetooth Headphones | 真無線藍牙耳機 | Amazon |
+| - | JLab Go Air Pop+ | 真無線藍牙耳機 | Amazon |
+| - | JBL Vibe Beam | 真無線藍牙耳機 | Amazon |
+
+**研究文件**：`research/wireless-earbuds--{date}.md`
+**競品文件**：`competitors/wireless-earbuds--{date}.md`
+
+---
+
+### video-game-console
+
+**問題描述**：主機電玩遊戲娛樂
+
+**問題成因**：休閒娛樂、社交互動、家庭活動
+
+**常見解決方法**：
+- Nintendo Switch 遊戲
+- PlayStation 遊戲
+- Xbox 遊戲
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| 6523377 | Cuphead - Nintendo Switch | 動作遊戲 | Best Buy |
+| 6519764 | It Takes Two - Nintendo Switch | 合作冒險 | Best Buy |
+| - | Minecraft - Nintendo Switch | 沙盒創造 | Best Buy |
+| - | Animal Crossing - Nintendo Switch | 生活模擬 | Best Buy |
+| - | Mario Kart 8 Deluxe | 賽車競技 | Best Buy |
+| - | Super Smash Bros Ultimate | 格鬥對戰 | Best Buy |
+| - | Grand Theft Auto V - Xbox | 開放世界 | Best Buy |
+| - | Call of Duty MW II - Xbox | 射擊動作 | Best Buy |
+| - | God of War - PlayStation | 動作冒險 | Best Buy |
+| - | Grand Theft Auto V - PlayStation | 開放世界 | Best Buy |
+
+**研究文件**：`research/video-game-console--{date}.md`
+**競品文件**：`competitors/video-game-console--{date}.md`
+
+---
+
+### kids-bike
+
+**問題描述**：兒童腳踏車學習騎乘
+
+**問題成因**：成長需求、戶外運動、交通代步
+
+**常見解決方法**：
+- 輔助輪腳踏車
+- BMX 腳踏車
+- 山地腳踏車
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| 665534685 | Huffy 20" Rock It Kids' Bike | 兒童腳踏車 | Walmart |
+| - | Huffy 26" Rock Creek Mountain Bike | 山地腳踏車 | Walmart |
+| - | Kent 20" Ambush BMX Bicycle | BMX 腳踏車 | Walmart |
+| - | Huffy 24" Rock Creek Mountain Bike | 山地腳踏車 | Walmart |
+| - | Huffy 16" Spider-Man Kids' Bike | 角色主題腳踏車 | Walmart |
+| - | Huffy 12" Spider-Man Kids' Bike | 幼童腳踏車 | Walmart |
+| - | Huffy 20" Sea Star Kids' Bike | 女童腳踏車 | Walmart |
+
+**研究文件**：`research/kids-bike--{date}.md`
+**競品文件**：`competitors/kids-bike--{date}.md`
+
+---
+
+### ride-on-toy
+
+**問題描述**：幼兒騎乘玩具
+
+**問題成因**：大肌肉發展、戶外活動、模擬駕駛
+
+**常見解決方法**：
+- 腳踏騎乘車
+- 電動騎乘車
+- 三輪車/滑步車
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| 136842804 | Little Tikes Cozy Coupe Ride-on | 腳踏騎乘車 | Walmart |
+| - | Radio Flyer 4-in-1 Activity Trike | 多功能三輪車 | Walmart |
+| - | Yamaha Raptor 12V ATV Ride-on | 電動騎乘車 | Walmart |
+| - | Huffy 6V Minnie Mouse Ride-On | 電動騎乘車 | Walmart |
+| - | Step2 Up & Down Roller Coaster | 室內騎乘玩具 | Walmart |
+
+**研究文件**：`research/ride-on-toy--{date}.md`
+**競品文件**：`competitors/ride-on-toy--{date}.md`
+
+---
+
+### giant-teddy-bear
+
+**問題描述**：大型絨毛玩具陪伴
+
+**問題成因**：情感陪伴、禮物送禮、房間裝飾
+
+**常見解決方法**：
+- 巨型泰迪熊
+- 大型動物絨毛玩具
+- 角色絨毛玩具
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| - | MorisMos Giant Teddy Bear 35" | 巨型泰迪熊 | Walmart |
+| - | MaoGoLan Giant Teddy Bear 47" | 巨型泰迪熊 | Walmart |
+| - | MorisMos Giant Teddy Bear 4ft | 巨型泰迪熊 | Walmart |
+
+**研究文件**：`research/giant-teddy-bear--{date}.md`
+**競品文件**：`competitors/giant-teddy-bear--{date}.md`
+
+---
+
+### electrolyte-hydration
+
+**問題描述**：電解質補充、運動後補水
+
+**問題成因**：運動流汗、脫水、電解質流失
+
+**常見解決方法**：
+- 電解質粉
+- 電解質飲料
+- 補水液
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| - | LMNT Zero Sugar Electrolytes | 電解質粉 | Amazon |
+| - | Liquid I.V. Hydration Multiplier | 電解質粉 | Amazon |
+
+**研究文件**：`research/electrolyte-hydration--{date}.md`
+**競品文件**：`competitors/electrolyte-hydration--{date}.md`
+
+---
+
+### hair-styling-hold
+
+**問題描述**：頭髮定型、維持造型
+
+**問題成因**：造型需求、天氣潮濕、髮質軟塌
+
+**常見解決方法**：
+- 定型噴霧
+- 髮膠
+- 髮蠟
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| 23555055 | Rave 4X Mega Hold Hair Spray | 強力定型噴霧 | Walmart |
+| 49840649 | Tresemme Extra Hold Hairspray | 定型噴霧 | Walmart |
+
+**研究文件**：`research/hair-styling-hold--{date}.md`
+**競品文件**：`competitors/hair-styling-hold--{date}.md`
+
+---
+
+### home-hair-color
+
+**問題描述**：居家染髮、遮蓋白髮
+
+**問題成因**：白髮遮蓋、髮色改變、省錢需求
+
+**常見解決方法**：
+- 永久性染髮劑
+- 半永久染髮
+- 遮蓋白髮染髮
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| 22307125 | L'Oreal Paris Feria Hair Color | 永久性染髮劑 | Walmart |
+| 711126743 | Revlon ColorSilk Permanent Hair Color | 永久性染髮劑 | Walmart |
+
+**研究文件**：`research/home-hair-color--{date}.md`
+**競品文件**：`competitors/home-hair-color--{date}.md`
+
+---
+
+### nail-polish-remover
+
+**問題描述**：卸除指甲油
+
+**問題成因**：更換指甲顏色、清潔指甲
+
+**常見解決方法**：
+- 丙酮卸甲水
+- 無丙酮卸甲水
+- 卸甲棉片
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| 1052261128 | Equate Maximum Strength 100% Acetone | 丙酮卸甲水 | Walmart |
+| 1206898283 | Equate Nourishing Nail Polish Remover | 無丙酮卸甲水 | Walmart |
+
+**研究文件**：`research/nail-polish-remover--{date}.md`
+**競品文件**：`competitors/nail-polish-remover--{date}.md`
+
+---
+
 ## 未分類產品
 
 以下產品標題無法識別或為特殊類別，暫不納入比較分析：
@@ -1597,6 +1835,26 @@
 | B0G4MRDT13 | Cord Cable Organizer Silicone Cable Ties | 線材整理 - 特殊 |
 | B0G3X562HC | Collapsible Wagon Cart Foldable | 折疊推車 - 特殊 |
 | B0GDJFMQX2 | Americanflat 12x17 Picture Frame | 相框 - 特殊 |
+| - | Amazon Basics AA Batteries | 電池 - 消耗品 |
+| - | Amazon Basics AAA Batteries | 電池 - 消耗品 |
+| - | Amazon Basics Paper Plates | 紙盤 - 消耗品 |
+| - | Hefty Ultra Strong Trash Bags | 垃圾袋 - 消耗品 |
+| - | Bounty Paper Towels | 紙巾 - 消耗品 |
+| - | Scott Paper Towels | 紙巾 - 消耗品 |
+| - | Brawny Paper Towels | 紙巾 - 消耗品 |
+| - | Sparkle Paper Towels | 紙巾 - 消耗品 |
+| - | Scott Toilet Paper | 衛生紙 - 消耗品 |
+| - | Angel Soft Toilet Paper | 衛生紙 - 消耗品 |
+| - | Charmin Ultra Soft Toilet Paper | 衛生紙 - 消耗品 |
+| - | Cottonelle Toilet Paper | 衛生紙 - 消耗品 |
+| - | Amazon Basics Toilet Paper | 衛生紙 - 消耗品 |
+| - | Apple iPad 11-inch | 平板電腦 - 單品 |
+| - | Apple Watch Series 11 | 智慧手錶 - 單品 |
+| - | Amazon Kindle Paperwhite | 電子書閱讀器 - 單品 |
+| - | Amazon Kindle 16GB | 電子書閱讀器 - 單品 |
+| - | Blink Video Doorbell | 智慧門鈴 - 單品 |
+| - | Blink Outdoor 4 Camera | 監控攝影機 - 單品 |
+| - | JBL Go 4 Portable Speaker | 藍牙喇叭 - 單品 |
 | B0GDXN21X8 | DIY Mini Museum Silhouette Box | 展示盒 - 特殊 |
 | B0G1TGHMJ3 | Smart Watch with Alexa Built-in | 智慧手錶 - 單品 |
 | B0DFNFX2K7 | Amazon Fire TV 55 inch | 智慧電視 - 單品 |
@@ -1609,4 +1867,4 @@
 
 ---
 
-*Generated: 2026-02-13 | Products: 173 | Categories: 59 | Grouping: Problem-based v2*
+*Generated: 2026-02-15 | Products: 289 | Categories: 77 | Grouping: Problem-based v2 | Multi-platform Discovery Update*
