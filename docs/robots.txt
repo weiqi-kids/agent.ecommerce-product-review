@@ -1,21 +1,24 @@
 # robots.txt for ecommerce.weiqi.kids
 # 買前必看 - 電商商品評論智慧分析系統
+# VitePress SSG
 
 User-agent: *
 Allow: /
 
-# 允許 SEO 頁面
-Allow: /pages/
-
 # 允許主要內容
 Allow: /Narrator/
 Allow: /daily_summary/
+Allow: /about
 
 # 禁止原始數據目錄
 Disallow: /Extractor/raw/
 Disallow: /Extractor/*/raw/
 
-# Sitemap
+# 禁止 VitePress 資源目錄
+Disallow: /assets/
+Disallow: /hashmap.json
+
+# Sitemap（VitePress 自動生成）
 Sitemap: https://ecommerce.weiqi.kids/sitemap.xml
 
 # Crawl-delay（建議）
