@@ -105,6 +105,12 @@ Step 8: 產出報告（類型依分析結果，不可跳過）
         │   └── docs/Narrator/warnings/{產品}--{date}.md
         └── 💢 全部產品都有嚴重問題 → 痛點報告
             └── docs/Narrator/pain_points/{問題}--{date}.md
+        ↓
+Step 9: SEO 處理（自動觸發，GitHub Actions）
+        ├── 警告報告 + 假貨報告 → SEO Landing Page
+        │   └── docs/pages/{type}/{slug}.html
+        ├── JSON-LD Schema（7 種必填 + 條件式）
+        └── sitemap.xml 自動更新
 ```
 
 ### Step 1: 監控清單追蹤
@@ -810,6 +816,37 @@ qdrant_scroll "$QDRANT_COLLECTION" \
 ```bash
 find docs/Extractor -name "${product_id}--*.md" -not -name "*batch*" -type f
 ```
+
+### Step 9: SEO 處理（自動觸發）
+
+> 此步驟由 GitHub Actions 自動執行，無需手動介入。
+
+當警告報告或假貨報告被 push 後：
+
+1. **GitHub Actions 觸發** `.github/workflows/build-seo.yml`
+2. **執行 SEO 腳本** `scripts/generate-seo-page.js --all`
+3. **產出內容**：
+   - SEO Landing Page（`docs/pages/{type}/{slug}.html`）
+   - JSON-LD Schema（7 種必填 + 條件式）
+   - sitemap.xml 更新
+4. **自動 commit + push**
+
+**SEO Landing Page 包含**：
+
+| 元素 | 說明 |
+|------|------|
+| JSON-LD Schema | WebPage, Article, Person, Organization, BreadcrumbList, ImageObject, FAQPage |
+| Open Graph | 社群分享優化（Facebook, LinkedIn） |
+| Twitter Card | Twitter 分享優化 |
+| Speakable | 語音搜尋優化 |
+| SGE 標記 | AI 摘要優化（.key-answer, .key-takeaway） |
+
+**手動執行**：
+```bash
+node scripts/generate-seo-page.js --all
+```
+
+> 詳細 SEO 規則見 `seo/CLAUDE.md`。
 
 ---
 

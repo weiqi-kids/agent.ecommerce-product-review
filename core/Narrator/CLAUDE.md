@@ -111,6 +111,40 @@ qdrant_scroll "$QDRANT_COLLECTION" \
 2. 移除 `[DEFERRED]` 標記
 3. 從 `watchlist.json` 的 `deferred_categories` 移除
 
+## Step 9: SEO 處理（自動觸發）
+
+> ⚠️ **Step 9 為自動化流程**，由 GitHub Actions 在報告 push 後自動執行。
+
+當警告報告或假貨報告被 push 到 `docs/Narrator/warnings/` 或 `docs/Narrator/counterfeits/` 時：
+
+1. **GitHub Actions 觸發** `.github/workflows/build-seo.yml`
+2. **執行 SEO 腳本** `scripts/generate-seo-page.js --all`
+3. **產出 SEO Landing Page** 至 `docs/pages/{type}/`
+4. **更新 sitemap.xml**
+5. **自動 commit + push**
+
+### SEO 頁面包含
+
+| 元素 | 說明 |
+|------|------|
+| JSON-LD Schema | 7 種必填 + 條件式（Review、AggregateRating） |
+| Open Graph | 社群分享優化 |
+| Twitter Card | Twitter 分享優化 |
+| Speakable | 語音搜尋優化 |
+| SGE 標記 | AI 摘要優化（.key-answer, .key-takeaway） |
+
+### 手動執行 SEO 生成
+
+```bash
+# 處理所有警告和假貨報告
+node scripts/generate-seo-page.js --all
+
+# 處理單一報告
+node scripts/generate-seo-page.js docs/Narrator/warnings/example.md
+```
+
+---
+
 ## 自我審核 Checklist（報告通用）
 
 報告產出後，子代理必須逐項確認：
@@ -123,3 +157,4 @@ qdrant_scroll "$QDRANT_COLLECTION" \
 - [ ] 推測與事實明確區分
 - [ ] confidence 正確反映資料品質
 - [ ] 報告語言為繁體中文（引述保留原文）
+- [ ] **SEO frontmatter 完整**（title, description, type, products, faq, key_answer）
