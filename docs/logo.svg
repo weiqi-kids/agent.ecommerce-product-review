@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- 放大鏡圓圈 -->
+  <circle cx="14" cy="14" r="10" stroke="#e94560" stroke-width="2.5" fill="white"/>
+  <!-- 放大鏡手柄 -->
+  <line x1="21.5" y1="21.5" x2="28" y2="28" stroke="#e94560" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 打勾符號 -->
+  <path d="M9 14 L12.5 17.5 L19 11" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
