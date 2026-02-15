@@ -1,4 +1,5 @@
 * [首頁](/)
+* [關於我們](about.md)
 
 * **✅ 推薦報告**
   * [頭皮屑治療 2026-02-14](Narrator/recommendations/dandruff-treatment--2026-02-14.md)

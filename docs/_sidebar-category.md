@@ -1,4 +1,5 @@
 * [首頁](/)
+* [關於我們](about.md)
 
 * **⚠️ 問題產品**
   * [bella 烤麵包機 2026-02-11](Narrator/warnings/bella-toaster--2026-02-11.md)
