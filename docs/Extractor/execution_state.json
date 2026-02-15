@@ -12,10 +12,10 @@
       "platforms": {
         "amazon_us": { "categories": ["beauty", "electronics", "health"], "products": 80 },
         "bestbuy_us": { "categories": ["electronics", "tv"], "products": 20 },
-        "walmart_us": { "categories": ["beauty"], "products": 0, "note": "Anti-bot restriction" }
+        "walmart_us": { "categories": ["beauty", "toys"], "products": 60, "note": "Fixed with --headless false" }
       },
-      "total_discovered": 100,
-      "new_products": 56
+      "total_discovered": 160,
+      "new_products": 116
     },
     "step_4": { "status": "completed", "note": "56 new products identified, pending grouping for next execution" },
     "step_5": { "status": "skipped", "note": "8 categories already had research from 2026-02-13" },
@@ -63,8 +63,8 @@
     "multi_platform_discovery": {
       "amazon_us": 80,
       "bestbuy_us": 20,
-      "walmart_us": 0,
-      "new_products_pending": 56
+      "walmart_us": 60,
+      "new_products_pending": 116
     }
   }
 }
