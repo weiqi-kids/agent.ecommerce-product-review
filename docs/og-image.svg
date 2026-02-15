@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="#e94560" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="200" fill="#0f3460" opacity="0.3"/>
+
+  <!-- Main title -->
+  <text x="600" y="280" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">
+    買前必看
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="360" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#a0a0a0">
+    電商商品評論智慧分析系統
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="420" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#e94560">
+    AI 驅動 · 數據說話 · 客觀分析
+  </text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="610" width="1200" height="20" fill="#e94560"/>
+</svg>
