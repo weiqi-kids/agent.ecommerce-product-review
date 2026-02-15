@@ -56,6 +56,11 @@ export default defineConfig({
   // 清理 URL（移除 .html）
   cleanUrls: true,
 
+  // URL 重寫
+  rewrites: {
+    'README.md': 'index.md'
+  },
+
   // 最後更新時間
   lastUpdated: true,
 
