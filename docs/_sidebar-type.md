@@ -15,6 +15,7 @@
   * [傷口保護 2026-02-05](Narrator/recommendations/wound-protection--2026-02-05.md)
 
 * **⚖️ 比較報告**
+  * [膠原蛋白面膜 2026-02-15](Narrator/comparisons/collagen-mask--2026-02-15.md)
   * [睫毛膏 2026-02-15](Narrator/comparisons/mascara--2026-02-15.md)
   * [卸妝 2026-02-15](Narrator/comparisons/makeup-removal--2026-02-15.md)
   * [眼部浮腫 2026-02-15](Narrator/comparisons/eye-puffiness--2026-02-15.md)

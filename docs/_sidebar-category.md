@@ -15,6 +15,7 @@
   * [eos Body Lotion 2026-02-06](Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md)
 
 * **美妝保養**
+  * [膠原蛋白面膜 2026-02-15](Narrator/comparisons/collagen-mask--2026-02-15.md)
   * [睫毛膏 2026-02-15](Narrator/comparisons/mascara--2026-02-15.md)
   * [卸妝 2026-02-15](Narrator/comparisons/makeup-removal--2026-02-15.md)
   * [眼部浮腫 2026-02-15](Narrator/comparisons/eye-puffiness--2026-02-15.md)

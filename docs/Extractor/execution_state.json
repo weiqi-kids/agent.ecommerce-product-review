@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-02-15T18:00:00Z",
+  "last_updated": "2026-02-15T21:35:00Z",
   "last_completed_date": "2026-02-15",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "steps": {
     "step_1": { "status": "skipped", "note": "No watchlist items due today (all items next due 2026-02-18+)" },
-    "step_2": { "status": "completed", "note": "23 REVIEW_NEEDED reports identified, 3 pending ASINs for extraction" },
+    "step_2": { "status": "completed", "note": "23 REVIEW_NEEDED reports identified, 3 pending ASINs re-extracted successfully" },
     "step_3": {
       "status": "completed",
       "note": "Multi-platform discovery completed",
       "platforms": {
         "amazon_us": { "categories": ["beauty", "electronics", "health"], "products": 80 },
         "bestbuy_us": { "categories": ["electronics", "tv"], "products": 20 },
-        "walmart_us": { "categories": ["beauty", "toys"], "products": 60, "note": "Fixed with --headless false" }
+        "walmart_us": { "categories": ["beauty", "toys"], "products": 60 }
       },
       "total_discovered": 160,
       "new_products": 116
@@ -24,17 +24,31 @@
       "new_categories_added": 18,
       "uncategorized": 21
     },
-    "step_5": { "status": "skipped", "note": "8 categories already had research from 2026-02-13" },
+    "step_5": {
+      "status": "completed",
+      "note": "collagen-mask research completed (15 WebSearch, 35 WebFetch, 20 competitors identified)",
+      "categories_researched": ["collagen-mask"],
+      "pending": ["brightening-serum (session expired)"]
+    },
     "step_6": {
       "status": "completed",
-      "note": "3 pending ASINs extracted (all REVIEW_NEEDED due to 0 reviews)",
-      "extracted_asins": ["B08H3JPH74", "B0BRMYHMS5", "B0D8W1YVBX"],
-      "review_needed_reason": "Scraper returned 0 reviews - likely session expired or page load failure"
+      "note": "8 products extracted today",
+      "extracted_asins": [
+        "B08H3JPH74 (Maybelline Sky High Mascara)",
+        "B0BRMYHMS5 (medicube Collagen Mask)",
+        "B0D8W1YVBX (EQQUALBERRY Vitamin C)",
+        "B0B2RM68G2 (Biodance)",
+        "B0F83HQCFN (COSRX)",
+        "B0BY7MS1MP (Abib Sedum)",
+        "B0DHZHTHSV (Abib Heartleaf)",
+        "B0F8TQ5FZK (Abib PDRN)"
+      ],
+      "reviews_collected": 680
     },
-    "step_7": { "status": "completed", "note": "Comparison analysis completed for 8 categories" },
+    "step_7": { "status": "completed", "note": "Comparison analysis completed for 9 categories" },
     "step_8": {
       "status": "completed",
-      "note": "8 comparison reports generated",
+      "note": "9 comparison reports generated (8 earlier + 1 collagen-mask)",
       "reports_generated": [
         "docs/Narrator/comparisons/mascara--2026-02-15.md",
         "docs/Narrator/comparisons/makeup-removal--2026-02-15.md",
@@ -43,7 +57,8 @@
         "docs/Narrator/comparisons/hydrating-serum--2026-02-15.md",
         "docs/Narrator/comparisons/exfoliating-toner--2026-02-15.md",
         "docs/Narrator/comparisons/natural-deodorant--2026-02-15.md",
-        "docs/Narrator/comparisons/face-towels--2026-02-15.md"
+        "docs/Narrator/comparisons/face-towels--2026-02-15.md",
+        "docs/Narrator/comparisons/collagen-mask--2026-02-15.md"
       ],
       "reports_review_needed": [
         "mascara--2026-02-15.md",
@@ -55,23 +70,25 @@
         "facial-cleanser--2026-02-15.md",
         "hydrating-serum--2026-02-15.md",
         "natural-deodorant--2026-02-15.md",
-        "face-towels--2026-02-15.md"
+        "face-towels--2026-02-15.md",
+        "collagen-mask--2026-02-15.md"
       ]
     }
   },
   "summary": {
-    "extractions_today": 3,
-    "reports_today": 8,
+    "extractions_today": 8,
+    "reports_today": 9,
     "warnings_issued": 0,
-    "pending_refetch": 3,
-    "review_needed_reports": 26,
-    "new_categories_researched_yesterday": 0,
+    "pending_refetch": 0,
+    "review_needed_reports": 23,
+    "categories_researched_today": 1,
     "multi_platform_discovery": {
       "amazon_us": 80,
       "bestbuy_us": 20,
       "walmart_us": 60,
       "new_products_grouped": 116,
       "new_categories_added": 18
-    }
+    },
+    "session_status": "expired - need to run --login for next session"
   }
 }
