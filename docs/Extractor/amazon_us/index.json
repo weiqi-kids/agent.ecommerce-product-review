@@ -953,7 +953,7 @@
     "category": "mascara",
     "product_id": "",
     "brand": "",
-    "platform": "",
+    "platform": "- **Platform**: Amazon US",
     "avg_rating": "",
     "review_count": "",
     "file": "mascara/B08H3JPH74--maybelline--2026-02-15.md",
@@ -1980,6 +1980,54 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "collagen-mask-B0F8TQ5FZK--abib-pdrn--2026-02-15-md",
+    "title": "Abib PDRN Collagen Overnight Face Mask Firming Jelly",
+    "category": "collagen-mask",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "collagen-mask/B0F8TQ5FZK--abib-pdrn--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "collagen-mask-B0F83HQCFN--cosrx--2026-02-15-md",
+    "title": "Product Extraction Report",
+    "category": "collagen-mask",
+    "product_id": "",
+    "brand": "- **Brand**: COSRX",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 100 (most recent)",
+    "file": "collagen-mask/B0F83HQCFN--cosrx--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "collagen-mask-B0DHZHTHSV--abib-heartleaf--2026-02-15-md",
+    "title": "Abib Collagen Gel Mask Heartleaf Jelly 4 Sheets",
+    "category": "collagen-mask",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "collagen-mask/B0DHZHTHSV--abib-heartleaf--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "collagen-mask-B0BY7MS1MP--abib-sedum--2026-02-15-md",
+    "title": "Abib Collagen Gel Mask Sedum Jelly - 產品萃取報告",
+    "category": "collagen-mask",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "collagen-mask/B0BY7MS1MP--abib-sedum--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "collagen-mask-B0BRMYHMS5--medicube--2026-02-15-md",
     "title": "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask",
     "category": "collagen-mask",
@@ -1989,6 +2037,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "collagen-mask/B0BRMYHMS5--medicube--2026-02-15.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "collagen-mask-B0B2RM68G2--biodance--2026-02-15-md",
+    "title": "BIODANCE Bio-Collagen Real Deep Mask",
+    "category": "collagen-mask",
+    "product_id": "",
+    "brand": "- **Brand**: BIODANCE",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "collagen-mask/B0B2RM68G2--biodance--2026-02-15.md",
     "source_layer": "amazon_us"
   },
   {
