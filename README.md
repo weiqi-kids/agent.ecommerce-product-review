@@ -29,9 +29,11 @@ E-commerce Product Review Intelligence System — 透過 Claude CLI 多角色協
 
 ## 支援平台（Layer）
 
-| Layer | 平台 | 語系 | 狀態 |
-|-------|------|------|------|
-| `amazon_us` | Amazon.com | en-US | ✅ |
+| Layer | 平台 | 語系 | 登入 | Discovery | 狀態 |
+|-------|------|------|------|-----------|------|
+| `amazon_us` | Amazon.com | en-US | ✅ 需要 | bestsellers, movers | ✅ 主力 |
+| `bestbuy_us` | Best Buy | en-US | ❌ 不需 | best-sellers, top-rated | ✅ 電子類 |
+| `walmart_us` | Walmart | en-US | ❌ 不需 | best-sellers, trending | ✅ 日用類 |
 
 ## 報告類型（Mode）
 
@@ -75,9 +77,26 @@ cp .env.example .env
 # 3. 首次登入 Amazon（需手動完成驗證）
 cd scrapers && npx tsx src/amazon/scraper.ts --login && cd ..
 
-# 4. 執行完整流程
+# 4. 執行完整流程（所有平台）
 # 在 Claude CLI 中執行：
 # 執行完整流程
+
+# 或指定平台：
+# 執行完整流程 --platforms amazon
+# 執行完整流程 --platforms bestbuy,walmart
+```
+
+### 各平台 Discovery 測試
+
+```bash
+# Amazon（需登入）
+cd scrapers && npx tsx src/amazon/discovery.ts --source bestsellers --limit 10
+
+# Best Buy（可能需 --headless false）
+cd scrapers && npx tsx src/bestbuy/discovery.ts --source best-sellers --category electronics --limit 10
+
+# Walmart
+cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 ```
 
 ## 系統健康度
@@ -87,6 +106,8 @@ cd scrapers && npx tsx src/amazon/scraper.ts --login && cd ..
 | Layer | 最後更新 | 商品數 | 今日萃取 | 狀態 |
 |-------|----------|--------|---------|------|
 | amazon_us | 2026-02-15 | 153 | 3 | ⚠️ 需關注 |
+| bestbuy_us | — | 0 | 0 | 🆕 待啟用 |
+| walmart_us | — | 0 | 0 | 🆕 待啟用 |
 
 ### 監控清單
 
@@ -114,16 +135,26 @@ agent.ecommerce-product-review/
 ├── CLAUDE.md                    # 系統規格（Claude CLI 自動載入）
 ├── core/                        # 角色定義與 Layer/Mode 設定
 │   ├── Architect/               # Architect 角色定義
-│   ├── Extractor/Layers/        # 平台定義（amazon_us）
+│   ├── Extractor/Layers/        # 平台定義
+│   │   ├── amazon_us/           # Amazon.com
+│   │   ├── bestbuy_us/          # Best Buy
+│   │   └── walmart_us/          # Walmart
 │   └── Narrator/Modes/          # 報告類型定義（problem_solver）
 ├── lib/                         # Shell 工具函式庫
 ├── scrapers/                    # Playwright 爬蟲（TypeScript）
+│   └── src/
+│       ├── amazon/              # Amazon 爬蟲
+│       ├── bestbuy/             # Best Buy 爬蟲
+│       ├── walmart/             # Walmart 爬蟲
+│       └── common/              # 共用工具
 └── docs/                        # 萃取結果與報告輸出
     ├── Extractor/
-    │   ├── {layer}/{category}/  # 萃取 .md
+    │   ├── amazon_us/           # Amazon 萃取結果
+    │   ├── bestbuy_us/          # Best Buy 萃取結果
+    │   ├── walmart_us/          # Walmart 萃取結果
     │   ├── research/            # 問題研究報告
     │   ├── competitors/         # 競品清單
-    │   ├── discovery_cache/     # 排行榜快取
+    │   ├── discovery_cache/     # 排行榜快取（多平台）
     │   ├── execution_state.json # 執行狀態
     │   ├── watchlist.json       # 監控清單
     │   ├── pending_decisions.json # 待決策佇列

@@ -54,10 +54,12 @@ Step 2: 研究缺口補齊（平行執行）
         ├── 自動執行補充研究（Step 5）或補充抓取（Step 6）
         └── 補齊後重新執行 Step 7-8
         ↓
-Step 3: 抓取排行榜（增量模式：僅抓取新產品）
-        ├── Amazon Discovery: bestsellers（各品類前 100）
-        ├── Amazon Discovery: movers（快速上升）
-        └── 去重後得到熱門產品清單
+Step 3: 抓取排行榜（多平台平行，增量模式）
+        ├── Amazon Discovery: bestsellers, movers（各品類前 100）
+        ├── Best Buy Discovery: best-sellers（電子產品）
+        ├── Walmart Discovery: best-sellers（日用品、美妝）
+        ├── 跨平台 UPC 去重
+        └── 合併為熱門產品清單（含來源標註）
         ↓
 Step 4: 產品分組（按具體問題）
         ├── Claude 分析每個產品「解決什麼具體問題」
@@ -74,16 +76,20 @@ Step 5: 問題研究 + 競品發現
             ├── docs/Extractor/research/{問題}--{date}.md
             └── docs/Extractor/competitors/{問題}--{date}.md
         ↓
-Step 6: 抓取評論 + 萃取
-        ├── 抓取範圍：原產品 + 競品（有 Amazon ASIN）
-        ├── fetch.sh 抓取評論（輸出 JSONL）
+Step 6: 抓取評論 + 萃取（多平台）
+        ├── 抓取範圍：原產品 + 競品（有平台識別碼）
+        │   ├── Amazon: ASIN
+        │   ├── Best Buy: SKU
+        │   └── Walmart: Product ID
+        ├── 各 Layer 的 fetch.sh 抓取評論（輸出 JSONL）
         ├── L1-L6 萃取（JSONL → .md）
         └── 輸出：docs/Extractor/{layer}/{category}/{product}.md
         ↓
-Step 7: 比較分析（多來源）
+Step 7: 比較分析（多平台 + 多來源）
         ├── 輸入：
-        │   ├── Step 6 萃取結果（Amazon 產品 + 有 ASIN 競品）
-        │   └── Step 5 評測資料（無 Amazon 競品）
+        │   ├── Step 6 萃取結果（Amazon + Best Buy + Walmart）
+        │   ├── 同產品跨平台評論整合（UPC 匹配）
+        │   └── Step 5 評測資料（無電商識別碼的競品）
         ├── 負評三分類：
         │   ├── ❌ 無法解決問題（功能失效）
         │   ├── ⚠️ 產生新問題（副作用）
@@ -298,10 +304,48 @@ Step 8 產出警告報告時，自動將產品加入監控清單：
 - 可手動執行「強制補齊 {類別}」重新嘗試
 - 人工介入後標記為「已處理」，下次執行立即重試，間隔重置為 1 天
 
-### Step 3: 抓取排行榜
+### Step 3: 抓取排行榜（多平台）
 
 掃描 `core/Extractor/Layers/*/`，排除含有 `.disabled` 檔案的目錄。
-執行各 Layer 的 discovery 機制（如 Amazon bestsellers）取得熱門產品清單。
+對所有啟用的 Layer **平行執行** Discovery，取得各平台熱門產品清單。
+
+#### 平台分工
+
+| 平台 | Discovery 來源 | 品類專長 | 執行頻率 |
+|------|---------------|---------|---------|
+| **Amazon** | bestsellers, movers | 全品類 | 每日 |
+| **Best Buy** | best-sellers, top-rated | 電子產品、家電 | 每日 |
+| **Walmart** | best-sellers, trending | 日用品、美妝、食品 | 每日 |
+
+#### 品類對應表
+
+| 問題類別 | Amazon | Best Buy | Walmart |
+|---------|--------|----------|---------|
+| 電子產品 | ✅ | ✅ 主力 | ✅ |
+| 美妝保養 | ✅ 主力 | ❌ | ✅ |
+| 健康保健 | ✅ 主力 | ❌ | ✅ |
+| 家電 | ✅ | ✅ 主力 | ✅ |
+| 玩具遊戲 | ✅ 主力 | ❌ | ✅ |
+| 嬰幼兒 | ✅ 主力 | ❌ | ✅ |
+| 食品飲料 | ✅ | ❌ | ✅ 主力 |
+
+#### 執行流程
+
+```
+平行執行各平台 Discovery：
+    ├── Task(Amazon Discovery, sonnet)
+    ├── Task(Best Buy Discovery, sonnet)
+    └── Task(Walmart Discovery, sonnet)
+        ↓
+各平台輸出：docs/Extractor/{layer}/discovery/{date}.jsonl
+        ↓
+跨平台去重（UPC 匹配）：
+    ├── 同一產品在多平台 → 合併，標註各平台排名
+    ├── 單一平台獨有 → 保留，標註來源
+    └── 輸出：docs/Extractor/discovery_cache/{date}.json
+        ↓
+合併為統一熱門產品清單
+```
 
 #### 增量模式（每日執行）
 
@@ -315,11 +359,36 @@ Step 8 產出警告報告時，自動將產品加入監控清單：
     識別變化：
     ├── 新進榜產品 → 加入待分析清單
     ├── 排名大幅變動（±20 名）→ 標記需關注
+    ├── 跨平台新增來源 → 標記（如原本只有 Amazon，現在 Walmart 也有）
     ├── 退榜產品 → 記錄但不處理
     └── 無變化 → 跳過
         ↓
 僅對新產品執行 Step 4-8
 ```
+
+#### Discovery 執行指令
+
+```bash
+# Amazon Discovery（需登入）
+cd scrapers && npx tsx src/amazon/discovery.ts \
+  --source bestsellers --category all --limit 100
+
+# Best Buy Discovery（可能需 headless=false）
+cd scrapers && npx tsx src/bestbuy/discovery.ts \
+  --source best-sellers --category electronics --limit 50
+
+# Walmart Discovery
+cd scrapers && npx tsx src/walmart/discovery.ts \
+  --source best-sellers --category all --limit 100
+```
+
+#### 反爬蟲注意事項
+
+| 平台 | 限制 | 解決方案 |
+|------|------|---------|
+| Amazon | 需登入 Session | `--login` 重新登入 |
+| Best Buy | Headless 偵測 | `--headless false` |
+| Walmart | 較寬鬆 | 無特別限制 |
 
 ### Step 4: 產品分組
 
@@ -565,20 +634,52 @@ ls docs/Extractor/{layer}/*/{product_id}--{store_id}--$(date +%Y-%m-%d).md 2>/de
 
 對每個 **問題類別** 內的所有產品進行比較分析。
 
-#### 比較來源（多來源）
+#### 比較來源（多平台 + 多來源）
 
-| 來源 | 資料類型 | 取得方式 |
-|------|---------|---------|
-| Amazon 產品 | L1-L6 萃取結果 | Step 6 |
-| 競品（有 Amazon） | L1-L6 萃取結果 | Step 6（新增抓取） |
-| **競品（無 Amazon）** | **評測文章摘要** | Step 5 WebFetch |
+| 來源 | 資料類型 | 取得方式 | 優先級 |
+|------|---------|---------|--------|
+| Amazon 產品 | L1-L6 萃取結果 | Step 6 | 主要 |
+| Best Buy 產品 | L1-L6 萃取結果 | Step 6 | 補充（電子類） |
+| Walmart 產品 | L1-L6 萃取結果 | Step 6 | 補充（日用類） |
+| **競品（無電商識別碼）** | **評測文章摘要** | Step 5 WebFetch | 參考 |
 
-#### 無 Amazon 競品的處理
+#### 跨平台產品整合
 
-對於在 `competitors/{問題}.md` 中標記為「❌ 無 Amazon」的產品：
+同一產品在多平台都有評論時：
 
 ```
-競品（無 Amazon）→ 使用 Step 5 評測資料：
+產品 A（UPC: 012345678901）
+    ├── Amazon: 500 則評論, 4.2 ⭐
+    ├── Best Buy: 120 則評論, 4.4 ⭐
+    └── Walmart: 80 則評論, 4.1 ⭐
+        ↓
+整合分析：
+    ├── 總評論數：700 則（加權平均評分：4.23）
+    ├── 各平台情感差異比較
+    ├── 平台特有問題識別（如 Amazon 假貨、Walmart 配送）
+    └── 信心度：high（多平台佐證）
+```
+
+#### 多平台報告呈現
+
+```markdown
+### 跨平台評論分析
+
+| 平台 | 評論數 | 平均評分 | 主要問題 |
+|------|--------|----------|---------|
+| Amazon | 500 | 4.2 ⭐ | 假貨疑慮 (8%) |
+| Best Buy | 120 | 4.4 ⭐ | 價格偏高 (12%) |
+| Walmart | 80 | 4.1 ⭐ | 配送延遲 (15%) |
+
+**跨平台一致性**：高（情感分數差異 < 0.3）
+```
+
+#### 無電商識別碼競品的處理
+
+對於在 `competitors/{問題}.md` 中標記為「❌ 無電商識別碼」的產品：
+
+```
+競品（無電商識別碼）→ 使用 Step 5 評測資料：
 ├── 評測文章的評分/排名
 ├── 評測文章的優缺點摘要
 ├── 評測文章的使用者評價引述
@@ -876,23 +977,48 @@ Step 7 類別 A 完成 → 立即開始 Step 8 類別 A（同時 Step 7 類別 B
 
 | 使用者指令 | 執行範圍 |
 |-----------|----------|
-| 「執行完整流程」 | Step 1-8 全部執行（支援中斷恢復、每日增量） |
+| 「執行完整流程」 | Step 1-8 全部執行（所有啟用平台） |
+| 「執行完整流程 --platforms amazon」 | 僅 Amazon 平台 |
+| 「執行完整流程 --platforms bestbuy,walmart」 | 指定多平台 |
 | 「分析 {產品名}」 | Step 4-8（指定產品，跳過排行榜抓取） |
-| 「只跑發現」 | 只執行 Step 3（抓排行榜） |
+| 「只跑發現」 | 只執行 Step 3（所有平台的排行榜） |
+| 「只跑發現 --platforms bestbuy」 | 只執行指定平台的 Discovery |
 | 「只跑分組」 | 只執行 Step 4（產品分組） |
 | 「只跑研究」 | 只執行 Step 5（問題研究） |
 | 「執行 amazon_us」 | 該 Layer 的 fetch → 萃取 → update |
+| 「執行 bestbuy_us」 | 該 Layer 的 fetch → 萃取 → update |
+| 「執行 walmart_us」 | 該 Layer 的 fetch → 萃取 → update |
 | 「只跑 fetch」 | 所有 Layer 的 fetch.sh，不萃取 |
 | 「只跑萃取」 | 假設 raw/ 已有 JSONL，只做萃取 + update |
-| `track product {URL}` | 解析 URL → 加入 product_urls.txt + product_registry.md |
+| `track product {URL}` | 解析 URL → 自動判斷平台 → 加入對應 Layer |
 | 「只跑監控」 | 只執行 Step 1（監控清單追蹤） |
 | 「只跑補齊」 | 只執行 Step 2（研究缺口補齊） |
-| `watch {ASIN}` | 手動將產品加入監控清單 |
-| `unwatch {ASIN}` | 從監控清單移除產品 |
+| `watch {產品識別碼}` | 手動將產品加入監控（ASIN/SKU/Product ID） |
+| `unwatch {產品識別碼}` | 從監控清單移除產品 |
 | 「顯示監控清單」 | 顯示目前監控的產品和類別 |
 | 「顯示今日摘要」 | 顯示今日執行統計 |
+| 「顯示平台狀態」 | 顯示各平台的啟用狀態和健康度 |
 
 > 指定執行時模型指派規則不變。Layer 相關任務用 `sonnet`，Mode 相關任務用 `opus`。
+
+### 平台識別碼對應
+
+| 平台 | 識別碼類型 | 格式範例 |
+|------|-----------|---------|
+| Amazon | ASIN | B09V3KXJPB |
+| Best Buy | SKU | 6505727 |
+| Walmart | Product ID | 123456789 |
+
+### URL 自動判斷
+
+`track product {URL}` 自動識別平台：
+
+| URL 模式 | 平台 | Layer |
+|---------|------|-------|
+| `amazon.com/dp/{ASIN}` | Amazon | amazon_us |
+| `bestbuy.com/site/{SKU}.p` | Best Buy | bestbuy_us |
+| `bestbuy.com/product/{ID}` | Best Buy | bestbuy_us |
+| `walmart.com/ip/{ID}` | Walmart | walmart_us |
 
 ### 單一產品分析流程
 
@@ -906,11 +1032,15 @@ Step 7 類別 A 完成 → 立即開始 Step 8 類別 A（同時 Step 7 類別 B
 
 ### track product 流程
 
-1. 解析 URL，判斷所屬平台（Amazon US/JP、YouTube Shopping 等）
+1. 解析 URL，判斷所屬平台
+   - Amazon: `amazon.com/dp/{ASIN}` → amazon_us
+   - Best Buy: `bestbuy.com/site/{SKU}.p` 或 `/product/{ID}` → bestbuy_us
+   - Walmart: `walmart.com/ip/{ID}` → walmart_us
 2. 將 URL 加入對應 Layer 的 `product_urls.txt`
-3. 從 URL 提取 product_id（ASIN 或其他識別碼）
-4. 更新 `docs/product_registry.md` 對應表
+3. 從 URL 提取 product_id（ASIN / SKU / Product ID）
+4. 更新 `docs/product_registry.md` 對應表（含 UPC 跨平台對應）
 5. 詢問使用者是否立即執行該 Layer 的 fetch + 萃取
+6. 若產品有 UPC，自動搜尋其他平台是否有同產品
 
 ---
 
