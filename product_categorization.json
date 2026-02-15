@@ -1,0 +1,384 @@
+{
+  "existing_categories": {
+    "mascara": [
+      "Maybelline Lash Sensational Sky High Mascara",
+      "essence Lash Princess Mascara",
+      "Maybelline Lash Sensational Mascara",
+      "L'Oreal Voluminous Mascara"
+    ],
+    "makeup-removal": [
+      "Neutrogena Makeup Remover Wipes",
+      "Neutrogena Makeup Remover Wipes Singles",
+      "Pure'n Gentle Makeup Remover Wipes",
+      "Equate Makeup Remover Wipes",
+      "Garnier Micellar Cleansing Water"
+    ],
+    "face-moisturizing": [
+      "CeraVe Moisturizing Cream",
+      "Cetaphil Moisturizing Lotion",
+      "Neutrogena Hydro Boost"
+    ],
+    "body-moisturizing": [
+      "eos Shea Better Body Lotion Vanilla Cashmere"
+    ],
+    "acne-treatment": [
+      "Mighty Patch Original",
+      "PanOxyl 10% Benzoyl Peroxide",
+      "Hanhoo Blemish Patch",
+      "Peach Slices Acne Spot Dots"
+    ],
+    "facial-cleanser": [
+      "CeraVe Hydrating Cream-to-Foam Cleanser",
+      "Vanicream Gentle Facial Cleanser",
+      "Cetaphil Daily Facial Cleanser"
+    ],
+    "dandruff-treatment": [
+      "Nizoral Anti-Dandruff Shampoo",
+      "Head and Shoulders Dandruff Shampoo"
+    ],
+    "exfoliating-toner": [
+      "The Ordinary Glycolic Acid 7%",
+      "medicube Toner Pads Zero Pore Pad 2.0"
+    ],
+    "eye-puffiness": [
+      "grace & stella Under Eye Mask"
+    ],
+    "face-towels": [
+      "Clean Skin Club Clean Towels XL"
+    ],
+    "hair-growth-supplement": [
+      "Nutrafol Women's Balance Hair Growth"
+    ],
+    "collagen-mask": [
+      "BIODANCE Bio-Collagen Real Deep Mask"
+    ],
+    "anti-aging-serum": [
+      "celimax The Vita A Retinal Shot"
+    ],
+    "power-strip": [
+      "Wall Charger 5 Outlet Surge Protector",
+      "6 Ft Surge Protector 8 Outlets",
+      "HANYCONY 8 Outlets Power Strip"
+    ],
+    "streaming-stick": [
+      "Amazon Fire TV Stick HD",
+      "Amazon Fire TV Stick 4K Plus",
+      "Amazon Fire TV Stick 4K Select",
+      "Amazon Fire TV Stick 4K Max",
+      "Roku Streaming Stick HD"
+    ],
+    "noise-cancelling-headphone": [
+      "Beats Studio Pro Headphones",
+      "Soundcore Q20i Headphones"
+    ],
+    "item-tracker": [
+      "Apple AirTag (2nd Gen)",
+      "Apple AirTag 4-Pack"
+    ],
+    "creatine-supplement": [
+      "Optimum Nutrition Creatine",
+      "Nutricost Creatine"
+    ],
+    "whey-protein": [
+      "Optimum Nutrition Whey Protein"
+    ],
+    "laundry-stain": [
+      "Miss Mouth's Stain Treater",
+      "Tide PODS"
+    ],
+    "building-blocks": [
+      "LEGO Van Gogh Starry Night",
+      "LEGO Bonsai Tree",
+      "LEGO Orchid",
+      "LEGO Speed Champions"
+    ],
+    "board-games": [
+      "Let's Get Deep Intimacy Card Game"
+    ],
+    "playing-cards": [
+      "UNO Card Game"
+    ]
+  },
+  "new_categories": {
+    "wireless-earbuds": {
+      "problem": "需要便攜無線音訊解決方案，用於通勤、運動或日常聆聽",
+      "products": [
+        "Apple EarPods USB-C",
+        "Apple AirPods 4",
+        "Apple AirPods Pro 3",
+        "TAGRY Bluetooth Headphones",
+        "JLab Go Air Pop+ Earbuds",
+        "JBL Vibe Beam Earbuds",
+        "Beats Solo 4 Headphones"
+      ]
+    },
+    "e-reader": {
+      "problem": "需要專用閱讀裝置，提供護眼螢幕和長續航力",
+      "products": [
+        "Amazon Kindle Paperwhite",
+        "Amazon Kindle 16 GB"
+      ]
+    },
+    "video-doorbell": {
+      "problem": "需要遠端監控訪客，提升居家安全",
+      "products": [
+        "Blink Video Doorbell",
+        "Blink Outdoor 4 Camera"
+      ]
+    },
+    "instant-camera-film": {
+      "problem": "即可拍相機需要底片耗材",
+      "products": [
+        "FUJIFILM Instax Mini Film"
+      ]
+    },
+    "remote-replacement": {
+      "problem": "原廠遙控器遺失或損壞，需要替代品",
+      "products": [
+        "Replacement Remote for Roku TV"
+      ]
+    },
+    "cord-protection": {
+      "problem": "電線易被寵物咬壞或磨損，需要保護套",
+      "products": [
+        "Alex Tech Cord Protector"
+      ]
+    },
+    "portable-speaker": {
+      "problem": "需要便攜藍牙喇叭，戶外或小空間使用",
+      "products": [
+        "JBL Go 4 Speaker"
+      ]
+    },
+    "electrolyte-hydration": {
+      "problem": "運動或脫水後需要快速補充電解質",
+      "products": [
+        "LMNT Zero Sugar Electrolytes",
+        "Liquid I.V. Hydration"
+      ]
+    },
+    "fluoride-free-toothpaste": {
+      "problem": "希望避免氟化物，使用天然口腔護理產品",
+      "products": [
+        "Boka Fluoride Free Toothpaste"
+      ]
+    },
+    "flushable-wipes": {
+      "problem": "需要比衛生紙更徹底清潔的可沖式濕紙巾",
+      "products": [
+        "DUDE Wipes Flushable",
+        "Cottonelle Flushable Wipes"
+      ]
+    },
+    "probiotic-supplement": {
+      "problem": "腸道健康或泌尿道健康需要益生菌補充",
+      "products": [
+        "Physician's CHOICE Probiotics",
+        "O Positiv URO Vaginal Probiotics"
+      ]
+    },
+    "magnesium-supplement": {
+      "problem": "睡眠品質差或肌肉痙攣，需要鎂補充",
+      "products": [
+        "Pure Encapsulations Magnesium"
+      ]
+    },
+    "collagen-supplement": {
+      "problem": "皮膚老化或關節保養，需要膠原蛋白補充",
+      "products": [
+        "Vital Proteins Collagen Peptides"
+      ]
+    },
+    "protein-bars": {
+      "problem": "需要便攜高蛋白零食，用於運動後補充或代餐",
+      "products": [
+        "Quest Nutrition Protein Bars"
+      ]
+    },
+    "video-game-multiplayer": {
+      "problem": "尋找適合雙人或多人同樂的遊戲",
+      "products": [
+        "Cuphead - Nintendo Switch",
+        "It Takes Two - Nintendo Switch",
+        "Mario Kart 8 Deluxale - Nintendo Switch",
+        "Super Smash Bros Ultimate - Nintendo Switch"
+      ]
+    },
+    "video-game-open-world": {
+      "problem": "尋找自由度高的開放世界探索遊戲",
+      "products": [
+        "Minecraft - Nintendo Switch",
+        "Animal Crossing - Nintendo Switch",
+        "Grand Theft Auto V - Xbox",
+        "Grand Theft Auto V - PlayStation"
+      ]
+    },
+    "video-game-action": {
+      "problem": "尋找刺激的動作射擊或戰鬥遊戲",
+      "products": [
+        "Call of Duty Modern Warfare II - Xbox",
+        "God of War - PlayStation"
+      ]
+    },
+    "hair-styling-hold": {
+      "problem": "髮型需要長時間定型，抗濕氣",
+      "products": [
+        "Rave 4X Mega Hold Hair Spray",
+        "Tresemme Extra Hold Hairspray"
+      ]
+    },
+    "hair-volume-shampoo": {
+      "problem": "頭髮扁塌無生氣，需要豐盈蓬鬆效果",
+      "products": [
+        "L'Oreal Elvive Hyaluron Plump Conditioner",
+        "Garnier Fructis Grow Strong Shampoo & Conditioner"
+      ]
+    },
+    "dry-shampoo": {
+      "problem": "無法每天洗頭，需要快速去油蓬鬆",
+      "products": [
+        "Batiste Dry Shampoo"
+      ]
+    },
+    "hair-repair-treatment": {
+      "problem": "頭髮受損分叉，需要修復護理",
+      "products": [
+        "L'Oreal Elvive Total Repair Shampoo Conditioner Set",
+        "Herbal Essences Shampoo Conditioner Set"
+      ]
+    },
+    "hair-frizz-control": {
+      "problem": "頭髮毛躁不順，需要柔順抗毛躁",
+      "products": [
+        "Garnier Fructis Sleek Shine Conditioner",
+        "Garnier Fructis Sleek Shine Shampoo"
+      ]
+    },
+    "home-hair-color": {
+      "problem": "需要在家自行染髮，遮蓋白髮或改變髮色",
+      "products": [
+        "L'Oreal Paris Feria Hair Color",
+        "Revlon ColorSilk Hair Color"
+      ]
+    },
+    "nail-polish-remover": {
+      "problem": "需要去除指甲油",
+      "products": [
+        "Equate Acetone Nail Polish Remover",
+        "Equate Nail Polish Remover"
+      ]
+    },
+    "nail-polish": {
+      "problem": "需要平價指甲油，顏色多樣",
+      "products": [
+        "L.A. COLORS Nail Polish"
+      ]
+    },
+    "eyebrow-pencil": {
+      "problem": "眉毛稀疏或形狀不佳，需要填補定型",
+      "products": [
+        "e.l.f. Instant Lift Brow Pencil"
+      ]
+    },
+    "body-wash": {
+      "problem": "沐浴時需要清潔並滋潤肌膚",
+      "products": [
+        "eos Cashmere Body Wash"
+      ]
+    },
+    "men-cologne": {
+      "problem": "男性需要日常香水",
+      "products": [
+        "Versace Eros Cologne"
+      ]
+    },
+    "kids-bike": {
+      "problem": "兒童學習騎車或日常騎乘需求",
+      "products": [
+        "Huffy 20\" Rock It Kids' Bike",
+        "Huffy 26\" Rock Creek Mountain Bike",
+        "Kent 20\" Ambush BMX Bicycle",
+        "Huffy 24\" Rock Creek Mountain Bike",
+        "Huffy 26\" Rock Creek Mountain Bike Mint",
+        "Huffy 24\" Rock Creek Bicycle Grey",
+        "Huffy 16\" Spider-Man Kids' Bike",
+        "Huffy 12\" Spider-Man Kids' Bike",
+        "Huffy 20\" Sea Star Kids' Bike"
+      ]
+    },
+    "ride-on-toy": {
+      "problem": "幼兒需要騎乘玩具，訓練平衡和運動能力",
+      "products": [
+        "Little Tikes Cozy Coupe Ride-on",
+        "Radio Flyer 4-in-1 Activity Trike",
+        "Yamaha Raptor 12V ATV Ride-on",
+        "Huffy 6V Minnie Mouse Ride-On",
+        "Razor E90 Electric Scooter"
+      ]
+    },
+    "toy-cars": {
+      "problem": "兒童收集玩具車，推動想像力遊戲",
+      "products": [
+        "Hot Wheels Mystery Models",
+        "Hot Wheels 5-Pack"
+      ]
+    },
+    "giant-teddy-bear": {
+      "problem": "需要大型絨毛玩具作為禮物或裝飾",
+      "products": [
+        "MorisMos Giant Teddy Bear 35\"",
+        "MaoGoLan Giant Teddy Bear 47\"",
+        "MorisMos Giant Teddy Bear 4ft"
+      ]
+    },
+    "action-figure": {
+      "problem": "兒童收集或扮演遊戲需要角色公仔",
+      "products": [
+        "Disney Toy Story Woody Figure",
+        "PAW Patrol 10 Collectible Figures",
+        "Spider-Man Super Web Slinger"
+      ]
+    },
+    "kids-outdoor-ride": {
+      "problem": "兒童需要戶外大型玩具，增加體能活動",
+      "products": [
+        "Step2 Up & Down Roller Coaster"
+      ]
+    },
+    "pretend-play-kitchen": {
+      "problem": "兒童扮家家酒，訓練生活技能和想像力",
+      "products": [
+        "Disney Minnie Mouse Kitchen Set"
+      ]
+    },
+    "hair-elastic": {
+      "problem": "綁頭髮需要髮圈",
+      "products": [
+        "Goody Hair Elastics"
+      ]
+    }
+  },
+  "uncategorized": [
+    "Blink Subscription Plus Plan",
+    "Apple iPad 11-inch",
+    "Apple Watch Series 11",
+    "Bounty Paper Towels",
+    "Scott ComfortPlus Toilet Paper",
+    "Amazon Basics AA Batteries",
+    "Amazon Basics Paper Plates",
+    "Angel Soft Toilet Paper",
+    "Amazon Basics Toilet Paper",
+    "Charmin Ultra Soft Toilet Paper",
+    "Hefty Ultra Strong Trash Bags",
+    "Amazon Basics AAA Batteries",
+    "Amazon Basics Paper Towels",
+    "Scott Paper Towels",
+    "Bounty Select-A-Size Paper Towels",
+    "Sparkle Paper Towels",
+    "Cottonelle Ultra Clean Toilet Paper",
+    "Brawny Paper Towels",
+    "Amazon Basics Cotton Swabs",
+    "Amazon Basics Cotton Rounds",
+    "Amazon Basics Hand Soap"
+  ]
+}
