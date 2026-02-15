@@ -1,0 +1,32 @@
+{
+  "date": "2026-02-15",
+  "platforms": {
+    "amazon_us": {
+      "categories": ["beauty", "electronics", "health"],
+      "total_products": 80,
+      "new_products": 56
+    },
+    "bestbuy_us": {
+      "categories": ["electronics", "tv"],
+      "total_products": 20,
+      "new_products": 20
+    },
+    "walmart_us": {
+      "categories": ["beauty"],
+      "total_products": 0,
+      "new_products": 0,
+      "note": "反爬蟲限制，需改用 headless=false"
+    }
+  },
+  "summary": {
+    "total_discovered": 100,
+    "new_products": 76,
+    "existing_products": 24
+  },
+  "new_asins": [
+    "B00DLDH1N2", "B00EB4ADQW", "B00GL2HMES", "B00LH3DMUO", "B00NTCH52W",
+    "B010NE2XPC", "B01BZ0LXL8", "B01EIG6A4Q", "B01IT9NLHW", "B0798DVT68",
+    "B079H53D2B", "B079VP6DH5", "B07BGLT25K", "B07FW3GTXB", "B07ND3WR64"
+  ],
+  "pending_grouping": true
+}
