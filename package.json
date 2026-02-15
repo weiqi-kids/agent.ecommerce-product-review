@@ -1,0 +1,32 @@
+{
+  "name": "agent.ecommerce-product-review",
+  "version": "1.0.0",
+  "description": "E-commerce Product Review Intelligence System — 透過 Claude CLI 多角色協作，自動化擷取、分析與報告電商商品評論。",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiqi-kids/agent.ecommerce-product-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weiqi-kids/agent.ecommerce-product-review/issues"
+  },
+  "homepage": "https://github.com/weiqi-kids/agent.ecommerce-product-review#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.28"
+  }
+}

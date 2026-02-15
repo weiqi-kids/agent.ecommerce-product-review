@@ -29,3 +29,8 @@ npm-debug.log*
 
 # Cache
 .cache/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Build output
+dist/
