@@ -111,36 +111,36 @@ qdrant_scroll "$QDRANT_COLLECTION" \
 2. 移除 `[DEFERRED]` 標記
 3. 從 `watchlist.json` 的 `deferred_categories` 移除
 
-## Step 9: SEO 處理（自動觸發）
+## SEO 處理（VitePress 自動）
 
-> ⚠️ **Step 9 為自動化流程**，由 GitHub Actions 在報告 push 後自動執行。
+> ⚠️ **SEO 由 VitePress 自動處理**，無需額外步驟。
 
-當警告報告或假貨報告被 push 到 `docs/Narrator/warnings/` 或 `docs/Narrator/counterfeits/` 時：
+當報告被 push 到任何 `docs/Narrator/` 目錄時：
 
-1. **GitHub Actions 觸發** `.github/workflows/build-seo.yml`
-2. **執行 SEO 腳本** `scripts/generate-seo-page.js --all`
-3. **產出 SEO Landing Page** 至 `docs/pages/{type}/`
-4. **更新 sitemap.xml**
-5. **自動 commit + push**
+1. **GitHub Actions 觸發** `.github/workflows/deploy-vitepress.yml`
+2. **VitePress 構建** 自動生成靜態 HTML
+3. **SEO 元素自動注入** 每個頁面
+4. **Sitemap 自動生成** 於構建時
+5. **部署至 GitHub Pages**
 
-### SEO 頁面包含
+### VitePress 自動生成的 SEO 元素
 
 | 元素 | 說明 |
 |------|------|
-| JSON-LD Schema | 7 種必填 + 條件式（Review、AggregateRating） |
-| Open Graph | 社群分享優化 |
+| JSON-LD Schema | WebSite, Organization, Person, Article |
+| Open Graph | 社群分享優化（自動從標題/描述提取） |
 | Twitter Card | Twitter 分享優化 |
-| Speakable | 語音搜尋優化 |
-| SGE 標記 | AI 摘要優化（.key-answer, .key-takeaway） |
+| Speakable | 語音搜尋優化（.key-answer 類別） |
+| Sitemap | 自動生成於 /sitemap.xml |
 
-### 手動執行 SEO 生成
+### 本地預覽
 
 ```bash
-# 處理所有警告和假貨報告
-node scripts/generate-seo-page.js --all
+# 開發模式
+npm run docs:dev
 
-# 處理單一報告
-node scripts/generate-seo-page.js docs/Narrator/warnings/example.md
+# 構建預覽
+npm run docs:build && npm run docs:preview
 ```
 
 ---
@@ -157,4 +157,4 @@ node scripts/generate-seo-page.js docs/Narrator/warnings/example.md
 - [ ] 推測與事實明確區分
 - [ ] confidence 正確反映資料品質
 - [ ] 報告語言為繁體中文（引述保留原文）
-- [ ] **SEO frontmatter 完整**（title, description, type, products, faq, key_answer）
+- [ ] 標題清晰明確（VitePress 自動提取為 SEO 標題）

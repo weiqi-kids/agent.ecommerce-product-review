@@ -64,8 +64,8 @@ export default defineConfig({
   // 最後更新時間
   lastUpdated: true,
 
-  // 忽略死連結（遷移期間暫時忽略）
-  ignoreDeadLinks: true,
+  // 死連結檢查（所有連結已修復）
+  ignoreDeadLinks: false,
 
   // Head 標籤
   head: [

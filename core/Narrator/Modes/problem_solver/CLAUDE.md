@@ -116,32 +116,9 @@ WebSearch: "{解決方法} best products 2026"
 
 ## 輸出框架
 
-> **重要**：報告必須包含 SEO frontmatter，用於自動生成 SEO Landing Page。
+> **SEO 自動處理**：VitePress 構建時自動生成 SEO 元素（JSON-LD、Open Graph、Sitemap），報告無需手動添加 SEO frontmatter。
 
 ```markdown
----
-seo:
-  title: "{問題} 解決指南 | 買前必看"
-  description: "基於 {N} 則真實評論分析，比較 {產品1}、{產品2}、{產品3} 等產品..."
-  type: "{recommendation | comparison | warning | pain_point}"
-  category: "{美妝保養 | 健康保健 | 居家清潔 | 電子產品 | ...}"
-  products:
-    - name: "{主角產品名}"
-      asin: "{ASIN}"
-      rating: {評分}
-      review_count: {評論數}
-    - name: "{競品1名}"
-      asin: "{ASIN}"
-      rating: {評分}
-  faq:
-    - q: "{問題1}？"
-      a: "{答案1，50-150字}"
-    - q: "{問題2}？"
-      a: "{答案2，50-150字}"
-    - q: "{問題3}？"
-      a: "{答案3，50-150字}"
-  key_answer: "{一句話關鍵答案，回答用戶最關心的問題，50-100字}"
----
 # {問題} 解決指南
 
 ## 問題是什麼？
@@ -278,16 +255,9 @@ seo:
 - [ ] 報告語言為繁體中文（引述保留原文）
 - [ ] 推測與事實明確區分
 
-### SEO Frontmatter（必填）
-- [ ] 包含 `seo:` frontmatter 區塊
-- [ ] `title` 包含問題關鍵字 + "| 買前必看"
-- [ ] `description` 50-160 字，包含評論數量和產品名稱
-- [ ] `type` 正確（recommendation/comparison/warning/pain_point）
-- [ ] `products` 列出主角和競品（含 ASIN、評分）
-- [ ] `faq` 包含 3-5 個常見問題（從報告內容萃取）
-- [ ] `key_answer` 一句話回答核心問題
-
 **未通過審核** → 在報告開頭加上 `[REVIEW_NEEDED]` 並說明缺失項目。
+
+> **SEO 說明**：VitePress 構建時自動從報告標題和內容生成 SEO 元素，無需手動添加 frontmatter。
 
 ---
 

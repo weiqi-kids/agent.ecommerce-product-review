@@ -178,7 +178,7 @@ RELIEF SUN 的 Amazon 評論呈現多項統計異常，消費者在購買前應�
 
 ## 相關報告
 
-- 比較報告：[sun-protection--comparison--2026-02-06.md](/docs/Narrator/comparisons/sun-protection--comparison--2026-02-06.md)
+- 比較報告：[sun-protection--comparison--2026-02-06.md](../comparisons/sun-protection--comparison--2026-02-06.md)
 
 ---
 

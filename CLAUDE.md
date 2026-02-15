@@ -1180,27 +1180,20 @@ claude mcp add fetcher -- npx -y fetcher-mcp
 - **萃取層**：aspect 名稱統一用英文，引述保留原文
 - **Narrator 層**：報告用繁體中文產出，保留原文引述
 
-### 側邊欄視圖管理
+### 網站架構（VitePress）
 
-網站側邊欄支援 3 種視圖模式，用戶可通過頂部按鈕切換：
+網站使用 VitePress 靜態網站生成器，自動處理 SEO 和導覽。
 
-| 視圖 | 檔案 | 說明 | emoji |
-|------|------|------|-------|
-| 按時間 | `_sidebar.md` | 每日更新一目了然 | 📅 |
-| 按類別 | `_sidebar-category.md` | 找特定產品類別 | 📁 |
-| 按類型 | `_sidebar-type.md` | 警告/推薦/比較/痛點 | 📋 |
+**自動化功能**：
+- 導覽列由 `docs/.vitepress/config.ts` 配置
+- Sitemap 自動生成於構建時
+- JSON-LD Schema 自動注入每個頁面
+- 無需手動更新側邊欄檔案
 
-**更新規則**：
-- 每次產出新報告時，**必須同時更新 3 個 sidebar 檔案**
-- 按時間視圖：新報告加入對應日期區塊，emoji 標示類型（⚠️/✅/⚖️/📊/🚨）
-- 按類別視圖：新報告加入對應類別區塊
-- 按類型視圖：新報告加入對應類型區塊
-
-**emoji 格式規則（按時間視圖）**：
-- ⚠️ 警告、✅ 推薦、⚖️ 比較、📊 痛點、🚨 假貨
-- **emoji 必須放在連結裡面**，避免 docsify 渲染斷行：
-  - ✅ 正確：`* [⚠️ 產品名稱](路徑)`
-  - ❌ 錯誤：`* ⚠️ [產品名稱](路徑)`
+**報告產出後**：
+- Git push 觸發 GitHub Actions
+- VitePress 自動構建並部署
+- 新報告自動出現在網站上
 
 ### 禁止行為
 
@@ -1234,24 +1227,18 @@ Step 8 完成
     ↓
 5. 更新 README.md 健康度儀表板
     ↓
-6. 更新 3 個 sidebar 檔案（加入新報告連結）
-    ├── docs/_sidebar.md（按時間）
-    ├── docs/_sidebar-category.md（按類別）
-    └── docs/_sidebar-type.md（按類型）
+6. 更新 docs/README.md 首頁（更新「最新報告」區塊）
     ↓
-7. 更新 docs/README.md 首頁（更新「最新報告」區塊）
+7. Git commit + push（觸發 VitePress 自動構建部署）
     ↓
-8. Git commit + push（觸發 GitHub Actions 更新網站）
-    ↓
-9. 驗證網站更新（curl + WebFetch 確認內容可見）
+8. 驗證網站更新（curl + WebFetch 確認內容可見）
     ↓
 執行完成 ✅
 ```
 
 > ⚠️ **未完成以上事項視為執行未完成**，下次執行時會從中斷點繼續。
-> ⚠️ **步驟 6-9 特別重要**：
-> - **必須更新全部 3 個 sidebar 檔案**，否則某些視圖會缺少新報告
-> - `README.md` 首頁的「最新報告」區塊也需手動更新
+> ⚠️ **VitePress 自動化**：Git push 後 GitHub Actions 自動構建，無需手動更新側邊欄。
+> - `README.md` 首頁的「最新報告」區塊仍需手動更新
 > - 必須親自驗證網站更新，不能假設 push 後就完成
 
 ### 執行回報
