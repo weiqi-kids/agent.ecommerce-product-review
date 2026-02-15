@@ -1,0 +1,46 @@
+name: Build SEO Landing Pages
+
+on:
+  push:
+    paths:
+      - 'docs/Narrator/warnings/**/*.md'
+      - 'docs/Narrator/counterfeits/**/*.md'
+  workflow_dispatch:
+
+jobs:
+  build-seo:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate SEO Landing Pages
+        run: node scripts/generate-seo-page.js --all
+
+      - name: Verify generated files
+        run: |
+          echo "📋 Generated SEO pages:"
+          ls -la docs/pages/warnings/ 2>/dev/null || echo "No warnings pages"
+          ls -la docs/pages/counterfeits/ 2>/dev/null || echo "No counterfeits pages"
+          echo ""
+          echo "📍 Sitemap entries:"
+          grep -c "<url>" docs/sitemap.xml || echo "0"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/pages/ docs/sitemap.xml docs/robots.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-update SEO landing pages"
+            git push
+          fi

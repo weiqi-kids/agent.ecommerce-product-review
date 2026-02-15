@@ -1,0 +1,22 @@
+# robots.txt for ecommerce.weiqi.kids
+# 買前必看 - 電商商品評論智慧分析系統
+
+User-agent: *
+Allow: /
+
+# 允許 SEO 頁面
+Allow: /pages/
+
+# 允許主要內容
+Allow: /Narrator/
+Allow: /daily_summary/
+
+# 禁止原始數據目錄
+Disallow: /Extractor/raw/
+Disallow: /Extractor/*/raw/
+
+# Sitemap
+Sitemap: https://ecommerce.weiqi.kids/sitemap.xml
+
+# Crawl-delay（建議）
+Crawl-delay: 1
