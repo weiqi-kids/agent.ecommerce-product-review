@@ -1229,9 +1229,22 @@ Step 8 完成
     ↓
 6. 更新 docs/README.md 首頁（更新「最新報告」區塊）
     ↓
-7. Git commit + push（觸發 VitePress 自動構建部署）
+7. 本地 SEO 驗證（npm run seo:validate）
+    ├── 通過 → 繼續
+    └── 失敗/警告 → 執行 npm run seo:fix 自動修復
+        ├── 修復成功 → 繼續
+        └── 仍有問題 → 手動修復後繼續
     ↓
-8. 驗證網站更新（curl + WebFetch 確認內容可見）
+8. Git commit + push（觸發 VitePress 自動構建部署）
+    ↓
+9. 等待部署完成 + 全站 SEO 驗證
+    ├── gh run list 確認 Deploy VitePress 完成
+    ├── gh run list 確認 Validate Site SEO 完成
+    └── 檢查驗證結果：
+        ├── 通過 → 繼續
+        └── 失敗 → 檢查 GitHub Actions 日誌，修復後重新 push
+    ↓
+10. 驗證網站更新（curl + WebFetch 確認內容可見）
     ↓
 執行完成 ✅
 ```
@@ -1240,6 +1253,39 @@ Step 8 完成
 > ⚠️ **VitePress 自動化**：Git push 後 GitHub Actions 自動構建，無需手動更新側邊欄。
 > - `README.md` 首頁的「最新報告」區塊仍需手動更新
 > - 必須親自驗證網站更新，不能假設 push 後就完成
+
+### SEO 驗證指令參考
+
+| 指令 | 用途 |
+|------|------|
+| `npm run seo:validate` | 本地驗證 markdown 源碼的 frontmatter 和 AI Tags |
+| `npm run seo:fix` | 自動修復常見 SEO 問題 |
+| `npm run seo:validate-site` | 爬取已部署網站，驗證實際 HTML |
+
+**驗證項目**：
+
+| 類型 | 必要 | 規則 |
+|------|------|------|
+| title | ✅ | ≤52 字元（網站會自動加上 " \| 買前必看" 8 字元） |
+| description | ✅ | 50-160 字元 |
+| og:title | ✅ | 需存在 |
+| og:description | ✅ | 需存在 |
+| og:type | ✅ | 需存在 |
+| twitter:card | ✅ | 需存在 |
+| article-summary | ✅ | AI Tag，需存在 |
+| key-answer | ⚠️ | AI Tag，建議添加 |
+| key-takeaway | ⚠️ | AI Tag，建議添加 |
+
+**常見問題與修復**：
+
+| 問題 | 自動修復 | 手動修復 |
+|------|---------|---------|
+| description 過短 | ❌ | 擴充描述內容至 50+ 字元 |
+| title 過長 | ❌ | 縮短標題至 52 字元內 |
+| 缺少 key-answer | ❌ | 在報告中添加 `<p class="key-answer">` |
+| 缺少 key-takeaway | ❌ | 在報告末尾添加 `<div class="key-takeaway">` |
+| YAML 冒號未跳脫 | ✅ | `npm run seo:fix` |
+| HTML 符號 `<` | ✅ | `npm run seo:fix`（轉為「小於」） |
 
 ### 執行回報
 
