@@ -14,6 +14,7 @@
     "docs:preview": "vitepress preview docs",
     "seo:validate": "node scripts/validate-seo.js",
     "seo:fix": "node scripts/fix-seo.js",
+    "seo:validate-site": "node scripts/validate-site.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,0 +1,203 @@
+name: Validate Site SEO
+
+on:
+  # 在 VitePress 部署完成後觸發
+  workflow_run:
+    workflows: ["Deploy VitePress to GitHub Pages"]
+    types:
+      - completed
+  # 手動觸發
+  workflow_dispatch:
+  # 每週一 UTC 01:00 執行完整檢查
+  schedule:
+    - cron: '0 1 * * 1'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate-site:
+    runs-on: ubuntu-latest
+    # 只在部署成功後執行
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Wait for deployment propagation
+        if: github.event_name == 'workflow_run'
+        run: |
+          echo "等待 30 秒讓部署生效..."
+          sleep 30
+
+      - name: Validate site SEO
+        id: validate
+        run: |
+          set +e
+          node scripts/validate-site.js --save 2>&1 | tee validation-output.txt
+          EXIT_CODE=$?
+          set -e
+
+          # 解析結果
+          if [ -f site-validation-result.json ]; then
+            TOTAL=$(jq -r '.total' site-validation-result.json)
+            PASSED=$(jq -r '.passed' site-validation-result.json)
+            FAILED=$(jq -r '.failed' site-validation-result.json)
+            WARNINGS=$(jq -r '.withWarnings' site-validation-result.json)
+          else
+            TOTAL=0
+            PASSED=0
+            FAILED=1
+            WARNINGS=0
+          fi
+
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          echo "passed=$PASSED" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "warnings=$WARNINGS" >> $GITHUB_OUTPUT
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "has_errors=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_errors=false" >> $GITHUB_OUTPUT
+          fi
+
+          # 生成 Summary
+          echo "### 🌐 全站 SEO 驗證結果" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 項目 | 數量 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|" >> $GITHUB_STEP_SUMMARY
+          echo "| 總頁面數 | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| ✅ 通過 | $PASSED |" >> $GITHUB_STEP_SUMMARY
+          echo "| ❌ 失敗 | $FAILED |" >> $GITHUB_STEP_SUMMARY
+          echo "| ⚠️ 有警告 | $WARNINGS |" >> $GITHUB_STEP_SUMMARY
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "#### ❌ 錯誤頁面" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            jq -r '.errors[] | "📄 \(.url | split("/") | last)\n\(.errors | map("   ❌ [\(.type)] \(.message)") | join("\n"))"' site-validation-result.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+          exit $EXIT_CODE
+
+      - name: Upload validation result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-validation-result
+          path: |
+            site-validation-result.json
+            validation-output.txt
+
+  create-issue:
+    needs: validate-site
+    if: failure()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download validation result
+        uses: actions/download-artifact@v4
+        with:
+          name: site-validation-result
+          path: .
+
+      - name: Generate issue body
+        id: issue
+        run: |
+          if [ ! -f site-validation-result.json ]; then
+            echo "沒有驗證結果檔案"
+            exit 0
+          fi
+
+          FAILED=$(jq -r '.failed' site-validation-result.json)
+          TOTAL=$(jq -r '.total' site-validation-result.json)
+
+          cat > issue-body.md << 'HEREDOC'
+          ## 🌐 全站 SEO 驗證失敗
+
+          已部署的網站有 SEO 問題需要修復。
+
+          ### 統計
+          | 項目 | 數量 |
+          |------|------|
+          | 總頁面數 | TOTAL_PLACEHOLDER |
+          | 錯誤頁面 | FAILED_PLACEHOLDER |
+
+          ### 錯誤詳情
+
+          HEREDOC
+
+          sed -i "s/TOTAL_PLACEHOLDER/$TOTAL/g" issue-body.md
+          sed -i "s/FAILED_PLACEHOLDER/$FAILED/g" issue-body.md
+
+          echo '```' >> issue-body.md
+          jq -r '.errors[] | "📄 \(.url | split("/") | last)\n\(.errors | map("   ❌ [\(.type)] \(.field // "") \(.message)") | join("\n"))\n"' site-validation-result.json >> issue-body.md
+          echo '```' >> issue-body.md
+
+          cat >> issue-body.md << 'HEREDOC'
+
+          ### 驗證項目
+
+          - **Meta Tags**: title, description, keywords, og:*, twitter:*
+          - **JSON-LD Schema**: Article, WebSite, Organization
+          - **AI Tags**: article-summary (必要), key-answer, key-takeaway (建議)
+          - **HTML**: lang 屬性, canonical link
+
+          ### 本地驗證指令
+
+          ```bash
+          npm run seo:validate-site
+          ```
+
+          ---
+          🤖 此 Issue 由 GitHub Actions 自動建立
+          HEREDOC
+
+      - name: Check for existing issue
+        id: check_issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EXISTING=$(gh issue list --label "site-seo-validation" --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            echo "existing_issue=$EXISTING" >> $GITHUB_OUTPUT
+            echo "has_existing=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_existing=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update existing issue
+        if: steps.check_issue.outputs.has_existing == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ steps.check_issue.outputs.existing_issue }} \
+            --body-file issue-body.md
+          echo "已更新現有 Issue #${{ steps.check_issue.outputs.existing_issue }}"
+
+      - name: Create new issue
+        if: steps.check_issue.outputs.has_existing != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🌐 全站 SEO 驗證失敗 - 需要修復" \
+            --body-file issue-body.md \
+            --label "site-seo-validation,bug,automated"
+          echo "已建立新 Issue"
