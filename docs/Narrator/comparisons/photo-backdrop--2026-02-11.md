@@ -1,6 +1,6 @@
 ---
 title: 派對攝影背景解決指南
-description: 派對背景產品比較指南：分析攝影背景簾，幫助你選擇最適合的派對裝飾
+description: ZATAYE Glitter Pink Backdrop 以超低價格（$5.98/2 片）提供出色視覺效果，但存在嚴重功能缺陷：36% 材質易撕裂、44% 附帶膠帶無法支撐。實際總成本需加倍（$6 產品 + $6 Command Strips = ~$12）
 date: 2026-02-11
 head:
   - - meta

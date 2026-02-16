@@ -1,6 +1,6 @@
 ---
 title: 地板拖把比較分析
-description: 拖地產品比較指南：分析拖把系統，幫助你選擇最適合的地板清潔工具
+description: 拖地產品比較指南：分析 O-Cedar RinseClean 雙水箱拖把系統，評估清水髒水分離設計的實際效果與手柄故障問題
 date: 2026-02-09
 head:
   - - meta

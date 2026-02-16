@@ -1,6 +1,6 @@
 ---
 title: 相框選購比較分析
-description: 相框產品比較指南：分析 3 款產品，幫助你選擇最適合的照片相框
+description: 三款預算相框均存在嚴重品質控制問題：Amazon Basics 36% 尺寸不準導致標準照片無法放入，FIXSMITH 材質不符宣稱（壓縮木屑非 MDF），upsimples 36% 運輸損壞率。建議增加預算選擇 Golden State Art
 date: 2026-02-09
 head:
   - - meta

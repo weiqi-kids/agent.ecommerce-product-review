@@ -1,6 +1,6 @@
 ---
 title: 去角質化妝水選購指南
-description: 去角質化妝水產品比較指南：分析多款產品，幫助你選擇最適合的去角質化妝水
+description: The Ordinary Glycolic Acid 7% 以業界最低價格($1.11/oz)提供有效去角質,但 4% 用戶報告每日使用導致灼傷。敏感肌或新手應選 Pixi Glow Tonic 5% 甘醇酸溫和入門,油痘肌選 Paula's Choice 2% BHA 深層清潔毛孔
 date: 2026-02-15
 head:
   - - meta

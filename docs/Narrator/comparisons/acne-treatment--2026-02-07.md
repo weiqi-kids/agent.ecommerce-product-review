@@ -1,6 +1,6 @@
 ---
 title: 痘痘治療 解決指南
-description: 痘痘治療產品比較指南：分析 3 款產品，幫助你選擇最適合的抗痘方案
+description: 比較 Mighty Patch 水膠體貼片、Medicube 化學去角質棉片與 PanOxyl 過氧化苯甲醯洗面乳。Mighty Patch 零過敏風險適合表面白頭,Medicube 有 5% 過敏率,PanOxyl 身體痘剋星但刺激性高。基於 300 則評論分析
 date: 2026-02-07
 head:
   - - meta

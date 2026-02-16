@@ -1,6 +1,6 @@
 ---
 title: 抗老精華比較報告
-description: 抗老精華產品比較指南：分析 9 款產品，幫助你選擇最適合的視黃類精華
+description: 比較 MEDITHERAPY 與 celimax 等 9 款視黃醛精華。MEDITHERAPY 以 $0.13/ml 極致性價比提供 88-90% 有效率但有 14% 不良反應,celimax 高濃度配方效果兩極化,有效者 1-7 天見效但 12% 完全無效
 date: 2026-02-11
 head:
   - - meta
@@ -23,6 +23,10 @@ head:
 ---
 
 ## 1. 問題定義：抗老精華解決什麼問題
+
+<p class="key-answer" data-question="抗老精華如何解決皮膚老化?">
+<strong>視黃類成分能促進細胞更新和膠原蛋白生成</strong>，其中視黃醛(Retinal)比視黃醇快 11 倍達到活性形式，3 倍效力更強，可改善皺紋、膚色不均和毛孔粗大。
+</p>
 
 ### 核心問題
 
@@ -510,6 +514,10 @@ head:
 | 視黃類絕對新手 | **Neutrogena**（視黃醇更溫和） |
 | 願意投資專業級 | **Murad** 或 **Dr. Dennis Gross** |
 | 深層皺紋專攻 | **RoC Retinol Correxion** |
+
+<div class="key-takeaway">
+重點：MEDITHERAPY 以 $0.13/ml 極致性價比提供 88-90% 有效率，但有 14% 不良反應；celimax 高濃度配方效果兩極化，有效者 1-7 天見效但 12% 完全無效。敏感肌和痘痘肌建議選擇 The Inkey List 或 Geek & Gorgeous。
+</div>
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 保濕精華液 解決指南
-description: 保濕精華產品比較指南：分析多款產品，幫助你選擇最適合的保濕精華液
+description: 保濕精華產品比較指南：分析 The Ordinary HA 2% + B5 與 CosRX 蝸牛黏液等競品，比較性價比、起屑問題與保濕效果
 date: 2026-02-15
 head:
   - - meta

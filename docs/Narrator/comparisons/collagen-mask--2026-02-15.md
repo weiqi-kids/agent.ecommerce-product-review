@@ -1,6 +1,6 @@
 ---
 title: 膠原蛋白面膜比較分析
-description: 膠原蛋白面膜產品比較指南：分析 6 款產品，幫助你選擇最適合的膠原蛋白面膜
+description: 六款韓國膠原蛋白面膜比較:BIODANCE 保濕與光澤效果最高但敏感肌需謹慎(12% 不良反應),Abib Sedum Jelly 最佳性價比($2.20/片),Abib Heartleaf 敏感肌首選(僅 3% 過敏率),COSRX Pink Peptides 即時光澤佳但敏感肌應避免
 date: 2026-02-15
 head:
   - - meta

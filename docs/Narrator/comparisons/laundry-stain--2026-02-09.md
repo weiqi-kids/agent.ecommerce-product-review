@@ -1,6 +1,6 @@
 ---
 title: 衣物污漬去除比較分析
-description: 洗衣去漬產品比較指南：分析 2 款產品，幫助你選擇最適合的污漬去除劑
+description: 洗衣去漬產品比較指南：比較 Shout Active Enzyme 與 ARM & HAMMER Plus OxiClean，分析污漬去除效果與異味清潔能力差異
 date: 2026-02-09
 head:
   - - meta

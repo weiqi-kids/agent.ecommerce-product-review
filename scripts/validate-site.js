@@ -20,6 +20,7 @@ const CONFIG = {
 // SEO 驗證規則
 const SEO_RULES = {
   meta: {
+    // 網站會自動添加 " | 買前必看" (8字元)，所以實際顯示會是 title + 8
     title: { required: true, maxLength: 60 },
     description: { required: true, minLength: 50, maxLength: 160 },
     keywords: { required: false },

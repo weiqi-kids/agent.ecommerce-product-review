@@ -231,6 +231,10 @@ BIODANCE Bio-Collagen Mask 採用**低分子生物膠原蛋白面膜**技術：
 └── 使用便利性優先 → ⚠️ 兩者都不理想（建議尋找快速吸收產品）
 ```
 
+<div class="key-takeaway">
+重點：medicube Jelly Cream 適合日常長效保養（88% 有效，但 26% 黏膩感），BIODANCE Mask 適合週期密集修護（93% 有效，但 14% 面膜脫落）。極乾肌/熟齡肌選 medicube，抗老/密集修護選 BIODANCE，敏感肌兩者都需謹慎。
+</div>
+
 ---
 
 ## 使用技巧（基於用戶經驗）

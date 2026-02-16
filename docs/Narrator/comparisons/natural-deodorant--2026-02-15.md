@@ -1,6 +1,6 @@
 ---
 title: 體味控制（天然體香劑）解決指南
-description: 天然體香劑產品比較指南：分析多款產品，幫助你選擇最適合的天然體香劑，控制體味
+description: Native Deodorant 小蘇打配方效果兩極化（50% 極滿意但 24% 完全無效），16% 皮膚刺激率偏高。Lume 酸性配方 72 小時長效無小蘇打更適合敏感肌，環保選 Schmidt's 紙管
 date: 2026-02-15
 head:
   - - meta

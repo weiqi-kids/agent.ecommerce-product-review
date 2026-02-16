@@ -1,6 +1,6 @@
 ---
 title: 派對一次性餐具比較分析
-description: 派對餐具產品比較指南：分析 20 款產品，幫助你選擇最適合的環保一次性餐具
+description: Hefty Party Cups 雖價格實惠但存在 18% 瑕疵率和環保落後問題（500-1000 年分解）。同品牌 Hefty ECOSAVE 以相近價格提供更優性能：45-60 天完全分解、America's Test Kitchen 優勝、BPI 認證
 date: 2026-02-09
 head:
   - - meta

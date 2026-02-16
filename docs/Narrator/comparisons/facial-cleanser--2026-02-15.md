@@ -1,6 +1,6 @@
 ---
 title: 臉部清潔洗面乳 解決指南
-description: 洗面乳產品比較指南：分析多款產品，幫助你選擇最適合的臉部清潔產品
+description: 洗面乳產品比較指南：分析 CeraVe Hydrating Facial Cleanser 與競品，比較神經醯胺配方、卸妝力與適合膚質
 date: 2026-02-15
 head:
   - - meta

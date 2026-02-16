@@ -1,6 +1,6 @@
 ---
 title: 身體皮膚緊緻塑形 解決指南
-description: 身體緊緻產品比較指南：分析 27 款產品，幫助你選擇最適合的緊緻乳液
+description: 分析 Palmer's Coconut Oil 與 27 款身體緊緻產品。Palmer's 以保濕見長(0.85 分)但緊緻效果不確定(0.63 分)。追求科學證實效果應選 Gold Bond Retinol($15,2 週見效)或專業級 Alastin($220,8 週改善 63%)
 date: 2026-02-08
 head:
   - - meta

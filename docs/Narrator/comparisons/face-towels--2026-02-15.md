@@ -1,6 +1,6 @@
 ---
 title: 一次性洗臉巾（Disposable Face Towels）解決指南
-description: 一次性洗臉巾產品比較指南：分析多款產品，幫助你選擇最適合的洗臉巾，避免細菌滋生
+description: 一次性洗臉巾產品比較指南：分析 Clean Skin Club 與 Ditoi、竹纖維巾等競品，比較臨床實證、性價比與環保影響
 date: 2026-02-15
 head:
   - - meta

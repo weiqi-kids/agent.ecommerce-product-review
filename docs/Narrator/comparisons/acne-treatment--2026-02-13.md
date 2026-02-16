@@ -1,6 +1,6 @@
 ---
 title: 痘痘治療產品比較指南
-description: 痘痘治療產品比較指南：分析多款產品，幫助你選擇最適合的抗痘方案
+description: 比較 Mighty Patch、PanOxyl 10% 與 Medicube 酸類去角質墊。Mighty Patch 溫和無刺激適合表層白頭,PanOxyl 強效殺菌但 18% 副作用,Medicube 性價比極高($0.08/片)但敏感肌風險 27%。深層囊腫型需就醫
 date: 2026-02-13
 head:
   - - meta
@@ -15,6 +15,10 @@ head:
 </div>
 
 ## 問題是什麼？
+
+<p class="key-answer" data-question="痘痘是什麼問題?">
+<strong>痘痘是毛孔堵塞導致的發炎反應</strong>，由過度油脂分泌、死皮細胞堆積、細菌增生和免疫系統發炎四大因素共同造成，影響約 9.4% 的人口。
+</p>
 
 痘痘（痤瘡）是全球最常見的皮膚問題之一，影響約 9.4% 的人口。症狀包括：
 

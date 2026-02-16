@@ -1,6 +1,6 @@
 ---
 title: 洗碗海綿比較分析
-description: 洗碗海綿產品比較指南：分析不刮傷海綿，幫助你選擇最適合的清潔工具
+description: Scotch-Brite Zero Scratch Scrub Sponge 完全兌現「不刮傷」承諾,72% 使用者驗證可安全清潔不沾鍋等易損表面。唯一問題是 2 週內產生異味需更換,但這是所有海綿的共同挑戰非產品缺陷。基於 50 則 Amazon 評論分析
 date: 2026-02-09
 head:
   - - meta

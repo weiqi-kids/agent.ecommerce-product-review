@@ -1,6 +1,6 @@
 ---
 title: 皮革保養比較分析
-description: 皮革保養產品比較指南：分析皮革護理，幫助你選擇最適合的皮革保養品
+description: 皮革保養產品比較指南：深度分析 Leather Honey 對 20-90 年老化皮革的修復能力、滲透力與持久效果
 date: 2026-02-09
 head:
   - - meta

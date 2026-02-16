@@ -1,5 +1,5 @@
 ---
-title: 防身噴霧選購指南：為何 Sabre Red Gel 比 Quick Release Keychain 更值得購買
+title: 防身噴霧比較：Sabre Red Gel vs Quick Release
 description: 比較 Sabre Keychain vs Red Pepper Gel、Fox Labs 等防身噴霧。基於 50 則評論，揭示 16% 意外觸發風險，分析最佳防身選擇與安全機制。
 date: 2026-02-06
 head:

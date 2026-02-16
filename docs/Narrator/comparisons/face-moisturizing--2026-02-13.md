@@ -1,6 +1,6 @@
 ---
 title: 臉部乾燥保濕 解決指南
-description: 臉部保濕產品比較指南：分析多款產品，幫助你選擇最適合的臉部保濕霜
+description: 臉部保濕產品比較指南：比較 medicube Collagen Jelly Cream 與 BIODANCE Bio-Collagen Mask，分析保濕力、黏膩感與致痘風險差異
 date: 2026-02-13
 head:
   - - meta
@@ -15,6 +15,10 @@ head:
 </div>
 
 ## 問題是什麼？
+
+<p class="key-answer" data-question="臉部乾燥為什麼會發生?">
+<strong>臉部乾燥主要由皮膚屏障受損引起</strong>，環境因素(濕度低於 40%)、過度清潔、年齡增長導致皮脂分泌減少，使皮膚無法有效鎖住水分。
+</p>
 
 臉部皮膚乾燥是許多人面臨的常見困擾，症狀包括：
 
@@ -206,6 +210,10 @@ BIODANCE Bio-Collagen Mask 採用**低分子生物膠原蛋白面膜**技術：
     ├── medicube 黏膩需等待吸收
     └── BIODANCE 需 3+ 小時配戴
 ```
+
+<div class="key-takeaway">
+重點：medicube Jelly Cream 適合日常保養（91% 軟嫩度但 41% 黏膩感），BIODANCE Mask 適合密集修護（94% 光澤感但 14% 致痘率）。兩者都能有效解決臉部乾燥，但使用場景不同，易長痘膚質請特別注意風險。
+</div>
 
 ---
 

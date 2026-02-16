@@ -1,6 +1,6 @@
 ---
 title: 咖啡濾紙解決指南
-description: 咖啡濾紙產品比較指南：分析 5 款產品，幫助你選擇最適合的咖啡過濾紙
+description: Amazon Basics Basket Coffee Filters 以 $0.01-0.02/片提供優質過濾效果(84% 正評),但標示與實際尺寸不符:標示 8-12 杯實際最適合 2-4 杯小型咖啡壺。購買前請測量濾籃直徑避免尺寸不符風險
 date: 2026-02-11
 head:
   - - meta
@@ -15,6 +15,10 @@ Amazon Basics Basket Coffee Filters 以 $0.01-0.02/片提供優質過濾效果(8
 </div>
 
 ## 問題是什麼？
+
+<p class="key-answer" data-question="咖啡濾紙最常見的問題是什麼?">
+<strong>尺寸標示不準確是最大痛點</strong>，不同品牌對「8-12 杯」的定義不一致，導致約 12% 消費者買錯尺寸造成溢出問題。
+</p>
 
 **咖啡過濾**是沖泡一杯好咖啡的關鍵環節，濾紙品質直接影響咖啡口感。
 

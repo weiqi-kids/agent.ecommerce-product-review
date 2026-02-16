@@ -1,6 +1,6 @@
 ---
 title: 身體保濕 解決指南
-description: 身體保濕產品比較指南：分析多款產品，幫助你選擇最適合的身體乳液
+description: CeraVe Moisturizing Cream 以三重神經醯胺配方和 MVE 24 小時持續保濕技術脫穎而出。相比 eos 香氛乳液(幫浦故障率 15%)和 Tree Hut 沐浴乳(僅為清潔產品),CeraVe 獲皮膚科醫師推薦與濕疹協會認證,負評率僅 3%
 date: 2026-02-13
 head:
   - - meta
