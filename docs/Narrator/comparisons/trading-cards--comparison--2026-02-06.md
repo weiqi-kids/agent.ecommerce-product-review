@@ -1,5 +1,5 @@
 ---
-title: "交換卡牌遊戲解決指南：Pokemon TCG vs Magic: The Gathering"
+title:" "交換卡牌遊戲解決指南：Pokemon TCG vs Magic: The Gathering""
 description: 比較 Pokemon 與 Magic 卡牌遊戲，分析教育價值、投資潛力與 Amazon 購買風險。基於 70 則評論，揭示 18-32% 產品完整性問題，強烈建議本地遊戲店購買。
 date: 2026-02-06
 head:

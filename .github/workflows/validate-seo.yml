@@ -1,0 +1,298 @@
+name: Validate SEO
+
+on:
+  push:
+    paths:
+      - 'docs/Narrator/**/*.md'
+  pull_request:
+    paths:
+      - 'docs/Narrator/**/*.md'
+  workflow_dispatch:
+  schedule:
+    # 每週一 UTC 00:00 執行完整檢查
+    - cron: '0 0 * * 1'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    outputs:
+      has_errors: ${{ steps.validate.outputs.has_errors }}
+      error_count: ${{ steps.validate.outputs.error_count }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate SEO
+        id: validate
+        run: |
+          set +e
+          node scripts/validate-seo.js --json > validation-result.json 2>&1
+          EXIT_CODE=$?
+          set -e
+
+          # 解析結果
+          FAILED=$(jq -r '.failed' validation-result.json)
+          WARNINGS=$(jq -r '.warnings' validation-result.json)
+          TOTAL=$(jq -r '.total' validation-result.json)
+
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "warnings=$WARNINGS" >> $GITHUB_OUTPUT
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "has_errors=true" >> $GITHUB_OUTPUT
+            echo "error_count=$FAILED" >> $GITHUB_OUTPUT
+          else
+            echo "has_errors=false" >> $GITHUB_OUTPUT
+            echo "error_count=0" >> $GITHUB_OUTPUT
+          fi
+
+          # 顯示結果
+          echo "### SEO 驗證結果" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 項目 | 數量 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|" >> $GITHUB_STEP_SUMMARY
+          echo "| 總檔案數 | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| 錯誤 | $FAILED |" >> $GITHUB_STEP_SUMMARY
+          echo "| 警告 | $WARNINGS |" >> $GITHUB_STEP_SUMMARY
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "#### ❌ 錯誤檔案" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            jq -r '.files[] | select(.errors | length > 0) | "\(.file): \(.errors | map(.message) | join(", "))"' validation-result.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload validation result
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-result
+          path: validation-result.json
+
+  auto-fix:
+    needs: validate
+    if: needs.validate.outputs.has_errors == 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      fix_success: ${{ steps.fix.outputs.success }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Auto-fix SEO issues
+        id: fix
+        run: |
+          echo "🔧 嘗試自動修復 SEO 問題..."
+          node scripts/fix-seo.js
+
+          # 重新驗證
+          set +e
+          node scripts/validate-seo.js --json > post-fix-result.json 2>&1
+          set -e
+
+          FAILED=$(jq -r '.failed' post-fix-result.json)
+
+          if [ "$FAILED" -eq 0 ]; then
+            echo "success=true" >> $GITHUB_OUTPUT
+            echo "✅ 所有問題已自動修復！"
+          else
+            echo "success=false" >> $GITHUB_OUTPUT
+            echo "⚠️ 仍有 $FAILED 個問題需要手動處理"
+          fi
+
+      - name: Commit fixes
+        if: steps.fix.outputs.success == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add -A
+          if git diff --staged --quiet; then
+            echo "沒有需要提交的變更"
+          else
+            git commit -m "fix(seo): 自動修復 SEO 問題
+
+            Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+            git push
+          fi
+
+      - name: Upload post-fix result
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-fix-result
+          path: post-fix-result.json
+
+  create-issue:
+    needs: [validate, auto-fix]
+    if: always() && needs.validate.outputs.has_errors == 'true' && needs.auto-fix.outputs.fix_success != 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download validation result
+        uses: actions/download-artifact@v4
+        with:
+          name: post-fix-result
+          path: .
+        continue-on-error: true
+
+      - name: Download original validation result
+        if: failure()
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-result
+          path: .
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate issue body
+        id: issue
+        run: |
+          # 讀取驗證結果
+          if [ -f post-fix-result.json ]; then
+            RESULT_FILE="post-fix-result.json"
+          else
+            RESULT_FILE="validation-result.json"
+          fi
+
+          FAILED=$(jq -r '.failed' $RESULT_FILE)
+          TOTAL=$(jq -r '.total' $RESULT_FILE)
+
+          # 生成 issue 內容
+          cat > issue-body.md << 'EOF'
+          ## 🚨 SEO 驗證失敗
+
+          自動修復無法解決所有問題，需要人工介入。
+
+          ### 統計
+          | 項目 | 數量 |
+          |------|------|
+          | 總檔案數 | TOTAL_PLACEHOLDER |
+          | 錯誤檔案 | FAILED_PLACEHOLDER |
+
+          ### 錯誤詳情
+
+          EOF
+
+          sed -i "s/TOTAL_PLACEHOLDER/$TOTAL/g" issue-body.md
+          sed -i "s/FAILED_PLACEHOLDER/$FAILED/g" issue-body.md
+
+          # 添加錯誤詳情
+          echo '```' >> issue-body.md
+          jq -r '.files[] | select(.errors | length > 0) | "📁 \(.file)\n\(.errors | map("   ❌ [\(.field)] \(.message)") | join("\n"))\n"' $RESULT_FILE >> issue-body.md
+          echo '```' >> issue-body.md
+
+          # 添加修復建議
+          cat >> issue-body.md << 'EOF'
+
+          ### 修復建議
+
+          1. **未關閉的 div 標籤**
+             - 檢查 `<div class="comparison-table">` 或 `<div class="actionable-steps">` 是否有對應的 `</div>`
+             - 在表格/區塊結束後（`---` 或 `##` 之前）加上 `</div>`
+
+          2. **< 符號解析問題**
+             - 將 `< 100` 改為 `小於 100`
+
+          3. **YAML 冒號問題**
+             - 將含冒號的 title 用引號包起來：`title: "標題：副標題"`
+
+          4. **缺少 AI Tags**
+             - 確保每篇報告都有 `<div class="article-summary">` 標籤
+
+          ### 自動修復指令
+
+          ```bash
+          node scripts/fix-seo.js
+          node scripts/validate-seo.js
+          ```
+
+          ---
+          🤖 此 Issue 由 GitHub Actions 自動建立
+          EOF
+
+          echo "body_file=issue-body.md" >> $GITHUB_OUTPUT
+
+      - name: Check for existing issue
+        id: check_issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EXISTING=$(gh issue list --label "seo-validation" --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            echo "existing_issue=$EXISTING" >> $GITHUB_OUTPUT
+            echo "has_existing=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_existing=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update existing issue
+        if: steps.check_issue.outputs.has_existing == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ steps.check_issue.outputs.existing_issue }} \
+            --body-file issue-body.md
+
+          echo "已更新現有 Issue #${{ steps.check_issue.outputs.existing_issue }}"
+
+      - name: Create new issue
+        if: steps.check_issue.outputs.has_existing != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🚨 SEO 驗證失敗 - 需要人工處理" \
+            --body-file issue-body.md \
+            --label "seo-validation,bug,automated"
+
+          echo "已建立新 Issue"
+
+  notify-success:
+    needs: [validate, auto-fix]
+    if: always() && (needs.validate.outputs.has_errors != 'true' || needs.auto-fix.outputs.fix_success == 'true')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Success summary
+        run: |
+          echo "### ✅ SEO 驗證通過" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ needs.auto-fix.outputs.fix_success }}" == "true" ]; then
+            echo "問題已自動修復並提交。" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "所有報告的 SEO 設定正確。" >> $GITHUB_STEP_SUMMARY
+          fi
