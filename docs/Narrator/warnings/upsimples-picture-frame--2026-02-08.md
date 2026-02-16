@@ -1,6 +1,20 @@
+---
+title: upsimples 8x10 Picture Frame 警告報告
+description: 產品警告：upsimples相框存在56%材質期望落差(塑膠非玻璃)、36%運送損壞、16%尺寸不準確問題,僅24%成功率,建議消費者謹慎購買並立即檢查收貨品質
+date: 2026-02-08
+head:
+  - - meta
+    - name: keywords
+      content: upsimples相框,塑膠相框問題,8x10相框評論,材質標示不清,運送損壞,相框尺寸誤差,相框品質警告
+---
+
 [REVIEW_NEEDED]
 
 # upsimples 8x10 Picture Frame 警告報告
+
+<div class="article-summary">
+upsimples 相框存在 56% 材質期望落差（塑膠非玻璃）、36% 運送損壞、16% 尺寸不準確問題，僅 24% 成功率。產品標示未明確註明塑膠材質，建議消費者謹慎購買並立即檢查收貨品質。
+</div>
 
 **產品 ASIN**：B0B1CNJL7N
 **分析日期**：2026-02-08
@@ -15,6 +29,10 @@
 ---
 
 ## 警告摘要
+
+<p class="key-answer" data-question="upsimples 相框有什麼問題">
+<strong>極高風險</strong>，56% 材質期望落差（預期玻璃卻收到塑膠）、36% 運送損壞、16% 尺寸不準確，整體成功率僅約 24%。
+</p>
 
 | 指標 | 數值 | 風險等級 |
 |------|------|----------|

@@ -1,4 +1,18 @@
+---
+title: 抗老精華比較報告
+description: 抗老精華產品比較指南：分析 9 款產品，幫助你選擇最適合的視黃類精華
+date: 2026-02-11
+head:
+  - - meta
+    - name: keywords
+      content: 抗老精華, 視黃醛, 視黃醇, MEDITHERAPY, celimax, 抗皺精華
+---
+
 # 抗老精華比較報告：MEDITHERAPY vs celimax vs 專業競品
+
+<div class="article-summary">
+本報告比較 9 款抗老精華產品,重點分析 MEDITHERAPY 和 celimax 兩款視黃醛精華。MEDITHERAPY 以 $0.13/ml 極致性價比提供 88-90% 有效率,但有 14% 不良反應;celimax 高濃度配方效果兩極化,有效者 1-7 天見效,但 12% 完全無效。
+</div>
 
 **問題類別**：anti-aging-serum（抗老精華）
 **生成日期**：2026-02-11
@@ -43,6 +57,8 @@
 
 ### 2.1 核心功效比較
 
+<div class="comparison-table">
+
 | 產品 | 品牌 | 活性成分 | 濃度 | 見效速度 | Amazon 評分 | 價格區間 |
 |------|------|---------|------|---------|------------|---------|
 | **MEDITHERAPY Retinal Skin Booster** | MEDITHERAPY | 視黃醛 | 0.01% | 11x 快速 | 4.55/5 (3389) | $19.99/150ml |
@@ -55,6 +71,7 @@
 | Dr. Dennis Gross Retinol + Ferulic | Dr. Dennis Gross | 視黃醇+阿魏酸 | 複合 | 快速見效 | N/A | $$$ |
 | RoC Retinol Correxion | RoC | 視黃醇 | 標準 | 較慢 | N/A | $$ |
 
+</div>
 ### 2.2 安全性比較
 
 | 產品 | 刺激性評級 | 不良反應率 | 適合敏感肌？ | 適合痘痘肌？ |

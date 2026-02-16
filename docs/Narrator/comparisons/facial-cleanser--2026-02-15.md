@@ -1,4 +1,19 @@
+---
+title: 臉部清潔洗面乳 解決指南
+description: 洗面乳產品比較指南：分析多款產品，幫助你選擇最適合的臉部清潔產品
+date: 2026-02-15
+head:
+  - - meta
+    - name: keywords
+      content: 洗面乳, 臉部清潔, 潔面乳, 溫和潔面, 敏感肌清潔
+---
+
 # 臉部清潔洗面乳 解決指南
+
+<div class="article-summary">
+洗面乳是護膚基礎,本指南分析 CeraVe Hydrating Facial Cleanser 與競品。主要發現:CeraVe 以神經醯胺+MVE技術獲 134 位皮膚科醫師推薦,但卸妝力不足需搭配卸妝油,油肌適合選 CeraVe Foaming 或 Neutrogena Acne Wash。
+</div>
+
 
 ## 問題是什麼？
 
@@ -41,6 +56,11 @@
 ---
 
 ## 解決方法有哪些？
+
+<div class="key-answer" data-question="洗面乳有哪些類型?">
+洗面乳主要有 5 種類型:乳霜型溫和保濕適合乾性敏感肌、泡沫型深層清潔適合油性痘痘肌、凝膠型平衡清潔適合混合肌、卸妝油膏以油溶油分解彩妝防曬、卸妝水微膠粒吸附髒污免沖洗。選擇關鍵在於膚質與清潔需求,乾性肌避免皂基強效泡沫,油性肌避免過於滋潤的乳霜型。
+</div>
+
 
 | 方法類型 | 原理 | 代表產品 | 適合誰 |
 |---------|------|----------|--------|
@@ -103,6 +123,9 @@ CeraVe Hydrating Facial Cleanser 採用獨特的 **MVE 技術**（Multivesicular
 
 ## 競品比較
 
+<div class="comparison-table">
+
+
 | 產品 | 解決方法類型 | 如何解決問題 | 價格 | 核心優勢 | 主要問題 |
 |------|-------------|-------------|------|----------|----------|
 | **CeraVe Hydrating Facial Cleanser** ✓ | 乳霜型 | 3 種神經醯胺 + 玻尿酸 + MVE 技術持續保濕 | $10-15 | 保濕力極強、修復屏障、皮膚科醫師首推 | 卸妝力不足、無泡沫感 |
@@ -138,6 +161,19 @@ CeraVe Hydrating Facial Cleanser 採用獨特的 **MVE 技術**（Multivesicular
 ---
 
 ## 選購決策樹
+
+<div class="actionable-steps">
+
+**如何選擇適合的洗面乳:**
+
+1. **確認膚質** - 乾性/敏感肌選乳霜型,油性/痘痘肌選泡沫型,混合肌選凝膠型
+2. **評估清潔需求** - 濃妝防曬需雙重清潔(卸妝油+洗面乳),淡妝可用卸妝水+洗面乳
+3. **檢查成分** - 乾性肌找神經醯胺+玻尿酸,油性肌找水楊酸+菸鹼醯胺,敏感肌避開香料酒精
+4. **測試pH值** - 理想pH 4.5-5.5,過高(>7)會破壞皮膚屏障
+5. **觀察使用感** - 洗後緊繃代表過度清潔,應換更溫和產品
+
+</div>
+
 
 ```
 你的膚質是什麼？
@@ -184,6 +220,17 @@ CeraVe Hydrating Facial Cleanser 採用獨特的 **MVE 技術**（Multivesicular
 | 專業評測 | Healthline - Skin Barrier Function | [Healthline](https://www.healthline.com/health/skin-barrier) |
 
 ---
+
+## 關鍵要點
+
+<div class="key-takeaway">
+
+- **皮膚科醫師首推**: CeraVe Hydrating 獲 134 位專業人士推薦,神經醯胺+MVE技術修復屏障
+- **卸妝需搭配**: 本品卸妝力有限,防曬彩妝需先用卸妝油,定位為第二步清潔
+- **油肌替代方案**: CeraVe Foaming 或 Neutrogena Oil-Free Acne Wash 更適合深層控油
+
+</div>
+
 
 ## 結論
 

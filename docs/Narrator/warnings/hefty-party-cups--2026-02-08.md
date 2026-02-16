@@ -1,4 +1,18 @@
+---
+title: 派對杯品質危機警告：Hefty Party On Disposable Cups
+description: 產品警告：Hefty派對杯存在18%品質缺陷(白色粉末、破損)、14%耐用性問題,與Heavy Duty宣稱嚴重不符,建議消費者選擇甘蔗渣餐具或Solo等替代品
+date: 2026-02-08
+head:
+  - - meta
+    - name: keywords
+      content: Hefty派對杯,一次性杯子品質問題,派對餐具評論,甘蔗渣環保替代,塑膠杯缺陷,品質控制危機,派對用品推薦
+---
+
 # 派對杯品質危機警告：Hefty Party On Disposable Cups
+
+<div class="article-summary">
+Hefty 派對杯存在嚴重品質控制危機：18% 品質缺陷（白色粉末、破損）、14% 耐用性問題，與 Heavy Duty 宣稱嚴重不符。建議選擇甘蔗渣餐具（環保且耐用）或 Solo 品牌替代。
+</div>
 
 **報告日期**：2026-02-08
 **報告類型**：警告報告
@@ -9,6 +23,10 @@
 ---
 
 ## 警告摘要
+
+<p class="key-answer" data-question="Hefty 派對杯有什麼問題">
+<strong>品質控制危機</strong>，18% 品質缺陷（白色粉末、塑膠碎片）、14% 耐用性問題（易碎、過薄），32% 總問題率與 Heavy Duty 宣稱嚴重不符。
+</p>
 
 Hefty Party On 塑膠杯存在**嚴重的品質控制危機**，不建議購買。
 

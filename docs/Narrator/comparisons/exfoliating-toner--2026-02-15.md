@@ -1,6 +1,22 @@
+---
+title: 去角質化妝水選購指南
+description: 去角質化妝水產品比較指南：分析多款產品，幫助你選擇最適合的去角質化妝水
+date: 2026-02-15
+head:
+  - - meta
+    - name: keywords
+      content: 去角質化妝水, 果酸, 水楊酸, 甘醇酸, The Ordinary, Paula's Choice
+---
+
 [REVIEW_NEEDED] 競品評論萃取不足（僅主角產品有 Amazon 評論萃取）
 
 # 去角質化妝水選購指南
+
+<div class="article-summary">
+The Ordinary Glycolic Acid 7% 以業界最低價格（$1.11/oz）提供有效去角質，但 4% 用戶報告每日使用導致灼傷。敏感肌或新手應選擇 Pixi Glow Tonic 5% 甘醇酸溫和入門，油痘肌選 Paula's Choice 2% BHA 深層清潔毛孔，預算充足選 Biologique Recherche P50 專業級全方位護理。
+</div>
+
+<p class="key-answer" data-question="去角質化妝水新手應該如何選擇？">新手應從低濃度開始建立耐受性：首選 Pixi Glow Tonic 5% 甘醇酸（溫和不易過度去角質），或選擇 PHA 產品（Medik8 Press & Glow）適合極敏感肌。避免直接使用 The Ordinary 7% 或更高濃度，每週 2 次開始，逐步增加至每週 3-4 次，必須搭配 SPF 30+ 防曬。</p>
 
 ## 問題是什麼？
 
@@ -27,6 +43,8 @@
 
 ---
 
+<div class="comparison-table">
+
 ## 解決方法有哪些？
 
 | 方法類型 | 原理 | 代表產品 | 適合誰 |
@@ -36,6 +54,19 @@
 | PHA 葡萄糖酸內酯 | 分子最大，溫和表面作用，同時保濕 | Medik8 Press & Glow, Aveeno PHA | 敏感肌、乾性肌、新手 |
 | AHA+BHA 複合 | 結合表面和深層去角質 | Biologique Recherche P50 | 混合肌、經驗者、需全面護理 |
 | 酵素去角質 | 使用木瓜酶/鳳梨酶溫和分解死皮 | Dermalogica Microfoliant | 極敏感肌、不耐受酸類者 |
+
+</div>
+
+<div class="key-takeaway">
+
+### 關鍵發現
+
+- **沒有萬能酸**：AHA 適合暗沉/乾性、BHA 適合油痘/黑頭、PHA 適合敏感肌
+- **濃度與 pH 值同等重要**：pH > 4.5 的產品去角質效果大幅降低
+- **防曬是非協商項目**：使用 AHA/BHA 期間必須 SPF 30+ 防曬
+- **「少即是多」原則**：過度去角質比不去角質更糟，恢復需 2-6 週
+
+</div>
 
 ---
 
@@ -118,6 +149,8 @@ The Ordinary 使用 7% 甘醇酸（Glycolic Acid）配方：
 
 ---
 
+<div class="actionable-steps">
+
 ## 選購決策樹
 
 ```
@@ -140,6 +173,16 @@ The Ordinary 使用 7% 甘醇酸（Glycolic Acid）配方：
 └── 專業級全方位護理
     └── 選 Biologique Recherche P50（皮膚科醫師最愛）
 ```
+
+</div>
+
+<div class="key-takeaway">
+
+### The Ordinary 7% 安全使用法
+
+**新手入門（第 1-2 週）**：僅晚間使用，每週 2 次，清潔後等皮膚完全乾燥，用化妝棉沾取適量避開眼唇，等待 5-10 分鐘後上保濕霜。**建立耐受性（第 3-4 週）**：逐步增加至每週 3-4 次。**維持期（第 5 週+）**：可視情況增加至隔天使用。**絕對禁忌**：不與 A 酸同時使用、不在曬傷或受損皮膚上使用、必須使用 SPF 30+ 防曬。
+
+</div>
 
 ---
 

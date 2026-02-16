@@ -1,6 +1,20 @@
+---
+title: 警告報告：RELIEF SUN Organic Korean Sunscreen SPF50+ PA++++
+description: 產品警告：RELIEF SUN防曬霜評論存在100%五星評分、0%驗證購買率等異常,品牌不透明無法查證,防曬產品效能失效可能造成健康傷害,建議等待更多驗證評論或選擇經驗證替代品
+date: 2026-02-06
+head:
+  - - meta
+    - name: keywords
+      content: RELIEF SUN防曬霜,評論真實性疑慮,SPF50防曬,韓國防曬產品,防曬霜安全,Beauty of Joseon替代,驗證購買評論
+---
+
 [REVIEW_NEEDED]
 
 # 警告報告：RELIEF SUN Organic Korean Sunscreen SPF50+ PA++++
+
+<div class="article-summary">
+RELIEF SUN 防曬霜評論存在嚴重異常：100% 五星評分、0% 驗證購買率、品牌不透明無法查證。防曬產品效能失效可能造成健康傷害，建議等待更多驗證評論或選擇 Beauty of Joseon、EltaMD 等經驗證替代品。
+</div>
 
 **ASIN**: B0G4Z5G1NT
 **警告等級**: ⚠️ 高風險（評論真實性存疑）
@@ -9,6 +23,10 @@
 ---
 
 ## 警告摘要
+
+<p class="key-answer" data-question="RELIEF SUN 防曬霜有什麼問題">
+<strong>評論真實性存疑</strong>，100% 五星評分、0% 驗證購買率、品牌無記錄，防曬效能失效可能造成健康傷害。
+</p>
 
 RELIEF SUN 的 Amazon 評論呈現多項統計異常，消費者在購買前應謹慎評估。
 

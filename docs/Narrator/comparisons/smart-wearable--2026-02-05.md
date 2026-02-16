@@ -1,9 +1,23 @@
+---
+title: 智慧穿戴追蹤產品比較分析報告
+description: 智慧穿戴產品比較指南：分析 3 款產品，包含 BOOOMIC 智慧手錶、RingConn 智慧戒指、Apple AirTag，提供可靠性與功能性評估。
+date: 2026-02-05
+head:
+  - - meta
+    - name: keywords
+      content: 智慧穿戴, 智慧手錶, 智慧戒指, Apple AirTag, BOOOMIC, RingConn, 健康追蹤, 物品追蹤
+---
+
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（smart-wearable），違反系統設計原則。
 > 報告內容已指出「三款產品針對完全不同的使用場景，無法直接比較優劣」。
 > 正確做法應按具體問題分組（如 fitness-tracking、sleep-monitoring、item-tracking）。
 > 保留此檔案供參考，但不應作為新報告模板。
 
 # 智慧穿戴追蹤產品比較分析報告
+
+<div class="article-summary">
+本報告比較 3 款智慧穿戴追蹤產品：BOOOMIC 智慧手錶、RingConn 智慧戒指、Apple AirTag。核心發現：三款產品針對完全不同的使用場景，無法直接比較優劣。日常健康追蹤推薦 BOOOMIC，物品追蹤推薦 AirTag。
+</div>
 
 **分析日期：** 2026-02-05
 **分析類別：** smart-wearable（智慧穿戴追蹤）
@@ -13,6 +27,10 @@
 ---
 
 ## 執行摘要
+
+<p class="key-answer" data-question="智慧穿戴裝置怎麼選">
+<strong>依使用場景選擇</strong>：日常健康追蹤選 BOOOMIC 手錶（$57.99，性價比最高）；專業睡眠監測選 RingConn 戒指（但 18% 故障率）；物品追蹤選 Apple AirTag。
+</p>
 
 本報告比較三款智慧穿戴追蹤產品，涵蓋不同的追蹤需求場景：
 

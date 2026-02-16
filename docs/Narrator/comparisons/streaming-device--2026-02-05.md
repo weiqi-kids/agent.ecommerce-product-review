@@ -1,3 +1,13 @@
+---
+title: 串流裝置比較分析報告
+description: 串流裝置產品比較指南：分析 3 款產品，包含 Roku Express 4K+、Amazon Fire TV 55"、Apple iPad mini，提供性價比與可靠性評估。
+date: 2026-02-05
+head:
+  - - meta
+    - name: keywords
+      content: 串流裝置, Roku Express 4K+, Amazon Fire TV, Apple iPad mini, 智慧電視, 串流盒評測
+---
+
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（streaming-device），違反系統設計原則。
 > 包含的產品無法直接比較：串流盒（Roku）、智慧電視（Fire TV）、平板電腦（iPad）解決不同問題。
 > 正確做法應按具體問題分組（如 streaming-stick、smart-tv、tablet）。
@@ -6,6 +16,10 @@
 
 # 串流裝置比較分析報告
 
+<div class="article-summary">
+本報告比較 3 款串流解決方案：Roku Express 4K+、Amazon Fire TV 55" 智慧電視、Apple iPad mini。最佳推薦 Roku Express 4K+（$34.75）——以最低成本提供最穩定的串流體驗且不受廣告干擾。
+</div>
+
 **分析日期**: 2026-02-05
 **問題場景**: 家庭串流觀影需求
 **比較產品**: 3 款
@@ -13,6 +27,10 @@
 ---
 
 ## 執行摘要
+
+<p class="key-answer" data-question="串流裝置怎麼選">
+<strong>Roku Express 4K+ 最推薦</strong>：$34.75 即可升級任何電視至 4K 串流，支援所有主流平台且無廣告干擾，是升級現有電視的最佳選擇。
+</p>
 
 本報告比較三款不同類型的串流解決方案：專用串流盒（Roku Express 4K+）、智慧電視（Amazon Fire TV 55"）、與平板電腦（Apple iPad mini）。分析基於 Amazon US 的 110 則評論（Roku: 50、Fire TV: 51、iPad: 10），聚焦於各產品在串流觀影場景下的實際表現。
 

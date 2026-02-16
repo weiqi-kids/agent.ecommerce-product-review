@@ -1,4 +1,18 @@
+---
+title: Beauty of Joseon Relief Sun 假貨風險報告
+description: 假貨風險報告：Beauty of Joseon Relief Sun 防曬在 Amazon 上的假貨風險評估，風險評級高（92/100），官方明確不授權 Amazon 北美銷售防曬產品，驗證購買率 0%，賣家為第三方非授權經銷商
+date: 2026-02-08
+head:
+  - - meta
+    - name: keywords
+      content: 假貨, Beauty of Joseon, Relief Sun, 防曬, Amazon 假貨, 韓國防曬, SPF50, 驗證購買
+---
+
 # Beauty of Joseon Relief Sun 假貨風險報告
+
+<div class="article-summary">
+Beauty of Joseon Relief Sun 在 Amazon 上存在嚴重假貨風險（風險評級 92/100）。官方明確不授權 Amazon 北美銷售防曬產品，該 ASIN 驗證購買率為 0%，賣家為非授權第三方。丹麥政府研究證實所有 squishies 排放有毒化學物質，消費者應從官方管道購買。
+</div>
 
 **風險評級**：🔴 高風險
 **報告日期**：2026-02-08
@@ -7,6 +21,10 @@
 ---
 
 ## 風險評分
+
+<p class="key-answer" data-question="Beauty of Joseon Relief Sun 是假貨嗎">
+<strong>假貨風險高達 92/100</strong>，該 Amazon ASIN 的驗證購買率為 0%，且 Beauty of Joseon 官方明確不授權 Amazon 北美銷售防曬產品，建議從官方網站或授權經銷商購買。
+</p>
 
 **假貨風險：92/100** 🔴
 
@@ -20,7 +38,15 @@
 
 ---
 
+<div class="key-takeaway">
+重點：Beauty of Joseon 官方不授權 Amazon 北美銷售防曬產品，該平台上的防曬商品極可能為假貨或非授權轉售。
+</div>
+
 ## 來源可信度驗證
+
+<p class="key-answer" data-question="如何驗證 Beauty of Joseon 防曬真假">
+<strong>檢查三項關鍵指標</strong>：QR Code 是否連結至官方驗證頁（假貨連結失效的 AliExpress）、有效期印刷方向是否與條碼一致、是否有封條。從官方授權管道購買最安全。
+</p>
 
 | 來源 | 類型 | 驗證方式 | 可信度 |
 |------|------|---------|--------|
@@ -41,6 +67,10 @@
 
 ---
 
+<div class="key-takeaway">
+重點：驗證購買率 0% 意味著所有評論均為非 Amazon 購買者撰寫，這是刷評或假貨的典型信號。
+</div>
+
 ## 此 ASIN 的具體問題
 
 **ASIN**：B0G4Z5G1NT
@@ -59,6 +89,17 @@
 | 官方授權 | Beauty of Joseon 明確不授權 Amazon 北美銷售防曬 | 🔴 高 |
 
 ---
+
+<div class="comparison-table">
+
+| 購買管道 | 假貨風險 | 價格 | 建議 |
+|---------|---------|------|------|
+| Amazon 北美 | 🔴 極高（92/100） | $17.99 | ❌ 不建議 |
+| Beauty of Joseon 官網 | 🟢 最低 | $18.00 | ✅ 推薦 |
+| YesStyle | 🟢 低 | $14.90-18.00 | ✅ 推薦 |
+| StyleKorean | 🟢 低 | 依促銷 | ✅ 推薦（非防曬類） |
+
+</div>
 
 ## 購買前 Checklist
 
@@ -143,6 +184,13 @@
 ---
 
 ## 買到假貨怎麼辦
+
+<ol class="actionable-steps">
+<li><strong>保留證據</strong>：拍攝產品照片（包裝正反面、批號、內容物）、截圖訂單資訊、保留原包裝</li>
+<li><strong>平台退貨</strong>：進入 Amazon 訂單頁面選擇退貨，理由選「疑似假貨」，如遭拒申請 A-to-Z 保障</li>
+<li><strong>舉報假貨</strong>：向 Amazon 假貨舉報系統和 Beauty of Joseon 官方 Instagram 舉報</li>
+<li><strong>就醫（如有不適）</strong>：假貨防曬可能含未經檢驗成分，如有皮膚不適應立即就醫並保留產品</li>
+</ol>
 
 ### 1. 保留證據
 - 拍攝產品照片（包裝正反面、批號、內容物）
