@@ -6,8 +6,6 @@ head:
   - - meta
     - name: keywords
       content: 天然體香劑, 體香劑, 無鋁體香劑, 體味控制, 止汗劑, Native Deodorant
-</div>
-
 ---
 
 # 體味控制（天然體香劑）解決指南
