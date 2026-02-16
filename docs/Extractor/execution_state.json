@@ -1,94 +1,74 @@
 {
-  "last_updated": "2026-02-15T21:35:00Z",
-  "last_completed_date": "2026-02-15",
+  "last_updated": "2026-02-17T12:00:00Z",
+  "last_completed_date": "2026-02-17",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "steps": {
     "step_1": { "status": "skipped", "note": "No watchlist items due today (all items next due 2026-02-18+)" },
-    "step_2": { "status": "completed", "note": "23 REVIEW_NEEDED reports identified, 3 pending ASINs re-extracted successfully" },
+    "step_2": { "status": "completed", "note": "Scanned REVIEW_NEEDED reports, identified gaps in eye-puffiness, exfoliating-toner" },
     "step_3": {
       "status": "completed",
       "note": "Multi-platform discovery completed",
       "platforms": {
-        "amazon_us": { "categories": ["beauty", "electronics", "health"], "products": 80 },
-        "bestbuy_us": { "categories": ["electronics", "tv"], "products": 20 },
-        "walmart_us": { "categories": ["beauty", "toys"], "products": 60 }
+        "amazon_us": { "categories": ["beauty", "electronics", "health"], "products": 150 },
+        "bestbuy_us": { "categories": ["electronics"], "products": 4, "issues": "headless mode blocked, partial data" },
+        "walmart_us": { "categories": ["toys", "beauty"], "products": 40, "issues": "beauty discovery failed (selector issue)" }
       },
-      "total_discovered": 160,
-      "new_products": 116
+      "total_discovered": 194,
+      "new_products": 49
     },
     "step_4": {
       "status": "completed",
-      "note": "116 products grouped: 95 to existing categories, 21 uncategorized",
-      "existing_categories_updated": 15,
-      "new_categories_added": 18,
-      "uncategorized": 21
+      "note": "194 products analyzed: 49 new to existing categories, 45 duplicates, 60 consumables/subscriptions, 40 potential new categories identified",
+      "existing_categories_updated": 10,
+      "products_added": 23,
+      "uncategorized": 60
     },
     "step_5": {
-      "status": "completed",
-      "note": "collagen-mask research completed (15 WebSearch, 35 WebFetch, 20 competitors identified)",
-      "categories_researched": ["collagen-mask"],
-      "pending": ["brightening-serum (session expired)"]
+      "status": "skipped",
+      "note": "No new categories created today - all new products fit existing categories"
     },
     "step_6": {
-      "status": "completed",
-      "note": "8 products extracted today",
-      "extracted_asins": [
-        "B08H3JPH74 (Maybelline Sky High Mascara)",
-        "B0BRMYHMS5 (medicube Collagen Mask)",
-        "B0D8W1YVBX (EQQUALBERRY Vitamin C)",
-        "B0B2RM68G2 (Biodance)",
-        "B0F83HQCFN (COSRX)",
-        "B0BY7MS1MP (Abib Sedum)",
-        "B0DHZHTHSV (Abib Heartleaf)",
-        "B0F8TQ5FZK (Abib PDRN)"
+      "status": "blocked",
+      "note": "Amazon session expired - cannot fetch reviews. 23 new products pending extraction.",
+      "pending_asins": [
+        "B0DGHMNQ5Z (Apple AirPods 4)",
+        "B0FQFB8FMG (Apple AirPods Pro 3)",
+        "B0CQMRKRV5 (Fire TV Stick HD)",
+        "B0F7Z4QZTT (Fire TV Stick 4K Plus)",
+        "B0GJTFXNRX (Apple AirTag 2nd Gen)",
+        "B08ZJQ1XD4 (LMNT Electrolytes)",
+        "B00GB85JR4 (NatureWise Vitamin D3)"
       ],
-      "reviews_collected": 680
+      "pending_walmart": [
+        "417378032 (LEGO Bonsai Tree)",
+        "1048408325 (LEGO Space Shuttle)",
+        "32803180 (Hot Wheels Mystery)",
+        "1021645467 (MorisMos Giant Teddy Bear)"
+      ],
+      "action_required": "Run: cd scrapers && npx tsx src/amazon/scraper.ts --login"
     },
-    "step_7": { "status": "completed", "note": "Comparison analysis completed for 9 categories" },
-    "step_8": {
-      "status": "completed",
-      "note": "9 comparison reports generated (8 earlier + 1 collagen-mask)",
-      "reports_generated": [
-        "docs/Narrator/comparisons/mascara--2026-02-15.md",
-        "docs/Narrator/comparisons/makeup-removal--2026-02-15.md",
-        "docs/Narrator/comparisons/eye-puffiness--2026-02-15.md",
-        "docs/Narrator/comparisons/facial-cleanser--2026-02-15.md",
-        "docs/Narrator/comparisons/hydrating-serum--2026-02-15.md",
-        "docs/Narrator/comparisons/exfoliating-toner--2026-02-15.md",
-        "docs/Narrator/comparisons/natural-deodorant--2026-02-15.md",
-        "docs/Narrator/comparisons/face-towels--2026-02-15.md",
-        "docs/Narrator/comparisons/collagen-mask--2026-02-15.md"
-      ],
-      "reports_review_needed": [
-        "mascara--2026-02-15.md",
-        "eye-puffiness--2026-02-15.md",
-        "exfoliating-toner--2026-02-15.md"
-      ],
-      "reports_passed": [
-        "makeup-removal--2026-02-15.md",
-        "facial-cleanser--2026-02-15.md",
-        "hydrating-serum--2026-02-15.md",
-        "natural-deodorant--2026-02-15.md",
-        "face-towels--2026-02-15.md",
-        "collagen-mask--2026-02-15.md"
-      ]
-    }
+    "step_7": { "status": "skipped", "note": "No new extractions to analyze" },
+    "step_8": { "status": "skipped", "note": "No new extractions to report" }
   },
   "summary": {
-    "extractions_today": 8,
-    "reports_today": 9,
+    "extractions_today": 0,
+    "reports_today": 0,
     "warnings_issued": 0,
-    "pending_refetch": 0,
-    "review_needed_reports": 23,
-    "categories_researched_today": 1,
+    "pending_refetch": 23,
+    "review_needed_reports": 25,
     "multi_platform_discovery": {
-      "amazon_us": 80,
-      "bestbuy_us": 20,
-      "walmart_us": 60,
-      "new_products_grouped": 116,
-      "new_categories_added": 18
+      "amazon_us": 150,
+      "bestbuy_us": 4,
+      "walmart_us": 40,
+      "total": 194,
+      "new_products_grouped": 23
     },
-    "session_status": "expired - need to run --login for next session"
+    "session_status": "expired - need to run --login for next session",
+    "blocking_issues": [
+      "Amazon session expired - manual login required",
+      "Walmart beauty discovery failed - selector needs update",
+      "Best Buy headless mode blocked - need --headless false"
+    ]
   }
 }

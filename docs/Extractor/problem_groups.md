@@ -1,12 +1,12 @@
 # 產品問題分組
 
-最後更新：2026-02-15
+最後更新：2026-02-17
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：289
+產品總數：312
 問題類別數：77
 分組原則：按具體問題分組（v2 - 問題導向）
-本次更新：多平台 Discovery 新增 116 產品（Amazon 80 + Best Buy 20 + Walmart 60）
+本次更新：多平台 Discovery 新增 23 產品（Amazon 7 + Walmart 16），僅更新現有類別
 
 ---
 
@@ -335,6 +335,7 @@
 |-----------|---------|---------------|
 | B002QO00YO | Nature Made Vitamin D3 2000 IU | 維生素D3軟膠囊 |
 | B004GJRFYA | Nature Made Vitamin D3 1000 IU | 維生素D3軟膠囊 |
+| B00GB85JR4 | NatureWise Vitamin D3 | 維生素D3軟膠囊 |
 
 **研究文件**：`research/vitamin-d-supplement--2026-02-06.md`
 **競品文件**：`competitors/vitamin-d-supplement--2026-02-06.md`
@@ -726,6 +727,14 @@
 | B0FMS891HB | LEGO Creator 3 in 1 Cute Hamster | 樂高 |
 | B0FMS8BW3K | LEGO Technic NASA Artemis Rocket | 樂高 |
 | B0GF6BQX7C | ZURU Fuggler Love Fuggs | 其他積木 |
+| 417378032 | LEGO Icons Bonsai Tree | 樂高 (Walmart) |
+| 1048408325 | LEGO Creator 3 in 1 Space Shuttle | 樂高 (Walmart) |
+| 40996357 | LEGO Classic Large Creative Brick Box | 樂高 (Walmart) |
+| 1033282859 | LEGO Creator Exotic Parrot | 樂高 (Walmart) |
+| 379658343 | LEGO Botanicals Orchid | 樂高 (Walmart) |
+| 198504105 | LEGO DUPLO Brick Box | 樂高 (Walmart) |
+| 1527935978 | LEGO Disney Up House | 樂高 (Walmart) |
+| 21577914 | MEGA BLOKS Fisher-Price Toy Blocks | 其他積木 (Walmart) |
 
 **研究文件**：`research/building-blocks--2026-02-06.md`
 **競品文件**：`competitors/building-blocks--2026-02-06.md`
@@ -747,6 +756,8 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B00000DMF5 | Hasbro Gaming Candy Land Board Game | 經典兒童桌遊 |
+| 878142 | UNO Card Game | 經典桌遊 (Walmart) |
+| 844802217 | Let's Get Deep Intimacy Card Game | 派對遊戲 (Walmart) |
 
 **研究文件**：`research/board-games--2026-02-06.md`
 **競品文件**：`competitors/board-games--2026-02-06.md`
@@ -916,6 +927,8 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0916TKFF2 | Roku Express 4K+ Streaming Device | 4K串流棒 |
+| B0CQMRKRV5 | Amazon Fire TV Stick HD | HD串流棒 |
+| B0F7Z4QZTT | Fire TV Stick 4K Plus | 4K串流棒 |
 
 **研究文件**：`research/streaming-stick--2026-02-06.md`
 **競品文件**：`competitors/streaming-stick--2026-02-06.md`
@@ -957,6 +970,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0932QJ2JZ | Apple AirTag 4 Pack | 藍牙追蹤器 |
+| B0GJTFXNRX | Apple AirTag 2nd Gen | 藍牙追蹤器 |
 
 **研究文件**：`research/item-tracker--2026-02-06.md`
 **競品文件**：`competitors/item-tracker--2026-02-06.md`
@@ -1587,8 +1601,8 @@
 **包含產品**：
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
-| - | Apple AirPods 4 | 真無線藍牙耳機 | Amazon |
-| - | Apple AirPods Pro 3 | 主動降噪真無線 | Amazon |
+| B0DGHMNQ5Z | Apple AirPods 4 | 真無線藍牙耳機 | Amazon |
+| B0FQFB8FMG | Apple AirPods Pro 3 | 主動降噪真無線 | Amazon |
 | - | TAGRY Bluetooth Headphones | 真無線藍牙耳機 | Amazon |
 | - | JLab Go Air Pop+ | 真無線藍牙耳機 | Amazon |
 | - | JBL Vibe Beam | 真無線藍牙耳機 | Amazon |
@@ -1643,7 +1657,7 @@
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
 | 665534685 | Huffy 20" Rock It Kids' Bike | 兒童腳踏車 | Walmart |
-| - | Huffy 26" Rock Creek Mountain Bike | 山地腳踏車 | Walmart |
+| 1121295 | Huffy 26" Rock Creek Mountain Bike | 山地腳踏車 | Walmart |
 | - | Kent 20" Ambush BMX Bicycle | BMX 腳踏車 | Walmart |
 | - | Huffy 24" Rock Creek Mountain Bike | 山地腳踏車 | Walmart |
 | - | Huffy 16" Spider-Man Kids' Bike | 角色主題腳踏車 | Walmart |
@@ -1670,10 +1684,10 @@
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
 | 136842804 | Little Tikes Cozy Coupe Ride-on | 腳踏騎乘車 | Walmart |
+| 49767340 | Step2 Up & Down Roller Coaster | 室內騎乘玩具 | Walmart |
 | - | Radio Flyer 4-in-1 Activity Trike | 多功能三輪車 | Walmart |
 | - | Yamaha Raptor 12V ATV Ride-on | 電動騎乘車 | Walmart |
 | - | Huffy 6V Minnie Mouse Ride-On | 電動騎乘車 | Walmart |
-| - | Step2 Up & Down Roller Coaster | 室內騎乘玩具 | Walmart |
 
 **研究文件**：`research/ride-on-toy--{date}.md`
 **競品文件**：`competitors/ride-on-toy--{date}.md`
@@ -1694,9 +1708,9 @@
 **包含產品**：
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
-| - | MorisMos Giant Teddy Bear 35" | 巨型泰迪熊 | Walmart |
+| 388572137 | MorisMos Giant Teddy Bear 35.4" | 巨型泰迪熊 | Walmart |
+| 1021645467 | MorisMos Giant Teddy Bear 4ft | 巨型泰迪熊 | Walmart |
 | - | MaoGoLan Giant Teddy Bear 47" | 巨型泰迪熊 | Walmart |
-| - | MorisMos Giant Teddy Bear 4ft | 巨型泰迪熊 | Walmart |
 
 **研究文件**：`research/giant-teddy-bear--{date}.md`
 **競品文件**：`competitors/giant-teddy-bear--{date}.md`
@@ -1717,8 +1731,8 @@
 **包含產品**：
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
-| - | LMNT Zero Sugar Electrolytes | 電解質粉 | Amazon |
-| - | Liquid I.V. Hydration Multiplier | 電解質粉 | Amazon |
+| B08ZJQ1XD4 | LMNT Zero Sugar Electrolytes | 電解質粉 | Amazon |
+| B01IT9NLHW | Liquid I.V. Hydration Multiplier | 電解質粉 | Amazon |
 
 **研究文件**：`research/electrolyte-hydration--{date}.md`
 **競品文件**：`competitors/electrolyte-hydration--{date}.md`
@@ -1867,4 +1881,4 @@
 
 ---
 
-*Generated: 2026-02-15 | Products: 289 | Categories: 77 | Grouping: Problem-based v2 | Multi-platform Discovery Update*
+*Generated: 2026-02-17 | Products: 312 | Categories: 77 | Grouping: Problem-based v2 | Multi-platform Discovery Update*
