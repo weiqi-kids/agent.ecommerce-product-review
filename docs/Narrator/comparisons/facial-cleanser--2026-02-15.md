@@ -144,6 +144,8 @@ CeraVe Hydrating Facial Cleanser 採用獨特的 **MVE 技術**（Multivesicular
 > 上述競品資訊來自 134 位皮膚科醫師評選、U.S. News 排行、Clinic Advisor 專業評測等來源。
 > 目前僅有 CeraVe Hydrating Facial Cleanser 完成 100 則評論的深度萃取分析。
 
+</div>
+
 ---
 
 ## 市場共同痛點

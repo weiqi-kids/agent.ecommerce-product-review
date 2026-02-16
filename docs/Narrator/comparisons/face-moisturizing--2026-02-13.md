@@ -197,7 +197,7 @@ BIODANCE Bio-Collagen Mask 採用**低分子生物膠原蛋白面膜**技術：
 │   └── ⚠️ 油性/混合性肌膚請謹慎
 │
 ├── 敏感肌 → ⚠️ 兩者都需謹慎
-│   ├── 若必須選 → BIODANCE（刺激率 4% < 12%）
+│   ├── 若必須選 → BIODANCE（刺激率 4% 小於 12%）
 │   └── 務必先做 patch test
 │
 ├── 側睡者 → medicube Jelly Cream（BIODANCE 易脫落）

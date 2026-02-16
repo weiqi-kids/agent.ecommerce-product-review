@@ -8,7 +8,7 @@ head:
       content: 嘴唇乾裂, 護唇膏, Aquaphor, Burt's Bees, 唇部保養, 冬季護唇, 乾燥脫皮
 ---
 
-[REVIEW_NEEDED] 資料量不足（評論 < 100 則，每產品僅 50 則樣本）
+[REVIEW_NEEDED] 資料量不足（評論 小於 100 則，每產品僅 50 則樣本）
 
 # 嘴唇乾裂護理 解決指南
 
@@ -351,6 +351,8 @@ Aquaphor Lip Repair 採用 **41% petrolatum + panthenol（維生素 B5）+ glyce
     └── 選 Aquaphor 厚敷
         └── 冬季專用，18% 使用者特別提及效果
 ```
+
+</div>
 
 ---
 
