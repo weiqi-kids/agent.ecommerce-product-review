@@ -12,6 +12,42 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "wireless-earbuds-B0FQFB8FMG--2026-02-17-md",
+    "title": "Apple AirPods Pro 3 Wireless Earbuds",
+    "category": "wireless-earbuds",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "wireless-earbuds/B0FQFB8FMG--2026-02-17.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "wireless-earbuds-B0DGHMNQ5Z--2026-02-17-md",
+    "title": "Apple AirPods 4 Wireless Earbuds",
+    "category": "wireless-earbuds",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "wireless-earbuds/B0DGHMNQ5Z--2026-02-17.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "vitamin-d-supplement-B00GB85JR4--2026-02-17-md",
+    "title": "NatureWise Vitamin D3 5000iu (125 mcg) 1 Year Supply for Immune Support, Healthy Muscle Function, and Bone Health",
+    "category": "vitamin-d-supplement",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "vitamin-d-supplement/B00GB85JR4--2026-02-17.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "toys_games-B0GF6BQX7C--amazon_us--2026-02-05-md",
     "title": "ZURU Fuggler Love Fuggs S2 Pink",
     "category": "toys_games",
@@ -345,6 +381,54 @@
     "avg_rating": "",
     "review_count": "",
     "file": "teeth-whitening/B082TPDTM2--lumineux--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "streaming-stick-B0F7Z4QZTT--batch-2-md",
+    "title": "Amazon Fire TV Stick 4K Plus — Batch 2/2",
+    "category": "streaming-stick",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "streaming-stick/B0F7Z4QZTT--batch-2.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "streaming-stick-B0F7Z4QZTT--batch-1-md",
+    "title": "Amazon Fire TV Stick 4K Plus — Batch 1/2",
+    "category": "streaming-stick",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "streaming-stick/B0F7Z4QZTT--batch-1.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "streaming-stick-B0F7Z4QZTT--2026-02-17-md",
+    "title": "Amazon Fire TV Stick 4K Plus",
+    "category": "streaming-stick",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "streaming-stick/B0F7Z4QZTT--2026-02-17.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "streaming-stick-B0CQMRKRV5--2026-02-17-md",
+    "title": "產品萃取報告 - 資料不匹配錯誤",
+    "category": "streaming-stick",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "streaming-stick/B0CQMRKRV5--2026-02-17.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1029,6 +1113,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "lip-care/B00A6H33OW--burts-bees--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "item-tracker-B0GJTFXNRX--2026-02-17-md",
+    "title": "Apple AirTag (2nd Generation) — Amazon 評論萃取報告",
+    "category": "item-tracker",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "item-tracker/B0GJTFXNRX--2026-02-17.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1953,6 +2049,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "electronics/B0916TKFF2--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "electrolyte-hydration-B08ZJQ1XD4--2026-02-17-md",
+    "title": "LMNT Zero Sugar Electrolytes - Watermelon Salt",
+    "category": "electrolyte-hydration",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "electrolyte-hydration/B08ZJQ1XD4--2026-02-17.md",
     "source_layer": "amazon_us"
   },
   {
