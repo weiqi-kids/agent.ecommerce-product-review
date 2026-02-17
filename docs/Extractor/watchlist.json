@@ -1,6 +1,96 @@
 {
-  "last_updated": "2026-02-13T14:00:00Z",
+  "last_updated": "2026-02-17T12:00:00Z",
   "products": [
+    {
+      "asin": "B0DGHMNQ5Z",
+      "name": "Apple AirPods 4 Wireless Earbuds",
+      "category": "wireless-earbuds",
+      "watch_reason": "counterfeit_risk",
+      "severity": "high",
+      "added_date": "2026-02-17",
+      "last_checked": "2026-02-17",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "authenticity_check",
+          "description": "監控 7% 真品疑慮是否改善"
+        },
+        {
+          "type": "fire_hazard",
+          "description": "監控 3% 充電火災風險報告"
+        }
+      ],
+      "baseline": {
+        "authenticity_doubt_rate": "7%",
+        "charging_fire_rate": "3%",
+        "avg_rating": 4.55,
+        "review_count": 41358
+      },
+      "check_result": {
+        "date": "2026-02-17",
+        "status": "comparison_issued",
+        "notes": "已產出比較報告，標記 [REVIEW_NEEDED]",
+        "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
+      }
+    },
+    {
+      "asin": "B0FQFB8FMG",
+      "name": "Apple AirPods Pro 3 Wireless Earbuds",
+      "category": "wireless-earbuds",
+      "watch_reason": "product_integrity",
+      "severity": "high",
+      "added_date": "2026-02-17",
+      "last_checked": "2026-02-17",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "icloud_security",
+          "description": "監控 6% iCloud 帳號連結問題（產品仍與前任使用者綁定）"
+        },
+        {
+          "type": "product_condition",
+          "description": "監控產品狀況問題報告"
+        }
+      ],
+      "baseline": {
+        "icloud_issue_rate": "6%",
+        "product_condition_issue_rate": "5%",
+        "avg_rating": 4.45,
+        "review_count": 5811
+      },
+      "check_result": {
+        "date": "2026-02-17",
+        "status": "comparison_issued",
+        "notes": "已產出比較報告，標記 [REVIEW_NEEDED]",
+        "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
+      }
+    },
+    {
+      "asin": "B0GJTFXNRX",
+      "name": "Apple AirTag 2nd Generation",
+      "category": "item-tracker",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-02-17",
+      "last_checked": "2026-02-17",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "connectivity_failure",
+          "description": "監控 11.7% 連線失敗率是否改善"
+        }
+      ],
+      "baseline": {
+        "connectivity_failure_rate": "11.7%",
+        "avg_rating": 4.7,
+        "review_count": 100
+      },
+      "check_result": {
+        "date": "2026-02-17",
+        "status": "extraction_completed",
+        "notes": "首次萃取完成，待後續追蹤"
+      }
+    },
     {
       "asin": "B0CYJBB2JQ",
       "name": "bella 2 Slice Toaster",
