@@ -20,7 +20,9 @@ OUTPUT_DIR="$PROJECT_ROOT/docs/Extractor/bestbuy_us/raw"
 # 預設參數
 MAX_REVIEWS=100
 BATCH_SIZE=50
-HEADLESS=true
+# Best Buy 有較強反爬蟲機制，headless 模式常被封鎖
+# 使用 HEADLESS=false ./fetch.sh 來開啟瀏覽器視窗執行
+HEADLESS=${HEADLESS:-false}
 
 # 確保輸出目錄存在
 mkdir -p "$OUTPUT_DIR"

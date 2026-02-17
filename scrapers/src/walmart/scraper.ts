@@ -333,6 +333,19 @@ async function scrapeReviews(
 
     await randomDelay(2000, 3000);
 
+    // 檢查是否被 PerimeterX 封鎖
+    const pageTitle = await page.title();
+    const isPxBlocked = await page.$('script[src*="perimeterx"]') !== null;
+    const isRobotCheck = pageTitle.toLowerCase().includes('robot') ||
+                         pageTitle.toLowerCase().includes('verify') ||
+                         pageTitle.toLowerCase().includes('blocked');
+
+    if (isPxBlocked || isRobotCheck) {
+      console.log('  ⚠️ 被 PerimeterX 反機器人系統封鎖，評論頁無法存取');
+      console.log(`  📄 頁面標題: ${pageTitle}`);
+      throw new Error('BLOCKED_BY_PERIMETERX: Walmart 反機器人系統封鎖了評論頁面存取');
+    }
+
     // 等待評論元素
     try {
       await page.waitForSelector(SELECTORS.reviews.container, { timeout: 10000 });
@@ -356,6 +369,15 @@ async function scrapeReviews(
     }
 
     if (reviewElements.length === 0) {
+      // 檢查頁面是否正常載入（非封鎖頁面）
+      const hasProductInfo = await page.$('[data-testid="product-title"], .prod-ProductTitle') !== null;
+      const hasReviewSection = await page.$('[data-testid="reviews-section"], .customer-reviews') !== null;
+
+      if (!hasProductInfo && !hasReviewSection) {
+        console.log('  ⚠️ 頁面可能被封鎖或載入異常，無法取得評論');
+        throw new Error('PAGE_LOAD_FAILED: 無法正常載入評論頁面，可能被反爬蟲系統攔截');
+      }
+
       console.log('  ⚠️ 無更多評論');
       break;
     }

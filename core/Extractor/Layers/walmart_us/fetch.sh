@@ -114,8 +114,10 @@ else
             --headless "$HEADLESS" \
             || echo "⚠️ 抓取失敗，繼續下一個..."
 
-        # 隨機延遲避免被封鎖
-        sleep $((RANDOM % 5 + 3))
+        # 隨機延遲避免被封鎖（15-45 秒）
+        DELAY=$((RANDOM % 30 + 15))
+        echo "  ⏳ 等待 ${DELAY} 秒後繼續..."
+        sleep $DELAY
 
     done < "$URL_FILE"
 fi
