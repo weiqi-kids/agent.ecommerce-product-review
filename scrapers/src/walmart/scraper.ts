@@ -32,6 +32,65 @@ import {
 import type { Review, Product, RatingSummary } from '../common/types.js';
 import type { Page, Browser, BrowserContext } from 'playwright';
 
+// === Fibonacci 退避策略 ===
+
+/**
+ * 生成 Fibonacci 數列（用於退避延遲）
+ * 序列：1, 2, 3, 5, 8, 13, 21, 34, 55, 89 分鐘
+ */
+function getFibonacciDelay(attempt: number): number {
+  const fibSequence = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  const index = Math.min(attempt - 1, fibSequence.length - 1);
+  return fibSequence[index] * 60 * 1000; // 轉換為毫秒
+}
+
+/**
+ * 格式化毫秒為人類可讀的時間
+ */
+function formatDuration(ms: number): string {
+  const minutes = Math.floor(ms / 60000);
+  const seconds = Math.floor((ms % 60000) / 1000);
+  if (minutes > 0) {
+    return seconds > 0 ? `${minutes}分${seconds}秒` : `${minutes}分鐘`;
+  }
+  return `${seconds}秒`;
+}
+
+/**
+ * 帶有 Fibonacci 退避的重試包裝器
+ */
+async function withFibonacciRetry<T>(
+  fn: () => Promise<T>,
+  maxAttempts: number = 5,
+  onRetry?: (attempt: number, delay: number, error: Error) => void
+): Promise<T> {
+  let lastError: Error | null = null;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error as Error;
+
+      // 只對 PerimeterX 封鎖進行重試
+      if (!lastError.message.includes('BLOCKED_BY_PERIMETERX') &&
+          !lastError.message.includes('PAGE_LOAD_FAILED')) {
+        throw lastError;
+      }
+
+      if (attempt < maxAttempts) {
+        const delay = getFibonacciDelay(attempt);
+        if (onRetry) {
+          onRetry(attempt, delay, lastError);
+        }
+        await new Promise(resolve => setTimeout(resolve, delay));
+      }
+    }
+  }
+
+  throw lastError;
+}
+
 // === Exported Types ===
 
 export interface ScrapeOptions {
@@ -146,10 +205,21 @@ async function scrapeProductUrl(
     product.walmart_id = productId;
   }
 
-  // 抓取評論
+  // 抓取評論（帶 Fibonacci 退避重試）
   const reviews: Review[] = [];
   const seenIds = new Set<string>();
-  await scrapeReviews(page, productId, maxReviews, reviews, seenIds);
+
+  await withFibonacciRetry(
+    async () => {
+      reviews.length = 0;
+      seenIds.clear();
+      await scrapeReviews(page, productId, maxReviews, reviews, seenIds);
+    },
+    5, // 程式化呼叫最多重試 5 次
+    (attempt, delay, error) => {
+      console.log(`  ⏳ 被封鎖，第 ${attempt}/5 次重試，等待 ${formatDuration(delay)}...`);
+    }
+  );
 
   return { product, ratingSummary, reviews };
 }
@@ -228,12 +298,27 @@ async function main() {
     console.log(`  品牌: ${product.brand}`);
     console.log(`  評分: ${ratingSummary.average} (${ratingSummary.total_count} 則)`);
 
-    // Step 3: 抓取評論
+    // Step 3: 抓取評論（帶 Fibonacci 退避重試）
     console.log(`📝 開始抓取評論 (最多 ${maxReviews} 則)...`);
     const reviews: Review[] = [];
     const seenIds = new Set<string>();
 
-    await scrapeReviews(page, productId, maxReviews, reviews, seenIds);
+    const maxRetryAttempts = 8; // 最多重試 8 次（Fibonacci: 1,2,3,5,8,13,21,34 分鐘）
+
+    await withFibonacciRetry(
+      async () => {
+        // 每次重試清空已收集的評論
+        reviews.length = 0;
+        seenIds.clear();
+        await scrapeReviews(page, productId, maxReviews, reviews, seenIds);
+      },
+      maxRetryAttempts,
+      (attempt, delay, error) => {
+        console.log(`\n⏳ 被封鎖，第 ${attempt}/${maxRetryAttempts} 次重試`);
+        console.log(`   等待 ${formatDuration(delay)} 後重試...`);
+        console.log(`   (Fibonacci 退避策略: 1→2→3→5→8→13→21→34 分鐘)`);
+      }
+    );
 
     console.log(`\n📊 共抓取 ${reviews.length} 則評論`);
 
