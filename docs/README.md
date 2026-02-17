@@ -54,11 +54,11 @@ Amazon 評論（最新 50-200 則）
 
 | 類別 | 結論 |
 |------|------|
+| [串流播放器](Narrator/comparisons/streaming-stick--2026-02-18.md) | **多 $5 選 4K Plus**：HD 版 26% 故障率是 4K Plus 的 3.25 倍 |
 | [無線耳機](Narrator/comparisons/wireless-earbuds--2026-02-17.md) | AirPods Pro 3 降噪音質勝出，但兩款皆有 Amazon 購買風險 [REVIEW_NEEDED] |
 | [降噪耳機](Narrator/comparisons/noise-canceling-headphones--2026-02-13.md) | Sony 音質最佳但有轉軸問題；AirPods 便攜但 18% 掉落風險 |
 | [痘痘治療](Narrator/comparisons/acne-treatment--2026-02-13.md) | Mighty Patch 最安全；PanOxyl 最強效但刺激性高 |
 | [身體保濕](Narrator/comparisons/body-moisturizing--2026-02-13.md) | CeraVe 97% 滿意度勝出 |
-| [手部護理](Narrator/comparisons/hand-care--2026-02-12.md) | O'Keeffe's 86.7% 有效；敏感肌選 CeraVe |
 
 ---
 
@@ -101,4 +101,4 @@ Amazon 評論（最新 50-200 則）
 
 ---
 
-*最後更新：2026-02-17 ｜ 分析來源：Amazon US 真實購買評論*
+*最後更新：2026-02-18 ｜ 分析來源：Amazon US 真實購買評論*
