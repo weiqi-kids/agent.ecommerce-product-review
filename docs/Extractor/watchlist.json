@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T12:00:00Z",
+  "last_updated": "2026-02-18T08:40:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -98,7 +98,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-11",
-      "last_checked": "2026-02-11",
+      "last_checked": "2026-02-18",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -112,6 +112,10 @@
         {
           "type": "recall_check",
           "description": "監控是否有召回行動"
+        },
+        {
+          "type": "fire_hazard",
+          "description": "監控火災/冒火事件報告（2026-02-18 新增）"
         }
       ],
       "baseline": {
@@ -121,9 +125,17 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-11",
-        "status": "warning_issued",
-        "notes": "已產出警告報告，46% 故障率為極高風險",
+        "date": "2026-02-18",
+        "status": "improved_but_concerns",
+        "notes": "故障率從 46% 降至 22%（改善），但發現 1 則火災事件（2%）。平均評分從 4.55 降至 4.35。無召回公告。",
+        "current_metrics": {
+          "failure_rate": "22%",
+          "uneven_toasting_rate": "14%",
+          "fire_incident_rate": "2%",
+          "avg_rating": 4.35,
+          "total_reviews": 11572,
+          "reviews_analyzed": 50
+        },
         "report": "docs/Narrator/warnings/bella-toaster--2026-02-11.md"
       }
     },

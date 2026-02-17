@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-17T12:00:00Z",
-  "last_completed_date": "2026-02-17",
+  "last_updated": "2026-02-18T08:45:00Z",
+  "last_completed_date": "2026-02-18",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "steps": {
@@ -37,7 +37,7 @@
         "products": [
           {"asin": "B0DGHMNQ5Z", "name": "AirPods 4", "status": "[REVIEW_NEEDED]", "issues": "7% authenticity, 3% fire hazard"},
           {"asin": "B0FQFB8FMG", "name": "AirPods Pro 3", "status": "[REVIEW_NEEDED]", "issues": "6% iCloud security, price=0"},
-          {"asin": "B0CQMRKRV5", "name": "Fire TV Stick HD", "status": "[REVIEW_NEEDED]", "issues": "Data mismatch - contains Vitamin D3 data"},
+          {"asin": "B0CQMRKRV5", "name": "Fire TV Stick HD", "status": "OK", "issues": "26% device failure - re-extracted 2026-02-18"},
           {"asin": "B0F7Z4QZTT", "name": "Fire TV Stick 4K Plus", "status": "OK", "issues": "12% remote malfunction"},
           {"asin": "B0GJTFXNRX", "name": "AirTag 2nd Gen", "status": "OK", "issues": "11.7% connectivity failure"},
           {"asin": "B08ZJQ1XD4", "name": "LMNT Electrolytes", "status": "OK", "issues": "none"},
@@ -58,10 +58,9 @@
     },
     "step_7": {
       "status": "completed",
-      "note": "Comparison analysis completed for wireless-earbuds (2 products). Other categories skipped due to single product or data issues.",
-      "categories_analyzed": ["wireless-earbuds"],
+      "note": "Comparison analysis completed for wireless-earbuds and streaming-stick. Other categories skipped due to single product.",
+      "categories_analyzed": ["wireless-earbuds", "streaming-stick"],
       "categories_skipped": {
-        "streaming-stick": "Data corruption in B0CQMRKRV5",
         "item-tracker": "Single product",
         "electrolyte-hydration": "Single product",
         "vitamin-d-supplement": "Single product"
@@ -69,20 +68,26 @@
     },
     "step_8": {
       "status": "completed",
-      "note": "Comparison report generated for wireless-earbuds",
+      "note": "Comparison reports generated for wireless-earbuds and streaming-stick",
       "reports_generated": [
         {
           "type": "comparison",
           "category": "wireless-earbuds",
           "path": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md",
           "status": "[REVIEW_NEEDED]"
+        },
+        {
+          "type": "comparison",
+          "category": "streaming-stick",
+          "path": "docs/Narrator/comparisons/streaming-stick--2026-02-18.md",
+          "status": "OK"
         }
       ]
     }
   },
   "summary": {
     "extractions_today": 7,
-    "reports_today": 1,
+    "reports_today": 2,
     "warnings_issued": 0,
     "products_added_to_watchlist": 3,
     "review_needed_reports": 26,
@@ -95,9 +100,11 @@
     },
     "session_status": "active",
     "blocking_issues": [
-      "Walmart scraper: 0 reviews returned - selector needs update",
-      "Fire TV Stick HD: JSONL data mismatch - contains wrong product data",
-      "Best Buy headless mode blocked - need --headless false"
+      "Walmart scraper: PerimeterX 封鎖中（Fibonacci 重試已部署）"
+    ],
+    "resolved_issues": [
+      "Fire TV Stick HD: 已重新萃取（2026-02-18）",
+      "Best Buy headless: 已修復（default headless=false）"
     ]
   }
 }
