@@ -39,7 +39,7 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 |------|------|----------|
 | [Sony WH-1000XM5 耳機](/Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13) | 27% 轉軸斷裂 | 🔴 高 |
 | [Amazon Basics 暖風機](/Narrator/warnings/B07V6M4MSN--warning--2026-02-13) | 16% 火災風險 | 🔴 高 |
-| [HANYCONY 延長線](/Narrator/warnings/power-strip-fire-hazard--2026-02-05) | 火災/過熱風險 | 🔴 高 |
+| [HANYCONY 延長線](/Narrator/warnings/hanycony-power-strip--warning--2026-02-06) | 火災/過熱風險 | 🔴 高 |
 | [bella 烤麵包機](/Narrator/warnings/bella-toaster--2026-02-11) | 46% 一年內故障 | 🟠 中 |
 
 [查看所有警告報告 →](/Narrator/warnings/)

@@ -218,20 +218,8 @@ export default defineConfig({
   // Vite 建構優化（降低 TBT）
   vite: {
     build: {
-      // 更小的 chunk 以利快取
-      chunkSizeWarningLimit: 500,
-      rollupOptions: {
-        output: {
-          // 分離 vendor
-          manualChunks: {
-            vue: ['vue']
-          }
-        }
-      }
-    },
-    // 預載入優化
-    optimizeDeps: {
-      include: ['vue']
+      // 調高警告門檻（VitePress 預設會產生較大的 chunk）
+      chunkSizeWarningLimit: 1000
     }
   },
 
