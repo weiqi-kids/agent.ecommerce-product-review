@@ -1168,6 +1168,60 @@ head -30 docs/Extractor/discovery_cache/{date}.json
 
 ---
 
+## 網站改版流程（Revamp）
+
+> 詳細指令見 `revamp/CLAUDE.md` 及各階段子目錄。
+
+本專案提供結構化的網站改版流程，用於提升網站品質。與日常的「執行完整流程」獨立運作。
+
+### 流程總覽
+
+```
+0-Positioning → 1-Discovery → 2-Competitive → 3-Analysis → 4-Strategy → 5-Content-Spec → 執行 → Final-Review
+     ↓              ↓             ↓              ↓            ↓              ↓                       ↓
+  Review ✓      Review ✓      Review ✓      Review ✓     Review ✓       Review ✓                Review ✓
+```
+
+### 階段說明
+
+| 階段 | 目的 | 輸出 |
+|------|------|------|
+| **0-positioning** | 釐清品牌定位、核心價值 | 定位文件 |
+| **1-discovery** | 盤點現有內容 + 技術健檢 | 健檢報告 + KPI |
+| **2-competitive** | 分析競爭對手 | 競品分析報告 |
+| **3-analysis** | 受眾分析 + 內容差距 | 差距分析報告 |
+| **4-strategy** | 改版計劃 + 優先級排序 | 改版計劃書 |
+| **5-content-spec** | 每頁內容規格 | 內容規格書 |
+| **final-review** | 驗收執行結果 | 驗收報告 |
+
+### 自動化工具
+
+| 工具 | 用途 | 指令 |
+|------|------|------|
+| `site-audit.sh` | 網站健檢（效能、安全、SEO） | `revamp/tools/site-audit.sh {URL}` |
+| `competitive-audit.sh` | 競品比較分析 | `revamp/tools/competitive-audit.sh {URL1} {URL2}...` |
+
+### Writer / Reviewer 機制
+
+每個階段都有兩個角色：
+
+| 角色 | 職責 | 定義位置 |
+|------|------|----------|
+| **Writer** | 執行分析、產出文件 | `revamp/{階段}/CLAUDE.md` |
+| **Reviewer** | 審核品質、確保完整 | `revamp/{階段}/review/CLAUDE.md` |
+
+### 使用時機
+
+| 場景 | 建議使用 |
+|------|----------|
+| 網站首次上線前 | 完整流程 (0-5 + final) |
+| 季度改版規劃 | 完整流程 |
+| 快速技術健檢 | 只跑 `1-discovery` |
+| 競品研究 | 只跑 `2-competitive` |
+| 內容規格撰寫 | 只跑 `5-content-spec` |
+
+---
+
 ## 指定執行
 
 | 使用者指令 | 執行範圍 |
@@ -1193,8 +1247,14 @@ head -30 docs/Extractor/discovery_cache/{date}.json
 | 「顯示監控清單」 | 顯示目前監控的產品和類別 |
 | 「顯示今日摘要」 | 顯示今日執行統計 |
 | 「顯示平台狀態」 | 顯示各平台的啟用狀態和健康度 |
+| 「執行改版流程」 | 執行 Revamp 完整流程（0-positioning → final-review） |
+| 「執行改版 {階段}」 | 只執行指定階段（如 `執行改版 1-discovery`） |
+| 「執行網站健檢 {URL}」 | 執行 site-audit.sh，產出技術健檢報告 |
+| 「執行競品分析 {URL1} {URL2}...」 | 執行 competitive-audit.sh，比較多個網站 |
+| 「審核改版 {階段}」 | 以 Reviewer 角色審核指定階段的輸出 |
 
 > 指定執行時模型指派規則不變。Layer 相關任務用 `sonnet`，Mode 相關任務用 `opus`。
+> Revamp 任務一律使用 `sonnet`，最終報告產出使用 `opus`。
 
 ### 平台識別碼對應
 
