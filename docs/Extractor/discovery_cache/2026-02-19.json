@@ -1,0 +1,58 @@
+{
+  "date": "2026-02-19",
+  "platforms": {
+    "amazon_us": {
+      "categories": ["beauty", "electronics", "health", "toys"],
+      "total_products": 120,
+      "new_products": 0,
+      "sources": ["bestsellers"]
+    },
+    "bestbuy_us": {
+      "categories": ["electronics"],
+      "total_products": 10,
+      "new_products": 0,
+      "note": "僅找到遊戲產品，URL 導向 games 類別"
+    },
+    "walmart_us": {
+      "categories": ["toys"],
+      "total_products": 20,
+      "new_products": 0,
+      "issues": {
+        "beauty": "selector issue - 未找到商品元素"
+      }
+    }
+  },
+  "summary": {
+    "total_discovered": 150,
+    "pending_dedup": true,
+    "pending_grouping": true
+  },
+  "amazon_asins": [
+    "B09V7Z4TJG", "B08KT2Z93D", "B09541P9WH", "B074PVTPBW", "B0B2RM68G2",
+    "B0BRMYHMS5", "B00T0C9XRK", "B09542G9ZN", "B07PBXXNCY", "B00U2VQZDS",
+    "B08H3JPH74", "B09HHDHXWX", "B0CM2PPNMW", "B0D16L5F2M", "B0DBF65JYY",
+    "B00AINMFAC", "B081KL2QYJ", "B071914GGL", "B0D2Z3GGCY", "B00TTD9BRC",
+    "B08JHCVHTY", "B0DCH8VDXF", "B0DGHMNQ5Z", "B0GJTFXNRX", "B0DZ75TN5F",
+    "B0FQFB8FMG", "B0F7Z4QZTT", "B0D54JZTHY", "B0C6W3D4RM", "B09PDLBFKY",
+    "B08R6S1M1K", "B0DXXYS4BJ", "B0BP9SNVH9", "B0CFPJYX7P", "B09Z6Q2MLC",
+    "B0DZ254SSR", "B0FQF9ZX7P", "B00EB4ADQW", "B0DGQZ8JZK", "B0CQMRKRV5",
+    "B079VP6DH5", "B00NTCH52W", "B07BGLT25K", "B08ZJQ1XD4", "B0FN4NH4K8",
+    "B0C2CY22B8", "B095CN96JS", "B0BVXQQNBB", "B0798DVT68", "B010NE2XPC",
+    "B01BZ0LXL8", "B002DYIZEE", "B07P5K7DQP", "B00LH3DMUO", "B083JHCCV2",
+    "B0DQYPYVB6", "B07ND3WR64", "B09BWFX1L6", "B002DYIZH6", "B0DF8RSVJK",
+    "B0DQNQ1ZVZ", "B0C6XBP4CW", "B0D9ZTW7PS", "B0BZCHMVTK", "B0BDQN1SG5",
+    "B09SDKSXLZ", "B0FHL14WTF", "B00JM5GW10", "B0DWGVM7RY", "B0BJZRS4KR",
+    "B00ZRD99C0", "B0FH7F99VG", "B09PGVGCH5", "B0B1B14DRT", "B013RQPB5C",
+    "B098PMWSVS", "B08SGH7NKX", "B087N9N6HH", "B0GH8H8HHZ", "B0829FT44S"
+  ],
+  "walmart_ids": [
+    "32803180", "495741772", "55176011", "49767340", "629900010",
+    "404066074", "388198360", "2536583", "346254805", "272067876",
+    "484543324", "184060290", "1121295", "379658343", "21577914",
+    "1720510230", "447692039", "878142", "1021645467", "522636347"
+  ],
+  "bestbuy_skus": [
+    "6523377", "6519764", "5723312", "5723316", "5856809",
+    "6259296", "6509895", "5723319", "5358600", "6259297"
+  ]
+}

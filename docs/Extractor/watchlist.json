@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T08:40:00Z",
+  "last_updated": "2026-02-19T09:00:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -178,7 +178,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -202,9 +202,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-13",
-        "status": "warning_updated",
-        "notes": "更新警告報告，16% 火災風險率、42% 早期故障率。新數據確認問題持續存在。",
+        "date": "2026-02-19",
+        "status": "no_change",
+        "notes": "無新召回或火災事件報導。2019 年曾召回不同型號（B074MR2HGM 等），此 ASIN 未列入召回清單。建議持續監控。",
         "report": "docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"
       }
     },
@@ -215,7 +215,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -252,22 +252,18 @@
       "name": "upsimples 8x10 Picture Frame",
       "category": "picture-frame",
       "watch_reason": "quality_crisis",
-      "severity": "high",
+      "severity": "medium",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-12",
-      "check_interval_days": 7,
+      "last_checked": "2026-02-19",
+      "check_interval_days": 14,
       "alerts": [
-        {
-          "type": "material_mismatch",
-          "description": "監控材質期望落差問題"
-        },
         {
           "type": "shipping_damage",
           "description": "監控運送損壞率"
         },
         {
-          "type": "dimension_accuracy",
-          "description": "監控尺寸準確度問題"
+          "type": "product_description",
+          "description": "監控產品描述透明度（塑膠 vs 玻璃）"
         }
       ],
       "baseline": {
@@ -277,9 +273,9 @@
         "success_rate": "24%"
       },
       "check_result": {
-        "date": "2026-02-08",
-        "status": "warning_issued",
-        "notes": "已產出警告報告，僅 24% 成功率，[REVIEW_NEEDED] 無競品資料",
+        "date": "2026-02-19",
+        "status": "improved",
+        "notes": "品質顯著改善，被列為 2026 年十大相框品牌。主要問題從品質轉為資訊透明度（不知道是塑膠非玻璃）。嚴重度降級為 medium，檢查間隔延長至 14 天。",
         "report": "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md"
       }
     },
@@ -290,7 +286,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -309,9 +305,9 @@
         "review_count": 1500
       },
       "check_result": {
-        "date": "2026-02-07",
+        "date": "2026-02-19",
         "status": "no_change",
-        "notes": "無召回公告，其他品牌（ANNQUAN、HEZI）有召回"
+        "notes": "無召回公告。同類產品 ANNQUAN（2026-01-07）、HEZI（2026-01-15）已召回，但 HANYCONY 未受影響。建議持續監控。"
       }
     },
     {
@@ -321,7 +317,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -338,9 +334,9 @@
         "avg_rating": 4.3
       },
       "check_result": {
-        "date": "2026-02-07",
+        "date": "2026-02-19",
         "status": "no_change",
-        "notes": "無召回公告"
+        "notes": "無召回公告。建議持續監控。"
       }
     },
     {
@@ -350,12 +346,16 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
           "type": "batch_quality",
           "description": "監控新批次是否仍有固化問題"
+        },
+        {
+          "type": "lawsuit_progress",
+          "description": "監控維生素C含量訴訟進展（2026-02-19 新增）"
         }
       ],
       "baseline": {
@@ -364,9 +364,9 @@
         "review_count": 50000
       },
       "check_result": {
-        "date": "2026-02-07",
-        "status": "ongoing_litigation",
-        "notes": "2024 訴訟進行中（維生素C含量不實、天然風味標示），無 2026 新召回"
+        "date": "2026-02-19",
+        "status": "lawsuit_update",
+        "notes": "發現 2024 年 11 月新增訴訟（Carlos Campos v. Haleon），指控軟糖產品維生素C含量短缺 45%（標示 750mg，實測 409mg）。軟糖（透明瓶）風險高於粉末（密封包裝）。無新召回。"
       }
     },
     {
@@ -405,7 +405,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -419,6 +419,10 @@
         {
           "type": "counterfeit_check",
           "description": "監控賣家變更、官方聲明"
+        },
+        {
+          "type": "fda_compliance",
+          "description": "監控 FDA 法規合規狀態（2026-02-19 新增）"
         }
       ],
       "baseline": {
@@ -427,9 +431,9 @@
         "review_count": 7
       },
       "check_result": {
-        "date": "2026-02-08",
-        "status": "counterfeit_confirmed",
-        "notes": "已產出假貨報告。Beauty of Joseon 官方聲明不授權 Amazon.com 銷售防曬產品。",
+        "date": "2026-02-19",
+        "status": "no_change",
+        "notes": "假貨風險未改善。產品仍在 Amazon 上架，評論數增至 62 則但驗證購買率仍為 0%。官方因 FDA 未核准 UV 過濾成分計劃下架，但第三方賣家仍持續銷售。",
         "report": "docs/Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md"
       }
     },
@@ -440,7 +444,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-07",
-      "last_checked": "2026-02-12",
+      "last_checked": "2026-02-19",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -454,6 +458,10 @@
         {
           "type": "formula_change",
           "description": "監控配方變更影響"
+        },
+        {
+          "type": "brand_response",
+          "description": "監控品牌官方回應（2026-02-19 新增）"
         }
       ],
       "baseline": {
@@ -464,10 +472,10 @@
       },
       "discovery_source": "L5 issue detection from 2026-02-07 extraction",
       "check_result": {
-        "date": "2026-02-12",
+        "date": "2026-02-19",
         "status": "worsening",
-        "notes": "化學味問題持續擴大，配方變更 + 批次不穩定，TikTok 廣泛討論。嚴重度提升至 high。",
-        "action_needed": "考慮更新警告或痛點報告"
+        "notes": "化學味問題持續惡化。2026 年用戶報告「聞起來像直接化學品」、「酸臭味」、「假味且令人不適」。多位用戶明確表示配方改變。品牌尚未回應。若下次檢查（2026-02-26）問題仍持續，考慮提升嚴重度至 critical。",
+        "action_needed": "若下次仍惡化，提升嚴重度至 critical 並更新警告報告"
       }
     }
   ],
