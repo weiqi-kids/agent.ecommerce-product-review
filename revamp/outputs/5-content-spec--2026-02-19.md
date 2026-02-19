@@ -78,9 +78,9 @@
 
 | 指標 | 目標值 | 測量方式 |
 |------|--------|----------|
-| 跳出率 | <70% | Google Analytics |
-| 首頁停留時間 | >30 秒 | Google Analytics |
-| 報告頁點擊率 | >40% | GA Event Tracking |
+| 週訪客數 | 穩定成長 | GitHub Traffic |
+| 首頁進熱門頁面 | 前 5 名 | GitHub Traffic |
+| 報告頁被訪問 | 多篇進前 10 | GitHub Traffic |
 
 ---
 
@@ -367,9 +367,9 @@
 
 | 指標 | 目標值 | 測量方式 |
 |------|--------|----------|
-| 報告頁停留時間 | >2 分鐘 | Google Analytics |
-| 相關報告點擊率 | >20% | GA Event Tracking |
-| 分享率 | >5% | GA Event Tracking |
+| 報告頁訪問量 | 持續成長 | GitHub Traffic |
+| 報告頁進熱門內容 | 多篇進前 10 | GitHub Traffic |
+| 來源網站增加 | 有外部連結 | GitHub Traffic (Referring sites) |
 
 ---
 
@@ -637,8 +637,8 @@ export default defineConfig({
 
 | 指標 | 目標值 | 測量方式 |
 |------|--------|----------|
-| 頁面瀏覽量 | 月 100+ PV | Google Analytics |
-| 跳出率 | <60% | Google Analytics |
+| 頁面被訪問 | 出現在熱門內容 | GitHub Traffic |
+| 有外部連結 | 被引用 | GitHub Traffic (Referring sites) |
 
 ---
 
