@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ecommerce.weiqi.kids/sitemap.xml
+
+# 爬蟲友善設定
+Crawl-delay: 1

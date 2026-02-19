@@ -8,6 +8,9 @@ import WarningBox from './components/WarningBox.vue'
 import ProductCard from './components/ProductCard.vue'
 import ComparisonTable from './components/ComparisonTable.vue'
 import FAQSection from './components/FAQSection.vue'
+import ReportSummary from './components/ReportSummary.vue'
+import ShareButtons from './components/ShareButtons.vue'
+import RelatedReports from './components/RelatedReports.vue'
 
 // 自訂樣式
 import './custom.css'
@@ -21,5 +24,8 @@ export default {
     app.component('ProductCard', ProductCard)
     app.component('ComparisonTable', ComparisonTable)
     app.component('FAQSection', FAQSection)
+    app.component('ReportSummary', ReportSummary)
+    app.component('ShareButtons', ShareButtons)
+    app.component('RelatedReports', RelatedReports)
   }
 } satisfies Theme

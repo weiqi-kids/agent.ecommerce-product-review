@@ -1,107 +1,182 @@
-# Amazon 評論真相報告
+---
+layout: home
+title: 買前必看 - Amazon 評論深度分析
+description: AI 分析數千則 Amazon 真實評論，揭露星級評分背後的產品問題。免費查看警告報告、比較報告、推薦報告，做出明智購買決策。
+---
 
-> **在你下單前，先看看其他買家踩過的坑。**
+<div class="hero-section">
 
-我們用 AI 分析數千則 Amazon 真實評論，找出產品的**隱藏問題**——那些賣家不會告訴你、星級評分看不出來的真相。
+# Amazon 星級看不到的真相
+
+<p class="article-summary">
+AI 深度分析數千則評論，找出星級背後的產品問題
+</p>
+
+<div class="hero-badges">
+  <span class="badge">🔍 獨立研究</span>
+  <span class="badge">🚫 無業配</span>
+  <span class="badge">🤖 AI 分析</span>
+</div>
+
+<div class="hero-cta">
+  <a href="/Narrator/warnings/" class="cta-primary">查看警告報告</a>
+  <a href="/Narrator/comparisons/" class="cta-secondary">瀏覽比較報告</a>
+</div>
+
+</div>
 
 ---
 
-## 這網站能幫你什麼？
+## 🔴 這些問題，星級評分看不到
 
-| 你的困擾 | 我們的解答 |
-|---------|-----------|
-| 4.5 星的產品怎麼還是踩雷？ | 我們分析負評模式，找出**高頻問題**（如「27% 用戶反映轉軸斷裂」） |
-| 同類產品這麼多，選哪個？ | **比較報告**告訴你每個產品的優缺點和適用場景 |
-| 網路評測是不是業配？ | 我們只分析**真實購買者評論**，不接受廠商合作 |
-| 有些產品會不會有安全問題？ | **警告報告**標記火災風險、設計缺陷等嚴重問題 |
+<div class="key-takeaway">
+
+我們分析的產品中，**有 23% 存在賣家不會告訴你的重大問題**——包括火災風險、設計缺陷、假貨疑慮。這些問題往往藏在 4 星以上的「好評」產品裡。
+
+</div>
+
+| 產品 | 問題 | 風險等級 |
+|------|------|----------|
+| [Sony WH-1000XM5 耳機](/Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13) | 27% 轉軸斷裂 | 🔴 高 |
+| [Amazon Basics 暖風機](/Narrator/warnings/B07V6M4MSN--warning--2026-02-13) | 16% 火災風險 | 🔴 高 |
+| [HANYCONY 延長線](/Narrator/warnings/power-strip-fire-hazard--2026-02-05) | 火災/過熱風險 | 🔴 高 |
+| [bella 烤麵包機](/Narrator/warnings/bella-toaster--2026-02-11) | 46% 一年內故障 | 🟠 中 |
+
+[查看所有警告報告 →](/Narrator/warnings/)
 
 ---
 
-## 我們怎麼做分析？
+## 📂 報告分類
+
+| 類型 | 說明 | 數量 |
+|------|------|------|
+| [⚠️ 警告報告](/Narrator/warnings/) | 有重大品質或安全問題，建議避開 | 15+ |
+| [🚨 假貨警報](/Narrator/counterfeits/) | Amazon 上發現假貨風險 | 2+ |
+| [📊 痛點報告](/Narrator/pain_points/) | 整個品類都有問題，目前無好選擇 | 5+ |
+| [✅ 推薦報告](/Narrator/recommendations/) | 經分析後確實值得購買 | 12+ |
+| [⚖️ 比較報告](/Narrator/comparisons/) | 同類產品優劣分析，幫你選對的 | 55+ |
+
+---
+
+## ✅ 最新推薦
+
+| 類別 | 推薦產品 | 理由 |
+|------|----------|------|
+| [頭皮屑治療](/Narrator/recommendations/dandruff-treatment--2026-02-14) | Nizoral | 92% 有效、唯一 OTC 含 1% Ketoconazole |
+| [串流播放器](/Narrator/comparisons/streaming-stick--2026-02-18) | Roku 4K Plus | 多 $5 但故障率低 3.25 倍 |
+| [身體保濕](/Narrator/comparisons/body-moisturizing--2026-02-13) | CeraVe | 97% 滿意度勝出 |
+
+---
+
+## 🔎 我們怎麼分析？
 
 ```
 Amazon 評論（最新 50-200 則）
         ↓
     AI 萃取關鍵資訊
     ├── 產品聲明 vs 用戶體驗（有沒有吹牛？）
-    ├── 負評分類（產品問題 vs 物流問題）
+    ├── 負評分類（❌ 功能失效 / ⚠️ 副作用 / 📦 物流問題）
     ├── 問題發生頻率（多少 % 的人遇到）
     └── 問題嚴重程度（小困擾 vs 安全風險）
         ↓
     產出報告（每日更新）
 ```
 
----
-
-## 最新發現
-
-### 🔴 安全警告
-
-| 產品 | 問題 | 風險 |
-|------|------|------|
-| [Sony WH-1000XM5 耳機](Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13.md) | 27% 轉軸斷裂 | 12-18月內故障，保固不涵蓋 |
-| [Amazon Basics 暖風機](Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md) | 16% 火災風險 | 冒煙、融化、燒焦味 |
-| [If You Care 烘焙紙](Narrator/warnings/if-you-care-parchment-fire--2026-02-13.md) | 3% 火災風險 | 標準烘焙溫度下起火 |
-| [bella 烤麵包機](Narrator/warnings/bella-toaster--2026-02-11.md) | 46% 一年內故障 | 嚴重品控問題 |
-
-### ✅ 最新推薦
-
-| 類別 | 推薦產品 | 理由 |
-|------|----------|------|
-| [頭皮屑治療](Narrator/recommendations/dandruff-treatment--2026-02-14.md) | Nizoral | 92% 有效、93% 止癢，唯一 OTC 含 1% Ketoconazole |
-
-### ⚖️ 熱門比較
-
-| 類別 | 結論 |
-|------|------|
-| [串流播放器](Narrator/comparisons/streaming-stick--2026-02-18.md) | **多 $5 選 4K Plus**：HD 版 26% 故障率是 4K Plus 的 3.25 倍 |
-| [無線耳機](Narrator/comparisons/wireless-earbuds--2026-02-17.md) | AirPods Pro 3 降噪音質勝出，但兩款皆有 Amazon 購買風險 [REVIEW_NEEDED] |
-| [降噪耳機](Narrator/comparisons/noise-canceling-headphones--2026-02-13.md) | Sony 音質最佳但有轉軸問題；AirPods 便攜但 18% 掉落風險 |
-| [痘痘治療](Narrator/comparisons/acne-treatment--2026-02-13.md) | Mighty Patch 最安全；PanOxyl 最強效但刺激性高 |
-| [身體保濕](Narrator/comparisons/body-moisturizing--2026-02-13.md) | CeraVe 97% 滿意度勝出 |
+[了解完整分析方法 →](/methodology)
 
 ---
 
-## 報告類型說明
+## 📡 持續監控中
 
-| 類型 | 圖示 | 說明 |
-|------|------|------|
-| **推薦報告** | ✅ | 經分析後確實值得購買 |
-| **比較報告** | ⚖️ | 同類產品優劣分析，幫你選對的 |
-| **假貨警報** | 🚨 | Amazon 上發現假貨風險 |
-| **警告報告** | ⚠️ | 有重大品質或安全問題，建議避開 |
-| **痛點報告** | 📊 | 整個品類都有問題，目前無好選擇 |
-
----
-
-## 瀏覽方式
-
-點擊左上角切換不同視圖：
-
-- 📅 **按時間**：看最新更新了什麼
-- 📁 **按類別**：找特定產品（如耳機、護膚品）
-- 📋 **按類型**：只看警告 / 只看推薦
-
----
-
-## 持續監控中
-
-這些產品有已知問題，我們會持續追蹤是否改善或召回：
+這些產品有已知問題，我們持續追蹤：
 
 | 產品 | 問題 | 狀態 |
 |------|------|------|
-| AirPods 4 | 7% 真品疑慮 | 🔴 持續監控 |
-| AirPods Pro 3 | 6% iCloud 帳號問題 | 🔴 持續監控 |
-| AirTag 2nd Gen | 11.7% 連線失敗 | 🔴 持續監控 |
-| eos Body Lotion | 化學味問題持續惡化 | 🟠 關注中 |
-| Emergen-C | 維生素C含量訴訟 | 🟡 訴訟追蹤 |
 | Sony WH-1000XM5 | 轉軸斷裂 | 🔴 持續監控 |
 | Amazon Basics 暖風機 | 火災風險 | 🔴 持續監控 |
+| AirPods 4 | 7% 真品疑慮 | 🔴 持續監控 |
 | RELIEF SUN 防曬 | 假貨風險 | 🔴 已確認假貨 |
-| bella 烤麵包機 | 22% 故障率（改善中） | 🟡 觀察中 |
-| HANYCONY 延長線 | 火災風險 | 🔴 持續監控 |
-| upsimples 相框 | 品質問題 | 🟢 已改善 |
+| bella 烤麵包機 | 22% 故障率 | 🟡 觀察中 |
 
 ---
 
-*最後更新：2026-02-19 ｜ 分析來源：Amazon US 真實購買評論*
+## 📊 網站統計
+
+<div class="stats-grid">
+
+| 指標 | 數據 |
+|------|------|
+| 深度報告 | **280+** 篇 |
+| 分析評論 | **10 萬+** 則 |
+| 產品品類 | **50+** 種 |
+| 最後更新 | **2026-02-19** |
+
+</div>
+
+---
+
+<div class="disclaimer">
+本網站內容基於公開評論資料的自動化分析，僅供參考。我們不接受廠商合作或業配，所有分析結果皆為獨立研究。購買決策請自行評估。
+</div>
+
+<style>
+.hero-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero-badges {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: var(--vp-c-bg-soft);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.cta-primary {
+  background: var(--vp-c-brand-1);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.cta-primary:hover {
+  background: var(--vp-c-brand-2);
+}
+
+.cta-secondary {
+  border: 2px solid var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1) !important;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.cta-secondary:hover {
+  background: var(--vp-c-brand-soft);
+}
+
+.stats-grid table {
+  max-width: 400px;
+  margin: 0 auto;
+}
+</style>

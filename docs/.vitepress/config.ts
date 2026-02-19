@@ -215,6 +215,26 @@ export default defineConfig({
     hostname: siteUrl
   },
 
+  // Vite 建構優化（降低 TBT）
+  vite: {
+    build: {
+      // 更小的 chunk 以利快取
+      chunkSizeWarningLimit: 500,
+      rollupOptions: {
+        output: {
+          // 分離 vendor
+          manualChunks: {
+            vue: ['vue']
+          }
+        }
+      }
+    },
+    // 預載入優化
+    optimizeDeps: {
+      include: ['vue']
+    }
+  },
+
   // 頁面轉換（添加頁面特定的 SEO）
   transformHead({ pageData, head }) {
     // 頁面特定的 Open Graph
