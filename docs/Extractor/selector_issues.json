@@ -1,0 +1,25 @@
+{
+  "last_updated": "2026-02-19T11:00:00Z",
+  "issues": [
+    {
+      "platform": "walmart_us",
+      "category": "beauty",
+      "error_type": "selector_issue",
+      "description": "未找到商品元素",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrences": 1,
+      "status": "pending_fix"
+    },
+    {
+      "platform": "bestbuy_us",
+      "category": "electronics",
+      "error_type": "url_redirect",
+      "description": "URL 導向 games 類別而非 electronics",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrences": 1,
+      "status": "pending_fix"
+    }
+  ]
+}

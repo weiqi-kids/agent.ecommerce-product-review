@@ -396,6 +396,67 @@ cd scrapers && npx tsx src/walmart/discovery.ts \
 | Best Buy | Headless 偵測 | `--headless false` |
 | Walmart | 較寬鬆 | 無特別限制 |
 
+#### Selector 錯誤自動排除（強制）
+
+當爬蟲遇到 selector 錯誤時，**必須自動排除並繼續執行**，不可中斷流程。
+
+**錯誤類型與處理**：
+
+| 錯誤類型 | 判斷條件 | 自動處理 |
+|---------|---------|---------|
+| selector issue | 回傳 0 筆且無錯誤訊息 | 跳過該類別，記錄問題 |
+| element not found | selector 找不到元素 | 跳過該類別，記錄問題 |
+| timeout | 頁面載入超時 | 重試 1 次，仍失敗則跳過 |
+| blocked | 偵測到反爬蟲封鎖 | 等待 5 分鐘後重試 |
+
+**自動排除流程**：
+
+```
+Discovery 執行
+    ├── 成功 → 正常處理
+    └── selector 錯誤 →
+        ├── 1. 記錄到 selector_issues.json
+        ├── 2. 標記該平台+類別為 "skipped"
+        ├── 3. 繼續執行其他平台/類別
+        └── 4. 在每日摘要標記 ⚠️
+```
+
+**selector_issues.json 格式**：
+
+```json
+{
+  "issues": [
+    {
+      "platform": "walmart_us",
+      "category": "beauty",
+      "error_type": "selector_issue",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-19",
+      "occurrences": 2,
+      "status": "pending_fix"
+    }
+  ]
+}
+```
+
+**累積錯誤處理**：
+
+| 連續失敗次數 | 處理 |
+|-------------|------|
+| 1-2 次 | 每日摘要標記 ⚠️，繼續嘗試 |
+| 3-5 次 | 降低執行頻率為每週一次 |
+| >5 次 | 標記為 `needs_manual_fix`，停止自動嘗試 |
+
+**禁止行為**：
+- ❌ 因單一平台 selector 錯誤中斷整個流程
+- ❌ 重複嘗試已知失敗的 selector（同日內）
+- ❌ 忽略錯誤不記錄
+
+**正確做法**：
+- ✅ 記錄錯誤後立即繼續下一個任務
+- ✅ 在每日摘要中彙整所有 selector 問題
+- ✅ 累積 3 次以上時提醒需手動修復
+
 ### Step 4: 產品分組
 
 Claude 分析每個產品「解決什麼問題」，按 **具體問題** 分組。
