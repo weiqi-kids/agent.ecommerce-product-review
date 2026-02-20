@@ -1,0 +1,317 @@
+{
+  "analysis_date": "2026-02-21",
+  "total_reports_scanned": 29,
+  "gap_summary": {
+    "競品評論不足": 16,
+    "評論樣本不足": 8,
+    "研究資料不足": 3,
+    "產品錯配": 1,
+    "族群導向分組（已棄用）": 1
+  },
+  "actionable_gaps": [
+    {
+      "category": "disposable-gloves",
+      "report_path": "docs/Narrator/comparisons/disposable-gloves--2026-02-20.md",
+      "gap_type": "競品評論不足",
+      "severity": "medium",
+      "reason": "競品僅基於評測文章，無 Amazon ASIN",
+      "recommended_action": "擴大 WebSearch 尋找有 ASIN 的競品",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "kitchen-scale",
+      "report_path": "docs/Narrator/comparisons/kitchen-scale--2026-02-20.md",
+      "gap_type": "競品評論不足",
+      "severity": "medium",
+      "reason": "競品僅基於評測文章，無 Amazon ASIN",
+      "recommended_action": "擴大 WebSearch 尋找有 ASIN 的競品",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "water-bottle",
+      "report_path": "docs/Narrator/comparisons/water-bottle--2026-02-20.md",
+      "gap_type": "競品評論不足",
+      "severity": "medium",
+      "reason": "競品僅基於評測文章，無 Amazon ASIN",
+      "recommended_action": "擴大 WebSearch 尋找有 ASIN 的競品",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "drain-clog",
+      "report_path": "docs/Narrator/comparisons/drain-clog--comparison--2026-02-06.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "僅分析 50 則評論（標準 100 則）",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    },
+    {
+      "category": "exfoliating-toner",
+      "report_path": "docs/Narrator/comparisons/exfoliating-toner--2026-02-15.md",
+      "gap_type": "競品評論不足",
+      "severity": "medium",
+      "reason": "僅主角產品有萃取，競品無",
+      "recommended_action": "對競品執行 Step 6 萃取",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "body-moisturizing",
+      "report_path": "docs/Narrator/comparisons/body-moisturizing--comparison--2026-02-07.md",
+      "gap_type": "競品數量不足",
+      "severity": "medium",
+      "reason": "僅 2 個產品（建議 3+）",
+      "recommended_action": "擴大 WebSearch 尋找更多競品",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "home-fitness",
+      "report_path": "docs/Narrator/comparisons/home-fitness--2026-02-05.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "部分產品資料不足",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    },
+    {
+      "category": "playing-cards",
+      "report_path": "docs/Narrator/comparisons/playing-cards--comparison--2026-02-06.md",
+      "gap_type": "競品評論不足",
+      "severity": "medium",
+      "reason": "競品比較基於評測文章",
+      "recommended_action": "擴大 WebSearch 尋找有 ASIN 的競品",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "teeth-whitening",
+      "report_path": "docs/Narrator/comparisons/teeth-whitening--comparison--2026-02-06.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "僅分析 50 則評論（標準 100 則）",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    },
+    {
+      "category": "kids-tent",
+      "report_path": "docs/Narrator/comparisons/kids-tent--comparison--2026-02-06.md",
+      "gap_type": "未指定原因",
+      "severity": "unknown",
+      "reason": "僅標記 [REVIEW_NEEDED]，未說明原因",
+      "recommended_action": "人工檢查報告",
+      "priority": "🟠 中",
+      "can_auto_fix": false
+    },
+    {
+      "category": "eye-puffiness",
+      "report_path": "docs/Narrator/comparisons/eye-puffiness--2026-02-15.md",
+      "gap_type": "未指定原因",
+      "severity": "unknown",
+      "reason": "僅標記 [REVIEW_NEEDED]，未說明原因",
+      "recommended_action": "人工檢查報告",
+      "priority": "🟠 中",
+      "can_auto_fix": false
+    },
+    {
+      "category": "wireless-earbuds",
+      "report_path": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md",
+      "gap_type": "產品真品疑慮",
+      "severity": "high",
+      "reason": "兩產品萃取皆標記 [REVIEW_NEEDED]，AirPods 4 有 7% 假貨疑慮",
+      "recommended_action": "人工審核產品真實性",
+      "priority": "🔴 高",
+      "can_auto_fix": false
+    },
+    {
+      "category": "photo-backdrop",
+      "report_path": "docs/Narrator/comparisons/photo-backdrop--2026-02-11.md",
+      "gap_type": "研究資料不足",
+      "severity": "medium",
+      "reason": "缺少 WebSearch 研究和競品資料",
+      "recommended_action": "重新執行 Step 5 研究",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "nail-glue",
+      "report_path": "docs/Narrator/comparisons/nail-glue--2026-02-08.md",
+      "gap_type": "複合缺口",
+      "severity": "medium",
+      "reason": "評論 50 則（需 100）+ WebFetch 僅 10 次（需 100+）",
+      "recommended_action": "重新抓取評論 + 擴大 WebFetch",
+      "priority": "🟠 中",
+      "can_auto_fix": true
+    },
+    {
+      "category": "body-firming",
+      "report_path": "docs/Narrator/comparisons/body-firming--2026-02-08.md",
+      "gap_type": "產品錯配",
+      "severity": "high",
+      "reason": "RoC Firming Serum (B0DBRVHR38) 產品-評論錯配",
+      "recommended_action": "人工檢查產品 ASIN 是否正確",
+      "priority": "🔴 高",
+      "can_auto_fix": false
+    },
+    {
+      "category": "trading-cards",
+      "report_path": "docs/Narrator/comparisons/trading-cards--comparison--2026-02-06.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "總評論 70 則（標準 100 則）",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    },
+    {
+      "category": "lip-care",
+      "report_path": "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "每產品僅 50 則樣本（標準 100 則）",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    },
+    {
+      "category": "drain-clog",
+      "report_path": "docs/Narrator/recommendations/drain-clog--2026-02-05.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "Amazon 評論僅 50 則（標準 100 則）",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    },
+    {
+      "category": "teeth-whitening",
+      "report_path": "docs/Narrator/recommendations/teeth-whitening--2026-02-05.md",
+      "gap_type": "評論樣本不足",
+      "severity": "low",
+      "reason": "Amazon 評論分析僅 50 則（標準 100 則）",
+      "recommended_action": "重新抓取更多評論",
+      "priority": "🟢 低",
+      "can_auto_fix": true
+    }
+  ],
+  "deprecated_reports": [
+    {
+      "category": "baby-care",
+      "report_path": "docs/Narrator/comparisons/baby-care--2026-02-05.md",
+      "reason": "族群導向分組（已有問題導向報告取代）",
+      "replacement_categories": [
+        "diaper-rash",
+        "cradle-cap",
+        "bath-toys",
+        "baby-car-monitor"
+      ],
+      "action": "無需補齊，已標記 [DEPRECATED]"
+    },
+    {
+      "category": "children-entertainment",
+      "report_path": "docs/Narrator/comparisons/children-entertainment--2026-02-05.md",
+      "reason": "族群導向分組（需拆分為問題導向）",
+      "action": "需人工拆分為具體問題類別"
+    }
+  ],
+  "immediate_actions": {
+    "can_supplement_now": [
+      "disposable-gloves",
+      "kitchen-scale",
+      "water-bottle",
+      "exfoliating-toner",
+      "body-moisturizing",
+      "playing-cards",
+      "photo-backdrop",
+      "nail-glue"
+    ],
+    "need_manual_review": [
+      "wireless-earbuds",
+      "body-firming",
+      "kids-tent",
+      "eye-puffiness"
+    ],
+    "can_fetch_more_reviews": [
+      "drain-clog",
+      "teeth-whitening",
+      "home-fitness",
+      "trading-cards",
+      "lip-care"
+    ]
+  },
+  "补齐计划": {
+    "優先級 🔴 高": [
+      {
+        "category": "wireless-earbuds",
+        "action": "人工審核 AirPods 4 真品疑慮",
+        "estimated_time": "人工 10 分鐘"
+      },
+      {
+        "category": "body-firming",
+        "action": "檢查 RoC ASIN B0DBRVHR38 是否正確",
+        "estimated_time": "人工 5 分鐘"
+      }
+    ],
+    "優先級 🟠 中（新報告優先）": [
+      {
+        "category": "disposable-gloves",
+        "action": "擴大 WebSearch 尋找有 ASIN 的 Nitrile 手套競品",
+        "estimated_time": "20 分鐘"
+      },
+      {
+        "category": "kitchen-scale",
+        "action": "擴大 WebSearch 尋找有 ASIN 的廚房秤競品（OXO, Escali 等）",
+        "estimated_time": "20 分鐘"
+      },
+      {
+        "category": "water-bottle",
+        "action": "擴大 WebSearch 尋找有 ASIN 的保溫瓶競品（Hydro Flask, Yeti 等）",
+        "estimated_time": "20 分鐘"
+      },
+      {
+        "category": "exfoliating-toner",
+        "action": "對競品執行 Step 6 萃取",
+        "estimated_time": "30 分鐘"
+      },
+      {
+        "category": "body-moisturizing",
+        "action": "擴大 WebSearch 尋找第 3+ 競品",
+        "estimated_time": "15 分鐘"
+      }
+    ],
+    "優先級 🟢 低": [
+      {
+        "category": "drain-clog",
+        "action": "重新抓取評論（目標 100 則）",
+        "estimated_time": "10 分鐘"
+      },
+      {
+        "category": "teeth-whitening",
+        "action": "重新抓取評論（目標 100 則）",
+        "estimated_time": "10 分鐘"
+      },
+      {
+        "category": "trading-cards",
+        "action": "重新抓取評論（目標 100 則）",
+        "estimated_time": "10 分鐘"
+      },
+      {
+        "category": "lip-care",
+        "action": "重新抓取評論（每產品 100 則）",
+        "estimated_time": "15 分鐘"
+      }
+    ]
+  },
+  "statistics": {
+    "可立即自動補齊": 13,
+    "需人工審核": 4,
+    "已棄用無需處理": 2,
+    "預估總時間": "約 3 小時（不含人工審核）"
+  }
+}

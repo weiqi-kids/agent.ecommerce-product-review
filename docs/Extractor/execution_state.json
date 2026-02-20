@@ -1,86 +1,80 @@
 {
-  "last_updated": "2026-02-20T10:30:00Z",
-  "last_completed_date": "2026-02-20",
+  "last_updated": "2026-02-21T09:30:00Z",
+  "last_completed_date": "2026-02-21",
   "execution_mode": "daily_standard",
   "current_step": 8,
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "監控追蹤完成：今日無到期項目，Pokemon TCG 明日到期"
+      "note": "監控追蹤完成：Pokemon TCG 已檢查（狀態持平）",
+      "items_checked": 1,
+      "items_not_due": 13
     },
     "step_2": {
       "status": "completed",
-      "note": "26 個 REVIEW_NEEDED 報告維持，無新補齊"
+      "note": "29 個 REVIEW_NEEDED 報告已分析，13 項待補齊",
+      "gap_types": {
+        "competitor_reviews_insufficient": 16,
+        "sample_insufficient": 8,
+        "research_insufficient": 3,
+        "product_mismatch": 1,
+        "deprecated": 1
+      }
     },
     "step_3": {
       "status": "completed",
-      "note": "多平台 Discovery 完成",
+      "note": "多平台 Discovery 元資料已產出",
       "platforms": {
         "amazon_us": {
-          "products": 36,
+          "products": 30,
+          "category": "toys",
           "status": "success"
         },
         "bestbuy_us": {
-          "products": 4,
-          "status": "selector_issue"
+          "products": 0,
+          "status": "skipped_selector_issue"
         },
         "walmart_us": {
           "products": 40,
-          "categories_success": ["toys"],
-          "categories_failed": ["home", "food-beverage", "beauty"],
-          "status": "partial"
+          "category": "toys",
+          "status": "success"
         }
       },
-      "total_discovered": 80
+      "total_discovered": 70,
+      "note_issue": "僅產出元資料，無 JSONL 檔案"
     },
     "step_4": {
-      "status": "completed",
-      "note": "產品分組完成：5 個歸入現有類別，3 個新類別建立",
-      "new_categories": ["disposable-gloves", "water-bottle", "kitchen-scale"]
+      "status": "skipped",
+      "note": "無新產品 JSONL，跳過分組",
+      "reason": "Step 3 僅產出元資料，無法識別新產品"
     },
     "step_5": {
-      "status": "completed",
-      "note": "3 個新類別研究完成",
-      "categories_researched": ["disposable-gloves", "water-bottle", "kitchen-scale"]
+      "status": "skipped",
+      "note": "無新類別需要研究"
     },
     "step_6": {
-      "status": "completed",
-      "note": "Fetch 完成 85 個產品，Session 過期導致 60 個產品無評論",
-      "fetch_stats": {
-        "total": 85,
-        "with_reviews": 25,
-        "no_reviews_session_expired": 60
-      },
-      "extraction_stats": {
-        "completed": 5,
-        "products": ["B08KT2Z93D", "B09V7Z4TJG", "B074PVTPBW", "B00TTD9BRC", "B00A6H33OW"]
-      }
+      "status": "skipped",
+      "note": "無新產品需要抓取"
     },
     "step_7": {
-      "status": "completed",
-      "note": "3 個新類別比較分析完成（基於研究資料）"
+      "status": "skipped",
+      "note": "無新分析需要執行"
     },
     "step_8": {
-      "status": "completed",
-      "note": "3 個新類別報告產出（標記 REVIEW_NEEDED）",
-      "new_reports": [
-        "docs/Narrator/comparisons/disposable-gloves--2026-02-20.md",
-        "docs/Narrator/comparisons/water-bottle--2026-02-20.md",
-        "docs/Narrator/comparisons/kitchen-scale--2026-02-20.md"
-      ]
+      "status": "skipped",
+      "note": "無新報告需要產出"
     }
   },
   "summary": {
-    "monitoring_checked": 0,
-    "discovery_products": 80,
-    "new_categories": 3,
-    "products_extracted": 5,
-    "new_reports": 3,
+    "monitoring_checked": 1,
+    "discovery_products": 70,
+    "new_categories": 0,
+    "products_extracted": 0,
+    "new_reports": 0,
     "review_needed_reports": 29,
     "blocking_issues": [
-      "Amazon Session 過期，需執行 --login 重新登入",
-      "Walmart 3 個類別 selector issue",
-      "Best Buy URL 導向問題"
+      "Step 3 僅產出元資料，無 JSONL 檔案",
+      "Best Buy URL 導向問題（連續 2 次失敗）"
     ]
   }
 }

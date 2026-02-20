@@ -1,0 +1,44 @@
+{
+  "date": "2026-02-21",
+  "execution_mode": "daily_standard",
+  "items_checked": [
+    {
+      "asin": "B0BSHF7WHW",
+      "name": "Pokemon TCG Collector Chest",
+      "watch_reason": "product_integrity",
+      "status": "no_change",
+      "search_queries": [
+        "Pokemon TCG Collector Chest reseal",
+        "Pokemon TCG tampering 2026",
+        "Pokemon Day 2026 Collection"
+      ],
+      "findings": {
+        "new_incidents": 0,
+        "market_update": "Pokemon Day 2026 Collection 已於 1/30 發售（30 週年紀念）",
+        "baseline_change": "無法確認（需重新抓取評論）"
+      },
+      "recommendation": "保持監控，下次檢查 2026-03-07"
+    }
+  ],
+  "items_not_due": [
+    "B0DGHMNQ5Z (AirPods 4) - 到期 2026-02-24",
+    "B0FQFB8FMG (AirPods Pro 3) - 到期 2026-02-24",
+    "B0GJTFXNRX (AirTag 2) - 到期 2026-02-24",
+    "B0CYJBB2JQ (bella Toaster) - 到期 2026-02-25",
+    "B08CRPWQHB (BigFoot Shower Curtain) - 到期 2026-02-25",
+    "B07V6M4MSN (Amazon Basics Heater) - 到期 2026-02-26",
+    "B00OCGUG02 (Hefty Party Cups) - 到期 2026-02-26",
+    "B0B1CNJL7N (upsimples Picture Frame) - 到期 2026-03-05",
+    "B092J8LPWR (HANYCONY 8 Power Strip) - 到期 2026-02-26",
+    "B093KDDGMJ (HANYCONY 12 Power Strip) - 到期 2026-02-26",
+    "B00016RL9G (Emergen-C) - 到期 2026-02-26",
+    "B0G4Z5G1NT (RELIEF SUN) - 到期 2026-02-26",
+    "B08KT2Z93D (eos Body Lotion) - 到期 2026-02-26"
+  ],
+  "summary": {
+    "total_monitored": 14,
+    "checked_today": 1,
+    "changes_detected": 0,
+    "alerts_triggered": 0
+  }
+}

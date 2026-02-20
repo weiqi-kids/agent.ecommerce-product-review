@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T09:00:00Z",
+  "last_updated": "2026-02-21T09:00:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -376,7 +376,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-07",
+      "last_checked": "2026-02-21",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -393,9 +393,9 @@
         "missing_content_rate": "8%"
       },
       "check_result": {
-        "date": "2026-02-07",
-        "status": "ongoing",
-        "notes": "問題持續存在，無 2026 特定新聞，Pokemon Day 2026 Collection 即將發布"
+        "date": "2026-02-21",
+        "status": "no_change",
+        "notes": "問題狀態持平。未找到 2026 年新案例，但行業整體重新密封問題仍存在。Pokemon Day 2026 Collection 已於 1/30 發售。建議下次檢查時重新抓取評論驗證 Baseline。"
       }
     },
     {

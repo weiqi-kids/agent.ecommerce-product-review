@@ -1,0 +1,35 @@
+{
+  "date": "2026-02-21",
+  "execution_status": {
+    "amazon": "success",
+    "walmart": "success",
+    "bestbuy": "skipped_selector_issue"
+  },
+  "platforms": {
+    "amazon_us": {
+      "source": "bestsellers",
+      "category": "toys",
+      "total_products": 30,
+      "status": "success"
+    },
+    "walmart_us": {
+      "source": "best-sellers",
+      "category": "toys",
+      "total_products": 40,
+      "status": "success"
+    },
+    "bestbuy_us": {
+      "status": "skipped",
+      "reason": "Known selector issue - URL redirection problem"
+    }
+  },
+  "total_discovered": 70,
+  "dedup_stats": {
+    "before_dedup": 70,
+    "after_dedup": 70,
+    "duplicates_removed": 0,
+    "upc_matches": 0,
+    "note": "Amazon 和 Walmart 來源不同（toys 類別），無跨平台重複"
+  },
+  "notes": "Amazon 和 Walmart toys 類別執行成功，Best Buy 因已知問題跳過"
+}
