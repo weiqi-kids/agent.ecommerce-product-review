@@ -194,3 +194,71 @@ https://www.amazon.com/dp/B0D8W1YVBX
 # collagen-mask
 https://www.amazon.com/dp/B0BRMYHMS5
 # medicube Collagen Wrapping Mask
+
+# === 2026-02-20 新類別競品 ===
+
+# disposable-gloves（一次性手套）
+https://www.amazon.com/dp/B00GS8W3T4
+# MedPride Nitrile Exam Gloves — disposable-gloves
+https://www.amazon.com/dp/B008N0W9IA
+# AMMEX Blue Nitrile Gloves — disposable-gloves
+https://www.amazon.com/dp/B0035LTDMW
+# AMMEX Black Nitrile Gloves — disposable-gloves
+https://www.amazon.com/dp/B00MGSGRIS
+# Curad Nitrile Exam Gloves — disposable-gloves
+https://www.amazon.com/dp/B086GJ5NM7
+# Venom Steel Nitrile Gloves — disposable-gloves
+https://www.amazon.com/dp/B08697R55N
+# Hardy Latex-Free Nitrile Gloves — disposable-gloves
+https://www.amazon.com/dp/B097CBWMYR
+# Gloveworks Black Nitrile Gloves — disposable-gloves
+https://www.amazon.com/dp/B0GNP61R9B
+# Ventyv NE1 Nitrile Gloves — disposable-gloves
+
+# water-bottle（保溫瓶）
+https://www.amazon.com/dp/B085DTZQNZ
+# Owala FreeSip Water Bottle — water-bottle
+https://www.amazon.com/dp/B0CRMTWY41
+# Stanley Quencher H2.0 Tumbler — water-bottle
+https://www.amazon.com/dp/B09HSS42P7
+# Hydro Flask Standard Mouth — water-bottle
+https://www.amazon.com/dp/B0CKWJ3XDZ
+# YETI Rambler — water-bottle
+https://www.amazon.com/dp/B0DF4LJGV5
+# S'well Stainless Steel Bottle — water-bottle
+
+# kitchen-scale（廚房秤）
+https://www.amazon.com/dp/B079D9B82W
+# OXO Good Grips Kitchen Scale — kitchen-scale
+https://www.amazon.com/dp/B0007GAWRS
+# Escali Primo Digital Scale — kitchen-scale
+https://www.amazon.com/dp/B0113UZJE2
+# Etekcity Food Kitchen Scale — kitchen-scale
+https://www.amazon.com/dp/B004164SRA
+# Ozeri Pronto Digital Scale — kitchen-scale
+https://www.amazon.com/dp/B00VEKX35Y
+# MyWeigh KD-8000 Scale — kitchen-scale
+https://www.amazon.com/dp/B0CF9PYFTZ
+# Greater Goods Kitchen Scale — kitchen-scale
+https://www.amazon.com/dp/B07S6F6LHQ
+# Nicewell 22-lb Scale — kitchen-scale
+https://www.amazon.com/dp/B06X9NQ8GX
+# Etekcity Luminary Scale — kitchen-scale
+https://www.amazon.com/dp/B085VPPGZG
+# KitchenTour Digital Scale — kitchen-scale
+https://www.amazon.com/dp/B07YP9KN8P
+# INEVIFIT Kitchen Scale — kitchen-scale
+https://www.amazon.com/dp/B002SVNEWA
+# American Weigh Scales LB-501 — kitchen-scale
+https://www.amazon.com/dp/B06XCZFDZG
+# Amazon Basics Kitchen Scale — kitchen-scale
+https://www.amazon.com/dp/B086H6ZF37
+# KOIOS Kitchen Scale — kitchen-scale
+https://www.amazon.com/dp/B0885Q6S45
+# Etekcity Nutrition Scale — kitchen-scale
+
+# Discovery 新產品（2026-02-20）
+https://www.amazon.com/dp/B0C2CY22B8
+# Amazon Basics Paper Plates — party-tableware
+https://www.amazon.com/dp/B0DCH8VDXF
+# Apple EarPods USB-C — wired-earbuds

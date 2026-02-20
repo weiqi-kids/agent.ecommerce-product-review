@@ -1,0 +1,2554 @@
+🛒 Amazon US: 準備擷取 85 個商品
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0D1XD1ZV3
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0D1XD1ZV3 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Fea...
+  品牌: Apple
+  評分: 4.65 (45004 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0D1XD1ZV3--2026-02-20T01-36-13.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0D1XD1ZV3--2026-02-20T01-36-13.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B09XS7JWHH
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B09XS7JWHH @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Sony WH-1000XM5 Premium Noise Canceling Headphones, Auto NC Optimizer, 30-Hour B...
+  品牌: Sony
+  評分: 4.25 (18990 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B09XS7JWHH--2026-02-20T01-37-18.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B09XS7JWHH--2026-02-20T01-37-18.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0BSHF7WHW
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0BSHF7WHW @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Apple 2023 MacBook Pro Laptop with Apple M2 Pro chip with 12‑core CPU and 19‑cor...
+  品牌: Apple
+  評分: 4.75 (482 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0BSHF7WHW--2026-02-20T01-38-27.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0BSHF7WHW--2026-02-20T01-38-27.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00TTD9BRC
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00TTD9BRC @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: CeraVe Moisturizing Cream, Body and Face Moisturizer for Dry Skin, Body Cream wi...
+  品牌: CeraVe
+  評分: 4.75 (141851 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B00TTD9BRC--2026-02-20T01-39-34.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00TTD9BRC--2026-02-20T01-39-34.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B093672RHQ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B093672RHQ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: GOER Number 30 Balloons for 30th Birthday Party Decorations,42 Inch Jumbo Foil H...
+  品牌: GOER
+  評分: 4.65 (14858 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B093672RHQ--2026-02-20T01-40-42.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B093672RHQ--2026-02-20T01-40-42.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DK8HSQ9L
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DK8HSQ9L @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: 50 PCS Football Party Supplies, 6.5 Inches Football Napkins with 2 Styles, Dispo...
+  品牌: QZYL
+  評分: 4.65 (143 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 34 則 (本頁新增 4, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 34 則評論
+📝 JSONL written: amazon_us--B0DK8HSQ9L--2026-02-20T01-41-20.jsonl (1 batches, 34 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DK8HSQ9L--2026-02-20T01-41-20.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DK22Y1KZ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DK22Y1KZ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: JOYIN 28 PCS Valentines Cards with Animal Popping Eyes Keychains for Gifts Party...
+  品牌: JOYIN
+  評分: 4.25 (604 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0DK22Y1KZ--2026-02-20T01-42-21.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DK22Y1KZ--2026-02-20T01-42-21.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0G43VCG7C
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0G43VCG7C @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Valentine Day Cards for Kids Classroom – 30PCS Cute Squishy Valentines for Class...
+  品牌: Milianquill
+  評分: 4.85 (47 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 37 則 (本頁新增 7, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 37 則評論
+📝 JSONL written: amazon_us--B0G43VCG7C--2026-02-20T01-42-55.jsonl (1 batches, 37 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0G43VCG7C--2026-02-20T01-42-55.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0G451Y3YF
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0G451Y3YF @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: 24 Pcs Monster Valentines Day Gifts, Squishy Toys with Cards for Galentines Scho...
+  品牌: Rinfoeti
+  評分: 4.55 (41 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 36 則 (本頁新增 6, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 36 則評論
+📝 JSONL written: amazon_us--B0G451Y3YF--2026-02-20T01-43-29.jsonl (1 batches, 36 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0G451Y3YF--2026-02-20T01-43-29.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0G3P71JWG
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0G3P71JWG @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: 6 Pcs Wooden Hearts Valentines Decor, Colorful Conversation Hearts Decorations H...
+  品牌: ZATAYE
+  評分: 4.85 (46 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 31 則 (本頁新增 1, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 31 則評論
+📝 JSONL written: amazon_us--B0G3P71JWG--2026-02-20T01-44-01.jsonl (1 batches, 31 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0G3P71JWG--2026-02-20T01-44-01.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0G1L8J8PK
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0G1L8J8PK @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: 50th Birthday Gifts for Her 50 Year Old Gifts for Women Turning 50 and Fabulous ...
+  品牌: Launrada
+  評分: 4.75 (95 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 70 則評論
+📝 JSONL written: amazon_us--B0G1L8J8PK--2026-02-20T01-44-43.jsonl (2 batches, 70 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0G1L8J8PK--2026-02-20T01-44-43.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0G1Y9KZ3P
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0G1Y9KZ3P @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: 100 Days of School Costume for Boys Kids,Old Man Costume for Kids,Grandpa Costum...
+  品牌: Boutrele
+  評分: 4.85 (79 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 43 則 (本頁新增 3, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 43 則評論
+📝 JSONL written: amazon_us--B0G1Y9KZ3P--2026-02-20T01-45-19.jsonl (1 batches, 43 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0G1Y9KZ3P--2026-02-20T01-45-19.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B074PVTPBW
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B074PVTPBW @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Pa...
+  品牌: Mighty Patch
+  評分: 4.65 (181581 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B074PVTPBW--2026-02-20T01-46-19.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B074PVTPBW--2026-02-20T01-46-19.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00A6H33OW
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00A6H33OW @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Burt's Bees Beeswax Lip Balm with Vitamin E & Peppermint 0.15 oz (Pack of 10)...
+  品牌: Burt's Bees
+  評分: 4.75 (761 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B00A6H33OW--2026-02-20T01-47-20.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00A6H33OW--2026-02-20T01-47-20.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B082TPDTM2
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B082TPDTM2 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Lumineux Teeth Whitening Strips - 21 Treatments (3 Months) - Peroxide Free - Ena...
+  品牌: Lumineux
+  評分: 4.15 (60873 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B082TPDTM2--2026-02-20T01-48-23.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B082TPDTM2--2026-02-20T01-48-23.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B001T6JTMY
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B001T6JTMY @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: If You Care Parchment Baking Paper, 70 sq ft...
+  品牌: If You Care
+  評分: 4.75 (17657 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B001T6JTMY--2026-02-20T01-49-21.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B001T6JTMY--2026-02-20T01-49-21.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00006IDL6
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00006IDL6 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Band-Aid Brand Flexible Fabric Sterile Adhesive Bandages, Comfortable Cushioned ...
+  品牌: Band-Aid
+  評分: 4.85 (58832 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B00006IDL6--2026-02-20T01-50-14.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00006IDL6--2026-02-20T01-50-14.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0B6R8N6WQ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0B6R8N6WQ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: SABRE Pepper Spray - Quick Release Keychain for Easy Carry & Fast Access, Max Po...
+  品牌: SABRE
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ⏳ 等待評論元素超時...
+  ⚠️ 無更多評論
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0B6R8N6WQ--2026-02-20T01-50-41.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0B6R8N6WQ--2026-02-20T01-50-41.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0CH38DGNY
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0CH38DGNY @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: DUMOS 8 Drawer Dresser for Bedroom, Fabric Storage Organizer with Sturdy Metal F...
+  品牌: DUMOS
+  評分: 4.35 (6171 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0CH38DGNY--2026-02-20T01-51-35.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0CH38DGNY--2026-02-20T01-51-35.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B09V7Z4TJG
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B09V7Z4TJG @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation...
+  品牌: medicube
+  評分: 4.65 (24738 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B09V7Z4TJG--2026-02-20T01-52-29.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B09V7Z4TJG--2026-02-20T01-52-29.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B081KL2QYJ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B081KL2QYJ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fig...
+  品牌: PanOxyl
+  評分: 4.65 (77275 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B081KL2QYJ--2026-02-20T01-53-24.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B081KL2QYJ--2026-02-20T01-53-24.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0CM2PPNMW
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0CM2PPNMW @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: medicube Jelly Cream with Collagen, Niacinamide | Freeze-Dried Hydrolyzed Collag...
+  品牌: medicube
+  評分: 4.45 (20291 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0CM2PPNMW--2026-02-20T01-54-19.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0CM2PPNMW--2026-02-20T01-54-19.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0B2RM68G2
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0B2RM68G2 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Mask, Pore Mi...
+  品牌: BIODANCE
+  評分: 4.55 (35871 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0B2RM68G2--2026-02-20T01-55-14.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0B2RM68G2--2026-02-20T01-55-14.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B08KT2Z93D
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B08KT2Z93D @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightw...
+  品牌: eos
+  評分: 4.75 (63450 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B08KT2Z93D--2026-02-20T01-56-11.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B08KT2Z93D--2026-02-20T01-56-11.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0D4NKT1TH
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0D4NKT1TH @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: Tree Hut Vanilla Foaming Gel Wash, Moisturizing & Hydrating Body Wash with Shea ...
+  品牌: Tree Hut
+  評分: 4.65 (12051 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ✅ 已抓取 10 則 (本頁新增 10, 重複 0)
+  📄 評論頁 2...
+  ✅ 已抓取 20 則 (本頁新增 10, 重複 0)
+  📄 評論頁 3...
+  ✅ 已抓取 30 則 (本頁新增 10, 重複 0)
+  📄 評論頁 4...
+  ✅ 已抓取 40 則 (本頁新增 10, 重複 0)
+  📄 評論頁 5...
+  ✅ 已抓取 50 則 (本頁新增 10, 重複 0)
+  📄 評論頁 6...
+  ✅ 已抓取 60 則 (本頁新增 10, 重複 0)
+  📄 評論頁 7...
+  ✅ 已抓取 70 則 (本頁新增 10, 重複 0)
+  📄 評論頁 8...
+  ✅ 已抓取 80 則 (本頁新增 10, 重複 0)
+  📄 評論頁 9...
+  ✅ 已抓取 90 則 (本頁新增 10, 重複 0)
+  📄 評論頁 10...
+  ✅ 已抓取 90 則 (本頁新增 0, 重複 10)
+  📄 評論頁 11...
+  ✅ 已抓取 90 則 (本頁新增 0, 重複 10)
+  📄 評論頁 12...
+  ✅ 已抓取 100 則 (本頁新增 10, 重複 0)
+  📄 已到最後一頁
+
+📊 共抓取 100 則評論
+📝 JSONL written: amazon_us--B0D4NKT1TH--2026-02-20T01-57-11.jsonl (2 batches, 100 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0D4NKT1TH--2026-02-20T01-57-11.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DBRVHR38
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DBRVHR38 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0DBRVHR38--2026-02-20T01-57-36.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DBRVHR38--2026-02-20T01-57-36.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0FB9LWGY5
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0FB9LWGY5 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0FB9LWGY5--2026-02-20T01-58-01.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0FB9LWGY5--2026-02-20T01-58-01.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0B854YTCF
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0B854YTCF @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0B854YTCF--2026-02-20T01-58-27.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0B854YTCF--2026-02-20T01-58-27.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0B1CNJL7N
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0B1CNJL7N @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0B1CNJL7N--2026-02-20T01-58-53.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0B1CNJL7N--2026-02-20T01-58-53.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07V6M4MSN
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07V6M4MSN @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07V6M4MSN--2026-02-20T01-59-19.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07V6M4MSN--2026-02-20T01-59-19.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00OCGUG02
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00OCGUG02 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00OCGUG02--2026-02-20T01-59-46.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00OCGUG02--2026-02-20T01-59-46.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B01M0AGUPO
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B01M0AGUPO @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B01M0AGUPO--2026-02-20T02-00-12.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B01M0AGUPO--2026-02-20T02-00-12.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B099XCDQDS
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B099XCDQDS @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B099XCDQDS--2026-02-20T02-00-37.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B099XCDQDS--2026-02-20T02-00-37.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B011KMZ2WW
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B011KMZ2WW @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B011KMZ2WW--2026-02-20T02-01-03.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B011KMZ2WW--2026-02-20T02-01-03.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00SNPCSUY
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00SNPCSUY @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00SNPCSUY--2026-02-20T02-01-28.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00SNPCSUY--2026-02-20T02-01-28.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DK4Y2YP3
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DK4Y2YP3 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0DK4Y2YP3--2026-02-20T02-01-53.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DK4Y2YP3--2026-02-20T02-01-53.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07SRRLVQ1
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07SRRLVQ1 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07SRRLVQ1--2026-02-20T02-02-18.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07SRRLVQ1--2026-02-20T02-02-18.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B08CRPWQHB
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B08CRPWQHB @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: BigFoot Clear Shower Curtain Liner - 72x72 Odorless Plastic with Magnets, Washab...
+  品牌: BigFoot
+  評分: 4.55 (67957 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ⏳ 等待評論元素超時...
+  ⚠️ 無更多評論
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B08CRPWQHB--2026-02-20T02-02-42.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B08CRPWQHB--2026-02-20T02-02-42.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0BQR2BQYZ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0BQR2BQYZ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0BQR2BQYZ--2026-02-20T02-03-08.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0BQR2BQYZ--2026-02-20T02-03-08.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0C4Z6SKCS
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0C4Z6SKCS @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0C4Z6SKCS--2026-02-20T02-03-34.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0C4Z6SKCS--2026-02-20T02-03-34.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0CYJBB2JQ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0CYJBB2JQ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: bella 2 Slice Slim Toaster, Fits-anywhere™ Kitchenware, 6 Setting Shade Control ...
+  品牌: BELLA
+  評分: 4.35 (11651 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ⏳ 等待評論元素超時...
+  ⚠️ 無更多評論
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0CYJBB2JQ--2026-02-20T02-03-56.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0CYJBB2JQ--2026-02-20T02-03-56.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DLN1B4MJ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DLN1B4MJ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0DLN1B4MJ--2026-02-20T02-04-21.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DLN1B4MJ--2026-02-20T02-04-21.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00AINMFAC
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00AINMFAC @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00AINMFAC--2026-02-20T02-04-48.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00AINMFAC--2026-02-20T02-04-48.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00T0C9XRK
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00T0C9XRK @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00T0C9XRK--2026-02-20T02-05-12.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00T0C9XRK--2026-02-20T02-05-12.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B08H3JPH74
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B08H3JPH74 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B08H3JPH74--2026-02-20T02-05-37.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B08H3JPH74--2026-02-20T02-05-37.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00U2VQZDS
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00U2VQZDS @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00U2VQZDS--2026-02-20T02-06-04.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00U2VQZDS--2026-02-20T02-06-04.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07GKVBQDG
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07GKVBQDG @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07GKVBQDG--2026-02-20T02-06-28.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07GKVBQDG--2026-02-20T02-06-28.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B014E2D6BY
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B014E2D6BY @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B014E2D6BY--2026-02-20T02-06-55.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B014E2D6BY--2026-02-20T02-06-55.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B01MSSDEPK
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B01MSSDEPK @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B01MSSDEPK--2026-02-20T02-07-21.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B01MSSDEPK--2026-02-20T02-07-21.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B01MYEZPC8
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B01MYEZPC8 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B01MYEZPC8--2026-02-20T02-07-48.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B01MYEZPC8--2026-02-20T02-07-48.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B071914GGL
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B071914GGL @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B071914GGL--2026-02-20T02-08-14.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B071914GGL--2026-02-20T02-08-14.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07GB3NVN1
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07GB3NVN1 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07GB3NVN1--2026-02-20T02-08-40.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07GB3NVN1--2026-02-20T02-08-40.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07PBXXNCY
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07PBXXNCY @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07PBXXNCY--2026-02-20T02-09-05.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07PBXXNCY--2026-02-20T02-09-05.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07QZ5CTTF
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07QZ5CTTF @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07QZ5CTTF--2026-02-20T02-09-30.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07QZ5CTTF--2026-02-20T02-09-30.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0D8W1YVBX
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0D8W1YVBX @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0D8W1YVBX--2026-02-20T02-09-57.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0D8W1YVBX--2026-02-20T02-09-57.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0BRMYHMS5
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0BRMYHMS5 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0BRMYHMS5--2026-02-20T02-10-24.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0BRMYHMS5--2026-02-20T02-10-24.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00GS8W3T4
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00GS8W3T4 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00GS8W3T4--2026-02-20T02-10-51.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00GS8W3T4--2026-02-20T02-10-51.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B008N0W9IA
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B008N0W9IA @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B008N0W9IA--2026-02-20T02-11-16.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B008N0W9IA--2026-02-20T02-11-16.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0035LTDMW
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0035LTDMW @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0035LTDMW--2026-02-20T02-11-42.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0035LTDMW--2026-02-20T02-11-42.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00MGSGRIS
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00MGSGRIS @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00MGSGRIS--2026-02-20T02-12-08.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00MGSGRIS--2026-02-20T02-12-08.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B086GJ5NM7
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B086GJ5NM7 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B086GJ5NM7--2026-02-20T02-12-33.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B086GJ5NM7--2026-02-20T02-12-33.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B08697R55N
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B08697R55N @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B08697R55N--2026-02-20T02-12-59.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B08697R55N--2026-02-20T02-12-59.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B097CBWMYR
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B097CBWMYR @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B097CBWMYR--2026-02-20T02-13-24.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B097CBWMYR--2026-02-20T02-13-24.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0GNP61R9B
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0GNP61R9B @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0GNP61R9B--2026-02-20T02-13-52.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0GNP61R9B--2026-02-20T02-13-52.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B085DTZQNZ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B085DTZQNZ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B085DTZQNZ--2026-02-20T02-14-16.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B085DTZQNZ--2026-02-20T02-14-16.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0CRMTWY41
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0CRMTWY41 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position...
+  品牌: STANLEY
+  評分: 4.75 (86330 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ⏳ 等待評論元素超時...
+  ⚠️ 無更多評論
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0CRMTWY41--2026-02-20T02-14-43.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0CRMTWY41--2026-02-20T02-14-43.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B09HSS42P7
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B09HSS42P7 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B09HSS42P7--2026-02-20T02-15-08.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B09HSS42P7--2026-02-20T02-15-08.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0CKWJ3XDZ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0CKWJ3XDZ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0CKWJ3XDZ--2026-02-20T02-15-33.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0CKWJ3XDZ--2026-02-20T02-15-33.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DF4LJGV5
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DF4LJGV5 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0DF4LJGV5--2026-02-20T02-15-58.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DF4LJGV5--2026-02-20T02-15-58.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B079D9B82W
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B079D9B82W @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B079D9B82W--2026-02-20T02-16-23.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B079D9B82W--2026-02-20T02-16-23.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0007GAWRS
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0007GAWRS @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0007GAWRS--2026-02-20T02-16-47.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0007GAWRS--2026-02-20T02-16-47.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0113UZJE2
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0113UZJE2 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0113UZJE2--2026-02-20T02-17-13.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0113UZJE2--2026-02-20T02-17-13.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B004164SRA
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B004164SRA @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B004164SRA--2026-02-20T02-17-39.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B004164SRA--2026-02-20T02-17-39.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B00VEKX35Y
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B00VEKX35Y @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B00VEKX35Y--2026-02-20T02-18-05.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B00VEKX35Y--2026-02-20T02-18-05.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0CF9PYFTZ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0CF9PYFTZ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0CF9PYFTZ--2026-02-20T02-18-31.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0CF9PYFTZ--2026-02-20T02-18-31.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07S6F6LHQ
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07S6F6LHQ @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07S6F6LHQ--2026-02-20T02-18-55.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07S6F6LHQ--2026-02-20T02-18-55.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B06X9NQ8GX
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B06X9NQ8GX @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B06X9NQ8GX--2026-02-20T02-19-21.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B06X9NQ8GX--2026-02-20T02-19-21.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B085VPPGZG
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B085VPPGZG @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B085VPPGZG--2026-02-20T02-19-45.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B085VPPGZG--2026-02-20T02-19-45.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B07YP9KN8P
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B07YP9KN8P @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B07YP9KN8P--2026-02-20T02-20-09.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B07YP9KN8P--2026-02-20T02-20-09.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B002SVNEWA
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B002SVNEWA @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+✅ 已登入 Amazon
+🔍 解析商品資訊...
+  標題: American Weigh Scales Precision Digital Kitchen Weight Scale, Food Measuring Sca...
+  品牌: AMERICAN WEIGH SCALES
+  評分: 4.45 (2362 則)
+📝 開始抓取評論 (最多 500 則)...
+  📄 載入評論頁...
+  📄 評論頁 1...
+  ⏳ 等待評論元素超時...
+  ⚠️ 無更多評論
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B002SVNEWA--2026-02-20T02-20-31.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B002SVNEWA--2026-02-20T02-20-31.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B06XCZFDZG
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B06XCZFDZG @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B06XCZFDZG--2026-02-20T02-20-55.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B06XCZFDZG--2026-02-20T02-20-55.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B086H6ZF37
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B086H6ZF37 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B086H6ZF37--2026-02-20T02-21-20.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B086H6ZF37--2026-02-20T02-21-20.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0885Q6S45
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0885Q6S45 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0885Q6S45--2026-02-20T02-21-44.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0885Q6S45--2026-02-20T02-21-44.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0C2CY22B8
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0C2CY22B8 @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0C2CY22B8--2026-02-20T02-22-09.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0C2CY22B8--2026-02-20T02-22-09.jsonl
+✅ [playwright_scrape] 完成：amazon
+🕷️  [playwright_scrape] 執行爬蟲：amazon
+    URL: https://www.amazon.com/dp/B0DCH8VDXF
+    輸出: /Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw
+    語系: en-US | 最大評論: 500 | 批次大小: 50
+🛒 Amazon Scraper: B0DCH8VDXF @ www.amazon.com (locale: en-US)
+🔐 使用已保存的登入狀態
+📄 載入商品頁面...
+⚠️ Session 已過期或未登入，使用商品頁模式
+   提示：執行 --login 重新登入以獲取完整評論
+🔍 解析商品資訊...
+  標題: Unknown Product...
+  品牌: 
+  評分: 0 (0 則)
+📝 開始抓取評論 (最多 500 則)...
+  📜 開始優化抓取（無需登入模式）...
+  ↓ 深度捲動載入評論...
+  ⏳ 等待評論元素超時...
+  🔍 找到 0 則不重複評論元素
+  ✅ 已抓取 0 則評論
+  ⚠️ 評論數較少（0 則）
+     系統將搭配其他來源（Walmart, Best Buy）聚合分析
+
+📊 共抓取 0 則評論
+📝 JSONL written: amazon_us--B0DCH8VDXF--2026-02-20T02-22-36.jsonl (1 batches, 0 reviews)
+
+✅ 完成！輸出：/Users/lightman/weiqi.kids/agent.ecommerce-product-review/docs/Extractor/amazon_us/raw/amazon_us--B0DCH8VDXF--2026-02-20T02-22-36.jsonl
+✅ [playwright_scrape] 完成：amazon
+📊 [playwright_scrape_urls] 結果：85/85 成功，0 失敗
+✅ Fetch completed: amazon_us
