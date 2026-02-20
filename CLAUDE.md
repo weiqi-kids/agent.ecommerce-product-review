@@ -1464,6 +1464,11 @@ Step 8 完成
     ↓
 10. 驗證網站更新（curl + WebFetch 確認內容可見）
     ↓
+11. 記錄 GitHub Traffic 數據（優化用）
+    ├── 前往 GitHub → Insights → Traffic
+    ├── 記錄週訪客數、熱門頁面 TOP 5、來源網站
+    └── 更新 revamp/outputs/execution-log--2026-02-20.md 監控記錄表
+    ↓
 執行完成 ✅
 ```
 
