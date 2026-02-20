@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: AirPods 4 ANC,佩戴穩定性問題,降噪耳機評論,連接不穩定,硬體故障,AirPods Pro 2比較,開放式耳機缺點
+verdict: warning
+reviewCount: 50
+negativeRate: 22
+issues:
+  - 22% 無法穩固佩戴
+  - 16% 連接不穩定
+  - 12% 硬體故障（1-4 個月）
 ---
 
 # Apple AirPods 4 ANC 警告報告

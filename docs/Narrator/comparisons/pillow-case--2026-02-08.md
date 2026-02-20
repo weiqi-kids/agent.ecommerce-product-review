@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 枕套, 真絲枕套, CGK Unlimited, 護膚枕套, 護髮枕套, 抗老化
+verdict: neutral
+reviewCount: 319
 ---
 
 # 枕套更換與睡眠舒適 解決指南

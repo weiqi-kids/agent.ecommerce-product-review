@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: Fire TV Stick, Fire TV Stick HD, Fire TV Stick 4K Plus, Amazon 串流裝置, 故障率比較, 串流播放器推薦
+verdict: neutral
+reviewCount: 92
 ---
 
 # Fire TV Stick HD vs 4K Plus 比較指南

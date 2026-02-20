@@ -6,6 +6,9 @@ head:
   - - meta
     - name: keywords
       content: 胃酸逆流, GERD, Omeprazole, 質子幫浦抑制劑, 胃灼熱, 消化系統, 胃食道逆流
+verdict: recommend
+reviewCount: 50
+negativeRate: 5
 ---
 
 # 胃酸逆流 (Acid Reflux / GERD) 解決指南

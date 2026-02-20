@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 防身噴霧, 胡椒噴霧, Sabre, Fox Labs, 個人安全, OC噴霧, 防身產品, 安全機制
+verdict: neutral
+reviewCount: 50
 ---
 
 # 防身噴霧選購指南：為何 Sabre Red Gel 比 Quick Release Keychain 更值得購買

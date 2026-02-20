@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 保暖產品, 暖暖包, HotHands, 電熱毯, 禦寒, 冬季保暖, 戶外保暖
+verdict: neutral
+reviewCount: 50
 ---
 
 # Cold Protection Solutions: Comparative Analysis

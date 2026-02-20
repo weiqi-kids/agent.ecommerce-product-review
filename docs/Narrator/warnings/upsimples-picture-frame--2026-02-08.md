@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: upsimples相框,塑膠相框問題,8x10相框評論,材質標示不清,運送損壞,相框尺寸誤差,相框品質警告
+verdict: warning
+reviewCount: 50
+negativeRate: 56
+issues:
+  - 56% 材質不符預期率
+  - 36% 運送損壞率
+  - 16% 尺寸不準確率
 ---
 
 [REVIEW_NEEDED]

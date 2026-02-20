@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 撲克牌, Bicycle, Jumbo Index, 大字體, 家庭遊戲, 長者友善, 桌遊, 教育遊戲
+verdict: neutral
+reviewCount: 50
 ---
 
 [REVIEW_NEEDED] 競品資料不足：無同類撲克牌 Amazon 評論資料，競品比較基於專業評測文章類別差異分析

@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: Hefty派對杯,一次性杯子品質問題,派對餐具評論,甘蔗渣環保替代,塑膠杯缺陷,品質控制危機,派對用品推薦
+verdict: warning
+reviewCount: 50
+negativeRate: 18
+issues:
+  - 18% 品質控制缺陷（白色粉末、破損、碎片）
+  - 14% 耐用性不一致（過薄易碎）
+  - 4% 熱液體安全疑慮
 ---
 
 # 派對杯品質危機警告：Hefty Party On Disposable Cups

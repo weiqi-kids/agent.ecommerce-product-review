@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 降噪耳機, Sony WH-CH720N, Apple AirPods 4, 主動降噪, ANC, 耳機比較
+verdict: neutral
+reviewCount: 50
 ---
 
 # 降噪耳機比較分析：Sony WH-CH720N vs Apple AirPods 4

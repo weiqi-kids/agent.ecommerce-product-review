@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 抗老精華, 視黃醛, Retinal, MEDITHERAPY, The Inkey List, 抗老保養, 皺紋細紋, 敏感肌
+verdict: neutral
+reviewCount: 50
 ---
 
 # 抗老精華比較報告：MEDITHERAPY vs 專業競品

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 降噪耳機, ANC, 主動降噪, 無線耳機, 藍牙耳機, 耳罩式耳機
+verdict: neutral
+reviewCount: 200
 ---
 
 # 降噪耳機選購指南

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 臉部保濕, 面部保濕, 保濕霜, 乾性肌膚, 玻尿酸, 神經醯胺
+verdict: neutral
+reviewCount: 809
 ---
 
 # 臉部乾燥保濕 解決指南

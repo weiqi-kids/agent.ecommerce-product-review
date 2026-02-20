@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: Amazon Basics垃圾袋,接縫缺陷,垃圾袋品質問題,13加侖垃圾袋,品管危機,垃圾袋評論,家用垃圾袋推薦
+verdict: warning
+reviewCount: 50
+negativeRate: 64
+issues:
+  - 64% 接縫缺陷率
+  - 56% 易撕裂率
+  - 24% 拉繩脫落率
 ---
 
 # trash-bags 產品警告

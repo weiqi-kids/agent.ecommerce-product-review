@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: BigFoot浴簾,浴簾發霉問題,透明浴簾評論,防霉宣稱不實,磁鐵固定失效,PEVA浴簾替代,浴室用品推薦
+verdict: warning
+reviewCount: 50
+negativeRate: 18
+issues:
+  - 26% 無法解決問題
+  - 8% ️ 產生新問題
+  - 0% � 與產品無關
 ---
 
 # BigFoot 透明浴簾 警告報告

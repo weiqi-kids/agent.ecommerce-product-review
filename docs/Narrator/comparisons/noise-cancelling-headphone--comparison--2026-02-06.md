@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 降噪耳機, Sony WH-CH720N, AirPods 4 ANC, 主動降噪, Bose QC Ultra, 耳機比較, 性價比
+verdict: neutral
+reviewCount: 100
 ---
 
 # 降噪耳機解決指南

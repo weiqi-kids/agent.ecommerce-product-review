@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 臉部保濕, medicube, BIODANCE, 膠原蛋白面霜, 保濕面膜, 乾性肌膚, 熟齡保養, 玻璃肌
+verdict: neutral
+reviewCount: 200
 ---
 
 # 臉部乾燥保濕 解決指南

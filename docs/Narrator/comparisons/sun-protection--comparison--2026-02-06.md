@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 防曬, SPF50, PA++++, 韓系防曬, RELIEF SUN, Beauty of Joseon, SKIN1004, 防曬比較
+verdict: neutral
+reviewCount: 7
 ---
 
 # 防曬保護 解決指南

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 免疫系統, 維生素D, Emergen-C, Nature Made, 免疫補充品, 維生素比較
+verdict: neutral
+reviewCount: 198
 ---
 
 # 免疫系統支援類別：產品比較分析報告

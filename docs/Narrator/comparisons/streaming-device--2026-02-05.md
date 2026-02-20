@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 串流裝置, Roku Express 4K+, Amazon Fire TV, Apple iPad mini, 智慧電視, 串流盒評測
+verdict: neutral
+reviewCount: 110
 ---
 
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（streaming-device），違反系統設計原則。

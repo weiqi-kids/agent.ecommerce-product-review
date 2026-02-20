@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 智慧穿戴, 智慧手錶, 智慧戒指, Apple AirTag, BOOOMIC, RingConn, 健康追蹤, 物品追蹤
+verdict: neutral
+reviewCount: 50
 ---
 
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（smart-wearable），違反系統設計原則。

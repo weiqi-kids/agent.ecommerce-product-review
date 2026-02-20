@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 洗面乳, 臉部清潔, 潔面乳, 溫和潔面, 敏感肌清潔
+verdict: neutral
+reviewCount: 100
 ---
 
 # 臉部清潔洗面乳 解決指南

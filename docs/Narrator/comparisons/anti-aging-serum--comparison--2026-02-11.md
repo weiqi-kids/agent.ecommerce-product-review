@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 抗老精華, 視黃醛, 視黃醇, MEDITHERAPY, celimax, 抗皺精華
+verdict: neutral
+reviewCount: 50
 ---
 
 # 抗老精華比較報告：MEDITHERAPY vs celimax vs 專業競品

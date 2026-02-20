@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 牙齒美白, Lumineux, Crest 3D, Zimba, Hismile PAP, 美白貼片, 牙齒美白推薦
+verdict: neutral
+reviewCount: 50
 ---
 
 [REVIEW_NEEDED] 資料量不足：僅分析 50 則 Amazon 評論（標準為 100 則），競品無 L1-L6 萃取資料

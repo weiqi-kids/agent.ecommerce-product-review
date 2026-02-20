@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 卸妝, 卸妝水, 卸妝油, 卸妝巾, 眼唇卸妝, 溫和卸妝
+verdict: neutral
+reviewCount: 100
 ---
 
 # 卸妝清潔 解決指南

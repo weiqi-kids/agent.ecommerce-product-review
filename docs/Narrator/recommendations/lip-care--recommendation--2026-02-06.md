@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: 嘴唇乾裂, 護唇膏, Aquaphor, Burt's Bees, 唇部保養, 冬季護唇, 乾燥脫皮
+verdict: recommend
+reviewCount: 300
+issues:
+  - 皮膚科醫師，可能是光化性唇炎（癌前病變）等嚴重狀況的徵兆。
+  - 皮膚科醫師建議，最有效的護唇配方應結合三種成分：
+  - 皮膚科醫師最常推薦的護唇產品之一
 ---
 
 [REVIEW_NEEDED] 資料量不足（評論 小於 100 則，每產品僅 50 則樣本）

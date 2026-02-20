@@ -6,6 +6,11 @@ head:
   - - meta
     - name: keywords
       content: 防曬, 防曬乳推薦, SPF50, 韓系防曬, 米萃取, 益生菌, 無泛白, 敏感肌防曬
+verdict: recommend
+reviewCount: 7
+issues:
+  - 皮膚科醫師建議的每日防曬標準
+  - 唯一擔憂**：「The bottle is tiny though...at seventeen bucks
 ---
 
 [REVIEW_NEEDED]

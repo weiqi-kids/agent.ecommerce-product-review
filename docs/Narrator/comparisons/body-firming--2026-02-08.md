@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 身體緊緻, 視黃醇, Palmer's, 肽類, 輔酶Q10, 皮膚鬆弛
+verdict: neutral
+reviewCount: 50
 ---
 
 # 身體皮膚緊緻塑形 解決指南

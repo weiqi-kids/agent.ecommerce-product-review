@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 居家健身, 啞鈴, 阻力帶, 瑜伽墊, ZELUS 負重背心, Walking Pad, Portzon, 健身器材評測
+verdict: neutral
+reviewCount: 1
 ---
 
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（home-fitness），違反系統設計原則。

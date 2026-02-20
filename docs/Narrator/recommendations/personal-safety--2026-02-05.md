@@ -6,6 +6,11 @@ head:
   - - meta
     - name: keywords
       content: 防身噴霧, 辣椒噴霧, Sabre, 個人安全, 女性防身, OC噴霧, 自衛工具
+verdict: recommend
+reviewCount: 50
+negativeRate: 50
+issues:
+  - 唯一防禦）
 ---
 
 # 個人安全防身 解決指南

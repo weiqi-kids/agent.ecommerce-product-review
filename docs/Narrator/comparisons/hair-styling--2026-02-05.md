@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 頭髮造型, 蓬鬆粉, 接髮片, L3 Styling Powder, 髮量增加, 造型產品比較
+verdict: neutral
+reviewCount: 50
 ---
 
 # 頭髮造型產品比較分析報告

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 眼部浮腫, 黑眼圈, 眼周護理, 眼袋, 眼部保養, 去黑眼圈
+verdict: neutral
+reviewCount: 50
 ---
 
 [REVIEW_NEEDED]

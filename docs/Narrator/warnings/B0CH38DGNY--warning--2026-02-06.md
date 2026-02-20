@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: DUMOS收納櫃,抽屜收納櫃安全警告,塑膠滑軌缺陷,兒童房安全,IKEA Malm替代方案,家具品質問題,收納櫃評論
+verdict: warning
+reviewCount: 50
+negativeRate: 48
+issues:
+  - 48% 到貨損壞/缺陷零件
+  - 42% 結構性失效
+  - 42% 塑膠承重件失效
 ---
 
 # 產品安全警告：DUMOS 9-Drawer Dresser

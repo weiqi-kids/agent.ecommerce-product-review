@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 洗碗海綿, Scotch-Brite, 不沾鍋清潔, 不刮傷海綿, 廚房清潔
+verdict: neutral
+reviewCount: 1
 ---
 
 # dish-sponge 比較分析

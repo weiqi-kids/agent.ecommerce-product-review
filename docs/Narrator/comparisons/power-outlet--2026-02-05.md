@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 電源插座, 突波保護, HANYCONY, 插座安全, USB充電, 延長線比較
+verdict: neutral
+reviewCount: 16
 ---
 
 # 電源插座擴充產品比較分析報告

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 保濕精華, 玻尿酸, 保濕精華液, 補水精華, 肌膚保濕
+verdict: neutral
+reviewCount: 100
 ---
 
 # 保濕精華液 解決指南

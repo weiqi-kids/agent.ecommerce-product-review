@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 胃酸逆流, Omeprazole, Nexium, Pantoprazole, PPI, GERD, 胃食道逆流, 質子泵抑制劑
+verdict: neutral
+reviewCount: 50
 ---
 
 # 胃酸逆流藥物比較報告：Amazon Basic Care Omeprazole vs 專業競品

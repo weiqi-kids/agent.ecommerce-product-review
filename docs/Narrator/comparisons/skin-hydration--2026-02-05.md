@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 皮膚保濕, 乾燥肌膚, Aquaphor, CeraVe, Gold Bond, 保濕霜比較, 敏感肌保養
+verdict: neutral
+reviewCount: 400
 ---
 
 # 皮膚乾燥保濕產品比較分析報告

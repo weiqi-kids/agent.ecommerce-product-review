@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 去角質化妝水, 果酸, 水楊酸, 甘醇酸, The Ordinary, Paula's Choice
+verdict: neutral
+reviewCount: 50
 ---
 
 [REVIEW_NEEDED] 競品評論萃取不足（僅主角產品有 Amazon 評論萃取）

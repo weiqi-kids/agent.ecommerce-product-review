@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: 派對用品, 生日裝飾, 情人節禮物, JOYIN, GOER Balloons, 100 Days of School, 派對餐具, 產品評測
+verdict: neutral
 ---
 
 > ⚠️ **DEPRECATED**: This report uses group-oriented categorization (party-supplies), which violates system design principles.

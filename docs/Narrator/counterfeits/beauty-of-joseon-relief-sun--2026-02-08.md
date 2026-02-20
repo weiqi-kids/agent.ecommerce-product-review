@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: 假貨, Beauty of Joseon, Relief Sun, 防曬, Amazon 假貨, 韓國防曬, SPF50, 驗證購買
+verdict: warning
+reviewCount: 7
+issues:
+  - 30% 驗證購買率
+  - 15% 評論時間集中度
+  - 20% 官方授權狀態
 ---
 
 # Beauty of Joseon Relief Sun 假貨風險報告

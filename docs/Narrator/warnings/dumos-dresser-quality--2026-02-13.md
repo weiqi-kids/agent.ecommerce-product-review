@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: DUMOS收納櫃,塑膠滑軌缺陷,9抽屜收納櫃,運送損壞,品質控制問題,Vasagle替代品,收納家具評論
+verdict: warning
+reviewCount: 100
+negativeRate: 30
+issues:
+  - 30% 收到瑕疵品需立即退貨
+  - 40% 初期正常但 1 個月內滑軌脫落
+  - 30% 滿意體驗
 ---
 
 # ⚠️ DUMOS 9 抽屜收納櫃品質警告

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 派對背景, 攝影背景, ZATAYE, 亮片背景, 派對裝飾, 拍照背景
+verdict: neutral
+reviewCount: 202
 ---
 
 [REVIEW_NEEDED] 研究資料不足：缺少 WebSearch 研究和競品資料

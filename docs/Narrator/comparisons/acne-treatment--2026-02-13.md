@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 痘痘治療, 抗痘, 粉刺治療, 面皰, 水楊酸, 視黃醇
+verdict: neutral
+reviewCount: 300
 ---
 
 # 痘痘治療產品比較指南

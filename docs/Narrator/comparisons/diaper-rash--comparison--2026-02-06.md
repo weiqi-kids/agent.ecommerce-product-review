@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 尿布疹, Boudreaux's Butt Paste, Triple Paste, Aquaphor, Desitin, 氧化鋅, 嬰兒護理
+verdict: neutral
+reviewCount: 50
 ---
 
 # 尿布疹護理解決指南

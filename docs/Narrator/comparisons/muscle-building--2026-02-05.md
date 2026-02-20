@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 乳清蛋白, 肌酸, Optimum Nutrition, 增肌, 健身補充品, 蛋白粉比較
+verdict: neutral
+reviewCount: 827
 ---
 
 # 肌肉增長蛋白補充品比較分析報告

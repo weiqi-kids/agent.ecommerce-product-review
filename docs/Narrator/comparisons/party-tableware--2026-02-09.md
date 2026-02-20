@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 派對餐具, 一次性餐具, Hefty, 環保餐具, 可堆肥餐具, 紙杯
+verdict: neutral
+reviewCount: 11
 ---
 
 # 派對一次性餐具比較分析：Hefty Party Cups vs. 環保替代品

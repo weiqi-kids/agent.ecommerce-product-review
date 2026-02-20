@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 居家收納, 收納櫃, 折疊推車, 相框, Joxir, DUMOS, Americanflat, 收納推薦
+verdict: neutral
+reviewCount: 50
 ---
 
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（home-storage），違反系統設計原則。

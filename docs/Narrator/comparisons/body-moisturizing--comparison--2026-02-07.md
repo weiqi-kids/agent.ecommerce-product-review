@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 身體保濕, 身體乳液, 保濕沐浴露, eos, Tree Hut, 乾性肌膚
+verdict: neutral
+reviewCount: 200
 ---
 
 # 身體保濕問題 解決指南

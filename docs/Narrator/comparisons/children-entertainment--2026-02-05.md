@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: 兒童玩具, LEGO, 桌遊, Candy Land, 美術用品, 玩具比較, 兒童娛樂
+verdict: neutral
 ---
 
 > ⚠️ **[DEPRECATED]** 此報告使用族群導向分組（children-entertainment），已有問題導向報告取代。

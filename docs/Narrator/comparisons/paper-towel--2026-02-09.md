@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 紙巾, Brawny, 廚房紙巾, 吸水紙巾, Tear-A-Square, 環保紙巾
+verdict: neutral
+reviewCount: 50
 ---
 
 # paper-towel 比較分析

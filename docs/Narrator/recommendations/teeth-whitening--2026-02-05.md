@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 牙齒美白, 美白貼片, Lumineux, 天然美白, 敏感牙齒, 無過氧化物, 死海鹽
+verdict: recommend
+reviewCount: 50
 ---
 
 # 牙齒美白問題解決指南

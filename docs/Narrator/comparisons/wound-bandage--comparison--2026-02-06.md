@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 傷口繃帶, Band-Aid, 防水繃帶, 水膠體, Hydro Seal, Nexcare, 傷口護理, 快速癒合
+verdict: neutral
+reviewCount: 50
 ---
 
 # 傷口繃帶選購指南

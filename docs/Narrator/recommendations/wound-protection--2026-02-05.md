@@ -6,6 +6,9 @@ head:
   - - meta
     - name: keywords
       content: 傷口敷料, Band-Aid, 彈性繃帶, 急救用品, 織布膠布, 傷口護理, 家庭急救
+verdict: recommend
+reviewCount: 594
+negativeRate: 12
 ---
 
 # 傷口保護急救指南:如何選擇適合的傷口敷料

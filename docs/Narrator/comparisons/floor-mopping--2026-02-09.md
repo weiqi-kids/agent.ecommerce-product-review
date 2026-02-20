@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 拖地, 拖把, O-Cedar, 旋轉拖把, 地板清潔, 雙水箱拖把
+verdict: neutral
+reviewCount: 50
 ---
 
 # floor-mopping 比較分析

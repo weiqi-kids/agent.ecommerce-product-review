@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 臉部保濕, CeraVe PM, 神經醯胺, 透明質酸, Neutrogena, Vanicream, 保濕霜推薦
+verdict: neutral
+reviewCount: 100
 ---
 
 # 臉部保濕解決指南

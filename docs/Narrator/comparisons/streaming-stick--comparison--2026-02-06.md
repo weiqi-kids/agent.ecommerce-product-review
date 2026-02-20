@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 串流播放器, Roku Express, Fire TV Stick, Apple TV 4K, 4K HDR, Dolby Vision, 隱私追蹤, ACR
+verdict: neutral
+reviewCount: 50
 ---
 
 # 串流播放器選購指南

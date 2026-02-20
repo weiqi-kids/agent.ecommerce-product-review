@@ -9,6 +9,8 @@ head:
   - - meta
     - name: keywords
       content: AirPods 4, AirPods Pro 3, 無線耳機, Apple 耳機, 降噪耳機, 耳機比較
+verdict: neutral
+reviewCount: 200
 ---
 
 # 無線耳機比較：AirPods 4 vs AirPods Pro 3

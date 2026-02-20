@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: 紓壓玩具安全, 有毒化學物質, ADHD 玩具, 自閉症輔助工具, 化學灼傷, 兒童安全, 科學證據
+verdict: caution
+reviewCount: 50
+issues:
+  - 70% 派對禮物/教室獎品
+  - 20% 兒童娛樂玩具
+  - 12 ️
 ---
 
 # Squishy Toy 市場系統性危機:紓壓玩具的安全隱憂與科學證據空白

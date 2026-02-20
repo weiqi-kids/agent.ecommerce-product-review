@@ -6,6 +6,11 @@ head:
   - - meta
     - name: keywords
       content: 相框品質, upsimples, Amazon Basics, FIXSMITH, 運輸損壞, 材質虛假, 消費者保護, 產品評測
+verdict: caution
+issues:
+  - 40% 4/4
+  - 25% 4/4
+  - 27% 4/4
 ---
 
 # picture-frame 痛點報告

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 烘焙用具, 烘焙紙, 烤盤, 慢燉鍋, If You Care, GoodCook, Crock-Pot, 廚房用具評測
+verdict: neutral
+reviewCount: 592
 ---
 
 > ⚠️ **DEPRECATED**: 此報告使用族群導向分組（baking-cooking），違反系統設計原則。

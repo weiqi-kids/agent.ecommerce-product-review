@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 洗衣去漬, Shout, ARM & HAMMER, 污漬去除, OxiClean, 衣物清潔
+verdict: neutral
+reviewCount: 1
 ---
 
 # laundry-stain 比較分析

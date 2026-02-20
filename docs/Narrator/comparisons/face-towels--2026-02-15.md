@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 一次性洗臉巾, 洗臉巾, Clean Skin Club, 拋棄式毛巾, 臉部清潔, 抗菌毛巾
+verdict: neutral
+reviewCount: 100
 ---
 
 # 一次性洗臉巾（Disposable Face Towels）解決指南

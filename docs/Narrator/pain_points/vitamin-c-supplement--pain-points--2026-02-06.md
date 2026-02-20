@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: 維生素C, 補充品安全, Emergen-C, 品質控制, 療效誇大, 價格虛高, 健康補充品
+verdict: caution
+reviewCount: 50
+issues:
+  - 28% 無法解決問題
+  - 8% ️ 產生新問題
+  - 2% � 與產品無關
 ---
 
 # 維生素C補充品類痛點分析

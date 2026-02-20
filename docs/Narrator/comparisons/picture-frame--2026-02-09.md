@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 相框, 照片框, Amazon Basics, 玻璃相框, 相片展示
+verdict: neutral
+reviewCount: 132
 ---
 
 # picture-frame 比較分析

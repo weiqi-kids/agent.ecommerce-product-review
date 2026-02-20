@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: 延長線安全, 火災風險, 突波保護, 電器安全, HANYCONY, 品質控制, 消費者安全
+verdict: caution
+reviewCount: 50
+issues:
+  - 50 1080J
+  - 50 900J
+  - 50 無（旅行用）
 ---
 
 # 低價延長線市場安全風險：痛點報告

@@ -6,6 +6,11 @@ head:
   - - meta
     - name: keywords
       content: 維生素D, Nature Made, D3補充劑, 骨骼健康, 免疫系統, 營養補充, 陽光維生素
+verdict: recommend
+reviewCount: 50
+negativeRate: 15
+issues:
+  - 唯一問題是膠囊黏連，屬於儲存/運輸條件導致的品質控制問題。
 ---
 
 [REVIEW_NEEDED] 資料量不足（評論 小於 100 則，每產品僅 50 則樣本）；競品數據有限（僅 Nature Made 系列）

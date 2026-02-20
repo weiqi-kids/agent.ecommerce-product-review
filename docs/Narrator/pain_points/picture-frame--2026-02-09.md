@@ -6,6 +6,11 @@ head:
   - - meta
     - name: keywords
       content: 相框品質, Amazon Basics, 尺寸不準確, 運輸損壞, 材質虛假, 消費者權益, 產品安全
+verdict: caution
+issues:
+  - 43% 3/3
+  - 28% 3/3
+  - 25% 3/3
 ---
 
 # picture-frame 痛點報告

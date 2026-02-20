@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: Pokemon收藏箱,TCG產品完整性,重新密封問題,Amazon購買風險,本地遊戲店,寶可夢卡片,收藏品真偽
+verdict: warning
+reviewCount: 50
+negativeRate: 24
+issues:
+  - 24% 無法解決問題
+  - 8% 無法解決問題
+  - 16% � 與產品無關
 ---
 
 # 產品安全警告：Pokemon TCG Collector Chest - Fall 2025

@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: 痘痘貼片, Mighty Patch, 水膠體, 痘痘治療, 粉刺處理, 抗痘, 痤瘡護理
+verdict: recommend
+reviewCount: 163
+negativeRate: 24
+issues:
+  - 皮膚科醫師（口服藥物、皮質醇注射）
+  - 皮膚科醫師。
 ---
 
 # 痘痘治療選購指南：如何選擇適合你的痘痘貼片

@@ -6,6 +6,9 @@ head:
   - - meta
     - name: keywords
       content: 排水管堵塞, 通管劑, Drano, 化學通管, 毛髮堵塞, 浴室排水, 廚房水槽
+verdict: recommend
+reviewCount: 779
+negativeRate: 38
 ---
 
 [REVIEW_NEEDED] 資料量不足：Amazon 評論僅 50 則（要求 100 則），建議補充更多評論樣本

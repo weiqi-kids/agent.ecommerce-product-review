@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 膠原蛋白面膜, BIODANCE, Abib, 韓國面膜, 保濕面膜, 果凍面膜
+verdict: neutral
+reviewCount: 87
 ---
 
 # 膠原蛋白面膜比較分析

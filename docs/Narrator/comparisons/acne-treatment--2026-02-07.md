@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 痘痘治療, 水膠體貼片, 過氧化苯甲醯, 化學去角質, Mighty Patch, Medicube, PanOxyl
+verdict: neutral
+reviewCount: 300
 ---
 
 # 痘痘治療 解決指南

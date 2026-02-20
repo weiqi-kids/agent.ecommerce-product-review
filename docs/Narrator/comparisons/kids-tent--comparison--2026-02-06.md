@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 兒童帳篷, 遊戲帳篷, 公主城堡, 想像遊戲, Monobeach, 室內遊戲空間, 兒童發展
+verdict: neutral
+reviewCount: 50
 ---
 
 [REVIEW_NEEDED]

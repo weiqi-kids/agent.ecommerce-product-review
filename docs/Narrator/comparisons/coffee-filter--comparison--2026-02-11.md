@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 咖啡濾紙, Amazon Basics, 咖啡過濾, Melitta, 籃型濾紙
+verdict: neutral
+reviewCount: 50
 ---
 
 # 咖啡濾紙解決指南

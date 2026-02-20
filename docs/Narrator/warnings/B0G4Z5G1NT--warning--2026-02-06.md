@@ -6,6 +6,12 @@ head:
   - - meta
     - name: keywords
       content: RELIEF SUN防曬霜,評論真實性疑慮,SPF50防曬,韓國防曬產品,防曬霜安全,Beauty of Joseon替代,驗證購買評論
+verdict: warning
+reviewCount: 7
+negativeRate: 100
+issues:
+  - 100% 5 星佔比
+  - 0% 驗證購買率
 ---
 
 [REVIEW_NEEDED]

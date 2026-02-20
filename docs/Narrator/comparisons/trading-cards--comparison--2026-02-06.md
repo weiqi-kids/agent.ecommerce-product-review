@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: Pokemon TCG, Magic The Gathering, 交換卡牌, 卡牌遊戲, 收藏投資, 產品完整性, 假貨風險, 本地遊戲店
+verdict: neutral
+reviewCount: 70
 ---
 
 [REVIEW_NEEDED] 資料量不足：分析總評論 70 則（標準為 100 則），部分競品無 L1-L6 萃取資料

@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 排水管堵塞, Drano, 疏通劑, Green Gobbler, 通渠蛇, 水管疏通, 化學疏通風險, 酵素清潔
+verdict: neutral
+reviewCount: 50
 ---
 
 [REVIEW_NEEDED] 資料量不足：僅分析 50 則 Amazon 評論（標準為 100 則），競品無 L1-L6 萃取資料（無 Amazon ASIN）

@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: Amazon Basics電暖器,火災風險,過熱保護失效,陶瓷暖氣機安全,電暖器評論,Lasko替代品,冬季取暖安全
+verdict: warning
+reviewCount: 50
+negativeRate: 10
+issues:
+  - 8% 4/50
+  - 2% 1/50
+  - 30% 15/50
 ---
 
 # 產品安全警告：Amazon Basics 陶瓷電暖器

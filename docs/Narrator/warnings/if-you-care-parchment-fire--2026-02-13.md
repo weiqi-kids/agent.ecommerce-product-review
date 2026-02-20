@@ -6,6 +6,13 @@ head:
   - - meta
     - name: keywords
       content: If You Care烘焙紙,火災風險,烘焙紙安全,烤箱起火,Reynolds烘焙紙,矽膠烘焙墊,烘焙用品安全
+verdict: warning
+reviewCount: 675
+negativeRate: 3
+issues:
+  - 3% � **火災/燃燒**
+  - 23% � 盒子切割刃無效
+  - 12% � 包裝破損
 ---
 
 # ⚠️ 警告：If You Care 烘焙紙火災風險

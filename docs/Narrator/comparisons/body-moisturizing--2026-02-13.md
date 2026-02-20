@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 身體保濕, 身體乳液, 乾性肌膚, 乳木果油, 身體護理
+verdict: neutral
+reviewCount: 300
 ---
 
 # 身體保濕 解決指南

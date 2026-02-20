@@ -6,6 +6,8 @@ head:
   - - meta
     - name: keywords
       content: 抗老化, 視黃醛, MEDITHERAPY, 抗皺, 護膚品比較, 細紋改善
+verdict: neutral
+reviewCount: 50
 ---
 
 # 抗老化護膚產品比較分析報告
