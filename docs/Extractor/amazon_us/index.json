@@ -1116,6 +1116,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "lip-care-B00A6H33OW--amazon_us--2026-02-20-md",
+    "title": "Burt's Bees Beeswax Lip Balm with Vitamin E & Peppermint",
+    "category": "lip-care",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "lip-care/B00A6H33OW--amazon_us--2026-02-20.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "item-tracker-B0GJTFXNRX--2026-02-17-md",
     "title": "Apple AirTag (2nd Generation) — Amazon 評論萃取報告",
     "category": "item-tracker",
@@ -1836,6 +1848,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "face-moisturizing-B00TTD9BRC--amazon_us--2026-02-20-md",
+    "title": "CeraVe Moisturizing Cream",
+    "category": "face-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "face-moisturizing/B00TTD9BRC--amazon_us--2026-02-20.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "face-moisturizing-B00SNPCSUY--cerave-night--2026-02-13-md",
     "title": "CeraVe Skin Renewing Night Cream - L1-L6 萃取結果",
     "category": "face-moisturizing",
@@ -1857,6 +1881,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "eye-puffiness/B014E2D6BY--grace-stella--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "exfoliating-toner-B09V7Z4TJG--amazon_us--2026-02-20-md",
+    "title": "medicube Toner Pads Zero Pore Pad 2.0",
+    "category": "exfoliating-toner",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "exfoliating-toner/B09V7Z4TJG--amazon_us--2026-02-20.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2205,6 +2241,42 @@
     "avg_rating": "",
     "review_count": "",
     "file": "body-moisturizing/B08KT2Z93D--eos--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "body-moisturizing-B08KT2Z93D--amazon_us--batch-2-md",
+    "title": "eos Shea Better Body Lotion Vanilla Cashmere — Batch 2/2",
+    "category": "body-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "body-moisturizing/B08KT2Z93D--amazon_us--batch-2.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "body-moisturizing-B08KT2Z93D--amazon_us--batch-1-md",
+    "title": "eos Shea Better Body Lotion Vanilla Cashmere — Batch 1/2",
+    "category": "body-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "body-moisturizing/B08KT2Z93D--amazon_us--batch-1.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "body-moisturizing-B08KT2Z93D--amazon_us--2026-02-20-md",
+    "title": "eos Shea Better Body Lotion Vanilla Cashmere",
+    "category": "body-moisturizing",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "body-moisturizing/B08KT2Z93D--amazon_us--2026-02-20.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2745,6 +2817,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "acne-treatment/B074PVTPBW--hero-cosmetics--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "acne-treatment-B074PVTPBW--amazon_us--2026-02-20-md",
+    "title": "Mighty Patch Original Patch from Hero Cosmetics",
+    "category": "acne-treatment",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "acne-treatment/B074PVTPBW--amazon_us--2026-02-20.md",
     "source_layer": "amazon_us"
   }
 ]
