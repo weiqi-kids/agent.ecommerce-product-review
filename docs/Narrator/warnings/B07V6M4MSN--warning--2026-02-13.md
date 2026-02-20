@@ -2,6 +2,13 @@
 title: 安全警告：Amazon Basics 陶瓷暖氣機
 description: 產品安全警告：Amazon Basics暖氣機存在16%火災風險(煙霧、融化、燒焦)、42%過早失效問題,安全隱患嚴重,建議消費者選擇通過UL/ETL認證的知名品牌替代品
 date: 2026-02-13
+verdict: warning
+reviewCount: 50
+negativeRate: 42
+issues:
+  - 16% 火災風險（煙霧/融化/燒焦味）
+  - 42% 過早失效（1-6個月內）
+  - 12% 噪音超標
 head:
   - - meta
     - name: keywords

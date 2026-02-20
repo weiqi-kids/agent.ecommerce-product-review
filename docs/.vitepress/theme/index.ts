@@ -2,6 +2,9 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 
+// 自訂 Layout（報告頁自動注入元件）
+import ReportLayout from './ReportLayout.vue'
+
 // 自訂組件
 import KeyAnswer from './components/KeyAnswer.vue'
 import WarningBox from './components/WarningBox.vue'
@@ -17,6 +20,7 @@ import './custom.css'
 
 export default {
   extends: DefaultTheme,
+  Layout: ReportLayout,
   enhanceApp({ app }) {
     // 註冊全域組件
     app.component('KeyAnswer', KeyAnswer)

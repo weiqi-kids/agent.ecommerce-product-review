@@ -2,6 +2,13 @@
 title: 頭皮屑治療解決指南
 description: 頭皮屑治療指南：推薦 Nizoral Anti-Dandruff Shampoo，基於 Amazon 評論分析，1% Ketoconazole 抗真菌、92% 有效性、皮膚科醫師首選
 date: 2026-02-14
+verdict: recommend
+reviewCount: 200
+negativeRate: 5
+issues:
+  - 92% 有效性
+  - 唯一 OTC 含 1% Ketoconazole
+  - 皮膚科醫師推薦
 head:
   - - meta
     - name: keywords

@@ -2,6 +2,13 @@
 title: 產品安全警告：HANYCONY 延長線系列
 description: 產品安全警告：HANYCONY延長線存在4%火災事件、6%突波保護失效、8%提前失效問題,遠超行業安全標準,建議消費者選擇SUPERDANNY、Tripp Lite等經過驗證的替代方案
 date: 2026-02-06
+verdict: warning
+reviewCount: 50
+negativeRate: 18
+issues:
+  - 4% 火災事件
+  - 6% 突波保護失效
+  - 8% 提前失效
 head:
   - - meta
     - name: keywords

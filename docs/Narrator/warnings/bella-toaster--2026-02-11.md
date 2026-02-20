@@ -2,6 +2,13 @@
 title: BELLA 2 Slice Slim Toaster 警告報告
 description: 產品警告：BELLA烤麵包機存在46%一年內故障、18%壓桿機構失效、24%烘烤不均問題,核心功能嚴重失效,建議消費者選擇Hamilton Beach、Cuisinart等可靠替代品
 date: 2026-02-11
+verdict: warning
+reviewCount: 50
+negativeRate: 46
+issues:
+  - 46% 一年內故障
+  - 18% 壓桿機構失效
+  - 24% 烘烤不均
 head:
   - - meta
     - name: keywords
