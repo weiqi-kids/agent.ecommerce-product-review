@@ -114,7 +114,7 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 | 類型 | 數量 |
 |------|------|
 | 監控產品 | 14 |
-| 研究缺口類別 | 0 |
+| 研究缺口類別 | 3 |
 | 暫緩發佈類別 | 0 |
 
 ### 今日統計 (2026-02-21)
@@ -123,10 +123,11 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 |------|------|
 | Discovery 產品 | 70 (Amazon 30 + Walmart 40) |
 | 監控追蹤 | 1 個已檢查（Pokemon TCG） |
-| 新類別 | 0 |
-| 萃取數量 | 0（無新 JSONL） |
-| 報告產出 | 0 |
-| REVIEW_NEEDED 報告 | 29 |
+| 新類別 | 10 |
+| 類別研究 | 10 個完成 |
+| 比較分析 | 10 個完成 |
+| 報告產出 | 10 個比較報告 |
+| REVIEW_NEEDED 報告 | 7 個（新報告）|
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

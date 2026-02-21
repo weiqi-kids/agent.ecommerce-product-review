@@ -1,0 +1,91 @@
+{
+  "category": "toddler-learning-toy",
+  "date": "2026-02-21",
+  "analysis_basis": "research",
+  "products_analyzed": [
+    {
+      "name": "LeapFrog Learning Friends 100 Words Book",
+      "asin": "B07B6ZN7P8",
+      "type": "discovery_product",
+      "strengths": [
+        "雙語支援（英語/西班牙語）",
+        "三種播放模式",
+        "無螢幕設計",
+        "堅固耐用"
+      ],
+      "weaknesses": [
+        "詞彙量有限（100個）",
+        "觸控過於敏感",
+        "音量在吵雜環境不足"
+      ],
+      "recommendation_sources": 5,
+      "price_range": "$18-25"
+    },
+    {
+      "name": "Airbition Talking Flash Cards",
+      "asin": "B0CRYJB6GK",
+      "type": "discovery_product",
+      "strengths": [
+        "詞彙量大（224張卡片）",
+        "語言治療師推薦",
+        "適合自閉症/語言遲緩兒童",
+        "攜帶方便",
+        "無螢幕設計"
+      ],
+      "weaknesses": [
+        "通常僅英語",
+        "需要充電",
+        "較小兒童需成人協助"
+      ],
+      "recommendation_sources": 2,
+      "price_range": "$15-25"
+    }
+  ],
+  "competitors_summary": {
+    "with_asin": 15,
+    "without_asin": 12,
+    "top_competitors": [
+      {
+        "name": "Playskool Mr. Potato Head",
+        "asin": "B005KKHRQQ",
+        "recommendation_count": 8,
+        "category": "傳統玩具"
+      },
+      {
+        "name": "VTech Little Apps Tablet",
+        "asin": "B00KKFMW7W",
+        "recommendation_count": 3,
+        "category": "學習平板"
+      },
+      {
+        "name": "Melissa & Doug Wooden Building Blocks",
+        "asin": "B000LSZVKA",
+        "recommendation_count": 4,
+        "category": "傳統玩具"
+      }
+    ]
+  },
+  "key_findings": {
+    "market_insight": "語言治療師普遍偏好傳統無電池玩具，因為能促進更多親子對話（每分鐘55.56字 vs 電子玩具39.62字）",
+    "product_positioning": {
+      "LeapFrog 100 Words": "最適合一般幼兒，結構化雙語學習",
+      "Airbition Talking Flash Cards": "最適合語言遲緩/自閉症兒童，大量詞彙重複練習"
+    },
+    "differentiation": "電子學習玩具各有定位：LeapFrog適合雙語需求家庭，閃卡類適合特殊需求兒童",
+    "expert_consensus": "美國兒科學會和語言治療師建議減少電子玩具，但承認特定產品對語言遲緩兒童有效"
+  },
+  "negative_review_classification": {
+    "cannot_solve_problem": "低 - 兩款產品均有明確學習效果證據",
+    "creates_new_problems": "中等 - LeapFrog 觸控敏感度問題；閃卡需成人協助",
+    "unrelated_to_product": "需評論數據確認"
+  },
+  "recommendation_type": "comparison",
+  "recommendation_reason": "兩款 Discovery 產品各有明確定位，無明顯優劣之分，需根據使用者需求選擇",
+  "confidence": "medium",
+  "confidence_reason": "研究資料充足（25次WebFetch），但缺少實際評論萃取數據，分析主要基於評測文章",
+  "next_steps": [
+    "執行 Step 6 抓取優先 ASIN 的評論",
+    "比較實際用戶評論與評測文章的差異",
+    "針對語言遲緩使用場景做深入分析"
+  ]
+}

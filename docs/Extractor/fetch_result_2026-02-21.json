@@ -1,0 +1,97 @@
+{
+  "date": "2026-02-21",
+  "execution_status": "partial",
+  "summary": {
+    "total_discovered": 70,
+    "amazon_products": 30,
+    "walmart_products": 40,
+    "existing_extractions_reusable": 15,
+    "new_fetch_required": 55,
+    "note": "Existing extractions from 2026-02-05 within 7-day freshness window"
+  },
+  "categories_status": {
+    "sensory-fidget": {
+      "status": "partial",
+      "existing_extractions": ["B0DG2VRFV7"],
+      "discovered_products": ["B0DQNQ1ZVZ", "B0C6XBP4CW", "B0D9ZTW7PS", "B0B2HN96TZ"],
+      "competitors_with_asin": ["B09MS1GKBK", "B081VZH4JN", "B01HN3RYDC", "B07YHBSF5D", "B0C6XBP4CW"],
+      "needs_fetch": true
+    },
+    "infant-grasping-toy": {
+      "status": "needs_fetch",
+      "existing_extractions": [],
+      "discovered_products": ["B00ZRD99C0", "B008J1QP7Y"],
+      "competitors_with_asin": ["B000BNCA4K", "B00000JIKH", "B004AHMCMI", "B086216VQV"],
+      "needs_fetch": true
+    },
+    "toddler-learning-toy": {
+      "status": "needs_fetch",
+      "existing_extractions": [],
+      "discovered_products": ["B07B6ZN7P8", "B0CRYJB6GK"],
+      "competitors_with_asin": ["B07CCFDZZ3", "B09DKS28YX", "B00KKFMW7W", "B005KKHRQQ", "B000LSZVKA"],
+      "needs_fetch": true
+    },
+    "infant-sensory-toy": {
+      "status": "needs_fetch",
+      "existing_extractions": [],
+      "discovered_products": ["B0B21ZM7LJ"],
+      "competitors_with_asin": ["B017KY7Q82", "B08GJJ4JWG", "B09GLH9SCQ"],
+      "needs_fetch": true
+    },
+    "collectible-blind-box": {
+      "status": "needs_fetch",
+      "existing_extractions": [],
+      "discovered_products": ["B0FJFV4PQN"],
+      "competitors_with_asin": [],
+      "needs_fetch": true
+    },
+    "pretend-play-kitchen": {
+      "status": "walmart_only",
+      "walmart_products": ["346254805", "878062663", "861876278", "522636347"],
+      "competitors_with_asin": ["B002VC7ZJM", "B00005RF5C", "B00TKOCM1C", "B01M0PKCO8"],
+      "needs_fetch": true
+    },
+    "toy-weapon": {
+      "status": "walmart_only",
+      "walmart_products": ["495741772", "498243482"],
+      "competitors_with_asin": ["B0828Q1VWL", "B00DW1JT88", "B01IK52J5U"],
+      "needs_fetch": true
+    },
+    "kids-activity-book": {
+      "status": "needs_fetch",
+      "existing_extractions": [],
+      "discovered_products": ["B098PMWSVS", "B09PGVGCH5"],
+      "competitors_with_asin": ["B01N66WBVV", "B074ZQ8NX8"],
+      "needs_fetch": true
+    },
+    "foam-playmat": {
+      "status": "walmart_only",
+      "walmart_products": ["144511168"],
+      "competitors_with_asin": ["B0BG6QSQMV"],
+      "needs_fetch": true
+    },
+    "baby-walker": {
+      "status": "walmart_only",
+      "walmart_products": ["965565931"],
+      "competitors_with_asin": ["B0053X62GK", "B07CZZSP5D", "B00712O3BA"],
+      "needs_fetch": true
+    }
+  },
+  "reusable_extractions": {
+    "toys_games": [
+      "B0DG2VRFV7",
+      "B0DK22Y1KZ",
+      "B00006RVTS",
+      "B0002TT3N4",
+      "B00000DMF5",
+      "B0C4P25L13"
+    ],
+    "extraction_date": "2026-02-05",
+    "freshness": "valid (within 7 days)"
+  },
+  "next_steps": {
+    "step_7": "Proceed with comparison using research data + existing extractions",
+    "step_8": "Generate reports for categories with sufficient data",
+    "deferred": "Categories requiring fresh fetch marked for next execution"
+  }
+}

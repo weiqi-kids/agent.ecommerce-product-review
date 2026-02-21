@@ -1,0 +1,108 @@
+{
+  "category": "infant-grasping-toy",
+  "date": "2026-02-21",
+  "analysis_basis": "research",
+  "products_analyzed": {
+    "discovery_products": [
+      {
+        "name": "Oball Classic Ball",
+        "type": "plastic_ball",
+        "strengths": ["32 孔洞易抓握", "輕量安全", "價格實惠", "耐用可水洗"],
+        "weaknesses": ["無聲音功能", "過輕易被風吹動", "感官刺激較單一"],
+        "rating": "8.0/10 (BornCute)"
+      },
+      {
+        "name": "Oball Shaker Rattle",
+        "type": "plastic_rattle",
+        "strengths": ["Oball 易抓握設計", "搖鈴功能", "促進雙側協調"],
+        "weaknesses": ["2017 年曾因塑膠圓盤破裂召回特定批次"],
+        "note": "召回僅影響搖鈴版本，不含 Classic 實心球"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Manhattan Toy Winkel",
+        "asin": "B000BNCA4K",
+        "type": "sensory_teether",
+        "strengths": ["OT 推薦", "易於 3-4 個月嬰兒抓握", "促進雙側協調", "趴臥時間不會滾走", "可冷藏舒緩牙齦"],
+        "weaknesses": ["管狀設計需定期檢查破損"],
+        "price_range": "$8-12",
+        "recommendation_count": 3
+      },
+      {
+        "name": "Manhattan Toy Skwish",
+        "asin": "B00000JIKH",
+        "type": "wooden_rattle",
+        "strengths": ["天然木材", "可壓扁後彈回", "獲獎產品", "感官豐富"],
+        "weaknesses": ["價格較高", "木製較重"],
+        "price_range": "$12-15",
+        "recommendation_count": 3
+      },
+      {
+        "name": "Sassy Bumpy Ball",
+        "asin": "B004AHMCMI",
+        "type": "sensory_ball",
+        "strengths": ["31K+ Amazon 好評", "Oppenheim Toy Platinum Award", "凸起設計易抓握", "多材質觸覺刺激", "極輕量"],
+        "weaknesses": ["適用 6 個月以上，較大嬰兒專用"],
+        "price_range": "$5-8",
+        "recommendation_count": 2
+      }
+    ],
+    "no_asin_competitors": [
+      {
+        "name": "Montessori 5 Piece Wooden Rattle Kit",
+        "source": "Montessori Generation",
+        "rating": "4.9/5 (204 reviews)",
+        "price": "$41.97",
+        "note": "官網獨家，基於評測文章資料"
+      },
+      {
+        "name": "SARO Silicone Sensory Ball",
+        "source": "Target 獨家",
+        "note": "100% 食品級矽膠，基於評測文章資料"
+      }
+    ]
+  },
+  "key_findings": {
+    "negative_review_classification": {
+      "cannot_solve_problem": "低 - 所有產品基本都能達成抓握訓練目標",
+      "creates_new_problems": "中 - Oball Rattle 曾有召回事件（特定批次）、木製玩具較重可能誤傷",
+      "unrelated_to_product": "物流配送問題（各產品皆有）"
+    },
+    "comparison_dimensions": {
+      "functionality": {
+        "winner": "Manhattan Toy Winkel",
+        "reason": "職能治療師高度推薦，專為雙側協調設計，適用年齡最廣（0 個月起）"
+      },
+      "safety": {
+        "winner": "Oball Classic Ball",
+        "reason": "實心設計無召回歷史，輕量化不會傷到嬰兒"
+      },
+      "value": {
+        "winner": "Sassy Bumpy Ball",
+        "reason": "價格最低（$5-8）且有 31K+ 好評和專業獎項"
+      },
+      "sensory_richness": {
+        "winner": "Manhattan Toy Skwish",
+        "reason": "天然木材提供視覺、聽覺、觸覺多重刺激"
+      }
+    },
+    "overall_conclusion": "所有產品都能解決嬰兒抓握訓練問題，但各有專長。Oball 系列價格親民、安全輕量；Winkel 獲 OT 專業推薦、促進雙側協調；Skwish 提供最豐富感官體驗。建議依嬰兒發展階段和家長偏好選擇，或組合使用。"
+  },
+  "recommendation_type": "comparison",
+  "recommendation_rationale": "所有產品都能解決問題，但各有不同優勢，適合不同需求和偏好，沒有單一最佳選擇",
+  "confidence": "medium",
+  "confidence_rationale": "基於研究報告和評測文章，未取得 Discovery 產品或競品的 Amazon 評論萃取結果。WebSearch 11 次、WebFetch 30 次，低於標準（20/100）。",
+  "data_limitations": [
+    "缺乏 L1-L6 萃取結果（無 Amazon 評論抓取）",
+    "WebFetch 次數僅 30 次，低於 100 次標準",
+    "部分競品無 Amazon ASIN，僅基於評測文章",
+    "缺乏跨平台比較（僅 Amazon 研究）"
+  ],
+  "next_steps": [
+    "抓取 Oball Classic (ASIN TBD) 評論",
+    "抓取 Manhattan Toy Winkel (B000BNCA4K) 評論",
+    "抓取 Sassy Bumpy Ball (B004AHMCMI) 評論",
+    "重新執行 Step 5 補齊 WebFetch 次數至 100+"
+  ]
+}

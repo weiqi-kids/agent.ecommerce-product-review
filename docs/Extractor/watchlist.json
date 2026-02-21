@@ -479,7 +479,32 @@
       }
     }
   ],
-  "categories": [],
+  "categories": [
+    {
+      "name": "infant-sensory-toy",
+      "watch_reason": "research_gap",
+      "added_date": "2026-02-21",
+      "action": "supplement_research",
+      "notes": "WebFetch 0 次，需補齊至 100+",
+      "priority": "medium"
+    },
+    {
+      "name": "foam-playmat",
+      "watch_reason": "research_gap",
+      "added_date": "2026-02-21",
+      "action": "supplement_research",
+      "notes": "WebFetch 0 次，需補齊至 100+",
+      "priority": "medium"
+    },
+    {
+      "name": "kids-activity-book",
+      "watch_reason": "research_gap",
+      "added_date": "2026-02-21",
+      "action": "supplement_research",
+      "notes": "WebFetch 0 次，需補齊至 100+",
+      "priority": "low"
+    }
+  ],
   "deferred_categories": [],
   "completed_gap_fills": {
     "2026-02-08": [

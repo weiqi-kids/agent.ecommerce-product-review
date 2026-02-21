@@ -1,0 +1,142 @@
+{
+  "category": "pretend-play-kitchen",
+  "date": "2026-02-21",
+  "analysis_basis": "research",
+  "products_analyzed": {
+    "discovery_products": [
+      {
+        "name": "Disney Junior Minnie Mouse Flipping Fun Kitchen",
+        "platform": "walmart",
+        "product_id": "346254805",
+        "price_range": "$30-50",
+        "type": "themed-kitchen"
+      },
+      {
+        "name": "Disney Junior Minnie Mouse Terrific Teapot",
+        "platform": "walmart",
+        "product_id": "878062663",
+        "price_range": "$15-25",
+        "type": "tea-set"
+      },
+      {
+        "name": "Disney Junior Minnie Mouse Shopping Cart",
+        "platform": "walmart",
+        "product_id": "861876278",
+        "price_range": "$20-30",
+        "type": "shopping-cart"
+      },
+      {
+        "name": "Kid Connection Play Food Basket",
+        "platform": "walmart",
+        "product_id": "522636347",
+        "type": "food-set"
+      }
+    ],
+    "competitors_with_asin": [
+      {
+        "name": "KidKraft Vintage Play Kitchen (Pink)",
+        "asin": "B002VC7ZJM",
+        "recommendation_count": 4,
+        "price_range": "~$100",
+        "type": "full-kitchen"
+      },
+      {
+        "name": "Melissa & Doug Cutting Food Set",
+        "asin": "B00005RF5C",
+        "recommendation_count": 5,
+        "type": "food-set"
+      },
+      {
+        "name": "Hape Wooden Play Kitchen",
+        "asin": "B00TKOCM1C",
+        "recommendation_count": 3,
+        "price_range": "<$100",
+        "type": "full-kitchen"
+      },
+      {
+        "name": "KidKraft Ultimate Corner Play Kitchen",
+        "asin": "B01M0PKCO8",
+        "recommendation_count": 3,
+        "type": "full-kitchen"
+      },
+      {
+        "name": "Melissa & Doug Food Groups",
+        "asin": "B001HZQC92",
+        "recommendation_count": 3,
+        "type": "food-set"
+      }
+    ],
+    "competitors_no_identifier": [
+      {
+        "name": "Lalo Play Kitchen",
+        "brand": "Lalo",
+        "price": "$395",
+        "rating": "5/5"
+      },
+      {
+        "name": "Tiny Land Wooden Play Kitchen",
+        "price_range": "$100-150"
+      },
+      {
+        "name": "ROBUD Realistic Play Kitchen",
+        "price_range": "$80-120"
+      }
+    ]
+  },
+  "key_findings": {
+    "market_segments": {
+      "budget_themed": {
+        "price_range": "$15-50",
+        "products": ["Minnie Mouse Kitchen series"],
+        "strengths": ["Character appeal", "Low price", "Gift-friendly size"],
+        "weaknesses": ["Plastic construction", "Limited durability", "Smaller size"]
+      },
+      "mid_range_wooden": {
+        "price_range": "$80-150",
+        "products": ["KidKraft", "Hape", "ROBUD"],
+        "strengths": ["Durability", "Aesthetic", "Larger size"],
+        "weaknesses": ["Long assembly time", "Higher price"]
+      },
+      "premium_wooden": {
+        "price_range": "$300+",
+        "products": ["Lalo", "Step2 Grand"],
+        "strengths": ["Quick assembly", "Premium materials", "Best durability"],
+        "weaknesses": ["High price point"]
+      }
+    },
+    "developmental_benefits": {
+      "all_products": [
+        "Pretend play skills",
+        "Language development",
+        "Fine motor skills",
+        "Social-emotional learning"
+      ],
+      "research_backing": "Child Mind Institute confirms 2-5 years is peak pretend play period"
+    },
+    "comparison_summary": {
+      "minnie_mouse_vs_kidkraft": {
+        "winner": "depends_on_needs",
+        "minnie_advantages": ["Lower cost", "Character appeal", "Easy storage"],
+        "kidkraft_advantages": ["Better durability", "Realistic design", "More accessories"]
+      },
+      "plastic_vs_wood": {
+        "plastic": "Better for outdoor, easier cleaning, lower cost",
+        "wood": "Better aesthetics, more durable long-term, eco-friendly"
+      }
+    },
+    "safety_considerations": [
+      "Most products marked 3+ years (choking hazard)",
+      "Check for non-toxic paint certifications",
+      "Ensure stability to prevent tipping"
+    ]
+  },
+  "recommendation_type": "comparison",
+  "recommendation_rationale": "Multiple viable options exist across price points. No single product is definitively best - choice depends on budget, space, and child preferences.",
+  "confidence": "medium",
+  "confidence_rationale": "Based on research articles and expert recommendations. Lacks direct user review extraction for Discovery products (Step 6 not yet completed for Walmart items).",
+  "next_steps": [
+    "Extract reviews for Walmart Discovery products",
+    "Extract reviews for top ASIN competitors",
+    "Update analysis with user sentiment data"
+  ]
+}

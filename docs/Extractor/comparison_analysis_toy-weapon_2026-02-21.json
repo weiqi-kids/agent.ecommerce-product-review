@@ -1,0 +1,121 @@
+{
+  "category": "toy-weapon",
+  "date": "2026-02-21",
+  "analysis_basis": "research",
+  "products_analyzed": [
+    {
+      "name": "Marvel Spider-Man Super Web Slinger",
+      "platform": "walmart",
+      "product_id": "495741772",
+      "type": "discovery",
+      "problem_solved": "角色扮演（蜘蛛人）",
+      "age_range": "5+",
+      "price_range": "$15-25"
+    },
+    {
+      "name": "Nerf Elite 2.0 Eaglepoint RD-8",
+      "platform": "walmart",
+      "product_id": "498243482",
+      "type": "discovery",
+      "problem_solved": "射擊遊戲（含瞄準鏡）",
+      "age_range": "8+",
+      "price_range": "$20-30"
+    },
+    {
+      "name": "Nerf Elite 2.0 Commander RD-6",
+      "platform": "amazon",
+      "product_id": "B0828Q1VWL",
+      "type": "competitor",
+      "problem_solved": "入門射擊遊戲",
+      "age_range": "6+",
+      "price_range": "<$10",
+      "recommendation_count": 4
+    },
+    {
+      "name": "Nerf N-Strike Elite Strongarm",
+      "platform": "amazon",
+      "product_id": "B00DW1JT88",
+      "type": "competitor",
+      "problem_solved": "射擊遊戲",
+      "age_range": "6+",
+      "price_range": "~$15",
+      "recommendation_count": 3
+    },
+    {
+      "name": "Nerf Rival Nemesis MXVII-10K",
+      "platform": "amazon",
+      "product_id": "B01MZ5UMGR",
+      "type": "competitor",
+      "problem_solved": "競技射擊",
+      "age_range": "14+",
+      "price_range": "~$100",
+      "recommendation_count": 2
+    }
+  ],
+  "key_findings": {
+    "spider_man_web_slinger": {
+      "pros": [
+        "超級英雄角色扮演吸引力高",
+        "可噴射蜘蛛絲或水",
+        "戶外娛樂效果佳"
+      ],
+      "cons": [
+        "蜘蛛絲消耗快（15 分鐘內用完）",
+        "補充包價格高",
+        "手部可能太大（5 歲以下難操作）",
+        "容易堵塞",
+        "僅適合戶外（會弄髒）"
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": "N/A",
+        "creates_new_problem": "補充包高消耗成本、容易堵塞",
+        "unrelated_to_product": "N/A"
+      },
+      "verdict": "能解決角色扮演需求，但有耗材成本和使用限制"
+    },
+    "nerf_eaglepoint": {
+      "pros": [
+        "含瞄準鏡配件，精準度高",
+        "標準 Nerf 品質保證",
+        "適合室內外使用"
+      ],
+      "cons": [
+        "無萃取資料（待 Step 6 抓取）"
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": "N/A",
+        "creates_new_problem": "N/A",
+        "unrelated_to_product": "N/A"
+      },
+      "verdict": "待評論資料補充"
+    },
+    "competitor_comparison": {
+      "best_value": "Nerf Elite 2.0 Commander RD-6（<$10，4 次專家推薦）",
+      "best_performance": "Nerf Rival Nemesis（100 發彈倉，14+ 競技級）",
+      "best_for_beginners": "Nerf MicroShot（輕量，適合 4+ 歲）"
+    }
+  },
+  "safety_concerns": [
+    {
+      "product": "Nerf Rival/Gelfire 系列",
+      "concern": "高速彈丸可能造成眼睛傷害",
+      "severity": "medium",
+      "mitigation": "必須配戴護目鏡"
+    },
+    {
+      "product": "Gel Blaster",
+      "concern": "CPSC 警告水球可能含致癌物（丙烯醯胺）",
+      "severity": "high",
+      "mitigation": "避免購買，多國已召回"
+    }
+  ],
+  "recommendation_type": "comparison",
+  "recommendation_rationale": "Discovery 產品（Spider-Man、Eaglepoint）各有特色但無法說是「比競品更好」。Spider-Man 有耗材問題，Nerf Commander RD-6 性價比更高（$10 以下 + 4 次專家推薦）。建議產出比較報告讓消費者依需求選擇。",
+  "confidence": "medium",
+  "confidence_rationale": "研究資料充足（8 個評測來源），但缺乏 Walmart Discovery 產品的用戶評論萃取（僅有研究報告的評測資料）",
+  "next_steps": [
+    "Step 6 抓取 Walmart 產品評論（495741772, 498243482）",
+    "Step 6 抓取優先競品評論（B0828Q1VWL, B00DW1JT88）",
+    "Step 8 產出比較報告"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "category": "sensory-fidget",
+  "date": "2026-02-21",
+  "analysis_basis": "research + existing_extraction",
+  "products_analyzed": [
+    {
+      "product_id": "B0DG2VRFV7",
+      "name": "Mantyplay 30 Pack Squishy Toys",
+      "source": "amazon_extraction",
+      "avg_rating": 4.65,
+      "reviews_analyzed": 50,
+      "price": 7.99,
+      "overall_sentiment": 0.68,
+      "strengths": ["cuteness", "value_for_money", "squishiness", "variety"],
+      "weaknesses": ["size_smaller_than_expected", "paint_rubs_off", "sticky_texture", "choking_hazard"]
+    },
+    {
+      "product_id": "research_neeDoh",
+      "name": "NeeDoh Nice Cube / Gumdrop",
+      "source": "research_articles",
+      "strengths": ["soft_texture", "slow_squeeze_satisfaction", "brand_reputation"],
+      "weaknesses": ["chemical_smell", "pH_2_burn_risk", "durability_issues", "attracts_dust"],
+      "safety_warning": "Consumer Reports: pH = 2 (chemical burn risk)"
+    }
+  ],
+  "competitors_summary": {
+    "total_competitors": 30,
+    "with_asin": 23,
+    "without_asin": 7,
+    "top_recommended": [
+      {"name": "ONO Roller Classic", "mentions": 8, "use_case": "office"},
+      {"name": "Infinity Cube", "mentions": 7, "use_case": "general"},
+      {"name": "Tangle Jr.", "mentions": 6, "use_case": "classroom"},
+      {"name": "PILPOC Fidget Cube", "mentions": 6, "use_case": "general"},
+      {"name": "MindPanda Stress Ball", "mentions": 5, "use_case": "office"}
+    ]
+  },
+  "key_findings": {
+    "negative_review_classification": {
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "percentage": 12,
+        "issues": ["durability_issues", "paint_rubs_off_quickly"]
+      },
+      "creates_new_problems": {
+        "symbol": "⚠️",
+        "percentage": 10,
+        "issues": ["choking_hazard_size", "sticky_texture", "chemical_smell_risk", "looks_like_candy"]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "percentage": 4,
+        "issues": ["incomplete_package_count", "melted_on_arrival"]
+      }
+    },
+    "safety_concerns": [
+      {
+        "issue": "Choking hazard",
+        "severity": "high",
+        "affected_products": ["Mochi Squishy", "Mantyplay 30 Pack"],
+        "evidence": "1-2 inch size, resembles edible gummies"
+      },
+      {
+        "issue": "Chemical burn risk",
+        "severity": "high",
+        "affected_products": ["NeeDoh Groovy Glob"],
+        "evidence": "Consumer Reports: pH = 2"
+      },
+      {
+        "issue": "Paint/ink transfer to skin",
+        "severity": "medium",
+        "affected_products": ["Mantyplay 30 Pack", "Mochi Squishy"],
+        "evidence": "12% of reviews report ink rubbing off onto hands"
+      }
+    ],
+    "scientific_evidence": {
+      "supporting": [
+        "2013 Frontiers in Psychology: fidgeting helps material retention",
+        "2006 pilot study: stress balls improved attention in 6th graders",
+        "2018 ADHD study: fidget spinners increased on-task behavior 25-34% to 55-79%"
+      ],
+      "limiting": [
+        "2020 Fidget Cube study: no improvement in academic engagement",
+        "2022 review: insufficient evidence for classroom fidget toy implementation",
+        "Fidget spinners linked to decreased attention in non-ADHD populations"
+      ]
+    },
+    "market_insight": {
+      "market_size_2025": "$6.98 billion",
+      "market_size_2026": "$8 billion",
+      "top_segment": "Fidget Spinners (40.02% market share)",
+      "growth_drivers": ["mental_health_awareness", "sustainability_focus", "corporate_wellness"]
+    }
+  },
+  "recommendation_type": "comparison",
+  "recommendation_rationale": "Discovery 產品（Mantyplay Squishy）能部分解決紓壓需求（85% squishiness 正面），但存在耐用性和安全問題。競品（ONO Roller、Tangle Jr.）在特定場景表現更佳。無法單純推薦或警告，需依使用場景比較選擇。",
+  "confidence": "medium",
+  "confidence_rationale": "僅有 1 個 Discovery 產品萃取結果，競品多來自評測文章而非實際用戶評論。研究報告涵蓋 50 次 WebFetch，資料來源多元但萃取覆蓋率有限。",
+  "next_steps": [
+    "Step 6: 抓取競品 ASIN（B09MS1GKBK, B081VZH4JN, B01HN3RYDC 等）進行萃取",
+    "Step 8: 產出比較報告，按使用場景（辦公室/課堂/家中）推薦"
+  ]
+}

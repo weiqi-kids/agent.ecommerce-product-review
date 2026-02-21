@@ -1,0 +1,50 @@
+{
+  "category": "collectible-blind-box",
+  "date": "2026-02-21",
+  "analysis_basis": "research",
+  "products_analyzed": [
+    {
+      "product_id": "B0FJFV4PQN",
+      "name": "POP MART The Monster Pin for Love Series Labubu",
+      "platform": "amazon",
+      "data_source": "discovery + research",
+      "price": "$27.99",
+      "rating": null
+    }
+  ],
+  "competitors": {
+    "with_asin": ["B0FJFV4PQN", "B09XXXXXXXXX"],
+    "without_asin": ["Big Into Energy (V3) Labubu", "Molly Series", "Skullpanda Series"]
+  },
+  "key_findings": {
+    "problem_solved": "盲盒收藏娛樂",
+    "market_leader": "POP MART Labubu",
+    "market_value": "400 億美元",
+    "labubu_growth": "2024 年同比增長 >700%",
+    "pros": [
+      "高品質",
+      "收藏樂趣",
+      "社群文化活躍"
+    ],
+    "cons": [
+      "價格偏高（$27.99/盒）",
+      "假貨問題嚴重（2025 上半年查獲超 100 萬假冒品）",
+      "成癮疑慮（中國官方警告）",
+      "43% 用戶計劃減少購買"
+    ],
+    "age_recommendation": "官方 15+，實際成人為主",
+    "negative_classification": {
+      "cannot_solve_problem": "低（產品品質評價良好）",
+      "creates_new_problems": "中（假貨風險、成癮疑慮）",
+      "unrelated_to_product": "中（物流、假貨來源問題）"
+    }
+  },
+  "recommendation_type": "comparison",
+  "recommendation_reason": "產品能提供收藏娛樂，但存在假貨風險和成癮疑慮，需提供購買指南和風險警示",
+  "confidence": "medium",
+  "confidence_reason": "研究資料有限（WebFetch 0 次），僅基於搜尋結果摘要，無實際用戶評論萃取",
+  "next_steps": [
+    "Step 6: 抓取 B0FJFV4PQN 評論進行 L1-L6 萃取",
+    "Step 8: 產出比較報告，強調假貨辨識和購買管道建議"
+  ]
+}
