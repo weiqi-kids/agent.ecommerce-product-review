@@ -105,8 +105,37 @@
 | 日期 | 週訪客 | 熱門頁面 TOP 3 | 備註 |
 |------|--------|---------------|------|
 | 2026-02-20 | - | - | 改版完成，開始監控 |
+| 2026-02-21 | 11 views / 4 uniques | 1. weighted-vest research (2) 2. Repo 首頁 (1) 3. B074MX8VN5 家電 (1) | 來源：ecommerce.weiqi.kids (3 views) |
 | | | | |
-| | | | |
+
+---
+
+## Traffic 詳細記錄（2026-02-21）
+
+### 過去 14 天 Views
+
+| 日期 | Views | Uniques |
+|------|-------|---------|
+| 2026-02-14 | 3 | 1 |
+| 2026-02-16 | 8 | 3 |
+| 其他日期 | 0 | 0 |
+| **總計** | **11** | **4** |
+
+### 熱門頁面 TOP 5
+
+| 排名 | 頁面 | Views | Uniques |
+|------|------|-------|---------|
+| 1 | research/weighted-vest--2026-02-06.md | 2 | 2 |
+| 2 | Repo 首頁 | 1 | 1 |
+| 3 | amazon_us/home_appliance/B074MX8VN5 | 1 | 1 |
+| 4 | amazon_us/toaster/B0CYJBB2JQ | 1 | 1 |
+| 5 | discovery_cache/beauty-bestsellers | 1 | 1 |
+
+### 來源網站
+
+| 來源 | Views | Uniques |
+|------|-------|---------|
+| ecommerce.weiqi.kids | 3 | 1 |
 
 ---
 
