@@ -1,26 +1,102 @@
 {
   "date": "2026-02-21",
-  "execution_mode": "incremental",
-  "discovery_source": {
-    "latest_jsonl": "2026-02-17",
-    "cache_metadata": "2026-02-21",
-    "note": "Step 3 產出元資料但無新 JSONL，使用最近可用資料"
-  },
-  "comparison": {
-    "baseline_date": "2026-02-20",
-    "baseline_products": 36,
-    "today_products": 70,
-    "new_products": 0,
-    "note": "今日 discovery 僅有元資料，無法識別新產品"
-  },
-  "grouping_result": {
-    "new_to_existing_category": 0,
-    "new_category_created": 0,
-    "new_category_names": []
-  },
-  "action": "skip_step_5_to_8",
-  "reason": "無新產品需要分組，沿用昨日分組結果（3 個新類別已處理）",
-  "existing_categories_count": 80,
-  "total_products_in_groups": 317,
-  "recommendation": "下次執行時確保 scraper 產出 JSONL 檔案"
+  "total_products": 70,
+  "existing_categories_used": 11,
+  "new_categories": 10,
+  "grouping": {
+    "sensory-fidget": {
+      "reason": "新類別",
+      "problem": "焦慮、專注力、需要觸覺刺激（減壓紓壓）",
+      "products": ["B0DQNQ1ZVZ", "B0C6XBP4CW", "B0D9ZTW7PS", "B0DG2VRFV7", "B09LMBLYF1", "B0B2HN96TZ"]
+    },
+    "party-balloon": {
+      "reason": "歸入現有",
+      "products": ["B0BZCHMVTK", "B0BDQN1SG5", "B0BJZRS4KR", "B0B1B14DRT"]
+    },
+    "playing-cards": {
+      "reason": "歸入現有",
+      "products": ["B09SDKSXLZ"]
+    },
+    "art-supplies": {
+      "reason": "歸入現有",
+      "products": ["B00JM5GW10", "B013RQPB5C", "B00006RVTS", "B09PGVGCH5"]
+    },
+    "trading-cards": {
+      "reason": "歸入現有",
+      "products": ["B0FR717633", "B0829FT44S"]
+    },
+    "board-games": {
+      "reason": "歸入現有",
+      "products": ["B0DWGVM7RY", "878142", "298923226", "740300238", "844802217", "45160361", "334768093"]
+    },
+    "infant-grasping-toy": {
+      "reason": "新類別",
+      "problem": "嬰兒手部抓握訓練",
+      "products": ["B00ZRD99C0", "B008J1QP7Y"]
+    },
+    "toddler-learning-toy": {
+      "reason": "新類別",
+      "problem": "幼兒語言、認知學習",
+      "products": ["B07B6ZN7P8", "B0CRYJB6GK", "945616532"]
+    },
+    "infant-sensory-toy": {
+      "reason": "新類別",
+      "problem": "嬰兒感官刺激",
+      "products": ["B0B21ZM7LJ"]
+    },
+    "kids-bike": {
+      "reason": "歸入現有",
+      "products": ["B08SGH7NKX", "447692039", "404066074", "665534685", "1121295", "719506752", "372908491"]
+    },
+    "action-figure": {
+      "reason": "歸入現有",
+      "products": ["B07PQFT83F", "1720510230", "184060290", "B08FCS4LMT"]
+    },
+    "building-blocks": {
+      "reason": "歸入現有",
+      "products": ["B0DRW6C2RF", "1048408325", "21577914", "1527935978", "127461902", "1265749696", "41004055", "198504105", "1520961263"]
+    },
+    "collectible-blind-box": {
+      "reason": "新類別",
+      "problem": "盲盒收藏娛樂",
+      "products": ["B0FJFV4PQN"]
+    },
+    "toy-cars": {
+      "reason": "歸入現有",
+      "products": ["4029710", "32803180", "2536583"]
+    },
+    "kids-activity-book": {
+      "reason": "新類別",
+      "problem": "兒童塗鴉貼紙活動書",
+      "products": ["B098PMWSVS"]
+    },
+    "ride-on-toy": {
+      "reason": "歸入現有",
+      "products": ["136842804", "368588452", "861364225"]
+    },
+    "giant-teddy-bear": {
+      "reason": "歸入現有",
+      "products": ["1021645467", "109738101"]
+    },
+    "pretend-play-kitchen": {
+      "reason": "新類別",
+      "problem": "家家酒廚房玩具",
+      "products": ["861876278", "522636347", "878062663", "346254805"]
+    },
+    "toy-weapon": {
+      "reason": "新類別",
+      "problem": "兒童角色扮演武器",
+      "products": ["495741772", "498243482"]
+    },
+    "foam-playmat": {
+      "reason": "新類別",
+      "problem": "地板安全墊 + 學習字母",
+      "products": ["144511168"]
+    },
+    "baby-walker": {
+      "reason": "新類別",
+      "problem": "嬰兒學步輔助",
+      "products": ["965565931"]
+    }
+  }
 }

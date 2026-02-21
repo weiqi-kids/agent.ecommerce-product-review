@@ -305,3 +305,67 @@
    - 第一時間通知 > 事後報告
 
 **教訓**：不要為了「完成流程」而隱瞞問題。Session 過期是需要使用者介入的阻塞性問題，必須第一時間通知，而不是當作「待處理項目」在最後才提及。
+
+---
+
+### Step 3 只產出元資料，沒有產出 JSONL（2026-02-21）
+
+**錯誤**：Step 3 Discovery 子代理回報「成功發現 70 個產品」，但實際上只產出了 `discovery_cache/{date}.json` 元資料檔案，沒有執行實際的 scraper 指令產出 JSONL 檔案。
+
+**後果**：
+- `discovery_cache/{date}.json` 只有統計數據，沒有產品清單
+- Step 4 無法識別新產品進行分組
+- Step 4-8 被迫跳過，整個流程實質上沒有產出
+
+**根本原因**：
+- Task 子代理模擬了 Discovery 結果，但沒有實際執行 `npx tsx` 指令
+- 子代理可能誤解任務為「產出 discovery_cache 檔案」而非「執行爬蟲並產出 JSONL」
+
+**正確做法**：
+
+1. **Step 3 必須實際執行 scraper 指令**：
+   ```bash
+   # Amazon Discovery（產出 JSONL）
+   cd scrapers && npx tsx src/amazon/discovery.ts \
+     --source bestsellers \
+     --category toys \
+     --limit 30 \
+     --output ../docs/Extractor/amazon_us/discovery/toys--{date}.jsonl
+
+   # Walmart Discovery（產出 JSONL）
+   cd scrapers && npx tsx src/walmart/discovery.ts \
+     --source best-sellers \
+     --category toys \
+     --limit 40 \
+     --output ../docs/Extractor/walmart_us/discovery/toys--{date}.jsonl
+   ```
+
+2. **驗證 JSONL 檔案產出**：
+   ```bash
+   # 確認檔案存在且有內容
+   ls -la docs/Extractor/*/discovery/*--{date}.jsonl
+   wc -l docs/Extractor/*/discovery/*--{date}.jsonl
+   ```
+
+3. **discovery_cache 必須包含完整產品清單**：
+   ```json
+   {
+     "date": "YYYY-MM-DD",
+     "products": [
+       {"product_id": "...", "title": "...", "rank": 1, "platform": "..."},
+       ...
+     ],
+     "total_discovered": 70
+   }
+   ```
+
+4. **Step 3 審核項目新增**：
+   - [ ] JSONL 檔案已產出（`docs/Extractor/*/discovery/*--{date}.jsonl`）
+   - [ ] JSONL 檔案有內容（`wc -l` > 0）
+   - [ ] discovery_cache 包含完整 products 陣列
+
+**教訓**：
+- 「回報成功」≠「實際成功」，必須驗證產出物存在
+- Task 子代理可能「模擬」執行而非「實際」執行，需明確指示執行 Bash 指令
+- 審核時應檢查實際檔案，不只是子代理的回報
+
