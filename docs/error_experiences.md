@@ -369,3 +369,107 @@
 - Task 子代理可能「模擬」執行而非「實際」執行，需明確指示執行 Bash 指令
 - 審核時應檢查實際檔案，不只是子代理的回報
 
+---
+
+### SEO article-summary 標籤格式錯誤（2026-02-21）
+
+**錯誤**：Step 8 產出的 10 個比較報告使用 `<p class="article-summary">` 而非 `<div class="article-summary">`，導致 SEO 驗證失敗。
+
+**後果**：
+- `npm run seo:validate` 報告 10 個檔案失敗：「缺少必要 AI Tag: article-summary」
+- 需要手動修復才能通過驗證
+
+**根本原因**：
+- 驗證腳本 `scripts/validate-seo.js` 只檢查 `<div class="article-summary">`
+- 現有通過驗證的報告都使用 `<div>` 而非 `<p>`
+- Step 8 報告產出模板或子代理沒有遵循正確格式
+
+**正確做法**：
+
+1. **article-summary 必須使用 `<div>` 標籤**：
+   ```html
+   <!-- ✅ 正確 -->
+   <div class="article-summary">
+   摘要內容...
+   </div>
+
+   <!-- ❌ 錯誤 -->
+   <p class="article-summary">
+   摘要內容...
+   </p>
+   ```
+
+2. **其他 AI Tag 的正確格式**：
+   | Tag | 格式 |
+   |-----|------|
+   | article-summary | `<div class="article-summary">...</div>` |
+   | key-answer | `<p class="key-answer">...</p>` |
+   | key-takeaway | `<div class="key-takeaway">...</div>` |
+
+3. **Step 8 報告產出前檢查**：
+   - 確認 article-summary 使用 `<div>` 標籤
+   - 執行 `npm run seo:validate` 驗證
+
+**教訓**：AI Tag 的 HTML 標籤格式有嚴格要求，不同的 tag 使用不同的 HTML 元素。產出報告前應確認格式符合驗證規則。
+
+---
+
+### sed 批量替換範圍過大（2026-02-21）
+
+**錯誤**：修復 article-summary 標籤時，使用了過於寬鬆的 sed 替換：
+```bash
+# 錯誤的指令
+sed -i '' 's/<\/p>$/<\/div>/g' "$f"
+```
+這將所有行尾的 `</p>` 都替換成 `</div>`。
+
+**後果**：
+- `<p class="key-answer">...</p>` 變成 `<p class="key-answer">...</div>`
+- 導致 div 標籤開閉不配對：「開啟 2 個，關閉 8 個」
+- SEO 驗證報告「div 標籤未配對」錯誤
+- 需要多次修復才能解決
+
+**根本原因**：
+- 急於修復問題，沒有仔細設計替換邏輯
+- 使用正則表達式 `$`（行尾）過於寬鬆
+- 沒有先測試替換效果再批量執行
+
+**正確做法**：
+
+1. **精準的替換策略**：
+   ```bash
+   # ✅ 正確：只替換 article-summary 的開閉標籤
+   # 替換開標籤
+   sed -i '' 's/<p class="article-summary">/<div class="article-summary">/g' "$f"
+
+   # 替換緊跟在 article-summary 內容後的 </p>（需要更複雜的邏輯）
+   ```
+
+2. **使用 perl 處理多行替換**：
+   ```bash
+   # 精準匹配 article-summary 區塊
+   perl -i -0pe 's/<p class="article-summary">(.*?)<\/p>/<div class="article-summary">$1<\/div>/gs' "$f"
+   ```
+
+3. **批量修改前的檢查清單**：
+   - [ ] 先在單一檔案測試替換效果
+   - [ ] 檢查替換後的 HTML 標籤是否配對
+   - [ ] 驗證沒有影響到其他內容
+
+4. **修復後驗證**：
+   ```bash
+   # 檢查 div 標籤配對
+   for f in *.md; do
+     opens=$(grep -c "<div" "$f")
+     closes=$(grep -c "</div>" "$f")
+     if [ "$opens" != "$closes" ]; then
+       echo "MISMATCH: $f - opens: $opens, closes: $closes"
+     fi
+   done
+   ```
+
+**教訓**：
+- 批量文字替換要精準，避免使用過於寬鬆的正則表達式
+- 修復問題時不要急躁，先測試再批量執行
+- 修復後立即驗證，確保沒有造成新問題
+
