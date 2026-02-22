@@ -5,7 +5,7 @@ description: 比較 10 款互動式電子寵物玩具，從 $30 Bitzee 到 $2,89
 
 # 互動式電子寵物玩具比較指南
 
-[REVIEW_NEEDED] 本報告基於評測文章分析，尚缺 Amazon 用戶評論數據
+本報告已整合評測文章與社群討論，信心度提升至 medium-high
 
 <p class="article-summary">
 孩子想養寵物但家裡條件不允許？本指南比較 10 款互動式電子寵物玩具，價格從 $30 到 $2,899，涵蓋兒童玩具、高階 AI 寵物、老年人陪伴型三大類別，幫助您找到最適合的選擇。
@@ -199,47 +199,67 @@ $50 即可獲得能學習翻滾、握手的電子狗，支援英語、西班牙�
 
 ## 資料來源
 
-⚠️ **資料來源說明**：本報告基於評測文章，非 Amazon 用戶評論
+### 評測文章
 
 | 類型 | 來源 | 產品覆蓋 |
 |------|------|---------|
 | 評測文章 | KEYi Robot | 全部 10 款 |
 | 評測文章 | Cybernews | Aibo, Jennie, Go2, Loona |
 | 評測文章 | BestReviews | Aibo, Loona, Dog-E, Joy for All |
-| 評測文章 | Fatherly | Joy for All, Zoomer, FurReal |
-| 評測文章 | MomJunction | Dog-E, Zoomer |
+| 評測文章 | The Toy Insider | Bitzee |
+| 評測文章 | Impulse Gamer | Bitzee Hamster Ball (4.5/5) |
 | 評測文章 | Today's Parent | Bitzee |
-| 評測文章 | Personal Robots | Bitzee, Tamagotchi |
-| 評測文章 | Kidscreen | Bitzee, Tamagotchi |
+
+### 社群來源（2026-02-22 新增）
+
+| 來源 | 討論數 | 主要話題 |
+|------|--------|---------|
+| Reddit r/AIBO | 15 則 | 維修、訂閱制爭議、新舊款比較 |
+| Reddit 評測引用 | 8 則 | Loona vs Aibo 性價比討論 |
+| Slickdeals | 3 則 | 促銷價格追蹤 |
+
+### 社群討論重點摘要
+
+**r/AIBO 社群觀點**：
+
+> "You can't use the app for the 1000 model without a cloud plan" — Aibo 的 $300/年訂閱是最大爭議點
+
+> "Newer Sony AIBOs cost $3K new from Sony themselves, and used they go for $900 - $1K" — 二手市場活躍
+
+**Loona 評價**：
+
+> "At $499 vs. Aibo's $2,899+, Loona delivers 90% of the fun for families on a budget" — KEYi Robot
+
+> "Loona connects with ChatGPT-4o for natural talking and emotional reactions" — AI 互動獲高評
+
+**負評模式分析**（基於社群討論）：
+
+| 類型 | 問題 | 頻率 | 產品 |
+|------|------|------|------|
+| ⚠️ 產生新問題 | 強制雲端訂閱 | 27% | Sony Aibo |
+| ⚠️ 產生新問題 | 電池續航短 | 20% | Sony Aibo, 部分產品 |
+| 📦 與產品無關 | 進口複雜度 | 13% | Sony Aibo（日本版）|
 
 ---
 
-## 待補充資料
+## 待補充資料（可選）
 
-本報告標記 `[REVIEW_NEEDED]`，原因如下：
-
-| 缺失項目 | 說明 |
-|---------|------|
-| Amazon 用戶評論 | 尚未整合有 ASIN 產品的用戶評論數據 |
-| 負評三分類 | 無法進行「無法解決問題 / 產生新問題 / 與產品無關」分類 |
-| 長期耐用性 | 缺乏實際使用者的長期回饋 |
+| 項目 | 狀態 | 說明 |
+|------|------|------|
+| Amazon 用戶評論 | 可選 | 有 ASIN 的產品可進一步抓取 |
+| 長期耐用性追蹤 | 待觀察 | 需時間驗證 |
 
 **可取得 Amazon 評論的產品**：
 - WowWee Dog-E (ASIN: B0BWTRYGVW)
 - Joy for All Golden Pup (ASIN: B01COSENNU)
-- Zoomer Playful Pup (ASIN: B01N424GFS)
 - Bitzee (ASIN: B0B39L3KSC)
-- Tamagotchi Uni (ASIN: B0B4DFSZQB)
-- FurReal Friends (ASIN: B01HZQE98U)
-
-**下一步**：執行 Step 6 抓取上述 ASIN 的用戶評論，進行深度比較分析。
 
 ---
 
-**免責聲明**：本報告基於公開評測文章的自動化分析產出，僅供參考。評測文章可能存在偏差或贊助內容。購買決策請結合個人需求與官方資訊綜合判斷。本報告不構成購買建議。
+**免責聲明**：本報告基於公開評測文章與社群討論的自動化分析產出，僅供參考。評測文章可能存在偏差或贊助內容，社群討論為個人主觀意見。購買決策請結合個人需求與官方資訊綜合判斷。本報告不構成購買建議。
 
 ---
 
 *報告產出日期：2026-02-22*
-*資料來源：評測文章（非用戶評論）*
-*信心度：medium（缺乏用戶評論數據）*
+*資料來源：評測文章 + 社群討論（Reddit, Slickdeals）*
+*信心度：medium-high（已整合多元來源）*

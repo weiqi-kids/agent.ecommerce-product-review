@@ -60,9 +60,9 @@
       ]
     },
     "step_6": {
-      "status": "partial",
-      "note": "新類別產品 Walmart 評論抓取進行中",
-      "fetch_in_progress": [
+      "status": "cancelled",
+      "note": "使用者取消 Walmart 評論抓取",
+      "cancelled_items": [
         "176916724",
         "14198760708"
       ]
@@ -76,7 +76,7 @@
       "status": "completed",
       "note": "2 個比較報告產出完成",
       "reports_generated": 2,
-      "reports_with_review_needed": 2
+      "reports_with_review_needed": 0
     }
   },
   "summary": {

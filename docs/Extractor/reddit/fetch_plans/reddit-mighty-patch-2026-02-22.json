@@ -1,0 +1,19 @@
+{
+  "layer": "reddit",
+  "query": "Mighty Patch",
+  "generated_at": "2026-02-22T07:51:18Z",
+  "mode": "mcp_fetch",
+  "search_queries": [
+    "site:reddit.com \"Mighty Patch\" review",
+    "site:reddit.com \"Mighty Patch\" worth it",
+    "site:reddit.com \"Mighty Patch\" problems"
+  ],
+  "target_subreddits": ["SkincareAddiction", "MakeupAddiction", "headphones", "gadgets", "BuyItForLife"],
+  "max_posts": 50,
+  "instructions": {
+    "step1": "使用 WebSearch 執行 search_queries 中的查詢",
+    "step2": "從搜尋結果中提取 Reddit URL",
+    "step3": "使用 MCP fetch_url 抓取每個 Reddit 討論串",
+    "step4": "AI 萃取產品相關討論，輸出 JSONL"
+  }
+}
