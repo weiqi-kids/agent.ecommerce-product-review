@@ -1,19 +1,21 @@
 {
   "date": "2026-02-22",
-  "status": "partial",
+  "status": "blocked",
   "new_categories": {
     "interactive-pet-toy": {
       "walmart_id": "176916724",
-      "fetch_status": "in_progress",
-      "extraction_status": "pending"
+      "fetch_status": "failed",
+      "fetch_error": "BLOCKED_BY_PERIMETERX",
+      "extraction_status": "skipped"
     },
     "monster-truck-toy": {
       "walmart_id": "14198760708",
-      "fetch_status": "in_progress",
-      "extraction_status": "pending"
+      "fetch_status": "failed",
+      "fetch_error": "BLOCKED_BY_PERIMETERX",
+      "extraction_status": "skipped"
     }
   },
   "existing_categories_updated": 0,
-  "notes": "新類別產品 Walmart 評論抓取進行中，將基於研究資料先產出 [REVIEW_NEEDED] 報告",
-  "next_action": "等待抓取完成後執行萃取並更新報告"
+  "notes": "Walmart 評論抓取被 PerimeterX 反機器人系統封鎖，已嘗試 8 次 Fibonacci 退避重試仍失敗。報告基於研究資料產出，標記 [REVIEW_NEEDED]",
+  "next_action": "等待 Walmart 封鎖解除或考慮使用代理/其他方式"
 }
