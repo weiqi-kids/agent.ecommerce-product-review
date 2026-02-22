@@ -62,9 +62,9 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 | 類別 | 推薦產品 | 理由 |
 |------|----------|------|
+| [互動式電子寵物](/Narrator/comparisons/interactive-pet-toy--2026-02-22) | Bitzee / Dog-E | 無需照顧、培養責任感 |
+| [怪獸卡車玩具](/Narrator/comparisons/monster-truck-toy--2026-02-22) | Monster Jam 系列 | 耐用、收藏價值高 |
 | [幼兒學習玩具](/Narrator/comparisons/toddler-learning-toy--2026-02-21) | VTech 系列 | 耐用性高、教育內容豐富 |
-| [嬰兒抓握玩具](/Narrator/comparisons/infant-grasping-toy--2026-02-21) | Manhattan Toy | 安全無毒、促進手部發育 |
-| [紓壓捏捏玩具](/Narrator/comparisons/sensory-fidget--2026-02-21) | Pop It 系列 | 價格實惠、耐用性佳 |
 
 ---
 

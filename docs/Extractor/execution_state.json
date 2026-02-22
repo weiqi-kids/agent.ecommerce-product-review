@@ -1,31 +1,32 @@
 {
-  "last_updated": "2026-02-21T15:30:00Z",
-  "last_completed_date": "2026-02-21",
+  "last_updated": "2026-02-22T09:30:00Z",
+  "last_completed_date": "2026-02-22",
   "execution_mode": "daily_standard",
   "current_step": 8,
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "監控追蹤完成：Pokemon TCG 已檢查（狀態持平）",
-      "items_checked": 1,
-      "items_not_due": 13
+      "note": "無到期監控項目（最早到期：2026-02-24）",
+      "items_checked": 0,
+      "items_not_due": 14
     },
     "step_2": {
       "status": "completed",
-      "note": "29 個 REVIEW_NEEDED 報告已分析，13 項待補齊",
+      "note": "識別 3 個研究缺口，規劃於 Step 5 補齊",
       "gap_types": {
-        "competitor_reviews_insufficient": 16,
-        "sample_insufficient": 8,
-        "research_insufficient": 3,
-        "product_mismatch": 1,
-        "deprecated": 1
+        "research_insufficient": 3
       }
     },
     "step_3": {
       "status": "completed",
-      "note": "多平台 Discovery 完成，70 個產品",
+      "note": "多平台 Discovery 完成，60 個產品",
       "platforms": {
         "amazon_us": {
+          "products": 30,
+          "category": "toys",
+          "status": "success"
+        },
+        "walmart_us": {
           "products": 30,
           "category": "toys",
           "status": "success"
@@ -33,63 +34,59 @@
         "bestbuy_us": {
           "products": 0,
           "status": "skipped_selector_issue"
-        },
-        "walmart_us": {
-          "products": 40,
-          "category": "toys",
-          "status": "success"
         }
       },
-      "total_discovered": 70
+      "total_discovered": 60
     },
     "step_4": {
       "status": "completed",
-      "note": "產品分組完成：10 個新類別 + 11 個現有類別",
-      "new_categories": 10,
-      "existing_categories": 11
+      "note": "產品分組完成：2 個新類別 + 16 個現有類別",
+      "new_categories": 2,
+      "existing_categories": 16,
+      "products_to_new": 2,
+      "products_to_existing": 28
     },
     "step_5": {
       "status": "completed",
-      "note": "10 個新類別研究完成",
+      "note": "2 個新類別研究完成",
       "categories_researched": [
-        "sensory-fidget",
-        "infant-grasping-toy",
-        "toddler-learning-toy",
+        "interactive-pet-toy",
+        "monster-truck-toy"
+      ],
+      "gaps_pending": [
         "infant-sensory-toy",
-        "collectible-blind-box",
-        "pretend-play-kitchen",
-        "toy-weapon",
-        "kids-activity-book",
         "foam-playmat",
-        "baby-walker"
+        "kids-activity-book"
       ]
     },
     "step_6": {
       "status": "partial",
-      "note": "使用現有萃取（2026-02-05），新產品待下次抓取",
-      "existing_extractions_reused": 15,
-      "new_fetch_required": 55
+      "note": "新類別產品 Walmart 評論抓取進行中",
+      "fetch_in_progress": [
+        "176916724",
+        "14198760708"
+      ]
     },
     "step_7": {
       "status": "completed",
-      "note": "10 個類別比較分析完成",
-      "categories_analyzed": 10
+      "note": "2 個類別比較分析完成（基於評測文章）",
+      "categories_analyzed": 2
     },
     "step_8": {
       "status": "completed",
-      "note": "10 個比較報告產出完成",
-      "reports_generated": 10,
-      "reports_with_review_needed": 7
+      "note": "2 個比較報告產出完成",
+      "reports_generated": 2,
+      "reports_with_review_needed": 2
     }
   },
   "summary": {
-    "monitoring_checked": 1,
-    "discovery_products": 70,
-    "new_categories": 10,
-    "research_completed": 10,
-    "comparison_analyses": 10,
-    "new_reports": 10,
-    "review_needed_reports": 7,
+    "monitoring_checked": 0,
+    "discovery_products": 60,
+    "new_categories": 2,
+    "research_completed": 2,
+    "comparison_analyses": 2,
+    "new_reports": 2,
+    "review_needed_reports": 2,
     "blocking_issues": []
   }
 }

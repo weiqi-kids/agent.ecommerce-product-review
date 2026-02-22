@@ -1,0 +1,254 @@
+{
+  "date": "2026-02-22",
+  "execution_status": {
+    "amazon": "success",
+    "walmart": "success",
+    "bestbuy": "skipped_selector_issue"
+  },
+  "platforms": {
+    "amazon_us": {
+      "source": "bestsellers",
+      "category": "toys",
+      "total_products": 30,
+      "status": "success"
+    },
+    "walmart_us": {
+      "source": "best-sellers",
+      "category": "toys",
+      "total_products": 30,
+      "status": "success"
+    },
+    "bestbuy_us": {
+      "status": "skipped",
+      "reason": "Known selector issue - URL redirection problem (occurrences: 2)"
+    }
+  },
+  "total_discovered": 60,
+  "dedup_stats": {
+    "before_dedup": 60,
+    "after_dedup": 60,
+    "duplicates_removed": 0,
+    "upc_matches": 0,
+    "note": "Amazon 和 Walmart 來源不同（toys 類別），無跨平台重複"
+  },
+  "comparison_with_yesterday": {
+    "yesterday_total": 70,
+    "today_total": 60,
+    "new_products": [],
+    "removed_products": [],
+    "note": "待 Step 4 詳細比對"
+  },
+  "notes": "Amazon 和 Walmart toys 類別執行成功，Best Buy 因已知 selector issue 跳過",
+  "products": [
+    {
+      "product_id": "B0DQNQ1ZVZ",
+      "title": "Schylling NeeDoh Nice Cube - Sensory Squeeze Toy",
+      "rank": 1,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0D9ZTW7PS",
+      "title": "Schylling NeeDoh Nice Ice Baby - Sensory Squeeze Toy",
+      "rank": 2,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0BZCHMVTK",
+      "title": "Bezente Assorted Rainbow Latex Balloons 100 Pack",
+      "rank": 3,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0BDQN1SG5",
+      "title": "PartyWoo Red Balloons 140 pcs",
+      "rank": 4,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0C6XBP4CW",
+      "title": "Schylling NeeDoh Gumdrop - Textured Sensory Toy",
+      "rank": 5,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B09SDKSXLZ",
+      "title": "Bicycle Rider Back Playing Cards",
+      "rank": 6,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B00JM5GW10",
+      "title": "Play Doh Modeling Compound 10-Pack",
+      "rank": 7,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B013RQPB5C",
+      "title": "Crayola Ultra Clean Washable Markers 40ct",
+      "rank": 8,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0BJZRS4KR",
+      "title": "40 Inch Beige Number 1 Balloon",
+      "rank": 9,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0B1B14DRT",
+      "title": "RUBFAC 129pcs White Balloons",
+      "rank": 10,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B00ZRD99C0",
+      "title": "Bright Starts Oball Easy Grasp Classic Ball",
+      "rank": 11,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B09PGVGCH5",
+      "title": "Horizon Group USA Bluey Aqua Art",
+      "rank": 12,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B08SGH7NKX",
+      "title": "SEREED Baby Balance Bike for 1 Year Old",
+      "rank": 13,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0FR717633",
+      "title": "Magic: The Gathering TMNT Commander Deck",
+      "rank": 14,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "B0DWGVM7RY",
+      "title": "USAOPOLY Flip 7 Card Game",
+      "rank": 15,
+      "platform": "Amazon",
+      "category": "toys"
+    },
+    {
+      "product_id": "32803180",
+      "title": "Hot Wheels Mystery Models Surprise Toy Car",
+      "rank": 1,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "1720510230",
+      "title": "PAW Patrol All Paws on Deck 10 Collectible Figures",
+      "rank": 2,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "665534685",
+      "title": "Huffy 20 Rock It Kids Bike",
+      "rank": 3,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "136842804",
+      "title": "Little Tikes Cozy Coupe Ride on Toy",
+      "rank": 4,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "499670474",
+      "title": "Richgv Electronic Alphabet Poster Toddler Toys",
+      "rank": 5,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "184060290",
+      "title": "Disney Pixar Toy Story Roundup Fun Woody",
+      "rank": 6,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "404066074",
+      "title": "Huffy Rock Creek Mountain Bike 26 inch",
+      "rank": 7,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "1527935978",
+      "title": "LEGO Disney Pixar Up House 43217",
+      "rank": 8,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "498243482",
+      "title": "Nerf Elite 2.0 Eaglepoint RD-8",
+      "rank": 9,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "176916724",
+      "title": "Kid Connection Miniature Electronic Walking Pet",
+      "rank": 10,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "346254805",
+      "title": "Disney Junior Minnie Mouse Flipping Fun Kitchen",
+      "rank": 11,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "347608165",
+      "title": "Nee Doh Groovy Glob Squeeze Novelty Toy",
+      "rank": 12,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "1021645467",
+      "title": "MorisMos Giant Teddy Bear 4ft",
+      "rank": 13,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "1177728319",
+      "title": "LEGO Creator 3 in 1 Magical Unicorn",
+      "rank": 14,
+      "platform": "Walmart",
+      "category": "toys"
+    },
+    {
+      "product_id": "14198760708",
+      "title": "Hot Wheels Monster Trucks 2 pack",
+      "rank": 15,
+      "platform": "Walmart",
+      "category": "toys"
+    }
+  ]
+}

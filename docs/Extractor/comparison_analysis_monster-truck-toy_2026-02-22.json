@@ -1,0 +1,585 @@
+{
+  "category": "monster-truck-toy",
+  "date": "2026-02-22",
+  "data_source": "research_articles",
+  "analysis_completed": true,
+  "review_needed": true,
+  "reason_for_review": "基於評測文章分析，待 Amazon 評論資料補齊後重新分析",
+
+  "products_analyzed": [
+    {
+      "name": "Monster Jam Grave Digger RC",
+      "type": "遙控怪獸卡車",
+      "manufacturer": "Spin Master",
+      "scale": "1:24",
+      "has_amazon_asin": true,
+      "recommendation_count": 3,
+      "price_range": "中等",
+
+      "strengths": [
+        "官方 Monster Jam 授權，設計逼真",
+        "遙控功能，互動性強",
+        "官方 BKT 輪胎，細節精美",
+        "易於控制操縱"
+      ],
+
+      "weaknesses": [
+        "需要 5 顆 AAA 電池（成本考量）",
+        "在粗糙地形上速度較慢",
+        "價格較壓鑄版本高"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": ["電池續航問題（基於評測提及）"],
+        "與產品無關": []
+      },
+
+      "target_age": "4+",
+      "developmental_benefits": ["手眼協調", "精細運動技能", "空間意識"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Hot Wheels Monster Jam Mohawk Warrior",
+      "type": "壓鑄模型車",
+      "manufacturer": "Mattel",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "經濟實惠",
+
+      "strengths": [
+        "Hot Wheels 品質保證",
+        "適合碾壓動作遊戲",
+        "風格化設計",
+        "與 Hot Wheels 遊戲組兼容",
+        "收藏價值高"
+      ],
+
+      "weaknesses": [
+        "無遙控功能（互動性較低）",
+        "設計較誇張，非真實車輛複製品"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["想像力", "創造性遊戲", "精細運動技能"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Lakeshore Learning Snap & Design Monster Trucks",
+      "type": "可組裝玩具卡車",
+      "manufacturer": "Lakeshore Learning",
+      "has_amazon_asin": false,
+      "recommendation_count": 2,
+      "user_rating": "4.9/5 (131 reviews)",
+      "price": "$39.99",
+
+      "strengths": [
+        "極高用戶評分（4.9/5，131 則評論）",
+        "99% 會推薦此產品",
+        "可互換零件，易於組裝",
+        "回拉競速功能",
+        "強調教育發展價值（精細運動技能）",
+        "鼓勵創造性遊戲"
+      ],
+
+      "weaknesses": [
+        "僅在 Lakeshore Learning 販售，無 Amazon ASIN",
+        "年齡範圍較窄（3-6 歲）",
+        "小零件窒息風險（3 歲以下不適合）"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": ["小零件窒息危險（已明確標示）"],
+        "與產品無關": []
+      },
+
+      "target_age": "3-6",
+      "developmental_benefits": ["精細運動技能", "創造力", "問題解決"],
+      "data_confidence": "high",
+      "note": "基於 131 則真實用戶評論，信心度較高"
+    },
+
+    {
+      "name": "Monster Jam Sparkle Smash",
+      "type": "壓鑄模型車",
+      "manufacturer": "Spin Master",
+      "scale": "1:64",
+      "has_amazon_asin": true,
+      "recommendation_count": 3,
+      "price_range": "經濟實惠（1:64）到中等（1:24）",
+
+      "strengths": [
+        "2026 年官方陣容熱門款",
+        "閃亮設計吸引兒童",
+        "官方 BKT 輪胎和工作懸吊",
+        "逼真的圖形和細節",
+        "多種比例可選"
+      ],
+
+      "weaknesses": [
+        "1:64 比例較小，可能不適合年幼兒童",
+        "壓鑄版本無遙控功能"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["想像力", "手眼協調", "收藏興趣"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Monster Jam El Toro Loco",
+      "type": "壓鑄模型車",
+      "manufacturer": "Spin Master",
+      "has_amazon_asin": true,
+      "recommendation_count": 3,
+      "price_range": "經濟實惠到中等",
+
+      "strengths": [
+        "2026 年陣容回歸熱門最愛",
+        "官方 Monster Jam 授權",
+        "設計緊密模仿真實車輛",
+        "多種比例可選",
+        "與 Monster Jam 遊戲組兼容"
+      ],
+
+      "weaknesses": [
+        "壓鑄版本無動力功能",
+        "需搭配其他遊戲組才能發揮最大價值"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["想像力", "社交遊戲", "收藏興趣"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Monster Jam Max-D",
+      "type": "壓鑄模型車",
+      "manufacturer": "Spin Master",
+      "has_amazon_asin": true,
+      "recommendation_count": 3,
+      "price_range": "經濟實惠到中等",
+
+      "strengths": [
+        "經典長期熱門產品",
+        "官方 Monster Jam 授權",
+        "逼真的外觀和細節",
+        "Chrome 鍍鉻細節和風格化底盤",
+        "多種比例可選"
+      ],
+
+      "weaknesses": [
+        "壓鑄版本功能較簡單",
+        "市場競爭激烈（同類產品多）"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["想像力", "精細運動技能", "收藏興趣"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Hot Wheels Monster Trucks Loop-and-Flip Trophy Challenge",
+      "type": "遊戲組套裝",
+      "manufacturer": "Mattel",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "user_rating": "4.5/5",
+      "price": "$19 (折扣 63%，原價 $52)",
+
+      "strengths": [
+        "極高性價比（折扣 63%）",
+        "100% 手動動力，不需要電池",
+        "包含完整環形賽道",
+        "配件豐富（週年紀念版卡車 + 3 個獎杯）",
+        "適合特技遊戲"
+      ],
+
+      "weaknesses": [
+        "需要足夠空間擺放",
+        "手動動力可能不如電動刺激"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "4+",
+      "developmental_benefits": ["手眼協調", "空間意識", "因果關係理解"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "LEGO Technic Monster Jam",
+      "type": "可組裝積木套裝",
+      "manufacturer": "LEGO",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "中等到高",
+
+      "strengths": [
+        "STEM 教育價值高",
+        "可組裝，訓練問題解決能力",
+        "與其他 LEGO 套組兼容",
+        "收藏價值高",
+        "某些套組有工作功能"
+      ],
+
+      "weaknesses": [
+        "價格較高",
+        "適合年齡較大（7 歲以上）",
+        "組裝複雜度可能讓年幼兒童受挫",
+        "小零件窒息風險"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": ["小零件窒息危險（7 歲以下）", "組裝難度可能造成挫折感"],
+        "與產品無關": []
+      },
+
+      "target_age": "7+",
+      "developmental_benefits": ["STEM 技能", "問題解決", "空間推理", "耐心"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Monster Jam Monster Dirt Deluxe Set",
+      "type": "動力沙遊戲組",
+      "manufacturer": "Spin Master",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "中等",
+
+      "strengths": [
+        "配有動力沙（16 盎司），感官體驗豐富",
+        "容易清理，幾乎沒有混亂",
+        "可建造自己的坡道和特技",
+        "包含 1:64 比例壓鑄車輛",
+        "配件和存放容器完整"
+      ],
+
+      "weaknesses": [
+        "動力沙可能耗盡需補充",
+        "不適合非常年幼兒童（可能誤食）"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": ["動力沙誤食風險（需監督）"],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["感官發展", "創造力", "精細運動技能"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Monster Jam Rev 'N Roar",
+      "type": "推動玩具卡車",
+      "manufacturer": "Spin Master",
+      "scale": "1:43",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "經濟實惠",
+
+      "strengths": [
+        "適合年幼兒童的手部尺寸",
+        "推動建立速度，不需要電池",
+        "點擊和加速功能",
+        "堅固耐用"
+      ],
+
+      "weaknesses": [
+        "相當嘈雜（評測警告）",
+        "功能較簡單"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": ["噪音過大（可能令家長困擾）"],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["大肌肉運動", "因果關係理解"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "Monster Jam Die-Cast Double Pack",
+      "type": "壓鑄模型車（雙包裝）",
+      "manufacturer": "Spin Master",
+      "scale": "1:64",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "經濟實惠",
+
+      "strengths": [
+        "雙包裝性價比高",
+        "Chrome 鍍鉻細節精美",
+        "官方 BKT 輪胎",
+        "堅固耐用（經過無數次特技表演驗證）",
+        "向前推動時扭曲和轉動"
+      ],
+
+      "weaknesses": [
+        "隨機型號和顏色（無法選擇）",
+        "1:64 比例較小"
+      ],
+
+      "negative_classification": {
+        "功能失效": [],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["想像力", "社交遊戲（雙包裝可分享）"],
+      "data_confidence": "medium"
+    },
+
+    {
+      "name": "ArtCreativity Light-Up Monster Truck Toys (2-Pack)",
+      "type": "發光推動玩具",
+      "manufacturer": "ArtCreativity",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "非常經濟實惠（10-20 美元）",
+
+      "strengths": [
+        "價格非常實惠",
+        "發光輪子吸引兒童",
+        "摩擦動力，不需要電池",
+        "2 件裝，適合禮品袋和獎勵"
+      ],
+
+      "weaknesses": [
+        "品質可能不如大品牌",
+        "耐用性未經驗證",
+        "設計較簡單"
+      ],
+
+      "negative_classification": {
+        "功能失效": ["耐用性可能有限（基於價格推測）"],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["感官刺激（視覺）", "因果關係理解"],
+      "data_confidence": "low"
+    },
+
+    {
+      "name": "Faber-Castell Monster Trucks",
+      "type": "摩擦動力玩具 + 可裝飾坡道",
+      "manufacturer": "Faber-Castell",
+      "has_amazon_asin": true,
+      "recommendation_count": 2,
+      "price_range": "經濟實惠（20 美元以下）",
+
+      "strengths": [
+        "包含可彈出的 3D 坡道",
+        "可定制的貼紙標籤",
+        "摩擦動力，不需要電池",
+        "2 個卡車 + 坡道組合完整",
+        "鼓勵創造性裝飾"
+      ],
+
+      "weaknesses": [
+        "坡道耐用性可能有限",
+        "品牌知名度較低"
+      ],
+
+      "negative_classification": {
+        "功能失效": ["坡道可能不夠堅固（基於價格推測）"],
+        "產生新問題": [],
+        "與產品無關": []
+      },
+
+      "target_age": "3+",
+      "developmental_benefits": ["創造力", "精細運動技能", "藝術表達"],
+      "data_confidence": "low"
+    }
+  ],
+
+  "market_insights": {
+    "dominant_brands": [
+      {
+        "name": "Monster Jam (Spin Master)",
+        "market_share_indicator": "年度全球零售額 8 億美元",
+        "growth": "過去八年增長 800%",
+        "strengths": ["官方授權", "真實車輛複製品", "快速產品創新（每 2 個月推出新卡車）"]
+      },
+      {
+        "name": "Hot Wheels Monster Trucks (Mattel)",
+        "market_position": "強力競爭者",
+        "strengths": ["風格化設計", "娛樂品牌合作", "更具收藏性"],
+        "note": "與 Monster Jam 有法律爭議歷史"
+      },
+      {
+        "name": "LEGO",
+        "market_position": "高端市場",
+        "strengths": ["STEM 教育價值", "品牌信任度", "兼容性"],
+        "target": "7 歲以上，教育導向家長"
+      }
+    ],
+
+    "price_tiers": {
+      "budget": "< $20 - 禮品、派對袋、教室獎勵",
+      "mainstream": "$20-$40 - 主力市場，生日禮物",
+      "mid_premium": "$40-$80 - 遙控版本，較大比例",
+      "premium": "$80+ - LEGO、大型遙控套組"
+    },
+
+    "product_type_trends": {
+      "die_cast_collectibles": "最受歡迎（1:64 比例）",
+      "rc_trucks": "互動性強，價格較高",
+      "playsets": "延伸遊戲價值",
+      "buildable": "教育導向，較大兒童"
+    }
+  },
+
+  "comparative_analysis": {
+    "best_for_toddlers": {
+      "products": ["Monster Jam Rev 'N Roar", "Lakeshore Snap & Design"],
+      "reasons": ["適合小手尺寸", "無小零件（Rev 'N Roar）", "耐用性強"]
+    },
+
+    "best_for_development": {
+      "products": ["Lakeshore Snap & Design", "LEGO Technic"],
+      "reasons": ["精細運動技能", "問題解決", "STEM 教育"]
+    },
+
+    "best_value": {
+      "products": ["Hot Wheels Loop-and-Flip (特價)", "Monster Jam Die-Cast Double Pack"],
+      "reasons": ["價格實惠", "配件豐富", "耐用性驗證"]
+    },
+
+    "best_for_collectors": {
+      "products": ["Hot Wheels Mohawk Warrior", "Monster Jam 官方授權系列"],
+      "reasons": ["收藏價值", "精緻細節", "系列完整性"]
+    },
+
+    "most_interactive": {
+      "products": ["Monster Jam Grave Digger RC", "Monster Dirt Deluxe Set"],
+      "reasons": ["遙控功能", "動力沙創造性遊戲"]
+    }
+  },
+
+  "safety_concerns": {
+    "small_parts_choking_hazard": [
+      "所有產品都標示「3 歲以下不適合」",
+      "LEGO Technic 標示「7 歲以上」",
+      "家長應使用「衛生紙捲測試」檢查小零件"
+    ],
+
+    "noise_concerns": [
+      "Monster Jam Rev 'N Roar 被評為「相當嘈雜」"
+    ],
+
+    "battery_requirements": [
+      "Monster Jam Grave Digger RC 需要 5 顆 AAA 電池",
+      "多數壓鑄和摩擦動力版本不需要電池"
+    ],
+
+    "kinetic_sand_ingestion": [
+      "Monster Dirt Deluxe Set 的動力沙需監督使用"
+    ]
+  },
+
+  "developmental_benefits_summary": {
+    "cognitive": [
+      "因果關係學習（推動卡車看到它滾動）",
+      "問題解決（組裝玩具）",
+      "空間推理（LEGO）"
+    ],
+
+    "motor_skills": [
+      "精細運動技能（小玩具車的拿取、推動）",
+      "手眼協調（遙控操作）",
+      "大肌肉運動（大型推動玩具）"
+    ],
+
+    "social_emotional": [
+      "想像力遊戲（創造特技場景）",
+      "社交互動（雙包裝可分享）",
+      "情緒調節（極度強烈興趣 EII 的健康發展）"
+    ],
+
+    "creativity": [
+      "可互換零件（Lakeshore）",
+      "可裝飾坡道（Faber-Castell）",
+      "動力沙造型（Monster Dirt）"
+    ]
+  },
+
+  "research_gaps": [
+    "缺乏 Amazon 真實用戶評論（除 Lakeshore 外）",
+    "無法驗證耐用性聲明",
+    "無法識別批次品質問題",
+    "無法偵測假貨或品質控制問題",
+    "負評分類無法執行（無評論資料）"
+  ],
+
+  "recommendation": {
+    "report_type_suggestion": "比較報告",
+    "reasoning": "市場有多個優質選擇，各有特色，無明顯單一最佳產品",
+
+    "segments": {
+      "預算友好": "Hot Wheels Loop-and-Flip (特價 $19)",
+      "最佳教育價值": "Lakeshore Snap & Design (4.9/5, $39.99)",
+      "最佳互動性": "Monster Jam Grave Digger RC",
+      "最佳收藏性": "Hot Wheels Mohawk Warrior",
+      "高端 STEM": "LEGO Technic Monster Jam"
+    },
+
+    "overall_conclusion": "Monster Jam (Spin Master) 和 Hot Wheels (Mattel) 主導市場，前者專注於真實性和授權，後者強調風格化和收藏性。Lakeshore Learning 在教育玩具領域獲得極高評價（4.9/5）。LEGO 占據高端 STEM 市場。家長應根據兒童年齡、預算和發展目標選擇。"
+  },
+
+  "next_steps": {
+    "priority_1": "執行 Step 6 - 抓取 Amazon 評論（優先高推薦產品）",
+    "priority_2": "補齊評論後重新執行 Step 7 負評三分類",
+    "priority_3": "執行 Step 8 產出比較報告",
+    "priority_4": "監控 Monster Jam 和 Hot Wheels 的新產品發佈"
+  },
+
+  "metadata": {
+    "analysis_method": "基於評測文章摘要和競品清單",
+    "data_quality": "中等（缺乏真實用戶評論）",
+    "confidence_level": "medium",
+    "requires_supplement": true,
+    "supplement_type": "Amazon 用戶評論萃取"
+  }
+}

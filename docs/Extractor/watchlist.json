@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T09:00:00Z",
+  "last_updated": "2026-02-22T09:00:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -480,6 +480,22 @@
     }
   ],
   "categories": [
+    {
+      "name": "interactive-pet-toy",
+      "watch_reason": "research_gap",
+      "added_date": "2026-02-22",
+      "action": "supplement_reviews",
+      "notes": "已產出比較報告，待 Amazon 評論補齊",
+      "priority": "medium"
+    },
+    {
+      "name": "monster-truck-toy",
+      "watch_reason": "research_gap",
+      "added_date": "2026-02-22",
+      "action": "supplement_reviews",
+      "notes": "已產出比較報告，待 Amazon 評論補齊",
+      "priority": "medium"
+    },
     {
       "name": "infant-sensory-toy",
       "watch_reason": "research_gap",

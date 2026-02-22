@@ -1,0 +1,249 @@
+{
+  "category": "interactive-pet-toy",
+  "date": "2026-02-22",
+  "data_source": "research_articles_only",
+  "review_needed": true,
+  "analysis_confidence": "medium",
+  "products_analyzed": [
+    {
+      "name": "Sony Aibo ERS-1000",
+      "price": 2899,
+      "data_source": "評測文章",
+      "review_sources": ["KEYi Robot", "Cybernews", "BestReviews"],
+      "rating": 9.5,
+      "strengths": [
+        "最先進 AI 學習能力",
+        "雲端記憶持續進化",
+        "辨識 100 張臉孔和聲音",
+        "OLED 眼睛展現情緒",
+        "20+ 種技能（握手、跳舞、撿球）"
+      ],
+      "weaknesses": [
+        "價格極高（$2,899）",
+        "需穩定 WiFi 連線"
+      ],
+      "use_cases": ["科技愛好者", "需要高度互動陪伴"]
+    },
+    {
+      "name": "Tombot Jennie",
+      "price": 1250,
+      "data_source": "評測文章",
+      "review_sources": ["KEYi Robot", "Cybernews", "Robotic Pet Reviews"],
+      "rating": 9.2,
+      "strengths": [
+        "Jim Henson Creature Shop 設計，極度擬真",
+        "ComfortResponse 系統偵測聲音壓力",
+        "臨床試驗減少 30% 焦慮行為",
+        "12 小時電池續航"
+      ],
+      "weaknesses": [
+        "價格高（$1,000-$1,500）",
+        "較少兒童互動功能（專為老年人設計）"
+      ],
+      "use_cases": ["老年人", "失智症患者", "PTSD 治療"]
+    },
+    {
+      "name": "Unitree Go2 Pro",
+      "price": 2750,
+      "data_source": "評測文章",
+      "review_sources": ["KEYi Robot", "Cybernews"],
+      "rating": 8.8,
+      "strengths": [
+        "4D LiDAR 避障",
+        "可執行後空翻、爬樓梯",
+        "模組化設計，可程式化"
+      ],
+      "weaknesses": [
+        "價格極高（$2,500-$3,000）",
+        "更適合科技研發而非單純陪伴"
+      ],
+      "use_cases": ["科技愛好者", "程式設計教育"]
+    },
+    {
+      "name": "KEYi Tech Loona",
+      "price": 499.9,
+      "data_source": "評測文章",
+      "review_sources": ["KEYi Robot", "BestReviews", "Cybernews"],
+      "rating": 9.0,
+      "strengths": [
+        "理解 100+ 語音指令和手勢",
+        "ChatGPT 整合（智慧對話）",
+        "活潑個性，會主動尋求互動",
+        "價格相對親民"
+      ],
+      "weaknesses": [
+        "電池續航力未明確標示",
+        "Amazon ASIN 尚待確認"
+      ],
+      "use_cases": ["家庭娛樂", "兒童互動"]
+    },
+    {
+      "name": "WowWee Dog-E",
+      "price": 399.99,
+      "data_source": "評測文章 + Amazon 可取得",
+      "review_sources": ["KEYi Robot", "BestReviews", "MomJunction"],
+      "rating": 8.5,
+      "asin": "B0BWTRYGVW",
+      "strengths": [
+        "200+ 聲音和 LED 尾巴圖示表達情緒",
+        "觸控、聲音、動作多重感應器",
+        "回應拍手、撫摸、語音指令",
+        "價格合理"
+      ],
+      "weaknesses": [
+        "電池續航力未明確標示",
+        "聲音可能重複"
+      ],
+      "use_cases": ["5 歲以上兒童", "家庭娛樂"]
+    },
+    {
+      "name": "Joy for All Golden Pup",
+      "price": 179.99,
+      "data_source": "評測文章 + Amazon 可取得",
+      "review_sources": ["KEYi Robot", "Fatherly", "BestReviews"],
+      "rating": 8.5,
+      "asin": "B01COSENNU",
+      "strengths": [
+        "柔軟黃金獵犬絨毛",
+        "內建心跳模擬",
+        "觸控回應（吠叫、轉頭）",
+        "無需 App，極簡操作",
+        "專為老年人設計"
+      ],
+      "weaknesses": [
+        "互動功能較基礎",
+        "缺乏 AI 學習能力"
+      ],
+      "use_cases": ["老年人陪伴", "過敏家庭"]
+    },
+    {
+      "name": "Zoomer Playful Pup",
+      "price": 50,
+      "data_source": "評測文章 + Amazon 可取得",
+      "review_sources": ["KEYi Robot", "MomJunction", "Fatherly"],
+      "rating": 8.2,
+      "asin": "B01N424GFS",
+      "strengths": [
+        "支援英語、西班牙語、法語",
+        "學習翻滾、握手等技巧",
+        "價格親民"
+      ],
+      "weaknesses": [
+        "30-60 分鐘電池續航（較短）",
+        "聲音重複性高"
+      ],
+      "use_cases": ["5 歲以上兒童", "預算有限家庭"]
+    },
+    {
+      "name": "Bitzee",
+      "price": 30,
+      "data_source": "評測文章 + Amazon 可取得",
+      "review_sources": ["Today's Parent", "Personal Robots", "Kidscreen"],
+      "rating": 8.7,
+      "asin": "B0B39L3KSC",
+      "strengths": [
+        "創新全像技術",
+        "回應滑動、傾斜、搖晃、觸控",
+        "讓孩子專注數小時",
+        "價格極低"
+      ],
+      "weaknesses": [
+        "螢幕較小",
+        "無實體觸覺回饋"
+      ],
+      "use_cases": ["6 歲以上兒童", "預算有限家庭"]
+    },
+    {
+      "name": "Tamagotchi Uni",
+      "price": 59.99,
+      "data_source": "評測文章 + Amazon 可取得",
+      "review_sources": ["Personal Robots", "Kidscreen", "Maekan"],
+      "rating": 8.6,
+      "asin": "B0B4DFSZQB",
+      "strengths": [
+        "經典 IP，全新 WiFi 功能",
+        "Tamaverse 全球互動",
+        "教導責任感（忽視會「死亡」）"
+      ],
+      "weaknesses": [
+        "需每日照顧（可能負擔）",
+        "螢幕較小"
+      ],
+      "use_cases": ["7 歲以上兒童", "培養責任感"]
+    },
+    {
+      "name": "FurReal Friends",
+      "price": 65,
+      "data_source": "評測文章 + Amazon 可取得",
+      "review_sources": ["Fatherly", "多個家長論壇"],
+      "rating": 8.4,
+      "asin": "B01HZQE98U",
+      "strengths": [
+        "Hasbro 知名系列",
+        "多種動物選擇（貓、狗、獨角獸）",
+        "價格範圍廣"
+      ],
+      "weaknesses": [
+        "互動功能依型號差異大",
+        "部分型號電池續航短"
+      ],
+      "use_cases": ["3 歲以上兒童", "家庭娛樂"]
+    }
+  ],
+  "recommendation": {
+    "best_overall": "Sony Aibo ERS-1000",
+    "best_value": "Bitzee",
+    "best_for_seniors": "Tombot Jennie",
+    "best_for_kids": "WowWee Dog-E",
+    "best_budget": "Zoomer Playful Pup",
+    "analysis_summary": "基於評測文章分析，互動式電子寵物玩具市場呈現明確價格分層。頂級 AI 寵物（Sony Aibo, Tombot Jennie）提供卓越互動但價格高昂（$1,000+）。中階產品（Loona, Dog-E）在功能與價格間取得平衡。預算友善選項（Bitzee, Zoomer）提供基礎互動，適合兒童入門。"
+  },
+  "market_insights": {
+    "price_tiers": {
+      "premium": "$1,000+（Sony Aibo, Tombot Jennie, Unitree Go2）",
+      "mid_range": "$200-$500（Loona, Dog-E）",
+      "budget": "<$200（Joy for All, Zoomer, Bitzee, Tamagotchi）"
+    },
+    "key_technologies": [
+      "觸控感應器（Touch Sensors）",
+      "動作感應器（Accelerometer + Gyroscope）",
+      "聲音辨識（Voice Recognition）",
+      "紅外線避障（IR Sensors）",
+      "光線感應器（Photosensors）",
+      "預測性同理心（Predictive Empathy）- 2026 新趨勢"
+    ],
+    "market_size": {
+      "2024": "$2.86 億",
+      "2026": "$3.5 億",
+      "growth_rate": "+22%"
+    },
+    "key_trends": [
+      "AI 與智慧家居整合",
+      "ChatGPT 等大型語言模型整合",
+      "治療應用（老年人、失智症、PTSD）",
+      "價格下降（預測 2026 年基本款 <$500）"
+    ]
+  },
+  "safety_concerns": {
+    "battery_hazard": {
+      "severity": "critical",
+      "issue": "鈕扣電池易被兒童取出，吞食可致內部化學灼傷或死亡",
+      "recall_example": "Petgravity Smart Interactive Cat Toys（2024-2025）",
+      "solution": "選擇符合 ANSI/UL 4200A 標準產品，電池艙需螺絲固定"
+    },
+    "material_safety": [
+      "避免 BPA、PVC",
+      "避免銳利邊緣",
+      "無小物件（防窒息）"
+    ]
+  },
+  "limitations": {
+    "no_user_reviews": "本分析基於評測文章，缺乏 Amazon 用戶評論數據",
+    "missing_data": [
+      "實際使用者負評率",
+      "長期耐用性回饋",
+      "跨平台評論比對"
+    ],
+    "next_steps": "待 Step 6 完成後，整合有 ASIN 產品的用戶評論進行深度比較分析"
+  }
+}

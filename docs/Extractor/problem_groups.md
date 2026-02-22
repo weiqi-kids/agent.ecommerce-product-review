@@ -1,12 +1,12 @@
 # 產品問題分組
 
-最後更新：2026-02-20
+最後更新：2026-02-22
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：317
-問題類別數：80
+產品總數：347
+問題類別數：82
 分組原則：按具體問題分組（v2 - 問題導向）
-本次更新：新增 3 個類別（disposable-gloves、water-bottle、kitchen-scale）及 5 個產品
+本次更新：新增 2 個類別（interactive-pet-toy、monster-truck-toy）及 30 個產品歸入現有類別
 
 ---
 
@@ -103,6 +103,8 @@
 | disposable-gloves | 一次性手套/醫療手套 | 2 | ✅ 已完成 |
 | water-bottle | 保溫瓶/隨身水壺 | 2 | ✅ 已完成 |
 | kitchen-scale | 廚房秤/食物秤 | 1 | ✅ 已完成 |
+| interactive-pet-toy | 互動式電子寵物玩具 | 1 | ⏳ 待研究 |
+| monster-truck-toy | 怪獸卡車玩具模型 | 1 | ⏳ 待研究 |
 
 ---
 
