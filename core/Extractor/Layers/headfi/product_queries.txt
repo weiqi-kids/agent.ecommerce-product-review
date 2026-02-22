@@ -1,0 +1,17 @@
+# Head-Fi Layer - 產品查詢清單
+# 格式：每行一個產品名稱
+# 適用：耳機、DAC、擴大機
+
+# === 無線耳機 ===
+Sony WH-1000XM5
+Apple AirPods Pro
+Bose QuietComfort Ultra
+
+# === 有線耳機 ===
+Sennheiser HD 660S
+Beyerdynamic DT 1990 Pro
+Hifiman Sundara
+
+# === IEM ===
+Shure SE846
+Moondrop Blessing 3

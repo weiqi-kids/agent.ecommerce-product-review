@@ -409,3 +409,195 @@ batch_index > 1 時，只包含 L3-L5：
 2. 僅單一來源有效（其他來源搜尋失敗）
 3. match_confidence = low 且缺乏 UPC 驗證
 4. 各來源情感分數差異 > 0.3（可能匹配到不同產品）
+
+---
+
+## 社群來源萃取協議（Social Source Protocol）
+
+社群來源（Reddit、YouTube、論壇等）使用修改版的 L1-L6 協議。
+
+### 適用平台
+
+| 平台 | 類型 | 特性 |
+|------|------|------|
+| Reddit | social | 討論串 + 留言，無驗證購買 |
+| YouTube | social | 影片留言，可標記贊助內容 |
+| Trustpilot | review_site | 品牌級評價，有驗證購買 |
+| ConsumerAffairs | review_site | 投訴導向，負評偏高 |
+| Head-Fi | forum | 音響專業論壇 |
+| AVS Forum | forum | 家庭劇院專業論壇 |
+| Slickdeals | forum | 促銷 + 評價 |
+| MakeupAlley | review_site | 美妝評價，含膚質資訊 |
+| BabyCenter | forum | 父母討論，注重安全性 |
+
+### L1: Topic Grounding（主題定錨）
+
+社群來源使用「主題定錨」取代「商品定錨」：
+
+```markdown
+## L1: Topic Grounding
+
+| Field | Value |
+|-------|-------|
+| **search_query** | {原始搜尋查詢} |
+| **normalized_name** | {標準化產品名稱} |
+| **brand** | {品牌} |
+| **category** | {品類} |
+| **matched_asin** | {對應的 Amazon ASIN，若有} |
+| **data_source** | {平台名稱} |
+| **source_type** | {social/forum/review_site} |
+| **posts_analyzed** | {分析的貼文數} |
+| **date_range** | {資料日期範圍} |
+```
+
+### L2: Claim Extraction（跳過）
+
+社群來源**跳過 L2**，因為沒有官方產品聲明可供驗證。
+
+### L3-L6: 與電商版相同
+
+社群來源的 L3-L6 與電商版相同，但需注意：
+
+| Layer | 社群來源注意事項 |
+|-------|-----------------|
+| L3 | 貼文內容較長，需 AI 識別相關段落 |
+| L4 | 無星級評分，需 AI 推斷情感 |
+| L5 | 問題描述更詳細，可提取更多細節 |
+| L6 | 需標註「基於社群討論」而非「基於評論」 |
+
+### 社群來源特有標記
+
+| 標記 | 說明 |
+|------|------|
+| `is_sponsored` | 是否為贊助內容（YouTube） |
+| `author_verified` | 作者是否經驗證（Trustpilot） |
+| `relevance_score` | AI 判斷的相關性分數 |
+| `platform_bias` | 平台偏見標記（ConsumerAffairs 偏負面） |
+
+### 社群來源 JSONL 格式
+
+```json
+{
+  "scrape_meta": {
+    "platform": "reddit",
+    "source_type": "social",
+    "scraped_at": "2026-02-22T10:00:00Z",
+    "search_query": "Mighty Patch",
+    "posts_scraped": 25,
+    "relevance_threshold": 0.7
+  },
+  "product_query": {
+    "original_query": "Mighty Patch",
+    "normalized_name": "Hero Cosmetics Mighty Patch",
+    "brand": "Hero Cosmetics",
+    "category": "beauty",
+    "matched_asin": "B074PVTPBW"
+  },
+  "posts": [
+    {
+      "post_id": "abc123",
+      "platform": "reddit",
+      "post_type": "thread",
+      "author": "skincare_lover",
+      "content": "...",
+      "date": "2026-01-15",
+      "url": "https://reddit.com/...",
+      "engagement": {"upvotes": 245, "replies": 42},
+      "context": {"subreddit": "SkincareAddiction"},
+      "language": "en",
+      "ai_extracted": {
+        "product_mentions": ["Mighty Patch"],
+        "aspects_mentioned": ["effectiveness"],
+        "sentiment_inference": "positive",
+        "relevance_to_query": 0.95
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_posts": 25,
+    "positive_posts": 18,
+    "negative_posts": 3,
+    "neutral_posts": 4
+  }
+}
+```
+
+### 社群來源 .md 輸出模板
+
+```markdown
+# {product_name} — 社群評價摘要
+
+## L1: Topic Grounding
+
+| Field | Value |
+|-------|-------|
+| **search_query** | {query} |
+| **data_source** | {platform} |
+| **source_type** | social |
+| **posts_analyzed** | {count} |
+| **date_range** | {range} |
+| **matched_asin** | {asin} |
+
+## L3: Aspect Extraction
+
+| Aspect | Category | Mentions | Sentiment |
+|--------|----------|----------|-----------|
+| {aspect} | {category} | {count} | {sentiment} |
+
+## L4: Aspect Sentiment
+
+| Aspect | Score | Evidence |
+|--------|-------|----------|
+| {aspect} | {0.0-1.0} | "{quote}" |
+
+## L5: Issue Patterns
+
+| Issue | Frequency | Severity | Sources |
+|-------|-----------|----------|---------|
+| {issue} | {n}/{total} | {level} | {platforms} |
+
+## L6: Evidence Summary
+
+### Key Insights
+
+1. **{aspect}**: {description}
+
+### Platform Notes
+
+- ⚠️ {platform_specific_notes}
+
+---
+*Source: {platform} | Posts: {count} | Date: {date}*
+```
+
+### 社群來源 [REVIEW_NEEDED] 觸發條件
+
+1. 相關貼文 < 5 則
+2. 平均相關性分數 < 0.7
+3. 所有貼文超過 1 年
+4. 與電商評論情感差異 > 0.4
+5. 平台特定：
+   - Reddit: 主要 subreddit 無結果
+   - YouTube: 超過 50% 為贊助影片
+   - ConsumerAffairs: 正面評價 > 80%（異常）
+
+### 與電商評論整合
+
+社群來源應與電商評論分開呈現，但在 L6 摘要中整合：
+
+```markdown
+## L6: Cross-Source Summary
+
+### E-commerce Reviews (Amazon, Best Buy, Walmart)
+- Total: {n} reviews
+- Avg Rating: {rating}
+- Key issues: {issues}
+
+### Social Sources (Reddit, YouTube, Forums)
+- Total: {n} posts
+- Sentiment: {positive}% positive
+- Key insights: {insights}
+
+### Cross-Source Consistency
+- Agreement level: {high/medium/low}
+- Discrepancies: {list}

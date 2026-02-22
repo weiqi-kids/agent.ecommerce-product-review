@@ -1,0 +1,16 @@
+# ConsumerAffairs Layer - 產品查詢清單
+# 格式：每行一個產品/品牌名稱
+# 註解以 # 開頭
+
+# === 家電 ===
+Dyson vacuum
+iRobot Roomba
+Shark vacuum
+
+# === 電子產品 ===
+Apple AirPods
+Samsung Galaxy
+
+# === 嬰幼兒 ===
+Graco car seat
+Chicco stroller

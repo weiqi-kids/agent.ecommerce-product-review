@@ -522,6 +522,16 @@
     }
   ],
   "deferred_categories": [],
+  "reminders": [
+    {
+      "id": "walmart-review-scraping",
+      "due_date": "2026-04-01",
+      "title": "重新評估 Walmart 評論抓取方案",
+      "description": "Walmart PerimeterX 反機器人系統封鎖了評論抓取。Q2 時檢查是否有新的解決方案（代理服務、API、或 PerimeterX bypass 技術）",
+      "created_date": "2026-02-22",
+      "status": "pending"
+    }
+  ],
   "completed_gap_fills": {
     "2026-02-08": [
       {

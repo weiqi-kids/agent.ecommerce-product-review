@@ -1,0 +1,26 @@
+# Reddit Layer - 產品查詢清單
+# 格式：每行一個產品名稱/關鍵字
+# 註解以 # 開頭
+
+# === 美妝保養 ===
+Mighty Patch
+CeraVe moisturizer
+The Ordinary Niacinamide
+Paula's Choice BHA
+
+# === 電子產品 ===
+AirPods Pro
+Sony WH-1000XM5
+Anker PowerCore
+
+# === 健康保健 ===
+Liquid IV
+Athletic Greens AG1
+
+# === 玩具遊戲 ===
+LEGO Ideas
+Pokemon cards
+
+# === 寵物用品 ===
+Furminator
+Kong toys

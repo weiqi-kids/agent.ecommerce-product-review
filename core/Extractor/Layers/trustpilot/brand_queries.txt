@@ -1,0 +1,20 @@
+# Trustpilot Layer - 品牌查詢清單
+# 格式：每行一個品牌名稱
+# 註解以 # 開頭
+
+# === 美妝保養 ===
+Hero Cosmetics
+CeraVe
+The Ordinary
+Paula's Choice
+
+# === 電子產品 ===
+Apple
+Sony
+Samsung
+Anker
+
+# === 家電 ===
+Dyson
+iRobot
+Shark

@@ -1,0 +1,15 @@
+# AVS Forum - 產品查詢清單
+# 適用：電視、投影機、AV 設備
+
+# === OLED 電視 ===
+LG C3 OLED
+Sony A95L
+Samsung S95C
+
+# === Mini LED 電視 ===
+TCL QM8
+Hisense U8K
+
+# === 投影機 ===
+Epson LS12000
+JVC NZ8
