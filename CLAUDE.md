@@ -91,11 +91,17 @@ Step 5: 問題研究 + 競品發現
         ↓
     ▶ Reviewer 審核 Step 5 → 通過才進 Step 6
         ↓
-Step 6: 抓取評論 + 萃取（多平台）
-        ├── 抓取範圍：原產品 + 競品（有平台識別碼）
-        │   ├── Amazon: ASIN
-        │   ├── Best Buy: SKU
-        │   └── Walmart: Product ID
+Step 6: 抓取評論 + 萃取（多平台 + 社群來源）
+        ├── 電商平台：原產品 + 競品（有平台識別碼）
+        │   ├── Amazon: ASIN（Playwright）
+        │   ├── Best Buy: SKU（Playwright）
+        │   └── Walmart: Product ID（Playwright）
+        ├── 社群來源（MCP fetch_url，無需授權）
+        │   ├── reddit（必執行）
+        │   ├── headfi, avsforum（電子產品）
+        │   ├── makeupalley（美妝）
+        │   ├── babycenter（嬰幼兒）
+        │   └── slickdeals, trustpilot, consumeraffairs
         ├── 各 Layer 的 fetch.sh 抓取評論（輸出 JSONL）
         ├── L1-L6 萃取（JSONL → .md）
         ├── 輸出：docs/Extractor/{layer}/{category}/{product}.md
@@ -105,7 +111,8 @@ Step 6: 抓取評論 + 萃取（多平台）
         ↓
 Step 7: 比較分析（多平台 + 多來源）
         ├── 輸入：
-        │   ├── Step 6 萃取結果（Amazon + Best Buy + Walmart）
+        │   ├── Step 6 電商萃取（Amazon + Best Buy + Walmart）
+        │   ├── Step 6 社群萃取（Reddit + Forums）
         │   ├── 同產品跨平台評論整合（UPC 匹配）
         │   └── Step 5 評測資料（無電商識別碼的競品）
         ├── 負評三分類：
@@ -682,13 +689,95 @@ Step 5 競品（有 Amazon ASIN）
 3. 將 ASIN 加入該類別的抓取清單
 4. 執行 fetch + 萃取
 
-#### 執行流程
+#### 社群來源抓取範圍
+
+除電商平台外，同時執行社群來源 Layer：
+
+```
+問題類別
+    ↓
+依類別啟用對應社群來源：
+├── 所有類別：reddit（必執行）
+├── 電子產品：headfi, avsforum
+├── 美妝保養：makeupalley
+├── 嬰幼兒：babycenter
+└── 其他：slickdeals, trustpilot, consumeraffairs
+```
+
+#### 執行流程（電商平台）
 
 1. **fetch** — 執行 `core/Extractor/Layers/{layer}/fetch.sh`，輸出到 `docs/Extractor/{layer}/raw/*.jsonl`
 2. **定位 JSONL** — `ls docs/Extractor/{layer}/raw/*.jsonl` 取得所有 JSONL 檔案路徑
 3. **萃取** — 對每個 JSONL 逐行處理（見下方 JSONL 處理規範）
 4. **合併**（若 `batch_total > 1`）— 讀取所有 batch .md，合併為最終 `{product_id}--{store_id}--{date}.md`
 5. **update** — 將**最終版 .md** 路徑傳入 `update.sh`
+
+#### 執行流程（社群來源 - MCP Fetch）
+
+社群來源 Layer 使用 MCP fetcher（`fetch_url`）抓取，無需授權。
+
+```
+1. 執行 fetch.sh → 產出抓取計劃 JSON
+        ↓
+2. 讀取抓取計劃：
+   docs/Extractor/{layer}/fetch_plans/{layer}-{query}-{date}.json
+        ↓
+3. 依計劃執行 WebSearch（取得搜尋結果 URL）
+        ↓
+4. 使用 MCP fetch_url 抓取每個 URL
+        ↓
+5. AI 萃取相關內容 → 輸出 JSONL
+        ↓
+6. 對 JSONL 執行 L1/L3-L6 萃取（跳過 L2）
+```
+
+**MCP fetch_url 使用方式**：
+
+```
+使用 MCP fetch_url 工具：
+- 單一 URL：fetch_url(url)
+- 批次 URL：fetch_urls([url1, url2, ...])
+
+優點：
+- 無需每次授權確認
+- 支援 JavaScript 渲染
+- 可批次處理
+```
+
+**抓取計劃 JSON 格式**：
+
+```json
+{
+  "layer": "reddit",
+  "query": "Mighty Patch",
+  "mode": "mcp_fetch",
+  "search_queries": [
+    "site:reddit.com \"Mighty Patch\" review",
+    "site:reddit.com \"Mighty Patch\" worth it"
+  ],
+  "instructions": {
+    "step1": "執行 WebSearch",
+    "step2": "提取 URL",
+    "step3": "使用 MCP fetch_url 抓取",
+    "step4": "AI 萃取相關內容"
+  }
+}
+```
+
+**社群來源執行順序**：
+
+| 順序 | Layer | 類別限制 |
+|------|-------|---------|
+| 1 | reddit | 無（必執行） |
+| 2 | headfi | electronics |
+| 3 | avsforum | electronics |
+| 4 | makeupalley | beauty |
+| 5 | babycenter | baby |
+| 6 | slickdeals | 無 |
+| 7 | trustpilot | 無 |
+| 8 | consumeraffairs | 無 |
+
+> **注意**：YouTube Layer 使用 yt-dlp 命令列工具，不需要 MCP fetch。
 
 #### JSONL 處理規範
 

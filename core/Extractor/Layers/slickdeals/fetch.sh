@@ -1,5 +1,7 @@
 #!/bin/bash
-# Slickdeals Layer - 資料抓取腳本
+# slickdeals Layer - 資料抓取腳本
+# 模式：MCP fetch_url（無需授權）
+# 促銷討論論壇
 
 set -euo pipefail
 
@@ -10,14 +12,39 @@ source "$PROJECT_ROOT/lib/args.sh"
 source "$PROJECT_ROOT/lib/core.sh"
 
 LAYER_NAME="slickdeals"
-RAW_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME/raw"
+PLAN_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME/fetch_plans"
 QUERIES_FILE="$SCRIPT_DIR/product_queries.txt"
 
-mkdir -p "$RAW_DIR"
+mkdir -p "$PLAN_DIR"
 
-echo "💰 Slickdeals Layer: 開始抓取（促銷論壇）"
+echo "💰 slickdeals Layer: 生成抓取計劃"
 
-cd "$PROJECT_ROOT/scrapers"
+generate_fetch_plan() {
+  local query="$1"
+  local output_file="$2"
+
+  cat > "$output_file" << EOF
+{
+  "layer": "slickdeals",
+  "query": "${query}",
+  "generated_at": "$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
+  "mode": "mcp_fetch",
+  "forum_domain": "slickdeals.net",
+  "category": "other",
+  "search_queries": [
+    "site:slickdeals.net \"${query}\" review",
+    "site:slickdeals.net \"${query}\" impressions"
+  ],
+  "instructions": {
+    "step1": "使用 WebSearch: site:slickdeals.net \"${query}\"",
+    "step2": "從搜尋結果中提取論壇討論串 URL",
+    "step3": "使用 MCP fetch_url 抓取每個討論串",
+    "step4": "AI 萃取產品相關討論，輸出 JSONL"
+  }
+}
+EOF
+  echo "  📝 抓取計劃：$output_file"
+}
 
 QUERY=""
 while [[ $# -gt 0 ]]; do
@@ -28,18 +55,25 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -n "$QUERY" ]]; then
-  echo "  📝 產品: $QUERY"
-  npx tsx src/forum-common/scraper.ts --forum slickdeals --query "$QUERY" --output "$RAW_DIR" || {
-    echo "  ⚠️ 抓取失敗: $QUERY"
-  }
+  SAFE_NAME=$(echo "$QUERY" | tr ' ' '-' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]//g')
+  generate_fetch_plan "$QUERY" "$PLAN_DIR/slickdeals-${SAFE_NAME}-$(date +%Y-%m-%d).json"
   exit 0
 fi
 
 if [[ -f "$QUERIES_FILE" ]]; then
+  QUERY_COUNT=$(grep -cvE '^\s*(#|$)' "$QUERIES_FILE" 2>/dev/null || echo "0")
+  echo "  📋 共 $QUERY_COUNT 個產品查詢"
+
+  CURRENT=0
   while IFS= read -r line || [[ -n "$line" ]]; do
     [[ -z "$line" || "$line" == \#* ]] && continue
-    echo "  💰 $line"
+    CURRENT=$((CURRENT + 1))
+    SAFE_NAME=$(echo "$line" | tr ' ' '-' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]//g')
+    generate_fetch_plan "$line" "$PLAN_DIR/slickdeals-${SAFE_NAME}-$(date +%Y-%m-%d).json"
   done < "$QUERIES_FILE"
+
+  echo "📊 已生成 $CURRENT 個抓取計劃"
 fi
 
-echo "✅ Slickdeals 抓取完成"
+echo "📁 計劃位置：$PLAN_DIR"
+echo "✅ slickdeals fetch 完成"

@@ -2,34 +2,33 @@
 # Reddit Layer - 資料抓取腳本
 #
 # 使用方式：
-#   ./fetch.sh                    # 從 product_queries.txt 抓取
-#   ./fetch.sh --query "AirPods"  # 指定產品名稱
-#   ./fetch.sh --subreddits "headphones,audiophile"  # 指定 subreddits
+#   ./fetch.sh --query "AirPods"              # 生成抓取計劃
+#   ./fetch.sh --query "AirPods" --use-api    # 使用 Reddit API（需設定環境變數）
 #
-# 環境變數：
-#   REDDIT_CLIENT_ID     - Reddit API Client ID
-#   REDDIT_CLIENT_SECRET - Reddit API Client Secret
+# 模式：
+#   1. API 模式：設定 REDDIT_CLIENT_ID/SECRET 後自動啟用
+#   2. MCP 模式：輸出抓取計劃，由 Claude 使用 MCP fetch_url 執行
 
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 
-# 載入共用函式庫
 source "$PROJECT_ROOT/lib/args.sh"
 source "$PROJECT_ROOT/lib/core.sh"
 
 LAYER_NAME="reddit"
 RAW_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME/raw"
+PLAN_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME/fetch_plans"
 QUERIES_FILE="$SCRIPT_DIR/product_queries.txt"
 
 # 預設值
 MAX_POSTS=50
-RELEVANCE_THRESHOLD=0.7
+USE_API=false
 
 # 解析參數
 QUERY=""
-SUBREDDITS=""
+OUTPUT_PLAN=false
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -37,9 +36,13 @@ while [[ $# -gt 0 ]]; do
       QUERY="$2"
       shift 2
       ;;
-    --subreddits)
-      SUBREDDITS="$2"
-      shift 2
+    --use-api)
+      USE_API=true
+      shift
+      ;;
+    --output-plan)
+      OUTPUT_PLAN=true
+      shift
       ;;
     --max-posts)
       MAX_POSTS="$2"
@@ -53,40 +56,86 @@ while [[ $# -gt 0 ]]; do
 done
 
 # 確保輸出目錄存在
-mkdir -p "$RAW_DIR"
+mkdir -p "$RAW_DIR" "$PLAN_DIR"
 
-echo "🔍 Reddit Layer: 開始抓取"
+echo "🔍 Reddit Layer: 開始處理"
 
 # 檢查 Reddit API 憑證
-if [[ -z "${REDDIT_CLIENT_ID:-}" ]] || [[ -z "${REDDIT_CLIENT_SECRET:-}" ]]; then
-  echo "⚠️  未設定 Reddit API 憑證，使用 WebSearch fallback 模式"
-  USE_API=false
+if [[ -n "${REDDIT_CLIENT_ID:-}" ]] && [[ -n "${REDDIT_CLIENT_SECRET:-}" ]]; then
+  echo "  ✅ Reddit API 憑證已設定"
+  HAS_API=true
 else
-  USE_API=true
+  echo "  ⚠️  Reddit API 未設定，將使用 MCP fetcher 模式"
+  HAS_API=false
 fi
 
-# 進入 scrapers 目錄
-cd "$PROJECT_ROOT/scrapers"
+# 生成搜尋查詢
+generate_search_queries() {
+  local query="$1"
+  cat << EOF
+site:reddit.com "${query}" review
+site:reddit.com "${query}" worth it
+site:reddit.com "${query}" problems
+site:reddit.com "${query}" recommendation
+site:reddit.com "${query}" after 1 year
+EOF
+}
+
+# 生成抓取計劃 JSON
+generate_fetch_plan() {
+  local query="$1"
+  local output_file="$2"
+
+  # 根據產品類別選擇 subreddits
+  local subreddits='["SkincareAddiction", "MakeupAddiction", "headphones", "gadgets", "BuyItForLife"]'
+
+  cat > "$output_file" << EOF
+{
+  "layer": "reddit",
+  "query": "${query}",
+  "generated_at": "$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
+  "mode": "mcp_fetch",
+  "search_queries": [
+    "site:reddit.com \"${query}\" review",
+    "site:reddit.com \"${query}\" worth it",
+    "site:reddit.com \"${query}\" problems"
+  ],
+  "target_subreddits": ${subreddits},
+  "max_posts": ${MAX_POSTS},
+  "instructions": {
+    "step1": "使用 WebSearch 執行 search_queries 中的查詢",
+    "step2": "從搜尋結果中提取 Reddit URL",
+    "step3": "使用 MCP fetch_url 抓取每個 Reddit 討論串",
+    "step4": "AI 萃取產品相關討論，輸出 JSONL"
+  }
+}
+EOF
+  echo "  📝 抓取計劃已生成：$output_file"
+}
 
 # 單一查詢模式
 if [[ -n "$QUERY" ]]; then
   echo "  📝 查詢: $QUERY"
 
-  ARGS="--query \"$QUERY\" --output \"$RAW_DIR\" --max-posts $MAX_POSTS"
-
-  if [[ -n "$SUBREDDITS" ]]; then
-    ARGS="$ARGS --subreddits \"$SUBREDDITS\""
+  if [[ "$HAS_API" == "true" ]] && [[ "$USE_API" == "true" ]]; then
+    # 使用 Reddit API
+    echo "  📡 使用 Reddit API 模式"
+    cd "$PROJECT_ROOT/scrapers"
+    npx tsx src/reddit/scraper.ts \
+      --query "$QUERY" \
+      --output "$RAW_DIR" \
+      --max-posts "$MAX_POSTS" \
+      --use-api || {
+      echo "  ⚠️ API 抓取失敗，切換到 MCP 模式"
+      generate_fetch_plan "$QUERY" "$PLAN_DIR/reddit-$(echo "$QUERY" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')-$(date +%Y-%m-%d).json"
+    }
+  else
+    # 輸出 MCP 抓取計劃
+    echo "  📋 生成 MCP 抓取計劃"
+    generate_fetch_plan "$QUERY" "$PLAN_DIR/reddit-$(echo "$QUERY" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')-$(date +%Y-%m-%d).json"
   fi
 
-  if [[ "$USE_API" == "true" ]]; then
-    ARGS="$ARGS --use-api"
-  fi
-
-  eval "npx tsx src/reddit/scraper.ts $ARGS" || {
-    echo "  ⚠️ 抓取失敗: $QUERY"
-  }
-
-  echo "✅ Reddit 抓取完成"
+  echo "✅ Reddit 處理完成"
   exit 0
 fi
 
@@ -96,32 +145,25 @@ if [[ ! -f "$QUERIES_FILE" ]]; then
   exit 1
 fi
 
-# 計算查詢數量
 QUERY_COUNT=$(grep -cvE '^\s*(#|$)' "$QUERIES_FILE" 2>/dev/null || echo "0")
 echo "  📋 共 $QUERY_COUNT 個產品查詢"
 
 CURRENT=0
 while IFS= read -r line || [[ -n "$line" ]]; do
-  # 跳過空行和註解
   [[ -z "$line" || "$line" == \#* ]] && continue
 
   CURRENT=$((CURRENT + 1))
   echo "  [$CURRENT/$QUERY_COUNT] $line"
 
-  ARGS="--query \"$line\" --output \"$RAW_DIR\" --max-posts $MAX_POSTS"
-
-  if [[ "$USE_API" == "true" ]]; then
-    ARGS="$ARGS --use-api"
-  fi
-
-  eval "npx tsx src/reddit/scraper.ts $ARGS" || {
-    echo "    ⚠️ 抓取失敗"
-  }
-
-  # 隨機延遲 5-15 秒，避免觸發限流
-  DELAY=$((RANDOM % 10 + 5))
-  sleep $DELAY
+  # 生成抓取計劃
+  SAFE_NAME=$(echo "$line" | tr ' ' '-' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]//g')
+  generate_fetch_plan "$line" "$PLAN_DIR/reddit-${SAFE_NAME}-$(date +%Y-%m-%d).json"
 
 done < "$QUERIES_FILE"
 
-echo "✅ Reddit 抓取完成: $CURRENT 個產品"
+echo ""
+echo "📊 已生成 $CURRENT 個抓取計劃"
+echo "📁 計劃位置：$PLAN_DIR"
+echo ""
+echo "下一步：Claude 將讀取這些計劃並使用 MCP fetch_url 執行抓取"
+echo "✅ Reddit fetch 完成"
