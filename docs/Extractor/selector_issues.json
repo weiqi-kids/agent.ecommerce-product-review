@@ -1,16 +1,18 @@
 {
-  "last_updated": "2026-02-21T02:15:00Z",
+  "last_updated": "2026-02-22T15:00:00Z",
   "issues": [
     {
       "platform": "bestbuy_us",
       "category": "all",
       "error_type": "url_redirection",
       "first_seen": "2026-02-20",
-      "last_seen": "2026-02-21",
-      "occurrences": 2,
-      "status": "pending_fix",
-      "details": "Discovery URL 導向問題，無法正常抓取",
-      "selector": ".product-list-item:not(:has(.skeleton-product-grid-view)):not(.full-width-divider)"
+      "last_seen": "2026-02-22",
+      "occurrences": 3,
+      "status": "partial_fix",
+      "details": "best-sellers 頁面已修復（可抓取 10+ 商品），deals/top-rated 頁面的 sku-block 元素使用 JS 動態載入，暫時跳過",
+      "selector": ".sku-item",
+      "fix_applied": "2026-02-22",
+      "fix_notes": "改進選擇器排除廣告和分隔線元素，best-sellers 使用 .sku-item 選擇器可正常工作"
     },
     {
       "platform": "walmart_us",

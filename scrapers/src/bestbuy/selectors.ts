@@ -66,25 +66,31 @@ export const SELECTORS = {
  *   - 新格式變體：/product/product-name/ABC123XYZ#tabbed-customerreviews
  */
 export function extractSkuFromUrl(url: string): string | null {
-  // 移除 URL 片段（#...）
-  const cleanUrl = url.split('#')[0];
+  // 移除 URL 片段（#...）和查詢參數
+  const cleanUrl = url.split('#')[0].split('?')[0];
 
-  // 新格式：/product/{name}/{id} 或 /product/{name}/{id}/sku/{sku_number}
-  // ID 是第三段路徑（字母數字混合，通常 10 個字符）
-  const newPattern = /\/product\/[^/]+\/([A-Z0-9]{8,12})(?:\/|$)/i;
-  const newMatch = cleanUrl.match(newPattern);
-  if (newMatch) return newMatch[1];
-
-  // 舊格式：/site/{name}/{sku}.p 或 skuId 參數
-  const oldPatterns = [
+  // 按優先級嘗試各種格式
+  const patterns = [
+    // 新格式：/product/{name}/{id} - 字母數字混合 ID
+    /\/product\/[^/]+\/([A-Z0-9]{8,12})(?:\/|$)/i,
+    // 舊格式：/site/{name}/{sku}.p - 7 位數字
     /\/(\d{7})\.p/,
-    /skuId=(\d{7})/,
-    /\/product\/(\d{7})/,
+    // URL 參數：skuId=
+    /skuId=(\d{5,8})/,
+    // 新格式變體：直接 /product/{id}
+    /\/product\/([A-Z0-9]{8,12})(?:\/|$)/i,
+    // 新格式：/site/{category}/{name}/{id}.p
+    /\/site\/[^/]+\/[^/]+\/(\d{5,8})\.p/,
+    // 備用：任何看起來像 SKU 的路徑段（5-8 位數字或 8-12 位字母數字）
+    /\/(\d{5,8})(?:\.p)?(?:\/|$)/,
+    /\/([A-Z0-9]{8,12})(?:\/|$)/i,
   ];
 
-  for (const pattern of oldPatterns) {
+  for (const pattern of patterns) {
     const match = cleanUrl.match(pattern);
-    if (match) return match[1];
+    if (match && match[1]) {
+      return match[1];
+    }
   }
   return null;
 }

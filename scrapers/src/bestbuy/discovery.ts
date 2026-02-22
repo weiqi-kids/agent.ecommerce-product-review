@@ -139,8 +139,9 @@ class BestBuyDiscovery extends BaseDiscovery {
     const products: DiscoveredProduct[] = [];
 
     // Best Buy 商品選擇器（2026 新格式優先）
+    // 排除：skeleton（載入中）、full-width（分隔線/廣告）、display-ad（廣告）
     const selectors = [
-      '.product-list-item:not(:has(.skeleton-product-grid-view)):not(.full-width-divider)',
+      '.product-list-item:not(:has(.skeleton-product-grid-view)):not(.full-width-divider):not(.full-width):not(:has(.display-ad-wrapper))',
       '.sku-item',
       '[data-sku-id]',
       '.sku-item-list .sku-item',
@@ -162,12 +163,51 @@ class BestBuyDiscovery extends BaseDiscovery {
           let productId = await el.getAttribute('data-sku-id');
 
           if (!productId) {
-            // 嘗試從連結提取（優先新格式 /product/，然後舊格式 .p）
-            const link = await el.$('a[href*="/product/"], a[href*=".p"]');
-            if (link) {
-              const href = await link.getAttribute('href');
-              if (href) {
-                productId = extractSkuFromUrl(href);
+            // 嘗試從任何連結提取（包含 Best Buy 各種格式）
+            const linkSelectors = [
+              'a[href*="/product/"]',
+              'a[href*=".p"]',
+              'a[href*="/site/"]',
+              'h4 a',
+              '.sku-title a',
+              'a.image-link',
+              'a',  // 最後嘗試任何連結
+            ];
+            let foundHref: string | null = null;
+            for (const sel of linkSelectors) {
+              const link = await el.$(sel);
+              if (link) {
+                const href = await link.getAttribute('href');
+                if (href && (href.includes('/product/') || href.includes('/site/') || href.includes('.p'))) {
+                  foundHref = href;
+                  productId = extractSkuFromUrl(href);
+                  if (productId) break;
+                }
+              }
+            }
+            // 如果還是沒找到，嘗試從 sku-block 結構提取
+            if (!productId) {
+              const skuBlock = await el.$('.sku-block');
+              if (skuBlock) {
+                // 列出所有連結
+                const allLinks = await skuBlock.$$('a');
+                for (const link of allLinks) {
+                  const href = await link.getAttribute('href');
+                  if (href && href !== '#' && (href.includes('/product/') || href.includes('/site/') || href.includes('.p'))) {
+                    const extracted = extractSkuFromUrl(href);
+                    if (extracted) {
+                      productId = extracted;
+                      break;
+                    }
+                  }
+                }
+                // 嘗試從 sku-block 的 data 屬性提取
+                if (!productId) {
+                  const skuEl = await skuBlock.$('[data-sku-id]');
+                  if (skuEl) {
+                    productId = await skuEl.getAttribute('data-sku-id');
+                  }
+                }
               }
             }
           }
