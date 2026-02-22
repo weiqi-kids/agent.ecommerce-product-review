@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-22T16:00:00Z",
-  "last_completed_date": "2026-02-22",
-  "execution_mode": "daily_standard",
-  "current_step": 8,
+  "last_updated": "2026-02-23T12:00:00Z",
+  "last_completed_date": "2026-02-23",
+  "execution_mode": "daily_incremental",
+  "current_step": "completed",
   "steps": {
     "step_1": {
       "status": "completed",
@@ -12,84 +12,55 @@
     },
     "step_2": {
       "status": "completed",
-      "note": "識別 3 個研究缺口，規劃於 Step 5 補齊",
+      "note": "3 個研究缺口補齊嘗試，均有進步但未達標，排程 2026-02-25 重試",
       "gap_types": {
         "research_insufficient": 3
-      }
+      },
+      "results": {
+        "infant-sensory-toy": {"webfetch": 75, "target": 100, "status": "insufficient"},
+        "foam-playmat": {"webfetch": 38, "target": 100, "status": "insufficient"},
+        "kids-activity-book": {"webfetch": 17, "target": 100, "status": "insufficient"}
+      },
+      "retry_scheduled": "2026-02-25"
     },
     "step_3": {
       "status": "completed",
-      "note": "多平台 Discovery 完成，60 個產品",
-      "platforms": {
-        "amazon_us": {
-          "products": 30,
-          "category": "toys",
-          "status": "success"
-        },
-        "walmart_us": {
-          "products": 30,
-          "category": "toys",
-          "status": "success"
-        },
-        "bestbuy_us": {
-          "products": 0,
-          "status": "skipped_selector_issue"
-        }
-      },
-      "total_discovered": 60
+      "note": "Discovery 腳本執行成功（Amazon 50, Walmart 40）但未產出 JSONL，沿用昨日清單",
+      "discovery_output": false,
+      "fallback_used": true
     },
     "step_4": {
-      "status": "completed",
-      "note": "產品分組完成：2 個新類別 + 16 個現有類別",
-      "new_categories": 2,
-      "existing_categories": 16,
-      "products_to_new": 2,
-      "products_to_existing": 28
+      "status": "skipped",
+      "note": "無新產品，跳過分組"
     },
     "step_5": {
-      "status": "completed",
-      "note": "5 個類別研究完成（含 3 個缺口補齊）",
-      "categories_researched": [
-        "interactive-pet-toy",
-        "monster-truck-toy",
-        "infant-sensory-toy",
-        "foam-playmat",
-        "kids-activity-book"
-      ],
-      "gaps_filled": [
-        "infant-sensory-toy",
-        "foam-playmat",
-        "kids-activity-book"
-      ]
+      "status": "skipped",
+      "note": "無新類別需研究"
     },
     "step_6": {
-      "status": "cancelled",
-      "note": "使用者取消 Walmart 評論抓取",
-      "cancelled_items": [
-        "176916724",
-        "14198760708"
-      ]
+      "status": "skipped",
+      "note": "無新萃取需求"
     },
     "step_7": {
-      "status": "completed",
-      "note": "2 個類別比較分析完成（基於評測文章）",
-      "categories_analyzed": 2
+      "status": "skipped",
+      "note": "無新比較分析需求"
     },
     "step_8": {
-      "status": "completed",
-      "note": "2 個比較報告產出完成",
-      "reports_generated": 2,
-      "reports_with_review_needed": 0
+      "status": "skipped",
+      "note": "無新報告需產出"
     }
   },
   "summary": {
     "monitoring_checked": 0,
-    "discovery_products": 60,
-    "new_categories": 2,
-    "research_completed": 5,
-    "comparison_analyses": 2,
-    "new_reports": 2,
-    "review_needed_reports": 2,
-    "blocking_issues": []
-  }
+    "gap_fill_attempts": 3,
+    "gap_fill_progress": {
+      "infant-sensory-toy": "75/100",
+      "foam-playmat": "38/100",
+      "kids-activity-book": "17/100"
+    },
+    "new_products": 0,
+    "new_reports": 0,
+    "blocking_issues": ["Discovery 腳本未產出 JSONL 檔案"]
+  },
+  "notes": "增量模式執行完成。研究缺口補齊有進步但未達標，排程 2 天後重試。Discovery 腳本需修復檔案輸出功能。"
 }

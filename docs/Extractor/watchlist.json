@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T09:00:00Z",
+  "last_updated": "2026-02-23T08:00:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -167,7 +167,7 @@
       "check_result": {
         "date": "2026-02-11",
         "status": "warning_issued",
-        "notes": "已產出警告報告，防霉和重型聲明與評論矛盾",
+        "notes": "已產出警告報告,防霉和重型聲明與評論矛盾",
         "report": "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md"
       }
     },
@@ -501,24 +501,30 @@
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "WebFetch 0 次，需補齊至 100+",
-      "priority": "medium"
+      "notes": "補齊嘗試 2：WebFetch 累計 75 次（需 100+），間隔 2 天後重試",
+      "priority": "medium",
+      "retry_count": 2,
+      "next_retry": "2026-02-25"
     },
     {
       "name": "foam-playmat",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "WebFetch 0 次，需補齊至 100+",
-      "priority": "medium"
+      "notes": "補齊嘗試 2：WebFetch 累計 38 次（需 100+），間隔 2 天後重試",
+      "priority": "medium",
+      "retry_count": 2,
+      "next_retry": "2026-02-25"
     },
     {
       "name": "kids-activity-book",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "WebFetch 0 次，需補齊至 100+",
-      "priority": "low"
+      "notes": "補齊嘗試 2：WebFetch 累計 17 次（需 100+），間隔 2 天後重試",
+      "priority": "low",
+      "retry_count": 2,
+      "next_retry": "2026-02-25"
     }
   ],
   "deferred_categories": [],
@@ -533,6 +539,58 @@
     }
   ],
   "completed_gap_fills": {
+    "2026-02-23": [
+      {
+        "name": "infant-sensory-toy",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "25+",
+        "webfetch_count": "75",
+        "notes": "大幅進步但仍未達標（需 100+ WebFetch），2 天後重試"
+      },
+      {
+        "name": "foam-playmat",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "16+",
+        "webfetch_count": "38",
+        "notes": "進步但仍未達標（需 100+ WebFetch），2 天後重試"
+      },
+      {
+        "name": "kids-activity-book",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "15+",
+        "webfetch_count": "17",
+        "notes": "進步但仍未達標（需 100+ WebFetch），2 天後重試"
+      }
+    ],
+    "2026-02-22": [
+      {
+        "name": "infant-sensory-toy",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "10+",
+        "webfetch_count": "6",
+        "notes": "未達標（需 100+ WebFetch），明日重試"
+      },
+      {
+        "name": "foam-playmat",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "6+",
+        "webfetch_count": "4",
+        "notes": "未達標（需 100+ WebFetch），明日重試"
+      },
+      {
+        "name": "kids-activity-book",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "6+",
+        "webfetch_count": "2",
+        "notes": "未達標（需 100+ WebFetch），明日重試"
+      }
+    ],
     "2026-02-08": [
       {
         "name": "body-firming",
