@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T09:30:00Z",
+  "last_updated": "2026-02-22T16:00:00Z",
   "last_completed_date": "2026-02-22",
   "execution_mode": "daily_standard",
   "current_step": 8,
@@ -48,12 +48,15 @@
     },
     "step_5": {
       "status": "completed",
-      "note": "2 個新類別研究完成",
+      "note": "5 個類別研究完成（含 3 個缺口補齊）",
       "categories_researched": [
         "interactive-pet-toy",
-        "monster-truck-toy"
+        "monster-truck-toy",
+        "infant-sensory-toy",
+        "foam-playmat",
+        "kids-activity-book"
       ],
-      "gaps_pending": [
+      "gaps_filled": [
         "infant-sensory-toy",
         "foam-playmat",
         "kids-activity-book"
@@ -83,7 +86,7 @@
     "monitoring_checked": 0,
     "discovery_products": 60,
     "new_categories": 2,
-    "research_completed": 2,
+    "research_completed": 5,
     "comparison_analyses": 2,
     "new_reports": 2,
     "review_needed_reports": 2,
