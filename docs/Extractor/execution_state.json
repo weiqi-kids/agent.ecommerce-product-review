@@ -25,9 +25,10 @@
     },
     "step_3": {
       "status": "completed",
-      "note": "Discovery 腳本執行成功（Amazon 50, Walmart 40）但未產出 JSONL，沿用昨日清單",
-      "discovery_output": false,
-      "fallback_used": true
+      "note": "Discovery 腳本已修復，可自動輸出 JSONL（Amazon 30, Walmart 30 已驗證）",
+      "discovery_output": true,
+      "fallback_used": false,
+      "fix_applied": "2026-02-23"
     },
     "step_4": {
       "status": "skipped",
@@ -60,7 +61,7 @@
     },
     "new_products": 0,
     "new_reports": 0,
-    "blocking_issues": ["Discovery 腳本未產出 JSONL 檔案"]
+    "blocking_issues": []
   },
-  "notes": "增量模式執行完成。研究缺口補齊有進步但未達標，排程 2 天後重試。Discovery 腳本需修復檔案輸出功能。"
+  "notes": "增量模式執行完成。研究缺口補齊有進步但未達標，排程 2 天後重試。Discovery 腳本輸出問題已修復。"
 }
