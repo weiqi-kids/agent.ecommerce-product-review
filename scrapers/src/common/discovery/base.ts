@@ -15,6 +15,8 @@ import type {
   ScrollConfig,
   DiscoveryJsonlRecord,
 } from './types.js';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
 import {
   parseDiscoveryArgs,
   validateArgs,
@@ -23,6 +25,12 @@ import {
   writeJsonlOutput,
   printConsoleOutput,
 } from './utils.js';
+
+// 取得專案根目錄
+// 路徑：scrapers/src/common/discovery/base.ts → 往上 4 層到 agent.ecommerce-product-review
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const PROJECT_ROOT = resolve(__dirname, '../../../..');
 
 export abstract class BaseDiscovery {
   protected config: DiscoveryConfig;
@@ -231,17 +239,30 @@ export abstract class BaseDiscovery {
   }
 
   /**
+   * 產生預設輸出路徑
+   * 格式：docs/Extractor/{layer}/discovery/{category}--{date}.jsonl
+   */
+  protected getDefaultOutputPath(category: string): string {
+    const layerName = this.config.platform.toLowerCase() + '_us';
+    const date = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+    return resolve(PROJECT_ROOT, 'docs', 'Extractor', layerName, 'discovery', `${category}--${date}.jsonl`);
+  }
+
+  /**
    * 輸出結果
+   * 若未指定 --output，自動輸出到預設路徑
    */
   protected async outputResults(products: DiscoveredProduct[], options: DiscoveryOptions): Promise<void> {
     const records = toJsonlRecords(products, this.config.platform, this.config.buildProductUrl);
 
-    if (options.outputFile) {
-      writeJsonlOutput(records, options.outputFile);
-      console.log(`\n✅ 已輸出到 ${options.outputFile}（JSONL 格式）`);
-    } else {
-      printConsoleOutput(products, this.config.platform);
-    }
+    // 使用指定路徑或預設路徑
+    const outputFile = options.outputFile || this.getDefaultOutputPath(options.category);
+
+    writeJsonlOutput(records, outputFile);
+    console.log(`\n✅ 已輸出到 ${outputFile}（JSONL 格式，共 ${records.length} 筆）`);
+
+    // 同時打印摘要到控制台
+    printConsoleOutput(products, this.config.platform);
   }
 
   /**
