@@ -105,9 +105,9 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-02-23 | 160 | 50 ⚠️ | ⚠️ 腳本未產出檔案 |
-| bestbuy_us | 2026-02-17 | 0 | 0 ⚠️ | ⚠️ URL 導向問題 |
-| walmart_us | 2026-02-23 | 0 | 40 ⚠️ | ⚠️ 腳本未產出檔案 |
+| amazon_us | 2026-02-24 | 160 | 30 ✅ | ✅ 正常 |
+| bestbuy_us | 2026-02-17 | 0 | 0 ⚠️ | ⚠️ selector issue |
+| walmart_us | 2026-02-24 | 30 | 30 ✅ | ✅ 正常 |
 
 ### 監控清單
 
@@ -117,13 +117,13 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 | 研究缺口類別 | 5 |
 | 暫緩發佈類別 | 0 |
 
-### 今日統計 (2026-02-23)
+### 今日統計 (2026-02-24)
 
 | 指標 | 數值 |
 |------|------|
-| Discovery 產品 | 90 (Amazon 50 + Walmart 40) 終端輸出 |
-| 監控追蹤 | 0 個（無到期項目） |
-| 研究缺口補齊 | 3 個嘗試（進步但未達標） |
+| Discovery 產品 | 60 (Amazon 30 + Walmart 30) |
+| 監控追蹤 | 3 個（1 改善、2 無變化） |
+| 研究缺口補齊 | 0 個（排程明日重試） |
 | 新類別 | 0 |
 | 報告產出 | 0 |
 

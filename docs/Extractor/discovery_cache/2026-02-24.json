@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-24",
+  "sources": {
+    "amazon": {
+      "categories": ["electronics"],
+      "count": 30,
+      "file": "docs/Extractor/amazon_us/discovery/electronics--2026-02-23.jsonl"
+    },
+    "walmart": {
+      "categories": ["electronics"],
+      "count": 30,
+      "file": "docs/Extractor/walmart_us/discovery/electronics--2026-02-23.jsonl"
+    },
+    "bestbuy": {
+      "categories": [],
+      "count": 0,
+      "notes": "Best Buy Discovery 暫時跳過（需 headless=false 配置）"
+    }
+  },
+  "total_products": 60,
+  "unique_products": 60,
+  "cross_platform_matches": [],
+  "new_products": [],
+  "status": "completed",
+  "notes": "增量模式執行。Amazon 和 Walmart electronics 各 30 個商品。"
+}

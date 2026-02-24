@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T08:00:00Z",
+  "last_updated": "2026-02-24T12:00:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -8,7 +8,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-02-17",
+      "last_checked": "2026-02-24",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -27,9 +27,9 @@
         "review_count": 41358
       },
       "check_result": {
-        "date": "2026-02-17",
-        "status": "comparison_issued",
-        "notes": "已產出比較報告，標記 [REVIEW_NEEDED]",
+        "date": "2026-02-24",
+        "status": "no_change",
+        "notes": "假貨風險持續存在但無惡化。2026 年假貨辨識仍具挑戰，視覺差異縮小。無新充電火災事件報導。無召回公告。",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -40,7 +40,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-02-17",
+      "last_checked": "2026-02-24",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -59,9 +59,9 @@
         "review_count": 5811
       },
       "check_result": {
-        "date": "2026-02-17",
-        "status": "comparison_issued",
-        "notes": "已產出比較報告，標記 [REVIEW_NEEDED]",
+        "date": "2026-02-24",
+        "status": "no_change",
+        "notes": "iCloud Lock 問題持續存在但無惡化跡象。未發現 2026 年新的大規模投訴。二手/翻新市場活躍，評論多為正面。無官方召回或聲明。",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -70,14 +70,18 @@
       "name": "Apple AirTag 2nd Generation",
       "category": "item-tracker",
       "watch_reason": "quality_crisis",
-      "severity": "high",
+      "severity": "medium",
       "added_date": "2026-02-17",
-      "last_checked": "2026-02-17",
-      "check_interval_days": 7,
+      "last_checked": "2026-02-24",
+      "check_interval_days": 14,
       "alerts": [
         {
           "type": "connectivity_failure",
           "description": "監控 11.7% 連線失敗率是否改善"
+        },
+        {
+          "type": "compatibility_check",
+          "description": "監控 iOS 26.2.1 相容性問題報告（2026-02-24 新增）"
         }
       ],
       "baseline": {
@@ -86,9 +90,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-02-17",
-        "status": "extraction_completed",
-        "notes": "首次萃取完成，待後續追蹤"
+        "date": "2026-02-24",
+        "status": "improved",
+        "notes": "產品本身連線能力已改善（升級版 Bluetooth + 第二代 UWB 晶片）。主要「不工作」原因識別為軟體相容性（需 iOS 26.2.1 + iPhone 11 以上）。嚴重度降級為 medium，檢查間隔延長至 14 天。建議下次重新抓取評論驗證。"
       }
     },
     {

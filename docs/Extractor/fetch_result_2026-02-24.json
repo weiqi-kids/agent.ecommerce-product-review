@@ -1,0 +1,25 @@
+{
+  "date": "2026-02-24",
+  "execution_mode": "incremental",
+  "fetch_summary": {
+    "total_products_in_discovery": 60,
+    "products_already_extracted": 6,
+    "products_need_extraction": 3,
+    "products_skipped": 51
+  },
+  "already_extracted": [
+    {"asin": "B0DGHMNQ5Z", "name": "Apple AirPods 4", "category": "wireless-earbuds", "last_extracted": "2026-02-17"},
+    {"asin": "B0FQFB8FMG", "name": "Apple AirPods Pro 3", "category": "wireless-earbuds", "last_extracted": "2026-02-17"},
+    {"asin": "B0GJTFXNRX", "name": "Apple AirTag 2nd Gen", "category": "item-tracker", "last_extracted": "2026-02-17"},
+    {"asin": "B0F7Z4QZTT", "name": "Amazon Fire TV Stick 4K Plus", "category": "streaming-stick", "last_extracted": "2026-02-17"},
+    {"asin": "B0CQMRKRV5", "name": "Amazon Fire TV Stick HD", "category": "streaming-stick", "last_extracted": "2026-02-17"},
+    {"asin": "B09PDLBFKY", "name": "Surge Protector Power Strip 6Ft", "category": "power-strip", "last_extracted": "2026-02-08"}
+  ],
+  "pending_extraction": [
+    {"asin": "B0DXXYS4BJ", "name": "Roku Streaming Stick HD", "category": "streaming-stick", "priority": "low"},
+    {"asin": "B0CFPJYX7P", "name": "Amazon Kindle Paperwhite", "category": "e-reader", "priority": "low"},
+    {"asin": "B0C6W3D4RM", "name": "Amazon Fire TV Stick 4K Select", "category": "streaming-stick", "priority": "low"}
+  ],
+  "extraction_skipped_reason": "低優先級產品，無立即萃取需求。監控清單產品已有最新萃取資料。",
+  "notes": "增量模式：重點產品已有萃取，新發現低優先級產品暫緩。"
+}
