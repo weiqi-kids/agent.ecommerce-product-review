@@ -1,0 +1,76 @@
+{
+  "date": "2026-02-25",
+  "scan_summary": {
+    "review_needed_reports_scanned": 0,
+    "categories_due_for_retry": 3,
+    "categories_processed": 3
+  },
+  "gap_types": {
+    "research_insufficient": 3,
+    "competitors_insufficient": 0,
+    "reviews_insufficient": 0
+  },
+  "categories": [
+    {
+      "name": "infant-sensory-toy",
+      "gap_type": "research_insufficient",
+      "before": {
+        "websearch_count": 10,
+        "webfetch_count": 75,
+        "status": "insufficient"
+      },
+      "after": {
+        "websearch_count": 25,
+        "webfetch_count": 100,
+        "status": "completed"
+      },
+      "action_taken": "executed_research_supplement",
+      "result": "達標",
+      "notes": "補充抓取：職業治療師推薦、感官發展指南、高對比玩具、趴臥墊、固齒器評測"
+    },
+    {
+      "name": "foam-playmat",
+      "gap_type": "research_insufficient",
+      "before": {
+        "websearch_count": 8,
+        "webfetch_count": 38,
+        "status": "insufficient"
+      },
+      "after": {
+        "websearch_count": 13,
+        "webfetch_count": 54,
+        "status": "insufficient"
+      },
+      "action_taken": "executed_research_supplement",
+      "result": "未達標",
+      "retry_count": 3,
+      "next_retry": "2026-02-28",
+      "notes": "補充抓取：非毒性遊戲墊、EVA vs TPU 比較、軟木墊評測。WebFetch 累計 54 次，仍未達 100+ 門檻"
+    },
+    {
+      "name": "kids-activity-book",
+      "gap_type": "research_insufficient",
+      "before": {
+        "websearch_count": 6,
+        "webfetch_count": 17,
+        "status": "insufficient"
+      },
+      "after": {
+        "websearch_count": 6,
+        "webfetch_count": 17,
+        "status": "insufficient"
+      },
+      "action_taken": "deferred",
+      "result": "延後",
+      "retry_count": 2,
+      "next_retry": "2026-02-28",
+      "notes": "今日優先處理 infant-sensory-toy 和 foam-playmat，此類別延後至 2026-02-28"
+    }
+  ],
+  "summary": {
+    "completed": 1,
+    "deferred": 2,
+    "failed": 0
+  },
+  "notes": "今日補齊執行完成。infant-sensory-toy 已達標（WebFetch 100+）。foam-playmat 和 kids-activity-book 因 WebFetch 不足延後至 2026-02-28。"
+}

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T12:00:00Z",
+  "last_updated": "2026-02-25T12:00:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -102,7 +102,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-11",
-      "last_checked": "2026-02-18",
+      "last_checked": "2026-02-25",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -129,9 +129,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-18",
-        "status": "improved_but_concerns",
-        "notes": "故障率從 46% 降至 22%（改善），但發現 1 則火災事件（2%）。平均評分從 4.55 降至 4.35。無召回公告。",
+        "date": "2026-02-25",
+        "status": "no_change",
+        "notes": "無召回公告、無新火災事件報導。故障率維持改善狀態。建議持續監控。",
         "current_metrics": {
           "failure_rate": "22%",
           "uneven_toasting_rate": "14%",
@@ -150,7 +150,7 @@
       "watch_reason": "claim_contradiction",
       "severity": "high",
       "added_date": "2026-02-11",
-      "last_checked": "2026-02-11",
+      "last_checked": "2026-02-25",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -160,6 +160,10 @@
         {
           "type": "claim_accuracy",
           "description": "監控「防霉」「重型」聲明是否被修改"
+        },
+        {
+          "type": "thickness_complaints",
+          "description": "監控材質過薄投訴（2026-02-25 新增，惡化趨勢）"
         }
       ],
       "baseline": {
@@ -169,9 +173,9 @@
         "review_count": 67824
       },
       "check_result": {
-        "date": "2026-02-11",
-        "status": "warning_issued",
-        "notes": "已產出警告報告,防霉和重型聲明與評論矛盾",
+        "date": "2026-02-25",
+        "status": "no_change",
+        "notes": "防霉問題持續（~18-20%），材質過薄投訴惡化（70% 負面提及）。無官方回應或產品描述變更。產品仍以「Mildew Resistant」銷售。",
         "report": "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md"
       }
     },
@@ -504,31 +508,31 @@
       "name": "infant-sensory-toy",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
-      "action": "supplement_research",
-      "notes": "補齊嘗試 2：WebFetch 累計 75 次（需 100+），間隔 2 天後重試",
-      "priority": "medium",
-      "retry_count": 2,
-      "next_retry": "2026-02-25"
+      "action": "completed",
+      "notes": "補齊成功：WebFetch 累計 100+ 次，已達標",
+      "priority": "completed",
+      "retry_count": 3,
+      "completed_date": "2026-02-25"
     },
     {
       "name": "foam-playmat",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "補齊嘗試 2：WebFetch 累計 38 次（需 100+），間隔 2 天後重試",
+      "notes": "補齊嘗試 3：WebFetch 累計 54 次（需 100+），間隔 3 天後重試",
       "priority": "medium",
-      "retry_count": 2,
-      "next_retry": "2026-02-25"
+      "retry_count": 3,
+      "next_retry": "2026-02-28"
     },
     {
       "name": "kids-activity-book",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "補齊嘗試 2：WebFetch 累計 17 次（需 100+），間隔 2 天後重試",
+      "notes": "補齊嘗試 2：WebFetch 累計 17 次（需 100+），間隔 3 天後重試（今日未執行）",
       "priority": "low",
       "retry_count": 2,
-      "next_retry": "2026-02-25"
+      "next_retry": "2026-02-28"
     }
   ],
   "deferred_categories": [],
@@ -543,6 +547,32 @@
     }
   ],
   "completed_gap_fills": {
+    "2026-02-25": [
+      {
+        "name": "infant-sensory-toy",
+        "action": "supplement_research",
+        "result": "success",
+        "websearch_count": "25+",
+        "webfetch_count": "100+",
+        "notes": "達標完成（WebFetch 100+ 次）"
+      },
+      {
+        "name": "foam-playmat",
+        "action": "supplement_research",
+        "result": "insufficient",
+        "websearch_count": "13+",
+        "webfetch_count": "54",
+        "notes": "未達標（需 100+ WebFetch），3 天後重試"
+      },
+      {
+        "name": "kids-activity-book",
+        "action": "deferred",
+        "result": "skipped",
+        "websearch_count": "6+",
+        "webfetch_count": "17",
+        "notes": "今日未執行，延後至 2026-02-28"
+      }
+    ],
     "2026-02-23": [
       {
         "name": "infant-sensory-toy",

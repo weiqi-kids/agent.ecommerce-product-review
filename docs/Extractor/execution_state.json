@@ -1,75 +1,83 @@
 {
-  "last_updated": "2026-02-24T12:00:00Z",
-  "last_completed_date": "2026-02-24",
+  "last_updated": "2026-02-25T00:45:00Z",
+  "last_completed_date": "2026-02-25",
   "execution_mode": "daily_incremental",
   "current_step": "completed",
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "3 個監控項目已檢查（AirPods 4、AirPods Pro 3、AirTag 2nd Gen）",
-      "items_checked": 3,
+      "note": "2 個監控項目今日到期（bella Toaster、BigFoot Shower Curtain），已於上次執行檢查",
+      "items_checked": 2,
       "results": {
-        "B0DGHMNQ5Z": "no_change",
-        "B0FQFB8FMG": "no_change",
-        "B0GJTFXNRX": "improved"
+        "B0CYJBB2JQ": "no_change",
+        "B08CRPWQHB": "no_change"
       }
     },
     "step_2": {
       "status": "completed",
-      "note": "無今日到期研究缺口（3 個類別排程 2026-02-25 重試）",
+      "note": "3 個類別排程重試：infant-sensory-toy（達標）、foam-playmat（未達標）、kids-activity-book（延後）",
       "gap_types": {
-        "research_insufficient": 0
+        "research_insufficient": 3
       },
-      "deferred": {
-        "infant-sensory-toy": "2026-02-25",
-        "foam-playmat": "2026-02-25",
-        "kids-activity-book": "2026-02-25"
+      "results": {
+        "infant-sensory-toy": "completed",
+        "foam-playmat": "insufficient",
+        "kids-activity-book": "deferred"
       }
     },
     "step_3": {
       "status": "completed",
-      "note": "Discovery 執行成功（Amazon 30, Walmart 30）",
+      "note": "Discovery 執行成功（Amazon 30, Walmart 40）",
       "discovery_output": true,
       "platforms": {
         "amazon": 30,
-        "walmart": 30,
+        "walmart": 40,
         "bestbuy": 0
-      }
+      },
+      "selector_issues": ["walmart:beauty", "walmart:baby", "walmart:toys"]
     },
     "step_4": {
       "status": "completed",
-      "note": "7 個產品歸入現有類別，無新類別",
+      "note": "15 個產品歸入現有類別，55 個跳過（大眾消費電子）",
       "new_categories": 0,
-      "products_to_existing": 7
+      "products_to_existing": 15,
+      "products_skipped": 55
     },
     "step_5": {
       "status": "skipped",
-      "note": "無新類別需研究"
+      "note": "歸入已有類別，跳過研究步驟"
     },
     "step_6": {
-      "status": "skipped",
-      "note": "6 個產品已有萃取，3 個低優先級暫緩"
+      "status": "partial",
+      "note": "增量模式：2 個已有萃取，11 個待萃取（記錄於 fetch_result）",
+      "already_extracted": 2,
+      "pending_extraction": 11,
+      "technical_debt": "8 個舊殘留 batch 檔案待清理"
     },
     "step_7": {
       "status": "skipped",
-      "note": "無新比較分析需求"
+      "note": "無新萃取，跳過比較分析"
     },
     "step_8": {
       "status": "skipped",
-      "note": "無新報告需產出"
+      "note": "無新比較分析，跳過報告產出"
     }
   },
   "summary": {
-    "monitoring_checked": 3,
+    "monitoring_checked": 2,
     "monitoring_results": {
-      "no_change": 2,
-      "improved": 1
+      "no_change": 2
     },
-    "gap_fill_attempts": 0,
-    "discovery_products": 60,
-    "new_products": 7,
+    "gap_fill_attempts": 3,
+    "gap_fill_results": {
+      "completed": 1,
+      "insufficient": 1,
+      "deferred": 1
+    },
+    "discovery_products": 70,
+    "new_products_grouped": 15,
     "new_reports": 0,
     "blocking_issues": []
   },
-  "notes": "增量模式執行完成。3 個監控項目已檢查（1 個改善）。Discovery 成功抓取 60 個產品，7 個歸入現有類別。"
+  "notes": "增量模式執行完成。infant-sensory-toy 研究補齊達標。15 個產品歸入現有類別，11 個待萃取。無新報告產出。"
 }

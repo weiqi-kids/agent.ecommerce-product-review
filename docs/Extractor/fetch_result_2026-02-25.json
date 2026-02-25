@@ -1,0 +1,49 @@
+{
+  "date": "2026-02-25",
+  "execution_mode": "incremental",
+  "products_analyzed": 15,
+  "extraction_status": {
+    "already_extracted": [
+      {"asin": "B0916TKFF2", "name": "Roku Express 4K+", "category": "streaming-stick", "extracted_date": "2026-02-05"},
+      {"asin": "B0CQMRKRV5", "name": "Amazon Fire TV Stick HD", "category": "streaming-stick", "extracted_date": "2026-02-17"}
+    ],
+    "needs_extraction": [
+      {"asin": "B0C77RCN4X", "name": "PocBuds Bluetooth Headphones", "category": "wireless-earbuds", "priority": "medium"},
+      {"asin": "B0CWXNS552", "name": "Apple AirTag (1st Gen)", "category": "item-tracker", "priority": "low"},
+      {"asin": "B0D54JZTHY", "name": "Apple AirTag 4 Pack", "category": "item-tracker", "priority": "low"},
+      {"asin": "B09B8V1LZ3", "name": "Bose QuietComfort Headphones", "category": "noise-cancelling-headphone", "priority": "medium"},
+      {"asin": "B0DLKB5V35", "name": "Soundcore Anker Life Q20", "category": "noise-cancelling-headphone", "priority": "medium"},
+      {"asin": "B0BRKPVZB4", "name": "BolaButty Bluetooth Speaker", "category": "noise-cancelling-headphone", "priority": "low"},
+      {"asin": "B0DHLSZXQD", "name": "Amazon Basics Surge Protector", "category": "power-strip", "priority": "high"},
+      {"asin": "B09WNK39JN", "name": "Blink Video Doorbell", "category": "video-doorbell", "priority": "medium"},
+      {"asin": "B0CFPJYX7P", "name": "Amazon Kindle Paperwhite 16GB", "category": "e-reader", "priority": "medium"}
+    ],
+    "walmart_products": [
+      {"product_id": "631193073", "name": "JLab Go Air Pop Earbuds", "category": "wireless-earbuds", "priority": "medium"},
+      {"product_id": "799842411", "name": "Roku Streaming Stick 4K", "category": "streaming-stick", "priority": "low"}
+    ]
+  },
+  "summary": {
+    "total_assigned": 15,
+    "already_done": 2,
+    "pending_extraction": 11,
+    "high_priority": 1,
+    "medium_priority": 7,
+    "low_priority": 5
+  },
+  "notes": "增量模式執行。2 個產品已有萃取，11 個待萃取（1 個 high、7 個 medium、5 個 low 優先級）。高優先級：B0DHLSZXQD（Amazon Basics Surge Protector）建議下次優先處理。",
+  "technical_debt": {
+    "residual_batch_files": 8,
+    "files": [
+      "B0F7Z4QZTT--batch-1.md",
+      "B0F7Z4QZTT--batch-2.md",
+      "B01MSSDEPK--cerave--batch-2.md",
+      "B0148PKYXU--amazon_us--batch-1.md",
+      "B0148PKYXU--amazon_us--batch-2.md",
+      "B07PBXXNCY--clean-skin-club--batch-2.md",
+      "B08KT2Z93D--amazon_us--batch-1.md",
+      "B08KT2Z93D--amazon_us--batch-2.md"
+    ],
+    "note": "舊殘留 batch 檔案，非今日產生。建議下次完整執行時清理合併。"
+  }
+}

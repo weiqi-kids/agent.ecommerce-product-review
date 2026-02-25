@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-02-25T00:36:00Z",
+  "platforms": {
+    "amazon": {
+      "total": 30,
+      "sources": {
+        "movers": 30,
+        "bestsellers": 0
+      },
+      "categories": {
+        "electronics": 30
+      }
+    },
+    "walmart": {
+      "total": 40,
+      "sources": {
+        "best-sellers": 40
+      },
+      "categories": {
+        "electronics": 40,
+        "beauty": 0,
+        "baby": 0,
+        "toys": 0
+      },
+      "selector_issues": ["beauty", "baby", "toys"]
+    },
+    "bestbuy": {
+      "total": 0,
+      "notes": "跳過執行（selector 問題待修復）"
+    }
+  },
+  "summary": {
+    "total_products": 70,
+    "unique_products": 70,
+    "cross_platform_matches": 0
+  },
+  "files": {
+    "amazon": "docs/Extractor/amazon_us/discovery/electronics--2026-02-25.jsonl",
+    "walmart": "docs/Extractor/walmart_us/discovery/electronics--2026-02-25.jsonl"
+  },
+  "notes": "Amazon movers 30 筆，Walmart electronics 40 筆。Walmart baby/beauty/toys 遇到 selector 問題（已記錄至 selector_issues.json）。"
+}
