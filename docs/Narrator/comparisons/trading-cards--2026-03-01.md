@@ -1,6 +1,6 @@
 ---
 title: 集換式卡牌收藏指南：Pokemon TCG 30 週年紀念套組
-description: 本報告分析 Pokemon TCG: Pokemon Day 2026 Collection（ASIN: B0G2FVLXVL）在 Amazon 上的購買風險。基於 50 則評論，發現三大核心問題：第三方賣家加價 116%（$38.90 vs MSRP $18）、36% 外盒運送受損、6% 內部卡片損壞或缺件
+description: "本報告分析 Pokemon TCG: Pokemon Day 2026 Collection（ASIN: B0G2FVLXVL）在 Amazon 上的購買風險。基於 50 則評論，發現三大核心問題：第三方賣家加價 116%（$38.90 vs MSRP $18）、36% 外盒運送受損、6% 內部卡片損壞或缺件"
 date: 2026-03-01
 head:
   - - meta
