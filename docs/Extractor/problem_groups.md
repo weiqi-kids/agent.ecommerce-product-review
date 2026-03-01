@@ -1,12 +1,12 @@
 # 產品問題分組
 
-最後更新：2026-02-24
+最後更新：2026-03-01
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：354
-問題類別數：82
+產品總數：386
+問題類別數：100
 分組原則：按具體問題分組（v2 - 問題導向）
-本次更新：7 個產品歸入現有類別（wireless-earbuds、streaming-stick、power-strip、e-reader）
+本次更新：14 個產品歸入現有類別（vitamin-d-supplement、squishy-toy x4、streaming-stick、video-game-console x2、drain-clog、laundry-stain x2、floor-mopping x2、trading-cards）；新增 18 個類別（32 個產品）
 
 ---
 
@@ -24,7 +24,7 @@
 | teeth-whitening | 牙齒美白 | 1 | ✅ 已完成 |
 | hair-extension | 接髮增量 | 1 | ⚠️ 需補充 |
 | hair-styling-powder | 頭髮造型粉 | 1 | ⚠️ 需補充 |
-| vitamin-d-supplement | 維生素D補充 | 2 | ✅ 已完成 |
+| vitamin-d-supplement | 維生素D補充 | 3 | ✅ 已完成 |
 | vitamin-c-supplement | 維生素C補充 | 1 | ✅ 已完成 |
 | multivitamin | 綜合維生素 | 2 | ⚠️ 需補充 |
 | whey-protein | 乳清蛋白補充 | 2 | ⚠️ 需補充 |
@@ -34,10 +34,10 @@
 | yoga-mat | 瑜伽墊 | 1 | ⚠️ 需補充 |
 | weighted-vest | 負重背心 | 1 | ⚠️ 需補充 |
 | walking-pad | 走步機 | 1 | ⚠️ 需補充 |
-| floor-mopping | 地板拖把清潔 | 2 | ⚠️ 需補充 |
-| laundry-stain | 衣物去污 | 2 | ⚠️ 需補充 |
+| floor-mopping | 地板拖把清潔 | 4 | ⚠️ 需補充 |
+| laundry-stain | 衣物去污 | 4 | ⚠️ 需補充 |
 | dish-sponge | 洗碗海綿 | 1 | ⚠️ 需補充 |
-| drain-clog | 排水管堵塞 | 1 | ✅ 已完成 |
+| drain-clog | 排水管堵塞 | 2 | ✅ 已完成 |
 | diaper-rash | 尿布疹護理 | 1 | ✅ 已完成 |
 | cradle-cap | 嬰兒頭皮乳痂 | 1 | ⚠️ 需補充 |
 | bath-toys | 洗澡玩具 | 1 | ⚠️ 需補充 |
@@ -45,13 +45,13 @@
 | building-blocks | 積木組裝玩具 | 15 | ⚠️ 需補充 |
 | board-games | 桌遊 | 1 | ⚠️ 需補充 |
 | art-supplies | 繪畫用品 | 2 | ⚠️ 需補充 |
-| trading-cards | 收藏卡牌遊戲 | 3 | ✅ 已完成 |
+| trading-cards | 收藏卡牌遊戲 | 4 | ✅ 已完成 |
 | playing-cards | 撲克牌 | 1 | ✅ 已完成 |
 | kids-tent | 兒童遊戲帳篷 | 1 | ✅ 已完成 |
 | party-balloon | 派對氣球 | 1 | ⚠️ 需補充 |
 | valentine-cards | 情人節卡片禮物 | 3 | ⚠️ 需補充 |
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
-| streaming-stick | 電視串流棒 | 6 | ✅ 已完成 |
+| streaming-stick | 電視串流棒 | 7 | ✅ 已完成 |
 | noise-cancelling-headphone | 降噪耳機 | 2 | ✅ 已完成 |
 | item-tracker | 物品追蹤器 | 1 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
@@ -66,7 +66,7 @@
 | baking-sheet | 烤盤 | 1 | ⚠️ 需補充 |
 | parchment-paper | 烘焙紙 | 1 | ⚠️ 需補充 |
 | dresser-drawer | 抽屜收納櫃 | 1 | ⚠️ 需補充 |
-| squishy-toy | 減壓軟軟玩具 | 1 | ✅ 已完成 |
+| squishy-toy | 減壓軟軟玩具 | 5 | ✅ 已完成 |
 | body-firming | 身體皮膚緊緻塑形 | 1 | ⏳ 待研究 |
 | nail-glue | 美甲固定膠 | 1 | ⏳ 待研究 |
 | party-tableware | 派對一次性餐具 | 1 | ⏳ 待研究 |
@@ -94,7 +94,7 @@
 | hair-frizz-control | 抗毛躁護髮 | 2 | ⏳ 待研究 |
 | home-hair-color | 居家染髮 | 2 | ⏳ 待研究 |
 | nail-polish-remover | 卸甲液 | 2 | ⏳ 待研究 |
-| video-game-console | 主機電玩遊戲 | 10 | ⏳ 待研究 |
+| video-game-console | 主機電玩遊戲 | 12 | ⏳ 待研究 |
 | kids-bike | 兒童腳踏車 | 9 | ⏳ 待研究 |
 | ride-on-toy | 騎乘玩具 | 5 | ⏳ 待研究 |
 | giant-teddy-bear | 大型絨毛玩具 | 3 | ⏳ 待研究 |
@@ -105,6 +105,24 @@
 | kitchen-scale | 廚房秤/食物秤 | 1 | ✅ 已完成 |
 | interactive-pet-toy | 互動式電子寵物玩具 | 1 | ⏳ 待研究 |
 | monster-truck-toy | 怪獸卡車玩具模型 | 1 | ⏳ 待研究 |
+| electric-cooktop | 額外電磁爐/電陶爐煮食 | 2 | ⏳ 待研究 |
+| countertop-ice-maker | 家用便攜製冰機 | 2 | ⏳ 待研究 |
+| range-hood | 廚房油煙排除 | 2 | ⏳ 待研究 |
+| window-ac | 窗型冷氣降溫 | 1 | ⏳ 待研究 |
+| glass-food-storage | 玻璃食物保存容器 | 1 | ⏳ 待研究 |
+| postpartum-incontinence | 產後尿失禁防護 | 1 | ⏳ 待研究 |
+| meal-replacement-protein-shake | 高蛋白餐替代奶昔 | 4 | ⏳ 待研究 |
+| high-protein-snack | 高蛋白低碳水零食 | 1 | ⏳ 待研究 |
+| baby-diaper | 嬰兒尿布防漏護膚 | 2 | ⏳ 待研究 |
+| air-mattress | 充氣床墊臨時睡眠 | 1 | ⏳ 待研究 |
+| dry-dog-food | 寵物犬日常乾糧 | 4 | ⏳ 待研究 |
+| indoor-cat-food | 室內貓乾糧體重控制 | 1 | ⏳ 待研究 |
+| potting-soil | 盆栽培養土 | 1 | ⏳ 待研究 |
+| wild-bird-feed | 後院野鳥飼料 | 1 | ⏳ 待研究 |
+| water-softener-salt | 軟水機鹽/水垢問題 | 1 | ⏳ 待研究 |
+| damage-free-wall-hanging | 免釘痕掛鉤/牆面掛圖 | 1 | ⏳ 待研究 |
+| travel-packing-organization | 旅行行李收納整理 | 1 | ⏳ 待研究 |
+| tortilla-press | 手工玉米餅壓製 | 1 | ⏳ 待研究 |
 
 ---
 

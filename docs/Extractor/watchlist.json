@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T12:00:00Z",
+  "last_updated": "2026-03-01T18:15:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -210,9 +210,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-19",
+        "date": "2026-03-01",
         "status": "no_change",
-        "notes": "無新召回或火災事件報導。2019 年曾召回不同型號（B074MR2HGM 等），此 ASIN 未列入召回清單。建議持續監控。",
+        "notes": "無 2026 新召回，舊召回為 2019 年不同型號。建議持續監控。",
         "report": "docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"
       }
     },
@@ -223,7 +223,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-01",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -242,9 +242,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-08",
-        "status": "warning_issued",
-        "notes": "已產出警告報告，32% 用戶報告問題",
+        "date": "2026-03-01",
+        "status": "no_change",
+        "notes": "無 2026 召回或品質事件，維持 baseline 狀態。",
         "report": "docs/Narrator/warnings/hefty-party-cups--2026-02-08.md"
       },
       "recommended_alternative": {
@@ -294,7 +294,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-01",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -313,9 +313,9 @@
         "review_count": 1500
       },
       "check_result": {
-        "date": "2026-02-19",
+        "date": "2026-03-01",
         "status": "no_change",
-        "notes": "無召回公告。同類產品 ANNQUAN（2026-01-07）、HEZI（2026-01-15）已召回，但 HANYCONY 未受影響。建議持續監控。"
+        "notes": "無 HANYCONY 召回，同類 ANNQUAN/HEZI 品牌有 2026 召回。建議持續監控。"
       }
     },
     {
@@ -325,7 +325,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-01",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -342,9 +342,9 @@
         "avg_rating": 4.3
       },
       "check_result": {
-        "date": "2026-02-19",
+        "date": "2026-03-01",
         "status": "no_change",
-        "notes": "無召回公告。建議持續監控。"
+        "notes": "無 HANYCONY 12 口召回，同期 ANNQUAN 12 口已被召回。建議持續監控。"
       }
     },
     {
@@ -354,7 +354,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-01",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -372,9 +372,9 @@
         "review_count": 50000
       },
       "check_result": {
-        "date": "2026-02-19",
-        "status": "lawsuit_update",
-        "notes": "發現 2024 年 11 月新增訴訟（Carlos Campos v. Haleon），指控軟糖產品維生素C含量短缺 45%（標示 750mg，實測 409mg）。軟糖（透明瓶）風險高於粉末（密封包裝）。無新召回。"
+        "date": "2026-03-01",
+        "status": "no_change",
+        "notes": "訴訟持續進行中，無新召回。含量不足問題未解。軟糖風險高於粉末。"
       }
     },
     {
@@ -413,7 +413,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-01",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -439,9 +439,9 @@
         "review_count": 7
       },
       "check_result": {
-        "date": "2026-02-19",
-        "status": "no_change",
-        "notes": "假貨風險未改善。產品仍在 Amazon 上架，評論數增至 62 則但驗證購買率仍為 0%。官方因 FDA 未核准 UV 過濾成分計劃下架，但第三方賣家仍持續銷售。",
+        "date": "2026-03-01",
+        "status": "worsening",
+        "notes": "品牌已停止北美銷售，但 Amazon 仍有第三方假貨流通。驗證購買率仍為 0%。",
         "report": "docs/Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md"
       }
     },
@@ -450,9 +450,9 @@
       "name": "eos Shea Better Body Lotion Vanilla Cashmere",
       "category": "body-moisturizing",
       "watch_reason": "quality_crisis",
-      "severity": "high",
+      "severity": "critical",
       "added_date": "2026-02-07",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-01",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -480,10 +480,51 @@
       },
       "discovery_source": "L5 issue detection from 2026-02-07 extraction",
       "check_result": {
-        "date": "2026-02-19",
+        "date": "2026-03-01",
         "status": "worsening",
-        "notes": "化學味問題持續惡化。2026 年用戶報告「聞起來像直接化學品」、「酸臭味」、「假味且令人不適」。多位用戶明確表示配方改變。品牌尚未回應。若下次檢查（2026-02-26）問題仍持續，考慮提升嚴重度至 critical。",
-        "action_needed": "若下次仍惡化，提升嚴重度至 critical 並更新警告報告"
+        "notes": "化學/酸腐味投訴持續超過10週，無品牌回應或配方更改公告。嚴重度已從 high 升級至 critical。",
+        "severity_upgrade": {
+          "from": "high",
+          "to": "critical",
+          "date": "2026-03-01",
+          "reason": "問題持續超過10週，無品牌回應"
+        }
+      }
+    },
+    {
+      "asin": "B0D9M7ST5H",
+      "name": "NeeDoh Squishy Toy (Liquid-Filled)",
+      "category": "squishy-toy",
+      "watch_reason": "design_flaw",
+      "severity": "high",
+      "added_date": "2026-03-01",
+      "last_checked": "2026-03-01",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "safety_incident",
+          "description": "8% 評論報告內容物爆裂噴入眼睛，含兒童受傷案例"
+        },
+        {
+          "type": "burst_rate",
+          "description": "56% 爆裂率，Consumer Reports 確認 pH 2 化學灼傷風險"
+        },
+        {
+          "type": "recall_check",
+          "description": "監控是否有 CPSC 召回行動（Ages 3+ 標示 vs 安全風險）"
+        }
+      ],
+      "baseline": {
+        "burst_rate": "56%",
+        "eye_splash_rate": "8%",
+        "avg_rating": 4.0,
+        "review_count": 50
+      },
+      "check_result": {
+        "date": "2026-03-01",
+        "status": "new_entry",
+        "notes": "Step 8 痛點報告自動加入監控。NeeDoh 液態系列 3 款產品爆裂率 28-56%，屬系統性設計缺陷。",
+        "report": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md"
       }
     }
   ],
@@ -519,20 +560,20 @@
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "補齊嘗試 3：WebFetch 累計 54 次（需 100+），間隔 3 天後重試",
+      "notes": "補齊嘗試 4：WebSearch 22 次完成，WebFetch 僅 1 次（背景代理權限限制）。研究報告已更新 2026-03-01。下次用前台代理補強。",
       "priority": "medium",
-      "retry_count": 3,
-      "next_retry": "2026-02-28"
+      "retry_count": 4,
+      "next_retry": "2026-03-06"
     },
     {
       "name": "kids-activity-book",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "補齊嘗試 2：WebFetch 累計 17 次（需 100+），間隔 3 天後重試（今日未執行）",
+      "notes": "補齊嘗試 3：排隊等待 foam-playmat 完成後序列執行，今日未執行",
       "priority": "low",
-      "retry_count": 2,
-      "next_retry": "2026-02-28"
+      "retry_count": 3,
+      "next_retry": "2026-03-06"
     }
   ],
   "deferred_categories": [],

@@ -1,0 +1,119 @@
+{
+  "date": "2026-03-01",
+  "scan_results": {
+    "review_needed_reports": [
+      "docs/Narrator/comparisons/collectible-blind-box--2026-02-21.md",
+      "docs/Narrator/comparisons/foam-playmat--2026-02-21.md",
+      "docs/Narrator/comparisons/infant-sensory-toy--2026-02-21.md",
+      "docs/Narrator/comparisons/kids-activity-book--2026-02-21.md",
+      "docs/Narrator/comparisons/toddler-learning-toy--2026-02-21.md",
+      "docs/Narrator/comparisons/disposable-gloves--2026-02-20.md",
+      "docs/Narrator/comparisons/kitchen-scale--2026-02-20.md",
+      "docs/Narrator/comparisons/water-bottle--2026-02-20.md",
+      "docs/Narrator/comparisons/baby-care--2026-02-05.md",
+      "docs/Narrator/comparisons/body-firming--2026-02-08.md",
+      "docs/Narrator/comparisons/body-moisturizing--comparison--2026-02-07.md",
+      "docs/Narrator/comparisons/children-entertainment--2026-02-05.md",
+      "docs/Narrator/comparisons/drain-clog--comparison--2026-02-06.md",
+      "docs/Narrator/comparisons/exfoliating-toner--2026-02-15.md",
+      "docs/Narrator/comparisons/eye-puffiness--2026-02-15.md",
+      "docs/Narrator/comparisons/face-moisturizing--2026-02-13.md",
+      "docs/Narrator/comparisons/home-fitness--2026-02-05.md",
+      "docs/Narrator/comparisons/kids-tent--comparison--2026-02-06.md",
+      "docs/Narrator/comparisons/muscle-building--2026-02-05.md",
+      "docs/Narrator/comparisons/nail-glue--2026-02-08.md",
+      "docs/Narrator/comparisons/photo-backdrop--2026-02-11.md",
+      "docs/Narrator/comparisons/playing-cards--comparison--2026-02-06.md",
+      "docs/Narrator/comparisons/teeth-whitening--comparison--2026-02-06.md",
+      "docs/Narrator/comparisons/trading-cards--comparison--2026-02-06.md",
+      "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md",
+      "docs/Narrator/recommendations/drain-clog--2026-02-05.md",
+      "docs/Narrator/recommendations/lip-care--recommendation--2026-02-06.md",
+      "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md",
+      "docs/Narrator/recommendations/sun-protection--2026-02-05.md",
+      "docs/Narrator/recommendations/teeth-whitening--2026-02-05.md",
+      "docs/Narrator/recommendations/vitamin-d-supplement--recommendation--2026-02-06.md",
+      "docs/Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md",
+      "docs/Narrator/warnings/trash-bags--2026-02-09.md",
+      "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md"
+    ],
+    "review_needed_count": 34,
+    "category_gaps": [
+      {
+        "category": "foam-playmat",
+        "watch_reason": "research_gap",
+        "action": "supplement_research",
+        "retry_count": 4,
+        "next_retry": "2026-03-06",
+        "status": "partial",
+        "notes": "WebSearch 22 次完成，WebFetch 1 次（背景代理 WebFetch 授權限制）。研究報告已更新 2026-03-01。下次用前台代理或 MCP fetch_url 補強。"
+      },
+      {
+        "category": "kids-activity-book",
+        "watch_reason": "research_gap",
+        "action": "supplement_research",
+        "retry_count": 3,
+        "next_retry": "2026-03-01",
+        "status": "queued",
+        "notes": "排隊等待 foam-playmat 完成後序列執行"
+      },
+      {
+        "category": "interactive-pet-toy",
+        "watch_reason": "research_gap",
+        "action": "supplement_reviews",
+        "priority": "medium",
+        "status": "pending",
+        "notes": "已產出比較報告，待 Amazon 評論補齊"
+      },
+      {
+        "category": "monster-truck-toy",
+        "watch_reason": "research_gap",
+        "action": "supplement_reviews",
+        "priority": "medium",
+        "status": "pending",
+        "notes": "已產出比較報告，待 Amazon 評論補齊"
+      }
+    ]
+  },
+  "actions_needed": [
+    {
+      "category": "foam-playmat",
+      "gap_type": "研究不足",
+      "action": "Step 5 重新研究（序列執行）",
+      "priority": "medium",
+      "reason": "WebFetch 54 次未達 100+ 標準，retry_count=3，next_retry=2026-02-28 已到期",
+      "estimated_effort": "WebSearch 20+、WebFetch 100+"
+    },
+    {
+      "category": "kids-activity-book",
+      "gap_type": "研究不足",
+      "action": "Step 5 重新研究（序列執行）",
+      "priority": "low",
+      "reason": "WebFetch 17 次未達 100+ 標準，retry_count=2，next_retry=2026-02-28 已到期",
+      "estimated_effort": "WebSearch 20+、WebFetch 100+"
+    },
+    {
+      "category": "interactive-pet-toy",
+      "gap_type": "評論不足",
+      "action": "Step 6 重新抓取 Amazon 評論",
+      "priority": "medium",
+      "reason": "已有研究報告和比較報告，但 Amazon 評論資料不足"
+    },
+    {
+      "category": "monster-truck-toy",
+      "gap_type": "評論不足",
+      "action": "Step 6 重新抓取 Amazon 評論",
+      "priority": "medium",
+      "reason": "已有研究報告和比較報告，但 Amazon 評論資料不足"
+    }
+  ],
+  "summary": {
+    "total_review_needed_reports": 34,
+    "overdue_categories": 2,
+    "pending_review_supplement": 2,
+    "completed_categories": 1,
+    "high_priority_actions": 0,
+    "medium_priority_actions": 3,
+    "low_priority_actions": 1
+  }
+}

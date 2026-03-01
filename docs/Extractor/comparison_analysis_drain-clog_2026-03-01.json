@@ -1,0 +1,143 @@
+{
+  "analysis_date": "2026-03-01",
+  "category": "drain-clog",
+  "primary_product": {
+    "asin": "B0CR6HWLW6",
+    "name": "Drano Max Gel Drain Clog Remover and Cleaner",
+    "brand": "Drano (SC Johnson)",
+    "price": 10.80,
+    "avg_rating": 4.55,
+    "review_count": 73296,
+    "reviews_analyzed": 50
+  },
+  "negative_review_classification": {
+    "total_negative_mentions": 21,
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "count": 14,
+      "percentage": "28%",
+      "description": "功能失效：對嚴重/完全堵塞完全無效",
+      "representative_quotes": [
+        "Used 80 oz bottle and not a single time it cleared the drain. Waste of money.",
+        "Used the entire bottle (following the directions to a T) and it actually somehow made our sink clog worse."
+      ]
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "count": 5,
+      "percentage": "10%",
+      "description": "副作用：部分緩解但無法完全清除，可能使堵塞惡化",
+      "representative_quotes": [
+        "It helped, but didn't clear out the blockage.",
+        "Doesn't work as well as the foaming one."
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "count": 2,
+      "percentage": "4%",
+      "description": "與產品無關：包裝洩漏（物流/包裝問題）",
+      "representative_quotes": [
+        "the bottle lid somehow loosened in the package which caused leakage within the box"
+      ]
+    }
+  },
+  "competitor_comparison": {
+    "competitors": [
+      {
+        "name": "Liquid-Plumr Hair Clog Eliminator",
+        "asin": null,
+        "data_source": "research_article",
+        "type": "chemical",
+        "speed": "30-60 min",
+        "effectiveness_vs_primary": "略遜（需兩次使用），毛髮堵塞專門配方稍好",
+        "safety_vs_primary": "略佳（較溫和，熱量反應較低）",
+        "price_range": "$7-10",
+        "best_for": "毛髮堵塞"
+      },
+      {
+        "name": "Green Gobbler Enzyme Drain Cleaner",
+        "asin": null,
+        "data_source": "research_article",
+        "type": "enzyme",
+        "speed": "8-24 hrs",
+        "effectiveness_vs_primary": "油脂堵塞更佳；預防維護更佳；緊急堵塞較差",
+        "safety_vs_primary": "優（無腐蝕性，化糞池安全）",
+        "price_range": "$15-25",
+        "best_for": "油脂堵塞、預防維護、化糞池系統"
+      },
+      {
+        "name": "Zep Advanced Drain Opener",
+        "asin": null,
+        "data_source": "research_article",
+        "type": "chemical",
+        "speed": "15-30 min",
+        "effectiveness_vs_primary": "相當或略佳（商業級配方）",
+        "safety_vs_primary": "相當（同樣為強鹼性）",
+        "price_range": "$10-15",
+        "best_for": "積水情況、商業用途"
+      },
+      {
+        "name": "Drain Snake / Auger（機械通管器）",
+        "asin": null,
+        "data_source": "research_article",
+        "type": "mechanical",
+        "speed": "15-30 min",
+        "effectiveness_vs_primary": "優（物理移除整個堵塞，包含深層頑固堵塞）",
+        "safety_vs_primary": "優（無化學品，無管道腐蝕風險）",
+        "price_range": "$5-30",
+        "best_for": "深層/頑固堵塞，所有堵塞類型"
+      }
+    ]
+  },
+  "effectiveness_assessment": {
+    "can_solve_problem": true,
+    "conditions": "僅對輕度至中度有機質堵塞（毛髮、皂垢）",
+    "success_rate_estimate": "約 62%（依據 L4 sentiment score 0.58 及 L5：28% 回報完全無效）",
+    "limitations": [
+      "對嚴重/完全堵塞無效（28% 用戶回報）",
+      "對礦物沉積、樹根、固體異物無效",
+      "對深層堵塞可能無法觸及",
+      "化糞池系統不可使用",
+      "老舊管道重複使用有管道損壞風險"
+    ],
+    "strengths": [
+      "速度快（輕度堵塞 3-7 分鐘見效）",
+      "使用簡便，無需工具",
+      "價格低廉（$10.80）",
+      "凝膠配方可切穿積水",
+      "市場知名度最高，4.55 星（73,296 評分）",
+      "預防性維護效果良好"
+    ]
+  },
+  "verdict": {
+    "recommendation": "conditional_recommend",
+    "reasoning": "Drano Max Gel 相比化學競品（Liquid-Plumr）具有速度優勢，且在輕度堵塞情境下是合理選擇。然而，機械通管器（通管蛇）在有效性和安全性上全面優於 Drano，專業水管工一致推薦。若要消費者分類：(1) 輕度毛髮/皂垢堵塞且需快速解決 → Drano 可接受；(2) 中重度堵塞 → 優先使用機械通管器；(3) 油脂堵塞或預防維護 → Green Gobbler 更佳；(4) 化糞池系統 → 禁用 Drano。",
+    "report_type": "comparison",
+    "previous_verdict": "recommend（2026-02-05，資料量不足標記 [REVIEW_NEEDED]）",
+    "verdict_change": "降級為 comparison（新評論資料確認 28% 無效率，競品各有優勢情境）"
+  },
+  "cross_platform_data": {
+    "platforms_analyzed": ["amazon_us"],
+    "confidence": "medium（僅單一平台，50 則評論，低於建議 100 則）",
+    "note": "現有報告標記 [REVIEW_NEEDED]，建議補充評論至 100 則以提升信心度"
+  },
+  "aspect_scores": {
+    "clog_removal_effectiveness": {"sentiment": "mixed", "score": 0.58},
+    "ease_of_use": {"sentiment": "positive", "score": 0.85},
+    "speed": {"sentiment": "mixed", "score": 0.65},
+    "value": {"sentiment": "positive", "score": 0.72},
+    "pipe_safety": {"sentiment": "positive", "score": 0.80},
+    "odor": {"sentiment": "mixed", "score": 0.55}
+  },
+  "key_issues": [
+    {"issue": "product_ineffective_on_severe_clogs", "frequency": "14/50 (28%)", "severity": "high"},
+    {"issue": "partial_effectiveness", "frequency": "5/50 (10%)", "severity": "medium"},
+    {"issue": "packaging_leakage", "frequency": "2/50 (4%)", "severity": "low"}
+  ],
+  "metadata": {
+    "generated_at": "2026-03-01",
+    "data_sources": ["amazon_us extraction B0CR6HWLW6", "research drain-clog--2026-02-06.md", "competitors drain-clog--2026-02-05.md"],
+    "confidence_level": "medium"
+  }
+}

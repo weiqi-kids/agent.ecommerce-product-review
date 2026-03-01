@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "category": "trading-cards",
+    "analysis_date": "2026-03-01",
+    "primary_product": {
+      "asin": "B0G2FVLXVL",
+      "name": "Pokémon TCG: Pokémon Day 2026 Collection",
+      "brand": "Pokémon",
+      "platform": "amazon_us",
+      "seller": "Top Choice Games (third-party)",
+      "price_usd": 38.90,
+      "msrp_usd": 18.00,
+      "avg_rating": 4.05,
+      "reviews_analyzed": 50
+    },
+    "research_quality": "insufficient",
+    "research_note": "研究報告（trading-cards--2026-02-06.md）自評為 MAJOR RESEARCH GAP，WebSearch/WebFetch 量不足，競品清單中所有競品均無 Amazon ASIN，無法取得競品評論萃取資料。"
+  },
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "label": "無法解決問題（功能失效）",
+      "issues": [
+        {
+          "issue": "damaged_cards_inside",
+          "frequency": "6% (3/50)",
+          "severity": "high",
+          "description": "部分訂單的 Pikachu 促銷卡彎曲、包裝被打開、缺少 Booster，收藏品功能完全失效",
+          "representative_quote": "Uno de los paquetes venia abierto, le falta un booster y otro viene abierto, y la carta de pikachu viene dañada"
+        }
+      ]
+    },
+    "creates_new_problem": {
+      "symbol": "⚠️",
+      "label": "產生新問題（副作用）",
+      "issues": [
+        {
+          "issue": "price_above_msrp",
+          "frequency": "10% (5/50)",
+          "severity": "medium",
+          "description": "第三方賣家加價超過 100%（$38.90 vs. Target MSRP $18.00），買家支付 scalper 溢價",
+          "representative_quote": "Only $18 at Target,,,, Scalpers have a lot of nerve."
+        },
+        {
+          "issue": "wrong_version_received",
+          "frequency": "2% (1/50)",
+          "severity": "medium",
+          "description": "買家收到德語版而非英語版，Listing 圖片與實際出貨語言不符",
+          "representative_quote": "Irreführendes Bild. Ich dachte ich hätte die englische Version bestellt... Leider kam die deutsche Version."
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "label": "與產品無關（物流問題）",
+      "issues": [
+        {
+          "issue": "damaged_packaging",
+          "frequency": "36% (18/50)",
+          "severity": "medium",
+          "description": "外盒在運輸過程中受損，對收藏家（sealed collector）影響大；多數情況下內部卡片完好",
+          "representative_quote": "Product came damaged"; "Came in beat up and torn. If you don't want to open the product, don't buy."
+        },
+        {
+          "issue": "late_delivery",
+          "frequency": "4% (2/50)",
+          "severity": "low",
+          "description": "少數訂單配送延遲，超過預期到達日期",
+          "representative_quote": "Demorou muito para entregar, chegou pós o prazo umas 2x"
+        }
+      ]
+    }
+  },
+  "product_strengths": [
+    {
+      "aspect": "product_authenticity",
+      "score": 0.87,
+      "summary": "產品真實性高，買家普遍確認為正版密封 Pokémon 商品"
+    },
+    {
+      "aspect": "anniversary_coin",
+      "score": 0.80,
+      "summary": "30 週年金屬紀念幣受好評，收藏展示價值高"
+    },
+    {
+      "aspect": "shipping_speed",
+      "score": 0.76,
+      "summary": "大多數訂單提早或準時送達"
+    },
+    {
+      "aspect": "card_pulls",
+      "score": 0.74,
+      "summary": "部分買家抽到稀有卡（Charizard、Mega Charizard EX），增加開箱驚喜感"
+    }
+  ],
+  "competitor_comparison": {
+    "data_availability": "insufficient",
+    "competitors_with_asin": [],
+    "competitors_without_asin": [
+      {
+        "name": "Pokémon TCG Mega Evolution - Ascended Heroes",
+        "brand": "The Pokémon Company",
+        "asin": null,
+        "data_source": "evaluation_article_only",
+        "notes": "2026-01-30 發布，Mega Evolution 系列，無 Amazon 評論資料可比較"
+      },
+      {
+        "name": "Pokémon TCG Mega Evolution - Perfect Order",
+        "brand": "The Pokémon Company",
+        "asin": null,
+        "data_source": "evaluation_article_only",
+        "notes": "2026-03-27 發布（尚未上市），無任何評論資料"
+      },
+      {
+        "name": "Magic: The Gathering",
+        "brand": "Wizards of the Coast",
+        "asin": null,
+        "data_source": "evaluation_article_only",
+        "notes": "研究中作為投資替代選項提及，非同類可比較的 collectible 產品"
+      }
+    ],
+    "comparison_basis": "所有競品均無 Amazon ASIN，無法取得 L1-L6 評論萃取資料。僅能以評測文章摘要作為參考，無法進行有效量化比較。"
+  },
+  "verdict": {
+    "can_solve_problem": true,
+    "problem_solved": "作為 Pokémon 30 週年紀念收藏品，產品本身（卡片、促銷卡、紀念幣）真實且完整，核心功能達成。",
+    "better_than_competitors": null,
+    "verdict_confidence": "low",
+    "verdict_reason": "競品均無 ASIN 及評論資料，無法做有效比較。研究報告自評 MAJOR RESEARCH GAP，僅有評測文章層面的競品資訊。",
+    "recommended_report_type": "comparison",
+    "report_type_rationale": "產品能解決問題（收藏/娛樂需求），但存在顯著物流問題（36% 外盒受損）及第三方加價問題（$38.90 vs $18 MSRP），且無充分競品資料支持推薦或警告。建議產出比較報告，並標記 [REVIEW_NEEDED]。"
+  },
+  "key_findings": [
+    "36% 訂單外盒受損，對 sealed collector 而言為主要風險（物流問題）",
+    "第三方賣家售價 $38.90 超過 Target MSRP $18.00 達 116%，存在 scalper 加價問題",
+    "6% 訂單有內部卡片損壞或缺件，屬高嚴重度功能性問題",
+    "36% 評論為非英語（西班牙語、葡萄牙語、德語），顯示 Listing 存在跨市場混用",
+    "產品真實性良好（87% 正面），Pokémon 品牌本身無品質疑慮",
+    "競品研究不足，無法做有效的跨產品比較"
+  ],
+  "review_needed": true,
+  "review_needed_reasons": [
+    "研究報告自評 MAJOR RESEARCH GAP（WebSearch/WebFetch 不足）",
+    "所有競品均無 Amazon ASIN，無 L1-L6 競品評論資料",
+    "36% 非英語評論降低 US 市場評論信號可靠性",
+    "產品為限定版紀念品（非常規商品），需更多市場脈絡支持結論"
+  ],
+  "data_sources": {
+    "extraction": "docs/Extractor/amazon_us/trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
+    "research": "docs/Extractor/research/trading-cards--2026-02-06.md",
+    "competitors": "docs/Extractor/competitors/trading-cards--2026-02-05.md"
+  }
+}

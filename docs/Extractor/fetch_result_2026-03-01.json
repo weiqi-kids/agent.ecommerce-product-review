@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-01",
+  "platform": "amazon_us",
+  "fetch_method": "batch-scrape.ts",
+  "total_products": 10,
+  "successful": 10,
+  "failed": 0,
+  "review_needed": 2,
+  "products": [
+    {
+      "asin": "B0D9M7ST5H",
+      "category": "squishy-toy",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/squishy-toy/B0D9M7ST5H--amzn-direct--2026-03-01.md",
+      "key_finding": "56% bursting reports, 8% safety incidents (eye splash)"
+    },
+    {
+      "asin": "B0B2HN96TZ",
+      "category": "squishy-toy",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/squishy-toy/B0B2HN96TZ--amzn-direct--2026-03-01.md",
+      "key_finding": "40% bursting/leaking reports"
+    },
+    {
+      "asin": "B0DJ3PQWDD",
+      "category": "squishy-toy",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/squishy-toy/B0DJ3PQWDD--amzn-direct--2026-03-01.md",
+      "key_finding": "28% bottom seal failure, short lifespan 14%"
+    },
+    {
+      "asin": "B0G22BHS13",
+      "category": "squishy-toy",
+      "reviews_fetched": 3,
+      "review_needed": true,
+      "review_needed_reason": "reviews < 10, claim contradiction",
+      "output": "docs/Extractor/amazon_us/squishy-toy/B0G22BHS13--amzn-direct--2026-03-01.md",
+      "key_finding": "33% tears/breaks easily, too few reviews for reliable analysis"
+    },
+    {
+      "asin": "B0FQFYKJ76",
+      "category": "laundry-stain",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/laundry-stain/B0FQFYKJ76--amzn-direct--2026-03-01.md",
+      "key_finding": "24% packaging integrity issues (cap loosening/leaking), core function positive 84-89%"
+    },
+    {
+      "asin": "B0GD2HMY7T",
+      "category": "vitamin-d-supplement",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/vitamin-d-supplement/B0GD2HMY7T--amzn-direct--2026-03-01.md",
+      "key_finding": "Avg 4.75/5, highly positive, minor batch color inconsistency"
+    },
+    {
+      "asin": "B0CR6HWLW6",
+      "category": "drain-clog",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/drain-clog/B0CR6HWLW6--amzn-direct--2026-03-01.md",
+      "key_finding": "Extraction complete, 50 reviews"
+    },
+    {
+      "asin": "B081XMX6NS",
+      "category": "video-game-console",
+      "reviews_fetched": 50,
+      "review_needed": true,
+      "review_needed_reason": "language mismatch (4 Spanish reviews in US listing)",
+      "output": "docs/Extractor/amazon_us/video-game-console/B081XMX6NS--amzn-direct--2026-03-01.md",
+      "key_finding": "Joy-Con failure 28%, charging failure 16%, third-party seller concerns"
+    },
+    {
+      "asin": "B09HR7SWTR",
+      "category": "streaming-stick",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/streaming-stick/B09HR7SWTR--amzn-direct--2026-03-01.md",
+      "key_finding": "Remote failure 28%, battery corrosion 20%, renewed quality concerns"
+    },
+    {
+      "asin": "B0G2FVLXVL",
+      "category": "trading-cards",
+      "reviews_fetched": 50,
+      "review_needed": false,
+      "output": "docs/Extractor/amazon_us/trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
+      "key_finding": "36% packaging damage, 10% overpriced (scalper pricing), 36% non-English reviews"
+    }
+  ],
+  "categories_summary": {
+    "squishy-toy": {"products": 4, "total_reviews": 153},
+    "laundry-stain": {"products": 1, "total_reviews": 50},
+    "vitamin-d-supplement": {"products": 1, "total_reviews": 50},
+    "drain-clog": {"products": 1, "total_reviews": 50},
+    "video-game-console": {"products": 1, "total_reviews": 50, "note": "No research report, skip Step 7-8"},
+    "streaming-stick": {"products": 1, "total_reviews": 50},
+    "trading-cards": {"products": 1, "total_reviews": 50}
+  },
+  "skipped_categories_step7": ["video-game-console"],
+  "skip_reason": "No research report available, marked as ⏳ 待研究 in problem_groups.md"
+}

@@ -37,6 +37,7 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 | 產品 | 問題 | 風險等級 |
 |------|------|----------|
+| [NeeDoh 紓壓玩具](/Narrator/pain_points/squishy-toy--pain-points--2026-03-01) | 56% 爆裂率、8% 眼部傷害 | 🔴 高 |
 | [Sony WH-1000XM5 耳機](/Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13) | 27% 轉軸斷裂 | 🔴 高 |
 | [Amazon Basics 暖風機](/Narrator/warnings/B07V6M4MSN--warning--2026-02-13) | 16% 火災風險 | 🔴 高 |
 | [HANYCONY 延長線](/Narrator/warnings/hanycony-power-strip--warning--2026-02-06) | 火災/過熱風險 | 🔴 高 |
@@ -57,6 +58,17 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 | [⚖️ 比較報告](/Narrator/comparisons/) | 同類產品優劣分析，幫你選對的 | 65+ |
 
 ---
+
+## 🆕 最新報告 (2026-03-01)
+
+| 類別 | 類型 | 重點發現 |
+|------|------|----------|
+| [紓壓玩具](/Narrator/pain_points/squishy-toy--pain-points--2026-03-01) | 痛點報告 | NeeDoh 液態系列 56% 爆裂率，8% 眼部噴濺事故 |
+| [串流播放器](/Narrator/comparisons/streaming-stick--2026-03-01) | 比較報告 | Roku Renewed 44% 功能失效，Fire TV Stick 4K Plus 最穩定 |
+| [排水管疏通](/Narrator/comparisons/drain-clog--2026-03-01) | 比較報告 | Drano 28% 無效率，機械通管器更可靠 |
+| [洗衣去漬](/Narrator/comparisons/laundry-stain--2026-03-01) | 比較報告 | ARM & HAMMER 性價比佳，但 Tide Ultra 去污更強 |
+| [維生素D補充](/Narrator/comparisons/vitamin-d-supplement--2026-03-01) | 比較報告 | Sports Research D3+K2 配方優勢明顯 |
+| [集換式卡牌](/Narrator/comparisons/trading-cards--2026-03-01) | 比較報告 | Pokémon TCG 36% 包裝損壞，第三方加價 116% |
 
 ## ✅ 最新推薦
 

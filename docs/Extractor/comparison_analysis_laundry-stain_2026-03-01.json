@@ -1,0 +1,127 @@
+{
+  "category": "laundry-stain",
+  "date": "2026-03-01",
+  "products_analyzed": [
+    {
+      "product_id": "B0FQFYKJ76",
+      "name": "ARM & HAMMER Plus OxiClean Odor Blasters Fresh Botanical Liquid Laundry Detergent 100.5 Fl oz",
+      "platform": "amazon_us",
+      "price_usd": 13.98,
+      "avg_rating": 4.75,
+      "reviews_count": 33504,
+      "reviews_analyzed": 50,
+      "data_source": "amazon_user_reviews",
+      "key_scores": {
+        "stain_removal": 0.85,
+        "cleaning_effectiveness": 0.84,
+        "odor_elimination": 0.86,
+        "scent": 0.89,
+        "value_for_money": 0.88,
+        "packaging_integrity": 0.18
+      }
+    }
+  ],
+  "competitors": [
+    {
+      "name": "OxiClean MaxForce",
+      "asin": null,
+      "data_source": "research_article",
+      "price_range_usd": "8-12",
+      "key_strength": "NBC 評選最佳整體去污劑，氧化去污原理，適合番茄醬、咖啡、墨水等有機污漬",
+      "key_weakness": "需預處理靜置至少 1 小時，增加使用步驟"
+    },
+    {
+      "name": "Shout Triple Action",
+      "asin": null,
+      "data_source": "research_article",
+      "price_range_usd": "5-8",
+      "key_strength": "有效性 9/10，Consumer Reports 測試第二名，價格最實惠",
+      "key_weakness": "略遜 OxiClean，頑固陳舊污漬效果有限"
+    },
+    {
+      "name": "Tide Ultra Stain Release",
+      "asin": null,
+      "data_source": "research_article",
+      "price_range_usd": "12-18",
+      "key_strength": "Consumer Reports 總分 84（液體洗衣精最高），專業乾洗師評選第一名",
+      "key_weakness": "價格最高，香味濃"
+    },
+    {
+      "name": "Carbona Laundry Stain Scrubber",
+      "asin": null,
+      "data_source": "research_article",
+      "price_range_usd": "10-15",
+      "key_strength": "測試中化妝品污漬去除得分最高，內建刷頭設計",
+      "key_weakness": "特化產品，不適合日常全品類污漬"
+    }
+  ],
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "label": "無法解決問題（核心功能失效）",
+      "items": [
+        {
+          "issue": "limited_effectiveness_heavy_soil",
+          "frequency": "1/50 (2%)",
+          "severity": "low",
+          "evidence": "一位評論者指出對重度污漬（如寵物髒污）效果不足",
+          "notes": "比例極低，且研究資料也顯示 ARM & HAMMER 在頑固污漬可能需洗滌兩次"
+        }
+      ],
+      "total_frequency_pct": 2
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "label": "產生新問題（副作用）",
+      "items": [
+        {
+          "issue": "overpowering_scent",
+          "frequency": "2/50 (4%)",
+          "severity": "low",
+          "evidence": "少數用戶反映香味殘留太強烈，干擾日常使用"
+        }
+      ],
+      "total_frequency_pct": 4
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "label": "與產品無關（物流/包裝問題）",
+      "items": [
+        {
+          "issue": "leaking_packaging",
+          "frequency": "12/50 (24%)",
+          "severity": "high",
+          "evidence": "瓶蓋未妥善密封，導致運送途中漏液，造成損失"
+        },
+        {
+          "issue": "damaged_cap",
+          "frequency": "8/50 (16%)",
+          "severity": "medium",
+          "evidence": "量杯蓋到貨時破損或無法使用，屬於包裝/出貨品管問題"
+        }
+      ],
+      "total_frequency_pct": 40,
+      "notes": "包裝問題合計約 40%（部分評論者同時提及兩項問題），是本產品最顯著負評來源，但與洗衣去漬核心功能無關"
+    }
+  },
+  "cross_platform_analysis": {
+    "available": false,
+    "note": "目前僅有 Amazon 評論資料，無 Best Buy / Walmart 跨平台資料可供整合"
+  },
+  "verdict": "conditional_recommend",
+  "verdict_label": "能解決問題，但有更好的選擇（比較報告）",
+  "verdict_reason": "ARM & HAMMER Plus OxiClean Odor Blasters 液體洗衣精在去除日常食物、草漬、身體異味等普通污漬方面表現良好（去漬 85% 正面、除臭 86% 正面），性價比（$13.98 / 77 loads）在同類產品中突出。然而，與競品相比：Tide Ultra Stain Release（Consumer Reports 84 分）和 OxiClean MaxForce（評選最佳整體）在整體去污效能上被評測機構評為更優，Shout Triple Action 在預處理應用上更直接有效。ARM & HAMMER 的主要差距在於：(1) 頑固污漬可能需洗滌兩次；(2) 本品定位為洗衣精而非獨立去污劑，對預先噴塗預處理的針對性不如 Shout 或 OxiClean MaxForce。包裝漏液問題（24%）為物流品管缺失，不影響產品去漬功能評估，但影響購買體驗。",
+  "confidence": "medium",
+  "confidence_notes": "僅有 50 則 Amazon 評論作為量化基礎；競品資料全部來自評測文章（無用戶評論萃取）；研究報告標記為 [需補充 WebFetch]，WebFetch 深度不足，競品比較為間接資料。",
+  "key_findings": [
+    "核心去漬功能有效（85% 正面），適合日常食物、草漬、異味去除",
+    "性價比為同類液體洗衣精最高，每負載成本最低",
+    "OxiClean+小蘇打配方在除臭方面表現突出（86% 正面），優於單純洗衣精",
+    "包裝漏液問題（24%）嚴重影響購物體驗，屬物流/品管問題而非產品缺陷",
+    "與 Tide Ultra Stain Release 相比，整體去污評測得分較低（Consumer Reports 未收錄本品）",
+    "對重度污漬（機油、陳舊血漬等）效果有限，不適合作為唯一去污解決方案",
+    "競品資料僅來自評測文章，缺乏直接用戶評論萃取，比較信心度為中等"
+  ],
+  "recommended_report_type": "comparison",
+  "report_output_path": "docs/Narrator/comparisons/laundry-stain--2026-03-01.md"
+}

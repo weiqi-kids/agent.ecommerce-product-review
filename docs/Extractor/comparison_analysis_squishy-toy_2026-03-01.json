@@ -1,0 +1,213 @@
+{
+  "category": "squishy-toy",
+  "date": "2026-03-01",
+  "products_analyzed": [
+    {
+      "product_id": "B0D9M7ST5H",
+      "name": "Schylling NeeDoh Rainboh Teenie (6 Pack)",
+      "avg_rating": 4.25,
+      "reviews_analyzed": 50,
+      "confidence": "high",
+      "key_issues": {
+        "ball_popping_bursting": "56%",
+        "short_lifespan": "36%",
+        "safety_explosion_eye_hazard": "8%",
+        "stickiness_dust_collection": "12%",
+        "mold_contamination": "2%"
+      },
+      "l4_scores": {
+        "sensory_relief": 0.85,
+        "squeeze_feel": 0.75,
+        "durability": 0.15,
+        "safety": 0.05
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0B2HN96TZ",
+      "name": "Schylling NeeDoh Gummy Bear",
+      "avg_rating": 4.35,
+      "reviews_analyzed": 50,
+      "confidence": "high",
+      "key_issues": {
+        "bursting_leaking": "40%",
+        "watery_consistency_not_as_expected": "24%",
+        "no_color_choice": "10%",
+        "size_smaller_than_expected": "8%",
+        "received_damaged_or_used": "4%"
+      },
+      "l4_scores": {
+        "stress_relief_sensory": 0.80,
+        "cuteness_appearance": 0.90,
+        "durability_leakage": 0.15,
+        "value_for_money": 0.30
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0DJ3PQWDD",
+      "name": "Schylling NeeDoh Gumdrop Textured (3 Pack)",
+      "avg_rating": 4.55,
+      "reviews_analyzed": 50,
+      "confidence": "medium",
+      "key_issues": {
+        "bottom_seal_failure": "28%",
+        "short_lifespan": "14%",
+        "color_not_as_expected": "16%",
+        "sticky_leaking_filling": "8%",
+        "too_firm_initially": "12%"
+      },
+      "l4_scores": {
+        "stress_relief": 0.88,
+        "texture": 0.78,
+        "durability": 0.30,
+        "bottom_seal": 0.12
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0G22BHS13",
+      "name": "Toymendous Squishy Carrot (Jumbo 11.5 Inch)",
+      "avg_rating": 3.65,
+      "reviews_analyzed": 3,
+      "confidence": "low",
+      "key_issues": {
+        "tears_breaks_easily": "33%"
+      },
+      "l4_scores": {
+        "squishiness": 0.85,
+        "durability": 0.15
+      },
+      "review_needed": true,
+      "review_needed_reason": "僅 3 則評論，樣本不足，結果不具統計意義"
+    }
+  ],
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "count_estimate": 62,
+      "percentage": "~43%",
+      "description": "❌ 無法解決問題（核心功能失效）",
+      "examples": [
+        "球體在數分鐘至數小時內破裂，無法持續使用（B0D9M7ST5H：56% bursting）",
+        "底部封口失效導致產品損毀（B0DJ3PQWDD：28% bottom seal failure）",
+        "Gummy Bear 液狀填充物與「果凍觸感」宣稱落差，紓壓效果打折（B0B2HN96TZ：24% watery consistency）",
+        "壽命過短（多款：14-36% short lifespan），無法作為長期紓壓工具"
+      ]
+    },
+    "new_problems_created": {
+      "count_estimate": 29,
+      "percentage": "~20%",
+      "description": "⚠️ 產生新問題（副作用、延伸問題）",
+      "examples": [
+        "爆炸噴射內容物入眼（B0D9M7ST5H：8% safety explosion eye hazard，含兒童受傷案例）",
+        "表面黏性吸附灰塵毛髮，衛生問題（B0D9M7ST5H：12%）",
+        "內部發霉（B0D9M7ST5H：2%，健康風險）",
+        "漏出的內容物黏手/黏物，造成清潔困難（B0DJ3PQWDD：8% sticky leaking filling）",
+        "Consumer Reports 驗證：部分 NeeDoh 產品 pH 2，化學灼傷風險"
+      ]
+    },
+    "unrelated_to_product": {
+      "count_estimate": 10,
+      "percentage": "~7%",
+      "description": "📦 與產品無關（物流、賣家問題）",
+      "examples": [
+        "包裝缺件（B0D9M7ST5H：4%，少件/缺色）",
+        "顏色隨機發貨（B0B2HN96TZ：10%，無法選色）",
+        "配送延遲（B0DJ3PQWDD：少數評論）",
+        "收到疑似退貨商品（B0B2HN96TZ：4%）"
+      ]
+    },
+    "summary": {
+      "total_negative_proportion": "~70%（3 款高信心樣本加權平均）",
+      "most_critical": "cannot_solve_problem（核心耐用性系統性失效）",
+      "safety_concern": "high（8% 安全爆炸事件，化學灼傷風險已有外部研究佐證）"
+    }
+  },
+  "competitor_comparison": {
+    "competitors_reviewed": [
+      {
+        "name": "Tangle Therapy",
+        "durability": "高（可拆裝數百次）",
+        "research_support": "有同行評審支持（閱讀/數學理解改善）",
+        "safety": "安全（無爆裂風險）",
+        "ot_recommended": true
+      },
+      {
+        "name": "Crazy Aaron's Thinking Putty",
+        "durability": "中高（約 1 年）",
+        "research_support": "部分（OT 常用，ADHD 案例研究）",
+        "safety": "安全（無 BPA、乳膠、麩質）",
+        "ot_recommended": true
+      },
+      {
+        "name": "Tom's Fidgets Flippy Chain",
+        "durability": "高（不鏽鋼結構）",
+        "research_support": "有（教師推薦，7000+ 評論 4.4 星）",
+        "safety": "安全（無爆裂風險）",
+        "ot_recommended": true
+      },
+      {
+        "name": "Weighted Sensory Balls",
+        "durability": "高",
+        "research_support": "有（職能治療標準工具）",
+        "safety": "高（醫療級矽膠）",
+        "ot_recommended": true
+      }
+    ],
+    "vs_competitor_verdict": "所有分析產品（Schylling NeeDoh 系列）相比競品在耐用性、安全性、研究佐證三方面均處劣勢。競品（Tangle Therapy、Thinking Putty）提供更長壽命、無爆裂風險、且有專業研究支持的紓壓效果。NeeDoh 產品的初始觸感受好評，但核心缺陷（爆裂）使其無法作為可靠的紓壓工具。"
+  },
+  "cross_product_patterns": {
+    "brand_concentration": "3/4 分析產品為 Schylling NeeDoh 品牌，顯示品牌層面的系統性品質控制問題",
+    "common_failure_mode": "液態/凝膠填充物的容器完整性失敗（bursting/seal failure），跨所有 NeeDoh 款型",
+    "positive_consensus": "短期觸感和感官滿足感普遍獲好評（sensory_relief scores 0.80-0.88），但無法轉化為實際效用（因產品壽命過短）",
+    "safety_escalation": "安全問題不可忽視：8% 眼部傷害事件 + 外部化學灼傷研究（pH 2）+ 發霉案例"
+  },
+  "verdict": "pain_point",
+  "verdict_reason": "整個 squishy-toy（液態/凝膠填充型）細分市場存在系統性品質危機。3 款高信心樣本（150 則評論）顯示：核心耐用性失敗率 28-56%、安全事件 8%（眼部傷害）、外部研究佐證化學灼傷風險（pH 2）。雖然短期觸感受好評，但所有產品均無法可靠地解決「紓壓」需求（因壽命過短）。相比 Tangle Therapy、Thinking Putty 等有研究支持的競品，NeeDoh 系列在安全性、耐用性、有效性三方面全面劣勢。既無法解決問題（壽命不足），又產生新問題（安全爆炸、化學風險），且整個市場缺乏有效的替代解方（競品屬不同機制，非直接替代）。",
+  "confidence": "high",
+  "confidence_rationale": "3 款主要產品各有 50 則評論（共 150 則高信心樣本），問題模式高度一致（跨產品均有爆裂問題）；外部研究（Consumer Reports、丹麥 EPA）佐證安全風險；既有痛點報告（2026-02-09）提供競品研究背景。第 4 款（B0G22BHS13）僅 3 則評論，[REVIEW_NEEDED]，分析中排除其數據貢獻。",
+  "key_findings": [
+    {
+      "finding": "系統性耐用性失敗：56%（Teenie）、40%（Gummy Bear）、28%（Gumdrop）爆裂/漏液，為跨款型一致缺陷",
+      "severity": "critical",
+      "implication": "產品無法完成基本功能（持續使用以紓壓）"
+    },
+    {
+      "finding": "嚴重安全事件：8% 眼部爆炸傷害（含 7 歲兒童受傷案例）+ Consumer Reports 證實 pH 2 化學灼傷風險",
+      "severity": "critical",
+      "implication": "標榜 Ages 3+ 的產品存在嚴重安全悖論"
+    },
+    {
+      "finding": "初始觸感好評（sensory_relief: 0.80-0.88）與長期耐用性嚴重背離，形成典型「開箱滿意、快速失望」模式",
+      "severity": "high",
+      "implication": "高評分（4.25-4.55 星）被短期體驗主導，無法反映實際效用"
+    },
+    {
+      "finding": "所有競品（Tangle、Thinking Putty、Tom's Fidgets）在耐用性、安全性、研究支持三方面均優於 NeeDoh 系列",
+      "severity": "high",
+      "implication": "消費者有更好的選擇，NeeDoh 液態系列缺乏競爭優勢"
+    },
+    {
+      "finding": "市場存在系統性資訊不對稱：低價 squishy toys 宣稱 ADHD/自閉症療效，但丹麥 EPA 研究顯示 100% 樣本排放有毒化學物質（DMF、甲苯、二甲苯）",
+      "severity": "high",
+      "implication": "特殊需求兒童面臨最高風險，選購決策缺乏可靠資訊支撐"
+    },
+    {
+      "finding": "B0G22BHS13（Toymendous Squishy Carrot）僅 3 則評論，數據不足，無法納入比較分析",
+      "severity": "low",
+      "implication": "[REVIEW_NEEDED]，建議後續追蹤"
+    }
+  ],
+  "report_type_recommendation": "pain_point",
+  "report_path_suggestion": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md",
+  "update_note": "此分析為 2026-02-09 痛點報告的更新版，新增 3 款 NeeDoh 產品實際評論數據（150 則），強化並確認原報告結論。核心 verdict 維持 pain_point 不變。",
+  "generated_at": "2026-03-01",
+  "source_reviews_total": 153,
+  "source_reviews_high_confidence": 150,
+  "external_research_sources": [
+    "Consumer Reports（pH 2 化學灼傷研究）",
+    "丹麥環保局（100% squishies 有毒化學排放）",
+    "CPSC 2026 磁鐵 fidget 召回",
+    "PMC 研究（fidgeting vs. commercial fidget devices 效果差異）"
+  ]
+}

@@ -1,83 +1,113 @@
 {
-  "last_updated": "2026-02-25T00:45:00Z",
-  "last_completed_date": "2026-02-25",
-  "execution_mode": "daily_incremental",
+  "last_updated": "2026-03-01T18:15:00Z",
+  "last_completed_date": "2026-03-01",
+  "execution_mode": "full_rerun",
   "current_step": "completed",
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "2 個監控項目今日到期（bella Toaster、BigFoot Shower Curtain），已於上次執行檢查",
-      "items_checked": 2,
+      "note": "7 個監控項目今日到期並已檢查，2 個惡化（RELIEF SUN、eos Body Lotion），7 個未到期",
+      "items_checked": 7,
       "results": {
-        "B0CYJBB2JQ": "no_change",
-        "B08CRPWQHB": "no_change"
+        "B0G4Z5G1NT": "worsening",
+        "B08KT2Z93D": "worsening",
+        "B092J8LPWR": "no_change",
+        "B093KDDGMJ": "no_change",
+        "B00016RL9G": "no_change",
+        "B07V6M4MSN": "no_change",
+        "B00OCGUG02": "no_change"
       }
     },
     "step_2": {
       "status": "completed",
-      "note": "3 個類別排程重試：infant-sensory-toy（達標）、foam-playmat（未達標）、kids-activity-book（延後）",
+      "note": "4 個研究缺口：foam-playmat（部分完成, WebSearch 22 次但 WebFetch 僅 1 次）、kids-activity-book（排隊未執行）、interactive-pet-toy（待評論補齊）、monster-truck-toy（待評論補齊）",
       "gap_types": {
-        "research_insufficient": 3
+        "research_insufficient": 2,
+        "review_insufficient": 2
       },
       "results": {
-        "infant-sensory-toy": "completed",
-        "foam-playmat": "insufficient",
-        "kids-activity-book": "deferred"
+        "foam-playmat": "partial",
+        "kids-activity-book": "queued",
+        "interactive-pet-toy": "pending",
+        "monster-truck-toy": "pending"
       }
     },
     "step_3": {
       "status": "completed",
-      "note": "Discovery 執行成功（Amazon 30, Walmart 40）",
+      "note": "Discovery 執行成功（Amazon 36, Walmart 40, Best Buy 3），合計 79 個產品",
       "discovery_output": true,
       "platforms": {
-        "amazon": 30,
+        "amazon": 36,
         "walmart": 40,
-        "bestbuy": 0
+        "bestbuy": 3
       },
-      "selector_issues": ["walmart:beauty", "walmart:baby", "walmart:toys"]
+      "selector_issues": ["bestbuy:deals_top-rated", "walmart:beauty", "walmart:baby", "walmart:toys", "walmart:home", "walmart:food-beverage"]
     },
     "step_4": {
       "status": "completed",
-      "note": "15 個產品歸入現有類別，55 個跳過（大眾消費電子）",
-      "new_categories": 0,
-      "products_to_existing": 15,
-      "products_skipped": 55
+      "note": "14 個產品歸入 8 個現有類別，18 個新類別（32 產品），35 個跳過",
+      "new_categories": 18,
+      "products_to_existing": 14,
+      "products_skipped": 35
     },
     "step_5": {
       "status": "skipped",
-      "note": "歸入已有類別，跳過研究步驟"
+      "note": "14 個歸入已有類別且研究報告未過期，跳過研究步驟"
     },
     "step_6": {
-      "status": "partial",
-      "note": "增量模式：2 個已有萃取，11 個待萃取（記錄於 fetch_result）",
-      "already_extracted": 2,
-      "pending_extraction": 11,
-      "technical_debt": "8 個舊殘留 batch 檔案待清理"
+      "status": "completed",
+      "note": "10 個 Amazon 產品萃取完成（493/500 評論），2 個 REVIEW_NEEDED（B0G22BHS13 僅 3 則、B081XMX6NS 語言不符）",
+      "products_extracted": 10,
+      "total_reviews": 453,
+      "review_needed": ["B0G22BHS13", "B081XMX6NS"]
     },
     "step_7": {
-      "status": "skipped",
-      "note": "無新萃取，跳過比較分析"
+      "status": "completed",
+      "note": "6 個類別比較分析完成（squishy-toy, laundry-stain, vitamin-d-supplement, drain-clog, streaming-stick, trading-cards），video-game-console 因無研究報告跳過",
+      "categories_analyzed": 6,
+      "categories_skipped": ["video-game-console"],
+      "verdicts": {
+        "squishy-toy": "pain_point",
+        "laundry-stain": "comparison",
+        "vitamin-d-supplement": "comparison",
+        "drain-clog": "comparison",
+        "streaming-stick": "comparison",
+        "trading-cards": "comparison"
+      }
     },
     "step_8": {
-      "status": "skipped",
-      "note": "無新比較分析，跳過報告產出"
+      "status": "completed",
+      "note": "6 個報告產出（1 痛點 + 5 比較），4 個標記 REVIEW_NEEDED",
+      "reports": {
+        "squishy-toy": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md",
+        "laundry-stain": "docs/Narrator/comparisons/laundry-stain--2026-03-01.md",
+        "vitamin-d-supplement": "docs/Narrator/comparisons/vitamin-d-supplement--2026-03-01.md",
+        "drain-clog": "docs/Narrator/comparisons/drain-clog--2026-03-01.md",
+        "streaming-stick": "docs/Narrator/comparisons/streaming-stick--2026-03-01.md",
+        "trading-cards": "docs/Narrator/comparisons/trading-cards--2026-03-01.md"
+      },
+      "review_needed": ["laundry-stain", "vitamin-d-supplement", "drain-clog", "trading-cards"]
     }
   },
   "summary": {
-    "monitoring_checked": 2,
+    "monitoring_checked": 7,
     "monitoring_results": {
-      "no_change": 2
+      "worsening": 2,
+      "no_change": 5
     },
-    "gap_fill_attempts": 3,
+    "gap_fill_attempts": 4,
     "gap_fill_results": {
-      "completed": 1,
-      "insufficient": 1,
-      "deferred": 1
+      "partial": 1,
+      "queued": 1,
+      "pending": 2
     },
-    "discovery_products": 70,
-    "new_products_grouped": 15,
-    "new_reports": 0,
-    "blocking_issues": []
+    "discovery_products": 79,
+    "new_products_grouped": 14,
+    "new_categories": 18,
+    "new_reports": 6,
+    "review_needed_reports": 4,
+    "blocking_issues": [],
+    "new_watchlist_products": ["B0D9M7ST5H"]
   },
-  "notes": "增量模式執行完成。infant-sensory-toy 研究補齊達標。15 個產品歸入現有類別，11 個待萃取。無新報告產出。"
+  "notes": "完整重跑執行完成。6 個新報告（1 痛點 + 5 比較）。squishy-toy 發現嚴重安全問題（8% 眼部噴濺事故），已加入監控。18 個新類別待未來研究。"
 }

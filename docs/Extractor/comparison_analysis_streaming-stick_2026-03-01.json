@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "category": "streaming-stick",
+    "analysis_date": "2026-03-01",
+    "products_analyzed": [
+      "B09HR7SWTR (Roku Express 4K+ Renewed)",
+      "B0CQMRKRV5 (Fire TV Stick HD)",
+      "B0F7Z4QZTT (Fire TV Stick 4K Plus)"
+    ],
+    "reviews_total": 250,
+    "research_source": "streaming-stick--2026-02-06.md",
+    "competitors_source": "streaming-stick--2026-02-05.md"
+  },
+
+  "products": [
+    {
+      "product_id": "B09HR7SWTR",
+      "name": "Roku Express 4K+ 2021 (Renewed)",
+      "price_usd": 30.99,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 50,
+      "platform": "amazon_us / MallStop (third-party)",
+      "confidence": "medium",
+      "core_scores": {
+        "streaming_performance": 0.85,
+        "setup_ease": 0.55,
+        "value_for_money": 0.60,
+        "remote_functionality": 0.28,
+        "battery_condition": 0.10,
+        "device_functionality": 0.55
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": [
+          {
+            "type": "defective_or_incompatible_remote",
+            "frequency": "28% (14/50)",
+            "severity": "high",
+            "symbol": "❌",
+            "description": "遙控器不相容、無法配對或按鍵卡住，設備無法正常操作——屬核心功能失效",
+            "evidence": "Remote that was included in package seems to be for a different Roku player model; the remote will not do"
+          },
+          {
+            "type": "device_does_not_work",
+            "frequency": "16% (8/50)",
+            "severity": "high",
+            "symbol": "❌",
+            "description": "設備本體無法開機或運作，翻新品質量嚴重不穩定",
+            "evidence": "This thing is junk! Doesn't even work!; Does not work horrible dont buy"
+          }
+        ],
+        "creates_new_problems": [
+          {
+            "type": "corroded_batteries_included",
+            "frequency": "20% (10/50)",
+            "severity": "high",
+            "symbol": "⚠️",
+            "description": "隨附電池嚴重腐蝕甚至爆炸，可能污染或損壞電池倉，產生新的安全疑慮",
+            "evidence": "arrived with pre-packaged batteries that were corroded; Las baterías llegaron en muy mal estado, están calsinadas, explotadas"
+          },
+          {
+            "type": "privacy_concerns",
+            "frequency": "4% (2/50)",
+            "severity": "low",
+            "symbol": "⚠️",
+            "description": "裝置傳送大量資料回 Roku，使用者有隱私疑慮",
+            "evidence": "The device sends more data back to Roku to spy on you than you can imagine"
+          }
+        ],
+        "unrelated_to_product": [
+          {
+            "type": "poor_refurbished_quality_control",
+            "frequency": "10% (5/50)",
+            "severity": "medium",
+            "symbol": "📦",
+            "description": "缺少零件（電源適配器、線材）、包裝問題，屬翻新/物流流程缺陷",
+            "evidence": "Several items were missing from box that are in product description. No power adapter, batteries and one cord."
+          },
+          {
+            "type": "wifi_disconnection",
+            "frequency": "4% (2/50)",
+            "severity": "medium",
+            "symbol": "📦",
+            "description": "Wi-Fi 頻繁斷線，可能與環境因素有關",
+            "evidence": "Disconnects from the Wi-Fi several times a day"
+          }
+        ]
+      },
+      "summary": "翻新品（Renewed）質量控制嚴重失當：28% 遙控器不相容、20% 電池腐蝕、16% 設備無法運作。實際為翻新品管問題，非 Roku 平台本身缺陷。串流品質當設備正常運作時表現良好（0.85）。"
+    },
+
+    {
+      "product_id": "B0CQMRKRV5",
+      "name": "Amazon Fire TV Stick HD (newest model)",
+      "price_usd": 29.99,
+      "avg_rating": null,
+      "reviews_analyzed": 100,
+      "platform": "amazon_us",
+      "confidence": "high",
+      "core_scores": {
+        "reliability": 2.1,
+        "setup_ease": 4.3,
+        "performance": 3.0,
+        "remote_quality": 2.8,
+        "value_for_money": 4.1,
+        "interface": 4.5,
+        "streaming_quality": 3.8,
+        "durability": 2.0
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": [
+          {
+            "type": "premature_device_failure",
+            "frequency": "26% (26/100)",
+            "severity": "critical",
+            "symbol": "❌",
+            "description": "設備在 5-12 個月內完全停止工作，串流播放器核心功能失效",
+            "evidence": "It stopped working after 5 months; The fire stick didn't last a year; Broke within a few months"
+          },
+          {
+            "type": "playback_freezing",
+            "frequency": "15% (15/100)",
+            "severity": "critical",
+            "symbol": "❌",
+            "description": "播放中途凍結，需實體拔插電源，無法正常完成觀看內容",
+            "evidence": "This device freezes during playback, sometimes up to 3-4 times during the same episode; constantly freezing"
+          }
+        ],
+        "creates_new_problems": [
+          {
+            "type": "performance_degradation",
+            "frequency": "12% (12/100)",
+            "severity": "medium",
+            "symbol": "⚠️",
+            "description": "使用一個月後效能顯著退化，即使網路速度充足仍緩慢",
+            "evidence": "After the first month you will start to see it significantly slow down; Very slow despite 250 Mb/s network"
+          },
+          {
+            "type": "remote_malfunction",
+            "frequency": "10% (10/100)",
+            "severity": "high",
+            "symbol": "⚠️",
+            "description": "遙控器在 3 個月內損壞，使設備難以操作",
+            "evidence": "Remote broke after three months of use; The remote stopped working for no reason"
+          }
+        ],
+        "unrelated_to_product": [
+          {
+            "type": "customer_service_issues",
+            "frequency": "8% (8/100)",
+            "severity": "medium",
+            "symbol": "📦",
+            "description": "客服無法解決問題，退款延遲，屬售後服務問題",
+            "evidence": "30 minutes on hold with Amazon and told they can't help and I have to contact the manufacturer. It's an Amazon product!"
+          },
+          {
+            "type": "app_compatibility_issues",
+            "frequency": "6% (6/100)",
+            "severity": "medium",
+            "symbol": "📦",
+            "description": "部分應用程式無法下載或運作，屬平台政策/生態問題",
+            "evidence": "Audible doesn't load properly; Can't get certain apps to download"
+          }
+        ]
+      },
+      "summary": "嚴重可靠性危機：26% 設備在一年內完全故障，15% 播放凍結。多代產品均有此通病，屬系統性品質控制失敗。蜜月期（0-1 個月）體驗優秀，但長期不可靠，使用者持續轉向 Roku。"
+    },
+
+    {
+      "product_id": "B0F7Z4QZTT",
+      "name": "Amazon Fire TV Stick 4K Plus",
+      "price_usd": 34.99,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "platform": "amazon_us",
+      "confidence": "medium",
+      "core_scores": {
+        "setup_ease": 0.90,
+        "streaming_performance": 0.89,
+        "picture_quality": 0.85,
+        "value_for_money": 0.88,
+        "smart_home_integration": 0.95,
+        "remote_functionality": 0.37,
+        "app_availability": 0.27,
+        "operating_system": 0.28,
+        "device_reliability": 0.30
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": [
+          {
+            "type": "app_restrictions",
+            "frequency": "11% (11/100)",
+            "severity": "high",
+            "symbol": "❌",
+            "description": "作業系統更新後限制第三方 App 安裝，SELECT 版本使用者無法安裝慣用應用，串流功能受限",
+            "evidence": "Amazon will block and control what apps you can install; Can not load side apps into the device"
+          },
+          {
+            "type": "device_failure",
+            "frequency": "8% (8/100)",
+            "severity": "high",
+            "symbol": "❌",
+            "description": "設備在 1-6 個月內完全故障，部分批次連續兩台故障",
+            "evidence": "Bought 3 and two of them stopped working after 5-6 months; 2 of the last 3 fire sticks purchased failed totally after 1 month"
+          }
+        ],
+        "creates_new_problems": [
+          {
+            "type": "remote_malfunction",
+            "frequency": "12% (12/100)",
+            "severity": "high",
+            "symbol": "⚠️",
+            "description": "遙控器故障率高，電源按鈕失效、音量控制無作用，設備反而需要手機 App 替代",
+            "evidence": "Remote would not power on; Power button is inoperable; Several buttons stopped working after a month"
+          },
+          {
+            "type": "forced_alexa_updates",
+            "frequency": "2% (2/100)",
+            "severity": "high",
+            "symbol": "⚠️",
+            "description": "強制 Alexa+ 更新導致系統崩潰，使設備無法使用",
+            "evidence": "Amazon tried to push through a giant update for Alexa+ and it has broken the firestick"
+          }
+        ],
+        "unrelated_to_product": [
+          {
+            "type": "slow_refund_process",
+            "frequency": "2% (2/100)",
+            "severity": "medium",
+            "symbol": "📦",
+            "description": "退款流程緩慢，等待超過三週",
+            "evidence": "Returned on Jan 27 and now they say I have to wait for refund until Feb 17 or later"
+          },
+          {
+            "type": "region_version_mismatch",
+            "frequency": "1% (1/100)",
+            "severity": "medium",
+            "symbol": "📦",
+            "description": "收到非美版產品（西班牙版），屬物流/倉儲錯誤",
+            "evidence": "Watch out, this is not for the usa, delivered a Spanish version"
+          }
+        ]
+      },
+      "summary": "核心串流體驗優秀（setup 0.90, streaming 0.89, picture 0.85），但遙控器故障（12%）、應用限制（11%）、設備故障（8%）三重問題並存。Alexa+ 強制更新破壞設備穩定性，呈現短期高分、長期隱患的特徵。"
+    }
+  ],
+
+  "cross_product_comparison": {
+    "solve_core_problem": {
+      "verdict": "部分解決",
+      "explanation": "三款產品在正常運作時均能完成串流播放的核心需求，但 Fire TV Stick HD 的 26% 故障率與 15% 播放凍結率、Roku Renewed 的 28% 遙控器失效率，使相當比例的使用者根本無法持續使用產品。",
+      "reliability_ranking": [
+        {"rank": 1, "product": "Fire TV Stick 4K Plus (B0F7Z4QZTT)", "reason": "串流體驗最佳，但遙控器與 OS 問題需關注"},
+        {"rank": 2, "product": "Fire TV Stick HD (B0CQMRKRV5)", "reason": "設置簡單，初期體驗良好，但長期故障率極高"},
+        {"rank": 3, "product": "Roku Express 4K+ Renewed (B09HR7SWTR)", "reason": "翻新品質量控制嚴重失當，不建議購買翻新版"}
+      ]
+    },
+    "vs_competitors": {
+      "benchmark_products": ["Roku Express 4K+ (新品)", "Fire TV Stick 4K Max", "Apple TV 4K", "Google TV Streamer", "Onn Google TV 4K Box"],
+      "key_findings": [
+        "研究報告顯示 Roku（新品）在穩定性方面優於 Fire TV，多位使用者在評論中明確提及「Roku 在相同環境下運作正常，問題出在 Fire Stick」",
+        "Fire TV Stick 4K Max（競品）相比 Fire TV Stick HD 提供完整 Dolby Vision/Atmos 與 Wi-Fi 6E，且 Alexa+ 整合更完整，僅多 $20",
+        "Apple TV 4K 雖價格高 5-6 倍，但無廣告、隱私保護完整、效能最強，長期持有成本反而可能更低（無需頻繁更換）",
+        "Onn Google TV 4K Box（$20）在 C/P 值上完全優於 Fire TV Stick HD（$30），且有更大儲存空間",
+        "2026 Cordie Awards 投票：Roku 55.7%、Apple TV 13.0%、Google TV 12.7%、Fire TV 12.2%，反映資深串流使用者的真實偏好"
+      ],
+      "competitive_position": "劣勢",
+      "competitive_detail": "三款受分析產品均存在明顯問題：Renewed 版本品質控制失敗、Fire TV Stick HD 長期可靠性堪憂（且功能不及 4K Max）、Fire TV 4K Plus 遙控器與 OS 問題未解決。同價位競品（Onn 4K Box、Roku Express 4K+ 新品）在可靠性和功能上均有優勢。"
+    },
+
+    "negative_rate_summary": {
+      "B09HR7SWTR": {
+        "cannot_solve_problem_rate": "44% (28% remote + 16% device failure)",
+        "creates_new_problems_rate": "24% (20% batteries + 4% privacy)",
+        "unrelated_rate": "14% (10% packaging + 4% wifi)"
+      },
+      "B0CQMRKRV5": {
+        "cannot_solve_problem_rate": "41% (26% device failure + 15% freezing)",
+        "creates_new_problems_rate": "22% (12% performance + 10% remote)",
+        "unrelated_rate": "14% (8% customer service + 6% app)"
+      },
+      "B0F7Z4QZTT": {
+        "cannot_solve_problem_rate": "19% (11% app restriction + 8% device failure)",
+        "creates_new_problems_rate": "14% (12% remote + 2% OS crash)",
+        "unrelated_rate": "3% (2% refund + 1% region)"
+      }
+    }
+  },
+
+  "report_recommendation": {
+    "report_type": "comparison",
+    "rationale": "部分產品（Fire TV Stick 4K Plus）具備能解決串流問題的核心功能，但整體而言有更好的競品選擇（Roku 新品、Onn 4K Box、Apple TV 4K），且 Fire TV Stick HD 長期可靠性問題嚴重。建議產出比較報告，引導消費者做出更好選擇。",
+    "warning_flag": true,
+    "warning_reason": "B09HR7SWTR（Renewed）44% 核心功能失效率屬於嚴重品質問題，建議在比較報告中加入警告。B0CQMRKRV5 的 26% 設備故障率亦需特別標注。",
+    "primary_output_path": "docs/Narrator/comparisons/streaming-stick--2026-03-01.md",
+    "secondary_output_path": "docs/Narrator/warnings/B09HR7SWTR-renewed--2026-03-01.md"
+  },
+
+  "confidence": "medium",
+  "confidence_notes": "B09HR7SWTR 僅 50 則評論且為翻新品（第三方賣家），分析結果代表翻新品品質，非 Roku 平台本身。B0F7Z4QZTT 萃取日期為 2026-02-17（舊萃取），與 2026-03-01 分析日期有落差。整體結論有足夠證據支撐。"
+}

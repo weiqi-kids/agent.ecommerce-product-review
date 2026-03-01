@@ -105,27 +105,27 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-02-25 | 160 | 30 ✅ | ✅ 正常 |
-| bestbuy_us | 2026-02-17 | 0 | 0 ⚠️ | ⚠️ selector issue |
-| walmart_us | 2026-02-25 | 40 | 40 ✅ | ✅ 正常 |
+| amazon_us | 2026-03-01 | 170 | 36 ✅ | ✅ 正常 |
+| bestbuy_us | 2026-03-01 | 3 | 3 ⚠️ | ⚠️ selector issue |
+| walmart_us | 2026-03-01 | 40 | 40 ✅ | ✅ 正常 |
 
 ### 監控清單
 
 | 類型 | 數量 |
 |------|------|
-| 監控產品 | 14 |
+| 監控產品 | 15 |
 | 研究缺口類別 | 4 |
 | 暫緩發佈類別 | 0 |
 
-### 今日統計 (2026-02-25)
+### 今日統計 (2026-03-01)
 
 | 指標 | 數值 |
 |------|------|
-| Discovery 產品 | 70 (Amazon 30 + Walmart 40) |
-| 監控追蹤 | 2 個（0 變化） |
-| 研究缺口補齊 | 1 達標（infant-sensory-toy） |
-| 新類別 | 0 |
-| 報告產出 | 0 |
+| Discovery 產品 | 79 (Amazon 36 + Walmart 40 + Best Buy 3) |
+| 監控追蹤 | 7 個檢查，2 個惡化 |
+| 新報告 | 6（1 痛點 + 5 比較） |
+| 新類別 | 18 |
+| REVIEW_NEEDED | 4 個報告 |
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

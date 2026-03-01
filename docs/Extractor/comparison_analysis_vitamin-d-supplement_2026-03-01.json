@@ -1,0 +1,132 @@
+{
+  "category": "vitamin-d-supplement",
+  "analysis_date": "2026-03-01",
+  "problem_statement": "維生素 D 缺乏（影響全球約 10 億人），需要有效、安全的口服補充方式",
+  "products_analyzed": [
+    {
+      "product_id": "B0GD2HMY7T",
+      "name": "Sports Research Vitamin D3 + K2 with Coconut Oil — 5000 IU Vegan Softgels",
+      "brand": "Sports Research",
+      "platform": "amazon_us",
+      "price_usd": 24.95,
+      "avg_rating": 4.75,
+      "total_ratings": 51550,
+      "reviews_analyzed": 50,
+      "extraction_date": "2026-03-01",
+      "data_source": "amazon_us extraction",
+      "confidence": "high"
+    },
+    {
+      "product_id": "B00GB85JR4",
+      "name": "Nature Made Vitamin D3",
+      "brand": "Nature Made",
+      "platform": "amazon_us",
+      "extraction_date": "2026-02-17",
+      "data_source": "amazon_us extraction (舊萃取，供參考)",
+      "confidence": "medium"
+    }
+  ],
+  "competitors_reference": [
+    {
+      "name": "Nature Made Vitamin D3",
+      "asin": "N/A",
+      "recommendation_count": 1,
+      "highlights": "藥劑師推薦第一名、USP 認證、90+ 認證產品、ConsumerLab 測試合格",
+      "data_source": "research_article",
+      "note": "無電商識別碼，基於研究報告"
+    }
+  ],
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "items": [],
+      "rate": "0%",
+      "note": "無評論反映產品無法提升維生素 D 水平"
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "items": [
+        {
+          "issue": "inconsistent_batch_color",
+          "frequency": "1/50 (2%)",
+          "severity": "low",
+          "description": "新批次膠囊顏色較深，消費者疑慮配方是否變更，但無功能性投訴"
+        }
+      ],
+      "rate": "2%"
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "items": [
+        {
+          "issue": "slow_noticeable_effect",
+          "frequency": "2/50 (4%)",
+          "severity": "low",
+          "description": "早期使用者尚未感受到效果，符合補充劑正常時間線，非產品缺陷"
+        }
+      ],
+      "rate": "4%"
+    }
+  },
+  "key_aspects_summary": {
+    "effectiveness_vitamin_d_levels": { "sentiment": "positive", "score": 0.90, "mentions": 8 },
+    "ease_of_swallowing": { "sentiment": "positive", "score": 0.95, "mentions": 10 },
+    "brand_trust_quality": { "sentiment": "positive", "score": 0.93, "mentions": 9 },
+    "bone_joint_health": { "sentiment": "positive", "score": 0.85, "mentions": 4 },
+    "immune_support": { "sentiment": "positive", "score": 0.88, "mentions": 5 },
+    "vegan_plant_based": { "sentiment": "positive", "score": 0.92, "mentions": 3 },
+    "value_for_money": { "sentiment": "positive", "score": 0.87, "mentions": 3 }
+  },
+  "competitive_comparison": {
+    "sports_research_vs_nature_made": {
+      "sports_research_advantages": [
+        "D3 + K2 (MK-7) 組合配方，K2 引導鈣質至骨骼而非動脈",
+        "椰子 MCT 油促進脂溶性維生素吸收",
+        "純素認證（D3 來自地衣，K2 來自發酵鷹嘴豆）",
+        "Non-GMO Project 認證",
+        "5000 IU 高劑量，適合需快速補充者",
+        "51,550 評分樣本量大，評分 4.75/5 極高"
+      ],
+      "nature_made_advantages": [
+        "藥劑師推薦第一名（Pharmacy Times 調查）",
+        "USP 認證（更廣泛的第三方認證體系）",
+        "劑量彈性（1000/2000/5000 IU 多選）",
+        "ConsumerLab 測試符合標示效價",
+        "品牌歷史更長，醫療機構信任度高"
+      ],
+      "conclusion": "Sports Research 在配方創新（D3+K2+MCT）和純素族群上具明顯優勢；Nature Made 在機構認可和劑量彈性上領先"
+    }
+  },
+  "verdict": {
+    "can_solve_problem": true,
+    "better_than_competitors": "conditional",
+    "reasoning": "Sports Research D3+K2 能有效補充維生素 D（90% 正面評分，多位消費者回報血液指數改善），並透過 K2+MCT 組合提供超越單一 D3 產品的附加價值。相比 Nature Made，對純素消費者和尋求骨骼健康協同效果者明顯更優。但 Nature Made 的 USP 認證和藥劑師信任度仍是差異化競爭優勢。",
+    "recommended_for": [
+      "純素/植物性飲食者",
+      "需要 D3+K2 協同骨骼健康效果者",
+      "維生素 D 嚴重缺乏需高劑量（5000 IU）補充者",
+      "重視第三方測試和美國製造的消費者"
+    ],
+    "not_recommended_for": [
+      "需要 USP 認證的醫療機構要求場景",
+      "偏好低劑量（1000-2000 IU）維護性補充者"
+    ],
+    "report_type": "comparison",
+    "note": "建議更新現有報告以納入 Sports Research B0GD2HMY7T，現有報告僅涵蓋 Nature Made"
+  },
+  "data_quality": {
+    "extraction_confidence": "high",
+    "competitor_data_completeness": "limited（競品清單僅 1 個，且無電商識別碼）",
+    "cross_platform_coverage": "amazon_us only",
+    "review_sample_size": 50,
+    "flag": "[REVIEW_NEEDED] 競品數據有限，建議擴充競品清單"
+  },
+  "comparison_with_existing_report": {
+    "existing_report": "docs/Narrator/recommendations/vitamin-d-supplement--recommendation--2026-02-06.md",
+    "existing_verdict": "推薦 Nature Made Vitamin D3",
+    "update_required": true,
+    "reason": "現有報告聚焦 Nature Made；新萃取資料（Sports Research B0GD2HMY7T）評分更高（4.75 vs 舊報告產品），且配方更完整（D3+K2+MCT），報告應更新為比較報告"
+  },
+  "generated_by": "comparison_analysis_agent",
+  "generated_at": "2026-03-01"
+}

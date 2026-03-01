@@ -1,0 +1,313 @@
+{
+  "date": "2026-03-01",
+  "total_products": 79,
+  "existing_category_products": [
+    {
+      "product_id": "B0GD2HMY7T",
+      "title": "Sports Research Vitamin D3+K2",
+      "platform": "amazon",
+      "category": "vitamin-d-supplement",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0D9M7ST5H",
+      "title": "NeeDoh Rainboh Teenie Sensory Toy",
+      "platform": "amazon",
+      "category": "squishy-toy",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0B2HN96TZ",
+      "title": "NeeDoh Gummy Bear Sensory Toy",
+      "platform": "amazon",
+      "category": "squishy-toy",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0DJ3PQWDD",
+      "title": "NeeDoh Gumdrop Sensory Toy",
+      "platform": "amazon",
+      "category": "squishy-toy",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0G22BHS13",
+      "title": "Squishy Carrot Jumbo",
+      "platform": "amazon",
+      "category": "squishy-toy",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B09HR7SWTR",
+      "title": "Roku Express 4K+",
+      "platform": "amazon",
+      "category": "streaming-stick",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B081XMX6NS",
+      "title": "Nintendo Switch Console",
+      "platform": "amazon",
+      "category": "video-game-console",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "443574645",
+      "title": "Xbox Series X 1TB",
+      "platform": "walmart",
+      "category": "video-game-console",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0CR6HWLW6",
+      "title": "Drano Max Gel Drain Clog Remover",
+      "platform": "amazon",
+      "category": "drain-clog",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0FQFYKJ76",
+      "title": "ARM & HAMMER OxiClean Laundry Detergent",
+      "platform": "amazon",
+      "category": "laundry-stain",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "1016968548",
+      "title": "Tide PODS 76 Count",
+      "platform": "walmart",
+      "category": "laundry-stain",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "44187544",
+      "title": "O-Cedar EasyWring Spin Mop",
+      "platform": "walmart",
+      "category": "floor-mopping",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "1383243594",
+      "title": "Swiffer PowerMop Refills",
+      "platform": "walmart",
+      "category": "floor-mopping",
+      "action": "歸入現有類別"
+    },
+    {
+      "product_id": "B0G2FVLXVL",
+      "title": "Pokémon TCG Day 2026 Collection",
+      "platform": "amazon",
+      "category": "trading-cards",
+      "action": "歸入現有類別"
+    }
+  ],
+  "new_categories": [
+    {
+      "category": "electric-cooktop",
+      "description": "需要額外或備用電磁爐/電陶爐煮食（廚房空間不足、露營、宿舍等情境）",
+      "products": [
+        {"product_id": "B0GQLP1XSH", "title": "Electric Cooktop 2 Burner 110V", "platform": "amazon"},
+        {"product_id": "B0GQLP58PY", "title": "Electric Cooktop 220V 2 Burner", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "countertop-ice-maker",
+      "description": "家用便攜式製冰機，解決隨時需要冰塊卻不想買袋裝冰的需求",
+      "products": [
+        {"product_id": "B0GQMP7BQW", "title": "Under Counter Nugget Ice Maker", "platform": "amazon"},
+        {"product_id": "B0GQGXRM1G", "title": "Aeitto Countertop Ice Maker", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "range-hood",
+      "description": "廚房煮食時油煙排除，維持室內空氣品質",
+      "products": [
+        {"product_id": "B0GQNJNNBB", "title": "36\" Island Range Hood", "platform": "amazon"},
+        {"product_id": "B0FXG1YXKG", "title": "Portable Desktop Range Hood", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "window-ac",
+      "description": "窗型冷氣機，解決無中央空調房間的散熱降溫需求",
+      "products": [
+        {"product_id": "B0FN3VVFY7", "title": "Window Air Conditioner 5000 BTU", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "glass-food-storage",
+      "description": "玻璃食物保存容器，解決塑膠容器含毒/不耐熱/染色問題",
+      "products": [
+        {"product_id": "B0GQM1MRQV", "title": "Glass Food Storage Containers 8 Pack", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "postpartum-incontinence",
+      "description": "產後/手術後尿失禁防護內褲需求",
+      "products": [
+        {"product_id": "B0BN6Q89M7", "title": "Amazon Basics Postpartum Incontinence Underwear", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "meal-replacement-protein-shake",
+      "description": "高蛋白餐替代奶昔，解決老年人/病患蛋白質攝取不足或正餐替代需求",
+      "products": [
+        {"product_id": "485561419", "title": "Ensure Max Protein Shake", "platform": "walmart"},
+        {"product_id": "432779758", "title": "BOOST Protein Shake", "platform": "walmart"},
+        {"product_id": "45152389", "title": "Premier Protein Shake Vanilla", "platform": "walmart"},
+        {"product_id": "206353223", "title": "Premier Protein Shake Cookies & Cream", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "high-protein-snack",
+      "description": "高蛋白低碳水零食，解決節食期間嘴饞但不想破壞飲食計劃的問題",
+      "products": [
+        {"product_id": "301035241", "title": "Quest Protein Chips", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "baby-diaper",
+      "description": "嬰兒尿布，解決嬰兒皮膚防護和漏尿問題",
+      "products": [
+        {"product_id": "362649628", "title": "Pampers Swaddlers Diapers", "platform": "walmart"},
+        {"product_id": "885509773", "title": "Parent's Choice Diapers", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "air-mattress",
+      "description": "充氣床墊，解決臨時睡眠/露營/宿舍空間不足的需求",
+      "products": [
+        {"product_id": "553966069", "title": "Intex Queen Air Mattress", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "dry-dog-food",
+      "description": "乾狗糧，解決寵物犬日常營養需求",
+      "products": [
+        {"product_id": "590208360", "title": "Pure Balance Dog Food (Salmon)", "platform": "walmart"},
+        {"product_id": "662571302", "title": "Pure Balance Dog Food (Chicken)", "platform": "walmart"},
+        {"product_id": "1335757248", "title": "Purina Dog Chow", "platform": "walmart"},
+        {"product_id": "18284018132", "title": "Pedigree Dog Food", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "indoor-cat-food",
+      "description": "室內貓乾糧，解決室內貓體重控制與消化毛球問題",
+      "products": [
+        {"product_id": "21128252", "title": "Purina Cat Chow Indoor", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "potting-soil",
+      "description": "盆栽培養土，解決室內/陽台植物生長基質問題",
+      "products": [
+        {"product_id": "1207892045", "title": "Potting Mix 8qt", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "wild-bird-feed",
+      "description": "野鳥飼料，解決後院餵鳥吸引野鳥的需求",
+      "products": [
+        {"product_id": "15562411085", "title": "Wild Bird Seed 5lb", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "water-softener-salt",
+      "description": "軟水鹽，解決硬水地區水垢與家電損壞問題",
+      "products": [
+        {"product_id": "16561289", "title": "Morton Water Softener Salt", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "damage-free-wall-hanging",
+      "description": "免釘痕掛鉤/圖片掛鉤，解決租屋牆面不能打洞的問題",
+      "products": [
+        {"product_id": "390283401", "title": "Command Picture Hangers", "platform": "walmart"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "travel-packing-organization",
+      "description": "旅行收納袋，解決行李箱空間雜亂、物品難以快速找到的問題",
+      "products": [
+        {"product_id": "B0DKNNPS9N", "title": "Packing Cubes for Travel", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    },
+    {
+      "category": "tortilla-press",
+      "description": "鑄鐵玉米餅壓餅機，解決手工壓制玉米餅費力不均勻的問題",
+      "products": [
+        {"product_id": "B0742T8LRM", "title": "Victoria Cast Iron Tortilla Press", "platform": "amazon"}
+      ],
+      "status": "⏳ 待研究"
+    }
+  ],
+  "skipped_products": [
+    {"product_id": "B0DBHYTVK8", "title": "Women's Wireless Bra", "platform": "amazon", "reason": "服飾"},
+    {"product_id": "B0FNMBTK4N", "title": "Jelly Bra for Women", "platform": "amazon", "reason": "服飾"},
+    {"product_id": "B0DNTHRQF6", "title": "Women's Workout Tops", "platform": "amazon", "reason": "服飾"},
+    {"product_id": "B0D8HYJPT7", "title": "Kids Funny Knee High Socks", "platform": "amazon", "reason": "服飾"},
+    {"product_id": "324934715", "title": "Wrangler Cargo Pant", "platform": "walmart", "reason": "服飾"},
+    {"product_id": "5982347", "title": "Wrangler Rustler Men's Jeans", "platform": "walmart", "reason": "服飾"},
+    {"product_id": "B0GKPVMCG3", "title": "Dr. Seuss T-Shirt", "platform": "amazon", "reason": "服飾"},
+    {"product_id": "J33V32CTJ7", "title": "Blizzard $50 Balance Code", "platform": "bestbuy", "reason": "數位產品（禮品卡/儲值碼）"},
+    {"product_id": "JJGXP2VCS6", "title": "EA Sports FC 25 Ultimate", "platform": "bestbuy", "reason": "數位電玩軟體"},
+    {"product_id": "JCQ6HWT5CQ", "title": "EA Sports FC 25 Standard", "platform": "bestbuy", "reason": "數位電玩軟體"},
+    {"product_id": "708542578", "title": "Angel Soft Toilet Paper", "platform": "walmart", "reason": "日用消耗品"},
+    {"product_id": "2272550811", "title": "Downy Unstopables Scent Beads", "platform": "walmart", "reason": "日用品（洗衣香珠，非去污）"},
+    {"product_id": "2175060465", "title": "Downy Light Scent Beads", "platform": "walmart", "reason": "日用品（洗衣香珠，非去污）"},
+    {"product_id": "42379869", "title": "Lasko 16\" Pedestal Fan", "platform": "walmart", "reason": "大眾家電（功能過於泛用）"},
+    {"product_id": "42388499", "title": "Lasko 20\" Box Fan", "platform": "walmart", "reason": "大眾家電（功能過於泛用）"},
+    {"product_id": "476550098", "title": "onn 65\" 4K Roku TV", "platform": "walmart", "reason": "大眾消費電子（電視）"},
+    {"product_id": "711212619", "title": "Hyper Tough Storage Bin 27gal", "platform": "walmart", "reason": "日用品收納"},
+    {"product_id": "39916455", "title": "Sterilite Storage Bin 20qt", "platform": "walmart", "reason": "日用品收納"},
+    {"product_id": "167121557", "title": "Adult Underpad XL", "platform": "walmart", "reason": "日用醫療耗材"},
+    {"product_id": "826589164", "title": "Kids Clothing Hangers", "platform": "walmart", "reason": "日用品"},
+    {"product_id": "B0C62DN7MR", "title": "Amazon Basics Paper Plates", "platform": "amazon", "reason": "大眾消費品（一次性餐盤）"},
+    {"product_id": "344638043", "title": "Great Value Trash Bags 13gal", "platform": "walmart", "reason": "日用消耗品"},
+    {"product_id": "15601805681", "title": "Glad ForceFlex Trash Bags 13gal", "platform": "walmart", "reason": "日用消耗品"},
+    {"product_id": "320337289", "title": "Mainstays Kitchen Trash Can", "platform": "walmart", "reason": "日用品"},
+    {"product_id": "17209255", "title": "Red Heart Acrylic Yarn", "platform": "walmart", "reason": "手工材料，非消費問題導向"},
+    {"product_id": "2862955510", "title": "Beautiful Drew Accent Chair", "platform": "walmart", "reason": "家具，非問題導向分析"},
+    {"product_id": "B0GQLBZRKR", "title": "Cheese Cloths Grade 90", "platform": "amazon", "reason": "廚房耗材，日用品"},
+    {"product_id": "B0FHH3TDRQ", "title": "Silverware Drawer Organizer", "platform": "amazon", "reason": "日用品收納"},
+    {"product_id": "B0F2TCWTWT", "title": "Expandable Silverware Organizer", "platform": "amazon", "reason": "日用品收納"},
+    {"product_id": "B0CXN91PPR", "title": "Avocado Slicer Tool", "platform": "amazon", "reason": "廚房小工具，功能過於單一"},
+    {"product_id": "14938487", "title": "Anchor Hocking Measuring Cup", "platform": "walmart", "reason": "廚房日用品"},
+    {"product_id": "B0D158NJR1", "title": "Lysol Kitchen Spray", "platform": "amazon", "reason": "日用清潔品（功能過於泛用）"},
+    {"product_id": "B0BHVKJJPS", "title": "Apple Watch Series 6 40mm (Renewed)", "platform": "amazon", "reason": "翻新品，缺乏深度問題比較空間"},
+    {"product_id": "B093S66LDG", "title": "Apple Watch Series 6 44mm (Renewed)", "platform": "amazon", "reason": "翻新品，缺乏深度問題比較空間"},
+    {"product_id": "B0CXJLHG1J", "title": "Samsung Galaxy S23 FE (Renewed)", "platform": "amazon", "reason": "翻新品，缺乏深度問題比較空間"}
+  ],
+  "summary": {
+    "existing_category_count": 14,
+    "new_category_count": 18,
+    "skipped_count": 35,
+    "new_products_for_analysis": 32,
+    "existing_categories_updated": [
+      "vitamin-d-supplement",
+      "squishy-toy",
+      "streaming-stick",
+      "video-game-console",
+      "drain-clog",
+      "laundry-stain",
+      "floor-mopping",
+      "trading-cards"
+    ]
+  }
+}
