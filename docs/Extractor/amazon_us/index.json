@@ -60,6 +60,42 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "vitamin-d-supplement-B004GJYTF8--amzn-direct--2026-03-01-md",
+    "title": "Nature Made Vitamin D3 2000 IU (50 mcg), 250 Softgels",
+    "category": "vitamin-d-supplement",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "vitamin-d-supplement/B004GJYTF8--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "vitamin-d-supplement-B0038NF8MG--amzn-direct--2026-03-01-md",
+    "title": "THORNE - Vitamin D + K2 Liquid with a Metered Dispenser",
+    "category": "vitamin-d-supplement",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "vitamin-d-supplement/B0038NF8MG--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "vitamin-d-supplement-B001UZPY1O--amzn-direct--2026-03-01-md",
+    "title": "NOW Foods Supplements, Vitamin D-3 2,000 IU, High Potency, 240 Softgels",
+    "category": "vitamin-d-supplement",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "vitamin-d-supplement/B001UZPY1O--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "video-game-console-B081XMX6NS--amzn-direct--2026-03-01-md",
     "title": "Nintendo Switch Game Console - Black (HAC-001(-01) w/ OEM Gray Joy Cons (Renewed)",
     "category": "video-game-console",
@@ -72,6 +108,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "trading-cards-B0G3CY83L5--amzn-direct--2026-03-01-md",
+    "title": "Pokémon TCG: Mega Evolution—Ascended Heroes Elite Trainer Box",
+    "category": "trading-cards",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "trading-cards/B0G3CY83L5--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "trading-cards-B0G2FVLXVL--amzn-direct--2026-03-01-md",
     "title": "Pokémon TCG: Pokémon Day 2026 Collection",
     "category": "trading-cards",
@@ -81,6 +129,30 @@
     "avg_rating": "",
     "review_count": "",
     "file": "trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "trading-cards-B0DNV3NV61--amzn-direct--2026-03-01-md",
+    "title": "Magic: The Gathering Aetherdrift Play Booster Box",
+    "category": "trading-cards",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "trading-cards/B0DNV3NV61--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "trading-cards-B0DLPL7LC5--amzn-direct--2026-03-01-md",
+    "title": "Pokemon TCG: Scarlet & Violet—Prismatic Evolutions Elite Trainer Box",
+    "category": "trading-cards",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "trading-cards/B0DLPL7LC5--amzn-direct--2026-03-01.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1236,6 +1308,42 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "laundry-stain-B00ME8P9MU--amzn-direct--2026-03-01-md",
+    "title": "Tide Liquid Laundry Detergent, Ultra Stain Release, 46 Ounce",
+    "category": "laundry-stain",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "laundry-stain/B00ME8P9MU--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "laundry-stain-B005N7EUSS--amzn-direct--2026-03-01-md",
+    "title": "OxiClean MaxForce Laundry Stain Remover Spray, 12 Fl. oz.",
+    "category": "laundry-stain",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "laundry-stain/B005N7EUSS--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "laundry-stain-B000VDX2SS--amzn-direct--2026-03-01-md",
+    "title": "Shout Active Enzyme Laundry Stain Remover Spray 22oz",
+    "category": "laundry-stain",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "laundry-stain/B000VDX2SS--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "item-tracker-B0GJTFXNRX--2026-02-17-md",
     "title": "Apple AirTag (2nd Generation) — Amazon 評論萃取報告",
     "category": "item-tracker",
@@ -2229,6 +2337,42 @@
     "avg_rating": "",
     "review_count": "",
     "file": "drain-clog/B0CR6HWLW6--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "drain-clog-B079K94HHV--amzn-direct--2026-03-01-md",
+    "title": "Green Gobbler Enzyme Drain Cleaner | 1 Gallon",
+    "category": "drain-clog",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "drain-clog/B079K94HHV--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "drain-clog-B00CZ5GE30--amzn-direct--2026-03-01-md",
+    "title": "Liquid-Plumr Pro-Strength Hair Eliminator Gel Clog Remover",
+    "category": "drain-clog",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "drain-clog/B00CZ5GE30--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "drain-clog-B003TS2R1A--amzn-direct--2026-03-01-md",
+    "title": "Drano Max Gel Drain Clog Remover and Cleaner, 80 Oz",
+    "category": "drain-clog",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "drain-clog/B003TS2R1A--amzn-direct--2026-03-01.md",
     "source_layer": "amazon_us"
   },
   {
