@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T18:15:00Z",
+  "last_updated": "2026-03-02T00:10:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -401,9 +401,10 @@
         "missing_content_rate": "8%"
       },
       "check_result": {
-        "date": "2026-02-21",
-        "status": "no_change",
-        "notes": "問題狀態持平。未找到 2026 年新案例，但行業整體重新密封問題仍存在。Pokemon Day 2026 Collection 已於 1/30 發售。建議下次檢查時重新抓取評論驗證 Baseline。"
+        "date": "2026-03-02",
+        "status": "worsening",
+        "notes": "缺口補齊發現系統性篡改問題嚴重化。Prismatic Evolutions ETB 篡改率 45%、Mega Evo 13%。Amazon TCG 整體篡改率 13-45%。已產出警告報告。",
+        "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       }
     },
     {
@@ -525,6 +526,42 @@
         "status": "new_entry",
         "notes": "Step 8 痛點報告自動加入監控。NeeDoh 液態系列 3 款產品爆裂率 28-56%，屬系統性設計缺陷。",
         "report": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md"
+      }
+    },
+    {
+      "asin": "B0DLPL7LC5",
+      "name": "Pokémon TCG Prismatic Evolutions Elite Trainer Box",
+      "category": "trading-cards",
+      "watch_reason": "product_integrity",
+      "severity": "critical",
+      "added_date": "2026-03-02",
+      "last_checked": "2026-03-02",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "tampering_rate",
+          "description": "45% 評論報告產品遭拆封竊取稀有卡，Amazon 平台最嚴重篡改案例"
+        },
+        {
+          "type": "reseal_pattern",
+          "description": "監控重新密封手法是否改變、Amazon 是否改善包裝保護"
+        },
+        {
+          "type": "seller_policy",
+          "description": "監控 Amazon 賣家政策變更、退貨流程改善"
+        }
+      ],
+      "baseline": {
+        "tampering_rate": "45%",
+        "missing_cards_rate": "38%",
+        "avg_rating": 3.2,
+        "review_count": 100
+      },
+      "check_result": {
+        "date": "2026-03-02",
+        "status": "new_entry",
+        "notes": "缺口補齊階段發現。Prismatic Evolutions ETB 為 Amazon 平台篡改率最高產品（45%），系統性問題涉及整個 TCG 品類。",
+        "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       }
     }
   ],
