@@ -113,7 +113,7 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | 類型 | 數量 |
 |------|------|
-| 監控產品 | 15 |
+| 監控產品 | 16 |
 | 研究缺口類別 | 4 |
 | 暫緩發佈類別 | 0 |
 
@@ -123,9 +123,9 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 |------|------|
 | Discovery 產品 | 79 (Amazon 36 + Walmart 40 + Best Buy 3) |
 | 監控追蹤 | 7 個檢查，2 個惡化 |
-| 新報告 | 6（1 痛點 + 5 比較） |
+| 新報告 | 7（1 痛點 + 5 比較 + 1 警告） |
 | 新類別 | 18 |
-| REVIEW_NEEDED | 4 個報告 |
+| REVIEW_NEEDED | 0（4 個已補齊） |
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 
