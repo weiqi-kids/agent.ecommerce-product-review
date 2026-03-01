@@ -36,6 +36,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "vitamin-d-supplement-B0GD2HMY7T--amzn-direct--2026-03-01-md",
+    "title": "Sports Research Vitamin D3 + K2 with Coconut Oil — 5000 IU Vegan Softgels",
+    "category": "vitamin-d-supplement",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "vitamin-d-supplement/B0GD2HMY7T--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "vitamin-d-supplement-B00GB85JR4--2026-02-17-md",
     "title": "NatureWise Vitamin D3 5000iu (125 mcg) 1 Year Supply for Immune Support, Healthy Muscle Function, and Bone Health",
     "category": "vitamin-d-supplement",
@@ -45,6 +57,30 @@
     "avg_rating": "",
     "review_count": "",
     "file": "vitamin-d-supplement/B00GB85JR4--2026-02-17.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "video-game-console-B081XMX6NS--amzn-direct--2026-03-01-md",
+    "title": "Nintendo Switch Game Console - Black (HAC-001(-01) w/ OEM Gray Joy Cons (Renewed)",
+    "category": "video-game-console",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "video-game-console/B081XMX6NS--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "trading-cards-B0G2FVLXVL--amzn-direct--2026-03-01-md",
+    "title": "Pokémon TCG: Pokémon Day 2026 Collection",
+    "category": "trading-cards",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
     "source_layer": "amazon_us"
   },
   {
@@ -429,6 +465,66 @@
     "avg_rating": "",
     "review_count": "",
     "file": "streaming-stick/B0CQMRKRV5--2026-02-17.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "streaming-stick-B09HR7SWTR--amzn-direct--2026-03-01-md",
+    "title": "Roku Express 4K+ 2021 Streaming Media Player (Renewed)",
+    "category": "streaming-stick",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "streaming-stick/B09HR7SWTR--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "squishy-toy-B0G22BHS13--amzn-direct--2026-03-01-md",
+    "title": "Toymendous Squishy Carrot – Jumbo 11.5 Inch Squishy Vegetable",
+    "category": "squishy-toy",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "squishy-toy/B0G22BHS13--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "squishy-toy-B0DJ3PQWDD--amzn-direct--2026-03-01-md",
+    "title": "Schylling NeeDoh Gumdrop Textured Sensory Fidget Toy Colors May Vary (3 Pack)",
+    "category": "squishy-toy",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "squishy-toy/B0DJ3PQWDD--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "squishy-toy-B0D9M7ST5H--amzn-direct--2026-03-01-md",
+    "title": "Schylling NeeDoh Rainboh Teenie — Sensory Squeeze Toy (6 Pack)",
+    "category": "squishy-toy",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "squishy-toy/B0D9M7ST5H--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "squishy-toy-B0B2HN96TZ--amzn-direct--2026-03-01-md",
+    "title": "Schylling NeeDoh Gummy Bear - Sensory Fidget Toy",
+    "category": "squishy-toy",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "squishy-toy/B0B2HN96TZ--amzn-direct--2026-03-01.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1125,6 +1221,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "lip-care/B00A6H33OW--amazon_us--2026-02-20.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "laundry-stain-B0FQFYKJ76--amzn-direct--2026-03-01-md",
+    "title": "ARM & HAMMER Plus OxiClean Odor Blasters Fresh Botanical Liquid Laundry Detergent 100.5 Fl oz",
+    "category": "laundry-stain",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "laundry-stain/B0FQFYKJ76--amzn-direct--2026-03-01.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2109,6 +2217,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "dresser-drawer/B0CH38DGNY--dumos--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "drain-clog-B0CR6HWLW6--amzn-direct--2026-03-01-md",
+    "title": "Drano Max Gel Drain Clog Remover and Cleaner for Shower or Sink Drains, 32 oz",
+    "category": "drain-clog",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "drain-clog/B0CR6HWLW6--amzn-direct--2026-03-01.md",
     "source_layer": "amazon_us"
   },
   {
