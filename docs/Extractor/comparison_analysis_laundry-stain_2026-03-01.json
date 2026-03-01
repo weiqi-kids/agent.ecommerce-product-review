@@ -1,127 +1,473 @@
 {
   "category": "laundry-stain",
   "date": "2026-03-01",
+  "analysis_type": "full_user_review_comparison",
   "products_analyzed": [
     {
       "product_id": "B0FQFYKJ76",
       "name": "ARM & HAMMER Plus OxiClean Odor Blasters Fresh Botanical Liquid Laundry Detergent 100.5 Fl oz",
+      "brand": "Arm & Hammer",
+      "product_type": "liquid_laundry_detergent",
+      "role": "original_product",
       "platform": "amazon_us",
       "price_usd": 13.98,
       "avg_rating": 4.75,
-      "reviews_count": 33504,
+      "ratings_count": 33504,
       "reviews_analyzed": 50,
       "data_source": "amazon_user_reviews",
       "key_scores": {
         "stain_removal": 0.85,
         "cleaning_effectiveness": 0.84,
         "odor_elimination": 0.86,
-        "scent": 0.89,
+        "scent_satisfaction": 0.89,
         "value_for_money": 0.88,
+        "ease_of_use": 0.83,
+        "fabric_safety": 0.80,
         "packaging_integrity": 0.18
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "limited_effectiveness_heavy_soil",
+              "frequency": "1/50 (2%)",
+              "severity": "low",
+              "evidence": "一位評論者指出對重度污漬（如寵物髒污）效果不足，可能需洗滌兩次"
+            }
+          ],
+          "total_frequency_pct": 2
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "overpowering_scent",
+              "frequency": "2/50 (4%)",
+              "severity": "low",
+              "evidence": "少數用戶反映香味殘留太強烈，干擾日常使用"
+            }
+          ],
+          "total_frequency_pct": 4
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "leaking_packaging",
+              "frequency": "12/50 (24%)",
+              "severity": "high",
+              "evidence": "瓶蓋未妥善密封，導致運送途中漏液，屬物流/品管問題"
+            },
+            {
+              "issue": "damaged_cap",
+              "frequency": "8/50 (16%)",
+              "severity": "medium",
+              "evidence": "量杯蓋到貨時破損，屬包裝出貨品管問題"
+            }
+          ],
+          "total_frequency_pct": 40,
+          "notes": "包裝問題合計約 40%，是最顯著負評來源，但與去漬核心功能無關"
+        }
+      }
+    },
+    {
+      "product_id": "B005N7EUSS",
+      "name": "OxiClean MaxForce Laundry Stain Remover Spray, 12 Fl. oz.",
+      "brand": "OxiClean",
+      "product_type": "pre_treatment_spray",
+      "role": "competitor",
+      "platform": "amazon_us",
+      "price_usd": 6.99,
+      "avg_rating": 4.65,
+      "ratings_count": 1589,
+      "reviews_analyzed": 100,
+      "data_source": "amazon_user_reviews",
+      "key_scores": {
+        "stain_removal": 0.82,
+        "old_set_in_stains": 0.85,
+        "ease_of_use": 0.81,
+        "value_for_money": 0.52,
+        "scent_satisfaction": 0.22,
+        "packaging_integrity": 0.10,
+        "fabric_safety": 0.45,
+        "respiratory_safety": 0.15
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "ineffective_on_some_stains",
+              "frequency": "9/100 (9%)",
+              "severity": "medium",
+              "evidence": "對特定布料或特定污漬類型無效（純棉針織衫、部分頑固漬）"
+            },
+            {
+              "issue": "formula_change_perceived",
+              "frequency": "2/100 (2%)",
+              "severity": "medium",
+              "evidence": "部分用戶感知配方改變後效果下降，「噴上去像噴水一樣」"
+            }
+          ],
+          "total_frequency_pct": 11
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "color_bleeding_fabric_staining",
+              "frequency": "3/100 (3%)",
+              "severity": "high",
+              "evidence": "在淺色衣物上留下藍色 OxiClean 染色漬，反而造成新污漬，嚴重度高"
+            },
+            {
+              "issue": "respiratory_irritation",
+              "frequency": "2/100 (2%)",
+              "severity": "high",
+              "evidence": "含 Subtilisins 蛋白水解酵素，安全資訊警示可能刺激呼吸道，氣喘/過敏體質者需謹慎"
+            },
+            {
+              "issue": "strong_unpleasant_scent",
+              "frequency": "11/100 (11%)",
+              "severity": "medium",
+              "evidence": "化學香味濃烈，「瀰漫整間屋」，對香味敏感族群影響大"
+            }
+          ],
+          "total_frequency_pct": 16
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "packaging_leaking_during_shipping",
+              "frequency": "13/100 (13%)",
+              "severity": "high",
+              "evidence": "瓶身或噴頭在運輸過程中漏液，收到時產品已流失大量"
+            },
+            {
+              "issue": "nozzle_lid_breakage",
+              "frequency": "5/100 (5%)",
+              "severity": "medium",
+              "evidence": "噴頭無法運作或蓋子破裂，部分為出廠品管問題，部分為運輸損壞"
+            },
+            {
+              "issue": "small_bottle_size",
+              "frequency": "7/100 (7%)",
+              "severity": "low",
+              "evidence": "瓶身比預期小，性價比感受低，屬描述期望落差而非功能問題"
+            }
+          ],
+          "total_frequency_pct": 25
+        }
+      }
+    },
+    {
+      "product_id": "B000VDX2SS",
+      "name": "Shout Active Enzyme Laundry Stain Remover Spray 22oz",
+      "brand": "SHOUT",
+      "product_type": "pre_treatment_spray",
+      "role": "competitor",
+      "platform": "amazon_us",
+      "price_usd": 4.98,
+      "avg_rating": 4.75,
+      "ratings_count": 16263,
+      "reviews_analyzed": 100,
+      "data_source": "amazon_user_reviews",
+      "key_scores": {
+        "stain_removal": 0.82,
+        "ease_of_use": 0.90,
+        "value_for_money": 0.82,
+        "scent_satisfaction": 0.78,
+        "fabric_safety": 0.85,
+        "versatility": 0.85,
+        "set_in_stain_removal": 0.72,
+        "packaging_integrity": 0.20
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "ineffective_on_certain_stains",
+              "frequency": "8/100 (8%)",
+              "severity": "medium",
+              "evidence": "番茄醬、頸領污垢等特定污漬效果不佳，尤其是未立即處理或已乾燥的污漬"
+            },
+            {
+              "issue": "limited_effectiveness_specific_stain_types",
+              "frequency": "4/100 (4%)",
+              "severity": "low",
+              "evidence": "對油脂之外的食物污漬（如番茄）去除效果有限"
+            }
+          ],
+          "total_frequency_pct": 12
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "sprayer_nozzle_failure",
+              "frequency": "3/100 (3%)",
+              "severity": "low",
+              "evidence": "噴嘴在使用後期失效，影響使用便利性，但屬耐用性而非即時安全問題"
+            }
+          ],
+          "total_frequency_pct": 3
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "packaging_leak_during_shipping",
+              "frequency": "7/100 (7%)",
+              "severity": "medium",
+              "evidence": "瓶身於運送過程中破裂或漏液"
+            },
+            {
+              "issue": "misleading_listing_quantity",
+              "frequency": "2/100 (2%)",
+              "severity": "low",
+              "evidence": "商品列表描述誤導（單入/12入混淆），屬 Amazon 列表問題"
+            }
+          ],
+          "total_frequency_pct": 9
+        }
+      }
+    },
+    {
+      "product_id": "B00ME8P9MU",
+      "name": "Tide Liquid Laundry Detergent, Ultra Stain Release, 46 Ounce",
+      "brand": "Tide",
+      "product_type": "liquid_laundry_detergent",
+      "role": "competitor",
+      "platform": "amazon_us",
+      "price_usd": 15.35,
+      "avg_rating": 4.65,
+      "ratings_count": 1535,
+      "reviews_analyzed": 100,
+      "data_source": "amazon_user_reviews",
+      "key_scores": {
+        "stain_removal": 0.82,
+        "odor_elimination": 0.88,
+        "consumer_reports_validation": 0.90,
+        "value_for_money": 0.24,
+        "scent_satisfaction": 0.48,
+        "packaging_integrity": 0.12,
+        "fabric_safety": 0.05,
+        "skin_safety": 0.22,
+        "he_compatibility": 0.45
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "stain_removal_failure",
+              "frequency": "6/100 (6%)",
+              "severity": "medium",
+              "evidence": "部分污漬類型（油漆、特定頑固漬）無法去除，未達「99% 去漬」聲明預期"
+            },
+            {
+              "issue": "excess_suds_in_he_washer",
+              "frequency": "5/100 (5%)",
+              "severity": "medium",
+              "evidence": "HE 洗衣機產生過多泡沫，需運行兩次洗滌週期，影響清潔效率"
+            }
+          ],
+          "total_frequency_pct": 11
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "clothing_discoloration",
+              "frequency": "4/100 (4%)",
+              "severity": "high",
+              "evidence": "造成衣物出現亮紅粉色條紋狀褪色，永久損壞衣物，嚴重度極高"
+            },
+            {
+              "issue": "skin_irritation_rash",
+              "frequency": "10/100 (10%)",
+              "severity": "high",
+              "evidence": "引發皮膚疹或劇烈搔癢，部分用戶耗費數月才確認來源，屬高嚴重度安全問題"
+            },
+            {
+              "issue": "strong_overwhelming_scent",
+              "frequency": "8/100 (8%)",
+              "severity": "medium",
+              "evidence": "香味濃烈引發頭痛或噁心，對香味敏感族群影響顯著"
+            }
+          ],
+          "total_frequency_pct": 22
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "packaging_leaking_in_transit",
+              "frequency": "15/100 (15%)",
+              "severity": "medium",
+              "evidence": "瓶身漏液或運輸損壞，Amazon 售價遠高於 Walmart/實體店（最高 4 倍）"
+            },
+            {
+              "issue": "overpriced_on_amazon",
+              "frequency": "22/100 (22%)",
+              "severity": "medium",
+              "evidence": "Amazon 定價比 Walmart 貴 4 倍，同產品在實體通路有更好價格，屬通路定價問題"
+            },
+            {
+              "issue": "misleading_bottle_size",
+              "frequency": "9/100 (9%)",
+              "severity": "medium",
+              "evidence": "46oz 瓶型較一般版本小，消費者認知落差大，屬描述/期望問題"
+            },
+            {
+              "issue": "limited_in_store_availability",
+              "frequency": "14/100 (14%)",
+              "severity": "low",
+              "evidence": "實體店難以找到此特定型號，僅在 Amazon 供貨，屬通路分配問題"
+            }
+          ],
+          "total_frequency_pct": 60,
+          "notes": "Tide Ultra Stain Release 的 Amazon 購買體驗投訴比例極高（60%），主要因為定價明顯高於其他通路"
+        }
       }
     }
   ],
-  "competitors": [
-    {
-      "name": "OxiClean MaxForce",
-      "asin": null,
-      "data_source": "research_article",
-      "price_range_usd": "8-12",
-      "key_strength": "NBC 評選最佳整體去污劑，氧化去污原理，適合番茄醬、咖啡、墨水等有機污漬",
-      "key_weakness": "需預處理靜置至少 1 小時，增加使用步驟"
+  "comparison_matrix": {
+    "stain_removal_effectiveness": {
+      "dimension": "去漬效果",
+      "scores": {
+        "B0FQFYKJ76_arm_hammer": {"score": 0.85, "note": "日常去漬良好，重度污漬可能需洗兩次"},
+        "B005N7EUSS_oxiclean_maxforce": {"score": 0.82, "note": "頑固陳舊漬表現最佳（0.85），部分特殊布料無效"},
+        "B000VDX2SS_shout": {"score": 0.82, "note": "日常去漬穩定，特定食物污漬（番茄）效果有限"},
+        "B00ME8P9MU_tide_ultra": {"score": 0.82, "note": "整體去漬強，Consumer Reports 最高評分，但部分漬無效"}
+      },
+      "winner": "B0FQFYKJ76_arm_hammer（最高分，但樣本較小）；Tide Ultra（最佳第三方認證）",
+      "note": "四產品去漬效果分數接近（0.82-0.85），差異不顯著"
     },
-    {
-      "name": "Shout Triple Action",
-      "asin": null,
-      "data_source": "research_article",
-      "price_range_usd": "5-8",
-      "key_strength": "有效性 9/10，Consumer Reports 測試第二名，價格最實惠",
-      "key_weakness": "略遜 OxiClean，頑固陳舊污漬效果有限"
+    "safety_profile": {
+      "dimension": "安全性",
+      "scores": {
+        "B0FQFYKJ76_arm_hammer": {"score": "high", "note": "無重大安全問題，皮膚溫和（0.80）"},
+        "B005N7EUSS_oxiclean_maxforce": {"score": "medium", "note": "呼吸道刺激風險（2%），色布染色風險（3%），需通風使用"},
+        "B000VDX2SS_shout": {"score": "high", "note": "織物安全性最佳（0.85），無膚質或呼吸道問題回報"},
+        "B00ME8P9MU_tide_ultra": {"score": "low", "note": "皮膚過敏/疹（10%）、衣物永久褪色（4%），安全問題最嚴重"}
+      },
+      "winner": "B000VDX2SS_shout（最佳安全記錄）",
+      "note": "Tide Ultra Stain Release 的皮膚刺激與衣物損壞問題為本次分析中最嚴重的安全疑慮"
     },
-    {
-      "name": "Tide Ultra Stain Release",
-      "asin": null,
-      "data_source": "research_article",
-      "price_range_usd": "12-18",
-      "key_strength": "Consumer Reports 總分 84（液體洗衣精最高），專業乾洗師評選第一名",
-      "key_weakness": "價格最高，香味濃"
+    "value_for_money": {
+      "dimension": "性價比",
+      "scores": {
+        "B0FQFYKJ76_arm_hammer": {"price": 13.98, "unit": "100.5 Fl oz / 77 loads", "score": 0.88, "cost_per_load_usd": 0.18},
+        "B005N7EUSS_oxiclean_maxforce": {"price": 6.99, "unit": "12 Fl oz 噴劑（補充用途）", "score": 0.52, "note": "容量偏小，用戶認為性價比不足"},
+        "B000VDX2SS_shout": {"price": 4.98, "unit": "22 Fl oz 噴劑", "score": 0.82, "note": "最低單價，用戶高度認可性價比"},
+        "B00ME8P9MU_tide_ultra": {"price": 15.35, "unit": "46 Fl oz（Amazon 定價）", "score": 0.24, "note": "Amazon 定價比其他通路貴 4 倍，性價比最差"}
+      },
+      "winner": "B000VDX2SS_shout（最低售價 + 最佳性價比感知）",
+      "note": "ARM & HAMMER 每負載成本最低（$0.18），Shout 噴劑總價最低"
     },
-    {
-      "name": "Carbona Laundry Stain Scrubber",
-      "asin": null,
-      "data_source": "research_article",
-      "price_range_usd": "10-15",
-      "key_strength": "測試中化妝品污漬去除得分最高，內建刷頭設計",
-      "key_weakness": "特化產品，不適合日常全品類污漬"
-    }
-  ],
-  "negative_review_classification": {
-    "cannot_solve_problem": {
-      "symbol": "❌",
-      "label": "無法解決問題（核心功能失效）",
-      "items": [
-        {
-          "issue": "limited_effectiveness_heavy_soil",
-          "frequency": "1/50 (2%)",
-          "severity": "low",
-          "evidence": "一位評論者指出對重度污漬（如寵物髒污）效果不足",
-          "notes": "比例極低，且研究資料也顯示 ARM & HAMMER 在頑固污漬可能需洗滌兩次"
-        }
-      ],
-      "total_frequency_pct": 2
+    "ease_of_use": {
+      "dimension": "使用便利性",
+      "scores": {
+        "B0FQFYKJ76_arm_hammer": {"score": 0.83, "note": "標準液體洗衣精，直接入洗衣機，簡單"},
+        "B005N7EUSS_oxiclean_maxforce": {"score": 0.81, "note": "噴灑後需靜置最少 1 小時，增加步驟但效果更針對性"},
+        "B000VDX2SS_shout": {"score": 0.90, "note": "最高易用性，「噴→靜置→洗」流程最簡單，連兒童家庭都方便"},
+        "B00ME8P9MU_tide_ultra": {"score": 0.70, "note": "HE 洗衣機泡沫過多問題（5%），Zap Cap 預處理功能設計複雜"}
+      },
+      "winner": "B000VDX2SS_shout（易用性最佳，0.90）"
     },
-    "creates_new_problems": {
-      "symbol": "⚠️",
-      "label": "產生新問題（副作用）",
-      "items": [
-        {
-          "issue": "overpowering_scent",
-          "frequency": "2/50 (4%)",
-          "severity": "low",
-          "evidence": "少數用戶反映香味殘留太強烈，干擾日常使用"
-        }
-      ],
-      "total_frequency_pct": 4
-    },
-    "unrelated_to_product": {
-      "symbol": "📦",
-      "label": "與產品無關（物流/包裝問題）",
-      "items": [
-        {
-          "issue": "leaking_packaging",
-          "frequency": "12/50 (24%)",
-          "severity": "high",
-          "evidence": "瓶蓋未妥善密封，導致運送途中漏液，造成損失"
-        },
-        {
-          "issue": "damaged_cap",
-          "frequency": "8/50 (16%)",
-          "severity": "medium",
-          "evidence": "量杯蓋到貨時破損或無法使用，屬於包裝/出貨品管問題"
-        }
-      ],
-      "total_frequency_pct": 40,
-      "notes": "包裝問題合計約 40%（部分評論者同時提及兩項問題），是本產品最顯著負評來源，但與洗衣去漬核心功能無關"
+    "packaging_reliability": {
+      "dimension": "包裝可靠性",
+      "scores": {
+        "B0FQFYKJ76_arm_hammer": {"leakage_rate": "40%", "score": 0.18, "note": "包裝問題最嚴重"},
+        "B005N7EUSS_oxiclean_maxforce": {"leakage_rate": "13%", "score": 0.10, "note": "包裝漏液比例高"},
+        "B000VDX2SS_shout": {"leakage_rate": "7%", "score": 0.20, "note": "包裝問題相對較低"},
+        "B00ME8P9MU_tide_ultra": {"leakage_rate": "15%", "score": 0.12, "note": "包裝漏液加上 Amazon 定價問題"}
+      },
+      "winner": "B000VDX2SS_shout（漏液率最低 7%）",
+      "note": "所有產品均有包裝漏液問題，屬 Amazon 物流通病，非產品本身缺陷"
     }
   },
+  "product_ranking": [
+    {
+      "rank": 1,
+      "product_id": "B000VDX2SS",
+      "name": "Shout Active Enzyme Laundry Stain Remover Spray",
+      "rationale": "去漬效果達標（0.82），安全性最佳（無皮膚或呼吸道問題），易用性最高（0.90），性價比最強（$4.98/22oz），包裝問題最少（7%），功能失效負評最低（12%），適合大多數日常污漬需求",
+      "best_for": "日常污漬預處理、家有幼童、香味敏感族群"
+    },
+    {
+      "rank": 2,
+      "product_id": "B0FQFYKJ76",
+      "name": "ARM & HAMMER Plus OxiClean Odor Blasters",
+      "rationale": "去漬效果最高分（0.85），除臭能力突出（0.86），性價比佳（每負載 $0.18），是全能洗衣精的好選擇；主要問題為包裝漏液（40%）屬物流問題，功能失效負評極低（2%）",
+      "best_for": "日常洗衣+除臭一體需求、預算有限族群、訂閱購買者"
+    },
+    {
+      "rank": 3,
+      "product_id": "B005N7EUSS",
+      "name": "OxiClean MaxForce Laundry Stain Remover Spray",
+      "rationale": "頑固舊漬表現最佳（0.85），但呼吸道刺激（2%）和衣物染色（3%）風險不可忽視，香味問題（11%）明顯，瓶身偏小性價比感受差（0.52）",
+      "best_for": "頑固陳舊油漬、草漬的針對性預處理，需在通風環境使用"
+    },
+    {
+      "rank": 4,
+      "product_id": "B00ME8P9MU",
+      "name": "Tide Liquid Laundry Detergent, Ultra Stain Release",
+      "rationale": "去漬效果雖獲 Consumer Reports 最高評分（84分），但衣物永久褪色（4%）和皮膚過敏（10%）為不可接受的副作用風險；Amazon 定價比其他通路貴 4 倍，整體購買體驗最差",
+      "best_for": "透過 Walmart/實體店購買、皮膚無過敏史、高效能需求者",
+      "warning": "衣物褪色（4%）和皮膚過敏（10%）風險較高，不建議敏感膚質或首次使用者在 Amazon 高價購入"
+    }
+  ],
   "cross_platform_analysis": {
     "available": false,
-    "note": "目前僅有 Amazon 評論資料，無 Best Buy / Walmart 跨平台資料可供整合"
+    "note": "目前所有 4 個產品均僅有 Amazon 用戶評論資料，無 Best Buy / Walmart 跨平台資料可供整合",
+    "upc_matching": "N/A — 所有產品的 UPC/EAN 欄位為空，無法進行跨平台 UPC 匹配"
   },
-  "verdict": "conditional_recommend",
-  "verdict_label": "能解決問題，但有更好的選擇（比較報告）",
-  "verdict_reason": "ARM & HAMMER Plus OxiClean Odor Blasters 液體洗衣精在去除日常食物、草漬、身體異味等普通污漬方面表現良好（去漬 85% 正面、除臭 86% 正面），性價比（$13.98 / 77 loads）在同類產品中突出。然而，與競品相比：Tide Ultra Stain Release（Consumer Reports 84 分）和 OxiClean MaxForce（評選最佳整體）在整體去污效能上被評測機構評為更優，Shout Triple Action 在預處理應用上更直接有效。ARM & HAMMER 的主要差距在於：(1) 頑固污漬可能需洗滌兩次；(2) 本品定位為洗衣精而非獨立去污劑，對預先噴塗預處理的針對性不如 Shout 或 OxiClean MaxForce。包裝漏液問題（24%）為物流品管缺失，不影響產品去漬功能評估，但影響購買體驗。",
-  "confidence": "medium",
-  "confidence_notes": "僅有 50 則 Amazon 評論作為量化基礎；競品資料全部來自評測文章（無用戶評論萃取）；研究報告標記為 [需補充 WebFetch]，WebFetch 深度不足，競品比較為間接資料。",
+  "category_wide_issues": {
+    "packaging_leakage": {
+      "description": "所有四個產品均有包裝漏液問題（ARM&HAMMER 40%、OxiClean MaxForce 13%、Shout 7%、Tide Ultra 15%）",
+      "classification": "📦 與產品無關（Amazon 物流/包裝品管通病）",
+      "severity": "category_wide",
+      "note": "此問題不影響去漬功能評估，建議改善出貨包裝或選擇本地購買"
+    }
+  },
+  "verdict": "comparison",
+  "verdict_label": "能解決問題，但不同產品各有最適使用場景（比較報告）",
+  "verdict_reasoning": {
+    "summary": "四個產品均能有效去除日常污漬（去漬效果分數 0.82-0.85，差異不顯著），但安全性、使用場景和性價比差異顯著。Shout 在全面考量下最佳，ARM & HAMMER 是預算最優的洗衣精選擇，OxiClean MaxForce 適合頑固舊漬但有安全疑慮，Tide Ultra 因 Amazon 高定價和衣物/皮膚安全風險不建議在 Amazon 購買。",
+    "can_solve_problem": true,
+    "best_overall": "B000VDX2SS（Shout Active Enzyme）",
+    "key_differentiators": [
+      "安全性差異最大：Shout 最安全，Tide Ultra 有 10% 皮膚過敏和 4% 衣物褪色風險",
+      "去漬效果差異不顯著（0.82-0.85），所有產品均能處理日常污漬",
+      "性價比差距明顯：Shout $4.98/22oz vs Tide Ultra $15.35/46oz（Amazon 高溢價）",
+      "使用場景不同：Shout/OxiClean 為預處理噴劑，ARM & HAMMER/Tide 為全能洗衣精",
+      "包裝漏液是全類別問題，不影響產品功能評估"
+    ]
+  },
+  "confidence": "high",
+  "confidence_notes": "本次分析擁有四個產品共 350 則 Amazon 用戶評論（ARM&HAMMER 50則、其餘各100則），資料量充足。研究報告有 WebFetch 不足的警示，但競品均有直接用戶評論數據，整體信心度高。",
   "key_findings": [
-    "核心去漬功能有效（85% 正面），適合日常食物、草漬、異味去除",
-    "性價比為同類液體洗衣精最高，每負載成本最低",
-    "OxiClean+小蘇打配方在除臭方面表現突出（86% 正面），優於單純洗衣精",
-    "包裝漏液問題（24%）嚴重影響購物體驗，屬物流/品管問題而非產品缺陷",
-    "與 Tide Ultra Stain Release 相比，整體去污評測得分較低（Consumer Reports 未收錄本品）",
-    "對重度污漬（機油、陳舊血漬等）效果有限，不適合作為唯一去污解決方案",
-    "競品資料僅來自評測文章，缺乏直接用戶評論萃取，比較信心度為中等"
+    "去漬效果：四個產品去漬分數接近（0.82-0.85），均能解決日常洗衣去漬問題",
+    "安全性首選：Shout 是安全記錄最佳的產品（無皮膚/呼吸道問題，織物安全0.85）",
+    "Tide Ultra 安全警示：10% 皮膚過敏率和 4% 衣物永久褪色率，為本類別最嚴重副作用",
+    "OxiClean MaxForce 特殊風險：3% 衣物染色 + 2% 呼吸道刺激，需通風使用",
+    "性價比最優：Shout（$4.98/22oz）；每負載成本最低：ARM & HAMMER（$0.18/load）",
+    "包裝漏液為全類別通病（7%-40%），屬 Amazon 物流問題，非產品缺陷",
+    "Tide Ultra 在 Amazon 定價比其他通路貴達 4 倍，建議透過 Walmart 或實體店購買",
+    "使用場景區分：需要預處理噴劑選 Shout 或 OxiClean；需要洗衣精選 ARM & HAMMER"
   ],
   "recommended_report_type": "comparison",
-  "report_output_path": "docs/Narrator/comparisons/laundry-stain--2026-03-01.md"
+  "report_output_path": "docs/Narrator/comparisons/laundry-stain--2026-03-01.md",
+  "data_summary": {
+    "total_reviews_analyzed": 350,
+    "products_with_user_reviews": 4,
+    "products_from_research_only": 0,
+    "analysis_date": "2026-03-01",
+    "sources": ["amazon_us"]
+  }
 }

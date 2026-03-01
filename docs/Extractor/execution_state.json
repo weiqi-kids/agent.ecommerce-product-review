@@ -84,9 +84,19 @@
         "vitamin-d-supplement": "docs/Narrator/comparisons/vitamin-d-supplement--2026-03-01.md",
         "drain-clog": "docs/Narrator/comparisons/drain-clog--2026-03-01.md",
         "streaming-stick": "docs/Narrator/comparisons/streaming-stick--2026-03-01.md",
-        "trading-cards": "docs/Narrator/comparisons/trading-cards--2026-03-01.md"
+        "trading-cards": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       },
-      "review_needed": ["laundry-stain", "vitamin-d-supplement", "drain-clog", "trading-cards"]
+      "review_needed": []
+    },
+    "gap_fill": {
+      "status": "completed",
+      "note": "4 個 REVIEW_NEEDED 報告全部補齊。12 個競品 ASIN 搜尋 + 1218 則新評論抓取 + L1-L6 萃取 + Step 7-8 重新執行。trading-cards 從 comparison 升級為 warning（系統性篡改 13-45%）。",
+      "categories_fixed": ["laundry-stain", "vitamin-d-supplement", "drain-clog", "trading-cards"],
+      "new_extractions": 12,
+      "new_reviews": 1218,
+      "verdict_changes": {
+        "trading-cards": "comparison → warning"
+      }
     }
   },
   "summary": {
@@ -104,10 +114,10 @@
     "discovery_products": 79,
     "new_products_grouped": 14,
     "new_categories": 18,
-    "new_reports": 6,
-    "review_needed_reports": 4,
+    "new_reports": 7,
+    "review_needed_reports": 0,
     "blocking_issues": [],
     "new_watchlist_products": ["B0D9M7ST5H"]
   },
-  "notes": "完整重跑執行完成。6 個新報告（1 痛點 + 5 比較）。squishy-toy 發現嚴重安全問題（8% 眼部噴濺事故），已加入監控。18 個新類別待未來研究。"
+  "notes": "完整重跑 + 缺口補齊完成。7 個新報告（1 痛點 + 5 比較 + 1 警告）。trading-cards 發現 Amazon 平台系統性篡改問題（Prismatic Evo 45% 篡改率），從比較報告升級為警告報告。所有 REVIEW_NEEDED 已清除。"
 }

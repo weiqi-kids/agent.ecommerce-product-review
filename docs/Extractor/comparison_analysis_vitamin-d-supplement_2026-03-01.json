@@ -1,7 +1,7 @@
 {
   "category": "vitamin-d-supplement",
   "analysis_date": "2026-03-01",
-  "problem_statement": "維生素 D 缺乏（影響全球約 10 億人），需要有效、安全的口服補充方式",
+  "problem_statement": "維生素 D 缺乏（影響全球約 10 億人），需要有效、安全的口服補充方式，改善血液 25(OH)D 濃度至正常範圍",
   "products_analyzed": [
     {
       "product_id": "B0GD2HMY7T",
@@ -13,120 +13,536 @@
       "total_ratings": 51550,
       "reviews_analyzed": 50,
       "extraction_date": "2026-03-01",
-      "data_source": "amazon_us extraction",
-      "confidence": "high"
+      "data_source": "amazon_user_reviews",
+      "confidence": "high",
+      "formulation": "D3 (5000 IU, lichen) + K2 MK-7 (100 mcg, fermented chickpeas) + Coconut MCT Oil",
+      "certifications": ["Vegan Certified", "Non-GMO Project Verified", "cGMP", "3rd-party tested"],
+      "key_scores": {
+        "effectiveness_vitamin_d_levels": 0.90,
+        "ease_of_swallowing": 0.95,
+        "brand_trust_quality": 0.93,
+        "bone_joint_health": 0.85,
+        "immune_support": 0.88,
+        "value_for_money": 0.87,
+        "vegan_plant_based": 0.92
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [],
+          "total_frequency_pct": 0,
+          "note": "無評論反映產品無法提升維生素 D 水平"
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "inconsistent_batch_color",
+              "frequency": "1/50 (2%)",
+              "severity": "low",
+              "description": "新批次膠囊顏色較深，消費者疑慮配方是否變更，但無功能性投訴"
+            }
+          ],
+          "total_frequency_pct": 2
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "slow_noticeable_effect",
+              "frequency": "2/50 (4%)",
+              "severity": "low",
+              "description": "早期使用者尚未感受到效果，符合補充劑正常起效時間線，非產品缺陷"
+            },
+            {
+              "issue": "non_english_reviews",
+              "frequency": "5/50 (10%)",
+              "severity": "low",
+              "description": "西班牙語評論混入，不影響產品品質，僅略減英語評論樣本池"
+            }
+          ],
+          "total_frequency_pct": 4
+        }
+      },
+      "ranking": 1,
+      "ranking_rationale": "最佳配方完整性（D3+K2+MCT）、零核心功能失效、最高品牌信任評分、純素認證獨特性"
+    },
+    {
+      "product_id": "B004GJYTF8",
+      "name": "Nature Made Vitamin D3 2000 IU, 250 Softgels",
+      "brand": "Nature Made",
+      "platform": "amazon_us",
+      "price_usd": 13.78,
+      "avg_rating": 4.85,
+      "total_ratings": 34650,
+      "reviews_analyzed": 100,
+      "extraction_date": "2026-03-01",
+      "data_source": "amazon_user_reviews",
+      "confidence": "high",
+      "formulation": "D3 (2000 IU) 單一成分，無 K2",
+      "certifications": ["USP Verified", "GMP", "#1 Pharmacist Recommended"],
+      "key_scores": {
+        "value_for_money": 0.91,
+        "ease_of_swallowing": 0.96,
+        "effectiveness": 0.86,
+        "taste_odor": 0.97,
+        "stomach_tolerance": 0.91,
+        "brand_trust": 0.88
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "no_noticeable_difference",
+              "frequency": "3/100 (3%)",
+              "severity": "low",
+              "description": "服用數月後未察覺明顯效果變化，可能與劑量 2000 IU 較保守或個人吸收差異有關"
+            }
+          ],
+          "total_frequency_pct": 3
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "adverse_reaction_eye_irritation",
+              "frequency": "1/100 (1%)",
+              "severity": "medium",
+              "description": "一位使用者報告眼部搔癢，疑為個人過敏反應"
+            },
+            {
+              "issue": "switched_to_d3_plus_k2",
+              "frequency": "2/100 (2%)",
+              "severity": "low",
+              "description": "醫生建議補充 K2，使用者需另尋複合配方，反映單一 D3 配方的潛在不足"
+            }
+          ],
+          "total_frequency_pct": 3
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "softgels_sticking_together",
+              "frequency": "3/100 (3%)",
+              "severity": "medium",
+              "description": "長時間靜置後膠囊黏結，屬包裝儲存問題而非配方問題"
+            },
+            {
+              "issue": "product_integrity_concern",
+              "frequency": "1/100 (1%)",
+              "severity": "high",
+              "description": "個別使用者反映錠數少於標示，疑似物流/包裝問題"
+            }
+          ],
+          "total_frequency_pct": 4
+        }
+      },
+      "ranking": 2,
+      "ranking_rationale": "最高評分（4.85）、最佳性價比（$13.78 / 250 粒）、USP 認證最強、藥師認可度最高，但缺少 K2 為配方弱點"
+    },
+    {
+      "product_id": "B001UZPY1O",
+      "name": "NOW Foods Vitamin D-3 2,000 IU, 240 Softgels",
+      "brand": "NOW Foods",
+      "platform": "amazon_us",
+      "price_usd": 290,
+      "avg_rating": 4.85,
+      "total_ratings": 20870,
+      "reviews_analyzed": 100,
+      "extraction_date": "2026-03-01",
+      "data_source": "amazon_user_reviews",
+      "confidence": "high",
+      "price_note": "L1 價格 $290 USD 疑為資料錯誤（可能為 $8-10），需人工確認",
+      "formulation": "D3 (2000 IU) 單一成分，含葵花籽油，使用牛明膠（非素食）",
+      "certifications": ["GMP A-rated", "3rd-party ISO/IEC accredited", "Non-GMO", "Halal", "Kosher (Triangle K)"],
+      "key_scores": {
+        "ease_of_swallowing": 0.92,
+        "effectiveness_blood_levels": 0.88,
+        "value_for_money": 0.87,
+        "brand_trust": 0.90,
+        "softgel_clumping": 0.12,
+        "dosage_appropriateness": 0.40
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [],
+          "total_frequency_pct": 0,
+          "note": "血檢佐證效果正面，無核心功能失效報告"
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "adverse_reaction_rash",
+              "frequency": "1/100 (1%)",
+              "severity": "high",
+              "description": "使用者出現手臂腿部皮疹搔癢，症狀類似維生素 A 過量，懷疑工廠標籤錯誤"
+            },
+            {
+              "issue": "dosage_too_high_for_elderly",
+              "frequency": "1/100 (1%)",
+              "severity": "medium",
+              "description": "70 歲以上使用者反映 2000 IU 超過建議劑量，且軟膠囊無法切半調整"
+            },
+            {
+              "issue": "bovine_gelatin_not_vegan",
+              "frequency": "2/100 (2%)",
+              "severity": "low",
+              "description": "含牛明膠，素食/純素使用者無法使用"
+            }
+          ],
+          "total_frequency_pct": 4
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "softgels_clumped_together",
+              "frequency": "8/100 (8%)",
+              "severity": "high",
+              "description": "膠囊在瓶中熔黏成一整塊，部分完全無法使用且不可退貨，屬儲存/物流問題"
+            },
+            {
+              "issue": "misleading_kosher_certification",
+              "frequency": "1/100 (1%)",
+              "severity": "medium",
+              "description": "Triangle K 認證在部分猶太社群不被接受，標示有誤導之虞"
+            },
+            {
+              "issue": "incorrect_count",
+              "frequency": "1/100 (1%)",
+              "severity": "low",
+              "description": "瓶內 238 顆而非標示 240 顆"
+            }
+          ],
+          "total_frequency_pct": 10
+        }
+      },
+      "ranking": 3,
+      "ranking_rationale": "血檢效果佐證強（18 mentions，0.88 分）、品牌信任度高（0.90）、性價比佳，但膠囊熔黏問題（8%）是最嚴重的物流/儲存缺失；不適合純素使用者"
+    },
+    {
+      "product_id": "B0038NF8MG",
+      "name": "THORNE Vitamin D + K2 Liquid with Metered Dispenser",
+      "brand": "THORNE",
+      "platform": "amazon_us",
+      "price_usd": 24.00,
+      "avg_rating": 4.45,
+      "total_ratings": 6302,
+      "reviews_analyzed": 100,
+      "extraction_date": "2026-03-01",
+      "data_source": "amazon_user_reviews",
+      "confidence": "high",
+      "formulation": "D3 + K2 液態配方，含羊毛脂（非純素），600 份/瓶",
+      "certifications": ["NSF certified", "3rd-party tested", "#1 HCP Recommended (2023 survey)"],
+      "key_scores": {
+        "dispenser_design": 0.18,
+        "dosing_accuracy": 0.22,
+        "effectiveness": 0.82,
+        "taste": 0.88,
+        "brand_trust": 0.85,
+        "product_integrity": 0.25,
+        "packaging_leak": 0.10
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "inaccurate_dosing_undermines_effectiveness",
+              "frequency": "18/100 (18%)",
+              "severity": "high",
+              "description": "分配器無法準確計量，使用者不知道實際攝取劑量，直接影響補充效果的可靠性"
+            },
+            {
+              "issue": "vitamin_d_levels_did_not_improve",
+              "frequency": "3/100 (3%)",
+              "severity": "medium",
+              "description": "三位使用者切換至此產品後維生素 D 指數下降（從 54 降至 32）"
+            }
+          ],
+          "total_frequency_pct": 21
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "adverse_reaction",
+              "frequency": "3/100 (3%)",
+              "severity": "high",
+              "description": "使用者報告骨骼疼痛、頭痛、立即咳嗽等不良反應"
+            },
+            {
+              "issue": "not_vegan_undisclosed",
+              "frequency": "4/100 (4%)",
+              "severity": "medium",
+              "description": "含羊毛脂（動物來源），主要標示未清楚告知，純素使用者受誤導"
+            },
+            {
+              "issue": "short_expiration_date",
+              "frequency": "2/100 (2%)",
+              "severity": "medium",
+              "description": "收到時距到期日僅數月，兩瓶皆需丟棄"
+            }
+          ],
+          "total_frequency_pct": 9
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "dispenser_not_working",
+              "frequency": "42/100 (42%)",
+              "severity": "high",
+              "description": "玻璃瓶分配器設計缺陷，超過 40% 使用者無法正常滴出，需大力搖晃或自備滴管，屬設計/製造問題"
+            },
+            {
+              "issue": "packaging_leak",
+              "frequency": "6/100 (6%)",
+              "severity": "high",
+              "description": "液體滲漏，且因不可退貨政策使用者無法獲得補救"
+            },
+            {
+              "issue": "product_opened_on_arrival",
+              "frequency": "4/100 (4%)",
+              "severity": "high",
+              "description": "收到時已開封，引發安全疑慮"
+            },
+            {
+              "issue": "no_return_policy",
+              "frequency": "10/100 (10%)",
+              "severity": "medium",
+              "description": "不可退貨政策使得問題無法獲得解決，加深消費者損失"
+            }
+          ],
+          "total_frequency_pct": 62
+        }
+      },
+      "ranking": 5,
+      "ranking_rationale": "分配器設計嚴重失效（42%），劑量不可靠（18% 核心功能問題），包裝滲漏（6%），不可退貨政策，為最低排名產品。配方（D3+K2）優良但被交付問題徹底抵銷"
     },
     {
       "product_id": "B00GB85JR4",
-      "name": "Nature Made Vitamin D3",
-      "brand": "Nature Made",
+      "name": "NatureWise Vitamin D3 5000 IU, 360 Softgels",
+      "brand": "NatureWise",
       "platform": "amazon_us",
+      "price_usd": 19.99,
+      "avg_rating": 4.75,
+      "total_ratings": 190099,
+      "reviews_analyzed": 100,
       "extraction_date": "2026-02-17",
-      "data_source": "amazon_us extraction (舊萃取，供參考)",
-      "confidence": "medium"
+      "data_source": "amazon_user_reviews",
+      "confidence": "medium",
+      "data_note": "舊萃取（2026-02-17），供參考",
+      "formulation": "D3 (5000 IU) 單一成分，有機冷壓橄欖油，無 K2",
+      "certifications": ["NSF-contents certified", "cGMP", "3rd-party tested", "Non-GMO", "Gluten-free"],
+      "key_scores": {
+        "ease_of_swallowing": 0.92,
+        "size": 0.89,
+        "immune_support": 0.85,
+        "energy_levels": 0.83,
+        "effectiveness": 0.79,
+        "vitamin_d_levels": 0.58,
+        "side_effects": 0.28,
+        "dosage": 0.55
+      },
+      "negative_review_classification": {
+        "cannot_solve_problem": {
+          "symbol": "❌",
+          "items": [
+            {
+              "issue": "ineffective_absorption",
+              "frequency": "6/100 (6%)",
+              "severity": "medium",
+              "description": "持續服用 3-4 個月後血檢仍顯示維生素 D 偏低，懷疑產品吸收率不佳"
+            }
+          ],
+          "total_frequency_pct": 6
+        },
+        "creates_new_problems": {
+          "symbol": "⚠️",
+          "items": [
+            {
+              "issue": "nausea_and_illness",
+              "frequency": "4/100 (4%)",
+              "severity": "high",
+              "description": "數月後才發現產品引起胃酸逆流、噁心、胸悶等嚴重症狀"
+            },
+            {
+              "issue": "dosage_too_high",
+              "frequency": "7/100 (7%)",
+              "severity": "medium",
+              "description": "醫生警告 5000 IU 使部分使用者血液 D 值升至危險水平"
+            },
+            {
+              "issue": "headaches",
+              "frequency": "2/100 (2%)",
+              "severity": "medium",
+              "description": "使用者出現原本罕有的頭痛症狀"
+            },
+            {
+              "issue": "missing_k2_warning",
+              "frequency": "1/100 (1%)",
+              "severity": "medium",
+              "description": "高劑量 D3 未搭配 K2 可能導致動脈鈣化風險，產品未提供此警告"
+            }
+          ],
+          "total_frequency_pct": 14
+        },
+        "unrelated_to_product": {
+          "symbol": "📦",
+          "items": [
+            {
+              "issue": "broken_seal",
+              "frequency": "3/100 (3%)",
+              "severity": "medium",
+              "description": "收到時安全封條已破損"
+            },
+            {
+              "issue": "capsules_stuck_together",
+              "frequency": "2/100 (2%)",
+              "severity": "low",
+              "description": "膠囊輕微黏結，屬儲存問題"
+            }
+          ],
+          "total_frequency_pct": 5
+        }
+      },
+      "ranking": 4,
+      "ranking_rationale": "樣本量最大（19 萬+ 評分），性價比佳（$19.99 / 360 粒），但核心功能失效率（6% 血檢無效）、副作用率（14% 含高劑量毒性風險）均為全組最高；缺少 K2 的安全性警告不足"
     }
   ],
   "competitors_reference": [
     {
-      "name": "Nature Made Vitamin D3",
-      "asin": "N/A",
-      "recommendation_count": 1,
-      "highlights": "藥劑師推薦第一名、USP 認證、90+ 認證產品、ConsumerLab 測試合格",
-      "data_source": "research_article",
-      "note": "無電商識別碼，基於研究報告"
+      "name": "Kirkland Signature Vitamin D3 2000 IU",
+      "asin": "B002RL8FE8",
+      "data_source": "competitors_list",
+      "note": "未取得萃取資料，基於競品清單參考。Costco 品牌，600 粒極高性價比",
+      "key_strength": "極低單價，大容量",
+      "key_weakness": "無第三方認證資料，無 K2"
     }
   ],
-  "negative_review_classification": {
-    "cannot_solve_problem": {
-      "symbol": "❌",
-      "items": [],
-      "rate": "0%",
-      "note": "無評論反映產品無法提升維生素 D 水平"
+  "cross_product_comparison": {
+    "effectiveness_blood_level_evidence": {
+      "Sports Research B0GD2HMY7T": { "score": 0.90, "mentions": 8, "blood_test_confirmed": true },
+      "Nature Made B004GJYTF8": { "score": 0.86, "mentions": 22, "blood_test_confirmed": true },
+      "NOW Foods B001UZPY1O": { "score": 0.88, "mentions": 18, "blood_test_confirmed": true },
+      "Thorne B0038NF8MG": { "score": 0.82, "mentions": 22, "blood_test_confirmed": true, "caveat": "分配器問題導致劑量不可靠，效果佐證可信度受損" },
+      "NatureWise B00GB85JR4": { "score": 0.79, "mentions": 21, "blood_test_confirmed": "partial", "caveat": "6% 使用者血檢顯示 D 值無改善" }
     },
-    "creates_new_problems": {
-      "symbol": "⚠️",
-      "items": [
-        {
-          "issue": "inconsistent_batch_color",
-          "frequency": "1/50 (2%)",
-          "severity": "low",
-          "description": "新批次膠囊顏色較深，消費者疑慮配方是否變更，但無功能性投訴"
-        }
-      ],
-      "rate": "2%"
+    "formulation_comparison": {
+      "d3_only": ["Nature Made B004GJYTF8", "NOW Foods B001UZPY1O", "NatureWise B00GB85JR4"],
+      "d3_plus_k2": ["Sports Research B0GD2HMY7T", "Thorne B0038NF8MG"],
+      "k2_advantage": "K2 (MK-7) 引導鈣質至骨骼而非動脈，高劑量 D3 使用者若缺 K2 有動脈鈣化風險（研究報告與用戶回報均提及）",
+      "absorption_aid": {
+        "Sports Research": "椰子 MCT 油（脂溶性吸收促進）",
+        "NatureWise": "有機冷壓橄欖油",
+        "Others": "無特別吸收促進成分"
+      }
     },
-    "unrelated_to_product": {
-      "symbol": "📦",
-      "items": [
-        {
-          "issue": "slow_noticeable_effect",
-          "frequency": "2/50 (4%)",
-          "severity": "low",
-          "description": "早期使用者尚未感受到效果，符合補充劑正常時間線，非產品缺陷"
-        }
-      ],
-      "rate": "4%"
+    "safety_profile": {
+      "best": "Sports Research（零核心副作用，2% 批次色差，非功能性）",
+      "moderate": "Nature Made（1% 眼部刺激，無嚴重副作用）、NOW Foods（1% 皮疹，疑標籤錯誤）",
+      "concern": "NatureWise（4% 嚴重消化副作用，7% 過劑量風險，14% 總副作用率）",
+      "poor": "Thorne（42% 分配器失效，18% 劑量不確定，3% 血檢 D 值下降，3% 不良反應）"
+    },
+    "value_analysis": {
+      "Sports Research B0GD2HMY7T": { "price_usd": 24.95, "count": 90, "cost_per_serving": 0.28, "formulation_value": "D3+K2+MCT，高附加價值" },
+      "Nature Made B004GJYTF8": { "price_usd": 13.78, "count": 250, "cost_per_serving": 0.055, "formulation_value": "單一 D3，最佳性價比" },
+      "NOW Foods B001UZPY1O": { "price_usd": "~10 (estimated)", "count": 240, "cost_per_serving": "~0.04", "formulation_value": "單一 D3，極佳性價比" },
+      "Thorne B0038NF8MG": { "price_usd": 24.00, "count": 600, "cost_per_serving": 0.04, "formulation_value": "D3+K2，但分配器缺陷使實際使用成本不可預測" },
+      "NatureWise B00GB85JR4": { "price_usd": 19.99, "count": 360, "cost_per_serving": 0.055, "formulation_value": "單一 D3，性價比良好但副作用風險抵銷" }
+    },
+    "vegan_suitability": {
+      "fully_vegan": ["Sports Research B0GD2HMY7T（D3 來自地衣，K2 來自發酵鷹嘴豆）"],
+      "not_vegan": ["Thorne B0038NF8MG（含羊毛脂 lanolin）", "NOW Foods B001UZPY1O（含牛明膠）"],
+      "not_specified": ["Nature Made B004GJYTF8", "NatureWise B00GB85JR4"]
     }
   },
-  "key_aspects_summary": {
-    "effectiveness_vitamin_d_levels": { "sentiment": "positive", "score": 0.90, "mentions": 8 },
-    "ease_of_swallowing": { "sentiment": "positive", "score": 0.95, "mentions": 10 },
-    "brand_trust_quality": { "sentiment": "positive", "score": 0.93, "mentions": 9 },
-    "bone_joint_health": { "sentiment": "positive", "score": 0.85, "mentions": 4 },
-    "immune_support": { "sentiment": "positive", "score": 0.88, "mentions": 5 },
-    "vegan_plant_based": { "sentiment": "positive", "score": 0.92, "mentions": 3 },
-    "value_for_money": { "sentiment": "positive", "score": 0.87, "mentions": 3 }
-  },
-  "competitive_comparison": {
-    "sports_research_vs_nature_made": {
-      "sports_research_advantages": [
-        "D3 + K2 (MK-7) 組合配方，K2 引導鈣質至骨骼而非動脈",
-        "椰子 MCT 油促進脂溶性維生素吸收",
-        "純素認證（D3 來自地衣，K2 來自發酵鷹嘴豆）",
-        "Non-GMO Project 認證",
-        "5000 IU 高劑量，適合需快速補充者",
-        "51,550 評分樣本量大，評分 4.75/5 極高"
-      ],
-      "nature_made_advantages": [
-        "藥劑師推薦第一名（Pharmacy Times 調查）",
-        "USP 認證（更廣泛的第三方認證體系）",
-        "劑量彈性（1000/2000/5000 IU 多選）",
-        "ConsumerLab 測試符合標示效價",
-        "品牌歷史更長，醫療機構信任度高"
-      ],
-      "conclusion": "Sports Research 在配方創新（D3+K2+MCT）和純素族群上具明顯優勢；Nature Made 在機構認可和劑量彈性上領先"
+  "overall_rankings": [
+    {
+      "rank": 1,
+      "product_id": "B0GD2HMY7T",
+      "name": "Sports Research D3+K2",
+      "verdict_for_segment": "維生素 D 缺乏補充（最佳整體配方，特別適合純素使用者與骨骼健康需求者）",
+      "key_differentiator": "唯一同時具備：D3+K2 協同配方、純素認證、MCT 油吸收促進、零核心功能失效"
+    },
+    {
+      "rank": 2,
+      "product_id": "B004GJYTF8",
+      "name": "Nature Made D3 2000 IU",
+      "verdict_for_segment": "維生素 D 基礎補充（最佳性價比，機構信任度最高）",
+      "key_differentiator": "USP 認證最強、藥師推薦第一、$0.055/日最低每日成本、250 粒大容量"
+    },
+    {
+      "rank": 3,
+      "product_id": "B001UZPY1O",
+      "name": "NOW Foods D3 2000 IU",
+      "verdict_for_segment": "維生素 D 基礎補充（品牌信任度高，但有膠囊熔黏問題）",
+      "key_differentiator": "GMP A 級認證、家族企業 1968 年至今、血檢效果佐證良好，但 8% 膠囊熔黏問題影響體驗"
+    },
+    {
+      "rank": 4,
+      "product_id": "B00GB85JR4",
+      "name": "NatureWise D3 5000 IU",
+      "verdict_for_segment": "次選（評分量最大但副作用風險偏高）",
+      "key_differentiator": "19 萬+ 評分最大樣本量，但 14% 副作用率（含 4% 嚴重消化問題、7% 過劑量風險）為全組最高"
+    },
+    {
+      "rank": 5,
+      "product_id": "B0038NF8MG",
+      "name": "Thorne D3+K2 Liquid",
+      "verdict_for_segment": "不建議（核心設計缺陷嚴重影響可靠性）",
+      "key_differentiator": "42% 分配器失效、18% 劑量不確定為核心功能問題，不可退貨政策加重損失"
     }
-  },
+  ],
   "verdict": {
     "can_solve_problem": true,
-    "better_than_competitors": "conditional",
-    "reasoning": "Sports Research D3+K2 能有效補充維生素 D（90% 正面評分，多位消費者回報血液指數改善），並透過 K2+MCT 組合提供超越單一 D3 產品的附加價值。相比 Nature Made，對純素消費者和尋求骨骼健康協同效果者明顯更優。但 Nature Made 的 USP 認證和藥劑師信任度仍是差異化競爭優勢。",
+    "better_than_competitors": true,
+    "winner": "B0GD2HMY7T（Sports Research D3+K2）",
+    "report_type": "comparison",
+    "reasoning": "五個產品中，前三名（Sports Research、Nature Made、NOW Foods）均能有效提升血液維生素 D 水平（血檢佐證），解決核心問題。Sports Research D3+K2 在配方完整性（D3+K2+MCT）、純素認證、安全性上最優，適合需要骨骼健康協同效果與純素需求者；Nature Made 在性價比與機構認可度上最佳，適合一般使用者。Thorne 液態配方因分配器設計嚴重缺陷（42% 失效率）不建議購買。NatureWise 5000 IU 副作用風險偏高（尤其缺少 K2 搭配的安全警告），建議謹慎選擇。",
+    "segment_recommendations": {
+      "best_overall_formulation": "Sports Research B0GD2HMY7T（D3+K2+MCT，純素）",
+      "best_value": "Nature Made B004GJYTF8（USP 認證，$0.055/日）",
+      "avoid": "Thorne B0038NF8MG（分配器缺陷，42% 失效）"
+    },
     "recommended_for": [
-      "純素/植物性飲食者",
-      "需要 D3+K2 協同骨骼健康效果者",
-      "維生素 D 嚴重缺乏需高劑量（5000 IU）補充者",
-      "重視第三方測試和美國製造的消費者"
+      "純素/植物性飲食者 → Sports Research",
+      "骨骼健康與動脈鈣化防護需求者 → Sports Research 或 Thorne（若分配器問題已解決）",
+      "一般維生素 D 缺乏補充、預算有限者 → Nature Made 或 NOW Foods",
+      "確診嚴重缺乏需高劑量（5000 IU）者 → Sports Research（含 K2 安全性更高）"
     ],
     "not_recommended_for": [
-      "需要 USP 認證的醫療機構要求場景",
-      "偏好低劑量（1000-2000 IU）維護性補充者"
-    ],
-    "report_type": "comparison",
-    "note": "建議更新現有報告以納入 Sports Research B0GD2HMY7T，現有報告僅涵蓋 Nature Made"
+      "Thorne：任何場景（分配器問題未解決前）",
+      "NatureWise：有消化道敏感史者（4% 嚴重副作用）",
+      "NOW Foods：純素/猶太飲食需求者（牛明膠、Triangle K 認證爭議）"
+    ]
+  },
+  "research_context": {
+    "scientific_evidence": "最新綜合分析（2024-2025，40 項研究，61,589 人）：補充 D 對整體急性呼吸道感染無統計顯著保護（OR 0.94, p=0.057）；基線缺乏者每日補充最有效（aOR 0.30）",
+    "key_finding": "高劑量 D3（5000 IU）若未搭配 K2 和鎂，可能有動脈鈣化風險；每日小劑量優於單次大劑量",
+    "magnesium_factor": "鎂缺乏會關閉維生素 D 合成和代謝途徑，多達 80% 人未達鎂 RDA",
+    "blood_test_recommendation": "建議補充前先進行血液 25(OH)D 檢測，非缺乏者補充效益有限"
   },
   "data_quality": {
     "extraction_confidence": "high",
-    "competitor_data_completeness": "limited（競品清單僅 1 個，且無電商識別碼）",
+    "products_with_full_extraction": ["B0GD2HMY7T", "B004GJYTF8", "B001UZPY1O", "B0038NF8MG"],
+    "products_with_older_extraction": ["B00GB85JR4 (2026-02-17)"],
     "cross_platform_coverage": "amazon_us only",
-    "review_sample_size": 50,
-    "flag": "[REVIEW_NEEDED] 競品數據有限，建議擴充競品清單"
+    "total_reviews_analyzed": 450,
+    "price_data_issue": "B001UZPY1O 價格 $290 USD 疑為資料錯誤，需確認實際售價（估計 $8-10）",
+    "flag": "NOW Foods 價格異常需人工確認；NatureWise 資料為舊萃取（2026-02-17），建議重新萃取"
   },
   "comparison_with_existing_report": {
     "existing_report": "docs/Narrator/recommendations/vitamin-d-supplement--recommendation--2026-02-06.md",
     "existing_verdict": "推薦 Nature Made Vitamin D3",
     "update_required": true,
-    "reason": "現有報告聚焦 Nature Made；新萃取資料（Sports Research B0GD2HMY7T）評分更高（4.75 vs 舊報告產品），且配方更完整（D3+K2+MCT），報告應更新為比較報告"
+    "update_reason": "現有報告僅分析 Nature Made；本次新增 4 個競品全萃取資料（Sports Research、NOW Foods、Thorne、NatureWise），分析基礎大幅擴充。建議將現有推薦報告更新為比較報告，主推 Sports Research D3+K2（最佳整體）與 Nature Made（最佳性價比）"
   },
   "generated_by": "comparison_analysis_agent",
-  "generated_at": "2026-03-01"
+  "generated_at": "2026-03-01T00:00:00Z"
 }

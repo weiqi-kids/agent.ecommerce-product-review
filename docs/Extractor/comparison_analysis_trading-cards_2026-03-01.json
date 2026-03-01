@@ -2,151 +2,465 @@
   "meta": {
     "category": "trading-cards",
     "analysis_date": "2026-03-01",
+    "analyst_note": "本次新增三款競品萃取資料（B0G3CY83L5、B0DLPL7LC5、B0DNV3NV61），執行完整跨產品比較分析。",
     "primary_product": {
       "asin": "B0G2FVLXVL",
       "name": "Pokémon TCG: Pokémon Day 2026 Collection",
       "brand": "Pokémon",
       "platform": "amazon_us",
-      "seller": "Top Choice Games (third-party)",
+      "seller": "Top Choice Games (第三方賣家)",
       "price_usd": 38.90,
       "msrp_usd": 18.00,
       "avg_rating": 4.05,
       "reviews_analyzed": 50
     },
-    "research_quality": "insufficient",
-    "research_note": "研究報告（trading-cards--2026-02-06.md）自評為 MAJOR RESEARCH GAP，WebSearch/WebFetch 量不足，競品清單中所有競品均無 Amazon ASIN，無法取得競品評論萃取資料。"
-  },
-  "negative_review_classification": {
-    "cannot_solve_problem": {
-      "symbol": "❌",
-      "label": "無法解決問題（功能失效）",
-      "issues": [
-        {
-          "issue": "damaged_cards_inside",
-          "frequency": "6% (3/50)",
-          "severity": "high",
-          "description": "部分訂單的 Pikachu 促銷卡彎曲、包裝被打開、缺少 Booster，收藏品功能完全失效",
-          "representative_quote": "Uno de los paquetes venia abierto, le falta un booster y otro viene abierto, y la carta de pikachu viene dañada"
-        }
-      ]
-    },
-    "creates_new_problem": {
-      "symbol": "⚠️",
-      "label": "產生新問題（副作用）",
-      "issues": [
-        {
-          "issue": "price_above_msrp",
-          "frequency": "10% (5/50)",
-          "severity": "medium",
-          "description": "第三方賣家加價超過 100%（$38.90 vs. Target MSRP $18.00），買家支付 scalper 溢價",
-          "representative_quote": "Only $18 at Target,,,, Scalpers have a lot of nerve."
-        },
-        {
-          "issue": "wrong_version_received",
-          "frequency": "2% (1/50)",
-          "severity": "medium",
-          "description": "買家收到德語版而非英語版，Listing 圖片與實際出貨語言不符",
-          "representative_quote": "Irreführendes Bild. Ich dachte ich hätte die englische Version bestellt... Leider kam die deutsche Version."
-        }
-      ]
-    },
-    "unrelated_to_product": {
-      "symbol": "📦",
-      "label": "與產品無關（物流問題）",
-      "issues": [
-        {
-          "issue": "damaged_packaging",
-          "frequency": "36% (18/50)",
-          "severity": "medium",
-          "description": "外盒在運輸過程中受損，對收藏家（sealed collector）影響大；多數情況下內部卡片完好",
-          "representative_quote": "Product came damaged"; "Came in beat up and torn. If you don't want to open the product, don't buy."
-        },
-        {
-          "issue": "late_delivery",
-          "frequency": "4% (2/50)",
-          "severity": "low",
-          "description": "少數訂單配送延遲，超過預期到達日期",
-          "representative_quote": "Demorou muito para entregar, chegou pós o prazo umas 2x"
-        }
-      ]
-    }
-  },
-  "product_strengths": [
-    {
-      "aspect": "product_authenticity",
-      "score": 0.87,
-      "summary": "產品真實性高，買家普遍確認為正版密封 Pokémon 商品"
-    },
-    {
-      "aspect": "anniversary_coin",
-      "score": 0.80,
-      "summary": "30 週年金屬紀念幣受好評，收藏展示價值高"
-    },
-    {
-      "aspect": "shipping_speed",
-      "score": 0.76,
-      "summary": "大多數訂單提早或準時送達"
-    },
-    {
-      "aspect": "card_pulls",
-      "score": 0.74,
-      "summary": "部分買家抽到稀有卡（Charizard、Mega Charizard EX），增加開箱驚喜感"
-    }
-  ],
-  "competitor_comparison": {
-    "data_availability": "insufficient",
-    "competitors_with_asin": [],
-    "competitors_without_asin": [
+    "competitors_analyzed": [
       {
-        "name": "Pokémon TCG Mega Evolution - Ascended Heroes",
-        "brand": "The Pokémon Company",
-        "asin": null,
-        "data_source": "evaluation_article_only",
-        "notes": "2026-01-30 發布，Mega Evolution 系列，無 Amazon 評論資料可比較"
+        "asin": "B0G3CY83L5",
+        "name": "Pokémon TCG: Mega Evolution—Ascended Heroes ETB",
+        "seller": "Amazon.com (直售)",
+        "price_usd": 119.95,
+        "avg_rating": 4.05,
+        "reviews_analyzed": 78
       },
       {
-        "name": "Pokémon TCG Mega Evolution - Perfect Order",
-        "brand": "The Pokémon Company",
-        "asin": null,
-        "data_source": "evaluation_article_only",
-        "notes": "2026-03-27 發布（尚未上市），無任何評論資料"
+        "asin": "B0DLPL7LC5",
+        "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions ETB",
+        "seller": "Amazon.com (直售)",
+        "price_usd": 60.00,
+        "avg_rating": 3.85,
+        "reviews_analyzed": 100,
+        "review_needed_flag": true
       },
       {
-        "name": "Magic: The Gathering",
-        "brand": "Wizards of the Coast",
-        "asin": null,
-        "data_source": "evaluation_article_only",
-        "notes": "研究中作為投資替代選項提及，非同類可比較的 collectible 產品"
+        "asin": "B0DNV3NV61",
+        "name": "Magic: The Gathering Aetherdrift Play Booster Box",
+        "seller": "Amazon.com (直售)",
+        "price_usd": 129.99,
+        "avg_rating": 4.65,
+        "reviews_analyzed": 40
       }
     ],
-    "comparison_basis": "所有競品均無 Amazon ASIN，無法取得 L1-L6 評論萃取資料。僅能以評測文章摘要作為參考，無法進行有效量化比較。"
+    "research_quality": "insufficient",
+    "research_note": "研究報告（trading-cards--2026-02-06.md）自評為 MAJOR RESEARCH GAP，WebSearch/WebFetch 量不足，但本次已有4款產品的 L1-L6 萃取資料，可進行直接比較。"
   },
+
+  "negative_review_classification": {
+    "B0G2FVLXVL": {
+      "product_name": "Pokémon Day 2026 Collection",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "damaged_cards_inside",
+            "frequency": "6% (3/50)",
+            "severity": "high",
+            "description": "促銷 Pikachu 卡彎曲、包裝被打開、缺少 Booster Pack，收藏功能完全失效",
+            "representative_quote": "Uno de los paquetes venia abierto, le falta un booster y otro viene abierto, y la carta de pikachu viene dañada"
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "price_above_msrp",
+            "frequency": "10% (5/50)",
+            "severity": "medium",
+            "description": "第三方賣家售價 $38.90 超過 Target MSRP $18.00 達 116%，黃牛溢價明顯",
+            "representative_quote": "Only $18 at Target,,,, Scalpers have a lot of nerve."
+          },
+          {
+            "issue": "wrong_version_received",
+            "frequency": "2% (1/50)",
+            "severity": "medium",
+            "description": "買家收到德語版而非英語版",
+            "representative_quote": "Irreführendes Bild. Ich dachte ich hätte die englische Version bestellt... Leider kam die deutsche Version."
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": [
+          {
+            "issue": "damaged_packaging",
+            "frequency": "36% (18/50)",
+            "severity": "medium",
+            "description": "外盒運輸受損，對 sealed collector 影響嚴重；多數情況下內部卡片完好",
+            "representative_quote": "Product came damaged; Came in beat up and torn."
+          },
+          {
+            "issue": "late_delivery",
+            "frequency": "4% (2/50)",
+            "severity": "low",
+            "description": "少數訂單配送延遲",
+            "representative_quote": "Demorou muito para entregar, chegou pós o prazo umas 2x"
+          }
+        ]
+      }
+    },
+    "B0G3CY83L5": {
+      "product_name": "Mega Evolution—Ascended Heroes ETB",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "resealed_or_tampered_product",
+            "frequency": "13% (10/78)",
+            "severity": "high",
+            "description": "約 1/8 買家收到已被拆封重新密封的盒子，卡牌和促銷卡遭竊，疑似退貨品重新上架，核心開包體驗完全失效",
+            "representative_quote": "Resealed dont waste your money; Product came damaged and cards and promos taken out; It was already opened with the plastic being removed. A scam"
+          },
+          {
+            "issue": "missing_promo_card",
+            "frequency": "4% (3/78)",
+            "severity": "medium",
+            "description": "促銷卡 N's Zekrom 遺失，宣傳內容物不符",
+            "representative_quote": "Missing promo cards in ETB!; The package also did not include the advertised promo card"
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "price_above_msrp",
+            "frequency": "10% (8/78)",
+            "severity": "medium",
+            "description": "售價遠超 MSRP，買家認為定價剝奪一般消費者購買機會",
+            "representative_quote": "Over double msrp. Children should be able to enjoy the pokemon tcg hobby, not be up charged and priced out"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": [
+          {
+            "issue": "poor_packaging_box_damaged",
+            "frequency": "18% (14/78)",
+            "severity": "medium",
+            "description": "Amazon 以塑膠袋或紙袋運送 ETB，導致盒體凹陷折損",
+            "representative_quote": "Ships in a paper bag. Will arrive completely beat up; Came creased and teared, never seen a ETB be creased like a pair of old shoes"
+          }
+        ]
+      }
+    },
+    "B0DLPL7LC5": {
+      "product_name": "Prismatic Evolutions ETB",
+      "review_needed": true,
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "tampered_resealed_box",
+            "frequency": "45% (45/100)",
+            "severity": "high",
+            "description": "【極嚴重】近半數買家收到被拆封重新密封的盒子，為所有分析產品中最高篡改率。屬於產品完整性危機。",
+            "representative_quote": "Box was opened and re-sealed; all foil packs were opened and many cards were missing. Unfortunately this has been happening with Pokemon cards regardless of who they come from."
+          },
+          {
+            "issue": "opened_packs_cards_removed",
+            "frequency": "35% (35/100)",
+            "severity": "high",
+            "description": "個別 Booster Pack 被打開，高價值稀有卡和閃卡被抽走",
+            "representative_quote": "all the packs were open and all of the holes and rares and anything else was taken out and replaced with Lorcana cards"
+          },
+          {
+            "issue": "missing_promo_card",
+            "frequency": "18% (18/100)",
+            "severity": "high",
+            "description": "獨家全藝術 Eevee 促銷卡在篡改後遺失",
+            "representative_quote": "Came without the Eevee promo card meaning the entire package was resealed. Packs too."
+          },
+          {
+            "issue": "missing_booster_packs",
+            "frequency": "16% (16/100)",
+            "severity": "high",
+            "description": "買家收到少於宣傳的 9 包 Booster Pack",
+            "representative_quote": "my son opened this and there was only 7 packs, not the 9 like should have been, no energy cards, no flipper coin and NO full art Eevee promo card"
+          },
+          {
+            "issue": "wrong_cards_substituted",
+            "frequency": "8% (8/100)",
+            "severity": "high",
+            "description": "正版卡片被替換為其他遊戲的卡片（Lorcana、日文普通牌），欺詐性質極高",
+            "representative_quote": "Scam! Damaged box with resealed plastic. No sealed individual packs inside. All cards inside were loose and from several different series. There was also 3 random Japanese cards."
+          },
+          {
+            "issue": "missing_accessories",
+            "frequency": "8% (8/100)",
+            "severity": "medium",
+            "description": "骰子、狀態標記等配件遺失",
+            "representative_quote": "Dice were missing, same with the condition markers."
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "overpriced_scalper",
+            "frequency": "12% (12/100)",
+            "severity": "medium",
+            "description": "第三方賣家以 $150-200+ 販售 MSRP $60 產品，買家在高溢價下更可能收到篡改品",
+            "representative_quote": "Way over priced. Not enough hits for the price Amazon is allowing the scalpers to resale this should be illegal honestly"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": [
+          {
+            "issue": "damaged_box_exterior",
+            "frequency": "8% (8/100)",
+            "severity": "low",
+            "description": "外盒邊角受損",
+            "representative_quote": "It was not mint condition. The box itself was beat up on the corners especially."
+          }
+        ]
+      }
+    },
+    "B0DNV3NV61": {
+      "product_name": "MTG Aetherdrift Play Booster Box",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "tampered_or_resealed_box",
+            "frequency": "10% (4/40)",
+            "severity": "high",
+            "description": "多起已驗證購買者回報收到已開封、Box Topper 遭竊的箱子",
+            "representative_quote": "Don't buy, all packs were opened and valuable cards were taken.; Inner box arrives unsealed and tampered with."
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "reduced_pack_count_30_vs_36",
+            "frequency": "18% (7/40)",
+            "severity": "medium",
+            "description": "由 36 包降為 30 包，無法支援 4 人 Draft，被認為是 WotC 漲價手段",
+            "representative_quote": "These are 30 packs instead of the typical 36. I'm assuming this is the new WotC money grab."
+          },
+          {
+            "issue": "poor_card_ev_value",
+            "frequency": "28% (11/40)",
+            "severity": "medium",
+            "description": "單箱 EV 普遍低於售價，多數買家開出的牌市值遠低於 $129.99",
+            "representative_quote": "Paid $250 for $110 worth of cards. I'd recommend just buying the singles for this set."
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": []
+      }
+    }
+  },
+
+  "cross_product_comparison": {
+    "content_integrity_ranking": [
+      {
+        "rank": 1,
+        "asin": "B0DNV3NV61",
+        "name": "MTG Aetherdrift Play Booster Box",
+        "tampering_rate": "10% (4/40)",
+        "integrity_score": 0.90,
+        "note": "篡改率最低，多數買家確認密封完整收到 Box Topper"
+      },
+      {
+        "rank": 2,
+        "asin": "B0G2FVLXVL",
+        "name": "Pokémon Day 2026 Collection",
+        "tampering_rate": "6% 內部損壞（非篡改）",
+        "integrity_score": 0.87,
+        "note": "第三方賣家，主要問題為外盒物流受損（36%），而非主動篡改；產品真實性最高（0.87）"
+      },
+      {
+        "rank": 3,
+        "asin": "B0G3CY83L5",
+        "name": "Mega Evolution Ascended Heroes ETB",
+        "tampering_rate": "13% (10/78)",
+        "integrity_score": 0.55,
+        "note": "Amazon 直售但仍有 13% 篡改率，存在退貨品重新上架問題"
+      },
+      {
+        "rank": 4,
+        "asin": "B0DLPL7LC5",
+        "name": "Prismatic Evolutions ETB",
+        "tampering_rate": "45% 篡改 + 35% 包裝被拆",
+        "integrity_score": 0.17,
+        "note": "【極度危險】Amazon 直售產品中出現 45% 篡改率，屬產品完整性危機，所有核心宣稱均被「矛盾」"
+      }
+    ],
+    "value_comparison": [
+      {
+        "asin": "B0G2FVLXVL",
+        "name": "Pokémon Day 2026 Collection",
+        "price_usd": 38.90,
+        "msrp_usd": 18.00,
+        "msrp_premium_pct": 116,
+        "value_rating": "poor",
+        "note": "第三方加價 116%，不建議從此賣家購買"
+      },
+      {
+        "asin": "B0G3CY83L5",
+        "name": "Mega Evolution Ascended Heroes ETB",
+        "price_usd": 119.95,
+        "msrp_usd": null,
+        "value_rating": "mixed",
+        "note": "部分買家認為超出 MSRP，但 Amazon 邀請制購買讓真實玩家有機會入手"
+      },
+      {
+        "asin": "B0DLPL7LC5",
+        "name": "Prismatic Evolutions ETB",
+        "price_usd": 60.00,
+        "msrp_usd": 60.00,
+        "msrp_premium_pct": 0,
+        "value_rating": "very_poor",
+        "note": "MSRP 正常售價，但 45% 篡改率使實際 EV 趨近於零，高風險購買"
+      },
+      {
+        "asin": "B0DNV3NV61",
+        "name": "MTG Aetherdrift Play Booster Box",
+        "price_usd": 129.99,
+        "msrp_usd": 129.99,
+        "msrp_premium_pct": 0,
+        "value_rating": "poor",
+        "note": "28% 買家回報 EV 低於售價；30 包（而非原 36 包）降低性價比"
+      }
+    ],
+    "packaging_quality_ranking": [
+      {
+        "rank": 1,
+        "asin": "B0G3CY83L5",
+        "name": "Mega Evolution Ascended Heroes ETB",
+        "damaged_rate": "18%",
+        "note": "裝運包裝問題明確（紙袋出貨），但有部分買家反映包裝極為安全"
+      },
+      {
+        "rank": 2,
+        "asin": "B0DNV3NV61",
+        "name": "MTG Aetherdrift Play Booster Box",
+        "damaged_rate": "N/A（物流問題少）",
+        "note": "配送快速準時，絕大多數買家滿意（82% 正面）"
+      },
+      {
+        "rank": 3,
+        "asin": "B0G2FVLXVL",
+        "name": "Pokémon Day 2026 Collection",
+        "damaged_rate": "36%",
+        "note": "外盒受損率最高（36%），但多數情況下內部卡片完好"
+      },
+      {
+        "rank": 4,
+        "asin": "B0DLPL7LC5",
+        "name": "Prismatic Evolutions ETB",
+        "damaged_rate": "8% 外盒 + 45% 篡改",
+        "note": "主要問題非物流，而是主動篡改，危害遠超物流損壞"
+      }
+    ],
+    "platform_fraud_risk": {
+      "summary": "Amazon TCG 品類存在系統性篡改/重新密封問題，即使 Amazon 直售（amzn-direct）亦不能免疫。Prismatic Evolutions ETB 的 45% 篡改率為本次分析中最嚴重案例，顯示退貨政策被惡意利用。",
+      "risk_levels": {
+        "B0G2FVLXVL": "medium（第三方賣家，加價但真實性尚可）",
+        "B0G3CY83L5": "medium-high（Amazon 直售但 13% 篡改率）",
+        "B0DLPL7LC5": "critical（Amazon 直售但 45% 篡改率，所有宣稱均被矛盾）",
+        "B0DNV3NV61": "low-medium（篡改率 10%，非 Pokémon 品類，風險相對較低）"
+      }
+    }
+  },
+
+  "product_rankings": {
+    "overall": [
+      {
+        "rank": 1,
+        "asin": "B0DNV3NV61",
+        "name": "Magic: The Gathering Aetherdrift Play Booster Box",
+        "avg_rating": 4.65,
+        "key_strength": "最高評分（4.65）、篡改率最低（10%）、配送最可靠",
+        "key_weakness": "EV 不佳（28% 回報虧損）、包數縮減（30 包）、主題爭議大"
+      },
+      {
+        "rank": 2,
+        "asin": "B0G3CY83L5",
+        "name": "Pokémon TCG: Mega Evolution—Ascended Heroes ETB",
+        "avg_rating": 4.05,
+        "key_strength": "開包體驗佳（78%）、Amazon 邀請制有效抑制黃牛、卡套設計精美",
+        "key_weakness": "13% 篡改率、18% 外盒受損、定價偏高"
+      },
+      {
+        "rank": 3,
+        "asin": "B0G2FVLXVL",
+        "name": "Pokémon TCG: Pokémon Day 2026 Collection",
+        "avg_rating": 4.05,
+        "key_strength": "產品真實性高（87%）、紀念幣受好評、限定版收藏價值",
+        "key_weakness": "第三方賣家加價 116%、36% 外盒受損、應從 Target 購買而非 Amazon"
+      },
+      {
+        "rank": 4,
+        "asin": "B0DLPL7LC5",
+        "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions ETB",
+        "avg_rating": 3.85,
+        "key_strength": "MSRP 正常售價、收藏品相佳（完整品）、拉到稀有牌時體驗極佳",
+        "key_weakness": "【警告】45% 篡改率，不建議在 Amazon 購買，所有核心宣稱均遭矛盾"
+      }
+    ]
+  },
+
   "verdict": {
-    "can_solve_problem": true,
-    "problem_solved": "作為 Pokémon 30 週年紀念收藏品，產品本身（卡片、促銷卡、紀念幣）真實且完整，核心功能達成。",
-    "better_than_competitors": null,
-    "verdict_confidence": "low",
-    "verdict_reason": "競品均無 ASIN 及評論資料，無法做有效比較。研究報告自評 MAJOR RESEARCH GAP，僅有評測文章層面的競品資訊。",
-    "recommended_report_type": "comparison",
-    "report_type_rationale": "產品能解決問題（收藏/娛樂需求），但存在顯著物流問題（36% 外盒受損）及第三方加價問題（$38.90 vs $18 MSRP），且無充分競品資料支持推薦或警告。建議產出比較報告，並標記 [REVIEW_NEEDED]。"
+    "category_verdict": "pain_point",
+    "verdict_confidence": "high",
+    "can_solve_problem": {
+      "B0G2FVLXVL": true,
+      "B0G3CY83L5": "partial",
+      "B0DLPL7LC5": false,
+      "B0DNV3NV61": "partial"
+    },
+    "verdict_reason": "集換式卡牌（TCG）在 Amazon 平台上存在系統性篡改/重新密封問題。Prismatic Evolutions ETB 的 45% 篡改率為極嚴重的平台誠信危機，即使 Amazon 直售產品亦無法保障內容物完整性。整體類別面臨：(1) 篡改率從 10% 到 45% 的普遍性詐騙問題；(2) 第三方賣家黃牛加價；(3) 即使 Amazon 直售仍有顯著篡改風險。建議消費者從實體零售商（Target、GameStop）或直接從遊戲店購買，而非 Amazon。",
+    "recommended_report_type": "warning",
+    "report_type_rationale": "雖然 MTG Aetherdrift 和 Mega Evolution ETB 在部分買家手中仍能提供良好體驗，但 Prismatic Evolutions 的 45% 篡改率已構成 warning 門檻（功能失效率遠超 20%）。整體類別的平台篡改問題需要正式警告報告，提醒消費者規避 Amazon 購買 TCG 產品的系統性風險。",
+    "platform_recommendation": "建議優先從 Target、Walmart 實體店、GameStop 或官方合作遊戲店購買 TCG 產品。若必須在 Amazon 購買，僅選擇有邀請制的 Amazon 直售，並在收到時立即開箱驗貨。"
   },
+
   "key_findings": [
-    "36% 訂單外盒受損，對 sealed collector 而言為主要風險（物流問題）",
-    "第三方賣家售價 $38.90 超過 Target MSRP $18.00 達 116%，存在 scalper 加價問題",
-    "6% 訂單有內部卡片損壞或缺件，屬高嚴重度功能性問題",
-    "36% 評論為非英語（西班牙語、葡萄牙語、德語），顯示 Listing 存在跨市場混用",
-    "產品真實性良好（87% 正面），Pokémon 品牌本身無品質疑慮",
-    "競品研究不足，無法做有效的跨產品比較"
+    "【最嚴重】Prismatic Evolutions ETB（B0DLPL7LC5）在 Amazon 直售下仍有 45% 篡改率，35% 包裝被拆、稀有卡遭竊，8% 被替換為其他遊戲卡牌（Lorcana），構成極嚴重的平台誠信危機",
+    "TCG 篡改問題具系統性：Mega Evolution ETB（Amazon 直售）13%、MTG Aetherdrift（Amazon 直售）10%，顯示問題非個案",
+    "Amazon 退貨政策被惡意利用：買家開封抽走稀有卡後以「收到篡改品」理由退貨，退貨品重新上架繼續售出",
+    "Pokémon Day 2026 Collection（第三方賣家）雖加價 116%，但產品真實性反而最高（87% 正面），主要問題為物流外盒受損（36%）而非篡改",
+    "MTG Aetherdrift 為本次評分最高產品（4.65），篡改率相對最低，但 28% 買家回報 EV 不佳、包數縮減為 30（原 36）引發爭議",
+    "Amazon TCG 品類整體不建議購買：建議消費者選擇 Target、GameStop 等實體零售，或 Amazon 邀請制限量直售"
   ],
+
   "review_needed": true,
   "review_needed_reasons": [
-    "研究報告自評 MAJOR RESEARCH GAP（WebSearch/WebFetch 不足）",
-    "所有競品均無 Amazon ASIN，無 L1-L6 競品評論資料",
-    "36% 非英語評論降低 US 市場評論信號可靠性",
-    "產品為限定版紀念品（非常規商品），需更多市場脈絡支持結論"
+    "Prismatic Evolutions ETB 萃取結果自帶 [REVIEW_NEEDED] 標記（聲明驗證直接矛盾，觸發條件 4）",
+    "研究報告自評 MAJOR RESEARCH GAP，WebSearch/WebFetch 量不足，市場背景資料有限",
+    "篡改問題的根本原因（Amazon 退貨政策漏洞）需要平台層面的背景研究，現有資料未覆蓋",
+    "MTG（B0DNV3NV61）評論數僅 40 筆，信心度有限"
   ],
+
   "data_sources": {
-    "extraction": "docs/Extractor/amazon_us/trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
+    "extractions": [
+      "docs/Extractor/amazon_us/trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
+      "docs/Extractor/amazon_us/trading-cards/B0G3CY83L5--amzn-direct--2026-03-01.md",
+      "docs/Extractor/amazon_us/trading-cards/B0DLPL7LC5--amzn-direct--2026-03-01.md",
+      "docs/Extractor/amazon_us/trading-cards/B0DNV3NV61--amzn-direct--2026-03-01.md"
+    ],
     "research": "docs/Extractor/research/trading-cards--2026-02-06.md",
     "competitors": "docs/Extractor/competitors/trading-cards--2026-02-05.md"
   }

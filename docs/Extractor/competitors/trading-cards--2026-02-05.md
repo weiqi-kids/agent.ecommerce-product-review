@@ -7,9 +7,9 @@
 
 | 產品名稱 | 品牌 | Amazon ASIN | 推薦理由 | 來源 |
 |---------|------|------------|---------|------|
-| Pokémon TCG Mega Evolution - Ascended Heroes | The Pokémon Company | N/A | 2026年1月30日發布，受歡迎的追逐卡，Mega Evolution系列 | Athlon Sports |
-| Pokémon TCG Mega Evolution - Perfect Order | The Pokémon Company | N/A | 2026年3月27日發布，超過120張卡片 | Athlon Sports |
-| Magic: The Gathering | Wizards of the Coast | N/A | 研究中提及，長期價值投資潛力 | 多項來源 |
+| Pokémon TCG Mega Evolution - Ascended Heroes ETB | The Pokémon Company | B0G3CY83L5 | 2026年1月30日發布，Mega Evolution系列 ETB | Athlon Sports |
+| Pokémon TCG Scarlet & Violet - Prismatic Evolutions ETB | The Pokémon Company | B0DLPL7LC5 | 2025年熱門系列，高追逐卡需求 | gap-fill-2026-03-01 |
+| Magic: The Gathering Aetherdrift Play Booster Box | Wizards of the Coast | B0DNV3NV61 | 2026年最新系列，30包 Play Booster | gap-fill-2026-03-01 |
 
 ## 競品詳情
 

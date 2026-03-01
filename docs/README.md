@@ -37,6 +37,7 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 | 產品 | 問題 | 風險等級 |
 |------|------|----------|
+| [Amazon TCG 卡牌篡改](/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01) | 13-45% 篡改率、系統性詐騙 | 🔴 高 |
 | [NeeDoh 紓壓玩具](/Narrator/pain_points/squishy-toy--pain-points--2026-03-01) | 56% 爆裂率、8% 眼部傷害 | 🔴 高 |
 | [Sony WH-1000XM5 耳機](/Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13) | 27% 轉軸斷裂 | 🔴 高 |
 | [Amazon Basics 暖風機](/Narrator/warnings/B07V6M4MSN--warning--2026-02-13) | 16% 火災風險 | 🔴 高 |
@@ -65,10 +66,10 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 |------|------|----------|
 | [紓壓玩具](/Narrator/pain_points/squishy-toy--pain-points--2026-03-01) | 痛點報告 | NeeDoh 液態系列 56% 爆裂率，8% 眼部噴濺事故 |
 | [串流播放器](/Narrator/comparisons/streaming-stick--2026-03-01) | 比較報告 | Roku Renewed 44% 功能失效，Fire TV Stick 4K Plus 最穩定 |
-| [排水管疏通](/Narrator/comparisons/drain-clog--2026-03-01) | 比較報告 | Drano 28% 無效率，機械通管器更可靠 |
-| [洗衣去漬](/Narrator/comparisons/laundry-stain--2026-03-01) | 比較報告 | ARM & HAMMER 性價比佳，但 Tide Ultra 去污更強 |
-| [維生素D補充](/Narrator/comparisons/vitamin-d-supplement--2026-03-01) | 比較報告 | Sports Research D3+K2 配方優勢明顯 |
-| [集換式卡牌](/Narrator/comparisons/trading-cards--2026-03-01) | 比較報告 | Pokémon TCG 36% 包裝損壞，第三方加價 116% |
+| [排水管疏通](/Narrator/comparisons/drain-clog--2026-03-01) | 比較報告 | Liquid-Plumr 84% 有效率最高，Drano 嚴重堵塞 30% 無效 |
+| [洗衣去漬](/Narrator/comparisons/laundry-stain--2026-03-01) | 比較報告 | Shout 最安全最高 CP 值，Tide Ultra 皮膚過敏 10% |
+| [維生素D補充](/Narrator/comparisons/vitamin-d-supplement--2026-03-01) | 比較報告 | Sports Research D3+K2 最佳配方，Thorne 42% 分配器故障 |
+| [集換式卡牌](/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01) | 警告報告 | Amazon TCG 13-45% 篡改率，Prismatic Evo 45% 被拆封竊取 |
 
 ## ✅ 最新推薦
 
@@ -121,7 +122,7 @@ Amazon 評論（最新 50-200 則）
 | 深度報告 | **290+** 篇 |
 | 分析評論 | **10 萬+** 則 |
 | 產品品類 | **60+** 種 |
-| 最後更新 | **2026-02-21** |
+| 最後更新 | **2026-03-01** |
 
 </div>
 

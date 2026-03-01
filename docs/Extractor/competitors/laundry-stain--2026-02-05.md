@@ -7,10 +7,10 @@
 
 | 品牌/產品名 | ASIN | 價格範圍 | 主要特點 |
 |------------|------|----------|---------|
-| OxiClean MaxForce | - | $8-12 | 氧化去污、泡沫配方、5合1效力 |
-| Shout Triple Action | - | $5-8 | 三重作用、酵素配方、噴霧設計 |
-| Carbona Stain Scrubber | - | $10-15 | 內建刷頭、專攻化妝品污漬 |
-| Tide Ultra Stain Release | - | $12-18 | 洗衣精+去污增強劑二合一 |
+| OxiClean MaxForce | B005N7EUSS | $8-12 | 氧化去污、泡沫配方、5合1效力 |
+| Shout Triple Action | B000VDX2SS | $5-8 | 三重作用、酵素配方、噴霧設計 |
+| Carbona Stain Scrubber | B01IQ9IM6A | $10-15 | 內建刷頭、專攻化妝品污漬 |
+| Tide Ultra Stain Release | B00ME8P9MU | $12-18 | 洗衣精+去污增強劑二合一 |
 
 ## 詳細資訊
 

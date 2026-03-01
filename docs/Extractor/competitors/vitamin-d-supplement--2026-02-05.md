@@ -7,7 +7,10 @@
 
 | 產品名稱 | 品牌 | Amazon ASIN | 推薦理由 | 來源 |
 |---------|------|------------|---------|------|
-| Vitamin D3 (1000/2000/5000 IU) | Nature Made | N/A | 藥劑師推薦第一名、USP認證、第三方測試 | immune-support--2026-02-04.md |
+| Vitamin D3 2000 IU | Nature Made | B004GJYTF8 | 藥劑師推薦第一名、USP認證、第三方測試 | immune-support--2026-02-04.md |
+| Vitamin D-3 2000 IU | NOW Foods | B001UZPY1O | 知名品牌、高性價比、240 Softgels | gap-fill-2026-03-01 |
+| Vitamin D+K2 Liquid | Thorne | B0038NF8MG | 高端品牌、D3+K2 液態配方、600 份 | gap-fill-2026-03-01 |
+| Vitamin D3 2000 IU | Kirkland Signature | B002RL8FE8 | Costco 品牌、600 Softgels、極高性價比 | gap-fill-2026-03-01 |
 
 ## 競品詳情
 
