@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-03",
+  "platform": "amazon_us",
+  "total_products_fetched": 10,
+  "total_reviews": 1000,
+  "products": [
+    {"asin": "B0FK1LF5PM", "name": "Owala FreeSip Water Bottle", "category": "water-bottle", "reviews": 100, "status": "completed"},
+    {"asin": "B0CP9YB3Q4", "name": "Stanley Quencher H2.0", "category": "water-bottle", "reviews": 100, "status": "completed", "review_needed": true, "review_reasons": ["non_english_22%", "date_clustering_66%"]},
+    {"asin": "B074PVTPBW", "name": "Mighty Patch Original", "category": "acne-treatment", "reviews": 100, "status": "completed"},
+    {"asin": "B0C6W3D4RM", "name": "Amazon Fire TV Stick 4K", "category": "streaming-stick", "reviews": 100, "status": "completed", "review_needed": true, "review_reasons": ["non_english_25%", "mixed_os_versions"]},
+    {"asin": "B00GS8W3T4", "name": "MedPride Nitrile Exam Gloves", "category": "disposable-gloves", "reviews": 100, "status": "completed"},
+    {"asin": "B07BGLT25K", "name": "Scott ComfortPlus TP", "category": "toilet-paper", "reviews": 100, "status": "completed"},
+    {"asin": "B0FLFR269F", "name": "Charmin Ultra Soft TP", "category": "toilet-paper", "reviews": 100, "status": "completed"},
+    {"asin": "B0FN4NH4K8", "name": "Angel Soft TP", "category": "toilet-paper", "reviews": 100, "status": "completed"},
+    {"asin": "B095CN96JS", "name": "Amazon Basics TP", "category": "toilet-paper", "reviews": 100, "status": "completed"},
+    {"asin": "B0113UZJE2", "name": "Etekcity Food Scale", "category": "kitchen-scale", "reviews": 100, "status": "completed"}
+  ],
+  "review_needed": ["B0CP9YB3Q4", "B0C6W3D4RM"],
+  "notes": "全部 10 個產品抓取+萃取完成。2 個 REVIEW_NEEDED（Stanley: 非英文+日期集中；Fire TV: 非英文+新舊OS混合）。"
+}

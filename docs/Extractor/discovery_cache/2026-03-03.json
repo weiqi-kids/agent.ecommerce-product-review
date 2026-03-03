@@ -1,0 +1,381 @@
+{
+  "date": "2026-03-03",
+  "platforms": {
+    "amazon": {
+      "count": 36,
+      "source": "bestsellers"
+    },
+    "bestbuy": {
+      "count": 4,
+      "source": "best-sellers"
+    },
+    "walmart": {
+      "count": 0,
+      "source": "best-sellers",
+      "note": "selector issue - 0 products"
+    }
+  },
+  "total_products": 40,
+  "products": [
+    {
+      "product_id": "B08JHCVHTY",
+      "title": "blink plus plan with monthly auto-renewal",
+      "platform": "amazon",
+      "rank": 1,
+      "rating": "4.4 out of 5 stars",
+      "review_count": "272,331",
+      "category": "all"
+    },
+    {
+      "product_id": "B0FK1LF5PM",
+      "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports",
+      "platform": "amazon",
+      "rank": 1,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "111,350",
+      "category": "all"
+    },
+    {
+      "product_id": "B09V7Z4TJG",
+      "title": "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation",
+      "platform": "amazon",
+      "rank": 1,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "18,708",
+      "category": "all"
+    },
+    {
+      "product_id": "B07MHJFRBJ",
+      "title": "Bounty Quick Size Paper Towels, White, 8 Family Rolls",
+      "platform": "amazon",
+      "rank": 1,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "229,283",
+      "category": "all"
+    },
+    {
+      "product_id": "B00GS8W3T4",
+      "title": "MedPride Powder-Free Nitrile Exam Gloves, Iris Blue, Medium, Box/100",
+      "platform": "amazon",
+      "rank": 1,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "102,769",
+      "category": "all"
+    },
+    {
+      "product_id": "B011LOOKV8",
+      "title": "50 Wheat Pennies (Unsearched Shotgun Roll) - Mixed Years Circulated Good or Bett",
+      "platform": "amazon",
+      "rank": 1,
+      "rating": "3.6 out of 5 stars",
+      "review_count": "1,659",
+      "category": "all"
+    },
+    {
+      "product_id": "B0DCH8VDXF",
+      "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to",
+      "platform": "amazon",
+      "rank": 2,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "27,001",
+      "category": "all"
+    },
+    {
+      "product_id": "B0113UZJE2",
+      "title": "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss, Baking, C",
+      "platform": "amazon",
+      "rank": 2,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "173,031",
+      "category": "all"
+    },
+    {
+      "product_id": "B08KT2Z93D",
+      "title": "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightw",
+      "platform": "amazon",
+      "rank": 2,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "64,457",
+      "category": "all"
+    },
+    {
+      "product_id": "B07BGLT25K",
+      "title": "Scott ComfortPlus Toilet Paper, 12 Double Rolls, 231 Sheets per Roll, Septic-Saf",
+      "platform": "amazon",
+      "rank": 2,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "129,134",
+      "category": "all"
+    },
+    {
+      "product_id": "B0C9S5PMSD",
+      "title": "Supmedic Medical Soft Max™ Nitrile Exam Gloves, 100 Count Latex-Free Powder-Free",
+      "platform": "amazon",
+      "rank": 2,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "23,806",
+      "category": "all"
+    },
+    {
+      "product_id": "B0CFYYBHK3",
+      "title": "Lincoln Wheat Cent 1909 S VDB Design 1 oz Pure .999 Copper Round Collectible Jum",
+      "platform": "amazon",
+      "rank": 2,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "506",
+      "category": "all"
+    },
+    {
+      "product_id": "B0DGHMNQ5Z",
+      "title": "Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones, Personalized Spatial Aud",
+      "platform": "amazon",
+      "rank": 3,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "42,696",
+      "category": "all"
+    },
+    {
+      "product_id": "B0CP9YB3Q4",
+      "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position",
+      "platform": "amazon",
+      "rank": 3,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "87,219",
+      "category": "all"
+    },
+    {
+      "product_id": "B09541P9WH",
+      "title": "Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, 100",
+      "platform": "amazon",
+      "rank": 3,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "71,046",
+      "category": "all"
+    },
+    {
+      "product_id": "B00NTCH52W",
+      "title": "Amazon Basics 20-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year ",
+      "platform": "amazon",
+      "rank": 3,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "904,852",
+      "category": "all"
+    },
+    {
+      "product_id": "B0FLFR269F",
+      "title": "Charmin Ultra Soft Toilet Paper, 6 Mega Rolls = 24 Regular Rolls",
+      "platform": "amazon",
+      "rank": 3,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "2,679",
+      "category": "all"
+    },
+    {
+      "product_id": "B07K9Q32MR",
+      "title": "Morgan Silver Dollar (Pre 1921 Morgan Silver Dollar 1878 to 1904)",
+      "platform": "amazon",
+      "rank": 3,
+      "rating": "4.0 out of 5 stars",
+      "review_count": "633",
+      "category": "all"
+    },
+    {
+      "product_id": "B0GJTFXNRX",
+      "title": "Apple AirTag (2nd Generation): Tracker for Keychain, Wallet, and More; Locator w",
+      "platform": "amazon",
+      "rank": 4,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "517",
+      "category": "all"
+    },
+    {
+      "product_id": "B0CYJBB2JQ",
+      "title": "bella 2 Slice Slim Toaster, Fits-anywhere™ Kitchenware, 6 Setting Shade Control ",
+      "platform": "amazon",
+      "rank": 4,
+      "rating": "4.3 out of 5 stars",
+      "review_count": "12,121",
+      "category": "all"
+    },
+    {
+      "product_id": "B074PVTPBW",
+      "title": "Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Pa",
+      "platform": "amazon",
+      "rank": 4,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "181,884",
+      "category": "all"
+    },
+    {
+      "product_id": "B0FN4NH4K8",
+      "title": "Angel Soft Toilet Paper, 18 Mega Rolls = 72 Regular Rolls, Soft and Strong Toile",
+      "platform": "amazon",
+      "rank": 4,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "96,028",
+      "category": "all"
+    },
+    {
+      "product_id": "B074CR89QG",
+      "title": "Amazon Brand - Presto! Ultra-Strong Premium Paper Towels, 158 Sheet Huge Roll - ",
+      "platform": "amazon",
+      "rank": 4,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "115,127",
+      "category": "all"
+    },
+    {
+      "product_id": "B07RZ4DJLL",
+      "title": "Unsearched Wheat Penny Roll w/Silver Mercury Dime End Old Us Coin Shotgun Lot Mi",
+      "platform": "amazon",
+      "rank": 4,
+      "rating": "3.8 out of 5 stars",
+      "review_count": "1,578",
+      "category": "all"
+    },
+    {
+      "product_id": "B0C6W3D4RM",
+      "title": "Amazon Fire TV Stick 4K Select (newest model), start streaming in 4K, AI-powered",
+      "platform": "amazon",
+      "rank": 5,
+      "rating": "4.0 out of 5 stars",
+      "review_count": "5,263",
+      "category": "all"
+    },
+    {
+      "product_id": "B0CJF94M8J",
+      "title": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking – 2 in 1 Olive Oil Dis",
+      "platform": "amazon",
+      "rank": 5,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "33,378",
+      "category": "all"
+    },
+    {
+      "product_id": "B00U2VQZDS",
+      "title": "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes Remove Wat",
+      "platform": "amazon",
+      "rank": 5,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "117,329",
+      "category": "all"
+    },
+    {
+      "product_id": "B0C2CY22B8",
+      "title": "Amazon Basics Everyday Disposable Paper Plates, 8.62 Inch, Microwave-Safe, Cut R",
+      "platform": "amazon",
+      "rank": 5,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "50,315",
+      "category": "all"
+    },
+    {
+      "product_id": "B07XG3RM58",
+      "title": "SUNLU PLA 3D Printer Filament PLA Filament 1.75mm, Neatly Wound 3D Printing Fila",
+      "platform": "amazon",
+      "rank": 5,
+      "rating": "4.4 out of 5 stars",
+      "review_count": "20,969",
+      "category": "all"
+    },
+    {
+      "product_id": "B0D24SHZRH",
+      "title": "1909-1958 US Mint Wheat Penny Shot Gun Roll w/Indian Head Cent End Penny Seller ",
+      "platform": "amazon",
+      "rank": 5,
+      "rating": "3.9 out of 5 stars",
+      "review_count": "206",
+      "category": "all"
+    },
+    {
+      "product_id": "B0DZ75TN5F",
+      "title": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi",
+      "platform": "amazon",
+      "rank": 6,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "20,057",
+      "category": "all"
+    },
+    {
+      "product_id": "B0CP4XY9QC",
+      "title": "YARRAMATE 16oz/470ml Glass Olive Oil Sprayer for Cooking with Stickers, 2 in 1 O",
+      "platform": "amazon",
+      "rank": 6,
+      "rating": "4.4 out of 5 stars",
+      "review_count": "39,263",
+      "category": "all"
+    },
+    {
+      "product_id": "B0BRMYHMS5",
+      "title": "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask | Elasticity & Hy",
+      "platform": "amazon",
+      "rank": 6,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "16,207",
+      "category": "all"
+    },
+    {
+      "product_id": "B095CN96JS",
+      "title": "Amazon Basics 2-Ply Soft Toilet Paper, 30 Rolls (5 Packs of 6), 350 Sheets per R",
+      "platform": "amazon",
+      "rank": 6,
+      "rating": "4.4 out of 5 stars",
+      "review_count": "94,674",
+      "category": "all"
+    },
+    {
+      "product_id": "B082XGL21J",
+      "title": "Gorilla Super Glue Gel XL, Clear Glue, 25 Gram (Pack of 1) - All Purpose and Fas",
+      "platform": "amazon",
+      "rank": 6,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "52,717",
+      "category": "all"
+    },
+    {
+      "product_id": "B0GF4CGVLK",
+      "title": "2026 U.S. Silver Eagle 1 oz Brilliant Uncirculated in Plastic Air-Tite Holder wi",
+      "platform": "amazon",
+      "rank": 6,
+      "rating": "5.0 out of 5 stars",
+      "review_count": "2",
+      "category": "all"
+    },
+    {
+      "product_id": "JCQ6HR559F",
+      "title": "Carnival Games Standard Edition - Windows [Digital]",
+      "platform": "bestbuy",
+      "rank": 1,
+      "rating": null,
+      "review_count": null,
+      "category": "electronics"
+    },
+    {
+      "product_id": "J33V32CTJ7",
+      "title": "Blizzard Entertainment - $50 Blizzard Balance Code [Digital]",
+      "platform": "bestbuy",
+      "rank": 2,
+      "rating": null,
+      "review_count": null,
+      "category": "electronics"
+    },
+    {
+      "product_id": "JJGXP2VCS6",
+      "title": "EA Sports FC 25 Ultimate Edition - Xbox Series X, Xbox Series S, Xbox One [Digit",
+      "platform": "bestbuy",
+      "rank": 3,
+      "rating": null,
+      "review_count": null,
+      "category": "electronics"
+    },
+    {
+      "product_id": "JCQ6HWT5CQ",
+      "title": "EA Sports FC 25 Standard Edition - Windows [Digital]",
+      "platform": "bestbuy",
+      "rank": 4,
+      "rating": null,
+      "review_count": null,
+      "category": "electronics"
+    }
+  ]
+}

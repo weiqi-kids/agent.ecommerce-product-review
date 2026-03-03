@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T00:10:00Z",
+  "last_updated": "2026-03-03T10:30:00Z",
   "products": [
     {
       "asin": "B0DGHMNQ5Z",
@@ -8,7 +8,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-02-24",
+      "last_checked": "2026-03-03",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -27,9 +27,9 @@
         "review_count": 41358
       },
       "check_result": {
-        "date": "2026-02-24",
+        "date": "2026-03-03",
         "status": "no_change",
-        "notes": "假貨風險持續存在但無惡化。2026 年假貨辨識仍具挑戰，視覺差異縮小。無新充電火災事件報導。無召回公告。",
+        "notes": "假貨問題持續存在，無新充電火災事件。無召回公告。",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -40,7 +40,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-02-24",
+      "last_checked": "2026-03-03",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -59,9 +59,9 @@
         "review_count": 5811
       },
       "check_result": {
-        "date": "2026-02-24",
+        "date": "2026-03-03",
         "status": "no_change",
-        "notes": "iCloud Lock 問題持續存在但無惡化跡象。未發現 2026 年新的大規模投訴。二手/翻新市場活躍，評論多為正面。無官方召回或聲明。",
+        "notes": "iCloud Lock 問題持續，翻新品評價尚可。無官方召回或聲明。",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -72,7 +72,7 @@
       "watch_reason": "quality_crisis",
       "severity": "medium",
       "added_date": "2026-02-17",
-      "last_checked": "2026-02-24",
+      "last_checked": "2026-03-03",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -90,9 +90,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-02-24",
+        "date": "2026-03-03",
         "status": "improved",
-        "notes": "產品本身連線能力已改善（升級版 Bluetooth + 第二代 UWB 晶片）。主要「不工作」原因識別為軟體相容性（需 iOS 26.2.1 + iPhone 11 以上）。嚴重度降級為 medium，檢查間隔延長至 14 天。建議下次重新抓取評論驗證。"
+        "notes": "iOS 26.2.1 已發佈，連接問題獲改善。軟體相容性為主因。持續改善中。"
       }
     },
     {
@@ -186,7 +186,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-03",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -210,9 +210,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-01",
+        "date": "2026-03-03",
         "status": "no_change",
-        "notes": "無 2026 新召回，舊召回為 2019 年不同型號。建議持續監控。",
+        "notes": "無 2026 新召回，舊召回為 2019 年不同型號。持續監控。",
         "report": "docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"
       }
     },
@@ -262,7 +262,7 @@
       "watch_reason": "quality_crisis",
       "severity": "medium",
       "added_date": "2026-02-08",
-      "last_checked": "2026-02-19",
+      "last_checked": "2026-03-03",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -281,9 +281,9 @@
         "success_rate": "24%"
       },
       "check_result": {
-        "date": "2026-02-19",
+        "date": "2026-03-03",
         "status": "improved",
-        "notes": "品質顯著改善，被列為 2026 年十大相框品牌。主要問題從品質轉為資訊透明度（不知道是塑膠非玻璃）。嚴重度降級為 medium，檢查間隔延長至 14 天。",
+        "notes": "2026 年品牌評價持續正面（4.5/5 星），品質改善趨勢維持。主要問題為材質透明度。",
         "report": "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md"
       }
     },
@@ -562,6 +562,99 @@
         "status": "new_entry",
         "notes": "缺口補齊階段發現。Prismatic Evolutions ETB 為 Amazon 平台篡改率最高產品（45%），系統性問題涉及整個 TCG 品類。",
         "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
+      }
+    },
+    {
+      "asin": "B0C6W3D4RM",
+      "name": "Amazon Fire TV Stick 4K Select",
+      "category": "streaming-stick",
+      "watch_reason": "design_flaw",
+      "severity": "medium",
+      "added_date": "2026-03-03",
+      "last_checked": "2026-03-03",
+      "check_interval_days": 14,
+      "alerts": [
+        {
+          "type": "os_restriction",
+          "description": "監控 Vega OS 側載限制是否透過韌體更新改善"
+        }
+      ],
+      "baseline": {
+        "vega_os_complaint_rate": "35%",
+        "avg_rating": 4.05,
+        "review_count": 100
+      },
+      "check_result": {
+        "date": "2026-03-03",
+        "status": "new_entry",
+        "notes": "Step 8 警告報告觸發自動監控。76% 負評屬核心功能失效（Vega OS 封閉系統）。",
+        "report": "docs/Narrator/warnings/fire-tv-stick-4k-select--2026-03-03.md"
+      }
+    },
+    {
+      "asin": "B0CP9YB3Q4",
+      "name": "Stanley Quencher H2.0 Tumbler 30 oz",
+      "category": "water-bottle",
+      "watch_reason": "review_anomaly",
+      "severity": "medium",
+      "added_date": "2026-03-03",
+      "last_checked": "2026-03-03",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "review_pattern",
+          "description": "監控非英文評論比例（22%）和日期集中度（66% 在 7 天內）是否正常化"
+        },
+        {
+          "type": "design_check",
+          "description": "監控 7% 傾斜漏液問題是否改善"
+        }
+      ],
+      "baseline": {
+        "non_english_rate": "22%",
+        "date_concentration_7d": "66%",
+        "leak_rate": "7%",
+        "avg_rating": 4.7,
+        "review_count": 100
+      },
+      "check_result": {
+        "date": "2026-03-03",
+        "status": "new_entry",
+        "notes": "REVIEW_NEEDED 觸發監控。評論異常模式需追蹤確認。",
+        "report": "docs/Narrator/comparisons/water-bottle--2026-03-03.md"
+      }
+    },
+    {
+      "asin": "B00GS8W3T4",
+      "name": "MedPride Nitrile Exam Gloves",
+      "category": "disposable-gloves",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-03-03",
+      "last_checked": "2026-03-03",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "quality_check",
+          "description": "監控 32% 撕裂率和近期批次品質下滑是否改善"
+        },
+        {
+          "type": "safety_check",
+          "description": "監控 4% 過敏反應（與無乳膠宣稱矛盾）"
+        }
+      ],
+      "baseline": {
+        "tear_rate": "32%",
+        "allergy_rate": "4%",
+        "quality_decline_reports": "10%",
+        "avg_rating": 4.3,
+        "review_count": 100
+      },
+      "check_result": {
+        "date": "2026-03-03",
+        "status": "new_entry",
+        "notes": "品質危機觸發監控。32% 撕裂率與品牌宣稱的「非凡強度」直接矛盾，4% 過敏反應為安全疑慮。",
+        "report": "docs/Narrator/comparisons/disposable-gloves--2026-03-03.md"
       }
     }
   ],

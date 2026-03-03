@@ -1,0 +1,98 @@
+{
+  "category": "kitchen-scale",
+  "date": "2026-03-03",
+  "products_compared": [
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale (EK6015)",
+      "source": "amazon_us extraction (2026-03-03)",
+      "overall_sentiment": 0.54,
+      "review_count_analyzed": 100,
+      "avg_rating": 4.65,
+      "total_platform_reviews": 173031
+    }
+  ],
+  "competitor_data": {
+    "source": "competitors/kitchen-scale--2026-02-20.md",
+    "key_competitors": [
+      {
+        "name": "OXO Good Grips 11-lb",
+        "asin": "B079D9B82W",
+        "recommendation_count": 8,
+        "price": "$49.99-$56",
+        "notes": "評測最高推薦（America's Test Kitchen 連續多年 Winner）；拉出式顯示解決大碗遮擋；30 分鐘自動關機"
+      },
+      {
+        "name": "Escali Primo",
+        "asin": "B0007GAWRS",
+        "recommendation_count": 7,
+        "price": "$26.95",
+        "notes": "評測第二高推薦（NY Times Wirecutter Top Pick）；唯一測試中所有校準重量（含 1 克）都正確；4.5 分鐘自動關機"
+      },
+      {
+        "name": "Ozeri Pronto",
+        "asin": "B004164SRA",
+        "recommendation_count": 6,
+        "price": "$11.50-$12",
+        "notes": "Amazon #1 暢銷廚房秤；精度極高；價格更低"
+      },
+      {
+        "name": "Greater Goods Digital",
+        "asin": "B0CF9PYFTZ",
+        "recommendation_count": 5,
+        "price": "$13",
+        "notes": "超薄設計；精度可靠；77,000+ 評論 4.6 星"
+      },
+      {
+        "name": "MyWeigh KD-8000",
+        "asin": "B00VEKX35Y",
+        "recommendation_count": 5,
+        "price": "$46-$67",
+        "notes": "烘焙百分比功能（Baker's Math）；可停用自動關機；AC 電源"
+      }
+    ]
+  },
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "rate": "34%",
+      "details": [
+        "16% 準確度問題/讀數不穩定（核心功能失效）",
+        "14% 耐久性問題（6-12 個月內停止運作）",
+        "4% 無法偵測小量（< 2g，如鹽、香料）"
+      ]
+    },
+    "creates_new_problems": {
+      "rate": "25%",
+      "details": [
+        "7% 2 分鐘自動關機過快且無法停用（干擾多步驟料理）",
+        "6% 平台尺寸過小（大型碗盤無法使用）",
+        "4% App 使用不便",
+        "3% 電池過快耗盡",
+        "3% 大容器遮擋顯示",
+        "2% USB 充電問題"
+      ]
+    },
+    "unrelated_to_product": {
+      "rate": "3%",
+      "details": ["3% 到貨時已使用/損壞（物流問題）"]
+    }
+  },
+  "competitive_verdict": {
+    "can_solve_problem": "partially",
+    "better_than_competitors": false,
+    "reasoning": "Etekcity EK6015 在競品清單中評測推薦次數僅 3 次（B 級），而 OXO Good Grips 有 8 次、Escali Primo 有 7 次。核心問題是準確度失效率 16% 和耐久性失效率 14%，這兩者直接違背廚房秤的存在意義。自動關機 2 分鐘且無法停用（7% 提及），嚴重影響多步驟烘焙/備料流程。Ozeri Pronto ($12) 和 Greater Goods ($13) 同價位競品在評測中精度更可靠。Escali Primo ($27) 在精度上是市場最佳選擇。本產品適合偶發性、低精度需求的基礎用戶，但不適合推薦給需要精準測量的烘焙或卡路里追蹤用戶。",
+    "caveats": [
+      "樣本為近期（2026-02 月）評論，可能過度代表老化機台的故障問題",
+      "平台整體 4.65 星（173,031 則）顯示歷史滿意度高，近期評論偏負可能是抽樣偏差",
+      "App 連接功能（VeSync）對部分用戶有附加價值",
+      "EK6015 是 Etekcity 的入門款，同品牌 Smart Nutrition Scale 在同類評測中評價更高"
+    ]
+  },
+  "verdict": {
+    "report_type": "comparison",
+    "confidence": "medium-high",
+    "reasoning": "產品能解決基本測量需求，但近期準確度和耐久性問題顯示其不再是最佳選擇。同價位有更可靠的競品（Ozeri $12、Escali $27）。適合產出比較報告，明確指出使用限制並推薦 Escali Primo 或 Ozeri Pronto 作為替代。",
+    "output_path": "docs/Narrator/comparisons/kitchen-scale--2026-03-03.md"
+  },
+  "summary": "Etekcity EK6015 近期樣本顯示 16% 準確度失效、14% 耐久性失效，核心功能可靠性不足。2 分鐘自動關機干擾多步驟料理（7%）。同價位 Ozeri Pronto ($12) 和 Escali Primo ($27) 在評測精度上更優（分別有 6 和 7 篇推薦）。建議產出比較報告，推薦精度更可靠的競品。"
+}

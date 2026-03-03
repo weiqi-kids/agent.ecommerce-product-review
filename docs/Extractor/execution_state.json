@@ -1,123 +1,41 @@
 {
-  "last_updated": "2026-03-01T18:15:00Z",
-  "last_completed_date": "2026-03-01",
+  "last_updated": "2026-03-03T10:45:00Z",
+  "last_completed_date": "2026-03-03",
   "execution_mode": "full_rerun",
-  "current_step": "completed",
+  "current_step": 8,
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "7 個監控項目今日到期並已檢查，2 個惡化（RELIEF SUN、eos Body Lotion），7 個未到期",
-      "items_checked": 7,
-      "results": {
-        "B0G4Z5G1NT": "worsening",
-        "B08KT2Z93D": "worsening",
-        "B092J8LPWR": "no_change",
-        "B093KDDGMJ": "no_change",
-        "B00016RL9G": "no_change",
-        "B07V6M4MSN": "no_change",
-        "B00OCGUG02": "no_change"
-      }
+      "note": "5 個監控項目檢查，3 no_change、2 improved"
     },
     "step_2": {
       "status": "completed",
-      "note": "4 個研究缺口：foam-playmat（部分完成, WebSearch 22 次但 WebFetch 僅 1 次）、kids-activity-book（排隊未執行）、interactive-pet-toy（待評論補齊）、monster-truck-toy（待評論補齊）",
-      "gap_types": {
-        "research_insufficient": 2,
-        "review_insufficient": 2
-      },
-      "results": {
-        "foam-playmat": "partial",
-        "kids-activity-book": "queued",
-        "interactive-pet-toy": "pending",
-        "monster-truck-toy": "pending"
-      }
+      "note": "40 個 REVIEW_NEEDED 掃描，35 建置期、2 暫緩、2 待補齊"
     },
     "step_3": {
       "status": "completed",
-      "note": "Discovery 執行成功（Amazon 36, Walmart 40, Best Buy 3），合計 79 個產品",
-      "discovery_output": true,
-      "platforms": {
-        "amazon": 36,
-        "walmart": 40,
-        "bestbuy": 3
-      },
-      "selector_issues": ["bestbuy:deals_top-rated", "walmart:beauty", "walmart:baby", "walmart:toys", "walmart:home", "walmart:food-beverage"]
+      "note": "Discovery 完成（Amazon 36, Best Buy 4, Walmart 0）"
     },
     "step_4": {
       "status": "completed",
-      "note": "14 個產品歸入 8 個現有類別，18 個新類別（32 產品），35 個跳過",
-      "new_categories": 18,
-      "products_to_existing": 14,
-      "products_skipped": 35
+      "note": "21 歸入現有、12 新類別、5 跳過"
     },
     "step_5": {
-      "status": "skipped",
-      "note": "14 個歸入已有類別且研究報告未過期，跳過研究步驟"
+      "status": "completed",
+      "note": "toilet-paper 研究完成。其他 11 新類別待下次。",
+      "completed_categories": ["toilet-paper"]
     },
     "step_6": {
       "status": "completed",
-      "note": "10 個 Amazon 產品萃取完成（493/500 評論），2 個 REVIEW_NEEDED（B0G22BHS13 僅 3 則、B081XMX6NS 語言不符）",
-      "products_extracted": 10,
-      "total_reviews": 453,
-      "review_needed": ["B0G22BHS13", "B081XMX6NS"]
+      "note": "10 產品萃取完成，2 REVIEW_NEEDED"
     },
     "step_7": {
       "status": "completed",
-      "note": "6 個類別比較分析完成（squishy-toy, laundry-stain, vitamin-d-supplement, drain-clog, streaming-stick, trading-cards），video-game-console 因無研究報告跳過",
-      "categories_analyzed": 6,
-      "categories_skipped": ["video-game-console"],
-      "verdicts": {
-        "squishy-toy": "pain_point",
-        "laundry-stain": "comparison",
-        "vitamin-d-supplement": "comparison",
-        "drain-clog": "comparison",
-        "streaming-stick": "comparison",
-        "trading-cards": "comparison"
-      }
+      "note": "6 類別比較分析完成"
     },
     "step_8": {
       "status": "completed",
-      "note": "6 個報告產出（1 痛點 + 5 比較），4 個標記 REVIEW_NEEDED",
-      "reports": {
-        "squishy-toy": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md",
-        "laundry-stain": "docs/Narrator/comparisons/laundry-stain--2026-03-01.md",
-        "vitamin-d-supplement": "docs/Narrator/comparisons/vitamin-d-supplement--2026-03-01.md",
-        "drain-clog": "docs/Narrator/comparisons/drain-clog--2026-03-01.md",
-        "streaming-stick": "docs/Narrator/comparisons/streaming-stick--2026-03-01.md",
-        "trading-cards": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
-      },
-      "review_needed": []
-    },
-    "gap_fill": {
-      "status": "completed",
-      "note": "4 個 REVIEW_NEEDED 報告全部補齊。12 個競品 ASIN 搜尋 + 1218 則新評論抓取 + L1-L6 萃取 + Step 7-8 重新執行。trading-cards 從 comparison 升級為 warning（系統性篡改 13-45%）。",
-      "categories_fixed": ["laundry-stain", "vitamin-d-supplement", "drain-clog", "trading-cards"],
-      "new_extractions": 12,
-      "new_reviews": 1218,
-      "verdict_changes": {
-        "trading-cards": "comparison → warning"
-      }
+      "note": "6 份報告產出（4 比較 + 1 推薦 + 1 警告）"
     }
-  },
-  "summary": {
-    "monitoring_checked": 7,
-    "monitoring_results": {
-      "worsening": 2,
-      "no_change": 5
-    },
-    "gap_fill_attempts": 4,
-    "gap_fill_results": {
-      "partial": 1,
-      "queued": 1,
-      "pending": 2
-    },
-    "discovery_products": 79,
-    "new_products_grouped": 14,
-    "new_categories": 18,
-    "new_reports": 7,
-    "review_needed_reports": 0,
-    "blocking_issues": [],
-    "new_watchlist_products": ["B0D9M7ST5H"]
-  },
-  "notes": "完整重跑 + 缺口補齊完成。7 個新報告（1 痛點 + 5 比較 + 1 警告）。trading-cards 發現 Amazon 平台系統性篡改問題（Prismatic Evo 45% 篡改率），從比較報告升級為警告報告。所有 REVIEW_NEEDED 已清除。"
+  }
 }

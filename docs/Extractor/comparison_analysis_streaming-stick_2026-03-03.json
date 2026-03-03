@@ -1,0 +1,90 @@
+{
+  "category": "streaming-stick",
+  "date": "2026-03-03",
+  "products_compared": [
+    {
+      "asin": "B0C6W3D4RM",
+      "name": "Amazon Fire TV Stick 4K Select (newest model)",
+      "source": "amazon_us extraction (2026-03-03)",
+      "overall_sentiment": 0.449,
+      "review_count_analyzed": 100,
+      "avg_rating_sample": 2.25,
+      "avg_rating_platform": 4.05,
+      "review_needed_flag": true,
+      "review_needed_reasons": [
+        "約 25% 評論為西班牙語，AI 分析可能有語言偏差",
+        "樣本 1 星佔 43%，與平台整體 4.05 星差異顯著（疑似新舊型號混合評分）"
+      ]
+    }
+  ],
+  "competitor_data": {
+    "source": "competitors/streaming-stick--2026-02-05.md",
+    "key_competitors": [
+      {
+        "name": "Roku Express 4K+",
+        "price": "$24-39.99",
+        "notes": "評測推薦：應用生態系最完整（10,000+），介面簡潔，C/P 值極高",
+        "advantage_over_focal": "支援第三方應用、無 Vega OS 限制"
+      },
+      {
+        "name": "Amazon Fire TV Stick 4K Max",
+        "price": "$49.99",
+        "notes": "評論提及：有開發者選項、支援 Android OS、支援側載",
+        "advantage_over_focal": "可安裝第三方應用，功能完整"
+      },
+      {
+        "name": "Onn Google TV 4K Box (Walmart)",
+        "price": "~$20",
+        "notes": "評論提及：25% 更便宜、RAM/儲存更大、可安裝任意 app",
+        "advantage_over_focal": "完整 Google TV，$20 更低價格"
+      },
+      {
+        "name": "Roku",
+        "price": "$20-100",
+        "notes": "評論提及：更穩定、app 相容性更好",
+        "advantage_over_focal": "開放生態系，無側載限制"
+      }
+    ]
+  },
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "rate": "76%",
+      "details": [
+        "35% 無法側載/安裝第三方 app（Vega OS 限制）",
+        "22% 無開發者選項",
+        "18% 特定主流 app 不相容（Spectrum、Rumble、Emby、IPTV 等）",
+        "6% 裝置短期內停止運作"
+      ]
+    },
+    "creates_new_problems": {
+      "rate": "13%",
+      "details": [
+        "5% 串流緩衝/卡頓",
+        "4% 遙控器故障/異響",
+        "2% 更新問題",
+        "2% 無畫面"
+      ]
+    },
+    "unrelated_to_product": {
+      "rate": "3%",
+      "details": ["3% 退款/客服困難"]
+    }
+  },
+  "competitive_verdict": {
+    "can_solve_problem": "conditional",
+    "better_than_competitors": false,
+    "reasoning": "Fire TV Stick 4K Select 搭載 Vega OS（非 Android），無法側載第三方應用程式，此限制在產品頁面未明確標示。對「僅使用 Netflix/Prime/Disney+ 等主流串流服務」的用戶，基礎功能尚可；但對需要 IPTV、Downloader、Emby 等應用的用戶，此產品完全無法解決問題。同價位競品（Onn Google TV 4K ~$20、Roku Express 4K+ ~$24）在功能開放性和 C/P 值上均明顯優於本品。",
+    "caveats": [
+      "僅適合只使用主流串流平台的入門用戶",
+      "REVIEW_NEEDED 旗標：樣本評分與平台整體差異顯著，建議人工確認",
+      "Vega OS 限制未在官方頁面明確揭露，具誤導性廣告風險"
+    ]
+  },
+  "verdict": {
+    "report_type": "warning",
+    "confidence": "medium",
+    "confidence_note": "受 REVIEW_NEEDED 影響，信心度降為 medium",
+    "output_path": "docs/Narrator/warnings/fire-tv-stick-4k-select--2026-03-03.md"
+  },
+  "summary": "Fire TV Stick 4K Select 因 Vega OS 無法側載第三方應用，76% 負評屬於核心功能失效。同價位競品（Onn $20、Roku Express 4K+ $24）功能更完整。建議產出警告報告，提醒用戶 Vega OS 限制。因 REVIEW_NEEDED 旗標，信心度為 medium，建議人工確認多語言評論分析準確性。"
+}

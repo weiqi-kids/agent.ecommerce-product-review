@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-03-01T10:00:00Z",
+  "last_updated": "2026-03-03T00:00:00Z",
   "issues": [
+    {
+      "platform": "walmart_us",
+      "category": "all",
+      "error_type": "selector_issue",
+      "first_seen": "2026-03-03",
+      "last_seen": "2026-03-03",
+      "occurrences": 1,
+      "status": "pending_fix",
+      "details": "best-sellers 全站頁面未找到商品元素，所有 productGrid 選擇器均無匹配，返回 0 筆"
+    },
     {
       "platform": "bestbuy_us",
       "category": "all",

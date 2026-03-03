@@ -1,0 +1,50 @@
+{
+  "date": "2026-03-03",
+  "total_review_needed": 40,
+  "gap_summary": {
+    "review_insufficient": 17,
+    "research_insufficient": 8,
+    "competitor_insufficient": 7,
+    "competitor_no_extraction": 5,
+    "other": 3
+  },
+  "priority_breakdown": {
+    "high_warnings": 4,
+    "medium_pain_points": 1,
+    "low_comparisons_recommendations": 35
+  },
+  "actionable_today": [
+    {
+      "category": "interactive-pet-toy",
+      "gap_type": "review_insufficient",
+      "action": "supplement_reviews",
+      "priority": "low",
+      "notes": "已有比較報告，待 Amazon 評論補齊"
+    },
+    {
+      "category": "monster-truck-toy",
+      "gap_type": "review_insufficient",
+      "action": "supplement_reviews",
+      "priority": "low",
+      "notes": "已有比較報告，待 Amazon 評論補齊"
+    }
+  ],
+  "deferred": [
+    {
+      "category": "foam-playmat",
+      "next_retry": "2026-03-06",
+      "reason": "WebFetch 權限限制，累計 4 次嘗試"
+    },
+    {
+      "category": "kids-activity-book",
+      "next_retry": "2026-03-06",
+      "reason": "排隊等待 foam-playmat，累計 3 次嘗試"
+    }
+  ],
+  "legacy_reports": {
+    "count": 35,
+    "date_range": "2026-02-05 to 2026-02-21",
+    "note": "建置期舊報告，將隨各類別重新進入 Step 3-8 流程時自然更新。不另外補齊。"
+  },
+  "decision": "今日聚焦 Step 3-8 新產品流程。舊 REVIEW_NEEDED 報告將在相關類別重新出現於排行榜時自然更新。interactive-pet-toy 和 monster-truck-toy 的評論補齊將在 Step 6 一併處理。"
+}

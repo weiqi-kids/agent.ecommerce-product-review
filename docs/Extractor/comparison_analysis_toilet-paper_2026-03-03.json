@@ -1,0 +1,416 @@
+{
+  "category": "toilet-paper",
+  "date": "2026-03-03",
+  "problem_definition": "消費者在選購衛生紙時，如何在柔軟度、強韌度、化糞池安全性、環保性與價格之間找到最佳平衡",
+  "products_compared": [
+    {
+      "asin": "B07BGLT25K",
+      "name": "Scott ComfortPlus",
+      "brand": "Scott (Kimberly-Clark)",
+      "price_usd": 5.68,
+      "price_per_roll_usd": 0.47,
+      "avg_rating": 4.55,
+      "rating_count": 129134,
+      "reviews_analyzed": 100,
+      "ply": 1,
+      "positioning": "中價值、化糞池安全、1-ply"
+    },
+    {
+      "asin": "B0FLFR269F",
+      "name": "Charmin Ultra Soft",
+      "brand": "Charmin (P&G)",
+      "price_usd": 7.97,
+      "price_per_roll_usd": 1.33,
+      "avg_rating": 4.85,
+      "rating_count": 2679,
+      "reviews_analyzed": 100,
+      "ply": 2,
+      "positioning": "市場最柔軟、高端旗艦"
+    },
+    {
+      "asin": "B0FN4NH4K8",
+      "name": "Angel Soft",
+      "brand": "Angel Soft (Georgia-Pacific)",
+      "price_usd": 12.66,
+      "price_per_roll_usd": 0.70,
+      "avg_rating": 4.75,
+      "rating_count": 96028,
+      "reviews_analyzed": 100,
+      "ply": 2,
+      "positioning": "超值 2-ply、家庭囤貨首選"
+    },
+    {
+      "asin": "B095CN96JS",
+      "name": "Amazon Basics 2-Ply",
+      "brand": "Amazon Basics",
+      "price_usd": 25.21,
+      "price_per_roll_usd": 0.84,
+      "avg_rating": 4.45,
+      "rating_count": 94674,
+      "reviews_analyzed": 100,
+      "ply": 2,
+      "positioning": "平價入門、大包裝"
+    }
+  ],
+  "comparison_dimensions": {
+    "softness_texture": {
+      "dimension": "柔軟度 / 觸感",
+      "scores": {
+        "B07BGLT25K": {
+          "l4_sentiment_score": 0.45,
+          "verdict": "差",
+          "evidence": "16% 用戶明確描述為粗糙、砂紙感，16% 負評率；1-ply 設計先天限制柔軟度"
+        },
+        "B0FLFR269F": {
+          "l4_sentiment_score": 0.94,
+          "verdict": "最佳",
+          "evidence": "94% 正面情感，52 則提及，業界最高柔軟度評分；「最柔軟的衛生紙」為最常見正評"
+        },
+        "B0FN4NH4K8": {
+          "l4_sentiment_score": 0.72,
+          "verdict": "良好",
+          "evidence": "整體 72% 正面，但 9% 明確表示不夠軟甚至形容為砂紙；2-ply 設計整體優於 Scott"
+        },
+        "B095CN96JS": {
+          "l4_sentiment_score": 0.41,
+          "verdict": "差",
+          "evidence": "27% 用戶（最高比例）抱怨粗糙，「砂紙」描述頻繁出現；廣告「Soft」聲稱被直接反駁"
+        }
+      },
+      "ranking": ["B0FLFR269F", "B0FN4NH4K8", "B07BGLT25K", "B095CN96JS"]
+    },
+    "strength_durability": {
+      "dimension": "強韌度 / 耐用性",
+      "scores": {
+        "B07BGLT25K": {
+          "l4_sentiment_score": 0.52,
+          "verdict": "中等",
+          "evidence": "52% 混合情感，部分用戶滿意，4% 報告撕裂問題；1-ply 設計限制強度"
+        },
+        "B0FLFR269F": {
+          "l4_sentiment_score": 0.88,
+          "verdict": "最佳",
+          "evidence": "88% 正面，16 則提及；用戶讚揚「柔軟同時強韌」，不易意外撕裂"
+        },
+        "B0FN4NH4K8": {
+          "l4_sentiment_score": 0.82,
+          "verdict": "良好",
+          "evidence": "82% 正面，22 則提及（最多討論）；2-ply 設計，手指不易穿透，整體評價穩定"
+        },
+        "B095CN96JS": {
+          "l4_sentiment_score": 0.52,
+          "verdict": "中等",
+          "evidence": "52% 混合情感，22% 用戶感覺薄如 1-ply，8% 抱怨撕裂問題，表現遜於同為 2-ply 的 Angel Soft"
+        }
+      },
+      "ranking": ["B0FLFR269F", "B0FN4NH4K8", "B07BGLT25K", "B095CN96JS"]
+    },
+    "value_for_money": {
+      "dimension": "性價比",
+      "scores": {
+        "B07BGLT25K": {
+          "l4_sentiment_score": 0.78,
+          "price_per_roll_usd": 0.47,
+          "verdict": "最佳",
+          "evidence": "78% 正面，27 則提及；「與高端品牌同等品質、三分之一價格」為核心評價；最低單捲價格"
+        },
+        "B0FLFR269F": {
+          "l4_sentiment_score": 0.65,
+          "price_per_roll_usd": 1.33,
+          "verdict": "中等",
+          "evidence": "65% 混合情感，4% 認為超過每捲一美元太貴；品質領先，但溢價明顯"
+        },
+        "B0FN4NH4K8": {
+          "l4_sentiment_score": 0.88,
+          "price_per_roll_usd": 0.70,
+          "verdict": "良好",
+          "evidence": "88% 正面，32 則提及（最多）；「比倉儲超市更划算」為典型評價；量大捲大 CP 值高"
+        },
+        "B095CN96JS": {
+          "l4_sentiment_score": 0.78,
+          "price_per_roll_usd": 0.84,
+          "verdict": "中等",
+          "evidence": "78% 正面，38 則提及（最多）；但絕對單捲價格高於 Angel Soft 與 Scott；品質下滑後 CP 值下降"
+        }
+      },
+      "ranking": ["B07BGLT25K", "B0FN4NH4K8", "B095CN96JS", "B0FLFR269F"]
+    },
+    "septic_safety": {
+      "dimension": "化糞池安全性 / 可沖馬桶性",
+      "scores": {
+        "B07BGLT25K": {
+          "l4_sentiment_score": 0.60,
+          "verdict": "優秀",
+          "evidence": "1-ply 設計溶解最快，12 則提及；「RV 和化糞池首選」為常見評價；1 例堵塞報告（100 則中）"
+        },
+        "B0FLFR269F": {
+          "l4_sentiment_score": null,
+          "verdict": "未驗證（正面聲稱）",
+          "evidence": "無評論提及堵塞或化糞池問題，但也無積極確認；研究顯示 Charmin 在化糞池溶解測試中表現差"
+        },
+        "B0FN4NH4K8": {
+          "l4_sentiment_score": 0.85,
+          "verdict": "良好",
+          "evidence": "85% 正面，10 則提及；SFI 認證；研究顯示 Angel Soft 是 2-ply 中溶解最快的品牌之一"
+        },
+        "B095CN96JS": {
+          "l4_sentiment_score": 0.88,
+          "verdict": "良好",
+          "evidence": "88% 正面，8 則提及；專業化糞池業者推薦從 Charmin 換用此品牌；FSC 認證"
+        }
+      },
+      "ranking": ["B07BGLT25K", "B0FN4NH4K8", "B095CN96JS", "B0FLFR269F"]
+    },
+    "consistency_reliability": {
+      "dimension": "品質穩定性",
+      "scores": {
+        "B07BGLT25K": {
+          "shrinkflation_rate": "8%",
+          "verdict": "有疑慮",
+          "evidence": "8% 用戶報告縮水通膨，網路銷售版與實體店版本差異明顯，長期用戶注意品質下滑"
+        },
+        "B0FLFR269F": {
+          "quality_issue_rate": "7%",
+          "verdict": "輕微疑慮",
+          "evidence": "7% 品質不一致，2% 反映 Amazon 版品質遜於店面版；評論數較少（2679 筆），可信度受限"
+        },
+        "B0FN4NH4K8": {
+          "formula_change_rate": "5%",
+          "verdict": "輕微疑慮",
+          "evidence": "5% 長期用戶反映配方改變；研究確認 2019-2024 年每捲張數從 429 降至 320（-25.4%）"
+        },
+        "B095CN96JS": {
+          "shrinkflation_rate": "14%",
+          "verdict": "嚴重疑慮",
+          "evidence": "14% 報告品質下滑（最高比例），縮水通膨投訴具體且嚴重，多名長期用戶明確放棄此品牌"
+        }
+      },
+      "ranking": ["B0FLFR269F", "B0FN4NH4K8", "B07BGLT25K", "B095CN96JS"]
+    },
+    "environmental": {
+      "dimension": "環保性",
+      "notes": "四個受分析產品均為原生木漿製造，無竹纖維或再生紙選項",
+      "scores": {
+        "B07BGLT25K": "無 FSC 認證資訊",
+        "B0FLFR269F": "無 FSC 認證資訊；P&G 公司 NRDC 評級歷史為 F 級",
+        "B0FN4NH4K8": "SFI 永續森林管理認證",
+        "B095CN96JS": "FSC N004130 認證，最具可信度的環保認證"
+      },
+      "ranking": ["B095CN96JS", "B0FN4NH4K8", "B07BGLT25K", "B0FLFR269F"]
+    }
+  },
+  "negative_review_classification": {
+    "B07BGLT25K": {
+      "product_name": "Scott ComfortPlus",
+      "total_negative_rate": "~35%",
+      "functional_failure": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "rate": "16%",
+        "issues": [
+          "rough_texture_not_soft（16%）：粗糙感與品牌「ComfortPlus」核心承諾矛盾",
+          "small_roll_size（22%）：規格縮水導致「Double Roll」宣稱失真"
+        ],
+        "severity": "medium"
+      },
+      "new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "rate": "2%",
+        "issues": [
+          "septic_issue（2%）：2 例化糞池堵塞，嚴重性高但頻率低",
+          "shrinkflation_quality_decline（8%）：長期品質下滑造成信任損失"
+        ],
+        "severity": "high（少數但嚴重）"
+      },
+      "unrelated_issues": {
+        "type": "📦 與產品無關（物流）",
+        "rate": "4%",
+        "issues": [
+          "misleading_product_images（4%）：商品圖片與實物尺寸差異（部分責任在賣家）"
+        ],
+        "severity": "low"
+      }
+    },
+    "B0FLFR269F": {
+      "product_name": "Charmin Ultra Soft",
+      "total_negative_rate": "~15%",
+      "functional_failure": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "rate": "8%",
+        "issues": [
+          "roll_size_smaller_than_expected（8%）：「Mega Roll」實際尺寸遠小於預期",
+          "quality_inconsistency（7%）：同批次品質不一，偶發粗糙捲"
+        ],
+        "severity": "medium"
+      },
+      "new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "rate": "2%",
+        "issues": [
+          "lint_production（2%）：掉毛問題影響浴室清潔",
+          "quality_difference_vs_store_bought（2%）：Amazon 版可能品質較低，造成品牌期望落差"
+        ],
+        "severity": "low"
+      },
+      "unrelated_issues": {
+        "type": "📦 與產品無關（物流）",
+        "rate": "1%",
+        "issues": [
+          "arrived_damaged（1%）：配送過程中被壓扁，影響捲架安裝"
+        ],
+        "severity": "low"
+      }
+    },
+    "B0FN4NH4K8": {
+      "product_name": "Angel Soft",
+      "total_negative_rate": "~22%",
+      "functional_failure": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "rate": "9%",
+        "issues": [
+          "not_soft_as_advertised（9%）：「Soft and Strong」廣告柔軟度承諾不符，9% 用戶明確投訴",
+          "formula_change_perception（5%）：長期配方改變導致舊用戶失望"
+        ],
+        "severity": "medium"
+      },
+      "new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "rate": "5%",
+        "issues": [
+          "skin_irritation（3%）：皮膚刺激、破皮，嚴重性高",
+          "roll_too_large_for_holder（3%）：Mega Roll 尺寸過大，部分捲架無法容納",
+          "mold_or_odor（2%）：發霉或異味（倉儲問題）"
+        ],
+        "severity": "high（皮膚刺激需重點標注）"
+      },
+      "unrelated_issues": {
+        "type": "📦 與產品無關（物流）",
+        "rate": "3%",
+        "issues": [
+          "damaged_packaging_on_delivery（1%）：包裝破損",
+          "mold_or_odor（部分）：倉儲受潮導致發霉，非產品本身缺陷"
+        ],
+        "severity": "medium"
+      }
+    },
+    "B095CN96JS": {
+      "product_name": "Amazon Basics 2-Ply",
+      "total_negative_rate": "~60%",
+      "functional_failure": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "rate": "49%",
+        "issues": [
+          "paper_too_rough_not_soft（27%）：27% 用戶抱怨粗糙，「Soft」廣告聲稱被直接反駁",
+          "paper_too_thin（22%）：2-ply 廣告但感覺如 1-ply，薄度問題嚴重",
+          "poor_absorbency（7%）：吸水性不足，需使用更多張數",
+          "not_equivalent_to_claimed_regular_rolls（5%）：「185 捲等值」聲稱遭用戶直接反駁"
+        ],
+        "severity": "high"
+      },
+      "new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "rate": "18%",
+        "issues": [
+          "quality_degradation_shrinkflation（14%）：嚴重縮水通膨，長期用戶信任崩潰",
+          "skin_irritation（4%）：燒灼感、皮膚刺激，嚴重性高",
+          "shedding_shredding（8%）：掉屑問題造成清潔困擾"
+        ],
+        "severity": "high"
+      },
+      "unrelated_issues": {
+        "type": "📦 與產品無關（物流）",
+        "rate": "3%",
+        "issues": [
+          "moldy_damaged_on_arrival（3%）：發霉/損壞到貨（倉儲或配送問題）"
+        ],
+        "severity": "high（食安/衛生層面需關注）"
+      }
+    }
+  },
+  "cross_product_softness_comparison": {
+    "note": "本次分析不包含 Cottonelle Ultra ComfortCare（Consumer Reports 整體最佳）、Quilted Northern Ultra Plush（最奢華）等市場頂級競品，比較結論侷限於此 4 款產品",
+    "market_context": "市場研究指出，Charmin Ultra Soft 為業界柔軟度標桿；Cottonelle Ultra ComfortCare 為整合評測第一；Angel Soft 和 Amazon Basics 定位於超值段，柔軟度讓步於價格"
+  },
+  "verdict": {
+    "best_overall": "B0FLFR269F",
+    "best_overall_rationale": "Charmin Ultra Soft 以 94% 柔軟度正面情感、88% 強韌度、82% 撕扯品質在 4 款中全面領先；雖然單捲價格最高（$1.33），但在追求舒適體驗的消費者中有壓倒性優勢",
+    "best_value": "B07BGLT25K",
+    "best_value_rationale": "Scott ComfortPlus 以最低單捲價 $0.47 提供可接受的基礎功能；化糞池安全性出色（1-ply 溶解最快）；適合預算有限或 RV/化糞池用戶",
+    "best_softness": "B0FLFR269F",
+    "best_softness_rationale": "Charmin Ultra Soft 以 L4 softness score 0.94 大幅領先，其他三款均在 0.72 以下；業界評測亦確認其為市場最柔軟品牌",
+    "best_septic_safe": "B07BGLT25K",
+    "best_septic_safe_rationale": "Scott ComfortPlus 1-ply 設計溶解速度最快，60% 正面化糞池情感，多則評論明確提及「RV 和化糞池首選」；Charmin Ultra Soft 在外部研究中化糞池溶解測試表現最差",
+    "best_bulk_value": "B0FN4NH4K8",
+    "best_bulk_value_rationale": "Angel Soft 以 $0.70/捲 + 18 Mega Rolls（320 張/捲）提供最佳家庭囤貨 CP 值；value 情感分數 88% 為四款最高",
+    "warnings": [
+      {
+        "asin": "B095CN96JS",
+        "product": "Amazon Basics 2-Ply",
+        "warning_type": "品質嚴重下滑",
+        "severity": "high",
+        "description": "27% 用戶描述為粗糙/砂紙，22% 認為薄如 1-ply，14% 報告縮水通膨，4% 有皮膚刺激——在 4 款中負評比例最高，且核心廣告聲稱（Soft、2-ply、185捲等值）均被用戶直接反駁",
+        "recommendation": "不推薦作為主力選擇；若追求預算價格，Scott ComfortPlus 或 Angel Soft 提供更可靠的性能"
+      },
+      {
+        "asin": "B07BGLT25K",
+        "product": "Scott ComfortPlus",
+        "warning_type": "柔軟度廣告不符",
+        "severity": "medium",
+        "description": "「ComfortPlus」品牌名稱暗示高舒適度，但 16% 用戶描述為粗糙/砂紙；1-ply 設計先天柔軟度有限",
+        "recommendation": "適合化糞池/RV 用戶或預算敏感消費者；不適合追求柔軟舒適體驗者"
+      },
+      {
+        "asin": "B0FN4NH4K8",
+        "product": "Angel Soft",
+        "warning_type": "皮膚刺激風險",
+        "severity": "medium",
+        "description": "3% 用戶報告皮膚刺激，其中 1 例嚴重到皮膚破損；敏感肌膚用戶需注意",
+        "recommendation": "一般用戶適合；敏感肌膚建議優先考慮 Charmin Ultra Gentle（含乳液）"
+      },
+      {
+        "type": "市場背景警告",
+        "warning_type": "縮水通膨普遍問題",
+        "severity": "medium",
+        "description": "四款產品均有程度不一的縮水通膨問題（Amazon Basics 最嚴重 14%，Angel Soft 5%，Scott 8%，Charmin 7%）；2026 年關稅將進一步推升價格 20-37%",
+        "recommendation": "建議追蹤每捲實際尺寸和每張成本，勿僅依賴品牌聲稱的規格"
+      }
+    ],
+    "report_type": "comparison",
+    "report_type_rationale": "四款產品均能在不同程度上解決「衛生紙選購問題」，但各自在不同訴求上表現分化明顯（Charmin 主導柔軟度、Scott 主導化糞池安全性、Angel Soft 主導家庭 CP 值）；不存在「全面最佳」的單一選擇，故產出比較報告而非推薦報告"
+  },
+  "segment_recommendations": {
+    "comfort_seekers": {
+      "segment": "追求舒適柔軟體驗",
+      "recommended": "B0FLFR269F（Charmin Ultra Soft）",
+      "rationale": "94% 柔軟度正面評分，業界頂尖",
+      "alternative": "市場競品 Cottonelle Ultra ComfortCare（Consumer Reports 整體最佳，需另行比較）"
+    },
+    "septic_rv_users": {
+      "segment": "化糞池 / RV / 船艇用戶",
+      "recommended": "B07BGLT25K（Scott ComfortPlus）",
+      "rationale": "1-ply 溶解最快，多則評論明確確認安全性",
+      "alternative": "Scott 1000（ASIN B093CKHPKK，更高張數、更低成本）"
+    },
+    "family_bulk_buyers": {
+      "segment": "家庭大量囤貨",
+      "recommended": "B0FN4NH4K8（Angel Soft）",
+      "rationale": "$0.70/捲，Mega Roll 持久耐用，88% 高 CP 值評分",
+      "alternative": "Amazon Brand Presto! Ultra-Soft（ASIN B074CRK54X，$0.37/100 張，評測排名更高）"
+    },
+    "eco_conscious": {
+      "segment": "環保意識消費者",
+      "recommended": "市場競品 Reel Premium Bamboo 或 Who Gives A Crap",
+      "rationale": "四款受分析產品均為原生木漿，不滿足環保需求",
+      "note": "若必須在四款中選擇，Amazon Basics（FSC認證）和 Angel Soft（SFI認證）略優"
+    }
+  },
+  "data_confidence": {
+    "overall": "medium-high",
+    "notes": [
+      "四款產品均有 100 則評論分析，數據可信度高",
+      "Charmin Ultra Soft（B0FLFR269F）僅 2679 筆總評分，相較其他三款（94K-129K 筆）代表性較低",
+      "外部競品比較基於研究報告摘要，非直接評論分析",
+      "WebFetch 研究報告僅 1 次完整抓取（工具限制），市場背景資料深度受限"
+    ]
+  },
+  "summary": "本次比較分析衛生紙市場 4 款主流產品，結論為：Charmin Ultra Soft（B0FLFR269F）在柔軟度（0.94）和強韌度（0.88）全面領先，最適合追求舒適體驗者，但單捲定價最高（$1.33）；Angel Soft（B0FN4NH4K8）以最佳 CP 值情感分數（0.88）和 $0.70/捲在家庭囤貨市場中具競爭力；Scott ComfortPlus（B07BGLT25K）為化糞池/RV 用戶首選，1-ply 設計溶解最快，價格最低（$0.47/捲）；Amazon Basics（B095CN96JS）表現最差，27% 粗糙投訴率、22% 薄度投訴率、14% 縮水通膨，且多項廣告聲稱遭用戶直接反駁，不建議作為主力選擇。市場整體面臨縮水通膨（四款均有）和 2026 年關稅漲價壓力，消費者選購時需注意每張實際成本而非包裝標示規格。"
+}

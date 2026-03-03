@@ -105,27 +105,27 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-03-01 | 170 | 36 ✅ | ✅ 正常 |
-| bestbuy_us | 2026-03-01 | 3 | 3 ⚠️ | ⚠️ selector issue |
-| walmart_us | 2026-03-01 | 40 | 40 ✅ | ✅ 正常 |
+| amazon_us | 2026-03-03 | 180 | 36 ✅ | ✅ 正常 |
+| bestbuy_us | 2026-03-03 | 7 | 4 ⚠️ | ⚠️ selector issue |
+| walmart_us | 2026-03-03 | 40 | 0 ❌ | ❌ selector 全面失效 |
 
 ### 監控清單
 
 | 類型 | 數量 |
 |------|------|
-| 監控產品 | 16 |
+| 監控產品 | 19 |
 | 研究缺口類別 | 4 |
 | 暫緩發佈類別 | 0 |
 
-### 今日統計 (2026-03-01)
+### 今日統計 (2026-03-03)
 
 | 指標 | 數值 |
 |------|------|
-| Discovery 產品 | 79 (Amazon 36 + Walmart 40 + Best Buy 3) |
-| 監控追蹤 | 7 個檢查，2 個惡化 |
-| 新報告 | 7（1 痛點 + 5 比較 + 1 警告） |
-| 新類別 | 18 |
-| REVIEW_NEEDED | 0（4 個已補齊） |
+| Discovery 產品 | 40 (Amazon 36 + Best Buy 4 + Walmart 0) |
+| 監控追蹤 | 5 個檢查，2 改善、0 惡化 |
+| 新報告 | 6（4 比較 + 1 推薦 + 1 警告） |
+| 新類別 | 12 |
+| REVIEW_NEEDED | 2（Stanley, Fire TV） |
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

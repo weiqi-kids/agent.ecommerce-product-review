@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "category": "water-bottle",
+    "problem_statement": "使用者需要在外出、運動、辦公時長時間保持飲品溫度，並避免漏水、方便攜帶",
+    "analysis_date": "2026-03-03",
+    "research_report": "docs/Extractor/research/water-bottle--2026-02-20.md",
+    "competitors_report": "docs/Extractor/competitors/water-bottle--2026-02-20.md",
+    "products_analyzed": 2,
+    "data_sources": ["amazon_us"]
+  },
+
+  "products": [
+    {
+      "product_id": "B0FK1LF5PM",
+      "name": "Owala FreeSip Insulated Stainless Steel Water Bottle 32oz",
+      "brand": "Owala",
+      "price_usd": 34.94,
+      "avg_rating": 4.75,
+      "review_count_total": 111350,
+      "reviews_analyzed": 100,
+      "confidence": "high",
+      "review_needed": false,
+      "platform": "amazon_us"
+    },
+    {
+      "product_id": "B0CP9YB3Q4",
+      "name": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30oz",
+      "brand": "STANLEY",
+      "price_usd": 35.00,
+      "avg_rating": 4.75,
+      "review_count_total": 87219,
+      "reviews_analyzed": 100,
+      "confidence": "medium",
+      "review_needed": true,
+      "review_needed_reasons": [
+        "非英文評論比例約 22%（超過 20% 閾值），US listing 出現大量西班牙文、法文評論",
+        "評論日期集中，約 66% 評論集中在最近 7 天（2026-02-22 至 2026-02-28），疑似異常刷評"
+      ],
+      "platform": "amazon_us"
+    }
+  ],
+
+  "dimension_comparison": {
+    "insulation": {
+      "dimension": "保溫/保冷性能",
+      "winner": "STANLEY",
+      "winner_note": "Stanley 資料信心度為 medium，請參考 review_needed 警告",
+      "scores": {
+        "B0FK1LF5PM": {
+          "sentiment_score": 0.85,
+          "mention_count": 15,
+          "claim": "冷飲保冷 24 小時",
+          "verdict": "Supported",
+          "evidence_summary": "85% 正面評論確認保冷效果，部分使用者報告冰塊維持 2 天以上；僅 1 則評論回報 30 分鐘失效（疑似瑕疵品）"
+        },
+        "B0CP9YB3Q4": {
+          "sentiment_score": 0.88,
+          "mention_count": 32,
+          "claim": "冷飲保冷 9 小時、保冰 40 小時",
+          "verdict": "Partial",
+          "evidence_summary": "88% 正面，多則評論提及冰塊維持超 24 小時；但 2% 回報完全無隔熱（疑似瑕疵品或假貨）",
+          "confidence_caveat": "因 [REVIEW_NEEDED] 標記，此數據可信度為 medium"
+        }
+      }
+    },
+    "leak_proof": {
+      "dimension": "防漏設計",
+      "winner": "Owala FreeSip",
+      "scores": {
+        "B0FK1LF5PM": {
+          "sentiment_score": 0.80,
+          "mention_count": 12,
+          "claim": "防漏鎖蓋",
+          "verdict": "Supported",
+          "evidence_summary": "80% 正面確認鎖蓋防漏可靠，使用者甩動測試通過；吸管脫落時（9%）會漏液為已知問題"
+        },
+        "B0CP9YB3Q4": {
+          "sentiment_score": 0.28,
+          "mention_count": 14,
+          "claim": "設計以抵擋飛濺",
+          "verdict": "Contradicted",
+          "evidence_summary": "7% 用戶回報傾斜或搖晃時漏液，造成包包、衣物、車座受損；防漏聲明不符合實際",
+          "confidence_caveat": "因 [REVIEW_NEEDED] 標記，此數據可信度為 medium"
+        }
+      }
+    },
+    "durability": {
+      "dimension": "耐用性",
+      "winner": "tie_with_caveats",
+      "winner_note": "兩者均有耐用性問題，Owala 蓋子易壞，Stanley 到貨即有刮痕",
+      "scores": {
+        "B0FK1LF5PM": {
+          "lid_breaking_rate": "9%",
+          "severity": "high",
+          "evidence_summary": "9% 用戶回報蓋子按鈕、彈簧、鎖扣在數週至數月後損壞，導致產品完全無法使用"
+        },
+        "B0CP9YB3Q4": {
+          "scratches_on_arrival_rate": "8%",
+          "severity": "medium",
+          "evidence_summary": "8% 用戶收到有刮痕的新品或疑似二手商品，整體使用耐用性評分混合（0.62）",
+          "confidence_caveat": "因 [REVIEW_NEEDED] 標記，此數據可信度為 medium"
+        }
+      }
+    },
+    "usability": {
+      "dimension": "使用便利性",
+      "winner": "Owala FreeSip",
+      "scores": {
+        "B0FK1LF5PM": {
+          "dual_drinking_mode_score": 0.85,
+          "ease_of_cleaning_score": 0.81,
+          "cup_holder_fit_issue_rate": "5%",
+          "evidence_summary": "FreeSip 雙模式（吸管 + 仰頭直飲）獲廣泛肯定，廣口方便清洗，但 32oz 底座無法放入多數杯架"
+        },
+        "B0CP9YB3Q4": {
+          "size_portability_score": 0.80,
+          "handle_comfort_score": 0.60,
+          "straw_lid_design_score": 0.58,
+          "cup_holder_fit": "Supported（窄底錐形設計）",
+          "evidence_summary": "30oz 尺寸適中，窄底座可放入杯架（Stanley 優勢），但部分使用者不習慣強制使用吸管設計",
+          "confidence_caveat": "因 [REVIEW_NEEDED] 標記，此數據可信度為 medium"
+        }
+      }
+    },
+    "value": {
+      "dimension": "性價比",
+      "winner": "Owala FreeSip",
+      "scores": {
+        "B0FK1LF5PM": {
+          "price_usd": 34.94,
+          "value_sentiment_score": 0.80,
+          "evidence_summary": "用戶普遍認為物有所值，終身保固（部分有換新把手記錄）強化性價比"
+        },
+        "B0CP9YB3Q4": {
+          "price_usd": 35.00,
+          "value_sentiment_score": 0.78,
+          "evidence_summary": "價格相近，但 1 則評論提及價格翻倍（疑似加價轉售）；漏液問題若發生則嚴重折損性價比",
+          "confidence_caveat": "因 [REVIEW_NEEDED] 標記，此數據可信度為 medium"
+        }
+      }
+    }
+  },
+
+  "negative_review_classification": {
+    "B0FK1LF5PM": {
+      "product_name": "Owala FreeSip 32oz",
+      "cannot_solve_problem": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "lid_breaking",
+            "rate": "9%",
+            "severity": "high",
+            "description": "蓋子按鈕、彈簧、鎖扣損壞，產品完全無法使用"
+          },
+          {
+            "issue": "cold_retention_failure",
+            "rate": "1%",
+            "severity": "high",
+            "description": "部分瑕疵品 30 分鐘內失去保冷能力"
+          },
+          {
+            "issue": "rust_leaking",
+            "rate": "1%",
+            "severity": "high",
+            "description": "使用 4 個月後從不鏽鋼內膽接縫滲出鏽水，潛在安全疑慮"
+          }
+        ]
+      },
+      "creates_new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "straw_falling_out",
+            "rate": "9%",
+            "severity": "medium",
+            "description": "吸管無法穩固卡住，頻繁脫落造成漏液，需持續重新安裝"
+          },
+          {
+            "issue": "doesnt_fit_cup_holder",
+            "rate": "5%",
+            "severity": "low",
+            "description": "32oz 底座過大，無法放入汽車杯架，限制行車使用場景"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "type": "📦 與產品無關（物流）",
+        "issues": [
+          {
+            "issue": "dented_damaged_on_arrival",
+            "rate": "7%",
+            "severity": "medium",
+            "description": "收到凹損商品，主要為物流/包裝保護問題"
+          },
+          {
+            "issue": "received_used_or_counterfeit",
+            "rate": "3%",
+            "severity": "high",
+            "description": "收到已使用品或假貨，為 Amazon 第三方賣家問題，非產品本身缺陷"
+          },
+          {
+            "issue": "button_malfunction",
+            "rate": "2%",
+            "severity": "high",
+            "description": "鎖扣按鈕失效（部分可能為假貨導致）"
+          }
+        ]
+      }
+    },
+    "B0CP9YB3Q4": {
+      "product_name": "Stanley Quencher H2.0 30oz",
+      "data_confidence": "medium",
+      "review_needed_warning": "以下數據因 [REVIEW_NEEDED] 標記，評論真實性存疑（22% 非英文評論、66% 評論集中在 7 天內），請謹慎解讀",
+      "cannot_solve_problem": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "leaking_when_tilted",
+            "rate": "7%",
+            "severity": "high",
+            "description": "傾斜或放入包包時漏液，核心防漏聲明不符，曾造成文件、衣物及車座受損"
+          },
+          {
+            "issue": "insulation_failure",
+            "rate": "2%",
+            "severity": "high",
+            "description": "少數用戶反映完全無隔熱效果（甚至在冰箱內冰塊仍快速融化），疑似瑕疵品或假貨"
+          }
+        ]
+      },
+      "creates_new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "lid_difficulty",
+            "rate": "3%",
+            "severity": "low",
+            "description": "蓋子旋緊後難以開啟；部分用戶不喜歡強制使用吸管的設計"
+          },
+          {
+            "issue": "staining",
+            "rate": "1%",
+            "severity": "low",
+            "description": "外壁容易染色"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "type": "📦 與產品無關（物流/賣家）",
+        "issues": [
+          {
+            "issue": "scratches_on_arrival",
+            "rate": "8%",
+            "severity": "medium",
+            "description": "收到有刮痕的新品或疑似二手商品，為倉儲/物流/賣家問題"
+          },
+          {
+            "issue": "missing_or_incomplete_items",
+            "rate": "1%",
+            "severity": "medium",
+            "description": "收到無附吸管、有污漬的產品，為賣家問題"
+          }
+        ]
+      }
+    }
+  },
+
+  "overall_verdict": {
+    "can_solve_problem": true,
+    "verdict_summary": "water-bottle 類別中，兩款產品均具備雙層真空隔熱的核心能力，皆能解決「隨身保溫飲品」的核心問題。然而在細分場景中表現存在顯著差異。",
+    "product_verdicts": {
+      "B0FK1LF5PM": {
+        "recommendation": "推薦（條件式）",
+        "strengths_summary": "保冷效果優異（24 小時以上實測支持）、FreeSip 雙模式設計為差異化優勢、防漏可靠（鎖蓋時）、廣口易清洗",
+        "critical_concern": "蓋子耐用性不足（9% 損壞率），吸管脫落問題（9%）影響日常使用；需留意假貨/二手品風險（Amazon 第三方賣家）",
+        "best_for": "辦公室通勤、健身房運動、喜歡雙模式飲用設計的使用者"
+      },
+      "B0CP9YB3Q4": {
+        "recommendation": "暫緩推薦（[REVIEW_NEEDED]）",
+        "strengths_summary": "杯架相容設計佳（窄底座）、顏色選擇極豐富、保溫效果評論正面",
+        "critical_concern": "防漏設計存在結構性缺陷（7% 傾斜漏液），造成財物損失；評論資料存在異常（22% 非英文評論、66% 評論集中 7 天內），數據可信度為 medium",
+        "data_reliability_note": "在評論資料通過重新驗證前，不建議以此分析作為最終推薦依據",
+        "best_for": "若資料驗證後，適合開車族及追求時尚多彩外觀的使用者，但需接受非密封傾斜時可能漏液"
+      }
+    },
+    "competitive_context": {
+      "from_research": "根據 water-bottle--2026-02-20 競品研究：",
+      "better_alternatives": [
+        {
+          "product": "BrüMate Era Tumbler",
+          "advantage": "唯一通過所有漏水測試的產品（100% 防漏），適合需要絕對防漏的使用者",
+          "data_source": "評測文章（非用戶評論）",
+          "amazon_available": true
+        },
+        {
+          "product": "Yeti Rambler",
+          "advantage": "耐用度最佳，5 年保固，保溫穩定性最高，適合需要高耐久性的使用者",
+          "data_source": "評測文章（非用戶評論）",
+          "amazon_available": true
+        },
+        {
+          "product": "S'well Bottle",
+          "advantage": "三層隔熱技術保溫性能測試第一，24 小時溫升僅 7.1°F（競品平均 9.98°F）",
+          "data_source": "評測文章（非用戶評論）",
+          "amazon_available": true
+        }
+      ],
+      "owala_competitive_position": "Owala FreeSip 在同價位（$30-38）中創新性最強（雙模式設計），若接受吸管脫落的已知問題，整體為中價位最具差異化選擇",
+      "stanley_competitive_position": "Stanley Quencher 的主要競爭優勢（杯架相容、時尚配色）有其他競品可替代，且核心防漏問題使其在同價位中競爭力下降"
+    }
+  },
+
+  "report_type_recommendation": "comparisons",
+  "report_type_reason": "Owala FreeSip 能解決保溫核心問題，但有耐用性顧慮（蓋子、吸管）；Stanley 因 [REVIEW_NEEDED] 且防漏為核心功能缺陷，建議產出「比較報告」，清楚說明各產品的適用場景與限制，並提醒使用者 Stanley 數據尚待驗證。",
+
+  "watchlist_recommendation": {
+    "add_to_watchlist": [
+      {
+        "product_id": "B0CP9YB3Q4",
+        "reason": "leaking_design_flaw + review_anomaly",
+        "severity": "high",
+        "watch_interval_days": 7,
+        "monitor_for": [
+          "評論異常（非英文評論比例是否降低、評論日期分布是否恢復正常）",
+          "漏液問題是否在新版本中改善",
+          "防漏設計更新（新版蓋子）"
+        ]
+      }
+    ]
+  },
+
+  "data_quality": {
+    "B0FK1LF5PM": {
+      "confidence": "high",
+      "reviews_analyzed": 100,
+      "data_issues": ["到貨品質問題（7% 凹損）混入部分負評；假貨/二手品（3%）影響評論分布"],
+      "overall_reliability": "高"
+    },
+    "B0CP9YB3Q4": {
+      "confidence": "medium",
+      "reviews_analyzed": 100,
+      "data_issues": [
+        "非英文評論 22%（閾值 20%），US listing 異常",
+        "約 66% 評論集中在最近 7 天（2026-02-22 至 2026-02-28），疑似異常刷評",
+        "部分評論疑似為已使用/假貨商品的真實用戶評論（非正品 Stanley 體驗）"
+      ],
+      "overall_reliability": "中（需再次抓取驗證）"
+    }
+  }
+}

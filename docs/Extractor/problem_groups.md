@@ -1,12 +1,12 @@
 # 產品問題分組
 
-最後更新：2026-03-01
+最後更新：2026-03-03
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：386
-問題類別數：100
+產品總數：417
+問題類別數：112
 分組原則：按具體問題分組（v2 - 問題導向）
-本次更新：14 個產品歸入現有類別（vitamin-d-supplement、squishy-toy x4、streaming-stick、video-game-console x2、drain-clog、laundry-stain x2、floor-mopping x2、trading-cards）；新增 18 個類別（32 個產品）
+本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
 
 ---
 
@@ -19,7 +19,7 @@
 | hand-care | 手部乾裂護理 | 1 | ✅ 已完成 |
 | anti-aging-serum | 抗老化精華護理 | 5 | ⚠️ 需補充 |
 | lip-care | 嘴唇乾裂護理 | 4 | ✅ 已完成 |
-| acne-treatment | 痘痘粉刺治療 | 7 | ✅ 已完成 |
+| acne-treatment | 痘痘粉刺治療 | 8 | ✅ 已完成 |
 | sun-protection | 防曬保護 | 1 | ✅ 已完成 |
 | teeth-whitening | 牙齒美白 | 1 | ✅ 已完成 |
 | hair-extension | 接髮增量 | 1 | ⚠️ 需補充 |
@@ -51,9 +51,9 @@
 | party-balloon | 派對氣球 | 1 | ⚠️ 需補充 |
 | valentine-cards | 情人節卡片禮物 | 3 | ⚠️ 需補充 |
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
-| streaming-stick | 電視串流棒 | 7 | ✅ 已完成 |
+| streaming-stick | 電視串流棒 | 8 | ✅ 已完成 |
 | noise-cancelling-headphone | 降噪耳機 | 2 | ✅ 已完成 |
-| item-tracker | 物品追蹤器 | 1 | ⚠️ 需補充 |
+| item-tracker | 物品追蹤器 | 2 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
 | hand-warmer | 手部暖暖包 | 2 | ⚠️ 需補充 |
 | space-heater | 陶瓷暖氣機 | 2 | ⚠️ 需補充 |
@@ -73,17 +73,17 @@
 | pillow-case | 枕套更換 | 1 | ⏳ 待研究 |
 | dandruff-treatment | 頭皮屑治療 | 1 | ⏳ 待研究 |
 | mascara | 睫毛增長加密 | 6 | ⏳ 待研究 |
-| makeup-removal | 卸妝清潔 | 7 | ⏳ 待研究 |
+| makeup-removal | 卸妝清潔 | 8 | ⏳ 待研究 |
 | eye-puffiness | 眼部浮腫黑眼圈 | 1 | ⏳ 待研究 |
 | facial-cleanser | 臉部清潔洗面乳 | 4 | ⏳ 待研究 |
 | hydrating-serum | 保濕精華液 | 1 | ⏳ 待研究 |
-| exfoliating-toner | 去角質化妝水 | 1 | ⏳ 待研究 |
+| exfoliating-toner | 去角質化妝水 | 2 | ⏳ 待研究 |
 | natural-deodorant | 天然體香劑 | 1 | ⏳ 待研究 |
 | face-towels | 一次性洗臉巾 | 1 | ⏳ 待研究 |
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
-| collagen-mask | 膠原蛋白面膜 | 2 | ⏳ 待研究 |
-| wireless-earbuds | 無線藍牙耳機 | 7 | ⏳ 待研究 |
+| collagen-mask | 膠原蛋白面膜 | 3 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 9 | ⏳ 待研究 |
 | e-reader | 電子書閱讀器 | 2 | ⏳ 待研究 |
 | video-doorbell | 智慧門鈴監控 | 2 | ⏳ 待研究 |
 | electrolyte-hydration | 電解質補充 | 2 | ⏳ 待研究 |
@@ -100,9 +100,9 @@
 | giant-teddy-bear | 大型絨毛玩具 | 3 | ⏳ 待研究 |
 | action-figure | 角色公仔 | 3 | ⏳ 待研究 |
 | toy-cars | 玩具車模型 | 2 | ⏳ 待研究 |
-| disposable-gloves | 一次性手套/醫療手套 | 2 | ✅ 已完成 |
-| water-bottle | 保溫瓶/隨身水壺 | 2 | ✅ 已完成 |
-| kitchen-scale | 廚房秤/食物秤 | 1 | ✅ 已完成 |
+| disposable-gloves | 一次性手套/醫療手套 | 4 | ✅ 已完成 |
+| water-bottle | 保溫瓶/隨身水壺 | 4 | ✅ 已完成 |
+| kitchen-scale | 廚房秤/食物秤 | 2 | ✅ 已完成 |
 | interactive-pet-toy | 互動式電子寵物玩具 | 1 | ⏳ 待研究 |
 | monster-truck-toy | 怪獸卡車玩具模型 | 1 | ⏳ 待研究 |
 | electric-cooktop | 額外電磁爐/電陶爐煮食 | 2 | ⏳ 待研究 |
@@ -123,6 +123,17 @@
 | damage-free-wall-hanging | 免釘痕掛鉤/牆面掛圖 | 1 | ⏳ 待研究 |
 | travel-packing-organization | 旅行行李收納整理 | 1 | ⏳ 待研究 |
 | tortilla-press | 手工玉米餅壓製 | 1 | ⏳ 待研究 |
+| toilet-paper | 廁所衛生紙舒適度與耐用性 | 4 | ⏳ 待研究 |
+| paper-towels | 廚房吸水紙巾清潔吸水性 | 2 | ⏳ 待研究 |
+| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 6 | ⏳ 待研究 |
+| cotton-swabs | 棉花棒個人衛生清潔 | 1 | ⏳ 待研究 |
+| aa-batteries | AA 鹼性電池長效續電 | 1 | ⏳ 待研究 |
+| bread-toaster | 家用烤麵包機吐司加熱 | 1 | ⏳ 待研究 |
+| oil-sprayer | 食用油噴霧器控量均勻噴灑 | 2 | ⏳ 待研究 |
+| disposable-plates | 一次性免洗紙盤便利用餐 | 1 | ⏳ 待研究 |
+| 3d-printer-filament | 3D 列印用 PLA 線材耗材 | 1 | ⏳ 待研究 |
+| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 1 | ⏳ 待研究 |
+| super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
 
 ---
 

@@ -1,0 +1,59 @@
+{
+  "category": "acne-treatment",
+  "date": "2026-03-03",
+  "products_compared": [
+    {
+      "asin": "B074PVTPBW",
+      "name": "Mighty Patch Original (Hero Cosmetics)",
+      "source": "amazon_us extraction (2026-03-03)",
+      "overall_sentiment": 0.90,
+      "review_count_analyzed": 100,
+      "avg_rating": 4.65,
+      "total_platform_reviews": 181884
+    }
+  ],
+  "competitor_data": {
+    "source": "competitors/acne-treatment--2026-02-06.md",
+    "competitors_with_asin": [
+      { "name": "Differin Gel (Adapalene 0.1%)", "asin": "B07L1PHSY9", "extraction_available": false }
+    ],
+    "competitors_review_only": [
+      { "name": "Starface Hydro-Stars", "notes": "評論提及：黏性差、效果遜於 Mighty Patch" },
+      { "name": "DOTS brand", "notes": "評論提及：效果顯著較差" },
+      { "name": "CosRX Acne Pimple Master Patch", "notes": "評測：價格低但黏性可能不足" },
+      { "name": "ZitSticka KILLA", "notes": "評測：微針技術、針對囊腫有效、但價格高 $3.63/片" }
+    ]
+  },
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "rate": "11%",
+      "details": [
+        "7% 無法解決深層囊腫型痘痘（功能性限制，非缺陷）",
+        "4% 完全無效（疑似假貨或應用錯誤）"
+      ]
+    },
+    "creates_new_problems": {
+      "rate": "1%",
+      "details": ["1% 敏感肌留下紅印（孤立案例）"]
+    },
+    "unrelated_to_product": {
+      "rate": "2%",
+      "details": ["2% 包裝數量錯誤（物流/賣家問題）"]
+    }
+  },
+  "competitive_verdict": {
+    "can_solve_problem": true,
+    "better_than_competitors": true,
+    "reasoning": "Mighty Patch 在水膠體貼片類別中具有壓倒性競品優勢：用戶從 Starface 和 DOTS 等品牌轉用後均表示不再回頭。情感分數 0.90、181,884 則評論支撐市場領導地位。對目標用途（表面白頭粉刺）效果明確且優於競品。唯一風險為非官方賣家潛在假貨問題（已列入監控）。",
+    "caveats": [
+      "對深層囊腫型痘痘無效（技術限制，非缺陷）",
+      "非官方賣家：疑似假貨信號（R3OP696PIQUJ0H）需監控"
+    ]
+  },
+  "verdict": {
+    "report_type": "recommendation",
+    "confidence": "high",
+    "output_path": "docs/Narrator/recommendations/acne-treatment--2026-03-03.md"
+  },
+  "summary": "Mighty Patch Original 在痘痘貼片類別中為市場領導者，情感分數 0.90，用戶比較後一致回歸。表面白頭粉刺問題解決能力優於所有競品（Starface、DOTS、CosRX 等）。主要風險為非官方賣家疑似假貨，已標記監控。建議產出推薦報告。"
+}
