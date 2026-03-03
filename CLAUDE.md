@@ -142,18 +142,19 @@ Step 9: SEO 處理（自動觸發，GitHub Actions）
         ├── JSON-LD Schema（7 種必填 + 條件式）
         └── sitemap.xml 自動更新
         ↓
-執行結束必做事項（11 項）
+執行結束必做事項（12 項）
         ├── 1. 更新 watchlist.json
         ├── 2. 更新 execution_state.json
         ├── 3. 產出每日摘要
         ├── 4. 顯示精簡版摘要
         ├── 5. 更新 README.md 健康度儀表板
         ├── 6. 更新 docs/README.md 首頁
-        ├── 7. 本地 SEO 驗證
-        ├── 8. Git commit + push
-        ├── 9. 等待部署 + 全站 SEO 驗證
-        ├── 10. 驗證網站更新
-        └── 11. 記錄 GitHub Traffic 數據
+        ├── 7. 報告完整性檢查（index.md 同步 + 模板佔位符掃描）
+        ├── 8. 本地 SEO 驗證
+        ├── 9. Git commit + push
+        ├── 10. 等待部署 + 全站 SEO 驗證
+        ├── 11. 驗證網站更新
+        └── 12. 記錄 GitHub Traffic 數據
         ↓
     ▶ Reviewer 最終審核 → 全部通過才回報「完成」
 ```
@@ -1092,7 +1093,7 @@ Task(
 | 5 | research/*.md + competitors/*.md |
 | 6 | 萃取 .md + fetch_result_{date}.json |
 | 7 | comparison_analysis_{類別}_{date}.json |
-| 8 | Narrator 報告 + 自我審核結果 |
+| 8 | Narrator 報告 + 自我審核結果 + 對應 index.md 已更新 |
 
 ### 禁止跳過審核
 
@@ -1642,24 +1643,37 @@ Step 8 完成
     ↓
 6. 更新 docs/README.md 首頁（更新「最新報告」區塊）
     ↓
-7. 本地 SEO 驗證（npm run seo:validate）
+7. 報告完整性檢查（強制）
+    ├── 7a. index.md 同步檢查：
+    │   ├── 掃描 docs/Narrator/{comparisons,warnings,recommendations,pain_points,counterfeits}/ 所有 .md
+    │   ├── 比對各目錄的 index.md，找出未被索引的報告
+    │   └── 將遺漏報告補入對應 index.md
+    ├── 7b. 模板佔位符掃描：
+    │   ├── grep -r '{WebSearch' docs/Narrator/
+    │   ├── grep -r '{TODO' docs/Narrator/
+    │   └── 發現佔位符 → 替換為純文字或移除連結語法
+    └── 7c. 內部連結驗證：
+        ├── grep -r '\.\./Extractor/' docs/Narrator/
+        └── 發現跨目錄連結 → 移除 markdown 連結語法（保留文字）
+    ↓
+8. 本地 SEO 驗證（npm run seo:validate）
     ├── 通過 → 繼續
     └── 失敗/警告 → 執行 npm run seo:fix 自動修復
         ├── 修復成功 → 繼續
         └── 仍有問題 → 手動修復後繼續
     ↓
-8. Git commit + push（觸發 VitePress 自動構建部署）
+9. Git commit + push（觸發 VitePress 自動構建部署）
     ↓
-9. 等待部署完成 + 全站 SEO 驗證
+10. 等待部署完成 + 全站 SEO 驗證
     ├── gh run list 確認 Deploy VitePress 完成
     ├── gh run list 確認 Validate Site SEO 完成
     └── 檢查驗證結果：
         ├── 通過 → 繼續
         └── 失敗 → 檢查 GitHub Actions 日誌，修復後重新 push
     ↓
-10. 驗證網站更新（curl + WebFetch 確認內容可見）
+11. 驗證網站更新（curl + WebFetch 確認內容可見）
     ↓
-11. 記錄 GitHub Traffic 數據（優化用）
+12. 記錄 GitHub Traffic 數據（優化用）
     ├── 前往 GitHub → Insights → Traffic
     ├── 記錄週訪客數、熱門頁面 TOP 5、來源網站
     └── 更新 revamp/outputs/execution-log--2026-02-20.md 監控記錄表

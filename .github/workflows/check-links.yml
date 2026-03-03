@@ -44,6 +44,13 @@ jobs:
             echo "✅ All sidebar links are valid" >> $GITHUB_STEP_SUMMARY
           fi
 
+      - name: Check report integrity
+        id: check-integrity
+        run: |
+          echo "## Report Integrity Check" >> $GITHUB_STEP_SUMMARY
+          bash scripts/check-report-integrity.sh 2>&1 | tee integrity-result.txt
+          cat integrity-result.txt >> $GITHUB_STEP_SUMMARY
+
       - name: Check all markdown files
         id: check-all
         continue-on-error: true

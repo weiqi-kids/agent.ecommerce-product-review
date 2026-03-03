@@ -339,6 +339,9 @@ docs/Extractor/comparison_analysis_{類別}_{date}.json
 | 8.2 | 報告格式正確 | 符合 Narrator Mode 框架 |
 | 8.3 | 自我審核已執行 | 報告末尾有審核結果 |
 | 8.4 | [REVIEW_NEEDED] 標記正確 | 未通過審核的報告有標記 |
+| 8.5 | index.md 已更新 | 新報告已加入對應目錄的 index.md |
+| 8.6 | 無模板佔位符 | `grep -r '{WebSearch' docs/Narrator/` 無結果 |
+| 8.7 | 無跨目錄連結 | `grep -r '\.\./Extractor/' docs/Narrator/` 無 markdown 連結 |
 
 ### 產出物
 
@@ -381,10 +384,11 @@ docs/Narrator/{type}/{類別}--{date}.md
 | E.3 | 每日摘要已產出 | docs/daily_summary/{date}.md 存在 |
 | E.4 | README.md 健康度已更新 | 有今日更新記錄 |
 | E.5 | docs/README.md 已更新 | 「最新報告」區塊有今日報告 |
-| E.6 | SEO 驗證已通過 | npm run seo:validate 無錯誤 |
-| E.7 | Git commit + push 完成 | git status 顯示 clean |
-| E.8 | 部署驗證完成 | 網站可訪問新內容 |
-| E.9 | GitHub Traffic 已記錄 | 執行記錄中有數據 |
+| E.6 | 報告完整性檢查已通過 | index.md 同步 + 無模板佔位符 + 無跨目錄連結 |
+| E.7 | SEO 驗證已通過 | npm run seo:validate 無錯誤 |
+| E.8 | Git commit + push 完成 | git status 顯示 clean |
+| E.9 | 部署驗證完成 | 網站可訪問新內容 |
+| E.10 | GitHub Traffic 已記錄 | 執行記錄中有數據 |
 
 ### 驗證指令
 
