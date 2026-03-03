@@ -1548,6 +1548,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "home_appliance-B0113UZJE2--amazon_us--2026-03-03-md",
+    "title": "L1: Product Identity",
+    "category": "home_appliance",
+    "product_id": "",
+    "brand": "- **Brand**: Etekcity",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "- **Reviews Analyzed**: 100 (batch 1: 50, batch 2: 50)",
+    "file": "home_appliance/B0113UZJE2--amazon_us--2026-03-03.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "home_appliance-B0043P0IAK--amazon_us--2026-02-05-md",
     "title": "Product Review Analysis: Scotch-Brite Zero Scratch Scrub Sponge",
     "category": "home_appliance",
@@ -1656,6 +1668,30 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "health-B0FN4NH4K8--amazon_us--2026-03-03-md",
+    "title": "Angel Soft Toilet Paper, 18 Mega Rolls = 72 Regular Rolls",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B0FN4NH4K8--amazon_us--2026-03-03.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "health-B0FLFR269F--amazon_us--2026-03-03-md",
+    "title": "Charmin Ultra Soft Toilet Paper, 6 Mega Rolls = 24 Regular Rolls",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B0FLFR269F--amazon_us--2026-03-03.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "health-B0FL18LM14--amazon_us--2026-02-05-md",
     "title": "GLYLF Vibration Plate Exercise Machine",
     "category": "health",
@@ -1668,6 +1704,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "health-B0FK1LF5PM--amazon_us--2026-03-03-md",
+    "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 32 Oz, Black Cherry",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B0FK1LF5PM--amazon_us--2026-03-03.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "health-B0DG2VFD63--amazon_us--2026-02-05-md",
     "title": "RingConn Gen 2, Smart Ring with Advanced Sleep Breathing Insights",
     "category": "health",
@@ -1677,6 +1725,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "health/B0DG2VFD63--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "health-B0CP9YB3Q4--amazon_us--2026-03-03-md",
+    "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B0CP9YB3Q4--amazon_us--2026-03-03.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1704,6 +1764,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "health-B095CN96JS--amazon_us--2026-03-03-md",
+    "title": "Amazon Basics 2-Ply Soft Toilet Paper, 30 Rolls, 350 Sheets per Roll",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B095CN96JS--amazon_us--2026-03-03.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "health-B082TPDTM2--amazon_us--2026-02-06-md",
     "title": "Lumineux Teeth Whitening Strips - 21 Treatments - Peroxide Free - Enamel Safe",
     "category": "health",
@@ -1728,6 +1800,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "health-B07BGLT25K--amazon_us--2026-03-03-md",
+    "title": "Scott ComfortPlus Toilet Paper, 12 Double Rolls, 231 Sheets per Roll, Septic-Safe, 1-Ply Toilet Tissue",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B07BGLT25K--amazon_us--2026-03-03.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "health-B074F2WCMQ--amazon_us--2026-02-05-md",
     "title": "Amazon Basic Care Omeprazole Delayed Release Tablets 20 mg, Acid Reducer, 14 Count",
     "category": "health",
@@ -1749,6 +1833,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "health/B073PZSRG6--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "health-B00GS8W3T4--amazon_us--2026-03-03-md",
+    "title": "MedPride Powder-Free Nitrile Exam Gloves, Iris Blue, Medium, Box/100",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B00GS8W3T4--amazon_us--2026-03-03.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2205,6 +2301,18 @@
     "avg_rating": "",
     "review_count": "- **Reviews Analyzed**: 100",
     "file": "electronics/B0D1XD1ZV3--apple--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "electronics-B0C6W3D4RM--amazon_us--2026-03-03-md",
+    "title": "L1-L6 萃取報告",
+    "category": "electronics",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "electronics/B0C6W3D4RM--amazon_us--2026-03-03.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2853,6 +2961,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "beauty/B07L1PHSY9--amazon_us--2026-02-06.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "beauty-B074PVTPBW--amazon_us--2026-03-03-md",
+    "title": "Mighty Patch Original Patch from Hero Cosmetics - Extraction Report",
+    "category": "beauty",
+    "product_id": "",
+    "brand": "- **Brand**: Mighty Patch (Hero Cosmetics)",
+    "platform": "**Platform**: amazon_us",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "beauty/B074PVTPBW--amazon_us--2026-03-03.md",
     "source_layer": "amazon_us"
   },
   {
