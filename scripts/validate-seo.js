@@ -74,7 +74,7 @@ function parseFrontmatter(content) {
 function checkAITags(content) {
   const tags = {};
   const tagPatterns = [
-    { name: 'article-summary', pattern: /<div class="article-summary"[^>]*>/ },
+    { name: 'article-summary', pattern: /<(?:div|p) class="article-summary"[^>]*>/ },
     { name: 'key-answer', pattern: /<(?:p|div) class="key-answer"[^>]*/ },
     { name: 'key-takeaway', pattern: /<(?:p|div) class="key-takeaway"[^>]*>/ },
     { name: 'comparison-table', pattern: /<div class="comparison-table"[^>]*>/ },

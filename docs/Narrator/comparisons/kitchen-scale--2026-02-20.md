@@ -1,6 +1,6 @@
 ---
 title: 廚房秤比較分析報告
-description: kitchen scale 產品比較指南
+description: 廚房電子秤比較分析，涵蓋精準度、耐用性、歸零功能等關鍵面向，幫助您選擇最適合烹飪烘焙的食物秤
 date: 2026-02-20
 head:
   - - meta

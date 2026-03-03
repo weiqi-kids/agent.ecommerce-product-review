@@ -1,6 +1,6 @@
 ---
 title: 保溫水壺比較分析報告
-description: water bottle 產品比較指南
+description: 保溫水壺比較分析，涵蓋保冷保熱性能、漏水問題、蓋子設計等關鍵面向，幫助您選擇最適合的隨身水壺
 date: 2026-02-20
 head:
   - - meta

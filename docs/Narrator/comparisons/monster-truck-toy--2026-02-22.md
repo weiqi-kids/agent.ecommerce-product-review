@@ -8,9 +8,9 @@ date: 2026-02-22
 
 本報告已整合評測文章與社群討論，信心度提升至 medium-high
 
-<p class="article-summary">
+<div class="article-summary">
 怪獸卡車玩具是兒童熱門禮物選擇，市場由 Monster Jam (Spin Master) 和 Hot Wheels (Mattel) 主導。本報告分析 12 款產品，依年齡、預算、發展目標提供選購建議。
-</p>
+</div>
 
 ---
 
