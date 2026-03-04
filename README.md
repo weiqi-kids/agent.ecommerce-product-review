@@ -105,27 +105,28 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-03-03 | 180 | 36 ✅ | ✅ 正常 |
-| bestbuy_us | 2026-03-03 | 7 | 4 ⚠️ | ⚠️ selector issue |
-| walmart_us | 2026-03-03 | 40 | 0 ❌ | ❌ selector 全面失效 |
+| amazon_us | 2026-03-04 | 200 | 40 ✅ | ✅ 正常 |
+| bestbuy_us | 2026-03-04 | 7 | 4（數位跳過） | ⚠️ 僅數位 |
+| walmart_us | — | — | ❌ 永久停用 | ❌ 停用 |
 
 ### 監控清單
 
 | 類型 | 數量 |
 |------|------|
-| 監控產品 | 19 |
+| 監控產品 | 21 |
 | 研究缺口類別 | 4 |
 | 暫緩發佈類別 | 0 |
 
-### 今日統計 (2026-03-03)
+### 今日統計 (2026-03-04)
 
 | 指標 | 數值 |
 |------|------|
-| Discovery 產品 | 40 (Amazon 36 + Best Buy 4 + Walmart 0) |
-| 監控追蹤 | 5 個檢查，2 改善、0 惡化 |
-| 新報告 | 6（4 比較 + 1 推薦 + 1 警告） |
-| 新類別 | 12 |
-| REVIEW_NEEDED | 2（Stanley, Fire TV） |
+| Discovery 產品 | 40 (Amazon) |
+| 評論分析 | 1,975 則 |
+| 新報告 | 16（14 比較 + 1 推薦 + 1 警告） |
+| 新類別 | 7 |
+| REVIEW_NEEDED | 7（資料不足） |
+| 新增監控 | 2（EarPods 電擊、OEAK 扣環）|
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

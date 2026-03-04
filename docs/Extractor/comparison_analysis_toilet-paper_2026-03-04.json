@@ -1,0 +1,191 @@
+{
+  "category": "toilet-paper",
+  "analysis_date": "2026-03-04",
+  "problem_solved": "日常如廁清潔，需兼顧柔軟度、強度、CP 值與管道安全",
+  "products": [
+    {
+      "asin": "B07BGLT25K",
+      "name": "Scott ComfortPlus 1-Ply",
+      "price_usd": 5.68,
+      "ply": 1,
+      "l4_scores": {
+        "softness": 0.45,
+        "value_for_price": 0.78,
+        "strength": 0.52,
+        "flushability": 0.60
+      },
+      "overall_sentiment": "mixed-low",
+      "negative_classification": {
+        "cannot_solve_problem": [
+          { "issue": "softness_texture", "frequency": "16%", "description": "用戶描述如砂紙，不夠柔軟，1-ply 薄度不達廣告聲稱的 3x 厚度" }
+        ],
+        "creates_new_problem": [
+          { "issue": "septic_issue", "frequency": "2%", "description": "個別用戶報告堵塞化糞池" }
+        ],
+        "unrelated_to_product": [
+          { "issue": "roll_size_misleading", "frequency": "9%", "description": "捲軸比圖片小，Amazon 商品圖誤導" }
+        ]
+      },
+      "rank": {
+        "softness": 4,
+        "strength": 3,
+        "value": 2,
+        "flushability": 3
+      }
+    },
+    {
+      "asin": "B0FN4NH4K8",
+      "name": "Angel Soft 2-Ply 18 Mega Rolls",
+      "price_usd": 12.66,
+      "ply": 2,
+      "l4_scores": {
+        "softness": 0.72,
+        "value_for_price": 0.88,
+        "strength": 0.82,
+        "flushability": 0.85
+      },
+      "overall_sentiment": "positive",
+      "negative_classification": {
+        "cannot_solve_problem": [
+          { "issue": "softness_polarized", "frequency": "9%", "description": "少數用戶認為觸感接近紙巾，甚至磨破皮膚" }
+        ],
+        "creates_new_problem": [
+          { "issue": "formula_change", "frequency": "5%", "description": "長期用戶認為配方改變，品質下滑" }
+        ],
+        "unrelated_to_product": [
+          { "issue": "price_increase", "frequency": "1%", "description": "漲價導致CP值感受下降" },
+          { "issue": "roll_width_narrower", "frequency": "2%", "description": "捲寬縮短，縮水問題（通路問題）" }
+        ]
+      },
+      "rank": {
+        "softness": 3,
+        "strength": 2,
+        "value": 1,
+        "flushability": 1
+      }
+    },
+    {
+      "asin": "B095CN96JS",
+      "name": "Amazon Basics 2-Ply 30 Rolls",
+      "price_usd": 25.21,
+      "ply": 2,
+      "l4_scores": {
+        "softness": 0.41,
+        "value_for_price": 0.78,
+        "strength": 0.52,
+        "flushability": 0.88
+      },
+      "overall_sentiment": "mixed-low",
+      "negative_classification": {
+        "cannot_solve_problem": [
+          { "issue": "paper_too_thin", "frequency": "22%", "description": "2-ply 實際體驗接近 1-ply，柔軟度不達標，部分描述為砂紙" },
+          { "issue": "absorbency_low", "frequency": "11%", "description": "吸收力不足，影響核心清潔功能" }
+        ],
+        "creates_new_problem": [
+          { "issue": "skin_irritation", "frequency": "4%", "description": "引起灼熱感與皮膚刺激，健康疑慮" },
+          { "issue": "shedding_lint", "frequency": "8%", "description": "紙屑散落地板，造成額外清潔負擔" }
+        ],
+        "unrelated_to_product": [
+          { "issue": "quality_degradation_shrinkflation", "frequency": "14%", "description": "產品縮水，捲軸更小但價格不變，使用者不滿" }
+        ]
+      },
+      "rank": {
+        "softness": 4,
+        "strength": 3,
+        "value": 2,
+        "flushability": 2
+      }
+    },
+    {
+      "asin": "B0FLFR269F",
+      "name": "Cottonelle Ultra ComfortCare 2-Ply 6 Mega Rolls",
+      "price_usd": 7.97,
+      "ply": 2,
+      "l4_scores": {
+        "softness": 0.94,
+        "value_for_price": 0.65,
+        "strength": 0.88,
+        "flushability": null
+      },
+      "overall_sentiment": "positive",
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problem": [
+          { "issue": "lint_shedding", "frequency": "2%", "description": "部分用戶發現紙屑積累在地板和收納架上" }
+        ],
+        "unrelated_to_product": [
+          { "issue": "roll_size_mislabeled", "frequency": "4%", "description": "Mega Roll 尺寸感受與一般捲軸相近，標示誤導期望" },
+          { "issue": "price_perceived_high", "frequency": "4%", "description": "約每捲 $1.33，部分用戶認為溢價" }
+        ]
+      },
+      "rank": {
+        "softness": 1,
+        "strength": 1,
+        "value": 4,
+        "flushability": null
+      }
+    }
+  ],
+  "cross_product_comparison": {
+    "softness": {
+      "winner": "B0FLFR269F (Cottonelle)",
+      "score_ranking": [
+        { "product": "Cottonelle", "score": 0.94 },
+        { "product": "Angel Soft", "score": 0.72 },
+        { "product": "Amazon Basics", "score": 0.41 },
+        { "product": "Scott ComfortPlus", "score": 0.45 }
+      ],
+      "note": "Cottonelle 以 94% 正面評價遠超其他三款；Scott 與 Amazon Basics 皆有大量『砂紙感』抱怨"
+    },
+    "strength": {
+      "winner": "B0FLFR269F (Cottonelle)",
+      "score_ranking": [
+        { "product": "Cottonelle", "score": 0.88 },
+        { "product": "Angel Soft", "score": 0.82 },
+        { "product": "Scott ComfortPlus", "score": 0.52 },
+        { "product": "Amazon Basics", "score": 0.52 }
+      ],
+      "note": "Cottonelle 和 Angel Soft 均展現強度優勢，Scott 和 Amazon Basics 有撕裂問題"
+    },
+    "value_for_price": {
+      "winner": "B0FN4NH4K8 (Angel Soft)",
+      "score_ranking": [
+        { "product": "Angel Soft", "score": 0.88 },
+        { "product": "Scott ComfortPlus", "score": 0.78 },
+        { "product": "Amazon Basics", "score": 0.78 },
+        { "product": "Cottonelle", "score": 0.65 }
+      ],
+      "note": "Angel Soft 每捲約 $0.70，是四款中 CP 值最高；Cottonelle 每捲 $1.33 成本偏高"
+    },
+    "flushability_septic_safety": {
+      "winner": "B0FN4NH4K8 (Angel Soft) & B095CN96JS (Amazon Basics)",
+      "note": "Angel Soft 和 Amazon Basics 均有明確 septic-safe 確認記錄；Cottonelle 無相關評論數據"
+    }
+  },
+  "recommendation": {
+    "report_type": "comparison",
+    "rationale": "四款產品均能解決日常如廁清潔問題，但各有取捨，無單一「最優」答案——需依使用者優先需求選擇",
+    "by_priority": {
+      "best_softness": {
+        "product": "Cottonelle Ultra ComfortCare (B0FLFR269F)",
+        "reason": "softness 0.94、strength 0.88，雙重優勢，皮膚敏感或追求舒適者首選"
+      },
+      "best_value": {
+        "product": "Angel Soft 18 Mega Rolls (B0FN4NH4K8)",
+        "reason": "value 0.88、strength 0.82、flushability 0.85，每捲 $0.70，大家庭/長期囤貨最佳選擇"
+      },
+      "avoid": [
+        {
+          "product": "Amazon Basics (B095CN96JS)",
+          "reason": "22% 用戶反映薄度不達 2-ply 預期，4% 皮膚刺激，14% 縮水問題，同價位不如 Angel Soft"
+        },
+        {
+          "product": "Scott ComfortPlus (B07BGLT25K)",
+          "reason": "1-ply 薄度與粗糙觸感在偏好柔軟的用戶中失分嚴重，主要吸引力只有低價格"
+        }
+      ]
+    }
+  },
+  "data_confidence": "medium-high",
+  "notes": "Cottonelle 樣本以極正面評論為主（94% softness），可能存在評論篩選偏差；flushability 缺乏用戶驗證數據"
+}

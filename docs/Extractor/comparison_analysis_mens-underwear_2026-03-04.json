@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "category": "mens-underwear",
+    "analysis_date": "2026-03-04",
+    "primary_product": {
+      "asin": "B086KSDTQ4",
+      "name": "Hanes Men's Boxer Briefs Pack (Cool & Breathable Cotton)",
+      "platform": "amazon_us",
+      "reviews_analyzed": 100,
+      "avg_rating": 4.55,
+      "rating_count": 126520
+    },
+    "competitors_count": 8,
+    "data_sources": ["amazon_us L1-L6 extraction", "research report (WebSearch x13, WebFetch x5)", "competitors report (8 products)"]
+  },
+
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "label": "無法解決問題（功能失效）",
+      "issues": [
+        {
+          "issue": "rough_scratchy_fabric",
+          "frequency": "19/100 (19%)",
+          "severity": "medium",
+          "detail": "棉料粗糙、刮皮膚，多名用戶比喻為砂紙，直接違反「柔軟透氣」核心主張",
+          "claim_contradicted": "soft and breathable cotton"
+        },
+        {
+          "issue": "no_ride_up_claim_failed",
+          "frequency": "16/100 (16%)",
+          "severity": "medium",
+          "detail": "褲腿防上移帶無彈性，造成大腿緊縮不適，反而比普通款更不舒服",
+          "claim_contradicted": "No Ride Up"
+        },
+        {
+          "issue": "durability_falls_apart",
+          "frequency": "10/100 (10%)",
+          "severity": "medium",
+          "detail": "縫線在數週至一個月內脫落，無法維持基本耐用性"
+        }
+      ]
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "label": "產生新問題（副作用）",
+      "issues": [
+        {
+          "issue": "too_tight_thighs_legs",
+          "frequency": "16/100 (16%)",
+          "severity": "medium",
+          "detail": "防上移腿帶設計彈性不足，造成大腿血液循環受阻、蹲下困難等新問題"
+        },
+        {
+          "issue": "runs_small_shrinks",
+          "frequency": "15/100 (15%)",
+          "severity": "medium",
+          "detail": "洗後大幅縮水，導致尺寸不符、需額外購買更大尺碼"
+        },
+        {
+          "issue": "thin_poor_quality_fabric",
+          "frequency": "10/100 (10%)",
+          "severity": "medium",
+          "detail": "材質過薄，多次洗滌後快速磨損，耐用性遠低於預期"
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "label": "與產品無關（物流/賣家問題）",
+      "issues": [
+        {
+          "issue": "counterfeit_quality_concerns",
+          "frequency": "4/100 (4%)",
+          "severity": "high",
+          "detail": "商品以無品牌塑膠袋寄出（非 Hanes 原廠包裝），疑似假貨或退換品重新出售，屬 Amazon 賣家/物流問題"
+        },
+        {
+          "issue": "packaging_generic_bag",
+          "frequency": "3/100 (3%)",
+          "severity": "low",
+          "detail": "包裝與官方描述不符，影響購買信任感，但不直接影響產品功能"
+        }
+      ]
+    }
+  },
+
+  "competitive_comparison": {
+    "primary_product_problems": [
+      "棉料粗糙（19%）— 核心舒適失敗",
+      "防上移設計反效果（16%）— 主要功能宣稱被推翻",
+      "洗後縮水（15%）— 尺寸一致性差",
+      "耐久性差（10%）— 縫線快速脫落",
+      "材質過薄（10%）— 品質下滑趨勢"
+    ],
+    "vs_competitors": [
+      {
+        "competitor": "David Archy Bamboo Boxer Briefs",
+        "asin": "B092ZXGH96",
+        "data_source": "評測文章（4 篇推薦）",
+        "price_tier": "同價位（$8/pair vs Hanes 多包裝）",
+        "advantages_over_hanes": ["竹纖維天然柔軟，無粗糙問題", "自然抑菌、吸濕排汗優於棉料", "Amazon #1 暢銷竹纖維，4.4 星 12,000+ 評價"],
+        "disadvantages": ["面料較薄，需溫和洗滌"],
+        "verdict": "同價位下，David Archy 在核心舒適問題（柔軟、透氣）上全面優於 Hanes"
+      },
+      {
+        "competitor": "SAXX Ultra Super Soft Boxer Briefs",
+        "asin": "B08SR3PCJF",
+        "data_source": "評測文章（4 篇推薦）",
+        "price_tier": "高價位（$30+/pair）",
+        "advantages_over_hanes": ["BallPark Pouch® 技術大幅減少摩擦", "Viscose/Elastane 柔軟，無粗糙問題", "Men's Health 評為世界最佳男性內褲"],
+        "disadvantages": ["價格是 Hanes 的 4-5 倍"],
+        "verdict": "功能明顯優於 Hanes，但價格差距顯著"
+      },
+      {
+        "competitor": "Tommy John Second Skin Boxer Briefs",
+        "asin": "B01HQ89YN2",
+        "data_source": "評測文章（4 篇推薦）",
+        "price_tier": "高價位（$35+/pair）",
+        "advantages_over_hanes": ["MicroModal 頂級柔軟（山毛櫸木漿）", "Hammock Pouch 輪廓支撐", "不起毛球，版型精良"],
+        "disadvantages": ["價格偏高", "吸濕排汗性能相對不佳"],
+        "verdict": "日常舒適度明顯優於 Hanes，但高價限制普及"
+      },
+      {
+        "competitor": "Adidas Sport Performance Boxer Briefs",
+        "asin": "B0855PPCST",
+        "data_source": "評測文章（3 篇推薦）",
+        "price_tier": "中價位（$15+/pair）",
+        "advantages_over_hanes": ["Climalite 快速排汗，Hanes 棉料排汗能力遠不及", "平縫接合減少摩擦點", "適合運動使用"],
+        "disadvantages": ["無飛口設計", "聚酯纖維長期健康爭議"],
+        "verdict": "運動場景明顯優於 Hanes，日常使用則視需求"
+      },
+      {
+        "competitor": "Calvin Klein Modal Boxer Briefs",
+        "asin": "B094X5GF6Y",
+        "data_source": "評測文章（3 篇推薦）",
+        "price_tier": "中高價位（$20+/pair）",
+        "advantages_over_hanes": ["Modal 材質柔軟度遠超棉料", "品牌溢價/設計感"],
+        "disadvantages": ["無飛口，支撐性有限", "較高價格"],
+        "verdict": "柔軟度上優於 Hanes，品牌形象分眾明顯"
+      },
+      {
+        "competitor": "Hanes Total Support Pouch Boxer Briefs",
+        "asin": "B09R829YGL",
+        "data_source": "評測文章（3 篇推薦）",
+        "price_tier": "平價（同 Hanes 品牌）",
+        "advantages_over_hanes": ["Pouch 設計提供支撐，解決 Hanes 標準款無支撐問題", "聚酯纖維排汗較棉料佳"],
+        "disadvantages": ["透氣性仍不理想"],
+        "verdict": "即使同品牌，Total Support Pouch 也比標準款更適合需要支撐的用戶"
+      },
+      {
+        "competitor": "Mack Weldon 18-Hour Jersey Boxer Briefs",
+        "asin": "B00BL91D50",
+        "data_source": "評測文章（2 篇推薦）",
+        "price_tier": "高價位（$32+/pair）",
+        "advantages_over_hanes": ["18 小時預延伸工藝確保版型一致性", "Cotton/Modal/Lycra 混紡平衡柔軟與耐久"],
+        "disadvantages": ["褲腿偏短，CP 值爭議"],
+        "verdict": "版型一致性優於 Hanes，但高價位"
+      },
+      {
+        "competitor": "Pair of Thieves SuperFit Boxer Briefs",
+        "asin": "B07PNS7Y79",
+        "data_source": "評測文章（2 篇推薦）",
+        "price_tier": "中價位（$12+/pair）",
+        "advantages_over_hanes": ["4-way stretch 全方位彈性，Hanes 腿帶無彈性問題不存在", "超細通風孔快乾，優於棉料", "不上移設計"],
+        "disadvantages": ["支撐性略遜 Pouch 設計款"],
+        "verdict": "在 Hanes 最弱的「防上移」和「透氣」兩項均優於 Hanes，且價格差距不大"
+      }
+    ]
+  },
+
+  "verdict": {
+    "can_solve_core_problem": false,
+    "reasoning": "Hanes Men's Boxer Briefs 的核心問題解決能力受到嚴重質疑：(1) 19% 用戶反映棉料粗糙，違反舒適訴求；(2) 16% 用戶指出防上移腿帶缺乏彈性，反而造成大腿緊縮，核心功能宣稱被推翻；(3) 10% 用戶在數週內就縫線脫落，耐久性不佳；(4) 品質下滑趨勢明顯（研究資料佐證）。相比競品，在柔軟度、排汗、防上移、耐久性等維度全面落後，僅在價格和品牌知名度上有優勢。",
+    "report_type": "comparison",
+    "report_type_reasoning": "Hanes 能在一定程度上發揮基本功能（仍有 52% fit 正面評價、70% value 正面），但有更多、更好的替代選擇（David Archy 同價位全面優於、SAXX/Tommy John 高端替代）。非完全無法使用，但消費者可以做出更好的選擇，應產出「比較報告」。",
+    "recommended_alternatives": [
+      {
+        "priority": 1,
+        "product": "David Archy Bamboo Boxer Briefs",
+        "asin": "B092ZXGH96",
+        "reason": "同價位、解決 Hanes 最大痛點（粗糙/透氣），為最佳升級路徑"
+      },
+      {
+        "priority": 2,
+        "product": "Pair of Thieves SuperFit Boxer Briefs",
+        "asin": "B07PNS7Y79",
+        "reason": "中價位、4-way stretch 解決防上移問題，日常運動兩用"
+      },
+      {
+        "priority": 3,
+        "product": "SAXX Ultra Super Soft Boxer Briefs",
+        "asin": "B08SR3PCJF",
+        "reason": "高端選擇、BallPark Pouch 從根本解決摩擦問題"
+      }
+    ]
+  },
+
+  "claim_verification_summary": [
+    { "claim": "Cool & Breathable Cotton", "verdict": "部分成立", "issue": "10% 反映材質過薄，透氣但不耐久" },
+    { "claim": "Moisture-wicking", "verdict": "部分成立", "issue": "棉料排濕慢，相較競品吸濕排汗能力明顯不足" },
+    { "claim": "No Ride Up", "verdict": "被推翻", "issue": "16% 指出腿帶無彈性，造成相反效果" },
+    { "claim": "soft and breathable cotton", "verdict": "被推翻", "issue": "19% 描述如砂紙般粗糙" },
+    { "claim": "Comfort Flex waistband", "verdict": "部分成立", "issue": "8% 反映腰帶粗糙或快速磨損" }
+  ],
+
+  "confidence": "medium",
+  "confidence_reason": "主產品有 100 則評論（L1-L6 完整萃取），競品資料來自 5 次 WebFetch 評測文章（非用戶評論），研究深度略低於標準（WebSearch 13 次、WebFetch 5 次，低於建議 20+/100+）",
+  "review_needed": true,
+  "review_needed_reason": "研究深度不足（WebSearch 13 < 20、WebFetch 5 < 100），競品均無 Amazon 用戶評論萃取，比較基礎主要依賴評測文章，建議補充競品評論抓取後重新比較"
+}

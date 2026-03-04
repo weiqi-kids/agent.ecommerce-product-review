@@ -1,6 +1,65 @@
 {
-  "last_updated": "2026-03-03T10:30:00Z",
+  "last_updated": "2026-03-04T18:00:00Z",
   "products": [
+    {
+      "asin": "B0DCH8VDXF",
+      "name": "Apple EarPods Headphones with USB-C Plug Wired",
+      "category": "wired-earphones",
+      "watch_reason": "fire_hazard",
+      "severity": "critical",
+      "added_date": "2026-03-04",
+      "last_checked": "2026-03-04",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "electrical_shock",
+          "description": "2% 評論報告電擊/觸電風險，HIGH severity 安全問題"
+        },
+        {
+          "type": "premature_failure",
+          "description": "22% 評論報告過早故障（數週至數月內），HIGH severity"
+        }
+      ],
+      "baseline": {
+        "electrical_shock_rate": "2%",
+        "premature_failure_rate": "22%",
+        "avg_rating": 4.5,
+        "review_count": 100
+      },
+      "check_result": {
+        "date": "2026-03-04",
+        "status": "new_entry",
+        "notes": "Step 8 比較報告自動加入監控。2% 電擊率為嚴重安全問題。",
+        "report": "docs/Narrator/comparisons/wired-earphones--2026-03-04.md"
+      }
+    },
+    {
+      "asin": "B0D8DZN778",
+      "name": "OEAK Women Deep V Wireless Bra",
+      "category": "wireless-bra",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-03-04",
+      "last_checked": "2026-03-04",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "clasp_durability",
+          "description": "18% 評論報告扣環斷裂（膠水黏接而非縫合），HIGH severity"
+        }
+      ],
+      "baseline": {
+        "clasp_break_rate": "18%",
+        "avg_rating": 4.05,
+        "review_count": 9697
+      },
+      "check_result": {
+        "date": "2026-03-04",
+        "status": "new_entry",
+        "notes": "Step 8 比較報告自動加入監控。扣環膠合品質問題嚴重。",
+        "report": "docs/Narrator/comparisons/wireless-bra--2026-03-04.md"
+      }
+    },
     {
       "asin": "B0DGHMNQ5Z",
       "name": "Apple AirPods 4 Wireless Earbuds",
@@ -102,7 +161,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-11",
-      "last_checked": "2026-02-25",
+      "last_checked": "2026-03-04",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -129,9 +188,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-02-25",
+        "date": "2026-03-04",
         "status": "no_change",
-        "notes": "無召回公告、無新火災事件報導。故障率維持改善狀態。建議持續監控。",
+        "notes": "無新召回公告、無新火災事件。CPSC 無 Bella 烤麵包機相關召回。故障率維持改善狀態。",
         "current_metrics": {
           "failure_rate": "22%",
           "uneven_toasting_rate": "14%",
@@ -140,7 +199,7 @@
           "total_reviews": 11572,
           "reviews_analyzed": 50
         },
-        "report": "docs/Narrator/warnings/bella-toaster--2026-02-11.md"
+        "report": "docs/Narrator/warnings/bread-toaster--warning--2026-03-04.md"
       }
     },
     {

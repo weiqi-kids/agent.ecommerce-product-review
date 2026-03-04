@@ -1,0 +1,102 @@
+{
+  "category": "electrolyte-hydration",
+  "analysis_date": "2026-03-04",
+  "problem_statement": "補充電解質以解決運動後脫水、肌肉抽筋、低血壓、酮飲食補充等需求",
+  "products_analyzed": [
+    {
+      "product_id": "B07SH31T9V",
+      "product_name": "LMNT Zero Sugar Electrolytes",
+      "platform": "amazon_us",
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "confidence": "high"
+    }
+  ],
+  "single_product_note": "本類別目前僅有 1 個產品完成萃取，無跨產品比較。其他 health 類別產品（B0C2CY22B8 紙盤、B07MHJFRBJ 紙巾、B09541P9WH 棉花棒、B085DTZQNZ Owala 水瓶、B0CP9YB3Q4 Stanley Tumbler）均非電解質補充品，不納入比較。",
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "issues": [
+        {
+          "issue": "taste_too_salty_or_unpleasant",
+          "frequency": "19/100 (19%)",
+          "severity": "medium",
+          "note": "高鈉含量（1000 mg/份）導致口味兩極化，部分用戶認為完全無法入口，核心功能可用但使用意願降低"
+        },
+        {
+          "issue": "blood_pressure_spike",
+          "frequency": "3/100 (3%)",
+          "severity": "high",
+          "note": "高血壓或心血管敏感族群使用後出現血壓飆升，對此族群產品功能性完全失效且有危險"
+        }
+      ]
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "issues": [
+        {
+          "issue": "maltodextrin_undisclosed_ingredient",
+          "frequency": "4/100 (4%)",
+          "severity": "high",
+          "note": "多位用戶指控成分標示未列出麥芽糊精，對糖尿病和酮飲食用戶是嚴重副作用，且涉及標示誠信問題"
+        },
+        {
+          "issue": "blood_pressure_spike",
+          "frequency": "3/100 (3%)",
+          "severity": "high",
+          "note": "對高鈉敏感族群產生新的健康問題（頭痛、血壓升高）"
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "issues": [
+        {
+          "issue": "damaged_or_incomplete_packaging",
+          "frequency": "11/100 (11%)",
+          "severity": "medium",
+          "note": "箱子未密封、包數不足、包裝損壞，屬物流/履約問題，與產品本身無關"
+        },
+        {
+          "issue": "high_price",
+          "frequency": "5/100 (5%)",
+          "severity": "low",
+          "note": "價格偏高（$2/包）屬性價比主觀評斷，非產品功能問題"
+        }
+      ]
+    }
+  },
+  "effectiveness_assessment": {
+    "solves_core_problem": true,
+    "evidence": {
+      "hydration_effectiveness": {"score": 0.88, "mentions": 32},
+      "muscle_cramp_relief": {"score": 0.91, "mentions": 11},
+      "energy_level": {"score": 0.85, "mentions": 10},
+      "sugar_free_keto_fit": {"score": 0.86, "mentions": 7}
+    },
+    "key_strengths": [
+      "對運動員、POTS 患者、酮飲食、間歇性斷食族群效果顯著",
+      "即時緩解肌肉抽筋（91% 正面），首次使用即有效",
+      "無糖配方適合低碳水化合物族群"
+    ],
+    "key_risks": [
+      "高血壓患者禁用（1000 mg 鈉/份）",
+      "成分標示疑慮（麥芽糊精未申報，嚴重性：高）",
+      "口味接受度低（19% 用戶無法接受）"
+    ]
+  },
+  "cross_product_comparison": {
+    "available": false,
+    "reason": "本類別僅有 1 個產品完成萃取，無競品比較資料",
+    "competitors_needed": ["Nuun Hydration", "Liquid IV", "DripDrop", "Pedialyte Sport", "Ultima Replenisher"]
+  },
+  "report_type_recommendation": "comparison",
+  "report_type_reasoning": "LMNT 確實能解決電解質補充問題（hydration 88% 正面，cramp relief 91% 正面），但存在高嚴重度問題（未申報麥芽糊精、高血壓風險），且目前缺乏競品比較資料。建議產出比較報告，標記 [REVIEW_NEEDED] 並說明需補充競品萃取。",
+  "overall_conclusion": "LMNT 對目標族群（運動員、酮飲食、POTS 患者）效果明確且正面評價高，但高鈉含量對特定族群（高血壓、心血管病患）構成安全風險，未申報麥芽糊精問題需廠商澄清。物流包裝問題（11%）與產品本身無關但影響用戶體驗。在缺乏競品比較的情況下，無法判斷 LMNT 是否為最佳選擇。",
+  "metadata": {
+    "analysis_model": "claude-sonnet-4-6",
+    "sources": ["amazon_us L4/L5 萃取（100 則評論）"],
+    "confidence": "medium",
+    "confidence_note": "單一產品、單一平台、缺乏競品比較，建議補充競品萃取後重新分析"
+  }
+}

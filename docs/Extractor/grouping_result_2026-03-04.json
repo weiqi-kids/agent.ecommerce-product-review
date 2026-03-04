@@ -1,0 +1,82 @@
+{
+  "date": "2026-03-04",
+  "total_products": 40,
+  "existing_categories_matched": 17,
+  "new_categories": 7,
+  "skipped": 16,
+  "skipped_breakdown": {
+    "digital_products_bestbuy": 5,
+    "already_exists_in_groups": 11
+  },
+  "skip_details": {
+    "digital_bestbuy": [
+      "JCQ6HR559F - Carnival Games Standard Edition [Digital]",
+      "J33V32CTJ7 - Blizzard $50 Balance Code [Digital]",
+      "JJGXP2VCS6 - EA Sports FC 25 Ultimate Edition [Digital]",
+      "JCQ6HWT5CQ - EA Sports FC 25 Standard Edition [Digital]",
+      "B08JHCVHTY - blink plus plan (數位訂閱服務)"
+    ],
+    "already_exists": [
+      "B08KT2Z93D - body-moisturizing (昨日已加入)",
+      "B0113UZJE2 - kitchen-scale (昨日已加入)",
+      "B09V7Z4TJG - exfoliating-toner (昨日已加入)",
+      "B074PVTPBW - acne-treatment (昨日已加入)",
+      "B09542G9ZN - makeup-removal (昨日已加入)",
+      "B0C6W3D4RM - streaming-stick (昨日已加入)",
+      "B0CP4XY9QC - oil-sprayer (昨日已加入)",
+      "B0GJTFXNRX - item-tracker (昨日已加入)",
+      "B0DGJ7HYG1 - noise-cancelling-headphone (昨日已加入)",
+      "B00U2VQZDS - makeup-removal (已存在詳細表)",
+      "B0DGHMNQ5Z 的重複確認：B0FQFB8FMG 為不同 ASIN 新增至 wireless-earbuds"
+    ]
+  },
+  "results": [
+    { "product_id": "B085DTZQNZ", "title": "Owala FreeSip Insulated Stainless Steel Water Bottle 24 Oz", "category": "water-bottle", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B07MHJFRBJ", "title": "Bounty Quick Size Paper Towels 8 Family Rolls", "category": "paper-towels", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B011LOOKV8", "title": "50 Wheat Pennies Unsearched Shotgun Roll", "category": "collectible-coins", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0CFYYBHK3", "title": "Lincoln Wheat Cent 1909 S VDB Design 1 oz Pure .999 Copper Round", "category": "collectible-coins", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B07BGLT25K", "title": "Scott ComfortPlus Toilet Paper 12 Double Rolls", "category": "toilet-paper", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B00NTCH52W", "title": "Amazon Basics 20-Pack AA Alkaline Batteries", "category": "aa-batteries", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B09541P9WH", "title": "Amazon Basics Double-Tipped Cotton Swabs 500 Count", "category": "cotton-swabs", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B07K9Q32MR", "title": "Morgan Silver Dollar Pre 1921", "category": "collectible-coins", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0CYJBB2JQ", "title": "bella 2 Slice Slim Toaster", "category": "bread-toaster", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B07RZ4DJLL", "title": "Unsearched Wheat Penny Roll w/Silver Mercury Dime End", "category": "collectible-coins", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0CP9YB3Q4", "title": "STANLEY Quencher H2.0 Tumbler 30 oz", "category": "water-bottle", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B07SH31T9V", "title": "LMNT Zero Sugar Electrolytes Raspberry Salt 30-Count", "category": "electrolyte-hydration", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0CQN17539", "title": "2025 American Silver Eagle .999 Fine Silver", "category": "collectible-coins", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0FQFB8FMG", "title": "Apple AirPods Pro 3 Wireless Earbuds with ANC", "category": "wireless-earbuds", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0C2CY22B8", "title": "Amazon Basics Everyday Disposable Paper Plates 100 Count", "category": "disposable-plates", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B00EMGAO5Y", "title": "Walking Liberty 1 Avdp Ounce .999 Fine Copper", "category": "collectible-coins", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B0FN4NH4K8", "title": "Angel Soft Toilet Paper 18 Mega Rolls", "category": "toilet-paper", "is_new_category": false, "platform": "amazon" },
+    { "product_id": "B086KSDTQ4", "title": "Hanes Men's Boxer Briefs Pack Cool & Breathable", "category": "mens-underwear", "is_new_category": true, "platform": "amazon" },
+    { "product_id": "B0CG5P42QH", "title": "G4Free EverGoing Yoga Pants Women Wide Leg with Pockets", "category": "womens-yoga-pants", "is_new_category": true, "platform": "amazon" },
+    { "product_id": "B0D8DZN778", "title": "OEAK Women Deep V Wireless Bra No Underwire Push Up Bralette", "category": "wireless-bra", "is_new_category": true, "platform": "amazon" },
+    { "product_id": "B0CYZM5RSM", "title": "ANRABESS Women Long Sleeve Rib Knit Slim Fit T-Shirt", "category": "womens-basic-tops", "is_new_category": true, "platform": "amazon" },
+    { "product_id": "B0F5X4FM3Q", "title": "0.5 Sec Instant Read Meat Thermometer Digital", "category": "meat-thermometer", "is_new_category": true, "platform": "amazon" },
+    { "product_id": "B09NMFFG8B", "title": "Crocs Kid's Classic Clog", "category": "kids-casual-shoes", "is_new_category": true, "platform": "amazon" },
+    { "product_id": "B0DCH8VDXF", "title": "Apple EarPods Headphones with USB-C Plug Wired", "category": "wired-earphones", "is_new_category": true, "platform": "amazon" }
+  ],
+  "summary": {
+    "categories_with_new_products": [
+      "water-bottle (+2, 總計6)",
+      "paper-towels (+1, 總計3)",
+      "collectible-coins (+6, 總計12)",
+      "toilet-paper (+2, 總計6)",
+      "aa-batteries (+1, 總計2)",
+      "cotton-swabs (+1, 總計2)",
+      "bread-toaster (+1, 總計2)",
+      "electrolyte-hydration (+1, 總計3)",
+      "wireless-earbuds (+1, 總計10)",
+      "disposable-plates (+1, 總計2)"
+    ],
+    "new_categories_created": [
+      "mens-underwear (1個產品)",
+      "womens-yoga-pants (1個產品)",
+      "wireless-bra (1個產品)",
+      "womens-basic-tops (1個產品)",
+      "meat-thermometer (1個產品)",
+      "kids-casual-shoes (1個產品)",
+      "wired-earphones (1個產品)"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "category": "aa-batteries",
+  "analysis_date": "2026-03-04",
+  "products_analyzed": [
+    {
+      "asin": "B00NTCH52W",
+      "name": "Amazon Basics 20-Pack AA Alkaline High-Performance Batteries",
+      "platform": "amazon_us",
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "l4_overall_sentiment": 0.42,
+      "key_aspects": {
+        "value_for_money": 0.84,
+        "battery_life": 0.29,
+        "consistency_quality_control": -0.56,
+        "performance_vs_name_brand": 0.48,
+        "packaging": 0.25
+      }
+    }
+  ],
+  "competitor_products": [
+    {
+      "name": "Duracell AA",
+      "source": "user_mentions_in_reviews",
+      "data_type": "review_mentions",
+      "note": "未有獨立萃取檔案，資料來自評論比較引述"
+    },
+    {
+      "name": "Energizer AA",
+      "source": "user_mentions_in_reviews",
+      "data_type": "review_mentions",
+      "note": "未有獨立萃取檔案，資料來自評論比較引述"
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "issues": [
+        { "issue": "電池壽命短於預期", "frequency": "14%", "severity": "medium" },
+        { "issue": "全新死電池（未開封即無電）", "frequency": "8%", "severity": "high" },
+        { "issue": "批次品質不一致", "frequency": "6%", "severity": "high" },
+        { "issue": "包裝標示錯誤（AA/AAA 混裝）", "frequency": "2%", "severity": "high" },
+        { "issue": "低溫環境失效", "frequency": "2%", "severity": "medium" }
+      ],
+      "total_frequency": "30%"
+    },
+    "creates_new_problems": {
+      "issues": [
+        { "issue": "高耗電裝置表現不足（使用限制未明確）", "frequency": "4%", "severity": "low" },
+        { "issue": "包裝難以開封", "frequency": "2%", "severity": "low" }
+      ],
+      "total_frequency": "6%"
+    },
+    "unrelated_to_product": {
+      "issues": [
+        { "issue": "物流/配送問題", "frequency": "1%", "severity": "low" }
+      ],
+      "total_frequency": "1%"
+    }
+  },
+  "comparison_summary": {
+    "can_solve_problem": true,
+    "problem_solved": "提供低耗電家用裝置（遙控器、燈具、玩具）所需的 AA 電力",
+    "vs_competitors": "compared_to_duracell_energizer",
+    "verdict": "性價比顯著優於名牌（+0.84），但批次品管不一致（14% 死電池或短壽問題）是核心風險；名牌競品在高耗電裝置、寒冷環境下表現更穩定",
+    "key_risk": "批次品管問題（死電池 + 不一致）合計約 14%，尤其不適用安全關鍵裝置（煙霧偵測器）"
+  },
+  "report_type": "comparison",
+  "report_type_reason": "能解決問題（家用低耗電場景），但名牌競品在特定高需求場景更優；有批次品管風險需在比較報告中標示",
+  "confidence": "medium",
+  "confidence_note": "單平台資料（100則），品管問題具一致性，但缺乏獨立競品萃取檔案進行直接數據比較",
+  "data_sources": {
+    "amazon_extractions": 1,
+    "competitor_extractions": 0,
+    "competitor_mentions_in_reviews": 2
+  }
+}

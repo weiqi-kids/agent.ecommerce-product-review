@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "category": "wireless-bra",
+    "analysis_date": "2026-03-04",
+    "primary_product": {
+      "asin": "B0D8DZN778",
+      "name": "OEAK Women Deep V Wireless Bra No Underwire Push Up Bralette",
+      "platform": "amazon_us",
+      "reviews_analyzed": 100,
+      "avg_rating": 4.05,
+      "rating_count": 9697
+    },
+    "competitors_count": 8,
+    "data_sources": ["amazon_us L1-L6 extraction", "research report (WebSearch x11, WebFetch x1)", "competitors report (8 products)"]
+  },
+
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "label": "無法解決問題（功能失效）",
+      "issues": [
+        {
+          "issue": "clasp_breaks_quickly",
+          "frequency": "18/100 (18%)",
+          "severity": "high",
+          "detail": "扣環以膠水黏接而非縫合，多人反映使用數週至一個月後扣環脫落或斷裂，導致內衣無法穿戴。部分用戶表示已過退換期才發生。",
+          "claim_contradicted": "supportive design"
+        },
+        {
+          "issue": "insufficient_support_large_chest",
+          "frequency": "14/100 (14%)",
+          "severity": "medium",
+          "detail": "D cup 以上使用者普遍反映支撐力不足，容易出現 uniboob 或胸部滑出現象，無法達成「push up」宣稱的效果",
+          "claim_contradicted": "Push Up / Supportive"
+        }
+      ]
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "label": "產生新問題（副作用）",
+      "issues": [
+        {
+          "issue": "sizing_inconsistency",
+          "frequency": "12/100 (12%)",
+          "severity": "medium",
+          "detail": "罩杯偏小而胸圍偏大，使用者難以找到合適尺碼。需參考多條評論或嘗試多個尺碼才能找到正確的。"
+        },
+        {
+          "issue": "limited_lift",
+          "frequency": "9/100 (9%)",
+          "severity": "low",
+          "detail": "托高效果與商品圖片差距較大，實際效果更像運動內衣而非產品宣傳的 push up 效果"
+        },
+        {
+          "issue": "rides_up_throughout_day",
+          "frequency": "5/100 (5%)",
+          "severity": "low",
+          "detail": "長時間穿戴後胸帶往上移動並在腋下堆積，需要反覆調整"
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "label": "與產品無關（物流/包裝）",
+      "issues": [
+        {
+          "issue": "cup_denting_creasing",
+          "frequency": "4/100 (4%)",
+          "severity": "medium",
+          "detail": "到貨時罩杯有嚴重壓痕或凹陷，透過衣服可見，疑似包裝不當導致"
+        }
+      ]
+    }
+  },
+
+  "competitor_comparison": {
+    "competitors_with_extraction": [],
+    "competitors_from_research": [
+      {
+        "name": "Bali Comfort Revolution Wirefree Bra",
+        "asin": "B071DD8XPZ",
+        "recommendation_count": 4,
+        "strengths": ["CP 值高", "舒適透氣", "廣泛尺碼（多種 Band/Cup 組合）", "NBC Select 測評推薦"],
+        "weaknesses": ["大罩杯支撐力有限", "設計較傳統"],
+        "best_for": "平價日常需求、多尺碼需求"
+      },
+      {
+        "name": "Knix Good to Go Seamless Wireless Bra",
+        "asin": "B0DJCJK963",
+        "recommendation_count": 4,
+        "strengths": ["BlissFit 面料極柔軟", "全天候舒適", "30A-44G 大尺碼包容", "Reddit 和評測一致推薦"],
+        "weaknesses": ["大罩杯支撐力略不足", "偶有上移問題"],
+        "best_for": "追求極致柔軟舒適的日常穿戴"
+      },
+      {
+        "name": "Honeylove Crossover Wireless Bra",
+        "asin": null,
+        "recommendation_count": 4,
+        "strengths": ["大罩杯真實支撐（30A-44G）", "可調 Cross 設計", "Yahoo Shopping 推薦為最佳大胸款", "Reddit 38G 用戶高評"],
+        "weaknesses": ["$69 售價偏高", "長期穿著可能拉伸"],
+        "best_for": "D cup 以上需要真實支撐的大胸用戶"
+      },
+      {
+        "name": "Wacoal Comfort First T-Shirt Wireless Bra",
+        "asin": "B093N3GVGF",
+        "recommendation_count": 3,
+        "strengths": ["Memory Foam 記憶泡棉個人化貼合", "日系精工品質", "深 V 設計", "NBC Select 推薦"],
+        "weaknesses": ["尺碼選擇略少", "售價偏高（$61+）"],
+        "best_for": "追求高端品質和深 V 設計"
+      },
+      {
+        "name": "Playtex Secrets Sensational Sleek Wirefree Bra",
+        "asin": "B00FSCFG5Y",
+        "recommendation_count": 3,
+        "strengths": ["大胸支撐良好", "背部平滑設計", "平價可靠", "NBC Select 測試推薦"],
+        "weaknesses": ["設計較傳統", "款式選擇少"],
+        "best_for": "大胸用戶尋求平價且有支撐力的選擇"
+      },
+      {
+        "name": "True & Co Body Lift V Neck Bra",
+        "asin": null,
+        "recommendation_count": 2,
+        "strengths": ["真正無縫設計", "套穿式簡便", "底圍支撐紮實"],
+        "weaknesses": ["全覆蓋設計限制低領穿搭", "無 Amazon 上架"],
+        "best_for": "追求真正無縫感的穿搭"
+      },
+      {
+        "name": "Maidenform Pure Comfort Convertible Bralette",
+        "asin": null,
+        "recommendation_count": 2,
+        "strengths": ["$20 超低價格", "蕾絲設計兼具外觀", "可調節/可拆肩帶"],
+        "weaknesses": ["大罩杯支撐力不足", "蕾絲款不適合 T-shirt 穿著"],
+        "best_for": "預算有限的輕量需求"
+      },
+      {
+        "name": "Calvin Klein Modern Cotton Triangle Bralette",
+        "asin": null,
+        "recommendation_count": 2,
+        "strengths": ["95% 天然棉質透氣", "品牌形象", "深 V 設計", "$28 合理定價"],
+        "weaknesses": ["塑形和支撐力有限", "不適合大罩杯"],
+        "best_for": "追求天然棉質和品牌的輕量穿搭"
+      }
+    ]
+  },
+
+  "verdict": {
+    "report_type": "comparison",
+    "can_solve_problem": true,
+    "better_alternatives_exist": true,
+    "reasoning": "OEAK Wireless Bra 在舒適度方面表現突出（comfort 0.90），布料質感獲一致好評。然而，扣環以膠水黏接而非縫合是嚴重的耐用性問題（18% 反映斷裂，severity: high），直接導致產品壽命縮短。大胸用戶（D+）支撐力明顯不足。相較之下：Bali 和 Playtex 提供更可靠的平價選擇；Knix 提供更好的舒適度和尺碼包容性；Honeylove 針對大胸用戶提供真實支撐。OEAK 適合追求極致柔軟且小罩杯的消費者，但扣環品質是明確風險。",
+    "primary_product_rating": "conditional_recommend",
+    "conditions": "僅適合 A-C cup、不介意潛在扣環壽命問題的消費者",
+    "confidence": "high"
+  },
+
+  "key_findings": {
+    "strengths": [
+      "舒適度極高（comfort 0.90），布料「如奶油般柔軟」是最大優勢",
+      "無縫設計有效避免線條透出（seamless 0.85）",
+      "價格合理，多位用戶回購多件",
+      "寬肩帶設計減少背部壓痕"
+    ],
+    "critical_issues": [
+      "扣環以膠水黏接而非縫合，18% 使用者反映數週至一個月內斷裂（HIGH severity）",
+      "大胸用戶（D+）支撐力明顯不足（14% 反映），「push up」宣稱僅部分成立",
+      "尺碼不一致（12%），罩杯偏小而胸圍偏大"
+    ],
+    "market_insight": "無鋼圈內衣市場快速成長（CAGR 9.16%），OEAK 以低價高舒適策略搶佔市場，但品質控制（扣環膠合）是長期隱憂。競品如 Knix、Honeylove 以技術創新（BlissFit 面料、Crossover 設計）建立差異化。"
+  }
+}

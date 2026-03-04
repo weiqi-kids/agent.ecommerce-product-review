@@ -1,0 +1,81 @@
+{
+  "category": "disposable-plates",
+  "analysis_date": "2026-03-04",
+  "products_analyzed": [
+    {
+      "asin": "B0C2CY22B8",
+      "name": "Amazon Basics Everyday Disposable Paper Plates 100 Count",
+      "platform": "amazon_us",
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "l4_key_aspects": {
+        "value": 0.93,
+        "sturdiness": 0.67,
+        "size": 0.55,
+        "leak_resistance": 0.58,
+        "microwave_safety": 0.50,
+        "plates_sticking": 0.25,
+        "packaging": 0.30
+      }
+    }
+  ],
+  "competitor_products": [
+    {
+      "name": "Dixie Paper Plates",
+      "source": "user_mentions_in_reviews",
+      "data_type": "review_mentions",
+      "note": "未有獨立萃取檔案，資料來自評論比較引述；用戶認為品質相當但 Amazon Basics 價格更低"
+    },
+    {
+      "name": "Costco Paper Plates",
+      "source": "user_mentions_in_reviews",
+      "data_type": "review_mentions",
+      "note": "未有獨立萃取檔案，資料來自評論引述"
+    }
+  ],
+  "claim_verification": [
+    { "claim": "Microwave-safe", "verdict": "partial", "note": "1則已驗證報告指出微波起火（高嚴重度），多數使用正常" },
+    { "claim": "Soak-Proof", "verdict": "partial", "note": "6% 用戶報告液體滲漏，尤其熱食長時間放置" },
+    { "claim": "Cut Resistant", "verdict": "supported", "note": "無割破投訴" }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "issues": [
+        { "issue": "flimsy_insufficient_sturdiness（強度不足，需疊用 2-3 片）", "frequency": "7%", "severity": "medium" },
+        { "issue": "soak_through_liquid_leakage（熱食液體滲漏，與 Soak-Proof 宣稱矛盾）", "frequency": "6%", "severity": "medium" },
+        { "issue": "size_smaller_than_expected（尺寸偏小）", "frequency": "4%", "severity": "low" }
+      ],
+      "total_frequency": "17%"
+    },
+    "creates_new_problems": {
+      "issues": [
+        { "issue": "plates_sticking_together（盤子黏合，分離損壞）", "frequency": "4%", "severity": "low" },
+        { "issue": "microwave_fire_hazard（微波起火—安全事故）", "frequency": "1%", "severity": "high", "safety_flag": true }
+      ],
+      "total_frequency": "5%",
+      "safety_note": "microwave_fire_hazard 雖僅 1 則，但為已驗證購買且嚴重度高，需在報告中特別標示"
+    },
+    "unrelated_to_product": {
+      "issues": [
+        { "issue": "包裝與圖片不符", "frequency": "1%", "severity": "low" }
+      ],
+      "total_frequency": "1%"
+    }
+  },
+  "comparison_summary": {
+    "can_solve_problem": true,
+    "problem_solved": "提供免洗便利餐盤，節省洗碗時間，適合日常餐食與聚會",
+    "vs_competitors": "compared_to_dixie_costco_mentions",
+    "verdict": "性價比極佳（0.93），用戶認為品質與 Dixie 相當但更便宜；強度和防漏表現在乾食/短時間使用下良好；熱食長時間放置或微波使用存在風險",
+    "key_risk": "微波起火事故（1 則已驗證，高嚴重度）需要在報告中顯著警示；soak-proof 宣稱與實際有落差（6% 滲漏）"
+  },
+  "report_type": "comparison",
+  "report_type_reason": "能解決問題（免洗便利），性價比為主要優勢；但微波安全疑慮和防漏宣稱落差需特別標注，建議以比較報告搭配安全警告",
+  "confidence": "high",
+  "confidence_note": "100則評論，L4 value 0.93，資料充足；競品缺乏獨立萃取，比較依賴評論引述",
+  "data_sources": {
+    "amazon_extractions": 1,
+    "competitor_extractions": 0,
+    "competitor_mentions_in_reviews": 2
+  }
+}

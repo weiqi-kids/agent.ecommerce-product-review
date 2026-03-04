@@ -1,0 +1,173 @@
+{
+  "date": "2026-03-04",
+  "review_needed_count": 41,
+  "review_needed_reports": [
+    "comparisons/kitchen-scale--2026-02-20.md",
+    "comparisons/water-bottle--2026-02-20.md",
+    "comparisons/nail-glue--2026-02-08.md",
+    "comparisons/water-bottle--2026-03-03.md",
+    "comparisons/vitamin-d-supplement--2026-03-01.md",
+    "warnings/trading-cards-amazon-tampering--2026-03-01.md",
+    "comparisons/drain-clog--2026-03-01.md",
+    "comparisons/laundry-stain--2026-03-01.md",
+    "comparisons/streaming-stick--2026-03-01.md",
+    "pain_points/squishy-toy--pain-points--2026-03-01.md",
+    "comparisons/collectible-blind-box--2026-02-21.md",
+    "comparisons/foam-playmat--2026-02-21.md",
+    "comparisons/infant-sensory-toy--2026-02-21.md",
+    "comparisons/kids-activity-book--2026-02-21.md",
+    "comparisons/toddler-learning-toy--2026-02-21.md",
+    "comparisons/disposable-gloves--2026-02-20.md",
+    "comparisons/baby-care--2026-02-05.md",
+    "comparisons/body-firming--2026-02-08.md",
+    "comparisons/body-moisturizing--comparison--2026-02-07.md",
+    "comparisons/children-entertainment--2026-02-05.md",
+    "comparisons/drain-clog--comparison--2026-02-06.md",
+    "comparisons/exfoliating-toner--2026-02-15.md",
+    "comparisons/eye-puffiness--2026-02-15.md",
+    "comparisons/face-moisturizing--2026-02-13.md",
+    "comparisons/home-fitness--2026-02-05.md",
+    "comparisons/kids-tent--comparison--2026-02-06.md",
+    "comparisons/muscle-building--2026-02-05.md",
+    "comparisons/photo-backdrop--2026-02-11.md",
+    "comparisons/playing-cards--comparison--2026-02-06.md",
+    "comparisons/teeth-whitening--comparison--2026-02-06.md",
+    "comparisons/trading-cards--comparison--2026-02-06.md",
+    "comparisons/wireless-earbuds--2026-02-17.md",
+    "recommendations/drain-clog--2026-02-05.md",
+    "recommendations/lip-care--recommendation--2026-02-06.md",
+    "recommendations/lip-care--recommendation--2026-02-11.md",
+    "recommendations/sun-protection--2026-02-05.md",
+    "recommendations/teeth-whitening--2026-02-05.md",
+    "recommendations/vitamin-d-supplement--recommendation--2026-02-06.md",
+    "warnings/B0G4Z5G1NT--warning--2026-02-06.md",
+    "warnings/trash-bags--2026-02-09.md",
+    "warnings/upsimples-picture-frame--2026-02-08.md"
+  ],
+  "gap_types": {
+    "research_insufficient": 5,
+    "competitors_insufficient": 10,
+    "reviews_insufficient": 20,
+    "build_phase": 6
+  },
+  "gap_breakdown": {
+    "research_insufficient": [
+      {"report": "comparisons/foam-playmat--2026-02-21.md", "detail": "WebSearch 1 次 / WebFetch 0 次，嚴重不足"},
+      {"report": "comparisons/collectible-blind-box--2026-02-21.md", "detail": "WebFetch 0 次，無 L1-L6 萃取"},
+      {"report": "comparisons/kids-activity-book--2026-02-21.md", "detail": "WebFetch 0 次，資料深度不足"},
+      {"report": "comparisons/photo-backdrop--2026-02-11.md", "detail": "缺少 WebSearch 研究和競品資料"},
+      {"report": "comparisons/nail-glue--2026-02-08.md", "detail": "WebFetch 僅 10 次（需 100+）"}
+    ],
+    "competitors_insufficient": [
+      {"report": "comparisons/body-moisturizing--comparison--2026-02-07.md", "detail": "僅 2 個產品（需 3+）"},
+      {"report": "comparisons/playing-cards--comparison--2026-02-06.md", "detail": "無同類 Amazon 評論資料"},
+      {"report": "comparisons/drain-clog--comparison--2026-02-06.md", "detail": "競品無 L1-L6 萃取（無 Amazon ASIN）"},
+      {"report": "comparisons/teeth-whitening--comparison--2026-02-06.md", "detail": "競品無 L1-L6 萃取"},
+      {"report": "comparisons/trading-cards--comparison--2026-02-06.md", "detail": "部分競品無 L1-L6 萃取"},
+      {"report": "comparisons/exfoliating-toner--2026-02-15.md", "detail": "僅主角產品有 Amazon 評論萃取"},
+      {"report": "comparisons/kitchen-scale--2026-02-20.md", "detail": "僅基於評測文章分析"},
+      {"report": "comparisons/water-bottle--2026-02-20.md", "detail": "僅基於評測文章分析"},
+      {"report": "comparisons/disposable-gloves--2026-02-20.md", "detail": "僅基於評測文章分析"},
+      {"report": "warnings/upsimples-picture-frame--2026-02-08.md", "detail": "待補充競品研究資料"}
+    ],
+    "reviews_insufficient": [
+      {"report": "recommendations/drain-clog--2026-02-05.md", "detail": "50 則（需 100 則）"},
+      {"report": "recommendations/lip-care--recommendation--2026-02-06.md", "detail": "每產品僅 50 則"},
+      {"report": "recommendations/lip-care--recommendation--2026-02-11.md", "detail": "每產品僅 50 則"},
+      {"report": "recommendations/sun-protection--2026-02-05.md", "detail": "評論不足"},
+      {"report": "recommendations/teeth-whitening--2026-02-05.md", "detail": "評論不足"},
+      {"report": "recommendations/vitamin-d-supplement--recommendation--2026-02-06.md", "detail": "50 則 + 競品數據有限"},
+      {"report": "warnings/B0G4Z5G1NT--warning--2026-02-06.md", "detail": "僅 7 則評論（驗證購買 0%）"},
+      {"report": "warnings/trash-bags--2026-02-09.md", "detail": "評論不足"},
+      {"report": "comparisons/drain-clog--comparison--2026-02-06.md", "detail": "僅 50 則（需 100 則）"},
+      {"report": "comparisons/teeth-whitening--comparison--2026-02-06.md", "detail": "僅 50 則（需 100 則）"},
+      {"report": "comparisons/trading-cards--comparison--2026-02-06.md", "detail": "70 則（需 100 則）"},
+      {"report": "comparisons/home-fitness--2026-02-05.md", "detail": "Pedal Resistance Bands 資料不足"},
+      {"report": "comparisons/body-firming--2026-02-08.md", "detail": "RoC Firming Serum 產品-評論錯配"},
+      {"report": "comparisons/muscle-building--2026-02-05.md", "detail": "評論不足（部分產品）"},
+      {"report": "comparisons/face-moisturizing--2026-02-13.md", "detail": "缺少 WebSearch 專業評測來源"},
+      {"report": "comparisons/wireless-earbuds--2026-02-17.md", "detail": "評論資料待補充"},
+      {"report": "comparisons/infant-sensory-toy--2026-02-21.md", "detail": "評論不足"},
+      {"report": "comparisons/toddler-learning-toy--2026-02-21.md", "detail": "評論不足"},
+      {"report": "comparisons/kids-tent--comparison--2026-02-06.md", "detail": "評論不足"},
+      {"report": "comparisons/eye-puffiness--2026-02-15.md", "detail": "評論不足"}
+    ],
+    "build_phase": [
+      {"report": "comparisons/vitamin-d-supplement--2026-03-01.md", "detail": "自我審核通過，非實際 REVIEW_NEEDED"},
+      {"report": "comparisons/drain-clog--2026-03-01.md", "detail": "自我審核通過，非實際 REVIEW_NEEDED"},
+      {"report": "comparisons/laundry-stain--2026-03-01.md", "detail": "自我審核通過，非實際 REVIEW_NEEDED"},
+      {"report": "pain_points/squishy-toy--pain-points--2026-03-01.md", "detail": "Toymendous 僅 3 則排除核心分析，整體報告有效"},
+      {"report": "comparisons/water-bottle--2026-03-03.md", "detail": "Stanley 評論異常標記，Owala 分析完整"},
+      {"report": "warnings/trading-cards-amazon-tampering--2026-03-01.md", "detail": "Prismatic Evolutions 萃取含 REVIEW_NEEDED，整體警告報告有效"}
+    ]
+  },
+  "actionable_gaps": [
+    {
+      "category": "foam-playmat",
+      "action": "supplement_research",
+      "priority": "medium",
+      "reason": "WebFetch 僅 1 次（需 100+），next_retry: 2026-03-06（未到期，跳過）",
+      "status": "deferred_until_2026-03-06"
+    },
+    {
+      "category": "kids-activity-book",
+      "action": "supplement_research",
+      "priority": "low",
+      "reason": "WebFetch 0 次，next_retry: 2026-03-06（未到期，跳過）",
+      "status": "deferred_until_2026-03-06"
+    },
+    {
+      "category": "interactive-pet-toy",
+      "action": "supplement_reviews",
+      "priority": "medium",
+      "reason": "watchlist.json 記錄：已產出比較報告，待 Amazon 評論補齊",
+      "status": "actionable_today"
+    },
+    {
+      "category": "monster-truck-toy",
+      "action": "supplement_reviews",
+      "priority": "medium",
+      "reason": "watchlist.json 記錄：已產出比較報告，待 Amazon 評論補齊",
+      "status": "actionable_today"
+    },
+    {
+      "category": "collectible-blind-box",
+      "action": "supplement_research",
+      "priority": "medium",
+      "reason": "WebFetch 0 次，無 L1-L6 萃取，需完整研究補齊",
+      "status": "actionable_today"
+    },
+    {
+      "category": "photo-backdrop",
+      "action": "supplement_research",
+      "priority": "low",
+      "reason": "缺少 WebSearch 研究和競品資料",
+      "status": "actionable_today"
+    }
+  ],
+  "deferred_gaps": [
+    {
+      "category": "foam-playmat",
+      "reason": "next_retry 為 2026-03-06，今日未到期",
+      "retry_count": 4,
+      "next_retry": "2026-03-06"
+    },
+    {
+      "category": "kids-activity-book",
+      "reason": "next_retry 為 2026-03-06，今日未到期",
+      "retry_count": 3,
+      "next_retry": "2026-03-06"
+    }
+  ],
+  "legacy_reports_note": "19 份 2026-02-05 至 2026-02-17 的舊版報告含 REVIEW_NEEDED（評論不足 / 競品不足），已被較新版本部分取代（drain-clog 2026-03-01 已補齊）。建議每季清理舊版標記。",
+  "summary": {
+    "total_review_needed": 41,
+    "actual_unresolved": 35,
+    "resolved_in_newer_version": 6,
+    "actionable_today": 4,
+    "deferred_not_due": 2,
+    "high_priority": 0,
+    "medium_priority": 3,
+    "low_priority": 3
+  }
+}

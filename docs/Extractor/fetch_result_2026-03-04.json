@@ -1,0 +1,37 @@
+{
+  "date": "2026-03-04",
+  "total_products_scraped": 20,
+  "total_reviews_scraped": 1975,
+  "scrape_success_rate": "100%",
+  "extraction_success_rate": "100%",
+  "review_needed_count": 1,
+  "platform": "amazon_us",
+  "results": [
+    { "product_id": "B07MHJFRBJ", "title": "Bounty Quick Size Paper Towels", "category": "paper-towels", "reviews": 100, "review_needed": false },
+    { "product_id": "B011LOOKV8", "title": "50 Wheat Pennies Unsearched Shotgun Roll", "category": "collectible-coins", "reviews": 100, "review_needed": false },
+    { "product_id": "B0CFYYBHK3", "title": "Lincoln Wheat Cent 1909 S VDB Design Copper Round", "category": "collectible-coins", "reviews": 100, "review_needed": false },
+    { "product_id": "B00NTCH52W", "title": "Amazon Basics 20-Pack AA Alkaline Batteries", "category": "aa-batteries", "reviews": 100, "review_needed": false },
+    { "product_id": "B09541P9WH", "title": "Amazon Basics Double-Tipped Cotton Swabs 500 Count", "category": "cotton-swabs", "reviews": 100, "review_needed": false },
+    { "product_id": "B07K9Q32MR", "title": "Morgan Silver Dollar Pre 1921", "category": "collectible-coins", "reviews": 100, "review_needed": true, "review_reason": "語言不符 + 聲明矛盾" },
+    { "product_id": "B07RZ4DJLL", "title": "Unsearched Wheat Penny Roll w/Silver Mercury Dime End", "category": "collectible-coins", "reviews": 100, "review_needed": false },
+    { "product_id": "B07SH31T9V", "title": "LMNT Zero Sugar Electrolytes Raspberry Salt 30-Count", "category": "electrolyte-hydration", "reviews": 100, "review_needed": false },
+    { "product_id": "B0CQN17539", "title": "2025 American Silver Eagle .999 Fine Silver", "category": "collectible-coins", "reviews": 75, "review_needed": false },
+    { "product_id": "B085DTZQNZ", "title": "Owala FreeSip Insulated Stainless Steel Water Bottle 24 Oz", "category": "water-bottle", "reviews": 100, "review_needed": false },
+    { "product_id": "B0C2CY22B8", "title": "Amazon Basics Everyday Disposable Paper Plates 100 Count", "category": "disposable-plates", "reviews": 100, "review_needed": false },
+    { "product_id": "B00EMGAO5Y", "title": "Walking Liberty 1 Avdp Ounce .999 Fine Copper Round", "category": "collectible-coins", "reviews": 100, "review_needed": false },
+    { "product_id": "B0CP9YB3Q4", "title": "STANLEY Quencher H2.0 Tumbler 30 oz", "category": "water-bottle", "reviews": 100, "review_needed": false },
+    { "product_id": "B086KSDTQ4", "title": "Hanes Men's Boxer Briefs Pack Cool & Breathable", "category": "mens-underwear", "reviews": 100, "review_needed": false },
+    { "product_id": "B0CG5P42QH", "title": "G4Free EverGoing Yoga Pants Women Wide Leg", "category": "womens-yoga-pants", "reviews": 100, "review_needed": false },
+    { "product_id": "B0D8DZN778", "title": "OEAK Women Deep V Wireless Bra", "category": "wireless-bra", "reviews": 100, "review_needed": false },
+    { "product_id": "B0CYZM5RSM", "title": "ANRABESS Women Long Sleeve Rib Knit Slim Fit T-Shirt", "category": "womens-basic-tops", "reviews": 100, "review_needed": false },
+    { "product_id": "B0F5X4FM3Q", "title": "0.5 Sec Instant Read Meat Thermometer Digital", "category": "meat-thermometer", "reviews": 100, "review_needed": false },
+    { "product_id": "B09NMFFG8B", "title": "Crocs Kid's Classic Clog", "category": "kids-casual-shoes", "reviews": 100, "review_needed": false },
+    { "product_id": "B0DCH8VDXF", "title": "Apple EarPods Headphones with USB-C Plug Wired", "category": "wired-earphones", "reviews": 100, "review_needed": false }
+  ],
+  "existing_extractions_used": [
+    { "product_id": "B07BGLT25K", "title": "Scott ComfortPlus Toilet Paper", "category": "toilet-paper", "extraction_date": "2026-03-03" },
+    { "product_id": "B0FN4NH4K8", "title": "Angel Soft Toilet Paper 18 Mega Rolls", "category": "toilet-paper", "extraction_date": "2026-03-03" },
+    { "product_id": "B0CYJBB2JQ", "title": "bella 2 Slice Slim Toaster", "category": "bread-toaster", "extraction_date": "2026-02-11" },
+    { "product_id": "B0FQFB8FMG", "title": "Apple AirPods Pro 3 Wireless Earbuds", "category": "wireless-earbuds", "extraction_date": "2026-02-17" }
+  ]
+}

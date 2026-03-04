@@ -1,0 +1,311 @@
+{
+  "category": "wired-earphones",
+  "analysis_date": "2026-03-04",
+  "problem_statement": "有線耳機在音質、耐用性、隔音、USB-C 兼容性等方面的解決能力比較",
+  "products_analyzed": [
+    {
+      "product_id": "B0DCH8VDXF",
+      "name": "Apple EarPods Headphones with USB-C Plug",
+      "platform": "amazon_us",
+      "price_range": "~$19",
+      "data_source": "amazon_us L1-L6 extraction",
+      "reviews_count": 100,
+      "avg_rating": 4.65,
+      "confidence": "high"
+    }
+  ],
+  "competitors_analyzed": [
+    {
+      "product_id": "B0CB8HHS8V",
+      "name": "Moondrop Chu 2 (CHU II) Wired IEM",
+      "price_range": "$18-20",
+      "data_source": "評測文章（SoundGuys、AudioNotions、PCPerspective、Head-Fi）",
+      "recommendation_count": 4,
+      "has_amazon_asin": true,
+      "note": "基於評測文章，非用戶評論"
+    },
+    {
+      "product_id": "B0B935FN2B",
+      "name": "KZ ZSN Pro X Hybrid Wired Earbuds",
+      "price_range": "$25-30",
+      "data_source": "評測文章（TechGearLab、SoundGuys、Head-Fi）",
+      "recommendation_count": 4,
+      "has_amazon_asin": true,
+      "note": "基於評測文章，非用戶評論"
+    },
+    {
+      "product_id": "B00I3LV1HE",
+      "name": "Sony MDR-EX15AP Wired Earphones",
+      "price_range": "$10-15",
+      "data_source": "評測文章（TechRadar、Amazon 暢銷榜）",
+      "recommendation_count": 3,
+      "has_amazon_asin": true,
+      "note": "基於評測文章，非用戶評論"
+    },
+    {
+      "product_id": "B0CT9PYXGY",
+      "name": "JBL Tune 310C Wired Hi-Res Earphones (USB-C)",
+      "price_range": "$20-25",
+      "data_source": "評測文章（TechRadar、AndroidPolice）",
+      "recommendation_count": 3,
+      "has_amazon_asin": true,
+      "note": "基於評測文章，非用戶評論"
+    },
+    {
+      "product_id": "B07H2VPWFR",
+      "name": "SoundMagic E11C Wired Earphones",
+      "price_range": "~$30",
+      "data_source": "評測文章（What Hi-Fi?、TechRadar、Headfonics）",
+      "recommendation_count": 3,
+      "has_amazon_asin": true,
+      "note": "基於評測文章，非用戶評論"
+    },
+    {
+      "product_id": "B004PNZFZ8",
+      "name": "Shure SE215 Pro Sound-Isolating Earphones",
+      "price_range": "$99-109",
+      "data_source": "評測文章（AudiophileON、SoundGuys、TechRadar、What Hi-Fi?）",
+      "recommendation_count": 4,
+      "has_amazon_asin": true,
+      "note": "基於評測文章，非用戶評論"
+    }
+  ],
+  "apple_earpods_performance": {
+    "core_strengths": [
+      {
+        "aspect": "wired_convenience",
+        "score": 0.84,
+        "summary": "無需充電是最高度讚譽的特性，隨插即用體驗無可取代"
+      },
+      {
+        "aspect": "sound_quality",
+        "score": 0.82,
+        "summary": "人聲與播客表現清晰，同價位中表現優異，但低頻薄弱（RTINGS 測量顯示 12dB 低頻缺損）"
+      },
+      {
+        "aspect": "value_for_money",
+        "score": 0.73,
+        "summary": "$19 價位初購性價比尚可，但因耐用性問題導致長期成本偏高"
+      }
+    ],
+    "core_weaknesses": [
+      {
+        "aspect": "durability",
+        "score": 0.31,
+        "summary": "22% 用戶在 1-4 個月內發生故障，且常在退貨窗口後發生，為最嚴重缺陷"
+      },
+      {
+        "aspect": "microphone_quality",
+        "score": 0.38,
+        "summary": "8% 用戶回報麥克風在短期使用後停止運作，疑為系統性品質問題"
+      },
+      {
+        "aspect": "comfort_fit",
+        "score": 0.62,
+        "summary": "開放式設計無法適合所有耳型，7% 用戶反映不舒適且無法穩固"
+      }
+    ]
+  },
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "type": "❌ 無法解決問題（功能失效）",
+      "issues": [
+        {
+          "issue": "premature_failure",
+          "frequency": "22%",
+          "severity": "high",
+          "description": "左右單耳失聲、控制機制失靈（1-4 個月內），為核心功能失效，無法繼續提供音訊播放功能",
+          "representative_quotes": [
+            "L side stopped working after a month, outside of return window.",
+            "After just two months the headphones have become unusable. They skip, pause, and ask for Siri"
+          ]
+        },
+        {
+          "issue": "microphone_failure",
+          "frequency": "8%",
+          "severity": "high",
+          "description": "麥克風在 2 週至數月內停止運作，通話功能完全失效",
+          "representative_quotes": [
+            "after about two weeks of normal use, the microphone stops working. I can still hear the other person, but they cannot hear me at all when I speak."
+          ]
+        },
+        {
+          "issue": "connector_damage",
+          "frequency": "6%",
+          "severity": "high",
+          "description": "USB-C 插頭斷裂、連接點損壞，導致完全無法使用",
+          "representative_quotes": [
+            "the plug broke off into my phone on the second day"
+          ]
+        }
+      ],
+      "total_frequency": "~36%（含重疊）"
+    },
+    "creates_new_problems": {
+      "type": "⚠️ 產生新問題（副作用）",
+      "issues": [
+        {
+          "issue": "electrical_shock",
+          "frequency": "2%",
+          "severity": "high",
+          "description": "耳機傳來電擊感，屬安全性風險，為使用前不存在的新問題",
+          "representative_quotes": [
+            "they just gave me a shock in both ears. Highly unpleasant! Saw few others have experienced the same thing. Will not be putting them back in my ears…"
+          ]
+        },
+        {
+          "issue": "random_disconnection",
+          "frequency": "5%",
+          "severity": "medium",
+          "description": "隨機斷線並觸發 Siri 語音控制，影響正常使用流程，造成非預期的設備行為",
+          "representative_quotes": [
+            "they are constantly cutting out. If i go on a walk they often cut off 4-5 times",
+            "randomly disconnecting and triggering voice control"
+          ]
+        },
+        {
+          "issue": "audio_degradation_over_time",
+          "frequency": "4%",
+          "severity": "medium",
+          "description": "音質隨時間劣化，不應發生於正常使用情境",
+          "representative_quotes": [
+            "Sound quality was originally great but got worse over a few weeks of use."
+          ]
+        }
+      ],
+      "total_frequency": "~11%"
+    },
+    "unrelated_to_product": {
+      "type": "📦 與產品無關（物流/賣家問題）",
+      "issues": [
+        {
+          "issue": "counterfeit_product",
+          "frequency": "7%",
+          "severity": "medium",
+          "description": "非官方賣家販售假貨，音質下降、序號無效，為賣家問題非產品本身問題",
+          "representative_quotes": [
+            "They work but they are not real apple earbuds. If you look up serial number on Apple site it's invalid."
+          ]
+        },
+        {
+          "issue": "used_item_sold_as_new",
+          "frequency": "4%",
+          "severity": "medium",
+          "description": "以二手品當新品出售，包裝破損、有耳垢痕跡，屬賣家行為",
+          "representative_quotes": [
+            "there was EARWAX discovered inside the earphone pieces. It was clearly not 'New'"
+          ]
+        },
+        {
+          "issue": "compatibility_issues",
+          "frequency": "3%",
+          "severity": "medium",
+          "description": "iPhone 11 等舊型號不相容（非 USB-C 設備），屬使用者設備不符，非產品缺陷",
+          "representative_quotes": [
+            "The USB-C Plug does not work on my iPhone 11."
+          ]
+        }
+      ],
+      "total_frequency": "~14%"
+    }
+  },
+  "competitor_comparison": {
+    "sound_quality": {
+      "apple_earpods": "中（人聲清晰，但低頻缺損 12dB，開放式設計無法密封）",
+      "moondrop_chu2": "優（Harman Curve 調音，低頻豐富，同價位最佳）",
+      "kz_zsn_pro_x": "優（混合驅動 1DD+1BA，全頻段平衡，$25 超高 CP 值）",
+      "sony_mdr_ex15ap": "中（工程調音，IEM 密封比 EarPods 更好，$10-15 入門）",
+      "jbl_tune_310c": "中高（USB-C 原生設計，Hi-Res 認證，Pure Bass 調音）",
+      "soundmagic_e11c": "高（What Hi-Fi? 獎得主，鍍銀銅線，高解析表現）",
+      "shure_se215": "高（單動圈 MicroDriver，37dB 隔音，專業標準）"
+    },
+    "durability": {
+      "apple_earpods": "差（22% 在 1-4 個月內故障，電纜不可更換）",
+      "moondrop_chu2": "好（可拆卸電纜，驅動單元 3-5 年壽命）",
+      "kz_zsn_pro_x": "好（可拆卸 2-pin 電纜，金屬外殼）",
+      "sony_mdr_ex15ap": "中（電纜不可拆卸，塑膠外殼較廉價）",
+      "jbl_tune_310c": "中（防纏繞扁平電纜，電纜不可拆卸）",
+      "soundmagic_e11c": "好（全鋁 CNC 外殼，鍍銀銅線，但電纜不可拆卸）",
+      "shure_se215": "優（MMCX 可拆卸電纜，可長期替換，業界長壽命標竿）"
+    },
+    "noise_isolation": {
+      "apple_earpods": "無（開放式設計，~3dB，音樂外漏）",
+      "moondrop_chu2": "中高（IEM 設計，20-26dB）",
+      "kz_zsn_pro_x": "高（IEM 設計，26dB）",
+      "sony_mdr_ex15ap": "中（IEM 設計，三種耳塞尺碼）",
+      "jbl_tune_310c": "中（IEM 設計）",
+      "soundmagic_e11c": "中高（IEM 設計）",
+      "shure_se215": "極高（37dB，業界最高被動隔音之一）"
+    },
+    "usb_c_compatibility": {
+      "apple_earpods": "原生 USB-C（但 3% 設備不相容問題）",
+      "jbl_tune_310c": "原生 USB-C（Hi-Res 支援）",
+      "others": "3.5mm（需轉接器）"
+    },
+    "microphone": {
+      "apple_earpods": "有，但 8% 故障率偏高，麥克風品質問題",
+      "moondrop_chu2": "需另購帶麥版本",
+      "kz_zsn_pro_x": "有（B08DNHTF69 有麥版）",
+      "sony_mdr_ex15ap": "有，3 鍵線控",
+      "jbl_tune_310c": "有，3 鍵線控",
+      "soundmagic_e11c": "有，3 鍵線控",
+      "shure_se215": "無（部分版本另售）"
+    },
+    "price": {
+      "apple_earpods": "$19",
+      "moondrop_chu2": "$18-20（同價位音質最優）",
+      "kz_zsn_pro_x": "$25-30（混合驅動最佳性價比）",
+      "sony_mdr_ex15ap": "$10-15（最低入門價）",
+      "jbl_tune_310c": "$20-25（USB-C 最佳替代）",
+      "soundmagic_e11c": "~$30（品質優異但略貴）",
+      "shure_se215": "$99-109（專業級）"
+    }
+  },
+  "can_product_solve_problem": {
+    "primary_use_case": "提供有線耳機的基本音訊播放、通話、線控功能",
+    "verdict": "部分解決，但有嚴重耐用性缺陷",
+    "reasoning": "Apple EarPods USB-C 在音質（0.82）和便利性（0.84）方面表現良好，對大多數基本用途（人聲、播客、通話）是可用的解決方案。然而，22% premature failure 率和 8% microphone failure 率意味著近三分之一用戶在 1-4 個月內遭遇核心功能失效，且 2% electrical shock 屬安全性風險。與同價位或略高價競品相比，EarPods 在耐用性、隔音、音質方面均有更好的替代選擇。",
+    "better_alternatives_exist": true,
+    "safety_concern": true,
+    "safety_detail": "2% electrical shock 屬安全性警示，雖比例偏低但嚴重性高"
+  },
+  "report_type_recommendation": "comparison",
+  "report_type_reasoning": "Apple EarPods USB-C 能基本解決有線耳機的使用需求（音質和便利性表現良好），但在同價位或略高價競品（Moondrop Chu 2、KZ ZSN Pro X、JBL Tune 310C）中，競品在音質、耐用性、隔音方面均有明顯優勢。建議產出比較報告，說明在不同使用場景下（USB-C 優先 vs 音質優先 vs 耐用性優先）的最佳選擇。需特別在比較報告中警示 electrical shock 安全問題。",
+  "cross_platform_analysis": {
+    "available_platforms": ["amazon_us"],
+    "cross_platform_consistency": "N/A（僅 Amazon 數據）",
+    "confidence": "medium（單一平台，100 則評論）"
+  },
+  "final_summary": {
+    "total_negative_rate": "~53%（含功能失效 36% + 副作用 11% + 物流 14%，含重疊）",
+    "core_functional_failure_rate": "~36%（premature_failure 22% + microphone_failure 8% + connector_damage 6%）",
+    "safety_issue": true,
+    "safety_issue_detail": "electrical_shock 2%，嚴重性高",
+    "recommended_alternatives": [
+      {
+        "use_case": "USB-C 設備，預算 $20-25",
+        "recommendation": "JBL Tune 310C（USB-C 原生，Hi-Res 認證，耐用性更佳）"
+      },
+      {
+        "use_case": "音質優先，預算 $18-30",
+        "recommendation": "Moondrop Chu 2（Harman Curve 調音，可拆卸電纜）或 KZ ZSN Pro X（混合驅動）"
+      },
+      {
+        "use_case": "極致隔音或專業用途，預算 $99+",
+        "recommendation": "Shure SE215 Pro（37dB 隔音，MMCX 可更換電纜）"
+      },
+      {
+        "use_case": "低預算入門，預算 $10-15",
+        "recommendation": "Sony MDR-EX15AP（有麥克風，三種耳塞尺碼，IEM 隔音）"
+      }
+    ],
+    "apple_earpods_best_use_case": "已有 Apple 生態系且只需通話/播客功能的短期備用耳機；主要場景為 iPhone 配件或臨時替換"
+  },
+  "metadata": {
+    "generated_at": "2026-03-04",
+    "extractor_data": "B0DCH8VDXF--amazon_us--2026-03-04.md",
+    "research_data": "research/wired-earphones--2026-03-04.md",
+    "competitor_data": "competitors/wired-earphones--2026-03-04.md",
+    "analyst": "Architect Step 7"
+  }
+}

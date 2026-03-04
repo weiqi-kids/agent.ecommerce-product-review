@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "category": "water-bottle",
+    "problem": "日常補水與飲品保溫",
+    "analysis_date": "2026-03-04",
+    "products_analyzed": 3,
+    "report_type": "comparison"
+  },
+  "products": [
+    {
+      "product_id": "B085DTZQNZ",
+      "name": "Owala FreeSip 24oz",
+      "brand": "Owala",
+      "price_usd": 29.97,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "source_file": "docs/Extractor/amazon_us/health/B085DTZQNZ--amazon_us--2026-03-04.md"
+    },
+    {
+      "product_id": "B0CP9YB3Q4",
+      "name": "STANLEY Quencher H2.0 30oz",
+      "brand": "STANLEY",
+      "price_usd": 35.00,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "source_file": "docs/Extractor/amazon_us/health/B0CP9YB3Q4--amazon_us--2026-03-04.md"
+    },
+    {
+      "product_id": "B0FK1LF5PM",
+      "name": "Owala FreeSip 32oz",
+      "brand": "Owala",
+      "price_usd": 34.94,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "source_file": "docs/Extractor/amazon_us/health/B0FK1LF5PM--amazon_us--2026-03-03.md"
+    }
+  ],
+  "negative_review_classification": {
+    "B085DTZQNZ": {
+      "functional_failure": [
+        { "issue": "straw_detaches_from_lid", "frequency": "19%", "severity": "high", "note": "吸管脫落導致無法正常使用飲水功能" },
+        { "issue": "lid_mechanism_failure", "frequency": "15%", "severity": "high", "note": "彈簧與按鈕損壞，瓶蓋無法開閉" },
+        { "issue": "insulation_underperforms", "frequency": "7%", "severity": "high", "note": "保冷效果遠低於 24 小時聲稱" },
+        { "issue": "leaking", "frequency": "6%", "severity": "high", "note": "蓋口漏水，防漏功能失效" },
+        { "issue": "silicone_odor_affects_taste", "frequency": "6%", "severity": "medium", "note": "矽膠異味滲入水中，影響飲水體驗（核心功能受損）" }
+      ],
+      "side_effects": [
+        { "issue": "rust_leakage", "frequency": "1%", "severity": "high", "note": "4 個月後不鏽鋼接縫滲出鏽水，潛在健康風險" },
+        { "issue": "plastic_straw_concern", "frequency": "5%", "severity": "low", "note": "含塑膠吸管，部分使用者對塑膠接觸飲用水有疑慮" }
+      ],
+      "logistics_unrelated": [
+        { "issue": "product_arrived_dented_or_damaged", "frequency": "10%", "severity": "medium", "note": "物流導致凹損" },
+        { "issue": "received_used_or_counterfeit", "frequency": "4%", "severity": "medium", "note": "Amazon 平台假貨與已使用品問題" }
+      ]
+    },
+    "B0CP9YB3Q4": {
+      "functional_failure": [
+        { "issue": "insulation_failure", "frequency": "5%", "severity": "high", "note": "保冷完全失效，冰塊 1 小時內融化" },
+        { "issue": "leaking_lid", "frequency": "5%", "severity": "medium", "note": "蓋子傾斜或搖晃時滲漏" }
+      ],
+      "side_effects": [
+        { "issue": "handle_discomfort", "frequency": "3%", "severity": "low", "note": "把手對大手或男性用戶不夠舒適" },
+        { "issue": "lid_tightness_looseness", "frequency": "3%", "severity": "low", "note": "蓋子過鬆或過緊影響使用體驗" }
+      ],
+      "logistics_unrelated": [
+        { "issue": "arrived_with_scratches_or_dents", "frequency": "8%", "severity": "medium", "note": "到貨時有刮痕凹痕，包裝保護不足" },
+        { "issue": "missing_straw", "frequency": "2%", "severity": "low", "note": "出貨遺漏吸管" }
+      ]
+    },
+    "B0FK1LF5PM": {
+      "functional_failure": [
+        { "issue": "straw_falling_out", "frequency": "9%", "severity": "medium", "note": "吸管脫落，需頻繁重新安裝" },
+        { "issue": "lid_breaking", "frequency": "9%", "severity": "high", "note": "蓋子按鈕彈簧數月內損壞，產品無法使用" },
+        { "issue": "cold_retention_failure", "frequency": "1%", "severity": "high", "note": "保冷完全失效（低頻但高嚴重度）" }
+      ],
+      "side_effects": [
+        { "issue": "rust_leaking", "frequency": "1%", "severity": "high", "note": "4 個月後接縫滲出鏽水，潛在安全疑慮" },
+        { "issue": "doesnt_fit_cup_holder", "frequency": "5%", "severity": "low", "note": "32oz 底座過大，無法放入多數車用杯架" }
+      ],
+      "logistics_unrelated": [
+        { "issue": "dented_damaged_on_arrival", "frequency": "7%", "severity": "medium", "note": "物流凹損" },
+        { "issue": "received_used_or_counterfeit", "frequency": "3%", "severity": "high", "note": "收到已使用品或假貨" }
+      ]
+    }
+  },
+  "cross_product_comparison": {
+    "insulation": {
+      "B085DTZQNZ": { "score": 0.72, "failure_rate": "7%", "verdict": "達標（多數通過），少數失效" },
+      "B0CP9YB3Q4": { "score": 0.72, "failure_rate": "5%", "verdict": "達標（多數通過），少數完全失效" },
+      "B0FK1LF5PM": { "score": 0.85, "failure_rate": "1%", "verdict": "表現最佳，失效率最低" },
+      "winner": "B0FK1LF5PM（Owala 32oz）",
+      "note": "三款評分接近，32oz Owala 正面評論比例最高"
+    },
+    "leak_proof": {
+      "B085DTZQNZ": { "score": 0.68, "failure_rate": "6%", "verdict": "有漏水問題，高嚴重度" },
+      "B0CP9YB3Q4": { "score": 0.55, "failure_rate": "5%", "verdict": "FlowState 蓋傾斜漏水，場景限制較多" },
+      "B0FK1LF5PM": { "score": 0.80, "failure_rate": "9% straw（間接）", "verdict": "鎖蓋防漏評價最佳，但吸管脫落引發次生漏水" },
+      "winner": "B0FK1LF5PM（Owala 32oz）整體防漏聲稱支持度最高",
+      "note": "Stanley 在包包攜帶場景下較易漏水"
+    },
+    "durability": {
+      "B085DTZQNZ": { "lid_failure_rate": "15%", "straw_failure_rate": "19%", "verdict": "蓋子與吸管耐用性最差，為最大痛點" },
+      "B0CP9YB3Q4": { "lid_failure_rate": "3%", "straw_failure_rate": "minor", "verdict": "整體耐用性最佳，耐摔評價高" },
+      "B0FK1LF5PM": { "lid_failure_rate": "9%", "straw_failure_rate": "9%", "verdict": "蓋子損壞率偏高，部分用戶反映數月內損壞" },
+      "winner": "B0CP9YB3Q4（Stanley）",
+      "note": "Stanley 蓋子耐用性顯著優於兩款 Owala"
+    },
+    "value_for_money": {
+      "B085DTZQNZ": { "price": 29.97, "rating_score": 0.78, "verdict": "價格最低，CP 值高，功能性問題影響實際使用" },
+      "B0CP9YB3Q4": { "price": 35.00, "rating_score": 0.60, "verdict": "價格最高，但顏色選擇豐富且耐用" },
+      "B0FK1LF5PM": { "price": 34.94, "rating_score": 0.80, "verdict": "與 Stanley 同價位，保溫表現最佳，但蓋子易壞抵消優勢" },
+      "winner": "B085DTZQNZ（Owala 24oz）價格最低，若耐用性問題不發生則 CP 值最高",
+      "note": "Stanley 較高定價主要靠品牌效應與顏色選擇支撐"
+    },
+    "functional_defect_rate_summary": {
+      "B085DTZQNZ": "核心功能缺陷率：47%（straw 19% + lid 15% + insulation 7% + leaking 6%）",
+      "B0CP9YB3Q4": "核心功能缺陷率：10%（insulation 5% + leaking 5%）",
+      "B0FK1LF5PM": "核心功能缺陷率：19%（straw 9% + lid 9% + cold 1%）",
+      "note": "Owala 24oz 的功能缺陷率明顯偏高，但部分問題集中在高使用強度場景"
+    }
+  },
+  "report_decision": {
+    "type": "comparison",
+    "rationale": "三款產品均能解決日常補水保溫問題，但各有明顯優劣取捨，無任何一款在所有維度全面勝出。Owala 32oz 保溫最佳，Stanley 耐用性最佳，Owala 24oz 價格最低。適合產出比較報告，幫助使用者依優先需求選擇。",
+    "recommendation_by_use_case": {
+      "最重視保溫": "Owala FreeSip 32oz（B0FK1LF5PM）",
+      "最重視耐用性": "STANLEY Quencher 30oz（B0CP9YB3Q4）",
+      "預算有限": "Owala FreeSip 24oz（B085DTZQNZ）",
+      "需放入車用杯架": "STANLEY Quencher 30oz 或 Owala 24oz（避免 32oz）"
+    },
+    "common_pain_points_across_all": [
+      "到貨凹損/假貨（跨三款均有 3-10% 回報，屬 Amazon 平台問題）",
+      "不鏽鋼接縫滲鏽（Owala 兩款各有 1 則報告，低頻但高嚴重度，建議監控）"
+    ],
+    "warning_flags": [
+      "rust_leaking（Owala 兩款）：雖僅 1% 但屬安全疑慮，建議加入監控清單",
+      "Owala 24oz lid_mechanism_failure 15% 為三款中最高功能缺陷率"
+    ]
+  }
+}

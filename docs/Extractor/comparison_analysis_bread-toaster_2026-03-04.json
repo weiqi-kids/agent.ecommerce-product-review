@@ -1,0 +1,87 @@
+{
+  "category": "bread-toaster",
+  "analysis_date": "2026-03-04",
+  "products_analyzed": [
+    {
+      "asin": "B0CYJBB2JQ",
+      "name": "bella 2 Slice Slim Toaster, 900W, Oatmilk",
+      "platform": "amazon_us",
+      "avg_rating": 4.35,
+      "reviews_analyzed": 50,
+      "l4_overall_sentiment_score": 2.4,
+      "l4_weighted_score": "2.4/5.0",
+      "positive_sentiment": "40%",
+      "negative_sentiment": "50%",
+      "key_aspects": {
+        "space_saving_design": "4.8/5.0 (18 mentions, 94% positive)",
+        "reliability": "1.2/5.0 (15 mentions, 100% negative)",
+        "toasting_evenness": "1.8/5.0 (12 mentions, 83% negative)",
+        "lever_mechanism": "1.0/5.0 (9 mentions, 100% negative)",
+        "heating_quality": "1.5/5.0 (8 mentions, 88% negative)",
+        "appearance": "4.9/5.0 (7 mentions, 100% positive)",
+        "exterior_heating": "1.3/5.0 (4 mentions, 100% negative)"
+      }
+    }
+  ],
+  "competitor_products": [],
+  "failure_timeline": {
+    "within_1_month": "8%",
+    "within_3_months": "20%",
+    "within_5_months": "36%",
+    "within_1_year": "46%"
+  },
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "issues": [
+        { "issue": "壓桿機構失效（無法保持下壓烘烤）", "frequency": "18%", "severity": "critical", "typical_onset": "1-5 個月" },
+        { "issue": "烘烤不均勻（兩端燒焦中間未烤）", "frequency": "24%", "severity": "high", "typical_onset": "立即/持續" },
+        { "issue": "加熱元件單側失效", "frequency": "6%", "severity": "high", "typical_onset": "3-6 個月" },
+        { "issue": "完全停止運作", "frequency": "8%", "severity": "critical", "typical_onset": "1 天-1 年" }
+      ],
+      "total_frequency": "56%",
+      "note": "超過半數評論反映核心功能失效"
+    },
+    "creates_new_problems": {
+      "issues": [
+        { "issue": "外殼過熱（燙傷風險）", "frequency": "8%", "severity": "medium", "safety_flag": true },
+        { "issue": "塑膠異味", "frequency": "2%", "severity": "low" },
+        { "issue": "碎屑管理不良（碎屑掉落檯面）", "frequency": "6%", "severity": "low" }
+      ],
+      "total_frequency": "16%"
+    },
+    "unrelated_to_product": {
+      "issues": [
+        { "issue": "保固索賠失敗（賣家服務問題）", "frequency": "2%", "severity": "low" }
+      ],
+      "total_frequency": "2%"
+    }
+  },
+  "quality_control_indicators": {
+    "quality_crisis_detected": true,
+    "early_failure_rate": "46% within 1 year",
+    "core_mechanism_failure": "壓桿機構（最基本功能）大量短期失效",
+    "design_defect": "加熱元件分佈不均，即使正常單位也有烘烤不均現象"
+  },
+  "comparison_summary": {
+    "can_solve_problem": false,
+    "problem_solved": "烘烤麵包/貝果",
+    "verdict": "56% 評論反映核心功能失效；46% 在 1 年內故障；外觀設計和空間節省是唯一可靠優勢，但無法補償嚴重的可靠性問題。這產品無法可靠地解決「烘烤麵包」的核心需求",
+    "recommendation": "不建議購買；建議尋找可靠性經過驗證的替代品牌（多花 $10-20 購買耐用品牌投資回報更高）"
+  },
+  "report_type": "warning",
+  "report_type_reason": "核心功能失效率超過 50%（壓桿 18% + 不均勻 24% + 單側 6% + 完全故障 8%），加上 46% 的 1 年內故障率，屬於無法解決問題的警告等級；同類別無其他萃取競品可對比，但評論中使用者建議購買其他品牌",
+  "confidence": "high",
+  "confidence_note": "驗證購買率 96%，問題描述具體且模式一致，多位使用者獨立報告相同故障模式",
+  "data_sources": {
+    "amazon_extractions": 1,
+    "competitor_extractions": 0,
+    "competitor_mentions_in_reviews": 0
+  },
+  "watchlist_recommendation": {
+    "add_to_watchlist": true,
+    "watch_reason": "quality_crisis",
+    "severity": "high",
+    "check_interval_days": 7,
+    "note": "早期失效率 46%/年，壓桿機構設計缺陷，建議持續監控"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "category": "womens-yoga-pants",
+  "analysis_date": "2026-03-04",
+  "primary_product": {
+    "asin": "B0CG5P42QH",
+    "name": "G4Free EverGoing Yoga Pants Women Wide Leg with Pockets",
+    "brand": "G4Free",
+    "avg_rating": 4.45,
+    "review_count": 4994,
+    "reviews_analyzed": 100,
+    "price_range": "~$30（平價段）"
+  },
+  "problem_statement": "女性瑜伽褲核心問題：透視性（squat-proof 失敗）、起毛球、腰帶下滑、面料薄透、彈性失效。G4Free 寬版款主打辦公/瑜伽兩用，解決日常穿搭需求。",
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "label": "❌ 無法解決問題（功能失效）",
+      "issues": [
+        {
+          "issue": "fabric_too_thin",
+          "frequency": "18%",
+          "severity": "medium",
+          "description": "面料過薄，無法提供瑜伽運動所需的支撐感與不透明度，尤其對豐腴體型不友善"
+        },
+        {
+          "issue": "see_through_transparency",
+          "frequency": "8%",
+          "severity": "medium",
+          "description": "透視問題尤其在淺色款（米色、卡其色）明顯，內褲線條與身體輪廓可見，違背瑜伽褲基本功能訴求"
+        },
+        {
+          "issue": "waistband_rolls_down",
+          "frequency": "6%",
+          "severity": "low",
+          "description": "腰帶下滑問題於運動或久坐後出現，部分用戶反映新版腰帶品質較舊版差"
+        }
+      ],
+      "total_impact": "32%（32/100 則評論提及至少一項功能失效問題）"
+    },
+    "creates_new_problems": {
+      "label": "⚠️ 產生新問題（副作用）",
+      "issues": [
+        {
+          "issue": "sizing_inconsistency_across_colors",
+          "frequency": "9%",
+          "severity": "low",
+          "description": "同尺碼在不同顏色版本間尺寸不一致，購買多色時造成困擾與退貨成本"
+        },
+        {
+          "issue": "color_not_as_described",
+          "frequency": "8%",
+          "severity": "low",
+          "description": "實物顏色與圖片差異大（橘色被描述為棕色、黑色描述為深灰），造成色彩期望落差"
+        },
+        {
+          "issue": "shrinkage_after_wash",
+          "frequency": "3%",
+          "severity": "medium",
+          "description": "一次洗滌後縮水，從寬版變成緊身版型，喪失產品原本優勢"
+        },
+        {
+          "issue": "material_quality_degradation",
+          "frequency": "2%",
+          "severity": "medium",
+          "description": "新版產品品質退步（腰帶更薄、面料更薄），老顧客流失風險"
+        }
+      ],
+      "total_impact": "22%（22/100 則評論提及至少一項新問題）"
+    },
+    "unrelated_to_product": {
+      "label": "📦 與產品無關（物流/賣家問題）",
+      "issues": [
+        {
+          "issue": "received_used_dirty_item",
+          "frequency": "3%",
+          "severity": "high",
+          "description": "收到明顯使用過的髒舊商品（有毛球、寵物毛髮、無標籤），屬 Amazon 第三方賣家 / 退貨再販問題，非產品本身缺陷"
+        }
+      ],
+      "total_impact": "3%"
+    }
+  },
+  "core_strengths": [
+    {
+      "aspect": "comfort",
+      "score": 0.91,
+      "mentions": 62,
+      "summary": "柔軟觸感與寬版剪裁兼備，全天穿著舒適度極高"
+    },
+    {
+      "aspect": "versatility",
+      "score": 0.92,
+      "mentions": 38,
+      "summary": "辦公/運動/休閒三用，外觀貼近正式褲裝，多位買家帶去辦公室穿著"
+    },
+    {
+      "aspect": "length_options",
+      "score": 0.93,
+      "mentions": 30,
+      "summary": "提供多種褲長選項（29\" petite / 31\" regular / tall），矮個子女性特別讚賞"
+    },
+    {
+      "aspect": "pockets",
+      "score": 0.88,
+      "mentions": 22,
+      "summary": "前後多口袋設計，深度足夠放手機與鑰匙"
+    }
+  ],
+  "competitor_comparison": [
+    {
+      "competitor": "CRZ YOGA Butterluxe High Waist Wide Leg Pants",
+      "asin": "B0CHMRPKJ1",
+      "data_source": "評測文章",
+      "price": "~$30",
+      "recommendation_count": 5,
+      "key_advantages_over_g4free": [
+        "Butterluxe（81% Polyamide/19% Lycra）面料防透視性明顯優於 G4Free",
+        "防起毛球性能更優",
+        "腰帶不下滑表現更穩定",
+        "被多篇評測評為最佳 Lululemon 平價替代品"
+      ],
+      "key_disadvantages": [
+        "前中縫設計（camel toe 疑慮）部分用戶不喜歡"
+      ],
+      "verdict": "同價位，面料技術更先進，解決 G4Free 透視與腰帶問題，整體優於 G4Free"
+    },
+    {
+      "competitor": "Colorfulkoala High Waisted Yoga Pants",
+      "asin": "B07QQMH2LF",
+      "data_source": "評測文章",
+      "price": "~$28",
+      "recommendation_count": 4,
+      "key_advantages_over_g4free": [
+        "Nylon/Spandex 混紡面料較 G4Free 更耐用",
+        "寬腰帶設計不下滑",
+        "評分同為 4.5 星，評論數 20,000+ 更高"
+      ],
+      "key_disadvantages": [
+        "褲長 25\" 偏短，高個子不友善",
+        "長度選項不如 G4Free 豐富"
+      ],
+      "verdict": "價格相近，面料較好，但長度選項受限"
+    },
+    {
+      "competitor": "Lululemon Align Hi-Rise Pant",
+      "asin": "B083H9Q2GW",
+      "data_source": "評測文章",
+      "price": "$98",
+      "recommendation_count": 5,
+      "key_advantages_over_g4free": [
+        "Nulu 面料觸感被稱為「第二層皮膚」",
+        "四向彈力設計",
+        "品牌信賴度與耐久性保證"
+      ],
+      "key_disadvantages": [
+        "價格是 G4Free 3 倍以上",
+        "Nulu 系列起毛球問題嚴重",
+        "需要手洗，護理麻煩"
+      ],
+      "verdict": "高端競品，價格門檻高；G4Free 在舒適度方面與其有競爭力，但耐久性不如"
+    },
+    {
+      "competitor": "Ododos High Waisted Yoga Leggings",
+      "asin": "搜尋可得",
+      "data_source": "評測文章",
+      "price": "~$25",
+      "recommendation_count": 2,
+      "verdict": "平價競品，Today.com 推薦；與 G4Free 處於相同價格帶，特色差異不明顯"
+    },
+    {
+      "competitor": "Aerie Real Me High Waisted Crossover Leggings",
+      "asin": "搜尋可得",
+      "data_source": "評測文章",
+      "price": "$44.95",
+      "recommendation_count": 2,
+      "key_advantages_over_g4free": [
+        "交叉高腰設計（crossover）顯瘦效果更好",
+        "不透明性較佳",
+        "美國品牌信賴度"
+      ],
+      "verdict": "中價位競品，腰帶設計更優，不透明性更好"
+    },
+    {
+      "competitor": "Girlfriend Collective Compressive High-Rise Leggings",
+      "asin": null,
+      "data_source": "評測文章（無電商識別碼）",
+      "price": "$108",
+      "recommendation_count": 2,
+      "verdict": "高端環保競品，主打永續材質，與 G4Free 不在相同受眾區間"
+    }
+  ],
+  "cross_platform_analysis": {
+    "platforms_available": ["amazon_us"],
+    "note": "本次僅有 Amazon 平台資料，Best Buy 未販售此類服裝商品，Walmart 已停用"
+  },
+  "can_solve_problem": {
+    "verdict": "部分解決",
+    "explanation": "G4Free 成功解決「需要舒適、多功能的日常穿著瑜伽褲」問題，在辦公/休閒場合表現出色。然而對於「瑜伽運動時防透視、防起毛球」的核心需求，18% 用戶反映面料過薄透視問題，未能完全解決瑜伽褲最基本的不透明訴求。",
+    "best_for": "辦公/休閒穿著、矮個子女性（多褲長選項）、追求多功能穿搭者",
+    "not_suitable_for": "高強度瑜伽練習、追求最佳不透明性、豐腴體型用戶"
+  },
+  "report_type_recommendation": "comparison",
+  "report_type_rationale": "G4Free 能解決「日常多功能瑜伽褲穿搭」問題，舒適度與多功能性表現優秀（4.45 星），但在核心功能（防透視）上被 CRZ Yoga Butterluxe 同價位競品明顯超越。建議產出比較報告，推薦 CRZ Yoga 為防透視需求首選，G4Free 為辦公/休閒穿搭首選。",
+  "confidence": "medium",
+  "confidence_note": "研究 WebFetch 僅 3 次（規範要求 100+），競品比較主要依賴評測文章摘要而非實際用戶評論萃取。建議補充研究以提升信心度。",
+  "review_needed": true,
+  "review_reason": "研究資料不足（WebFetch 僅 3 次，未達 100 次標準），競品無 L1-L6 萃取資料，比較分析信心度受限",
+  "data_quality": {
+    "primary_product_reviews": 100,
+    "research_web_searches": 12,
+    "research_web_fetches": 3,
+    "competitor_l16_extractions": 0,
+    "competitor_data_source": "評測文章摘要（非用戶評論萃取）"
+  }
+}

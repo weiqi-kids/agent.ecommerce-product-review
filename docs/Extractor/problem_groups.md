@@ -1,12 +1,13 @@
 # 產品問題分組
 
-最後更新：2026-03-03
+最後更新：2026-03-04
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：417
-問題類別數：112
+產品總數：441
+問題類別數：119
 分組原則：按具體問題分組（v2 - 問題導向）
 本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
+本次更新（2026-03-04）：17 個產品歸入現有類別（water-bottle x2、paper-towels、collectible-coins x6、toilet-paper x2、aa-batteries、cotton-swabs、bread-toaster、electrolyte-hydration、wireless-earbuds、disposable-plates）；新增 7 個類別（7 個產品）；跳過 16 個（5 Best Buy 數位產品 + 11 已存在昨日分組/重複）
 
 ---
 
@@ -83,10 +84,10 @@
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
 | collagen-mask | 膠原蛋白面膜 | 3 | ⏳ 待研究 |
-| wireless-earbuds | 無線藍牙耳機 | 9 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 10 | ⏳ 待研究 |
 | e-reader | 電子書閱讀器 | 2 | ⏳ 待研究 |
 | video-doorbell | 智慧門鈴監控 | 2 | ⏳ 待研究 |
-| electrolyte-hydration | 電解質補充 | 2 | ⏳ 待研究 |
+| electrolyte-hydration | 電解質補充 | 3 | ⏳ 待研究 |
 | probiotic-supplement | 益生菌補充 | 2 | ⏳ 待研究 |
 | flushable-wipes | 可沖式濕紙巾 | 2 | ⏳ 待研究 |
 | hair-styling-hold | 頭髮定型噴霧 | 2 | ⏳ 待研究 |
@@ -101,7 +102,7 @@
 | action-figure | 角色公仔 | 3 | ⏳ 待研究 |
 | toy-cars | 玩具車模型 | 2 | ⏳ 待研究 |
 | disposable-gloves | 一次性手套/醫療手套 | 4 | ✅ 已完成 |
-| water-bottle | 保溫瓶/隨身水壺 | 4 | ✅ 已完成 |
+| water-bottle | 保溫瓶/隨身水壺 | 6 | ✅ 已完成 |
 | kitchen-scale | 廚房秤/食物秤 | 2 | ✅ 已完成 |
 | interactive-pet-toy | 互動式電子寵物玩具 | 1 | ⏳ 待研究 |
 | monster-truck-toy | 怪獸卡車玩具模型 | 1 | ⏳ 待研究 |
@@ -123,17 +124,24 @@
 | damage-free-wall-hanging | 免釘痕掛鉤/牆面掛圖 | 1 | ⏳ 待研究 |
 | travel-packing-organization | 旅行行李收納整理 | 1 | ⏳ 待研究 |
 | tortilla-press | 手工玉米餅壓製 | 1 | ⏳ 待研究 |
-| toilet-paper | 廁所衛生紙舒適度與耐用性 | 4 | ⏳ 待研究 |
-| paper-towels | 廚房吸水紙巾清潔吸水性 | 2 | ⏳ 待研究 |
-| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 6 | ⏳ 待研究 |
-| cotton-swabs | 棉花棒個人衛生清潔 | 1 | ⏳ 待研究 |
-| aa-batteries | AA 鹼性電池長效續電 | 1 | ⏳ 待研究 |
-| bread-toaster | 家用烤麵包機吐司加熱 | 1 | ⏳ 待研究 |
+| toilet-paper | 廁所衛生紙舒適度與耐用性 | 6 | ⏳ 待研究 |
+| paper-towels | 廚房吸水紙巾清潔吸水性 | 3 | ⏳ 待研究 |
+| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 12 | ⏳ 待研究 |
+| cotton-swabs | 棉花棒個人衛生清潔 | 2 | ⏳ 待研究 |
+| aa-batteries | AA 鹼性電池長效續電 | 2 | ⏳ 待研究 |
+| bread-toaster | 家用烤麵包機吐司加熱 | 2 | ⏳ 待研究 |
 | oil-sprayer | 食用油噴霧器控量均勻噴灑 | 2 | ⏳ 待研究 |
-| disposable-plates | 一次性免洗紙盤便利用餐 | 1 | ⏳ 待研究 |
+| disposable-plates | 一次性免洗紙盤便利用餐 | 2 | ⏳ 待研究 |
 | 3d-printer-filament | 3D 列印用 PLA 線材耗材 | 1 | ⏳ 待研究 |
 | tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 1 | ⏳ 待研究 |
 | super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
+| mens-underwear | 男性底褲舒適透氣 | 1 | ⏳ 待研究 |
+| womens-yoga-pants | 女性瑜珈/運動褲 | 1 | ⏳ 待研究 |
+| wireless-bra | 無鋼圈無線胸罩舒適支撐 | 1 | ⏳ 待研究 |
+| womens-basic-tops | 女性基本款上衣 | 1 | ⏳ 待研究 |
+| meat-thermometer | 肉類食物溫度精確測量 | 1 | ⏳ 待研究 |
+| kids-casual-shoes | 兒童日常休閒鞋 | 1 | ⏳ 待研究 |
+| wired-earphones | 有線耳機 USB-C 連接高品質聲音 | 1 | ⏳ 待研究 |
 
 ---
 
@@ -1636,7 +1644,7 @@
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
 | B0DGHMNQ5Z | Apple AirPods 4 | 真無線藍牙耳機 | Amazon |
-| B0FQFB8FMG | Apple AirPods Pro 3 | 主動降噪真無線 | Amazon |
+| B0FQFB8FMG | Apple AirPods Pro 3 Wireless Earbuds with ANC | 主動降噪真無線 | Amazon |
 | - | TAGRY Bluetooth Headphones | 真無線藍牙耳機 | Amazon |
 | - | JLab Go Air Pop+ | 真無線藍牙耳機 | Amazon |
 | - | JBL Vibe Beam | 真無線藍牙耳機 | Amazon |
@@ -1767,6 +1775,7 @@
 |-----------|---------|---------------|------|
 | B08ZJQ1XD4 | LMNT Zero Sugar Electrolytes | 電解質粉 | Amazon |
 | B01IT9NLHW | Liquid I.V. Hydration Multiplier | 電解質粉 | Amazon |
+| B07SH31T9V | LMNT Zero Sugar Electrolytes Raspberry Salt 30-Count | 電解質粉 | Amazon |
 
 **研究文件**：`research/electrolyte-hydration--{date}.md`
 **競品文件**：`competitors/electrolyte-hydration--{date}.md`
@@ -1839,13 +1848,182 @@
 
 ---
 
+### toilet-paper
+
+**問題描述**：廁所衛生紙的舒適度、耐用性與分離性
+
+**問題成因**：衛生紙過薄、易斷、觸感粗糙影響使用體驗
+
+**常見解決方法**：
+- 超柔軟多層衛生紙
+- 強韌耐用衛生紙
+- 長效大卷衛生紙
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B07BGLT25K | Scott ComfortPlus Toilet Paper 12 Double Rolls | 加厚舒適衛生紙 | Amazon |
+| B0FN4NH4K8 | Angel Soft Toilet Paper 18 Mega Rolls | 超大捲衛生紙 | Amazon |
+
+**研究文件**：`research/toilet-paper--{date}.md`
+**競品文件**：`competitors/toilet-paper--{date}.md`
+
+---
+
+### paper-towels
+
+**問題描述**：廚房紙巾的吸水性、耐用性與尺寸靈活性
+
+**問題成因**：清潔需要高吸水性紙巾，且能靈活控制使用量
+
+**常見解決方法**：
+- 強力吸水多尺寸紙巾
+- 可撕裁大卷紙巾
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B07MHJFRBJ | Bounty Quick Size Paper Towels 8 Family Rolls | 快速尺寸吸水紙巾 | Amazon |
+
+**研究文件**：`research/paper-towels--{date}.md`
+**競品文件**：`competitors/paper-towels--{date}.md`
+
+---
+
+### collectible-coins
+
+**問題描述**：收藏古幣/珍貴錢幣的需求（Wheat Penny、Silver Dollar、Copper Round 等）
+
+**問題成因**：收藏興趣、投資保值、歷史文化意義
+
+**常見解決方法**：
+- 未搜尋混年份硬幣卷（Shotgun Roll）
+- 銀幣收藏
+- 仿古銅圓
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B011LOOKV8 | 50 Wheat Pennies Unsearched Shotgun Roll Mixed Years | 未搜尋小麥分幣卷 | Amazon |
+| B0CFYYBHK3 | Lincoln Wheat Cent 1909 S VDB Design 1 oz Pure .999 Copper Round | 仿古銅圓收藏 | Amazon |
+| B07K9Q32MR | Morgan Silver Dollar Pre 1921 1878 to 1904 | 摩根銀幣收藏 | Amazon |
+| B07RZ4DJLL | Unsearched Wheat Penny Roll w/Silver Mercury Dime End | 含銀幣末端的小麥分幣卷 | Amazon |
+| B0CQN17539 | 2025 American Silver Eagle .999 Fine Silver | 美國銀鷹幣 | Amazon |
+| B00EMGAO5Y | Walking Liberty 1 Avdp Ounce .999 Fine Copper | 行走自由女神銅圓 | Amazon |
+
+**研究文件**：`research/collectible-coins--{date}.md`
+**競品文件**：`competitors/collectible-coins--{date}.md`
+
+---
+
+### aa-batteries
+
+**問題描述**：日常電器設備需要長效 AA 鹼性電池
+
+**問題成因**：各種電器（遙控器、玩具、手電筒等）頻繁需要更換電池
+
+**常見解決方法**：
+- 高性能長效鹼性電池
+- 可充電 AA 電池
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B00NTCH52W | Amazon Basics 20-Pack AA Alkaline Batteries 1.5 Volt 10-Year Shelf Life | 長效鹼性電池 | Amazon |
+
+**研究文件**：`research/aa-batteries--{date}.md`
+**競品文件**：`competitors/aa-batteries--{date}.md`
+
+---
+
+### cotton-swabs
+
+**問題描述**：個人衛生清潔需要棉花棒（耳部清潔、美妝細節）
+
+**問題成因**：耳部清潔、化妝細部修正、傷口清潔等日常需求
+
+**常見解決方法**：
+- 100% 棉質雙頭棉花棒
+- 嬰兒安全棉花棒
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B09541P9WH | Amazon Basics Double-Tipped Cotton Swabs 100% Cotton Baby Safe 500 Count | 100% 棉雙頭棉花棒 | Amazon |
+
+**研究文件**：`research/cotton-swabs--{date}.md`
+**競品文件**：`competitors/cotton-swabs--{date}.md`
+
+---
+
+### bread-toaster
+
+**問題描述**：家用烤麵包機吐司均勻加熱，適合小廚房空間
+
+**問題成因**：普通烤麵包機體積大、加熱不均，難以放入百吉圈等厚片
+
+**常見解決方法**：
+- 2片薄型烤麵包機
+- 4片家用烤麵包機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0CYJBB2JQ | bella 2 Slice Slim Toaster 6 Setting Shade Control Fits Sourdough | 薄型2片烤麵包機 | Amazon |
+
+**研究文件**：`research/bread-toaster--{date}.md`
+**競品文件**：`competitors/bread-toaster--{date}.md`
+
+---
+
+### disposable-plates
+
+**問題描述**：一次性免洗紙盤，方便聚會或日常用餐省去洗碗麻煩
+
+**問題成因**：派對、外出、快速用餐場景需要免洗餐具
+
+**常見解決方法**：
+- 微波爐安全紙盤
+- 防漏耐切割紙盤
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0C2CY22B8 | Amazon Basics Everyday Disposable Paper Plates 8.62 Inch Microwave-Safe 100 Count | 微波安全免洗紙盤 | Amazon |
+
+**研究文件**：`research/disposable-plates--{date}.md`
+**競品文件**：`competitors/disposable-plates--{date}.md`
+
+---
+
+### water-bottle
+
+**問題描述**：保溫瓶/隨身水壺保持飲品溫度、方便攜帶
+
+**問題成因**：戶外運動、通勤、旅行需要長時間保溫/保冷的水瓶
+
+**常見解決方法**：
+- 不鏽鋼真空保溫瓶
+- 吸管式設計水壺
+- 大容量Tumbler
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B085DTZQNZ | Owala FreeSip Insulated Stainless Steel Water Bottle with Straw 24 Oz | 吸管式不鏽鋼保溫瓶 | Amazon |
+| B0CP9YB3Q4 | STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz Flowstate | 大容量Tumbler保溫杯 | Amazon |
+
+**研究文件**：`research/water-bottle--2026-02-06.md`
+**競品文件**：`competitors/water-bottle--2026-02-06.md`
+
+---
+
 ## 未分類產品
 
 以下產品標題無法識別或為特殊類別，暫不納入比較分析：
 
 | product_id | 產品名稱 | 備註 |
 |-----------|---------|------|
-| B09541P9WH | Amazon Basics Cotton Swabs | 基本衛生用品 - 棉花棒 |
 | B09542G9ZN | Amazon Basics Cotton Rounds | 基本衛生用品 - 化妝棉 |
 | B09HHDHXWX | Amazon Basics Hand Soap | 基本衛生用品 - 洗手乳 |
 | B093ZXFXX9 | Unknown Product | 無法識別 |
@@ -1912,6 +2090,153 @@
 | B0DK8HSQ9L | 50 PCS Football Party Supplies Napkins | 主題餐巾 - 特殊 |
 | B0G3P71JWG | 6 Pcs Wooden Hearts Valentines Decor | 裝飾品 - 特殊 |
 | B0G1L8J8PK | 50th Birthday Gifts for Her | 生日禮物 - 特殊 |
+
+---
+
+### mens-underwear
+
+**問題描述**：男性底褲舒適透氣、防止異味與不適感
+
+**問題成因**：棉質透氣性不足、騎乘感（ride-up）、長時間穿著不舒適
+
+**常見解決方法**：
+- 棉質吸濕排汗四角褲
+- 莫代爾材質底褲
+- 功能性運動內褲
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B086KSDTQ4 | Hanes Men's Boxer Briefs Pack Cool & Breathable | 棉質吸濕排汗四角褲 | Amazon |
+
+**研究文件**：`research/mens-underwear--{date}.md`
+**競品文件**：`competitors/mens-underwear--{date}.md`
+
+---
+
+### womens-yoga-pants
+
+**問題描述**：女性瑜珈/運動時需要舒適、彈性、有口袋的褲款
+
+**問題成因**：一般休閒褲無法兼顧運動彈性與日常穿著，且多數無口袋
+
+**常見解決方法**：
+- 寬腿瑜珈褲
+- 修身高腰運動褲
+- 彈力褲
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0CG5P42QH | G4Free EverGoing Yoga Pants Women Wide Leg with Pockets | 寬腿高腰瑜珈褲（有口袋） | Amazon |
+
+**研究文件**：`research/womens-yoga-pants--{date}.md`
+**競品文件**：`competitors/womens-yoga-pants--{date}.md`
+
+---
+
+### wireless-bra
+
+**問題描述**：女性對傳統鋼圈胸罩不適，需要無鋼圈但仍有支撐的內衣
+
+**問題成因**：鋼圈長時間壓迫不適、皮膚刺激、活動受限
+
+**常見解決方法**：
+- 無鋼圈軟托胸罩
+- 無線運動胸罩
+- 深V造型胸罩
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0D8DZN778 | OEAK Women Deep V Wireless Comfortable Bra No Underwire Push Up Bralette | 無鋼圈深V胸罩 | Amazon |
+
+**研究文件**：`research/wireless-bra--{date}.md`
+**競品文件**：`competitors/wireless-bra--{date}.md`
+
+---
+
+### womens-basic-tops
+
+**問題描述**：女性需要日常百搭基本款上衣，可作打底或單穿
+
+**問題成因**：日常穿搭需要百搭、舒適的基本款上衣
+
+**常見解決方法**：
+- 羅紋針織緊身上衣
+- 基本款T恤
+- 打底衫
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0CYZM5RSM | ANRABESS Women Long Sleeve Rib Knit Slim Fit T-Shirt | 羅紋針織修身長袖上衣 | Amazon |
+
+**研究文件**：`research/womens-basic-tops--{date}.md`
+**競品文件**：`competitors/womens-basic-tops--{date}.md`
+
+---
+
+### meat-thermometer
+
+**問題描述**：烹飪時需要快速精確測量食物/肉類內部溫度，避免烹調不足或過熟
+
+**問題成因**：靠外觀難以判斷食物內部熟度，可能造成食安問題或食物過熟
+
+**常見解決方法**：
+- 即時顯示電子溫度計
+- 探針溫度計
+- 紅外線溫度計
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0F5X4FM3Q | 0.5 Sec Instant Read Meat Thermometer Digital with Precision | 0.5秒即時顯示探針溫度計 | Amazon |
+
+**研究文件**：`research/meat-thermometer--{date}.md`
+**競品文件**：`competitors/meat-thermometer--{date}.md`
+
+---
+
+### kids-casual-shoes
+
+**問題描述**：兒童日常需要舒適、耐穿、易穿脫的休閒鞋
+
+**問題成因**：兒童活動量大，需要耐穿易清潔、穿脫方便（免綁鞋帶）的鞋款
+
+**常見解決方法**：
+- 洞洞鞋（Clogs）
+- 懶人鞋
+- 涼鞋/休閒鞋
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B09NMFFG8B | Crocs Kid's Classic Clog | 輕量透氣洞洞鞋 | Amazon |
+
+**研究文件**：`research/kids-casual-shoes--{date}.md`
+**競品文件**：`competitors/kids-casual-shoes--{date}.md`
+
+---
+
+### wired-earphones
+
+**問題描述**：需要有線耳機連接 USB-C 裝置（無耳機孔手機/平板），享有穩定音質
+
+**問題成因**：現代設備移除 3.5mm 耳機孔，需要 USB-C 有線連接的耳機方案
+
+**常見解決方法**：
+- USB-C 有線耳機
+- Lightning 有線耳機
+- USB-C 轉接器 + 3.5mm 耳機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0DCH8VDXF | Apple EarPods Headphones with USB-C Plug Wired | USB-C 有線耳塞 | Amazon |
+
+**研究文件**：`research/wired-earphones--{date}.md`
+**競品文件**：`competitors/wired-earphones--{date}.md`
 
 ---
 

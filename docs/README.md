@@ -43,7 +43,8 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 | [Sony WH-1000XM5 耳機](/Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13) | 27% 轉軸斷裂 | 🔴 高 |
 | [Amazon Basics 暖風機](/Narrator/warnings/B07V6M4MSN--warning--2026-02-13) | 16% 火災風險 | 🔴 高 |
 | [HANYCONY 延長線](/Narrator/warnings/hanycony-power-strip--warning--2026-02-06) | 火災/過熱風險 | 🔴 高 |
-| [bella 烤麵包機](/Narrator/warnings/bella-toaster--2026-02-11) | 46% 一年內故障 | 🟠 中 |
+| [bella 烤麵包機](/Narrator/warnings/bread-toaster--warning--2026-03-04) | 56% 核心功能失效 | 🔴 高 |
+| [Apple EarPods USB-C](/Narrator/comparisons/wired-earphones--2026-03-04) | 2% 電擊風險 + 22% 故障 | 🔴 高 |
 
 [查看所有警告報告 →](/Narrator/warnings/)
 
@@ -57,20 +58,20 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 | [🚨 假貨警報](/Narrator/counterfeits/) | Amazon 上發現假貨風險 | 2+ |
 | [📊 痛點報告](/Narrator/pain_points/) | 整個品類都有問題，目前無好選擇 | 5+ |
 | [✅ 推薦報告](/Narrator/recommendations/) | 經分析後確實值得購買 | 12+ |
-| [⚖️ 比較報告](/Narrator/comparisons/) | 同類產品優劣分析，幫你選對的 | 65+ |
+| [⚖️ 比較報告](/Narrator/comparisons/) | 同類產品優劣分析，幫你選對的 | 80+ |
 
 ---
 
-## 🆕 最新報告 (2026-03-03)
+## 🆕 最新報告 (2026-03-04)
 
 | 類別 | 類型 | 重點發現 |
 |------|------|----------|
-| [Fire TV Stick 4K Select](/Narrator/warnings/fire-tv-stick-4k-select--2026-03-03) | 警告報告 | Vega OS 封閉系統，76% 負評屬核心功能失效 |
-| [衛生紙比較](/Narrator/comparisons/toilet-paper--2026-03-03) | 比較報告 | Charmin 最軟、Scott 最超值、Amazon Basics 不推薦 |
-| [水瓶比較](/Narrator/comparisons/water-bottle--2026-03-03) | 比較報告 | Owala 推薦、Stanley 暫緩（漏液+評論異常） |
-| [痘痘貼片](/Narrator/recommendations/acne-treatment--2026-03-03) | 推薦報告 | Mighty Patch 情感分數 0.90，優於競品 |
-| [拋棄式手套](/Narrator/comparisons/disposable-gloves--2026-03-03) | 比較報告 | MedPride 32% 撕裂率，品質嚴重下滑 |
-| [廚房電子秤](/Narrator/comparisons/kitchen-scale--2026-03-03) | 比較報告 | Etekcity 16% 精度失效，Ozeri 同價位更可靠 |
+| [bella 烤麵包機](/Narrator/warnings/bread-toaster--warning--2026-03-04) | 警告報告 | 56% 核心功能失效（壓桿+不均勻+燒焦+故障）|
+| [Apple EarPods USB-C](/Narrator/comparisons/wired-earphones--2026-03-04) | 比較報告 | 2% 電擊風險 + 22% 過早故障，JBL Tune 310C 更安全 |
+| [無鋼圈內衣](/Narrator/comparisons/wireless-bra--2026-03-04) | 比較報告 | OEAK 舒適度 0.90 但扣環 18% 斷裂，Knix/Bali 更可靠 |
+| [肉類溫度計](/Narrator/comparisons/meat-thermometer--2026-03-04) | 比較報告 | 0.5 秒即讀 9% 過早故障，ThermoPro 更耐用 |
+| [收藏幣比較](/Narrator/comparisons/collectible-coins--2026-03-04) | 比較報告 | 6 款收藏幣分析，Morgan Silver Dollar 需審核 |
+| [男性內褲比較](/Narrator/comparisons/mens-underwear--2026-03-04) | 比較報告 | Hanes 19% 粗糙布料，David Archy 竹纖維更柔軟 |
 
 ## ✅ 最新推薦
 

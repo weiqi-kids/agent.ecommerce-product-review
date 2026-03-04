@@ -1,41 +1,40 @@
 {
-  "last_updated": "2026-03-03T10:45:00Z",
-  "last_completed_date": "2026-03-03",
-  "execution_mode": "full_rerun",
+  "last_updated": "2026-03-04T18:00:00Z",
+  "last_completed_date": "2026-03-04",
+  "execution_mode": "daily_standard",
   "current_step": 8,
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "5 個監控項目檢查，3 no_change、2 improved"
+      "note": "17 個監控項目檢查，大部分 no_change，AirTag improved"
     },
     "step_2": {
       "status": "completed",
-      "note": "40 個 REVIEW_NEEDED 掃描，35 建置期、2 暫緩、2 待補齊"
+      "note": "掃描 REVIEW_NEEDED 報告，無需立即補齊"
     },
     "step_3": {
       "status": "completed",
-      "note": "Discovery 完成（Amazon 36, Best Buy 4, Walmart 0）"
+      "note": "Discovery 完成（Amazon 40 產品, Best Buy 4 數位產品跳過）"
     },
     "step_4": {
       "status": "completed",
-      "note": "21 歸入現有、12 新類別、5 跳過"
+      "note": "40 產品分組：17 歸入現有類別、7 新類別、16 跳過"
     },
     "step_5": {
       "status": "completed",
-      "note": "toilet-paper 研究完成。其他 11 新類別待下次。",
-      "completed_categories": ["toilet-paper"]
+      "note": "7 新類別研究完成（mens-underwear, womens-yoga-pants, wireless-bra, womens-basic-tops, meat-thermometer, kids-casual-shoes, wired-earphones）"
     },
     "step_6": {
       "status": "completed",
-      "note": "10 產品萃取完成，2 REVIEW_NEEDED"
+      "note": "20 產品萃取完成（1975 則評論），1 REVIEW_NEEDED（Morgan Silver Dollar），4 使用現有萃取"
     },
     "step_7": {
       "status": "completed",
-      "note": "6 類別比較分析完成"
+      "note": "16 類別比較分析完成"
     },
     "step_8": {
       "status": "completed",
-      "note": "6 份報告產出（4 比較 + 1 推薦 + 1 警告）"
+      "note": "16 份報告產出（14 比較 + 1 推薦 + 1 警告），7 份標記 REVIEW_NEEDED（資料不足）"
     }
   }
 }

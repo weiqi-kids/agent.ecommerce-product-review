@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "category": "kids-casual-shoes",
+    "analysis_date": "2026-03-04",
+    "primary_product": {
+      "product_id": "B09NMFFG8B",
+      "name": "Crocs Kid's Classic Clog",
+      "platform": "amazon_us",
+      "avg_rating": 4.85,
+      "reviews_analyzed": 100,
+      "source": "L1-L6 萃取（Amazon 評論）"
+    },
+    "competitors_count": 8,
+    "competitors_with_asin": 5,
+    "competitors_without_asin": 3,
+    "research_quality": {
+      "websearch_count": 11,
+      "webfetch_count": 0,
+      "note": "WebFetch 為 0，競品資料來源僅限 WebSearch 摘要，無完整評測文章內容"
+    }
+  },
+
+  "primary_product_analysis": {
+    "core_strengths": [
+      {
+        "aspect": "comfort",
+        "score": 0.92,
+        "mentions": 38,
+        "summary": "EVA/Croslite 輕量緩衝獲壓倒性好評，適合全日穿著"
+      },
+      {
+        "aspect": "ease_of_use",
+        "score": 0.90,
+        "mentions": 32,
+        "summary": "滑入式設計深受幼兒父母好評，學步兒自行穿脫友善"
+      },
+      {
+        "aspect": "ease_of_cleaning",
+        "score": 0.90,
+        "mentions": 10,
+        "summary": "洗碗機可洗、快乾特性讓父母非常滿意"
+      }
+    ],
+    "core_weaknesses": [
+      {
+        "aspect": "sizing_inconsistency",
+        "frequency": "11/100 (11%)",
+        "severity": "medium",
+        "classification": "❌ 無法解決問題",
+        "detail": "同尺碼號碼在不同顏色/批次之間尺寸差異大，部分購買者無法獲得合適的尺碼"
+      },
+      {
+        "aspect": "strap_breakage",
+        "frequency": "3/100 (3%)",
+        "severity": "medium",
+        "classification": "⚠️ 產生新問題",
+        "detail": "後踵固定帶在數次穿著後即斷裂，導致鞋子無法固定在腳上，安全疑慮"
+      },
+      {
+        "aspect": "used_or_dirty_product_received",
+        "frequency": "11/100 (11%)",
+        "severity": "high",
+        "classification": "📦 與產品無關",
+        "detail": "收到已使用、骯髒或含異物的產品，為 Amazon 退貨重新上架的履行問題，非產品本身缺陷"
+      },
+      {
+        "aspect": "price_increase",
+        "frequency": "4/100 (4%)",
+        "severity": "low",
+        "classification": "📦 與產品無關",
+        "detail": "售價從 $20 漲至 $40，性價比感知下降"
+      }
+    ]
+  },
+
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "label": "❌ 無法解決問題（功能失效）",
+      "issues": [
+        {
+          "issue": "sizing_inconsistency",
+          "frequency": "11%",
+          "detail": "尺碼系統不一致，購買者無法確信購買的尺碼是否合適；核心功能（適合兒童雙腳）部分失效"
+        }
+      ]
+    },
+    "creates_new_problems": {
+      "label": "⚠️ 產生新問題（副作用）",
+      "issues": [
+        {
+          "issue": "strap_breakage",
+          "frequency": "3%",
+          "detail": "後踵帶斷裂後，Clog 模式固定失效，產生額外安全問題（幼兒跌倒風險）"
+        },
+        {
+          "issue": "shrinkage_in_sun",
+          "frequency": "1%",
+          "detail": "長時間陽光曝曬導致縮小硬化，EVA 材質特有問題"
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "label": "📦 與產品無關（物流/賣家）",
+      "issues": [
+        {
+          "issue": "used_or_dirty_product_received",
+          "frequency": "11%",
+          "detail": "Amazon 退貨重新入庫的履行問題，非產品設計缺陷"
+        },
+        {
+          "issue": "price_too_high",
+          "frequency": "4%",
+          "detail": "定價策略問題，非產品功能問題"
+        }
+      ]
+    }
+  },
+
+  "competitor_comparison": {
+    "comparison_basis": "評測文章摘要（WebSearch 結果，非用戶評論萃取）",
+    "dimension_comparison": [
+      {
+        "dimension": "耐用性",
+        "crocs": "中等（2 個夏天）；Croslite 耐磨性中等",
+        "best_competitors": [
+          {"name": "KEEN Newport H2", "rating": "最優（3+ 個夏天）；天然橡膠外底"},
+          {"name": "Merrell Kids Hydro Moc", "rating": "優（2-3 年）；M-Select GRIP 橡膠底"},
+          {"name": "KEEN Kids Targhee", "rating": "優（2-3 年）；防水+橡膠底"}
+        ],
+        "verdict": "Crocs 耐用性屬中等，被多個競品超越"
+      },
+      {
+        "dimension": "舒適性/輕量",
+        "crocs": "極優（0.92 sentiment score，38 mentions）；全一體 Croslite 最輕量",
+        "best_competitors": [
+          {"name": "Native Shoes Jefferson", "rating": "優；類似 EVA 設計"},
+          {"name": "Skechers S-Lights", "rating": "良；記憶泡棉內底"}
+        ],
+        "verdict": "Crocs 在舒適/輕量方面具有競爭優勢，但 Native Shoes 相近"
+      },
+      {
+        "dimension": "易穿脫",
+        "crocs": "極優（0.90 score，32 mentions）；滑入式最容易",
+        "best_competitors": [
+          {"name": "Native Shoes Jefferson", "rating": "優；同為滑入式"},
+          {"name": "Merrell Hydro Moc", "rating": "良；滑入式 EVA"}
+        ],
+        "verdict": "Crocs 與 Native Shoes 並列最易穿脫"
+      },
+      {
+        "dimension": "足部健康",
+        "crocs": "中等；缺乏弓型支撐，不適合長時間步行",
+        "best_competitors": [
+          {"name": "Pediped Flex", "rating": "最優；APMA 認可"},
+          {"name": "Stride Rite Made 2 Play", "rating": "優；足科醫師推薦，APMA 認可"},
+          {"name": "New Balance 574 Kids", "rating": "良；多寬度，橡膠底"}
+        ],
+        "verdict": "Crocs 在足部健康方面明顯劣於多個競品"
+      },
+      {
+        "dimension": "清潔便利",
+        "crocs": "極優（0.90 score）；洗碗機可洗",
+        "best_competitors": [
+          {"name": "Native Shoes Jefferson", "rating": "優；可清洗"},
+          {"name": "KEEN Newport H2", "rating": "良；可水洗"}
+        ],
+        "verdict": "Crocs 清潔便利性具有明顯優勢"
+      },
+      {
+        "dimension": "性價比",
+        "crocs": "中等；$30-40，耐用年限 2 個夏天",
+        "best_competitors": [
+          {"name": "Skechers S-Lights", "rating": "最優；$29.99，預算最佳"},
+          {"name": "New Balance 574", "rating": "良；$40-55，耐用性更高"}
+        ],
+        "verdict": "Skechers 在預算段更具競爭力"
+      }
+    ]
+  },
+
+  "solves_problem_assessment": {
+    "core_problem": "兒童日常休閒穿著：需要舒適、耐用、易穿脫、適合水上活動的鞋款",
+    "verdict": "能解決問題，但在特定維度有更好選擇",
+    "reasoning": [
+      "Crocs 在舒適性、易穿脫、清潔便利三個維度是同類最強或並列最強",
+      "93,281 則評分、4.85 平均評分（Amazon）體現廣泛使用者滿意度",
+      "若需求為足部健康或最高耐用性，KEEN/Stride Rite/Pediped 是更好選擇",
+      "sizing_inconsistency（11%）是可解決問題的阻礙但非完全失效（Crocs 建議加大購買）",
+      "used_product_received（11%）為履行問題，不影響真實產品品質判斷"
+    ]
+  },
+
+  "report_type_recommendation": {
+    "type": "comparison",
+    "path": "docs/Narrator/comparisons/kids-casual-shoes--2026-03-04.md",
+    "rationale": "Crocs 能解決兒童休閒鞋的核心需求（舒適、輕量、易穿脫、清潔），但在耐用性（KEEN 更優）、足部健康（Stride Rite/Pediped 更優）、預算性價比（Skechers 更優）等維度，不同需求有更合適的競品。報告類型為「能解決問題，但有更好選擇」→ 比較報告。",
+    "key_message": "Crocs Kid's Classic Clog 是兒童休閒鞋的可靠選擇，但根據使用場景：最耐用選 KEEN、足部健康選 Stride Rite、預算優先選 Skechers、最佳 Crocs 替代品選 Native Shoes。"
+  },
+
+  "data_quality_notes": [
+    "主要產品（Crocs B09NMFFG8B）：高信心（100 則 Amazon 評論，L1-L6 完整萃取）",
+    "競品資料：低信心（WebFetch 0 次，僅 WebSearch 摘要，非完整評測內容）",
+    "建議補充：對 Native Shoes、KEEN、Skechers 進行 WebFetch 以提升競品分析可信度"
+  ]
+}

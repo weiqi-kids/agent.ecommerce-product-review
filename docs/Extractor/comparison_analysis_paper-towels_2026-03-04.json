@@ -1,0 +1,131 @@
+{
+  "category": "paper-towels",
+  "date": "2026-03-04",
+  "problem_definition": "消費者在選購廚房紙巾時，如何在吸收力、強度、使用便利性與 CP 值之間找到最佳平衡",
+  "products_compared": [
+    {
+      "asin": "B07MHJFRBJ",
+      "name": "Bounty Quick Size Paper Towels, 8 Family Rolls",
+      "brand": "Bounty (P&G)",
+      "price_usd": 24.42,
+      "price_per_roll_usd": 3.05,
+      "avg_rating": 4.85,
+      "rating_count": 229307,
+      "reviews_analyzed": 100,
+      "positioning": "市場領導者、Quick-Size 設計、吸收力最強"
+    }
+  ],
+  "comparison_note": "原排定競品 B0FLFR269F（Charmin Ultra Soft）為衛生紙，已歸入 toilet-paper 類別，非廚房紙巾。本次分析僅有 Bounty 一款廚房紙巾萃取結果，無法執行跨產品比較。分析以單一產品評估方式進行。",
+  "negative_review_classification": {
+    "B07MHJFRBJ": {
+      "product_name": "Bounty Quick Size Paper Towels",
+      "total_negative_rate": "~20%",
+      "functional_failure": {
+        "type": "❌ 無法解決問題（功能失效）",
+        "rate": "9%",
+        "issues": [
+          "bad_odor_smell（6%）：多批次出現異味（腳臭/塵土味），氣味轉移至接觸物品，違反廚房清潔用途核心功能",
+          "quality_degradation（3%）：2025 年後紙張變粗糙易碎，吸收力下降，長期用戶失望"
+        ],
+        "severity": "medium"
+      },
+      "new_problems": {
+        "type": "⚠️ 產生新問題（副作用）",
+        "rate": "2%",
+        "issues": [
+          "sheet_size_smaller（2%）：張數縮水，用戶懷疑縮水通膨，影響 CP 值預期"
+        ],
+        "severity": "low"
+      },
+      "unrelated_issues": {
+        "type": "📦 與產品無關（物流）",
+        "rate": "4%",
+        "issues": [
+          "shipping_delays（3%）：出貨延遲，非產品本身問題",
+          "tampered_packaging（1%）：包裝遭開封重新密封，少 1 卷（疑似倉儲問題）"
+        ],
+        "severity": "low（tampered_packaging 單例但嚴重性高，需持續監控）"
+      }
+    }
+  },
+  "single_product_assessment": {
+    "absorbency": {
+      "l4_sentiment_score": 0.93,
+      "verdict": "優秀",
+      "evidence": "12 則評論明確讚揚吸水力，多人表示半張即可應付大多數清潔，相較一般紙巾用量明顯減少；廣告「2X more absorbent than leading ordinary brand」獲用戶支持"
+    },
+    "thickness_strength": {
+      "l4_sentiment_score": 0.86,
+      "verdict": "良好",
+      "evidence": "22 則評論（最多提及 aspect）肯定厚度與耐用性，濕水不易解體；僅 1 則負評（粗糙/易碎），屬少數"
+    },
+    "value_price": {
+      "l4_sentiment_score": 0.58,
+      "price_per_roll_usd": 3.05,
+      "verdict": "中等（價格偏高）",
+      "evidence": "24 則提及，10 則認同大包裝划算，6 則抱怨漲價；Amazon 定價高於實體零售商，但多數用戶仍認為整體 CP 值可接受"
+    },
+    "quick_size_convenience": {
+      "l4_sentiment_score": 0.72,
+      "verdict": "良好",
+      "evidence": "Quick-Size 設計獲正面評價，可按需撕取；2 則投訴撕切線不易斷，屬輕微問題"
+    },
+    "brand_loyalty": {
+      "l4_sentiment_score": 0.96,
+      "verdict": "最高（市場領導）",
+      "evidence": "多位用戶表示已使用 10-20+ 年，為唯一購買品牌；229,307 筆評分體現市場主導地位"
+    },
+    "odor_smell": {
+      "l4_sentiment_score": 0.20,
+      "verdict": "存在品質問題",
+      "evidence": "7 則提及，5 則負評，描述「腳臭味」「塵土舊書味」且氣味轉移，集中於近期批次，疑似製造問題"
+    }
+  },
+  "claim_verification": {
+    "2x_more_absorbent": "Supported（12 則評論支持）",
+    "durable_diamond_texture": "Supported（22 則評論肯定）",
+    "8_family_rolls_equals_20_regular": "Partial（多數認同用量省，但 3 則反映縮水）",
+    "easy_tear_quick_size": "Partial（多數滿意，1 則投訴撕切線問題）",
+    "most_awarded_brand": "Unverifiable（評論無法驗證，但 96% 品牌忠誠度間接佐證）"
+  },
+  "competitor_gap": {
+    "note": "本次分析缺乏直接競品萃取結果。市場主要競品包含：",
+    "known_competitors": [
+      "Brawny（多則 Bounty 評論點名對比）",
+      "Kirkland Signature（Costco 品牌，多則評論提及）",
+      "Viva（市場三強之一）",
+      "Scott（平價市場）"
+    ],
+    "research_gap": "需執行 Step 5 研究取得競品 ASIN，補充 Step 6 萃取後重新執行比較分析"
+  },
+  "verdict": {
+    "can_solve_problem": true,
+    "can_solve_problem_rationale": "Bounty 廚房紙巾的核心功能（吸收力、強度）獲高度正面評價（L4 score 0.93 / 0.86），廣告聲稱基本獲用戶證實；品牌忠誠度 96% 顯示長期使用者高度認可",
+    "critical_concerns": [
+      "bad_odor（6%）：近期批次異味問題需監控，若持續將嚴重影響品牌信譽",
+      "quality_degradation（3%）：2025 年後品質下滑訊號，需追蹤是否擴散",
+      "tampered_packaging（1%）：包裝被開封重封，需監控是否為系統性問題"
+    ],
+    "report_type": "recommendation",
+    "report_type_rationale": "單一產品評估顯示 Bounty 能有效解決廚房清潔用途（吸收力、強度優秀），負評主要集中在近期批次異味問題（可能為孤立批次事件）和物流問題，而非核心功能失效。缺乏競品直接比較資料，但基於用戶廣泛的正面評價和市場領導地位，初步判定為推薦報告。",
+    "report_type_condition": "待競品萃取完成後，若競品在 CP 值或品質穩定性上明顯優於 Bounty，應改為比較報告",
+    "monitoring_flag": "bad_odor_batch_issue",
+    "monitoring_reason": "近期批次異味問題（6%）若下次抓取持續上升，需升級警告報告"
+  },
+  "data_confidence": {
+    "overall": "medium",
+    "notes": [
+      "Bounty 有 100 則評論分析，單產品數據可信度高",
+      "缺乏競品直接比較，結論限於 Bounty 自身表現評估",
+      "原計劃競品 B0FLFR269F 為衛生紙（toilet-paper 類別），不適用於此類別比較",
+      "需補充 Brawny、Kirkland 等競品萃取後重新執行完整比較"
+    ]
+  },
+  "next_actions": [
+    "Step 5：執行 paper-towels 問題研究，取得 Brawny/Kirkland/Viva 等競品 ASIN",
+    "Step 6：抓取競品評論並執行 L1-L6 萃取",
+    "Step 7：重新執行多產品比較分析",
+    "監控：追蹤 Bounty B07MHJFRBJ 的 bad_odor 問題是否持續"
+  ],
+  "summary": "Bounty Quick Size（B07MHJFRBJ）廚房紙巾吸收力（L4: 0.93）和強度（L4: 0.86）表現優秀，229,307 筆評分顯示市場主導地位，品牌忠誠度極高（96%）。主要風險為近期批次異味問題（6%，可能為製造批次問題）和 2025 年品質稍降訊號（3%）。由於缺乏競品萃取資料，本次僅能對 Bounty 自身作出初步推薦判定，建議補充 Brawny 等競品資料後重新執行完整比較。"
+}

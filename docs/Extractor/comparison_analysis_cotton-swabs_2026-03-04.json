@@ -1,0 +1,70 @@
+{
+  "category": "cotton-swabs",
+  "analysis_date": "2026-03-04",
+  "products_analyzed": [
+    {
+      "asin": "B09541P9WH",
+      "name": "Amazon Basics Double-Tipped Cotton Swabs, 500 Count",
+      "platform": "amazon_us",
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "l4_overall_sentiment": 0.82,
+      "key_aspects": {
+        "value_for_money": 0.95,
+        "cotton_tip_quality": 0.68,
+        "stem_sturdiness": 0.59,
+        "softness": 0.96,
+        "brand_comparison_vs_qtip": 0.67,
+        "baby_care_safety": 0.90
+      }
+    }
+  ],
+  "competitor_products": [
+    {
+      "name": "Q-Tips Cotton Swabs",
+      "source": "user_mentions_in_reviews",
+      "data_type": "review_mentions",
+      "comparative_notes": "棒身強度和棉量一致性優於 Amazon Basics；但價格較高",
+      "note": "未有獨立萃取檔案，資料來自評論比較引述"
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "issues": [
+        { "issue": "棉量不足（insufficient_cotton）", "frequency": "5%", "severity": "low" },
+        { "issue": "缺少單側棉頭製造缺陷（defect_missing_tip）", "frequency": "3%", "severity": "medium" },
+        { "issue": "不如 Q-Tip 品質差距（brand_gap）", "frequency": "6%", "severity": "low" }
+      ],
+      "total_frequency": "14%"
+    },
+    "creates_new_problems": {
+      "issues": [
+        { "issue": "棒身彎折/鬆軟（stem_weakness）—使用中斷風險", "frequency": "13%", "severity": "medium" },
+        { "issue": "棉頭脫落（cotton_shedding）—耳道衛生安全疑慮", "frequency": "7%", "severity": "medium_high" }
+      ],
+      "total_frequency": "20%",
+      "safety_note": "棉頭脫落 7%：用於耳道清潔時有棉頭殘留耳道風險"
+    },
+    "unrelated_to_product": {
+      "issues": [],
+      "total_frequency": "0%",
+      "note": "官方 Amazon 直售，無物流或賣家問題"
+    }
+  },
+  "comparison_summary": {
+    "can_solve_problem": true,
+    "problem_solved": "提供日常個人衛生清潔、美妝修正、嬰兒護理等多用途棉花棒需求",
+    "vs_competitors": "compared_to_qtips_brand",
+    "verdict": "性價比壓倒性優勢（$2.91/500支 vs Q-Tips 較高定價）；功能達到「夠用」標準，88% 用戶滿意；但棒身強度（13% 彎折）和棉頭脫落（7%）是相較 Q-Tips 的明顯差距",
+    "key_risk": "棉頭脫落 7%：清耳朵用途需標示安全警告；棒身彎折 13% 影響耐用體驗"
+  },
+  "report_type": "comparison",
+  "report_type_reason": "能解決問題（日常清潔用途），性價比優勢明顯；但棒身強度和棉頭脫落讓 Q-Tips 在需要高品質清耳用途時更具優勢；建議以比較報告呈現使用情境差異",
+  "confidence": "high",
+  "confidence_note": "100則評論，驗證購買率 96%，L4 整體情感 0.82，結論可信",
+  "data_sources": {
+    "amazon_extractions": 1,
+    "competitor_extractions": 0,
+    "competitor_mentions_in_reviews": 1
+  }
+}

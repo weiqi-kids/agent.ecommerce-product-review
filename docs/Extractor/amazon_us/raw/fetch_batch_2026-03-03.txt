@@ -1,0 +1,32 @@
+# 2026-03-03 抓取批次
+# 現有類別產品（Skip Step 5, 需 Step 6-8）
+https://www.amazon.com/dp/B0FK1LF5PM
+# Owala FreeSip Water Bottle — water-bottle
+
+https://www.amazon.com/dp/B0CP9YB3Q4
+# Stanley Quencher H2.0 — water-bottle
+
+https://www.amazon.com/dp/B074PVTPBW
+# Mighty Patch Original — acne-treatment
+
+https://www.amazon.com/dp/B0C6W3D4RM
+# Amazon Fire TV Stick 4K Select — streaming-stick
+
+https://www.amazon.com/dp/B00GS8W3T4
+# MedPride Nitrile Exam Gloves — disposable-gloves
+
+# 新類別產品（需 Step 5-8）
+https://www.amazon.com/dp/B07BGLT25K
+# Scott ComfortPlus Toilet Paper — toilet-paper
+
+https://www.amazon.com/dp/B0FLFR269F
+# Charmin Ultra Soft — toilet-paper
+
+https://www.amazon.com/dp/B0FN4NH4K8
+# Angel Soft Toilet Paper — toilet-paper
+
+https://www.amazon.com/dp/B095CN96JS
+# Amazon Basics Toilet Paper — toilet-paper
+
+https://www.amazon.com/dp/B0113UZJE2
+# Etekcity Food Scale — kitchen-scale

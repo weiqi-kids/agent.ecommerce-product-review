@@ -1,0 +1,159 @@
+{
+  "category": "collectible-coins",
+  "date": "2026-03-04",
+  "products_compared": [
+    {
+      "asin": "B0CQN17539",
+      "name": "2025 American Silver Eagle (Smyrnacoin)",
+      "price": 126.95,
+      "avg_rating": 4.85,
+      "sentiment_score": 0.88,
+      "review_count": 359
+    },
+    {
+      "asin": "B00EMGAO5Y",
+      "name": "Walking Liberty Copper Round",
+      "price": 9.99,
+      "avg_rating": 4.75,
+      "sentiment_score": 0.82,
+      "review_count": 1711
+    },
+    {
+      "asin": "B0CFYYBHK3",
+      "name": "Lincoln Wheat Cent 1909 S VDB Copper Round (Heavenly Metals)",
+      "price": 12.99,
+      "avg_rating": 4.55,
+      "sentiment_score": 0.52,
+      "review_count": 507
+    },
+    {
+      "asin": "B07K9Q32MR",
+      "name": "Morgan Silver Dollar Pre-1921 (Wisemen Trading)",
+      "price": 84.95,
+      "avg_rating": 4.05,
+      "sentiment_score": 0.30,
+      "review_count": 635,
+      "review_needed": true
+    },
+    {
+      "asin": "B07RZ4DJLL",
+      "name": "Wheat Penny Roll w/ Mercury Dime (Coin Tycoon)",
+      "price": 129.99,
+      "avg_rating": 3.85,
+      "sentiment_score": 0.22,
+      "review_count": 1578
+    },
+    {
+      "asin": "B011LOOKV8",
+      "name": "50 Wheat Pennies Unsearched (Wisemen Trading)",
+      "price": 17.95,
+      "avg_rating": 3.65,
+      "sentiment_score": 0.20,
+      "review_count": 1660
+    }
+  ],
+  "verdict": "comparison",
+  "summary": "collectible-coins 類別呈明顯兩極分化：官方認證銀幣（American Silver Eagle）和低價銅製紀念幣（Walking Liberty Copper Round）各有清晰目標受眾且整體滿意度高；而聲稱「未搜索」的小麥幣捲幣產品（B011LOOKV8、B07RZ4DJLL）則存在嚴重廣告不實問題（48-52% 買家確認已被搜索），高價 Morgan Silver Dollar（B07K9Q32MR）則有品相嚴重不符描述的問題（38% 負評），且存在真偽矛盾聲明，標記 REVIEW_NEEDED。本類別按購買目的細分為三個子市場，各有最佳選擇，建議以比較報告呈現。",
+  "rankings": [
+    {
+      "rank": 1,
+      "asin": "B0CQN17539",
+      "name": "2025 American Silver Eagle",
+      "score": 4.85,
+      "verdict": "推薦（官方認證銀幣，適合禮品與嚴肅收藏者）",
+      "negative_breakdown": {
+        "functional_failure": "price_above_spot 5%，authenticity_test_failure 1%",
+        "side_effects": "flimsy_packaging 3%，mint_label_discrepancy 1%",
+        "logistics": "shipping_issues < 2%"
+      }
+    },
+    {
+      "rank": 2,
+      "asin": "B00EMGAO5Y",
+      "name": "Walking Liberty Copper Round",
+      "score": 4.75,
+      "verdict": "推薦（低價紀念銅幣，入門收藏與小額禮品首選）",
+      "negative_breakdown": {
+        "functional_failure": "questionable_copper_purity 4%，overpriced_vs_metal_value 8%",
+        "side_effects": "tarnishing_over_time 4%",
+        "logistics": "wrong_item_shipped 1%"
+      }
+    },
+    {
+      "rank": 3,
+      "asin": "B0CFYYBHK3",
+      "name": "Lincoln Wheat Cent Copper Round (Heavenly Metals)",
+      "score": 3.8,
+      "verdict": "條件推薦（適合了解為複製品的禮品與入門收藏買家，不適合誤以為是真幣的買家）",
+      "negative_breakdown": {
+        "functional_failure": "authenticity_confusion 18%，display_stand_not_included 4%，coa_missing 4%，investment_value 7%",
+        "side_effects": "legal_concern 2%，size_expectation_mismatch 6%",
+        "logistics": "shipping_generally_positive"
+      }
+    },
+    {
+      "rank": 4,
+      "asin": "B07K9Q32MR",
+      "name": "Morgan Silver Dollar Pre-1921",
+      "score": 2.8,
+      "verdict": "警告（品相嚴重不符描述，listing 含矛盾真偽聲明，高價不符性價比）[REVIEW_NEEDED]",
+      "negative_breakdown": {
+        "functional_failure": "condition_worse_than_listed 38%，listing_misleading 25%，overpriced_for_condition 22%",
+        "side_effects": "authenticity_confusion 18%（listing 同時宣稱真幣與 copy coin）",
+        "logistics": "wrong_quantity 4%"
+      }
+    },
+    {
+      "rank": 5,
+      "asin": "B07RZ4DJLL",
+      "name": "Wheat Penny Roll w/ Mercury Dime",
+      "score": 2.2,
+      "verdict": "不推薦（廣告不實：48% 確認已被搜索，32% 收到袋裝非捲裝，Mercury Dime 品相差，部分為複製品）",
+      "negative_breakdown": {
+        "functional_failure": "pre_searched_coins 48%，limited_date_variety 42%，overpriced_poor_value 28%，replica_dime 3%",
+        "side_effects": "bag_not_roll 32%，duplicate_coin_years 22%",
+        "logistics": "missing_advertised_coins 10%"
+      }
+    },
+    {
+      "rank": 6,
+      "asin": "B011LOOKV8",
+      "name": "50 Wheat Pennies Unsearched",
+      "score": 1.8,
+      "verdict": "不推薦（廣告嚴重不實：52% 確認已搜索，68% 缺乏年份多樣性，實際幣值僅售價 8-37%）",
+      "negative_breakdown": {
+        "functional_failure": "unsearched_claim_false 52%，date_variety_missing 68%，value_for_money 42%，coin_condition 28%",
+        "side_effects": "packaging_not_as_described 22%，quantity_confusion 8%",
+        "logistics": "shipping_generally_fast"
+      }
+    }
+  ],
+  "key_findings": [
+    {
+      "finding": "類別分裂為三個子市場",
+      "detail": "① 官方銀幣（Silver Eagle）：高價但高品質，適合嚴肅收藏與禮品。② 低價紀念銅幣（Walking Liberty、Lincoln Copper Round）：不具投資價值，但作為禮品與入門收藏性價比高。③ 「未搜索」混合年份捲幣（B011LOOKV8、B07RZ4DJLL）：廣告不實問題嚴重，不推薦。"
+    },
+    {
+      "finding": "「Unsearched」宣稱在同類賣家中幾乎全面失效",
+      "detail": "B011LOOKV8（52% 確認已搜索）與 B07RZ4DJLL（48% 確認已搜索）均為同一賣家 Wisemen Trading and Supply 旗下產品，系統性廣告不實疑慮高。"
+    },
+    {
+      "finding": "Morgan Silver Dollar 存在潛在真偽矛盾，需人工審核",
+      "detail": "B07K9Q32MR 的 listing 同時出現「90% Silver」宣傳與「copy coin」免責聲明，品相不符比例 38%，已標記 [REVIEW_NEEDED]。建議單獨發出警告報告。"
+    },
+    {
+      "finding": "Walking Liberty Copper Round（B00EMGAO5Y）為低價子市場最佳選擇",
+      "detail": "1711 則評論，4.75 星，包裝品質優異，廣告符實度高，雖不具金屬投資價值，但作為 $9.99 的入門收藏與禮品無可替代。"
+    },
+    {
+      "finding": "American Silver Eagle（B0CQN17539）為高價子市場最佳選擇",
+      "detail": "4.85 星，359 則評論，真銀認證率高，新版 Eagle Landing 設計受高度評價，唯售價高於現貨約 $16，僅適合以收藏或禮品為目的的買家，不適合以現貨溢價計算的投資型買家。"
+    }
+  ],
+  "report_recommendation": {
+    "type": "comparison",
+    "rationale": "類別內產品因目的不同不可直接比較（真銀幣 vs 銅製紀念幣 vs 混合年份捲幣），但同一子市場內有明顯優劣。建議產出一份整體比較報告，並對 Morgan Silver Dollar（B07K9Q32MR）單獨發出警告報告。",
+    "warning_needed_for": ["B07K9Q32MR"],
+    "not_recommended": ["B011LOOKV8", "B07RZ4DJLL"]
+  }
+}
