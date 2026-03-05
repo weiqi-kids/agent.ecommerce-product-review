@@ -18,7 +18,7 @@ head:
   - - meta
     - name: twitter:card
       content: summary
-verdict: comparison
+verdict: neutral
 reviewCount: 600
 negativeRate: 20
 ---

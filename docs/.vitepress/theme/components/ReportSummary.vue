@@ -15,10 +15,10 @@ const verdictConfig = {
 </script>
 
 <template>
-  <div class="report-summary" :style="{ background: verdictConfig[verdict].bg }">
-    <div class="verdict" :style="{ color: verdictConfig[verdict].color }">
-      <span class="verdict-icon">{{ verdictConfig[verdict].icon }}</span>
-      <span class="verdict-label">{{ verdictConfig[verdict].label }}</span>
+  <div class="report-summary" :style="{ background: (verdictConfig[verdict] || verdictConfig.neutral).bg }">
+    <div class="verdict" :style="{ color: (verdictConfig[verdict] || verdictConfig.neutral).color }">
+      <span class="verdict-icon">{{ (verdictConfig[verdict] || verdictConfig.neutral).icon }}</span>
+      <span class="verdict-label">{{ (verdictConfig[verdict] || verdictConfig.neutral).label }}</span>
     </div>
 
     <div class="metrics">
