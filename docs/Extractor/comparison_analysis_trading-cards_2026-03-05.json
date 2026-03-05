@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "category": "trading-cards",
+    "analysis_date": "2026-03-05",
+    "analyst_note": "本次新增 2 款產品（B0829FT44S、B0F77H6XC5）並更新 B0G3CY83L5 萃取至 2026-03-05 版本（100 則評論）。合計 6 款產品跨 Pokémon TCG + MTG 品類進行比較分析。",
+    "products_analyzed": [
+      {
+        "asin": "B0829FT44S",
+        "name": "50+ Official Pokemon Cards Collection with 5 Foils",
+        "brand": "Pokemon",
+        "seller": "Errant (第三方賣家)",
+        "price_usd": 9.99,
+        "avg_rating": 4.35,
+        "reviews_analyzed": 80,
+        "extraction_date": "2026-03-05",
+        "is_new": true
+      },
+      {
+        "asin": "B0F77H6XC5",
+        "name": "Pokemon Scarlet & Violet Destined Rivals Sleeve Booster",
+        "brand": "Pokemon",
+        "seller": "Kings Games (第三方賣家)",
+        "price_usd": 14.45,
+        "avg_rating": 4.25,
+        "reviews_analyzed": 85,
+        "extraction_date": "2026-03-05",
+        "is_new": true
+      },
+      {
+        "asin": "B0G3CY83L5",
+        "name": "Pokemon TCG: Mega Evolution Ascended Heroes ETB",
+        "brand": "Pokemon",
+        "seller": "Amazon.com (直售)",
+        "price_usd": 117.14,
+        "avg_rating": 4.05,
+        "reviews_analyzed": 100,
+        "extraction_date": "2026-03-05",
+        "is_updated": true
+      },
+      {
+        "asin": "B0G2FVLXVL",
+        "name": "Pokemon TCG: Pokemon Day 2026 Collection",
+        "brand": "Pokemon",
+        "seller": "Top Choice Games (第三方賣家)",
+        "price_usd": 38.90,
+        "avg_rating": 4.05,
+        "reviews_analyzed": 50,
+        "extraction_date": "2026-03-01"
+      },
+      {
+        "asin": "B0DLPL7LC5",
+        "name": "Pokemon TCG: Prismatic Evolutions ETB",
+        "brand": "Pokemon",
+        "seller": "Amazon.com (直售)",
+        "price_usd": 60.00,
+        "avg_rating": 3.85,
+        "reviews_analyzed": 100,
+        "extraction_date": "2026-03-01",
+        "review_needed_flag": true
+      },
+      {
+        "asin": "B0DNV3NV61",
+        "name": "Magic: The Gathering Aetherdrift Play Booster Box",
+        "brand": "Magic: The Gathering",
+        "seller": "Amazon.com (直售)",
+        "price_usd": 129.99,
+        "avg_rating": 4.65,
+        "reviews_analyzed": 40,
+        "extraction_date": "2026-03-01"
+      }
+    ],
+    "total_reviews_analyzed": 455,
+    "research_quality": "insufficient",
+    "research_note": "研究報告（trading-cards--2026-02-06.md）自評為 MAJOR RESEARCH GAP，但本次已有 6 款產品共 455 則評論的 L1-L6 萃取資料，可進行直接比較。"
+  },
+
+  "negative_review_classification": {
+    "B0829FT44S": {
+      "product_name": "50+ Official Pokemon Cards Collection with 5 Foils",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "repackaged_not_sealed",
+            "frequency": "28% (22/80)",
+            "severity": "high",
+            "description": "賣家將高價值卡牌取出後重新包裝銷售，卡牌非原廠密封，屬欺詐性篩選行為",
+            "representative_quote": "These are resealed packs; cards came in a plastic sleeve that suggest the seller just repackaged; Do not buy, opened cards rewrapped"
+          },
+          {
+            "issue": "no_rare_cards_included",
+            "frequency": "23% (18/80)",
+            "severity": "medium",
+            "description": "廣告承諾至少 1 張稀有卡，大量買家表示未收到任何有價值卡牌，宣稱與事實矛盾",
+            "representative_quote": "Don't say its a guaranteed rare with every 50 cards. I bought 100 and not a single one that wasn't basic"
+          },
+          {
+            "issue": "excessive_duplicates",
+            "frequency": "40% (32/80)",
+            "severity": "high",
+            "description": "收到大量重複卡牌（有人同一張收到 7 張），嚴重降低實際收藏/遊戲價值",
+            "representative_quote": "10 Sudowoodo. 5 Hippopotas. 5 Cranidos; 31 of the cards were repeats"
+          },
+          {
+            "issue": "too_many_trainer_energy",
+            "frequency": "13% (10/80)",
+            "severity": "medium",
+            "description": "包裝充斥訓練師卡和能量卡，實際 Pokemon 卡牌數量遠低於預期",
+            "representative_quote": "30 trainer cards alone; only 7 real pokemon cards. The rest were trainers and energy"
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "fewer_cards_than_advertised",
+            "frequency": "6% (5/80)",
+            "severity": "medium",
+            "description": "實際收到的卡牌數量少於廣告的 50+",
+            "representative_quote": "only received 27 cards; only received 49 cards"
+          },
+          {
+            "issue": "japanese_cards_mixed_in",
+            "frequency": "5% (4/80)",
+            "severity": "low",
+            "description": "收到日文卡牌混入英文包裝，非預期語言",
+            "representative_quote": "6 Japanese cards were in my stack"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": []
+      }
+    },
+    "B0F77H6XC5": {
+      "product_name": "Pokemon Destined Rivals Sleeve Booster",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "resealed_tampered_packs",
+            "frequency": "53% (45/85)",
+            "severity": "high",
+            "description": "【極嚴重】超過半數評論報告卡包已被拆封重新密封，為所有產品中最高篡改率",
+            "representative_quote": "Pack was resealed and full of cards from roaring skies; RESEALED DO NOT BUY"
+          },
+          {
+            "issue": "cards_replaced_with_energy",
+            "frequency": "33% (28/85)",
+            "severity": "high",
+            "description": "卡牌被替換為無價值的能量卡或其他完全不相關的卡牌，屬明確欺詐",
+            "representative_quote": "cards inside were replaced with energies; packs already ripped and replaced with basic energy"
+          },
+          {
+            "issue": "wrong_cards_inside",
+            "frequency": "9% (8/85)",
+            "severity": "high",
+            "description": "收到賭場牌、中文卡、日文卡、其他系列卡牌等完全不相關內容",
+            "representative_quote": "had casino cards inside; Chinese cards inside and is sealed with tape"
+          },
+          {
+            "issue": "missing_cards",
+            "frequency": "9% (8/85)",
+            "severity": "medium",
+            "description": "應含 10 張卡的包裝內僅有 6-8 張",
+            "representative_quote": "pack was already open and it was missing two cards; we got 7 including the app card"
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "overpriced",
+            "frequency": "7% (6/85)",
+            "severity": "low",
+            "description": "部分買家認為售價偏高",
+            "representative_quote": "Over priced rip off what a joke asking 20 a pack"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": []
+      }
+    },
+    "B0G3CY83L5": {
+      "product_name": "Mega Evolution Ascended Heroes ETB",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "resealed_or_tampered",
+            "frequency": "14% (14/100)",
+            "severity": "high",
+            "description": "部分買家收到被拆封重新密封的產品，內部卡包被開啟、卡牌被替換",
+            "representative_quote": "Whole thing was resealed; Product came damaged and cards and promos taken out; it came tampered with"
+          },
+          {
+            "issue": "missing_promo_or_components",
+            "frequency": "5% (5/100)",
+            "severity": "medium",
+            "description": "促銷卡或配件遺失",
+            "representative_quote": "Promo card missing from sealed ETB; packs and promo were missing"
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "price_gouging",
+            "frequency": "10% (10/100)",
+            "severity": "medium",
+            "description": "售價遠超 MSRP，被認為是黃牛溢價",
+            "representative_quote": "Over double msrp; Children should be able to enjoy the pokemon tcg hobby, not be up charged"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": [
+          {
+            "issue": "poor_shipping_packaging",
+            "frequency": "15% (15/100)",
+            "severity": "medium",
+            "description": "Amazon 使用紙袋或塑膠袋運送，導致收藏級外盒受損",
+            "representative_quote": "Ships in a paper bag. Will arrive completely beat up; Came creased and teared"
+          }
+        ]
+      }
+    },
+    "B0G2FVLXVL": {
+      "product_name": "Pokemon Day 2026 Collection",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "damaged_cards_inside",
+            "frequency": "6% (3/50)",
+            "severity": "high",
+            "description": "促銷 Pikachu 卡彎曲、包裝被打開、缺少 Booster Pack",
+            "representative_quote": "Uno de los paquetes venia abierto, le falta un booster y otro viene abierto, y la carta de pikachu viene dañada"
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "price_above_msrp",
+            "frequency": "10% (5/50)",
+            "severity": "medium",
+            "description": "第三方賣家售價 $38.90 超過 Target MSRP $18.00 達 116%",
+            "representative_quote": "Only $18 at Target,,,, Scalpers have a lot of nerve."
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": [
+          {
+            "issue": "damaged_packaging",
+            "frequency": "36% (18/50)",
+            "severity": "medium",
+            "description": "外盒運輸受損，對 sealed collector 影響嚴重",
+            "representative_quote": "Product came damaged; Came in beat up and torn."
+          }
+        ]
+      }
+    },
+    "B0DLPL7LC5": {
+      "product_name": "Prismatic Evolutions ETB",
+      "review_needed": true,
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "tampered_resealed_box",
+            "frequency": "45% (45/100)",
+            "severity": "high",
+            "description": "【極嚴重】近半數買家收到被拆封重新密封的盒子",
+            "representative_quote": "Box was opened and re-sealed; all foil packs were opened and many cards were missing."
+          },
+          {
+            "issue": "opened_packs_cards_removed",
+            "frequency": "35% (35/100)",
+            "severity": "high",
+            "description": "Booster Pack 被打開，高價值稀有卡被抽走，部分替換為 Lorcana 卡牌",
+            "representative_quote": "all the packs were open and all of the holes and rares were taken out and replaced with Lorcana cards"
+          },
+          {
+            "issue": "missing_promo_card",
+            "frequency": "18% (18/100)",
+            "severity": "high",
+            "description": "獨家全藝術 Eevee 促銷卡在篡改後遺失",
+            "representative_quote": "Came without the Eevee promo card meaning the entire package was resealed."
+          },
+          {
+            "issue": "missing_booster_packs",
+            "frequency": "16% (16/100)",
+            "severity": "high",
+            "description": "收到少於宣傳的 9 包 Booster Pack",
+            "representative_quote": "my son opened this and there was only 7 packs"
+          },
+          {
+            "issue": "wrong_cards_substituted",
+            "frequency": "8% (8/100)",
+            "severity": "high",
+            "description": "正版卡牌被替換為 Lorcana、日文普通牌等不相關卡牌",
+            "representative_quote": "Scam! All cards inside were loose and from several different series."
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "overpriced_scalper",
+            "frequency": "12% (12/100)",
+            "severity": "medium",
+            "description": "第三方賣家以 $150-200+ 販售 MSRP $60 產品",
+            "representative_quote": "Way over priced. Not enough hits for the price Amazon is allowing the scalpers to resale"
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": [
+          {
+            "issue": "damaged_box_exterior",
+            "frequency": "8% (8/100)",
+            "severity": "low",
+            "description": "外盒邊角受損",
+            "representative_quote": "The box itself was beat up on the corners especially."
+          }
+        ]
+      }
+    },
+    "B0DNV3NV61": {
+      "product_name": "MTG Aetherdrift Play Booster Box",
+      "cannot_solve_problem": {
+        "symbol": "❌",
+        "label": "無法解決問題（功能失效）",
+        "issues": [
+          {
+            "issue": "tampered_or_resealed_box",
+            "frequency": "10% (4/40)",
+            "severity": "high",
+            "description": "多起回報收到已開封、Box Topper 遭竊的箱子",
+            "representative_quote": "Don't buy, all packs were opened and valuable cards were taken."
+          }
+        ]
+      },
+      "creates_new_problem": {
+        "symbol": "⚠️",
+        "label": "產生新問題（副作用）",
+        "issues": [
+          {
+            "issue": "reduced_pack_count_30_vs_36",
+            "frequency": "18% (7/40)",
+            "severity": "medium",
+            "description": "由 36 包降為 30 包，無法支援 4 人 Draft",
+            "representative_quote": "These are 30 packs instead of the typical 36."
+          },
+          {
+            "issue": "poor_card_ev_value",
+            "frequency": "28% (11/40)",
+            "severity": "medium",
+            "description": "單箱 EV 普遍低於售價",
+            "representative_quote": "Paid $250 for $110 worth of cards."
+          }
+        ]
+      },
+      "unrelated_to_product": {
+        "symbol": "📦",
+        "label": "與產品無關（物流問題）",
+        "issues": []
+      }
+    }
+  },
+
+  "cross_product_comparison": {
+    "tampering_resealing_ranking": [
+      {
+        "rank": 1,
+        "asin": "B0F77H6XC5",
+        "name": "Destined Rivals Sleeve Booster",
+        "tampering_rate": "53% (45/85)",
+        "severity": "critical",
+        "note": "【最嚴重】超過半數卡包被拆封重新密封，33% 卡牌被替換為能量卡，9% 混入賭場牌/中文卡"
+      },
+      {
+        "rank": 2,
+        "asin": "B0DLPL7LC5",
+        "name": "Prismatic Evolutions ETB",
+        "tampering_rate": "45% (45/100)",
+        "severity": "critical",
+        "note": "Amazon 直售仍有 45% 篡改率，35% 包裝被拆、卡牌被替換為 Lorcana"
+      },
+      {
+        "rank": 3,
+        "asin": "B0829FT44S",
+        "name": "50+ Pokemon Cards Collection",
+        "tampering_rate": "28% (22/80)",
+        "severity": "high",
+        "note": "第三方賣家重新包裝，篩選出高價值卡牌後以散裝銷售"
+      },
+      {
+        "rank": 4,
+        "asin": "B0G3CY83L5",
+        "name": "Mega Evolution Ascended Heroes ETB",
+        "tampering_rate": "14% (14/100)",
+        "severity": "medium-high",
+        "note": "Amazon 直售，篡改率相對較低，但仍有退貨品重新上架問題"
+      },
+      {
+        "rank": 5,
+        "asin": "B0DNV3NV61",
+        "name": "MTG Aetherdrift Play Booster Box",
+        "tampering_rate": "10% (4/40)",
+        "severity": "medium",
+        "note": "篡改率最低，非 Pokémon 品類風險相對較低"
+      },
+      {
+        "rank": 6,
+        "asin": "B0G2FVLXVL",
+        "name": "Pokemon Day 2026 Collection",
+        "tampering_rate": "6% (3/50, 內部損壞非篡改)",
+        "severity": "low-medium",
+        "note": "主要問題為外盒物流受損（36%）而非主動篡改；產品真實性最高（87%）"
+      }
+    ],
+    "value_comparison": [
+      {
+        "asin": "B0829FT44S",
+        "name": "50+ Pokemon Cards Collection",
+        "price_usd": 9.99,
+        "value_rating": "very_poor",
+        "note": "價格最低但實際內容為重新包裝散裝卡牌，40% 重複、28% 疑似篩選過、23% 無稀有卡"
+      },
+      {
+        "asin": "B0F77H6XC5",
+        "name": "Destined Rivals Sleeve Booster",
+        "price_usd": 14.45,
+        "value_rating": "very_poor",
+        "note": "53% 篡改率使實際 EV 趨近於零，極高風險購買"
+      },
+      {
+        "asin": "B0G2FVLXVL",
+        "name": "Pokemon Day 2026 Collection",
+        "price_usd": 38.90,
+        "msrp_usd": 18.00,
+        "value_rating": "poor",
+        "note": "第三方加價 116%，應從 Target 購買"
+      },
+      {
+        "asin": "B0DLPL7LC5",
+        "name": "Prismatic Evolutions ETB",
+        "price_usd": 60.00,
+        "value_rating": "very_poor",
+        "note": "MSRP 正常但 45% 篡改率使實際 EV 趨近於零"
+      },
+      {
+        "asin": "B0G3CY83L5",
+        "name": "Mega Evolution Ascended Heroes ETB",
+        "price_usd": 117.14,
+        "value_rating": "mixed",
+        "note": "Amazon 邀請制對抗黃牛、設計精美（92%）、14% 篡改率仍需留意"
+      },
+      {
+        "asin": "B0DNV3NV61",
+        "name": "MTG Aetherdrift Play Booster Box",
+        "price_usd": 129.99,
+        "value_rating": "poor",
+        "note": "28% 回報 EV 不佳、30 包（原 36）降低性價比"
+      }
+    ],
+    "platform_fraud_risk": {
+      "summary": "Amazon TCG 品類存在系統性篡改/重新密封問題。6 款產品中有 5 款呈現不同程度的篡改，篡改率從 10% 到 53% 不等。低價散裝卡（B0829FT44S）和 Sleeve Booster（B0F77H6XC5）的第三方賣家篡改最為嚴重，但 Amazon 直售（B0DLPL7LC5、B0G3CY83L5）亦無法倖免。",
+      "risk_levels": {
+        "B0829FT44S": "high（第三方賣家重新包裝散裝卡，篩選高價值卡牌）",
+        "B0F77H6XC5": "critical（第三方賣家，53% 篡改率，卡牌被替換為能量卡/賭場牌）",
+        "B0G2FVLXVL": "medium（第三方賣家，加價但真實性尚可）",
+        "B0G3CY83L5": "medium-high（Amazon 直售但 14% 篡改率）",
+        "B0DLPL7LC5": "critical（Amazon 直售但 45% 篡改率）",
+        "B0DNV3NV61": "low-medium（Amazon 直售，篡改率 10%，非 Pokémon 品類）"
+      }
+    }
+  },
+
+  "product_rankings": {
+    "overall": [
+      {
+        "rank": 1,
+        "asin": "B0DNV3NV61",
+        "name": "Magic: The Gathering Aetherdrift Play Booster Box",
+        "avg_rating": 4.65,
+        "key_strength": "最高評分（4.65）、篡改率最低（10%）、配送可靠（82%）",
+        "key_weakness": "EV 不佳（28%）、包數縮減（30 vs 36）、主題爭議"
+      },
+      {
+        "rank": 2,
+        "asin": "B0G3CY83L5",
+        "name": "Pokemon TCG: Mega Evolution Ascended Heroes ETB",
+        "avg_rating": 4.05,
+        "key_strength": "設計精美（92%）、禮物體驗佳（88%）、Amazon 邀請制抑制黃牛",
+        "key_weakness": "14% 篡改率、15% 外盒受損、價格偏高"
+      },
+      {
+        "rank": 3,
+        "asin": "B0G2FVLXVL",
+        "name": "Pokemon TCG: Pokemon Day 2026 Collection",
+        "avg_rating": 4.05,
+        "key_strength": "產品真實性最高（87%）、紀念幣受好評、限定收藏價值",
+        "key_weakness": "第三方加價 116%、36% 外盒受損"
+      },
+      {
+        "rank": 4,
+        "asin": "B0829FT44S",
+        "name": "50+ Official Pokemon Cards Collection",
+        "avg_rating": 4.35,
+        "key_strength": "價格最低（$9.99）、禮物適合度高（82%）、兒童和新手適用",
+        "key_weakness": "40% 重複率、28% 重新包裝疑慮、23% 無稀有卡、稀有卡保證與事實矛盾"
+      },
+      {
+        "rank": 5,
+        "asin": "B0DLPL7LC5",
+        "name": "Pokemon TCG: Prismatic Evolutions ETB",
+        "avg_rating": 3.85,
+        "key_strength": "MSRP 正常售價、收藏品相佳（完整品）",
+        "key_weakness": "【警告】45% 篡改率，所有核心宣稱均遭矛盾"
+      },
+      {
+        "rank": 6,
+        "asin": "B0F77H6XC5",
+        "name": "Pokemon Destined Rivals Sleeve Booster",
+        "avg_rating": 4.25,
+        "key_strength": "幸運買家可抽到高價值追卡（Sir Mewtwo 等）",
+        "key_weakness": "【警告】53% 篡改率、33% 卡牌替換為能量卡、所有宣稱均遭矛盾"
+      }
+    ]
+  },
+
+  "verdict": {
+    "category_verdict": "warning",
+    "verdict_confidence": "high",
+    "can_solve_problem": {
+      "B0829FT44S": "partial",
+      "B0F77H6XC5": false,
+      "B0G2FVLXVL": true,
+      "B0G3CY83L5": "partial",
+      "B0DLPL7LC5": false,
+      "B0DNV3NV61": "partial"
+    },
+    "verdict_reason": "Amazon 平台 TCG 品類存在系統性篡改/重新密封危機。6 款產品中 2 款篡改率超過 45%（B0F77H6XC5: 53%, B0DLPL7LC5: 45%），屬極度危險等級。即使 Amazon 直售產品（B0DLPL7LC5, B0G3CY83L5）仍有 14-45% 篡改率。低價散裝卡（B0829FT44S）則透過重新包裝篩選高價值卡牌。僅 Pokemon Day 2026 Collection（B0G2FVLXVL）的產品真實性達可接受水準，但其第三方加價 116%。MTG Aetherdrift 篡改率最低（10%），但 EV 不佳且包數縮減。整體類別不建議在 Amazon 購買。",
+    "recommended_report_type": "warning",
+    "report_type_rationale": "B0F77H6XC5（53% 篡改）和 B0DLPL7LC5（45% 篡改）的功能失效率遠超 20% 警告門檻。新增的兩款產品（特別是 Destined Rivals Sleeve Booster）進一步強化了 TCG 品類在 Amazon 平台的系統性風險結論。需正式警告報告提醒消費者。",
+    "platform_recommendation": "建議從 Target、GameStop 實體店或官方合作遊戲店購買 TCG 產品。若必須在 Amazon 購買，僅選擇有邀請制的 Amazon 直售，收到時立即開箱驗貨並錄影存證。"
+  },
+
+  "key_findings": [
+    "【新發現】Destined Rivals Sleeve Booster（B0F77H6XC5）篡改率 53%（85 則評論），為本次所有產品中最高，超越 Prismatic Evolutions 的 45%。33% 買家卡牌被替換為能量卡，9% 收到賭場牌/中文卡",
+    "【新發現】50+ Pokemon Cards Collection（B0829FT44S）為重新包裝散裝卡牌，40% 嚴重重複（有人同一張收到 7 張）、28% 疑似篩選重新包裝、23% 未收到廣告承諾的稀有卡。但作為兒童禮物仍有 82% 滿意度",
+    "【更新】Mega Evolution ETB（B0G3CY83L5）更新至 100 則評論，篡改率微升至 14%（較 03-01 的 13%），新增 Amazon 邀請制（85% 正面）和設計品質（92%）為亮點",
+    "TCG 篡改問題具系統性：6 款產品中 5 款存在 10-53% 的篡改/重新包裝問題，退貨品重新上架機制被惡意利用",
+    "低價產品（$9.99-$14.45）風險反而更高：第三方賣家在低價位透過篩選/替換卡牌獲利空間大",
+    "僅 Pokemon Day 2026 Collection 真實性達可接受水準（87%），但售價超出 MSRP 116%"
+  ],
+
+  "review_needed": true,
+  "review_needed_reasons": [
+    "Prismatic Evolutions ETB 萃取結果自帶 [REVIEW_NEEDED]（聲明驗證直接矛盾）",
+    "研究報告自評 MAJOR RESEARCH GAP",
+    "B0F77H6XC5 的 53% 篡改率需特別關注是否存在評論操縱（部分買家可能以「篡改」為由退貨騙取退款）",
+    "B0829FT44S 的 4.35 高評分與大量負面問題（40% 重複、28% 重新包裝）存在矛盾，可能因兒童禮物場景的寬容度拉高整體評分"
+  ],
+
+  "data_sources": {
+    "extractions": [
+      "docs/Extractor/amazon_us/trading-cards/B0829FT44S--amzn-direct--2026-03-05.md",
+      "docs/Extractor/amazon_us/trading-cards/B0F77H6XC5--amzn-direct--2026-03-05.md",
+      "docs/Extractor/amazon_us/trading-cards/B0G3CY83L5--amzn-direct--2026-03-05.md",
+      "docs/Extractor/amazon_us/trading-cards/B0G2FVLXVL--amzn-direct--2026-03-01.md",
+      "docs/Extractor/amazon_us/trading-cards/B0DLPL7LC5--amzn-direct--2026-03-01.md",
+      "docs/Extractor/amazon_us/trading-cards/B0DNV3NV61--amzn-direct--2026-03-01.md"
+    ],
+    "research": "docs/Extractor/research/trading-cards--2026-02-06.md",
+    "competitors": "docs/Extractor/competitors/trading-cards--2026-02-05.md"
+  }
+}

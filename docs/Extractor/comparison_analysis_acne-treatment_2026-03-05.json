@@ -1,0 +1,298 @@
+{
+  "category": "acne-treatment",
+  "date": "2026-03-05",
+  "products_analyzed": 6,
+  "sources": {
+    "amazon_us": 6,
+    "review_articles": 8
+  },
+  "products": [
+    {
+      "product_id": "B074PVTPBW",
+      "name": "Mighty Patch Original (Hero Cosmetics)",
+      "price": 12.99,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "type": "hydrocolloid_patch",
+      "l4_sentiment": {
+        "overall": 0.82,
+        "effectiveness": 0.82,
+        "adhesion": 0.85,
+        "ease_of_use": 0.88,
+        "speed_of_results": 0.80,
+        "value_for_money": 0.58,
+        "skin_sensitivity": 0.75
+      },
+      "l5_issues": {
+        "ineffective_on_cystic_acne": { "frequency": "8%", "severity": "medium" },
+        "no_effect": { "frequency": "5%", "severity": "medium" },
+        "suspected_counterfeit": { "frequency": "2%", "severity": "high" },
+        "price_premium": { "frequency": "9%", "severity": "low" }
+      },
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "13%",
+          "details": "8% 對囊腫型痘痘無效 + 5% 完全無效"
+        },
+        "creates_new_problem": {
+          "rate": "1%",
+          "details": "極少數使用者報告拔除臉部細毛"
+        },
+        "unrelated_to_product": {
+          "rate": "3%",
+          "details": "2% 疑似假貨 + 1% 數量短缺"
+        }
+      }
+    },
+    {
+      "product_id": "B01MDTVZTZ",
+      "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+      "price": 5.97,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "type": "serum",
+      "l4_sentiment": {
+        "overall": 0.78,
+        "oil_control": 0.92,
+        "skin_texture": 0.90,
+        "pore_reduction": 0.85,
+        "hydration": 0.88,
+        "acne_clearing": 0.82,
+        "value_for_money": 0.95,
+        "skin_brightness": 0.91
+      },
+      "l5_issues": {
+        "white_residue_pilling": { "frequency": "7%", "severity": "medium" },
+        "no_visible_results": { "frequency": "6%", "severity": "medium" },
+        "skin_breakout": { "frequency": "4%", "severity": "medium" },
+        "packaging_defect": { "frequency": "3%", "severity": "medium" }
+      },
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "6%",
+          "details": "部分使用者連續使用數週無效果"
+        },
+        "creates_new_problem": {
+          "rate": "11%",
+          "details": "7% 白色殘留/起屑 + 4% 爆痘反應"
+        },
+        "unrelated_to_product": {
+          "rate": "3%",
+          "details": "玻璃滴管碎裂等包裝品質問題"
+        }
+      }
+    },
+    {
+      "product_id": "B0DBF65JYY",
+      "name": "medicube PDRN Pink Peptide Serum (Salmon DNA)",
+      "price": 19.90,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "type": "serum",
+      "l4_sentiment": {
+        "overall": 0.76,
+        "hydration": 0.93,
+        "skin_glow": 0.94,
+        "skin_texture": 0.88,
+        "skin_brightening": 0.90,
+        "lightweight_absorption": 0.85,
+        "value_for_money": 0.82
+      },
+      "l5_issues": {
+        "stickiness_texture": { "frequency": "12%", "severity": "low" },
+        "no_visible_effect": { "frequency": "7%", "severity": "medium" },
+        "skin_reaction": { "frequency": "6%", "severity": "high" },
+        "small_bottle_size": { "frequency": "4%", "severity": "low" },
+        "pore_clogging": { "frequency": "2%", "severity": "medium" }
+      },
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "7%",
+          "details": "使用一個月以上仍無效果"
+        },
+        "creates_new_problem": {
+          "rate": "8%",
+          "details": "6% 嚴重過敏反應（紅腫水泡）+ 2% 堵塞毛孔"
+        },
+        "unrelated_to_product": {
+          "rate": "4%",
+          "details": "瓶身偏小、容量不足"
+        }
+      }
+    },
+    {
+      "product_id": "B09V7Z4TJG",
+      "name": "medicube Zero Pore Pad 2.0 (AHA/BHA)",
+      "price": 5.48,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "type": "exfoliating_pad",
+      "l4_sentiment": {
+        "overall": 0.62,
+        "pore_reduction": 0.75,
+        "effectiveness": 0.55,
+        "texture_smoothness": 0.68,
+        "value_for_money": 0.80,
+        "sticky_residue": -0.85,
+        "skin_reactions": -0.70
+      },
+      "l5_issues": {
+        "sticky_residue": { "frequency": "42%", "severity": "moderate" },
+        "severe_skin_reactions": { "frequency": "15%", "severity": "critical" },
+        "induced_breakouts": { "frequency": "12%", "severity": "high" },
+        "no_visible_results": { "frequency": "18%", "severity": "moderate" },
+        "over_exfoliation": { "frequency": "12%", "severity": "moderate" }
+      },
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "18%",
+          "details": "使用數週至數月未見任何效果"
+        },
+        "creates_new_problem": {
+          "rate": "39%",
+          "details": "15% 嚴重皮膚反應 + 12% 誘發痘痘 + 12% 過度去角質"
+        },
+        "unrelated_to_product": {
+          "rate": "1%",
+          "details": "收到開封/缺少產品的包裝"
+        }
+      }
+    },
+    {
+      "product_id": "B081KL2QYJ",
+      "name": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash",
+      "price": 19.99,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "type": "cleanser",
+      "l4_sentiment": {
+        "overall": 0.74,
+        "effectiveness": 0.82,
+        "body_acne": 0.91,
+        "speed_of_results": 0.88,
+        "value_for_money": 0.92,
+        "skin_feel": 0.45
+      },
+      "l5_issues": {
+        "severe_skin_reactions": { "frequency": "8%", "severity": "high" },
+        "chemical_burns_overdrying": { "frequency": "10%", "severity": "high" },
+        "bleaching_effect": { "frequency": "8%", "severity": "medium" },
+        "ineffectiveness_dry_skin": { "frequency": "5%", "severity": "medium" }
+      },
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "5%",
+          "details": "乾性/敏感肌膚使用者無效"
+        },
+        "creates_new_problem": {
+          "rate": "26%",
+          "details": "8% 嚴重過敏 + 10% 化學灼傷/過度乾燥 + 8% 漂白衣物"
+        },
+        "unrelated_to_product": {
+          "rate": "2%",
+          "details": "包裝破損等物流問題"
+        }
+      }
+    },
+    {
+      "product_id": "B0B8DXN3K2",
+      "name": "DKBslik Silk Pillowcase (Anti Acne)",
+      "price": 34.99,
+      "avg_rating": 4.55,
+      "reviews_analyzed": 100,
+      "type": "pillowcase",
+      "l4_sentiment": {
+        "overall": 0.52,
+        "hair_protection": 0.92,
+        "softness": 0.88,
+        "cooling_comfort": 0.85,
+        "material_authenticity": 0.25,
+        "durability": 0.28,
+        "skin_benefit": 0.78
+      },
+      "l5_issues": {
+        "not_real_silk": { "frequency": "18%", "severity": "high" },
+        "poor_durability": { "frequency": "16%", "severity": "high" },
+        "dye_bleeding": { "frequency": "7%", "severity": "medium" },
+        "skin_rash": { "frequency": "2%", "severity": "medium" }
+      },
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "18%",
+          "details": "材質非真蠶絲，痘痘治療聲明不成立"
+        },
+        "creates_new_problem": {
+          "rate": "25%",
+          "details": "16% 極差耐用性 + 7% 掉色沾染 + 2% 皮疹"
+        },
+        "unrelated_to_product": {
+          "rate": "0%",
+          "details": "無"
+        }
+      }
+    }
+  ],
+  "ranking": {
+    "overall_effectiveness": [
+      { "rank": 1, "product_id": "B074PVTPBW", "score": 0.82, "reason": "對白頭痘痘最有效（85%+ 成功率），副作用最低，速效性最佳" },
+      { "rank": 2, "product_id": "B081KL2QYJ", "score": 0.74, "reason": "對身體痘痘（胸/背）和囊腫型痘痘最有效，但副作用較高" },
+      { "rank": 3, "product_id": "B01MDTVZTZ", "score": 0.78, "reason": "控油和膚質改善極佳，CP 值最高，但非直接治療痘痘" },
+      { "rank": 4, "product_id": "B0DBF65JYY", "score": 0.76, "reason": "保濕光澤效果突出，但痘痘治療非其主要功能" },
+      { "rank": 5, "product_id": "B09V7Z4TJG", "score": 0.62, "reason": "毛孔縮小有效但安全性堪憂（15% 嚴重反應），黏膩問題嚴重" },
+      { "rank": 6, "product_id": "B0B8DXN3K2", "score": 0.52, "reason": "材質真實性存疑，痘痘治療功效無法驗證，耐用性極差" }
+    ],
+    "safety": [
+      { "rank": 1, "product_id": "B074PVTPBW", "reason": "最安全，幾乎無副作用，僅物理貼附" },
+      { "rank": 2, "product_id": "B01MDTVZTZ", "reason": "副作用輕微（起屑、少數爆痘），整體安全" },
+      { "rank": 3, "product_id": "B0DBF65JYY", "reason": "6% 嚴重過敏反應，與『溫和低刺激』聲明矛盾" },
+      { "rank": 4, "product_id": "B081KL2QYJ", "reason": "18% 皮膚刺激/灼傷，需嚴格使用指導" },
+      { "rank": 5, "product_id": "B0B8DXN3K2", "reason": "材質疑慮（聚酯纖維冒充蠶絲）可能造成皮疹" },
+      { "rank": 6, "product_id": "B09V7Z4TJG", "reason": "15% 嚴重反應率最高，包括口周皮膚炎和皮膚屏障損傷" }
+    ],
+    "value_for_money": [
+      { "rank": 1, "product_id": "B01MDTVZTZ", "price": 5.97, "reason": "$5.97 即獲得 95% 正面評價的控油精華，性價比最高" },
+      { "rank": 2, "product_id": "B09V7Z4TJG", "price": 5.48, "reason": "$0.08/片極低價，但需適合油性肌膚才值得" },
+      { "rank": 3, "product_id": "B074PVTPBW", "price": 12.99, "reason": "效果可靠但單片成本偏高" },
+      { "rank": 4, "product_id": "B081KL2QYJ", "price": 19.99, "reason": "皮膚科等級產品，價格合理" },
+      { "rank": 5, "product_id": "B0DBF65JYY", "price": 19.90, "reason": "保濕效果好但痘痘治療功效有限" },
+      { "rank": 6, "product_id": "B0B8DXN3K2", "price": 34.99, "reason": "最貴且材質疑慮嚴重，CP 值最低" }
+    ]
+  },
+  "comparison_verdict": {
+    "best_for_whiteheads": "B074PVTPBW (Mighty Patch) — 82% 有效率，最安全，隔夜見效",
+    "best_for_body_acne": "B081KL2QYJ (PanOxyl) — 91% 正面評價用於胸背痘痘",
+    "best_for_oil_control": "B01MDTVZTZ (The Ordinary Niacinamide) — 92% 控油正面評價，$5.97 超高 CP 值",
+    "best_for_pore_care": "B09V7Z4TJG (medicube Pore Pad) — 75% 毛孔縮小效果，但需油性肌膚且注意安全性",
+    "best_for_hydration_glow": "B0DBF65JYY (medicube PDRN Serum) — 94% 光澤感，93% 保濕效果",
+    "not_recommended": "B0B8DXN3K2 (DKBslik Pillowcase) — 18% 使用者確認材質非真蠶絲，涉嫌虛假廣告"
+  },
+  "report_recommendation": {
+    "type": "comparison",
+    "reason": "多款產品各有所長，適合不同痘痘類型和需求，無單一產品能全面解決所有痘痘問題",
+    "warnings": [
+      {
+        "product_id": "B0B8DXN3K2",
+        "type": "product_integrity",
+        "reason": "材質真實性爭議（18% 確認非真蠶絲），痘痘治療聲明不成立"
+      },
+      {
+        "product_id": "B09V7Z4TJG",
+        "type": "safety_concern",
+        "reason": "15% 嚴重皮膚反應率，不適合敏感/乾性肌膚"
+      }
+    ]
+  },
+  "metadata": {
+    "generated_at": "2026-03-05",
+    "extraction_dates": {
+      "B074PVTPBW": "2026-02-20",
+      "B01MDTVZTZ": "2026-03-05",
+      "B0DBF65JYY": "2026-03-05",
+      "B0B8DXN3K2": "2026-03-05",
+      "B09V7Z4TJG": "2026-02-13",
+      "B081KL2QYJ": "2026-02-13"
+    },
+    "total_reviews": 600,
+    "confidence": "high"
+  }
+}

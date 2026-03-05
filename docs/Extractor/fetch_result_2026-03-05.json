@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-05",
+  "total_asins_attempted": 21,
+  "total_asins_scraped": 18,
+  "total_asins_extracted": 18,
+  "total_reviews": 1800,
+  "failed_asins": ["B0DZ254SSR", "B0GFZV1ZVV", "B0FR717633"],
+  "categories": {
+    "power-strip": {
+      "asins": ["B09PDLBFKY", "B08R6S1M1K", "B08P5LRY37", "B08MTBCXWX", "B0BLTYNJCK"],
+      "extracted": 5,
+      "reviews": 500
+    },
+    "trading-cards": {
+      "asins": ["B0829FT44S", "B0F77H6XC5", "B0G3CY83L5"],
+      "extracted": 3,
+      "reviews": 300
+    },
+    "acne-treatment": {
+      "asins": ["B01MDTVZTZ", "B0DBF65JYY", "B0B8DXN3K2"],
+      "extracted": 3,
+      "reviews": 300
+    },
+    "tv-remote-replacement": {
+      "asins": ["B09Z6Q2MLC", "B0B7B6KLH3", "B0CQF6T2K1", "B08PK7TBFD"],
+      "extracted": 4,
+      "reviews": 400
+    },
+    "squishy-toy": {
+      "asins": ["B0D9ZTW7PS", "B0DQNQ1ZVZ", "B0DV4BFJBY"],
+      "extracted": 3,
+      "reviews": 300
+    }
+  },
+  "review_needed": []
+}

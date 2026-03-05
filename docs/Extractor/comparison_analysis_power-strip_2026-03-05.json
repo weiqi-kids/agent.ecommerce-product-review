@@ -1,0 +1,151 @@
+{
+  "category": "power-strip",
+  "date": "2026-03-05",
+  "problem_statement": "電力延伸 + 突波保護：需要更多插座和 USB 充電端口，同時保護設備免受電壓突波損害",
+  "products_compared": [
+    {
+      "asin": "B09PDLBFKY",
+      "name": "YISHU 6 Ft Surge Protector Power Strip - 8 Outlets with 4 USB Ports",
+      "brand": "YISHU",
+      "price": 13.28,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "outlets": "8 AC + 4 USB (incl USB-C)",
+      "surge_joules": "Not specified (ETL certified)",
+      "cord_length": "6 ft",
+      "plug_type": "flat 45°",
+      "l4_weighted_sentiment": 0.74,
+      "top_strengths": ["outlet_capacity (0.89)", "flat_plug (0.93)", "space_saving (0.92)", "value_for_money (0.90)"],
+      "critical_issues": ["buzzing_noise (8%)", "premature_failure (7%)", "surge_trips_easily (5%)", "sparking (2%)"],
+      "safety_score": "medium",
+      "overall_rank": 2
+    },
+    {
+      "asin": "B08R6S1M1K",
+      "name": "QINLIANF Wall Charger Surge Protector - 5 Outlet Extender with 4 USB Ports",
+      "brand": "QINLIANF",
+      "price": 9.99,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 30,
+      "outlets": "5 AC + 4 USB (incl USB-C)",
+      "surge_joules": 1680,
+      "cord_length": "N/A (wall mount)",
+      "plug_type": "wall plug",
+      "l4_weighted_sentiment": 0.79,
+      "top_strengths": ["value_for_money (0.90)", "versatility (0.90)", "outlet_capacity (0.88)", "space_saving (0.88)"],
+      "critical_issues": ["usb_ports_malfunction (7%)", "falls_off_wall (3%)", "outlets_not_working (3%)"],
+      "safety_score": "medium-high",
+      "confidence": "medium (only 30 reviews)",
+      "overall_rank": 3
+    },
+    {
+      "asin": "B08P5LRY37",
+      "name": "ALESTOR Surge Protector Power Strip - 12 Outlets and 4 USB Ports",
+      "brand": "Alestor",
+      "price": 18.89,
+      "avg_rating": 4.85,
+      "reviews_analyzed": 100,
+      "outlets": "12 AC + 4 USB",
+      "surge_joules": 2700,
+      "cord_length": "6 ft",
+      "plug_type": "straight (not flat)",
+      "l4_weighted_sentiment": 0.78,
+      "top_strengths": ["outlet_capacity (0.92)", "value_for_money (0.91)", "wide_spacing (0.90)", "appearance (0.85)"],
+      "critical_issues": ["premature_failure (6%)", "sparking (3%)", "usb_port_issues (3%)", "misleading_description (2%)"],
+      "safety_score": "medium",
+      "overall_rank": 1
+    },
+    {
+      "asin": "B08MTBCXWX",
+      "name": "Yintar 6Ft Power Strip Surge Protector - 6 AC Outlets and 3 USB Ports",
+      "brand": "Yintar",
+      "price": 9.99,
+      "avg_rating": 4.75,
+      "reviews_analyzed": 100,
+      "outlets": "6 AC + 3 USB (incl USB-C)",
+      "surge_joules": 1680,
+      "cord_length": "6 ft (disputed, ~5.4 ft actual)",
+      "plug_type": "flat",
+      "l4_weighted_sentiment": 0.58,
+      "top_strengths": ["flat_plug (0.90)", "value_for_money (0.88)", "outlet_capacity (0.87)"],
+      "critical_issues": ["premature_failure (10%)", "misleading_cord_length (6%)", "thin_wire_gauge_18AWG (3%)", "smoking_burning (2%)"],
+      "safety_score": "low",
+      "overall_rank": 5
+    },
+    {
+      "asin": "B0BLTYNJCK",
+      "name": "TESSAN Surge Protector Power Strip - 8 Outlets with 3 USB, 5 Ft Flat Plug",
+      "brand": "TESSAN",
+      "price": 14.99,
+      "avg_rating": 4.85,
+      "reviews_analyzed": 100,
+      "outlets": "8 AC + 3 USB (incl USB-C)",
+      "surge_joules": 900,
+      "cord_length": "5 ft",
+      "plug_type": "flat 45° with flat cord",
+      "l4_weighted_sentiment": 0.72,
+      "top_strengths": ["flat_plug_design (0.95)", "space_saving (0.94)", "compact_design (0.92)", "versatility (0.90)"],
+      "critical_issues": ["electric_shock (4%)", "surge_trips_easily (5%)", "premature_failure (5%)", "sparking (2%)"],
+      "safety_score": "low",
+      "overall_rank": 4
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "description": "無法解決問題（核心功能失效）",
+      "instances": [
+        {"asin": "B08MTBCXWX", "issue": "premature_failure 10% — 最高故障率，部分產品數月內完全失效"},
+        {"asin": "B09PDLBFKY", "issue": "premature_failure 7% — 1-6 個月內失效"},
+        {"asin": "B08P5LRY37", "issue": "premature_failure 6% — 3 個月至 2 年內失效"},
+        {"asin": "B0BLTYNJCK", "issue": "premature_failure 5% — 10-15 個月失效，甚至無法承受單一小燈泡"},
+        {"asin": "B08MTBCXWX", "issue": "surge_protector_malfunction 3% — 突波保護觸發家用斷路器而非吸收突波"},
+        {"asin": "B0BLTYNJCK", "issue": "surge_trips_easily 5% — 900J 額定值過低，單一中等功率電器即觸發"}
+      ]
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "description": "產生新問題（副作用）",
+      "instances": [
+        {"asin": "B0BLTYNJCK", "issue": "electric_shock 4% — 多起用戶插拔設備時遭受電擊，嚴重安全問題", "severity": "critical"},
+        {"asin": "B08MTBCXWX", "issue": "smoking_burning 2% — USB-C 端口冒出黑煙，火災風險", "severity": "critical"},
+        {"asin": "B08P5LRY37", "issue": "sparking_on_plug_in 3% — 插入設備時產生火花，曾損壞連接設備", "severity": "critical"},
+        {"asin": "B09PDLBFKY", "issue": "sparking 2% — 插入設備時產生火花"},
+        {"asin": "B0BLTYNJCK", "issue": "sparking 2% — 充電手機和平板時產生火花，險些引發火災"},
+        {"asin": "B09PDLBFKY", "issue": "buzzing_noise 8% — 持續的高頻嗡嗡聲，多台設備均有此問題"},
+        {"asin": "B08MTBCXWX", "issue": "thin_wire_gauge 3% — 18 AWG 線材，額定僅 1250W/10A，超載風險"}
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "description": "與產品無關（物流/賣家問題）",
+      "instances": [
+        {"asin": "B09PDLBFKY", "issue": "used_or_refurbished_product 2% — 收到使用過的產品"},
+        {"asin": "B08P5LRY37", "issue": "used_product_received 2% — 收到已拆封、有刮痕的產品"},
+        {"asin": "B0BLTYNJCK", "issue": "used_product_received 2% — 收到髒污、有刮痕的二手品"}
+      ]
+    }
+  },
+  "best_product": {
+    "asin": "B08P5LRY37",
+    "name": "ALESTOR Surge Protector Power Strip - 12 Outlets and 4 USB Ports",
+    "reason": "最高突波保護規格（2700J，三級保護電路），最多插座數（12 AC），寬間距設計可容納大型變壓器，整體情感分數最高（outlet_capacity 0.92, value_for_money 0.91）。雖有 6% 過早故障率和 3% 火花問題，但在本類別中安全問題相對較少，且無電擊或冒煙等嚴重安全事件。性價比最佳（$18.89 / 12 插座 = $1.57/插座）。"
+  },
+  "report_type": "comparison",
+  "report_type_reason": "所有 5 款產品都能基本解決電力延伸問題，但各有不同缺陷。ALESTOR 在規格和突波保護上領先，但沒有任何產品在安全性上完全令人放心（全部都有過早故障和火花報告）。適合比較報告，讓消費者了解各產品的取捨。",
+  "key_findings": [
+    "所有 5 款延長線都存在「過早故障」問題（5-10%），這是整個低價延長線市場的共同痛點",
+    "安全隱患嚴重：TESSAN（B0BLTYNJCK）有 4% 電擊率，Yintar（B08MTBCXWX）有冒煙報告，ALESTOR（B08P5LRY37）有火花損壞設備案例",
+    "ALESTOR（B08P5LRY37）以 2700J 突波保護領先，是唯一提供「重型」等級保護的產品；TESSAN 僅 900J，明顯不足",
+    "Yintar（B08MTBCXWX）整體表現最差：10% 故障率、虛報線長（6ft 實際僅 5.4ft）、18 AWG 細線材、USB-C 冒煙",
+    "TESSAN（B0BLTYNJCK）設計最佳（0.15 吋超薄扁線、95% 好評），但安全性堪憂（電擊 + 火花 + 900J 低保護）",
+    "QINLIANF（B08R6S1M1K）壁掛設計獨特，但僅 30 則評論，信心度較低，且有插座脫落風險",
+    "所有產品都有「收到二手品」的報告（2%），顯示供應鏈管理問題普遍"
+  ],
+  "cross_platform_data": {
+    "available": false,
+    "note": "本次僅有 Amazon 單一平台資料，無 Best Buy 或其他平台交叉驗證"
+  },
+  "confidence": "high",
+  "confidence_note": "4/5 產品有 100 則評論分析，資料量充足。QINLIANF 僅 30 則，信心度較低。"
+}

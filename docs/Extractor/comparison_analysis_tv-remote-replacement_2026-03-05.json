@@ -1,0 +1,165 @@
+{
+  "category": "tv-remote-replacement",
+  "date": "2026-03-05",
+  "products_analyzed": 4,
+  "reviews_total": 400,
+  "sources": ["amazon_us"],
+
+  "products": [
+    {
+      "product_id": "B0CQF6T2K1",
+      "name": "Roku TV Remote Control (Official)",
+      "brand": "Roku",
+      "price_usd": 9.48,
+      "avg_rating": 4.65,
+      "reviews_analyzed": 100,
+      "target_tv": "Roku TV",
+      "type": "official_replacement",
+      "overall_sentiment_score": 0.78,
+      "top_strengths": ["ease_of_setup (0.94)", "official_brand_quality (0.88)", "batteries_included (0.90)"],
+      "top_weaknesses": ["poor_ir_range_precision (0.35)", "volume_button_issues (4%)"],
+      "total_negative_rate": 0.17
+    },
+    {
+      "product_id": "B09Z6Q2MLC",
+      "name": "Acoyer Replacement Remote for Roku TV (2-Pack)",
+      "brand": "Acoyer",
+      "price_usd": 9.98,
+      "avg_rating": 4.55,
+      "reviews_analyzed": 100,
+      "target_tv": "Roku TV",
+      "type": "third_party_replacement",
+      "overall_sentiment_score": 0.73,
+      "top_strengths": ["ease_of_setup (0.92)", "two_pack_value (0.95)", "value_for_money (0.93)"],
+      "top_weaknesses": ["button_quality (0.35)", "stops_working_after_months (5%)", "buttons_break_easily (8%)"],
+      "total_negative_rate": 0.26
+    },
+    {
+      "product_id": "B0B7B6KLH3",
+      "name": "LOUTOC Universal Remote for Samsung TV (2-Pack)",
+      "brand": "LOUTOC",
+      "price_usd": 9.97,
+      "avg_rating": 4.55,
+      "reviews_analyzed": 100,
+      "target_tv": "Samsung TV",
+      "type": "third_party_replacement",
+      "overall_sentiment_score": 0.70,
+      "top_strengths": ["ease_of_setup (0.93)", "value_for_money (0.92)"],
+      "top_weaknesses": ["button_quality (0.38)", "buttons_stop_working (7%)", "poor_ergonomics (5%)"],
+      "total_negative_rate": 0.26
+    },
+    {
+      "product_id": "B08PK7TBFD",
+      "name": "OMAIC Universal Remote for VIZIO Smart TV",
+      "brand": "OMAIC",
+      "price_usd": 8.97,
+      "avg_rating": 4.45,
+      "reviews_analyzed": 100,
+      "target_tv": "VIZIO TV",
+      "type": "third_party_replacement",
+      "overall_sentiment_score": 0.60,
+      "top_strengths": ["ease_of_setup (0.90)", "value_for_money (0.88)"],
+      "top_weaknesses": ["buttons_unresponsive (0.40, 12%)", "build_quality (0.35, 9%)", "incompatible (10%)"],
+      "total_negative_rate": 0.36
+    }
+  ],
+
+  "negative_review_classification": {
+    "description": "負評三分類統計（基於 400 則評論）",
+    "cannot_solve_problem": {
+      "symbol": "❌",
+      "label": "無法解決問題（功能失效）",
+      "total_mentions": 35,
+      "rate": "8.75%",
+      "details": [
+        {"issue": "incompatible_with_tv", "count": 25, "products": "all four"},
+        {"issue": "buttons_completely_dead", "count": 10, "products": "B08PK7TBFD, B09Z6Q2MLC"}
+      ]
+    },
+    "creates_new_problems": {
+      "symbol": "⚠️",
+      "label": "產生新問題（副作用）",
+      "total_mentions": 42,
+      "rate": "10.5%",
+      "details": [
+        {"issue": "buttons_break_or_stop_working", "count": 24, "products": "all four"},
+        {"issue": "poor_ir_range_must_aim_precisely", "count": 14, "products": "B0CQF6T2K1, B08PK7TBFD"},
+        {"issue": "poor_ergonomics_tiny_buttons", "count": 4, "products": "B0B7B6KLH3"}
+      ]
+    },
+    "unrelated_to_product": {
+      "symbol": "📦",
+      "label": "與產品無關（物流/誤購）",
+      "total_mentions": 22,
+      "rate": "5.5%",
+      "details": [
+        {"issue": "bought_wrong_type_stick_vs_tv", "count": 12, "products": "B0CQF6T2K1, B09Z6Q2MLC"},
+        {"issue": "product_differs_from_listing_image", "count": 7, "products": "B08PK7TBFD, B0CQF6T2K1"},
+        {"issue": "batteries_not_included_surprise", "count": 3, "products": "B09Z6Q2MLC, B0B7B6KLH3"}
+      ]
+    }
+  },
+
+  "cross_product_comparison": {
+    "ease_of_setup": {
+      "winner": "B0CQF6T2K1 (Roku Official)",
+      "scores": {"B0CQF6T2K1": 0.94, "B0B7B6KLH3": 0.93, "B09Z6Q2MLC": 0.92, "B08PK7TBFD": 0.90},
+      "note": "所有產品在設定便利性上表現均佳，差異極小"
+    },
+    "compatibility_reliability": {
+      "winner": "B0B7B6KLH3 (LOUTOC Samsung)",
+      "scores": {"B0B7B6KLH3": 0.75, "B09Z6Q2MLC": 0.72, "B0CQF6T2K1": 0.72, "B08PK7TBFD": 0.68},
+      "note": "所有產品都有 8-10% 的不相容回報率，OMAIC 最差"
+    },
+    "durability": {
+      "winner": "B0CQF6T2K1 (Roku Official)",
+      "scores": {"B0CQF6T2K1": 0.72, "B0B7B6KLH3": 0.44, "B09Z6Q2MLC": 0.43, "B08PK7TBFD": 0.38},
+      "note": "Roku 官方遙控器耐用性明顯優於三個第三方品牌"
+    },
+    "value_for_money": {
+      "winner": "B09Z6Q2MLC (Acoyer 2-Pack)",
+      "scores": {"B09Z6Q2MLC": 0.94, "B0B7B6KLH3": 0.92, "B0CQF6T2K1": 0.90, "B08PK7TBFD": 0.88},
+      "note": "Acoyer 兩入裝性價比最高；Roku 官方雖單支但附電池"
+    }
+  },
+
+  "reliability_ranking": [
+    {
+      "rank": 1,
+      "product_id": "B0CQF6T2K1",
+      "name": "Roku TV Remote Control (Official)",
+      "reliability_score": 0.78,
+      "reason": "官方產品，最高設定成功率(94%)，耐用性最佳，附電池。IR 範圍是主要弱點但不影響核心功能。僅適用 Roku TV。"
+    },
+    {
+      "rank": 2,
+      "product_id": "B09Z6Q2MLC",
+      "name": "Acoyer Replacement Remote for Roku TV (2-Pack)",
+      "reliability_score": 0.73,
+      "reason": "兩入裝價值極高，設定簡單。按鍵耐久性是主要風險(8%損壞率)，但備用遙控器可緩解此問題。僅適用 Roku TV。"
+    },
+    {
+      "rank": 3,
+      "product_id": "B0B7B6KLH3",
+      "name": "LOUTOC Universal Remote for Samsung TV (2-Pack)",
+      "reliability_score": 0.70,
+      "reason": "Samsung TV 使用者的合理選擇，兩入裝有備用價值。按鍵壽命約一年，人體工學不佳是額外扣分項。僅適用 Samsung TV。"
+    },
+    {
+      "rank": 4,
+      "product_id": "B08PK7TBFD",
+      "name": "OMAIC Universal Remote for VIZIO Smart TV",
+      "reliability_score": 0.60,
+      "reason": "問題最多：12% 按鍵反應不靈、10% 不相容、9% 短壽命。三項宣稱被評論直接反駁。價格最低但品質風險最高。"
+    }
+  ],
+
+  "overall_verdict": {
+    "can_solve_problem": true,
+    "verdict": "comparison",
+    "summary": "電視遙控器替換類別中，所有產品都能解決基本問題（替換遺失/損壞的遙控器），但品質差異顯著。Roku 官方遙控器(B0CQF6T2K1)在耐用性和可靠性上領先，但僅適用 Roku TV。第三方品牌共同問題是按鍵耐久性差(7-12%)和部分型號不相容(8-10%)。OMAIC(B08PK7TBFD)問題最嚴重，三項關鍵宣稱被評論反駁。",
+    "recommendation_type": "comparison_report",
+    "key_insight": "這些產品針對不同電視品牌，無法直接互相替代。在各自的目標品牌內：Roku 用戶首選官方遙控器(B0CQF6T2K1)；若需備用則 Acoyer 兩入裝(B09Z6Q2MLC)更划算。Samsung 用戶的 LOUTOC(B0B7B6KLH3)是合理選擇。VIZIO 用戶應避免 OMAIC(B08PK7TBFD)，建議考慮其他品牌替代品。",
+    "competitor_context": "評測文章推薦 SofaBaton U2($69.99) 為通用遙控器首選，適合擁有多台設備的使用者；GE Rechargeable($20.12) 為中階選擇。若使用者需要跨品牌通用控制，這些產品值得考慮。"
+  }
+}

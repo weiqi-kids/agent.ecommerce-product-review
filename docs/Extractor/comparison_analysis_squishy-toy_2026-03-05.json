@@ -1,0 +1,366 @@
+{
+  "category": "squishy-toy",
+  "date": "2026-03-05",
+  "products_analyzed": [
+    {
+      "product_id": "B0D9ZTW7PS",
+      "name": "Schylling NeeDoh Nice Ice Baby (Teenie 1\" Cube)",
+      "brand": "Schylling",
+      "price": 7.89,
+      "avg_rating": 4.15,
+      "reviews_analyzed": 100,
+      "confidence": "high",
+      "is_new": true,
+      "key_issues": {
+        "bursting_leaking": "32%",
+        "smaller_than_expected": "18%",
+        "strong_chemical_smell": "12%",
+        "overpriced": "10%",
+        "wrong_color_received": "6%",
+        "becomes_cloudy": "5%",
+        "burn_hazard_microwave": "1%"
+      },
+      "l4_scores": {
+        "squish_texture": 0.82,
+        "stress_relief": 0.90,
+        "portability": 0.85,
+        "durability": 0.22,
+        "size_accuracy": 0.25,
+        "chemical_smell": 0.08,
+        "value_for_money": 0.28
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0DQNQ1ZVZ",
+      "name": "Schylling NeeDoh Nice Cube 2.25\"",
+      "brand": "Schylling",
+      "price": 25.00,
+      "avg_rating": 4.35,
+      "reviews_analyzed": 100,
+      "confidence": "high",
+      "is_new": true,
+      "key_issues": {
+        "bursting_leaking": "34%",
+        "plug_seal_failure": "14%",
+        "received_damaged_used": "10%",
+        "inconsistent_firmness": "8%",
+        "chemical_odor": "8%",
+        "overpriced_vs_retail": "8%",
+        "air_bubbles_cloudiness": "7%"
+      },
+      "l4_scores": {
+        "squish_texture": 0.78,
+        "stress_relief": 0.92,
+        "sensory_benefit": 0.95,
+        "durability": 0.28,
+        "chemical_smell": 0.05,
+        "value_for_money": 0.25,
+        "packaging_condition": 0.20
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0DV4BFJBY",
+      "name": "Schylling NeeDoh Nice Cube Glow 2.25\"",
+      "brand": "Schylling",
+      "price": 17.99,
+      "avg_rating": 4.55,
+      "reviews_analyzed": 100,
+      "confidence": "high",
+      "is_new": true,
+      "key_issues": {
+        "glow_not_working": "19%",
+        "bursting_leaking": "18%",
+        "inconsistent_firmness": "8%",
+        "plug_seal_failure": "6%",
+        "arrived_damaged": "5%",
+        "sticky_residue": "4%"
+      },
+      "l4_scores": {
+        "squish_texture": 0.85,
+        "stress_relief": 0.93,
+        "sensory_benefit": 0.95,
+        "glow_function": 0.22,
+        "durability": 0.48,
+        "chemical_smell": 0.20
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0D9M7ST5H",
+      "name": "Schylling NeeDoh Rainboh Teenie (6 Pack)",
+      "brand": "Schylling",
+      "price": 12.94,
+      "avg_rating": 4.25,
+      "reviews_analyzed": 50,
+      "confidence": "high",
+      "is_new": false,
+      "key_issues": {
+        "ball_popping_bursting": "56%",
+        "short_lifespan": "36%",
+        "safety_explosion_eye_hazard": "8%",
+        "stickiness_dust_collection": "12%",
+        "mold_contamination": "2%"
+      },
+      "l4_scores": {
+        "sensory_relief": 0.85,
+        "squeeze_feel": 0.75,
+        "durability": 0.15,
+        "safety": 0.05
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0B2HN96TZ",
+      "name": "Schylling NeeDoh Gummy Bear",
+      "brand": "Schylling",
+      "price": 29.99,
+      "avg_rating": 4.35,
+      "reviews_analyzed": 50,
+      "confidence": "high",
+      "is_new": false,
+      "key_issues": {
+        "bursting_leaking": "40%",
+        "watery_consistency_not_as_expected": "24%",
+        "no_color_choice": "10%",
+        "size_smaller_than_expected": "8%",
+        "received_damaged_or_used": "4%"
+      },
+      "l4_scores": {
+        "stress_relief_sensory": 0.80,
+        "cuteness_appearance": 0.90,
+        "durability_leakage": 0.15,
+        "value_for_money": 0.30
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0DJ3PQWDD",
+      "name": "Schylling NeeDoh Gumdrop Textured (3 Pack)",
+      "brand": "Schylling",
+      "price": 44.00,
+      "avg_rating": 4.55,
+      "reviews_analyzed": 50,
+      "confidence": "medium",
+      "is_new": false,
+      "key_issues": {
+        "bottom_seal_failure": "28%",
+        "short_lifespan": "14%",
+        "color_not_as_expected": "16%",
+        "sticky_leaking_filling": "8%",
+        "too_firm_initially": "12%"
+      },
+      "l4_scores": {
+        "stress_relief": 0.88,
+        "texture": 0.78,
+        "durability": 0.30,
+        "bottom_seal": 0.12
+      },
+      "review_needed": false
+    },
+    {
+      "product_id": "B0G22BHS13",
+      "name": "Toymendous Squishy Carrot (Jumbo 11.5 Inch)",
+      "brand": "Sunny Days Entertainment",
+      "price": 9.99,
+      "avg_rating": 3.65,
+      "reviews_analyzed": 3,
+      "confidence": "low",
+      "is_new": false,
+      "key_issues": {
+        "tears_breaks_easily": "33%"
+      },
+      "l4_scores": {
+        "squishiness": 0.85,
+        "durability": 0.15
+      },
+      "review_needed": true,
+      "review_needed_reason": "僅 3 則評論，樣本不足，結果不具統計意義"
+    }
+  ],
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "count_estimate": 128,
+      "percentage": "~38%",
+      "description": "無法解決問題（核心功能失效）",
+      "examples": [
+        "球體/方塊在數分鐘至數小時內破裂，無法持續使用（B0D9M7ST5H：56%、B0B2HN96TZ：40%、B0DQNQ1ZVZ：34%、B0D9ZTW7PS：32%）",
+        "底部封口/塞子失效導致產品損毀（B0DJ3PQWDD：28%、B0DQNQ1ZVZ：14%、B0DV4BFJBY：6%）",
+        "Gummy Bear 液狀填充物與宣稱落差（B0B2HN96TZ：24%）",
+        "Glow 版核心賣點「夜光」不發光（B0DV4BFJBY：19%）",
+        "壽命過短（多款：14-36%），無法作為長期紓壓工具"
+      ]
+    },
+    "new_problems_created": {
+      "count_estimate": 58,
+      "percentage": "~17%",
+      "description": "產生新問題（副作用、延伸問題）",
+      "examples": [
+        "強烈化學氣味，有導致兒童身體不適的報告（B0D9ZTW7PS：12%、B0DQNQ1ZVZ：8%）",
+        "爆炸噴射內容物入眼，含兒童受傷案例（B0D9M7ST5H：8%）",
+        "破裂後凝膠極度黏稠如強力膠，難以清理（B0DV4BFJBY、B0DQNQ1ZVZ 多則報告）",
+        "表面黏性吸附灰塵毛髮，衛生問題（B0D9M7ST5H：12%）",
+        "內部發霉（B0D9M7ST5H：2%，健康風險）",
+        "微波爐加熱導致嚴重燒傷（B0D9ZTW7PS：1%，孫女燒傷案例）",
+        "Consumer Reports 驗證：部分 NeeDoh 產品 pH 2，化學灼傷風險"
+      ]
+    },
+    "unrelated_to_product": {
+      "count_estimate": 28,
+      "percentage": "~8%",
+      "description": "與產品無關（物流、賣家問題）",
+      "examples": [
+        "收到疑似退貨或已使用的產品（B0DQNQ1ZVZ：10%、B0B2HN96TZ：4%）",
+        "顏色隨機發貨或與訂購不符（B0D9ZTW7PS：6%、B0B2HN96TZ：10%）",
+        "包裝缺件或損壞（B0D9M7ST5H：4%）",
+        "配送延遲（B0D9ZTW7PS：7%、B0DJ3PQWDD 少數）",
+        "Amazon 售價遠高於實體店（B0DQNQ1ZVZ：8%、B0D9ZTW7PS：10%）"
+      ]
+    },
+    "summary": {
+      "total_negative_proportion": "~63%（6 款高/中信心樣本加權平均）",
+      "most_critical": "cannot_solve_problem（核心耐用性系統性失效，跨 6 款 NeeDoh 產品一致）",
+      "safety_concern": "critical（化學氣味致病、眼部爆炸傷害、微波燒傷、pH 2 化學灼傷、內部發霉）"
+    }
+  },
+  "safety_analysis": {
+    "severity": "critical",
+    "issues": [
+      {
+        "type": "chemical_exposure",
+        "affected_products": ["B0D9ZTW7PS", "B0DQNQ1ZVZ", "B0DV4BFJBY", "B0DJ3PQWDD"],
+        "frequency_range": "4-12%",
+        "description": "強烈化學氣味，有報告導致兒童身體不適。B0D9ZTW7PS 有使用者明確表示「MADE ME AND MY CHILD SICK」。外部研究（丹麥 EPA）證實 100% squishies 排放有毒化學物質（DMF、甲苯、二甲苯）",
+        "children_impact": "high"
+      },
+      {
+        "type": "burst_explosion",
+        "affected_products": ["B0D9M7ST5H", "B0D9ZTW7PS", "B0DQNQ1ZVZ", "B0DV4BFJBY", "B0B2HN96TZ", "B0DJ3PQWDD"],
+        "frequency_range": "18-56%",
+        "description": "所有產品均有破裂報告，內容物噴射可造成眼部傷害。B0D9M7ST5H 有 7 歲兒童眼部受傷的具體案例",
+        "children_impact": "critical"
+      },
+      {
+        "type": "burn_hazard",
+        "affected_products": ["B0D9ZTW7PS"],
+        "frequency_range": "1%",
+        "description": "微波爐加熱後導致嚴重燒傷，一位祖母報告孫女被嚴重燒傷",
+        "children_impact": "critical"
+      },
+      {
+        "type": "mold_contamination",
+        "affected_products": ["B0D9M7ST5H"],
+        "frequency_range": "2%",
+        "description": "球體內部發現黑棕色霉菌，密封環境中的生物污染風險",
+        "children_impact": "high"
+      },
+      {
+        "type": "chemical_burn_risk",
+        "affected_products": "NeeDoh 系列（品牌層面）",
+        "frequency_range": "外部研究",
+        "description": "Consumer Reports 測試顯示部分 NeeDoh 產品 pH 值為 2（強酸性），長時間皮膚接觸有化學灼傷風險",
+        "children_impact": "critical"
+      }
+    ],
+    "age_rating_contradiction": "所有產品標示 Ages 3+，但化學氣味致病（12%）、爆炸噴射（8%）、微波燒傷（1%）、pH 2 化學灼傷風險均與幼童安全建議嚴重矛盾"
+  },
+  "cross_product_patterns": {
+    "brand_concentration": "6/7 分析產品為 Schylling NeeDoh 品牌，顯示品牌層面的系統性品質控制問題",
+    "common_failure_mode": "液態/凝膠填充物的容器完整性失敗（bursting/seal failure），跨所有 NeeDoh 款型一致存在",
+    "bursting_rate_comparison": {
+      "B0D9M7ST5H_Rainboh_Teenie": "56%",
+      "B0B2HN96TZ_Gummy_Bear": "40%",
+      "B0DQNQ1ZVZ_Nice_Cube": "34%",
+      "B0D9ZTW7PS_Nice_Ice_Baby": "32%",
+      "B0DJ3PQWDD_Gumdrop": "28%",
+      "B0DV4BFJBY_Glow_Cube": "18%",
+      "weighted_average": "33.5%"
+    },
+    "positive_consensus": "短期觸感和感官滿足感跨所有產品一致好評（sensory/stress_relief scores 0.80-0.95），但無法轉化為實際效用（壽命過短）",
+    "safety_escalation": "新增 3 款產品進一步強化安全疑慮：化學氣味致病（B0D9ZTW7PS）、微波燒傷（B0D9ZTW7PS）、強黏性凝膠洩漏如強力膠（B0DV4BFJBY）",
+    "price_value_disconnect": "價格 $7.89-$44.00 區間，但壽命普遍 < 1 週。以每日使用成本計算，所有產品 CP 值極低",
+    "glow_feature_failure": "B0DV4BFJBY 的核心差異化賣點（夜光）有 19% 失效率，產品定位與實際功能不符"
+  },
+  "competitor_comparison": {
+    "competitors_reviewed": [
+      {
+        "name": "Tangle Therapy",
+        "durability": "高（可拆裝數百次）",
+        "research_support": "有同行評審支持",
+        "safety": "安全（無爆裂風險）",
+        "ot_recommended": true
+      },
+      {
+        "name": "Crazy Aaron's Thinking Putty",
+        "durability": "中高（約 1 年）",
+        "research_support": "部分（OT 常用）",
+        "safety": "安全（無 BPA、乳膠、麩質）",
+        "ot_recommended": true
+      },
+      {
+        "name": "Tom's Fidgets Flippy Chain",
+        "durability": "高（不鏽鋼結構）",
+        "research_support": "有（教師推薦）",
+        "safety": "安全（無爆裂風險）",
+        "ot_recommended": true
+      },
+      {
+        "name": "Weighted Sensory Balls",
+        "durability": "高",
+        "research_support": "有（職能治療標準工具）",
+        "safety": "高（醫療級矽膠）",
+        "ot_recommended": true
+      }
+    ],
+    "vs_competitor_verdict": "新增 3 款 NeeDoh 產品（300 則評論）進一步確認原結論：所有 NeeDoh 液態/凝膠填充型產品在耐用性（18-56% 爆裂率）和安全性（化學、燒傷、爆炸）方面，相比 Tangle Therapy、Thinking Putty 等固態替代品全面劣勢。NeeDoh Glow 版最低爆裂率（18%）但核心賣點失效（19% 不發光）。"
+  },
+  "verdict": "pain_point",
+  "verdict_reason": "新增 3 款 NeeDoh 產品（B0D9ZTW7PS、B0DQNQ1ZVZ、B0DV4BFJBY，共 300 則評論）全面強化並確認 2026-03-01 痛點分析結論。現有 7 款產品（453 則評論，其中 450 則高信心）顯示：(1) 加權平均爆裂率 33.5%，跨所有款型一致存在；(2) 安全問題升級——新增微波燒傷案例和化學氣味致病報告；(3) Glow 版核心賣點（夜光）19% 失效；(4) 所有產品觸感好評（0.75-0.95）但壽命過短（多數 < 1 週），「開箱滿意、快速失望」模式跨 6 款 NeeDoh 產品完全一致。整個液態/凝膠填充型 squishy toy 細分市場存在結構性品質與安全危機。",
+  "confidence": "high",
+  "confidence_rationale": "7 款產品共 453 則評論（450 則高信心），6 款 NeeDoh 品牌產品問題模式高度一致。新增 300 則評論（3 款各 100 則）大幅增加統計可信度。外部研究（Consumer Reports、丹麥 EPA）持續佐證安全風險。B0G22BHS13 仍 [REVIEW_NEEDED]（3 則），排除於核心分析。",
+  "key_findings": [
+    {
+      "finding": "系統性耐用性失敗確認：6 款 NeeDoh 產品加權平均爆裂率 33.5%（範圍 18-56%），新增 3 款（32%、34%、18%）完全吻合既有模式",
+      "severity": "critical",
+      "implication": "品牌層面的製造品質問題，非個別產品瑕疵"
+    },
+    {
+      "finding": "安全問題升級：新增微波燒傷（孫女嚴重燒傷）、化學氣味致病（兒童不適）、凝膠如強力膠般黏附等新型態安全事件",
+      "severity": "critical",
+      "implication": "安全風險種類持續擴大，超出原分析範圍"
+    },
+    {
+      "finding": "Nice Cube Glow（B0DV4BFJBY）爆裂率最低（18%）但核心賣點「夜光」功能 19% 失效，形成獨特的「功能缺失」問題",
+      "severity": "high",
+      "implication": "即使耐用性稍佳的款型，仍有嚴重功能性問題"
+    },
+    {
+      "finding": "密封塞（plug seal）是跨款型一致的結構性故障點：B0DQNQ1ZVZ 14%、B0DV4BFJBY 6%、B0DJ3PQWDD 28%",
+      "severity": "high",
+      "implication": "製造工藝中的注入口密封技術是根本原因"
+    },
+    {
+      "finding": "Amazon 溢價嚴重：多位使用者指出實體店（Walgreens $2.99）價格僅為 Amazon 的 1/3 至 1/4",
+      "severity": "medium",
+      "implication": "Amazon 通路的第三方賣家溢價加劇消費者不滿"
+    },
+    {
+      "finding": "感官/紓壓效果跨產品一致好評（sensory_benefit 0.85-0.95），證實產品概念有效但執行失敗",
+      "severity": "medium",
+      "implication": "市場需求真實存在，但 NeeDoh 品牌無法可靠滿足"
+    }
+  ],
+  "report_type_recommendation": "pain_point",
+  "report_path_suggestion": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-05.md",
+  "update_note": "此分析為 2026-03-01 版本的增量更新。新增 3 款產品（B0D9ZTW7PS、B0DQNQ1ZVZ、B0DV4BFJBY）各 100 則評論，總分析規模從 153 → 453 則。核心 verdict 維持 pain_point，安全嚴重度從 high 升級至 critical（新增微波燒傷案例）。",
+  "generated_at": "2026-03-05",
+  "source_reviews_total": 453,
+  "source_reviews_high_confidence": 450,
+  "external_research_sources": [
+    "Consumer Reports（pH 2 化學灼傷研究）",
+    "丹麥環保局（100% squishies 有毒化學排放）",
+    "CPSC 2026 磁鐵 fidget 召回",
+    "PMC 研究（fidgeting vs. commercial fidget devices 效果差異）"
+  ]
+}

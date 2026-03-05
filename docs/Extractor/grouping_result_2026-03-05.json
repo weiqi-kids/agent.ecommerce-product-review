@@ -1,0 +1,857 @@
+{
+  "date": "2026-03-05",
+  "discovery_total": 262,
+  "already_existing": 63,
+  "new_products": 199,
+  "skipped_digital": 2,
+  "skipped_asins": [
+    "B08JHCVHTY",
+    "B0FFF9656N"
+  ],
+  "into_existing_categories": {
+    "total": 112,
+    "categories": {
+      "kitchen-scale": [
+        "B0113UZJE2"
+      ],
+      "paper-towels": [
+        "B079VP6DH5",
+        "B0DF8RSVJK",
+        "B0DQYPYVB6",
+        "B09BWFX1L6",
+        "B09NW92T8Q"
+      ],
+      "oil-sprayer": [
+        "B0CP4XY9QC",
+        "B0CJF94M8J"
+      ],
+      "streaming-stick": [
+        "B0C6W3D4RM",
+        "B0DXXYS4BJ",
+        "B0BP9SNVH9",
+        "B0DXY833HV",
+        "B09BKCDXZC"
+      ],
+      "collectible-coins": [
+        "B0F291VCH4"
+      ],
+      "body-moisturizing": [
+        "B0107QPFBU",
+        "B0BT1WL6KY",
+        "B00MEDOY2G",
+        "B0BX2TZZWG"
+      ],
+      "sun-protection": [
+        "B002MSN3QQ"
+      ],
+      "acne-treatment": [
+        "B01MDTVZTZ",
+        "B0DBF65JYY",
+        "B0B8DXN3K2"
+      ],
+      "face-moisturizing": [
+        "B00SNPCSUY",
+        "B0CNCL35CH"
+      ],
+      "exfoliating-toner": [
+        "B00949CTQQ"
+      ],
+      "natural-deodorant": [
+        "B08WYXNVQ7"
+      ],
+      "makeup-removal": [
+        "B017PCGABI"
+      ],
+      "facial-cleanser": [
+        "B00QY1XZ4W"
+      ],
+      "cotton-swabs": [
+        "B01AXQP6AE"
+      ],
+      "tablet-computer": [
+        "B0DZ75TN5F"
+      ],
+      "power-strip": [
+        "B09PDLBFKY",
+        "B08R6S1M1K",
+        "B08P5LRY37",
+        "B0DZ254SSR",
+        "B08MTBCXWX",
+        "B0BLTYNJCK"
+      ],
+      "item-tracker": [
+        "B0D54JZTHY",
+        "B009108SGS"
+      ],
+      "wireless-earbuds": [
+        "B09DT48V16",
+        "B0BTYCRJSS",
+        "B0CXGXT6W8",
+        "B0CRTYZG5C",
+        "B0DD41G2NZ",
+        "B09FT58QQP",
+        "B09FLNSYDZ",
+        "B0C3W4MNN1"
+      ],
+      "noise-cancelling-headphone": [
+        "B0C3HCD34R",
+        "B0CZPLV566",
+        "B09LYF2ST7"
+      ],
+      "e-reader": [
+        "B0CFPJYX7P",
+        "B0CNV9F72P"
+      ],
+      "video-doorbell": [
+        "B0DGQVYW2K"
+      ],
+      "toilet-paper": [
+        "B095CN96JS",
+        "B0798DVT68",
+        "B0CM4NXMV2",
+        "B09YKYV9N9",
+        "B0CM5C15ZD"
+      ],
+      "flushable-wipes": [
+        "B010NE2XPC",
+        "B07ND3WR64",
+        "B095KCG1Q2"
+      ],
+      "laundry-stain": [
+        "B01EIG6A4Q",
+        "B0BJMV9BXJ"
+      ],
+      "aa-batteries": [
+        "B00LH3DMUO",
+        "B09RTVD1GF"
+      ],
+      "creatine-supplement": [
+        "B00GL2HMES",
+        "B07978VPPH"
+      ],
+      "probiotic-supplement": [
+        "B079H53D2B"
+      ],
+      "high-protein-snack": [
+        "B00DLDH1N2",
+        "B00GJ82VK4"
+      ],
+      "postpartum-incontinence": [
+        "B09556SRJH"
+      ],
+      "disposable-plates": [
+        "B074PY4Y8Y"
+      ],
+      "electrolyte-hydration": [
+        "B08XQZX9K3"
+      ],
+      "squishy-toy": [
+        "B0D9ZTW7PS",
+        "B0DQNQ1ZVZ",
+        "B0DV4BFJBY",
+        "B0DSVTXFNW",
+        "B0GQLK2QQD",
+        "B0GQH2H2QM",
+        "B0B2HN96TZ",
+        "B0F8LLT3JR",
+        "B0G36Z353F",
+        "B09LMBLYF1",
+        "B0BVNSDG2W"
+      ],
+      "party-balloon": [
+        "B0BZCHMVTK",
+        "B0BDQLJMFV",
+        "B0BJZRS4KR",
+        "B0B1B14DRT",
+        "B0BLVJV2YG",
+        "B09L7MDNH6",
+        "B0991XM8YL"
+      ],
+      "trading-cards": [
+        "B0GFZV1ZVV",
+        "B0829FT44S",
+        "B0FR717633",
+        "B0F77H6XC5",
+        "B0G3CY83L5"
+      ],
+      "playing-cards": [
+        "B09SDKSXLZ"
+      ],
+      "building-blocks": [
+        "B0DJ1B2RW6",
+        "B0FMYST4JS"
+      ],
+      "board-games": [
+        "B0DWGVM7RY"
+      ],
+      "art-supplies": [
+        "B09PGVGCH5",
+        "B098PMWSVS",
+        "B013RQPB5C",
+        "B0CTHQJF57",
+        "B084SKWCBS",
+        "B07D4T2XKB"
+      ],
+      "action-figure": [
+        "B07PQFT83F"
+      ],
+      "kids-bike": [
+        "B08SGH7NKX"
+      ],
+      "giant-teddy-bear": [
+        "B08FCRNDW9"
+      ],
+      "bath-toys": [
+        "B08X1YQ2N9",
+        "B0DGWPJ5MW"
+      ],
+      "pillow-case": [
+        "B0725WFLMB"
+      ],
+      "potting-soil": [
+        "B087F7GNFG"
+      ]
+    }
+  },
+  "new_categories": {
+    "total_categories": 59,
+    "total_products": 85,
+    "categories": {
+      "mens-basic-tshirt": {
+        "description": "男性基本款圓領T恤",
+        "products": [
+          {
+            "asin": "B07JDFPQTC",
+            "title": "Gildan Men's Crew T-Shirts, Multipack, Style G1100"
+          }
+        ]
+      },
+      "kids-casual-clogs": {
+        "description": "兒童休閒洞洞鞋",
+        "products": [
+          {
+            "asin": "B096423LXW",
+            "title": "Crocs Kid's Classic Clog"
+          }
+        ]
+      },
+      "facial-hair-removal": {
+        "description": "臉部除毛修容",
+        "products": [
+          {
+            "asin": "B08V3JGB1F",
+            "title": "Kitsch Dermaplane Razor for Women Face – Face Razors for Women & Men, Eye Brow R"
+          }
+        ]
+      },
+      "brow-pencil": {
+        "description": "眉筆眉毛塑形",
+        "products": [
+          {
+            "asin": "B00WAJAKOU",
+            "title": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Precise, Fine Tip, Shapes, Defines,"
+          }
+        ]
+      },
+      "muscle-soak": {
+        "description": "肌肉痠痛泡浴舒緩",
+        "products": [
+          {
+            "asin": "B0BXTS6L35",
+            "title": "Amazon Basics Epsom Salt Soak, Unscented, Magnesium Sulfate USP, Muscle and Feet"
+          }
+        ]
+      },
+      "eyeliner": {
+        "description": "防水眼線妝容",
+        "products": [
+          {
+            "asin": "B01J1A3TFW",
+            "title": "Revlon ColorStay Pencil Waterproof Eyeliner, Smudge-Proof, Eye Makeup with Built"
+          }
+        ]
+      },
+      "hair-ties": {
+        "description": "無痛髮圈綁髮",
+        "products": [
+          {
+            "asin": "B00IGJ1XOO",
+            "title": "Goody Ouchless Hair Elastics - No Pull, No Breakage, Tangle-Free Hold for Thick,"
+          }
+        ]
+      },
+      "lip-color": {
+        "description": "持久唇彩唇釉",
+        "products": [
+          {
+            "asin": "B0B9YHX8DX",
+            "title": "Wonderskin Wonder Blading All Day Lip Stain Peel Off Masque - Long Lasting, Wate"
+          }
+        ]
+      },
+      "dark-spot-treatment": {
+        "description": "暗沉色斑淡化",
+        "products": [
+          {
+            "asin": "B09MFMCTRK",
+            "title": "VALITIC Kojic Acid Dark Spot Remover Soap Bars with Vitamin C, Retinol, Collagen"
+          }
+        ]
+      },
+      "tv-remote-replacement": {
+        "description": "電視遙控器遺失替換",
+        "products": [
+          {
+            "asin": "B09Z6Q2MLC",
+            "title": "(Pack of 2) Replacement Remote Control Only for Roku TV, Compatible for TCL Roku"
+          },
+          {
+            "asin": "B0B7B6KLH3",
+            "title": "【Pack of 2】 New Universal Remote for All Samsung TV Remote, Replacement Compatib"
+          },
+          {
+            "asin": "B0CQF6T2K1",
+            "title": "Roku TV Remote Control (Official Manufacturer Product) - Simple Setup, & Pre-Set"
+          },
+          {
+            "asin": "B08PK7TBFD",
+            "title": "Universal for VIZIO Smart TV Remote Control Replacement XRT136"
+          }
+        ]
+      },
+      "smartwatch": {
+        "description": "智慧手錶健康追蹤",
+        "products": [
+          {
+            "asin": "B0FQF9ZX7P",
+            "title": "Apple Watch Series 11 [GPS 42mm] Smartwatch with Rose Gold Aluminum Case with Li"
+          }
+        ]
+      },
+      "instant-film": {
+        "description": "拍立得即時成像底片",
+        "products": [
+          {
+            "asin": "B00EB4ADQW",
+            "title": "FUJIFILM Instax Mini Instant Film Twin Pack (White), 20 Photos"
+          }
+        ]
+      },
+      "cable-management": {
+        "description": "線材整理收納",
+        "products": [
+          {
+            "asin": "B07FW3GTXB",
+            "title": "Alex Tech 10ft - 1/2 inch Cord Protector Wire Loom Tubing Cable Sleeve Split Sle"
+          },
+          {
+            "asin": "B0C2Z4L3S6",
+            "title": "Zip Ties Assorted Sizes(4”+6”+8”+12”), 400 Pack, Black Cable Ties, UV Resistant "
+          }
+        ]
+      },
+      "smart-speaker": {
+        "description": "語音助理智慧音箱",
+        "products": [
+          {
+            "asin": "B09B8V1LZ3",
+            "title": "Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, "
+          }
+        ]
+      },
+      "tv-wall-mount": {
+        "description": "電視壁掛安裝固定",
+        "products": [
+          {
+            "asin": "B00SFSU53G",
+            "title": "Mounting Dream TV Wall Mount for 32-65 Inch Television,Mount with Swivel and Til"
+          },
+          {
+            "asin": "B07SHFPD8S",
+            "title": "Pipishell Full Motion TV Wall Mount for Echo Show 21/15 and 13-43 Inch Flat Curv"
+          }
+        ]
+      },
+      "earphone-accessories": {
+        "description": "耳機替換配件",
+        "products": [
+          {
+            "asin": "B0DFWRY3KQ",
+            "title": "4 Pairs Replacement Ear Tips for AirPods Pro 2nd/1st Generation with Portable St"
+          }
+        ]
+      },
+      "portable-bluetooth-speaker": {
+        "description": "可攜式藍牙音樂播放",
+        "products": [
+          {
+            "asin": "B0CTNWBT1Z",
+            "title": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL P"
+          }
+        ]
+      },
+      "home-security-camera": {
+        "description": "居家無線安防監控",
+        "products": [
+          {
+            "asin": "B0DHLSZXQD",
+            "title": "Blink Outdoor 4 – Wireless smart security camera, two-year battery life, 1080p H"
+          }
+        ]
+      },
+      "trash-bags": {
+        "description": "廚房垃圾袋防漏防臭",
+        "products": [
+          {
+            "asin": "B01BZ0LXL8",
+            "title": "Hefty Ultra Strong Tall Kitchen Trash Bags, Lavender & Sweet Vanilla Scent, 13 G"
+          }
+        ]
+      },
+      "magnesium-supplement": {
+        "description": "鎂補充助眠抗壓",
+        "products": [
+          {
+            "asin": "B07P5K7DQP",
+            "title": "Pure Encapsulations Magnesium (Glycinate) - Supplement to Support Stress Relief,"
+          }
+        ]
+      },
+      "toothpaste": {
+        "description": "口腔清潔牙齒保健",
+        "products": [
+          {
+            "asin": "B083JHCCV2",
+            "title": "Boka Fluoride Free Toothpaste, Nano Hydroxyapatite Toothpaste, Appropriate for S"
+          }
+        ]
+      },
+      "washing-machine-cleaner": {
+        "description": "洗衣機內部清潔除臭",
+        "products": [
+          {
+            "asin": "B00C91Q86I",
+            "title": "Affresh Washing Machine Cleaner, Helps Power Away Odor Causing Bacteria & Grime "
+          }
+        ]
+      },
+      "food-storage-bags": {
+        "description": "食物保鮮密封袋",
+        "products": [
+          {
+            "asin": "B095PQ6SX7",
+            "title": "Amazon Basics Sandwich Storage Bags, 300 Count (Previously Solimo)"
+          }
+        ]
+      },
+      "vaginal-probiotic": {
+        "description": "陰道菌群平衡護理",
+        "products": [
+          {
+            "asin": "B0D5FZGY8W",
+            "title": "O Positiv URO Vaginal Probiotics for Women pH Balance with Prebiotics & Lactobac"
+          }
+        ]
+      },
+      "collagen-supplement": {
+        "description": "膠原蛋白肽粉關節皮膚保健",
+        "products": [
+          {
+            "asin": "B09RQBHRCT",
+            "title": "Vital Proteins Collagen Peptides Powder - Supports Hair, Nail, Skin, Bone & Join"
+          },
+          {
+            "asin": "B00K6JUG4K",
+            "title": "Vital Proteins Collagen Peptides Powder Advanced with Hyaluronic Acid & Vitamin "
+          }
+        ]
+      },
+      "eye-redness-relief": {
+        "description": "眼睛紅血絲舒緩",
+        "products": [
+          {
+            "asin": "B07BVYZL88",
+            "title": "LUMIFY Eye Drops for Red Eyes, Redness Reliever for Brighter Looking Eyes, Works"
+          }
+        ]
+      },
+      "disinfecting-wipes": {
+        "description": "居家表面消毒清潔",
+        "products": [
+          {
+            "asin": "B07F246YG1",
+            "title": "Amazon Basics Disinfecting Wipes, Lemon & Fresh Scent, Sanitizes/Cleans/Disinfec"
+          },
+          {
+            "asin": "B00HSC9F2C",
+            "title": "Clorox Disinfecting Cleaning Wipes for Spring Cleaning & Allergy Season, Bleach "
+          }
+        ]
+      },
+      "omega3-supplement": {
+        "description": "Omega-3 魚油心血管保健",
+        "products": [
+          {
+            "asin": "B0739KKHWL",
+            "title": "Nordic Naturals Ultimate Omega, Lemon Flavor - 90 Soft Gels - 1280 mg Omega-3 - "
+          }
+        ]
+      },
+      "paper-napkins": {
+        "description": "紙餐巾清潔擦拭",
+        "products": [
+          {
+            "asin": "B000VCFB0G",
+            "title": "Bounty Paper Napkins, White, 200 Count, Packaging may vary"
+          }
+        ]
+      },
+      "modeling-clay": {
+        "description": "黏土造型創意遊戲",
+        "products": [
+          {
+            "asin": "B00JM5GW10",
+            "title": "Play Doh Modeling Compound 10-Pack Case of Assorted Colors, Non-Toxic 2 oz. Cans"
+          },
+          {
+            "asin": "B087N9N6HH",
+            "title": "Play Doh Bulk Handout 42-Pack of 1-Ounce Modeling Compound Cans, Back to School "
+          }
+        ]
+      },
+      "infant-sensory-toy": {
+        "description": "嬰兒感官刺激抓握",
+        "products": [
+          {
+            "asin": "B0772WYFPP",
+            "title": "Bright Starts Oball Easy-Grasp Rattle BPA-Free Infant Toy in Teal, Age Newborn a"
+          },
+          {
+            "asin": "B0B21ZM7LJ",
+            "title": "Infinno Baby Wrist Rattle Socks and Foot Finder Set, Perfect Baby Toys for 0-12 "
+          },
+          {
+            "asin": "B008J1QP7Y",
+            "title": "Bright Starts Oball Shaker Rattle Toy, Ages Newborn Plus"
+          },
+          {
+            "asin": "B07NXDJ52C",
+            "title": "Sassy Stacks of Circles Stacking Ring STEM Learning Toy, Age 6+ Months, Multi, 9"
+          }
+        ]
+      },
+      "early-learning-toy": {
+        "description": "幼兒早教有聲學習",
+        "products": [
+          {
+            "asin": "B0CRYJB6GK",
+            "title": "Airbition Talking Flash Cards for Toddlers 1 2 3 4 Year Olds, Montessori Languag"
+          },
+          {
+            "asin": "B07B6ZN7P8",
+            "title": "LeapFrog Learning Friends 100 Words Book, Green"
+          }
+        ]
+      },
+      "bubble-toy": {
+        "description": "防灑泡泡玩具",
+        "products": [
+          {
+            "asin": "B00BN4QVF0",
+            "title": "Little Kids Fubbles No-Spill Tumbler Includes 4oz Bubble Solution and bubble wan"
+          }
+        ]
+      },
+      "outdoor-throw-toy": {
+        "description": "戶外投擲飛行玩具",
+        "products": [
+          {
+            "asin": "B08HDJC2JF",
+            "title": "Foam Airplanes - Easter Basket Stuffers for Kids All Ages 4 5 6 7 8 9 10 Year Ol"
+          }
+        ]
+      },
+      "bed-sheets": {
+        "description": "床單組舒適透氣",
+        "products": [
+          {
+            "asin": "B06WWRCZXX",
+            "title": "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Bed Sheets Set - Hotel"
+          },
+          {
+            "asin": "B00NX0WXQI",
+            "title": "Utopia Bedding Queen Size Sheet Set – 4 Piece Bed Sheets, Soft and Breathable Mi"
+          },
+          {
+            "asin": "B01IE7P2VW",
+            "title": "Utopia Bedding Queen Fitted Sheet - Bottom Sheet - Deep Pocket - Soft Microfiber"
+          },
+          {
+            "asin": "B07F91D1Z3",
+            "title": "Extra Deep King Sheet Set - 6 Piece Breathable and Cooling Sheets - Hotel Luxury"
+          }
+        ]
+      },
+      "picture-frame": {
+        "description": "相片展示掛牆相框",
+        "products": [
+          {
+            "asin": "B0BQR2BQYZ",
+            "title": "upsimples 11x14 Picture Frame, Display Pictures 8x10 with Mat or 11x14 Without M"
+          }
+        ]
+      },
+      "shower-curtain-liner": {
+        "description": "浴簾/內襯防水防霉",
+        "products": [
+          {
+            "asin": "B08QRFZ6TH",
+            "title": "Barossa Design Plastic Shower Liner Clear - Premium PEVA Shower Curtain Liner wi"
+          },
+          {
+            "asin": "B08NJ6VF9T",
+            "title": "Mrs Awesome Clear Shower Curtain Liner with 3 Magnets, 72x72 Premium Flexible St"
+          },
+          {
+            "asin": "B082KP92DF",
+            "title": "AmazerBath Shower Curtain Liner, 72x72 Clear Shower Curtain Liner, Waterproof Pl"
+          },
+          {
+            "asin": "B00LS9UD2M",
+            "title": "LiBa Bathroom Shower Curtain Waterproof Plastic Shower Curtain Premium PEVA Non-"
+          },
+          {
+            "asin": "B08BZFRQLS",
+            "title": "ALYVIA SPRING Waterproof Fabric Shower Curtain Liner with 3 Magnets - Soft Hotel"
+          }
+        ]
+      },
+      "clothes-hangers": {
+        "description": "衣架收納節省空間",
+        "products": [
+          {
+            "asin": "B00FXNAAW2",
+            "title": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, Closet Org"
+          },
+          {
+            "asin": "B06X421WJ6",
+            "title": "Utopia Home - Plastic Hangers 50 Pack - Space Saving Clothes Hanger - Durable an"
+          }
+        ]
+      },
+      "bed-pillows": {
+        "description": "睡眠枕頭支撐舒適",
+        "products": [
+          {
+            "asin": "B01LYNW421",
+            "title": "Beckham Hotel Collection Bed Pillows Standard/Queen Size Set of 2 - Original Sof"
+          },
+          {
+            "asin": "B08DTH86Q2",
+            "title": "Utopia Bedding Bed Pillows for Sleeping Queen Size (White), Set of 2, Soft & Flu"
+          }
+        ]
+      },
+      "ant-control": {
+        "description": "室內螞蟻防治",
+        "products": [
+          {
+            "asin": "B00E4GACB8",
+            "title": "TERRO Ant Killer Bait Stations T300B - Liquid Bait to Eliminate Ants - Bait Syst"
+          }
+        ]
+      },
+      "bathroom-rug": {
+        "description": "浴室防滑吸水地墊",
+        "products": [
+          {
+            "asin": "B0CFGYFCYL",
+            "title": "OLANLY Bathroom Rugs 30x20, Extra Soft Absorbent Chenille Bath Rugs, Rubber Back"
+          }
+        ]
+      },
+      "mattress-protector": {
+        "description": "床墊防水防蟎保護",
+        "products": [
+          {
+            "asin": "B0C1NNYJGB",
+            "title": "BEDLORE Waterproof Mattress Protector, Queen Size Mattress Pad Noiseless with De"
+          },
+          {
+            "asin": "B00MRH9NCK",
+            "title": "Utopia Bedding Waterproof Mattress Protector Twin Size, Premium 200 GSM Terry Ma"
+          },
+          {
+            "asin": "B00U6HREPQ",
+            "title": "Utopia Bedding Mattress Protector Zippered Queen Size, 100% Waterproof Bed Bug a"
+          }
+        ]
+      },
+      "throw-pillow-inserts": {
+        "description": "抱枕芯裝飾填充",
+        "products": [
+          {
+            "asin": "B01NBNDC1T",
+            "title": "Utopia Bedding 18x18 Pillow Inserts, Set of 2, White – Indoor Decorative Throw P"
+          },
+          {
+            "asin": "B0714K41PB",
+            "title": "Utopia Bedding Throw Pillows (Set of 4, White) – 18 x 18 Inches Down Alternative"
+          }
+        ]
+      },
+      "mattress-topper": {
+        "description": "床墊加厚增加舒適度",
+        "products": [
+          {
+            "asin": "B07D5DN269",
+            "title": "Ultra Soft Queen Size Mattress Topper - Viscose Made from Bamboo Pillow Top Matt"
+          },
+          {
+            "asin": "B00NESCOY0",
+            "title": "Utopia Bedding Quilted Fitted Mattress Pad, Queen Size, Elastic Fitted Mattress "
+          }
+        ]
+      },
+      "humidifier": {
+        "description": "室內加濕緩解乾燥",
+        "products": [
+          {
+            "asin": "B0C2C9NHZW",
+            "title": "LEVOIT Top Fill Humidifiers for Bedroom, 2.5L Tank for Large Room, Easy to Fill "
+          }
+        ]
+      },
+      "portable-carpet-cleaner": {
+        "description": "地毯/布質清洗汙漬去除",
+        "products": [
+          {
+            "asin": "B0016HF5GK",
+            "title": "BISSELL Little Green Multi-Purpose Portable Carpet and Upholstery Cleaner, Car a"
+          }
+        ]
+      },
+      "hvac-air-filter": {
+        "description": "HVAC 空調濾網過敏原過濾",
+        "products": [
+          {
+            "asin": "B0C2Y262YK",
+            "title": "BNX TruFilter 20x20x1 Air Filter MERV 11 (6-Pack) - MADE IN USA - Allergen Defen"
+          },
+          {
+            "asin": "B088BZTYFP",
+            "title": "Amazon Basics 16x20x1 Air Filter 6-Pack, MERV 8 AC Furnace Filters, Allergy Cont"
+          }
+        ]
+      },
+      "bed-frame": {
+        "description": "床架收納支撐",
+        "products": [
+          {
+            "asin": "B0B8VQLN6Y",
+            "title": "NEW JETO Metal Bed Frame,Queen Size Bed Frame with Storage Space,Heavy Duty Stur"
+          }
+        ]
+      },
+      "flower-seeds": {
+        "description": "花卉種植種子",
+        "products": [
+          {
+            "asin": "B0DQ59R1LB",
+            "title": "HOME GROWN Zinnia Dahlia Seeds Pack for 2026 Non GMO 524 Flower Seeds | Vibrant "
+          }
+        ]
+      },
+      "party-backdrop": {
+        "description": "派對裝飾背景布幕",
+        "products": [
+          {
+            "asin": "B0DLN1B4MJ",
+            "title": "2 Pack Glitter Pink Backdrop, 3.28 FT x 7.05 FT Birthday Party Decorations, Lase"
+          }
+        ]
+      },
+      "insulated-tumbler": {
+        "description": "保溫隨行杯咖啡保溫",
+        "products": [
+          {
+            "asin": "B0DF472VMZ",
+            "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced C"
+          }
+        ]
+      },
+      "milk-frother": {
+        "description": "手持奶泡器拿鐵製作",
+        "products": [
+          {
+            "asin": "B09D8T11YS",
+            "title": "Zulay Kitchen Powerful Milk Frother Wand With 2 Duracell Batteries - Ultra Fast "
+          }
+        ]
+      },
+      "flying-insect-trap": {
+        "description": "室內飛蟲誘捕消滅",
+        "products": [
+          {
+            "asin": "B0C3FTCYZL",
+            "title": "Zevo Flying Insect Trap Official Refill Cartridges - Fits Both Zevo Trap & MAX I"
+          }
+        ]
+      },
+      "dog-door-mat": {
+        "description": "寵物/玄關吸水腳踏墊",
+        "products": [
+          {
+            "asin": "B0BWT84GZ7",
+            "title": "OLANLY Dog Door Mat for Muddy Paws 30x20, Absorbs Moisture and Dirt, Absorbent N"
+          }
+        ]
+      },
+      "upright-vacuum": {
+        "description": "直立式吸塵器居家清潔",
+        "products": [
+          {
+            "asin": "B00JH98GR4",
+            "title": "Shark Upright Vacuum, Navigator Lift-Away Deluxe with Large Dust Cup Capacity, H"
+          }
+        ]
+      },
+      "dryer-vent-cleaner": {
+        "description": "烘衣機通風管堵塞清潔",
+        "products": [
+          {
+            "asin": "B0CQY6MPNG",
+            "title": "PetOde 2 Pieces Dryer Vent Cleaner Kit Compatible with Most Vacuum Cleaner, Drye"
+          }
+        ]
+      },
+      "shower-curtain-hooks": {
+        "description": "浴簾掛鉤防鏽滑順",
+        "products": [
+          {
+            "asin": "B081YQBPSS",
+            "title": "Titanker Shower Curtain Hooks Rings, Rust Resistant Metal Double Glide Shower Ho"
+          }
+        ]
+      },
+      "laundry-hamper": {
+        "description": "洗衣籃收納摺疊",
+        "products": [
+          {
+            "asin": "B0B7JGC67R",
+            "title": "Lifewit 2 Pack Laundry Hamper Large Collapsible Laundry Baskets, Freestanding Wa"
+          }
+        ]
+      },
+      "air-purifier": {
+        "description": "室內空氣淨化過濾",
+        "products": [
+          {
+            "asin": "B09GTRVJQM",
+            "title": "LEVOIT Air Purifiers for Bedroom Home Dorm, AHAM Verified, 3-in-1 Filter Cleaner"
+          }
+        ]
+      }
+    }
+  }
+}

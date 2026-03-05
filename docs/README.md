@@ -38,8 +38,8 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 | 產品 | 問題 | 風險等級 |
 |------|------|----------|
 | [Fire TV Stick 4K Select](/Narrator/warnings/fire-tv-stick-4k-select--2026-03-03) | Vega OS 封閉系統、76% 功能失效 | 🔴 高 |
-| [Amazon TCG 卡牌篡改](/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01) | 13-45% 篡改率、系統性詐騙 | 🔴 高 |
-| [NeeDoh 紓壓玩具](/Narrator/pain_points/squishy-toy--pain-points--2026-03-01) | 56% 爆裂率、8% 眼部傷害 | 🔴 高 |
+| [Amazon TCG 卡牌篡改](/Narrator/warnings/trading-cards-amazon-tampering--2026-03-05) | 13-45% 篡改率、系統性詐騙 | 🔴 高 |
+| [NeeDoh 紓壓玩具](/Narrator/pain_points/squishy-toy--pain-points--2026-03-05) | 56% 爆裂率、8% 眼部傷害 | 🔴 高 |
 | [Sony WH-1000XM5 耳機](/Narrator/warnings/sony-wh1000xm5-hinge--2026-02-13) | 27% 轉軸斷裂 | 🔴 高 |
 | [Amazon Basics 暖風機](/Narrator/warnings/B07V6M4MSN--warning--2026-02-13) | 16% 火災風險 | 🔴 高 |
 | [HANYCONY 延長線](/Narrator/warnings/hanycony-power-strip--warning--2026-02-06) | 火災/過熱風險 | 🔴 高 |
@@ -62,16 +62,15 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 ---
 
-## 🆕 最新報告 (2026-03-04)
+## 🆕 最新報告 (2026-03-05)
 
 | 類別 | 類型 | 重點發現 |
 |------|------|----------|
-| [bella 烤麵包機](/Narrator/warnings/bread-toaster--warning--2026-03-04) | 警告報告 | 56% 核心功能失效（壓桿+不均勻+燒焦+故障）|
-| [Apple EarPods USB-C](/Narrator/comparisons/wired-earphones--2026-03-04) | 比較報告 | 2% 電擊風險 + 22% 過早故障，JBL Tune 310C 更安全 |
-| [無鋼圈內衣](/Narrator/comparisons/wireless-bra--2026-03-04) | 比較報告 | OEAK 舒適度 0.90 但扣環 18% 斷裂，Knix/Bali 更可靠 |
-| [肉類溫度計](/Narrator/comparisons/meat-thermometer--2026-03-04) | 比較報告 | 0.5 秒即讀 9% 過早故障，ThermoPro 更耐用 |
-| [收藏幣比較](/Narrator/comparisons/collectible-coins--2026-03-04) | 比較報告 | 6 款收藏幣分析，Morgan Silver Dollar 需審核 |
-| [男性內褲比較](/Narrator/comparisons/mens-underwear--2026-03-04) | 比較報告 | Hanes 19% 粗糙布料，David Archy 竹纖維更柔軟 |
+| [延長線插座比較](/Narrator/comparisons/power-strip--2026-03-05) | 比較報告 | 5 款延長線插座安全與品質比較分析 |
+| [痘痘治療比較](/Narrator/comparisons/acne-treatment--2026-03-05) | 比較報告 | 新增 3 款產品，水楊酸 vs 水膠體貼片比較 |
+| [電視遙控器替換](/Narrator/comparisons/tv-remote-replacement--2026-03-05) | 比較報告 | 官方 vs 通用遙控器，相容性是最大痛點 |
+| [Amazon 卡牌篡改（更新）](/Narrator/warnings/trading-cards-amazon-tampering--2026-03-05) | 警告報告 | 新增 3 款產品，篡改問題持續 |
+| [紓壓玩具痛點（更新）](/Narrator/pain_points/squishy-toy--pain-points--2026-03-05) | 痛點報告 | 新增 3 款，爆裂/化學灼傷風險持續 |
 
 ## ✅ 最新推薦
 
