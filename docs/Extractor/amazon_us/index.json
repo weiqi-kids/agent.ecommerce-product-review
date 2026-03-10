@@ -492,6 +492,66 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "toys_games-B0BRSNPQNM--amazon_us--2026-03-10-md",
+    "title": "Unknown Product (Easter Egg Fillers/Toys)",
+    "category": "toys_games",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toys_games/B0BRSNPQNM--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toys_games-B0BP9GGB23--amazon_us--2026-03-10-md",
+    "title": "FUN LITTLE TOYS 100PCS Prefilled Easter Eggs with Toys Inside",
+    "category": "toys_games",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toys_games/B0BP9GGB23--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toys_games-B0BB5T15QP--amazon_us--2026-03-10-md",
+    "title": "PREXTEX 7\" Jumbo Easter Eggs Empty - Set of 6",
+    "category": "toys_games",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toys_games/B0BB5T15QP--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toys_games-B077Y4P6MM--amazon_us--2026-03-10-md",
+    "title": "PREXTEX Set of 8 - Large Toy Filled Easter Eggs - Wind-Up Bunny Jumping Chick Toys",
+    "category": "toys_games",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toys_games/B077Y4P6MM--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toys_games-B077Y43XTX--amazon_us--2026-03-10-md",
+    "title": "Prextex 3.5\" Unfilled Easter Eggs Empty, 36 pcs",
+    "category": "toys_games",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toys_games/B077Y43XTX--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "toys_games-B003HGGPLW--amazon_us--2026-02-05-md",
     "title": "Crayola Broad Line Markers (12 Count), Washable Markers for Kids, Assorted Colors",
     "category": "toys_games",
@@ -549,6 +609,42 @@
     "avg_rating": "",
     "review_count": "",
     "file": "toys_games/B00000DMF5--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toilet-bowl-cleaner-B09GK4VNK5--amazon_us--2026-03-10-md",
+    "title": "Kadden 2 Pack Pumice Stone Toilet Cleaner",
+    "category": "toilet-bowl-cleaner",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toilet-bowl-cleaner/B09GK4VNK5--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toilet-bowl-cleaner-B07HZJVFK7--amazon_us--2026-03-10-md",
+    "title": "Better Life Toilet Bowl Cleaner, Plant-based, Tea Tree & Peppermint",
+    "category": "toilet-bowl-cleaner",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toilet-bowl-cleaner/B07HZJVFK7--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "toilet-bowl-cleaner-B07876YHWR--amazon_us--2026-03-10-md",
+    "title": "Scrubbing Bubbles Toilet Bowl Cleaning Gel, Rainshower Scent, 24oz",
+    "category": "toilet-bowl-cleaner",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "toilet-bowl-cleaner/B07876YHWR--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -717,6 +813,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "squishy-toy/B0B2HN96TZ--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "squishy-toy-B09T8PH369--amazon_us--2026-03-10-md",
+    "title": "ALMHH Easter Bunny Squishy Stress Balls 4 Pack",
+    "category": "squishy-toy",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "squishy-toy/B09T8PH369--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1272,6 +1380,54 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "other-B0BVGQCH6S--amazon_us--2026-03-10-md",
+    "title": "Loloi Magnolia Home by Joanna Gaines Banks Collection BAN-06 Natural/Granite Area Rug",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "other/B0BVGQCH6S--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "other-B0BB3FT6VF--amazon_us--2026-03-10-md",
+    "title": "Seventh Generation Toilet Bowl Cleaner Mint",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "other/B0BB3FT6VF--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "other-B0B99613ZK--amazon_us--2026-03-10-md",
+    "title": "Loloi Chris Loves Julia Humphrey Collection HUM-04 Plum/Multi Runner Rug",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "other/B0B99613ZK--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "other-B0B33Q7PXS--amazon_us--2026-03-10-md",
+    "title": "BLUELAND Toilet Bowl Cleaner Tablets, Starter Set",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "other/B0B33Q7PXS--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "other-B093ZXFXX9--amazon_us--2026-02-05-md",
     "title": "Decorative Tablecloth (Cotton, Ethnic Design)",
     "category": "other",
@@ -1437,6 +1593,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "other/B000UVTDLG--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "other-B000RUJJAU--amazon_us--2026-03-10-md",
+    "title": "Scarecrow Small Deluxe Custom Fangs (Length 13mm)",
+    "category": "other",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "other/B000RUJJAU--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1617,6 +1785,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "laundry-stain/B000VDX2SS--amzn-direct--2026-03-01.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "jute-area-rug-B07BBTCTHH--amazon_us--2026-03-10-md",
+    "title": "nuLOOM 2x10 Rigo Jute Hand Woven Area Rug, Natural",
+    "category": "jute-area-rug",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "jute-area-rug/B07BBTCTHH--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1944,6 +2124,162 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "home-B077RPXSF3--amazon_us--2026-03-10-md",
+    "title": "NICETOWN 100% Blackout Window Curtain Panels, 84 inches Drop",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B077RPXSF3--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B009RWV3LW--amazon_us--2026-03-10-md",
+    "title": "Unknown Product (B009RWV3LW)",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B009RWV3LW--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B008G5ZH4A--amazon_us--2026-03-10-md",
+    "title": "Iron OUT Automatic Toilet Bowl Cleaner Tablets, 6 Tablets",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B008G5ZH4A--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B006ZUW070--amazon_us--2026-03-10-md",
+    "title": "Method Antibacterial Toilet Bowl Cleaner, Spearmint",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B006ZUW070--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B005BPH3ZY--amazon_us--2026-03-10-md",
+    "title": "Lysol Cling Gel Toilet Bowl Cleaner, Country Scent, 24 Ounce (Pack of 3)",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B005BPH3ZY--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B004ZD2HJU--amazon_us--2026-03-10-md",
+    "title": "ECLIPSE Microfiber Total Privacy Blackout Thermal Grommet Window Curtain",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B004ZD2HJU--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B004T33D3A--amazon_us--2026-03-10-md",
+    "title": "Ecover Toilet Bowl Cleaner Pine Fresh",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B004T33D3A--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B00371VM0Q--amazon_us--2026-03-10-md",
+    "title": "Lysol Toilet Bowl Cleaner Max Strength Clinging Gel",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B00371VM0Q--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B001A67EFC--amazon_us--2026-03-10-md",
+    "title": "Best Home Fashion Solid Thermal Insulated Blackout Curtains",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B001A67EFC--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B0010B5EQS--amazon_us--2026-03-10-md",
+    "title": "Clorox ToiletWand Toilet Cleaning Kit",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B0010B5EQS--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B000V212VS--amazon_us--2026-03-10-md",
+    "title": "Seventh Generation Toilet Bowl Cleaner Fresh Mint",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B000V212VS--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "home-B000SKX0N6--amazon_us--2026-03-10-md",
+    "title": "Jelmar CLR PRO Calcium, Lime & Rust Remover",
+    "category": "home",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "home/B000SKX0N6--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "holiday-costume-accessories-B07HHC1FVY--amazon_us--2026-03-10-md",
+    "title": "Farochy Christmas Tree Headband with Light Necklace 2PCS",
+    "category": "holiday-costume-accessories",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "holiday-costume-accessories/B07HHC1FVY--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "health-B0GF9RTNPJ--amazon_us--2026-02-05-md",
     "title": "Product Extraction Report",
     "category": "health",
@@ -2073,6 +2409,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "health/B0C2CY22B8--amazon_us--2026-03-04.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "health-B0BQ4G7LY8--amazon_us--2026-03-10-md",
+    "title": "Liquid I.V. Hydration Multiplier Sugar-Free - Lemon Lime",
+    "category": "health",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "health/B0BQ4G7LY8--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2484,6 +2832,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "fashion-B0014BYHJE--amazon_us--2026-03-10-md",
+    "title": "Crocs Unisex-Adult Classic Clogs",
+    "category": "fashion",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "fashion/B0014BYHJE--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "fashion-B000L3TP52--amazon_us--2026-02-05-md",
     "title": "Product Review Extraction Report",
     "category": "fashion",
@@ -2784,6 +3144,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "electronics-B0BQPNMXQV--amazon_us--2026-03-10-md",
+    "title": "JBL Vibe Beam - True Wireless Earbuds (Black)",
+    "category": "electronics",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "electronics/B0BQPNMXQV--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "electronics-B09XS7JWHH--sony--2026-02-13-md",
     "title": "Sony WH-1000XM5 Premium Noise Canceling Headphones",
     "category": "electronics",
@@ -2856,6 +3228,66 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "easter-egg-toys-B07B3DSKCV--amazon_us--2026-03-10-md",
+    "title": "PREXTEX Easter Eggs 100 Count, Bulk Plastic Easter Eggs, Colorful Designed Printed Hinged Unfilled",
+    "category": "easter-egg-toys",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "easter-egg-toys/B07B3DSKCV--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "easter-egg-toys-B079LWDGHT--amazon_us--2026-03-10-md",
+    "title": "JOYIN 48 Pieces Easter Eggs Prefilled with Assorted Natural World Animal Figures",
+    "category": "easter-egg-toys",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "easter-egg-toys/B079LWDGHT--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "easter-egg-toys-B0797QD9XH--amazon_us--2026-03-10-md",
+    "title": "Giraffe 100 Pack Prefilled Easter Eggs Bulk",
+    "category": "easter-egg-toys",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "easter-egg-toys/B0797QD9XH--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "easter-egg-toys-B077Y8MXLH--amazon_us--2026-03-10-md",
+    "title": "PREXTEX Toy Filled Easter Eggs Filled with Mini Toys and Trinkets",
+    "category": "easter-egg-toys",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "easter-egg-toys/B077Y8MXLH--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "easter-egg-hunt-B09Z1XPPFB--amazon_us--2026-03-10-md",
+    "title": "Eggmazing Egg Decorator Kit - Easter Egg Decorating Spinner",
+    "category": "easter-egg-hunt",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "easter-egg-hunt/B09Z1XPPFB--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "dresser-drawer-B0CH38DGNY--dumos--2026-02-13-md",
     "title": "DUMOS Dresser for Bedroom, Storage Organizer with 9 Drawers",
     "category": "dresser-drawer",
@@ -2925,6 +3357,30 @@
     "avg_rating": "",
     "review_count": "",
     "file": "dandruff-treatment/B00AINMFAC--nizoral--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "costume-accessory-B07HHC78NC--amazon_us--2026-03-10-md",
+    "title": "Nicky Bigs Novelties Bug Antenna Headband",
+    "category": "costume-accessory",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "costume-accessory/B07HHC78NC--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "costume-accessory-B07GNVRN12--amazon_us--2026-03-10-md",
+    "title": "Cheerin Silver Alien Headband & Glasses – Adult Martian Antenna Costume Accessories",
+    "category": "costume-accessory",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "costume-accessory/B07GNVRN12--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -3009,6 +3465,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "coffee-filter/B0C4Z6SKCS--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "bubble-toy-B09TK9JGRH--amazon_us--2026-03-10-md",
+    "title": "Little Kids Fubbles 64oz Non Toxic Bubble Solution",
+    "category": "bubble-toy",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "bubble-toy/B09TK9JGRH--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -3117,6 +3585,42 @@
     "avg_rating": "",
     "review_count": "- **Reviews Analyzed**: 70 (recent sample)",
     "file": "body-firming/B0DBRVHR38--roc--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "blackout-curtains-B09Y33WCRM--amazon_us--2026-03-10-md",
+    "title": "ChrisDowa 100% Blackout Curtains for Bedroom with Black Liner",
+    "category": "blackout-curtains",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "blackout-curtains/B09Y33WCRM--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "blackout-curtains-B09NBC3VTH--amazon_us--2026-03-10-md",
+    "title": "Deconovo Linen-Look 100% Blackout Curtains",
+    "category": "blackout-curtains",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "blackout-curtains/B09NBC3VTH--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "blackout-curtain-B07B3XJ2H8--amazon_us--2026-03-10-md",
+    "title": "Amazon Basics Room Darkening Blackout Window Curtain with Grommets, 52 x 84 Inches, Light Blue",
+    "category": "blackout-curtain",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "blackout-curtain/B07B3XJ2H8--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
@@ -3456,6 +3960,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "beauty-B0060OUV5Y--amazon_us--2026-03-10-md",
+    "title": "La Roche-Posay Cicaplast Balm B5 Healing Ointment and Soothing Cream",
+    "category": "beauty",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "beauty/B0060OUV5Y--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "beauty-B0054LHI5A--amazon_us--2026-02-05-md",
     "title": "Burt's Bees Lip Balm - Original Beeswax",
     "category": "beauty",
@@ -3528,6 +4044,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "beauty-B000YJ2SLG--amazon_us--2026-03-10-md",
+    "title": "CeraVe Daily Moisturizing Lotion for Dry Skin",
+    "category": "beauty",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "beauty/B000YJ2SLG--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "beauty-B000NWGCZ2--amazon_us--2026-02-05-md",
     "title": "Vanicream Moisturizing Skin Cream with Pump Dispenser",
     "category": "beauty",
@@ -3537,6 +4065,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "beauty/B000NWGCZ2--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "bath-rug-B07FPQZG6V--amazon_us--2026-03-10-md",
+    "title": "GORILLA GRIP Bath Rug Mat, Thick Soft Absorbent Chenille",
+    "category": "bath-rug",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "bath-rug/B07FPQZG6V--amazon_us--2026-03-10.md",
     "source_layer": "amazon_us"
   },
   {
