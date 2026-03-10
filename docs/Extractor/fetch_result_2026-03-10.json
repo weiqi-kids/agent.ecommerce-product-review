@@ -1,0 +1,35 @@
+{
+  "date": "2026-03-10",
+  "fetch_summary": {
+    "total_asins": 155,
+    "successful_fetch": 155,
+    "with_reviews": 45,
+    "without_reviews": 110,
+    "total_reviews_scraped": 2120,
+    "failed_fetch": 0
+  },
+  "extraction_summary": {
+    "total_extracted": 45,
+    "categories": {
+      "home": 12,
+      "toys_games": 5,
+      "other": 5,
+      "easter-egg-toys": 4,
+      "toilet-bowl-cleaner": 3,
+      "costume-accessory": 2,
+      "blackout-curtains": 2,
+      "beauty": 2,
+      "squishy-toy": 1,
+      "jute-area-rug": 1,
+      "holiday-costume-accessories": 1,
+      "health": 1,
+      "fashion": 1,
+      "electronics": 1,
+      "easter-egg-hunt": 1,
+      "bubble-toy": 1,
+      "blackout-curtain": 1,
+      "bath-rug": 1
+    }
+  },
+  "notes": "110 products had 0 reviews (likely new products or products with restricted review pages). All 45 products with reviews were successfully extracted."
+}

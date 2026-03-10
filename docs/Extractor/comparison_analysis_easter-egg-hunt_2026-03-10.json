@@ -1,0 +1,113 @@
+{
+  "category": "easter-egg-hunt",
+  "date": "2026-03-10",
+  "problem": "為復活節彩蛋尋寶活動提供方便、有趣且適合兒童的彩蛋和裝飾工具",
+  "products_analyzed": 5,
+  "products": [
+    {
+      "asin": "B09Z1XPPFB",
+      "name": "Eggmazing Egg Decorator Kit",
+      "brand": "The Eggmazing Egg Decorator",
+      "price": 23.79,
+      "reviews_analyzed": 50,
+      "overall_score": 0.92,
+      "strengths": ["95% 趣味性好評", "95% 無髒亂好評", "92% 易用性好評", "全年齡適用"],
+      "weaknesses": ["4% 墨水沾染", "4% 使用一次後損壞", "4% 顏色不夠飽和"],
+      "negative_breakdown": {
+        "functional_failure": "4%",
+        "side_effects": "4%",
+        "logistics": "0%"
+      }
+    },
+    {
+      "asin": "B0797QD9XH",
+      "name": "Giraffe 100 Pack Prefilled Easter Eggs",
+      "brand": "Giraffe Manufacturing",
+      "price": 33.95,
+      "reviews_analyzed": 50,
+      "overall_score": 0.82,
+      "strengths": ["95% 方便性好評", "95% 無糖替代品好評", "88% 性價比好評"],
+      "weaknesses": ["6% 玩具重複", "6% 蛋殼破損", "2% 電池安全疑慮"],
+      "negative_breakdown": {
+        "functional_failure": "6%",
+        "side_effects": "2%",
+        "logistics": "6%"
+      }
+    },
+    {
+      "asin": "B077Y8MXLH",
+      "name": "PREXTEX Toy Filled Easter Eggs (30 pcs)",
+      "brand": "PREXTEX",
+      "price": 16.99,
+      "reviews_analyzed": 50,
+      "overall_score": 0.75,
+      "strengths": ["82% 玩具多樣性好評", "95% 無糖替代品好評", "85% 性價比好評"],
+      "weaknesses": ["8% 蛋殼難以打開", "8% 玩具與圖片不符", "6% 玩具品質低劣"],
+      "negative_breakdown": {
+        "functional_failure": "8%",
+        "side_effects": "0%",
+        "logistics": "6%"
+      }
+    },
+    {
+      "asin": "B079LWDGHT",
+      "name": "JOYIN 48 Pcs Animal Figures Easter Eggs",
+      "brand": "JOYIN",
+      "price": 9.49,
+      "reviews_analyzed": 50,
+      "overall_score": 0.55,
+      "strengths": ["95% 無糖替代品好評", "90% 教育價值好評", "82% 蛋殼品質好評"],
+      "weaknesses": ["24% 動物嚴重重複（有人收到 48 隻長頸鹿）", "16% 與包裝圖不符", "6% 空蛋"],
+      "negative_breakdown": {
+        "functional_failure": "24%",
+        "side_effects": "0%",
+        "logistics": "6%"
+      }
+    },
+    {
+      "asin": "B07B3DSKCV",
+      "name": "PREXTEX Easter Eggs 100 Count (Unfilled)",
+      "brand": "PREXTEX",
+      "price": 9.99,
+      "reviews_analyzed": 50,
+      "overall_score": 0.72,
+      "strengths": ["90% 設計外觀好評", "88% 性價比好評"],
+      "weaknesses": ["12% 蛋殼容易彈開", "10% 塑膠過薄", "6% 比預期小"],
+      "negative_breakdown": {
+        "functional_failure": "12%",
+        "side_effects": "2%",
+        "logistics": "2%"
+      }
+    }
+  ],
+  "competitors_without_asin": [
+    {
+      "name": "Oriental Trading Easter Egg Hunt Kits",
+      "source": "評測文章",
+      "recommendations": 3,
+      "highlights": "批發專家，品類最齊全",
+      "position": "大量批發首選"
+    },
+    {
+      "name": "ECO EGGS Plant Based Easter Eggs",
+      "source": "評測文章",
+      "recommendations": 2,
+      "highlights": "植物基可堆肥，B Corp 認證",
+      "position": "環保替代品"
+    }
+  ],
+  "report_type": "comparison",
+  "top_product": {
+    "asin": "B09Z1XPPFB",
+    "name": "Eggmazing Egg Decorator Kit",
+    "score": 0.92
+  },
+  "negative_breakdown_summary": {
+    "functional_failure": "11%（平均，JOYIN 動物蛋重複問題拉高）",
+    "side_effects": "2%（平均）",
+    "logistics": "4%（平均）"
+  },
+  "conclusion": "本類別包含兩種不同子類型的產品：彩蛋裝飾工具和預填充彩蛋。Eggmazing 蛋裝飾器以 92% 綜合好評遙遙領先，無髒亂設計深受家長喜愛。預填充彩蛋方面，Giraffe 100 Pack 品質最穩定。JOYIN 48 Pcs 動物蛋有嚴重品質控制問題（24% 收到重複動物），應避免。PREXTEX 100 Count 空殼蛋設計漂亮但塑膠薄且容易彈開。建議依需求選擇：裝飾體驗選 Eggmazing，大型活動選 Giraffe 100 Pack。",
+  "verdict": "comparison",
+  "verdict_reason": "產品類型多元（裝飾器 vs 預填蛋 vs 空殼蛋），各解決不同面向的需求，無法單一推薦。Eggmazing 在裝飾體驗類獨佔鰲頭。"
+}

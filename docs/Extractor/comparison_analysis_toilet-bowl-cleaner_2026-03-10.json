@@ -1,0 +1,98 @@
+{
+  "category": "toilet-bowl-cleaner",
+  "date": "2026-03-10",
+  "problem": "清除馬桶內的硬水水垢、鐵鏽、礦物質沉積和細菌，保持馬桶清潔衛生",
+  "products_analyzed": 3,
+  "products": [
+    {
+      "asin": "B07876YHWR",
+      "name": "Scrubbing Bubbles Power Stain Destroyer Toilet Bowl Cleaning Gel",
+      "brand": "Scrubbing Bubbles",
+      "price": 9.79,
+      "reviews_analyzed": 50,
+      "overall_score": 0.82,
+      "strengths": ["90% 清潔力好評（被稱為最佳馬桶清潔劑）", "88% 硬水水垢去除好評", "88% 免刷好評"],
+      "weaknesses": ["10% 價格暴漲（從 $2 漲至 $17）", "10% 難以在實體店找到", "6% 會留下永久藍/紫色汙漬"],
+      "negative_breakdown": {
+        "functional_failure": "4%",
+        "side_effects": "6%",
+        "logistics": "10%"
+      }
+    },
+    {
+      "asin": "B07HZJVFK7",
+      "name": "Better Life Natural Toilet Bowl Cleaner",
+      "brand": "Better Life",
+      "price": 23.67,
+      "reviews_analyzed": 50,
+      "overall_score": 0.68,
+      "strengths": ["92% 環保安全好評", "95% 化糞池安全好評", "72% 日常清潔好評"],
+      "weaknesses": ["16% 對硬水水垢無效", "12% 價格過高", "8% 氣味難聞"],
+      "negative_breakdown": {
+        "functional_failure": "16%",
+        "side_effects": "8%",
+        "logistics": "4%"
+      }
+    },
+    {
+      "asin": "B09GK4VNK5",
+      "name": "Kadden Pumice Stone Toilet Cleaner",
+      "brand": "Kadden",
+      "price": 15.99,
+      "reviews_analyzed": 10,
+      "overall_score": 0.90,
+      "strengths": ["98% 硬水水垢去除好評", "90% 不刮傷好評", "天然物理清潔無化學品"],
+      "weaknesses": ["樣本量僅 10 則，信心度低"],
+      "negative_breakdown": {
+        "functional_failure": "0%",
+        "side_effects": "0%",
+        "logistics": "0%"
+      },
+      "note": "[REVIEW_NEEDED] 僅 10 則評論，數據可靠性有限"
+    }
+  ],
+  "competitors_without_asin": [
+    {
+      "name": "Lysol Power Toilet Bowl Cleaner",
+      "source": "評測文章",
+      "recommendations": 6,
+      "highlights": "Consumer Reports 2025 最佳，鹽酸配方去漬力最強，$2.78-$5.49",
+      "position": "深層清潔冠軍（化學強效）"
+    },
+    {
+      "name": "Clorox Clinging Bleach Gel",
+      "source": "評測文章",
+      "recommendations": 5,
+      "highlights": "Reviewed 最佳整體，殺菌 99.9%，$2.82-$5.29",
+      "position": "日常殺菌首選"
+    },
+    {
+      "name": "Clorox ToiletWand Disposable Kit",
+      "source": "評測文章",
+      "recommendations": 5,
+      "highlights": "TODAY 5/5，免存放髒刷子，衛生方便",
+      "position": "最衛生方便的清潔工具"
+    },
+    {
+      "name": "CLR PRO Calcium, Lime, and Rust Remover",
+      "source": "評測文章",
+      "recommendations": 3,
+      "highlights": "EPA Safer Choice，去鈣/石灰/鐵鏽專家",
+      "position": "去礦物質專家"
+    }
+  ],
+  "report_type": "comparison",
+  "top_product": {
+    "asin": "B07876YHWR",
+    "name": "Scrubbing Bubbles Power Stain Destroyer",
+    "score": 0.82
+  },
+  "negative_breakdown_summary": {
+    "functional_failure": "7%（平均，Better Life 對硬水無效是主要問題）",
+    "side_effects": "5%（平均，Scrubbing Bubbles 留色問題）",
+    "logistics": "5%（平均，價格和供貨問題）"
+  },
+  "conclusion": "馬桶清潔是一個成熟且競爭激烈的市場，三款產品分別瞄準不同需求。Scrubbing Bubbles Power Stain Destroyer 在去硬水水垢方面表現卓越（88% 好評），但價格暴漲和可能留下永久藍色汙漬令人擔憂。Better Life 是化糞池/RV 用戶的最佳天然選擇，但對頑固硬水垢無效（16%）。Kadden 浮石刷評價極高（98% 好評），但僅 10 則評論，需更多數據驗證。競品中 Lysol Power（6 篇評測推薦，$2.78 起）和 Clorox Clinging Bleach Gel（5 篇推薦，$2.82 起）在價格和效果上都是強力選手。建議依需求選擇：頑固水垢選 Scrubbing Bubbles 或 Lysol Power，環保/化糞池選 Better Life，物理去漬選浮石刷。",
+  "verdict": "comparison",
+  "verdict_reason": "三款產品各有明確定位（化學去垢、天然環保、物理清潔），且競品市場極為豐富（19 款競品），適合比較報告讓讀者依自身需求選擇。"
+}

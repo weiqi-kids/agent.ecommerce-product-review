@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T15:00:00Z",
+  "last_updated": "2026-03-10T03:00:00Z",
   "products": [
     {
       "asin": "B0DCH8VDXF",
@@ -67,7 +67,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -86,9 +86,9 @@
         "review_count": 41358
       },
       "check_result": {
-        "date": "2026-03-03",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "假貨問題持續存在，無新充電火災事件。無召回公告。",
+        "notes": "無新召回，假貨問題持續但無惡化",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -99,7 +99,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -118,9 +118,9 @@
         "review_count": 5811
       },
       "check_result": {
-        "date": "2026-03-03",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "iCloud Lock 問題持續，翻新品評價尚可。無官方召回或聲明。",
+        "notes": "iCloud Lock為已知設計，無新安全問題",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -245,7 +245,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -269,9 +269,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-03",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "無 2026 新召回，舊召回為 2019 年不同型號。持續監控。",
+        "notes": "無2026新召回，僅2019舊召回記錄",
         "report": "docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"
       }
     },
@@ -282,7 +282,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -301,9 +301,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-01",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "無 2026 召回或品質事件，維持 baseline 狀態。",
+        "notes": "無召回、無新品質事件",
         "report": "docs/Narrator/warnings/hefty-party-cups--2026-02-08.md"
       },
       "recommended_alternative": {
@@ -353,7 +353,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -372,9 +372,9 @@
         "review_count": 1500
       },
       "check_result": {
-        "date": "2026-03-01",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "無 HANYCONY 召回，同類 ANNQUAN/HEZI 品牌有 2026 召回。建議持續監控。"
+        "notes": "無召回；同類ANNQUAN/HEZI仍為召回對象"
       }
     },
     {
@@ -384,7 +384,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -401,9 +401,9 @@
         "avg_rating": 4.3
       },
       "check_result": {
-        "date": "2026-03-01",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "無 HANYCONY 12 口召回，同期 ANNQUAN 12 口已被召回。建議持續監控。"
+        "notes": "無新召回；ANNQUAN 12口召回持續中"
       }
     },
     {
@@ -413,7 +413,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -431,9 +431,9 @@
         "review_count": 50000
       },
       "check_result": {
-        "date": "2026-03-01",
+        "date": "2026-03-10",
         "status": "no_change",
-        "notes": "訴訟持續進行中，無新召回。含量不足問題未解。軟糖風險高於粉末。"
+        "notes": "訴訟持續中，無新召回或判決"
       }
     },
     {
@@ -443,7 +443,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-02-21",
+      "last_checked": "2026-03-10",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -460,9 +460,9 @@
         "missing_content_rate": "8%"
       },
       "check_result": {
-        "date": "2026-03-02",
-        "status": "worsening",
-        "notes": "缺口補齊發現系統性篡改問題嚴重化。Prismatic Evolutions ETB 篡改率 45%、Mega Evo 13%。Amazon TCG 整體篡改率 13-45%。已產出警告報告。",
+        "date": "2026-03-10",
+        "status": "no_change",
+        "notes": "重新密封問題持續，Amazon退貨政策仍為主因",
         "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       }
     },
@@ -473,7 +473,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -499,9 +499,9 @@
         "review_count": 7
       },
       "check_result": {
-        "date": "2026-03-01",
-        "status": "worsening",
-        "notes": "品牌已停止北美銷售，但 Amazon 仍有第三方假貨流通。驗證購買率仍為 0%。",
+        "date": "2026-03-10",
+        "status": "no_change",
+        "notes": "假貨仍流通，品牌已加QR驗證碼",
         "report": "docs/Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md"
       }
     },
@@ -512,7 +512,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-07",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -540,15 +540,9 @@
       },
       "discovery_source": "L5 issue detection from 2026-02-07 extraction",
       "check_result": {
-        "date": "2026-03-01",
+        "date": "2026-03-10",
         "status": "worsening",
-        "notes": "化學/酸腐味投訴持續超過10週，無品牌回應或配方更改公告。嚴重度已從 high 升級至 critical。",
-        "severity_upgrade": {
-          "from": "high",
-          "to": "critical",
-          "date": "2026-03-01",
-          "reason": "問題持續超過10週，無品牌回應"
-        }
+        "notes": "化學味投訴擴散至TikTok/Lemon8/Reddit等多平台，品牌未回應。疑含EU禁用成分Butylphenyl methylpropional。"
       }
     },
     {
@@ -556,9 +550,9 @@
       "name": "NeeDoh Squishy Toy (Liquid-Filled)",
       "category": "squishy-toy",
       "watch_reason": "design_flaw",
-      "severity": "high",
+      "severity": "critical",
       "added_date": "2026-03-01",
-      "last_checked": "2026-03-01",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -581,9 +575,15 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-01",
-        "status": "new_entry",
-        "notes": "Step 8 痛點報告自動加入監控。NeeDoh 液態系列 3 款產品爆裂率 28-56%，屬系統性設計缺陷。",
+        "date": "2026-03-10",
+        "status": "worsening",
+        "notes": "CR致函CPSC要求調查化學灼傷風險，TikTok微波挑戰導致多名兒童燒傷就醫，Schylling已新增警語但未召回。",
+        "severity_upgrade": {
+          "from": "high",
+          "to": "critical",
+          "date": "2026-03-10",
+          "reason": "CR致函CPSC要求調查，TikTok微波挑戰導致兒童燒傷"
+        },
         "report": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md"
       }
     },
@@ -594,7 +594,7 @@
       "watch_reason": "product_integrity",
       "severity": "critical",
       "added_date": "2026-03-02",
-      "last_checked": "2026-03-02",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -617,9 +617,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-02",
-        "status": "new_entry",
-        "notes": "缺口補齊階段發現。Prismatic Evolutions ETB 為 Amazon 平台篡改率最高產品（45%），系統性問題涉及整個 TCG 品類。",
+        "date": "2026-03-10",
+        "status": "no_change",
+        "notes": "無新篡改報告；平台仍有通用竄改問題",
         "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       }
     },
@@ -657,7 +657,7 @@
       "watch_reason": "review_anomaly",
       "severity": "medium",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -677,9 +677,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-03",
-        "status": "new_entry",
-        "notes": "REVIEW_NEEDED 觸發監控。評論異常模式需追蹤確認。",
+        "date": "2026-03-10",
+        "status": "no_change",
+        "notes": "無新召回或操縱報告，異常模式待下次抓取驗證",
         "report": "docs/Narrator/comparisons/water-bottle--2026-03-03.md"
       }
     },
@@ -690,7 +690,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-10",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -710,9 +710,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-03",
-        "status": "new_entry",
-        "notes": "品質危機觸發監控。32% 撕裂率與品牌宣稱的「非凡強度」直接矛盾，4% 過敏反應為安全疑慮。",
+        "date": "2026-03-10",
+        "status": "no_change",
+        "notes": "無召回或新品質問題報告",
         "report": "docs/Narrator/comparisons/disposable-gloves--2026-03-03.md"
       }
     }
@@ -748,21 +748,21 @@
       "name": "foam-playmat",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
-      "action": "supplement_research",
-      "notes": "補齊嘗試 4：WebSearch 22 次完成，WebFetch 僅 1 次（背景代理權限限制）。研究報告已更新 2026-03-01。下次用前台代理補強。",
-      "priority": "medium",
-      "retry_count": 4,
-      "next_retry": "2026-03-06"
+      "action": "completed",
+      "notes": "補齊嘗試 5 成功：WebSearch 42 次 + WebFetch 100 次，達標。競品 28 個（21 有 ASIN）。",
+      "priority": "completed",
+      "retry_count": 5,
+      "completed_date": "2026-03-10"
     },
     {
       "name": "kids-activity-book",
       "watch_reason": "research_gap",
       "added_date": "2026-02-21",
       "action": "supplement_research",
-      "notes": "補齊嘗試 3：排隊等待 foam-playmat 完成後序列執行，今日未執行",
-      "priority": "low",
-      "retry_count": 3,
-      "next_retry": "2026-03-06"
+      "notes": "補齊嘗試 4：WebSearch 30 次 + WebFetch 62 次（歷史最佳但未達 100）。50+ 有 ASIN 競品。多數網站 403/JS-only 阻擋。",
+      "priority": "medium",
+      "retry_count": 4,
+      "next_retry": "2026-03-15"
     }
   ],
   "deferred_categories": [],

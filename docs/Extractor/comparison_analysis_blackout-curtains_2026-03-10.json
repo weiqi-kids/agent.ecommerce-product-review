@@ -1,0 +1,90 @@
+{
+  "category": "blackout-curtains",
+  "date": "2026-03-10",
+  "problem": "阻擋光線進入室內，實現完全遮光以改善睡眠品質和隔熱節能",
+  "products_analyzed": 3,
+  "products": [
+    {
+      "asin": "B09Y33WCRM",
+      "name": "ChrisDowa 100% Blackout Curtains (Double Layer)",
+      "brand": "ChrisDowa",
+      "price": 21.99,
+      "reviews_analyzed": 50,
+      "overall_score": 0.89,
+      "strengths": ["92% 遮光好評", "無化學氣味安全適合嬰兒房", "外觀精美超越價位", "可機洗無起球"],
+      "weaknesses": ["4% 認為非完全遮光（手電筒測試可見微光）", "4% 顏色比照片深"],
+      "negative_breakdown": {
+        "functional_failure": "4%",
+        "side_effects": "0%",
+        "logistics": "2%"
+      }
+    },
+    {
+      "asin": "B09NBC3VTH",
+      "name": "Deconovo Linen-Look 100% Blackout Curtains",
+      "brand": "Deconovo",
+      "price": 38.56,
+      "reviews_analyzed": 50,
+      "overall_score": 0.82,
+      "strengths": ["90% 遮光好評", "亞麻質感外觀高級", "88% 隔熱好評"],
+      "weaknesses": ["8% 顏色與照片不符", "6% 皺摺難以去除", "4% 認為布料偏薄如紙"],
+      "negative_breakdown": {
+        "functional_failure": "4%",
+        "side_effects": "2%",
+        "logistics": "0%"
+      }
+    },
+    {
+      "asin": "B07B3XJ2H8",
+      "name": "Amazon Basics Room Darkening Blackout Curtains",
+      "brand": "Amazon Basics",
+      "price": 23.72,
+      "reviews_analyzed": 50,
+      "overall_score": 0.72,
+      "strengths": ["92% 遮光好評", "92% 隔熱好評（實測降溫 10 度）", "88% 性價比好評"],
+      "weaknesses": ["16% 嚴重皺摺", "10% 背面塗層洗後脫落", "10% 機洗損壞（聲稱可機洗）", "4% 化學氣味"],
+      "negative_breakdown": {
+        "functional_failure": "4%",
+        "side_effects": "14%",
+        "logistics": "2%"
+      }
+    }
+  ],
+  "competitors_without_asin": [
+    {
+      "name": "Sleepout Non-Toxic Blackout Curtains",
+      "source": "評測文章",
+      "recommendations": 5,
+      "highlights": "OEKO-TEX + GreenGuard Gold 雙認證，PFAS-free，$149+",
+      "position": "高端無毒選擇"
+    },
+    {
+      "name": "IKEA MAJGULL Blackout Curtains",
+      "source": "評測文章",
+      "recommendations": 4,
+      "highlights": "Wirecutter 推薦，$38.99/對，機洗不縮水",
+      "position": "平價可靠選擇"
+    },
+    {
+      "name": "Pottery Barn Peace & Quiet Noise-Reducing Blackout Curtain",
+      "source": "評測文章",
+      "recommendations": 4,
+      "highlights": "降噪功能，高端品牌",
+      "position": "高端降噪選擇"
+    }
+  ],
+  "report_type": "comparison",
+  "top_product": {
+    "asin": "B09Y33WCRM",
+    "name": "ChrisDowa 100% Blackout Curtains",
+    "score": 0.89
+  },
+  "negative_breakdown_summary": {
+    "functional_failure": "4%（平均）",
+    "side_effects": "5%（平均，主要為皺摺和背面塗層問題）",
+    "logistics": "1%（平均）"
+  },
+  "conclusion": "三款遮光窗簾都能有效解決遮光問題（90-92% 好評），但各有取捨。ChrisDowa 以雙層設計在遮光、外觀、安全性（無化學氣味）和可洗性方面表現最佳，且價格最低（$21.99）。Amazon Basics 遮光和隔熱一流但背面塗層劣化和洗後損壞問題嚴重（合計 20%）。Deconovo 外觀最高級但價格最高（$38.56）且顏色準確度較差。競品中 IKEA MAJGULL 和評測推薦的 Nicetown/PONY DANCE 等也是強力選擇，建議讀者多方比較。",
+  "verdict": "comparison",
+  "verdict_reason": "三款產品都能解決問題，但各有優缺點，無法單一推薦。ChrisDowa 綜合最佳但競品市場選擇豐富。"
+}

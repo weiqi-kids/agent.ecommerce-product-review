@@ -1,0 +1,75 @@
+{
+  "category": "hallway-runner-rug",
+  "date": "2026-03-10",
+  "problem": "為走廊和廚房提供防滑、耐用、美觀的地面覆蓋物，保護地板並增加舒適度",
+  "products_analyzed": 2,
+  "products": [
+    {
+      "asin": "B07FPQZG6V",
+      "name": "GORILLA GRIP Bath Rug Mat",
+      "brand": "GORILLA GRIP",
+      "price": 11.98,
+      "reviews_analyzed": 50,
+      "overall_score": 0.68,
+      "strengths": ["85% 柔軟度好評", "85% 吸水性好評", "75% 性價比好評"],
+      "weaknesses": ["10% 防滑完全失效（品牌名諷刺性地叫 Gorilla Grip）", "8% 比預期薄", "6% 比預期小"],
+      "negative_breakdown": {
+        "functional_failure": "10%",
+        "side_effects": "0%",
+        "logistics": "6%"
+      }
+    },
+    {
+      "asin": "B07BBTCTHH",
+      "name": "nuLOOM Rigo Hand Woven Jute Runner",
+      "brand": "nuLOOM",
+      "price": null,
+      "reviews_analyzed": 50,
+      "overall_score": 0.35,
+      "strengths": ["75% 外觀好評（新品時美觀）"],
+      "weaknesses": ["28% 嚴重掉毛", "28% 邊緣磨損散開", "16% 發霉異味", "12% 快速劣化"],
+      "negative_breakdown": {
+        "functional_failure": "28%",
+        "side_effects": "16%",
+        "logistics": "6%"
+      }
+    }
+  ],
+  "competitors_without_asin": [
+    {
+      "name": "Ruggable Runner",
+      "source": "評測文章",
+      "recommendations": 4,
+      "highlights": "兩件式可洗，2000+ 設計，$169+",
+      "position": "高端可洗地毯領導品牌"
+    },
+    {
+      "name": "Tumble Runner",
+      "source": "評測文章",
+      "recommendations": 3,
+      "highlights": "防潑灑技術，EVA 泡棉墊，$139+",
+      "position": "中高端防潑灑選擇"
+    },
+    {
+      "name": "Boutique Rugs Runner",
+      "source": "評測文章",
+      "recommendations": 2,
+      "highlights": "一件式可洗，最長 16 英尺，$40-100",
+      "position": "平價可洗選擇"
+    }
+  ],
+  "report_type": "pain_point",
+  "top_product": {
+    "asin": "B07FPQZG6V",
+    "name": "GORILLA GRIP Bath Rug Mat",
+    "score": 0.68
+  },
+  "negative_breakdown_summary": {
+    "functional_failure": "19%（平均，nuLOOM 掉毛散開問題極嚴重）",
+    "side_effects": "8%（平均，nuLOOM 發霉異味）",
+    "logistics": "6%（平均）"
+  },
+  "conclusion": "本類別的兩款已分析產品都有嚴重問題。nuLOOM 黃麻地毯問題極其嚴重：28% 掉毛、28% 散開、16% 發霉，產品聲稱「易清潔維護」與現實完全矛盾，實質上是一款會快速劣化的產品。GORILLA GRIP 浴室地墊雖然柔軟吸水，但 10% 使用者反映防滑功能完全失效（在磁磚地板上滑動），對於以「Gorilla Grip」為品牌名的產品來說是核心功能失效，且更是安全隱患。兩款產品都無法可靠地解決走廊地毯的核心需求（耐用+防滑）。評測文章推薦的 Ruggable 和 Tumble 等可洗地毯品牌可能是更好的選擇，但價格較高。",
+  "verdict": "pain_point",
+  "verdict_reason": "兩款產品都存在嚴重問題：nuLOOM 快速劣化（掉毛+散開+發霉合計 72%），GORILLA GRIP 核心功能（防滑）失效率 10%。走廊地毯市場中平價產品普遍品質不佳。"
+}

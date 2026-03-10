@@ -1,40 +1,40 @@
 {
-  "last_updated": "2026-03-05T15:00:00Z",
-  "last_completed_date": "2026-03-05",
+  "last_updated": "2026-03-10T06:00:00Z",
+  "last_completed_date": "2026-03-10",
   "execution_mode": "daily_standard",
   "current_step": 8,
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "18 個監控產品均未到期，2 個類別重試明天到期。無需執行追蹤動作。"
+      "note": "14 個到期監控產品檢查完成。2 個 worsening（NeeDoh→critical、eos Lotion 持續惡化）、12 個 no_change。"
     },
     "step_2": {
       "status": "completed",
-      "note": "30 份 REVIEW_NEEDED 報告為歷史遺留，無需立即補齊。foam-playmat/kids-activity-book 明天到期。"
+      "note": "foam-playmat 補齊成功（42 WS + 100 WF）。kids-activity-book 部分成功（30 WS + 62 WF，歷史最佳但未達 100）。"
     },
     "step_3": {
       "status": "completed",
-      "note": "Amazon Discovery 完成：262 個不重複產品（5 品類 + all）"
+      "note": "Amazon Discovery 完成：262 個不重複產品（6 品類），101 個新產品 vs 03-06。"
     },
     "step_4": {
       "status": "completed",
-      "note": "199 新產品分組：112 歸入 44 個現有類別、85 建立 59 新類別、2 跳過（數位服務）。總計 638 產品 186 類別。"
+      "note": "58 新產品分組：52 歸入 36 個現有類別、5 建立新類別、1 跳過（數位服務）。總計 711 產品 199 類別。"
     },
     "step_5": {
       "status": "completed",
-      "note": "2 個新類別研究完成（tv-remote-replacement, trash-bags），57 個新類別待後續研究"
+      "note": "5 個新類別研究完成（blackout-curtains, easter-egg-hunt, hallway-runner-rug, holiday-costume-accessories, toilet-bowl-cleaner）。WebFetch 均受網站 403 限制未達 100。"
     },
     "step_6": {
       "status": "completed",
-      "note": "21 ASIN 抓取（18 成功 3 失敗），18 個 L1-L6 萃取完成（1800 則評論）。類別：power-strip(5), trading-cards(3), acne-treatment(3), tv-remote(4), squishy-toy(3)"
+      "note": "155 ASIN 抓取（45 有評論 2120 則），45 個 L1-L6 萃取完成。110 個無評論（新產品或受限制頁面）。"
     },
     "step_7": {
       "status": "completed",
-      "note": "5 類別比較分析完成：power-strip→comparison, acne-treatment→comparison, tv-remote→comparison, trading-cards→warning, squishy-toy→pain_point"
+      "note": "5 類別比較分析完成：blackout-curtains→comparison, easter-egg-hunt→comparison, hallway-runner-rug→pain_point, holiday-costume-accessories→comparison, toilet-bowl-cleaner→comparison"
     },
     "step_8": {
       "status": "completed",
-      "note": "5 份報告產出（3 比較 + 1 警告 + 1 痛點），2 份 REVIEW_NEEDED（tv-remote 研究不足, trading-cards 評論操縱）"
+      "note": "5 份報告產出（4 比較 + 1 痛點），1 份 REVIEW_NEEDED（holiday-costume-accessories 評論量不足）"
     }
   }
 }

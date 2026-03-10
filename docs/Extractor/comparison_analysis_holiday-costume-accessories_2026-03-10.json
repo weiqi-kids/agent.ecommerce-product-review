@@ -1,0 +1,83 @@
+{
+  "category": "holiday-costume-accessories",
+  "date": "2026-03-10",
+  "problem": "為節日派對和萬聖節等活動提供裝扮配件（頭飾、眼鏡、項鍊等），增添歡樂氣氛",
+  "products_analyzed": 3,
+  "products": [
+    {
+      "asin": "B07HHC78NC",
+      "name": "Nicky Bigs Novelties Bug Antenna Headband",
+      "brand": "Nicky Bigs Novelties",
+      "price": null,
+      "reviews_analyzed": 50,
+      "overall_score": 0.82,
+      "strengths": ["92% 外觀好評", "90% 舒適度好評（長時間佩戴不頭痛）", "90% 可彎曲塑形好評"],
+      "weaknesses": ["10% 材質脆弱易斷", "4% 到貨即損壞"],
+      "negative_breakdown": {
+        "functional_failure": "10%",
+        "side_effects": "0%",
+        "logistics": "4%"
+      }
+    },
+    {
+      "asin": "B07HHC1FVY",
+      "name": "Farochy Christmas Tree Headband with Light Necklace",
+      "brand": "Farochy",
+      "price": null,
+      "reviews_analyzed": 50,
+      "overall_score": 0.62,
+      "strengths": ["88% 外觀好評", "75% 性價比好評", "LED 三種閃爍模式"],
+      "weaknesses": ["14% 項鍊 LED 故障", "12% 頭箍太小", "10% 頭重不穩", "8% 做工粗糙"],
+      "negative_breakdown": {
+        "functional_failure": "14%",
+        "side_effects": "10%",
+        "logistics": "8%"
+      }
+    },
+    {
+      "asin": "B07GNVRN12",
+      "name": "Cheerin Silver Alien Headband & Glasses Set",
+      "brand": "Cheerin",
+      "price": null,
+      "reviews_analyzed": 50,
+      "overall_score": 0.55,
+      "strengths": ["85% 裝扮效果好評", "78% 性價比好評"],
+      "weaknesses": ["16% 觸角脫落", "12% 眼鏡到貨即壞", "10% 鏡片過暗看不見", "10% 亮片到處掉", "8% 頭飾易斷"],
+      "negative_breakdown": {
+        "functional_failure": "16%",
+        "side_effects": "10%",
+        "logistics": "12%"
+      }
+    }
+  ],
+  "competitors_without_asin": [
+    {
+      "name": "Meri Meri 派對配件系列",
+      "source": "評測文章",
+      "recommendations": 2,
+      "highlights": "設計導向高端，無重金屬/鄰苯二甲酸酯",
+      "position": "高端安全設計品牌"
+    },
+    {
+      "name": "Great Pretenders 角色扮演配件",
+      "source": "評測文章",
+      "recommendations": 2,
+      "highlights": "安全面料，專注兒童裝扮",
+      "position": "兒童安全裝扮品牌"
+    }
+  ],
+  "report_type": "comparison",
+  "top_product": {
+    "asin": "B07HHC78NC",
+    "name": "Nicky Bigs Novelties Bug Antenna Headband",
+    "score": 0.82
+  },
+  "negative_breakdown_summary": {
+    "functional_failure": "13%（平均，觸角脫落和 LED 故障為主要問題）",
+    "side_effects": "7%（平均，亮片脫落和頭重不穩）",
+    "logistics": "8%（平均，運送損壞普遍）"
+  },
+  "conclusion": "節日裝飾配件整體品質參差不齊，屬於低價一次性用品的典型問題。Nicky Bigs 昆蟲觸角頭飾表現最佳（82%），舒適度出乎意料地高，可長時間佩戴不頭痛，且可自由彎曲塑形。Cheerin 外星人套組問題最多：觸角脫落（16%）、眼鏡到貨即壞（12%）、鏡片過暗（10%）合計近 40% 負面回報。Farochy 聖誕頭飾的 LED 項鍊故障率 14% 令人擔憂。此類產品整體定位為「用一次就丟」，買家應降低耐用性期望。",
+  "verdict": "comparison",
+  "verdict_reason": "三款產品解決同一問題（節日裝扮），但品質差異大。Nicky Bigs 明顯領先但仍有 10% 易斷問題，不足以單獨推薦。此品類本質為低價消耗品。"
+}

@@ -1,0 +1,182 @@
+{
+  "date": "2026-03-10",
+  "total_new_products": 58,
+  "existing_categories_added": 52,
+  "new_categories_created": 5,
+  "skipped": 1,
+  "categories": {
+    "existing": [
+      {
+        "name": "action-figure",
+        "new_products": 2
+      },
+      {
+        "name": "air-purifier",
+        "new_products": 1
+      },
+      {
+        "name": "art-supplies",
+        "new_products": 3
+      },
+      {
+        "name": "bathroom-rug",
+        "new_products": 1
+      },
+      {
+        "name": "board-games",
+        "new_products": 1
+      },
+      {
+        "name": "body-moisturizing",
+        "new_products": 2
+      },
+      {
+        "name": "bubble-toy",
+        "new_products": 1
+      },
+      {
+        "name": "collectible-coins",
+        "new_products": 2
+      },
+      {
+        "name": "e-reader",
+        "new_products": 2
+      },
+      {
+        "name": "early-learning-toy",
+        "new_products": 1
+      },
+      {
+        "name": "electrolyte-hydration",
+        "new_products": 1
+      },
+      {
+        "name": "facial-cleanser",
+        "new_products": 2
+      },
+      {
+        "name": "facial-hair-removal",
+        "new_products": 1
+      },
+      {
+        "name": "flushable-wipes",
+        "new_products": 3
+      },
+      {
+        "name": "high-protein-snack",
+        "new_products": 2
+      },
+      {
+        "name": "hvac-air-filter",
+        "new_products": 1
+      },
+      {
+        "name": "kids-casual-clogs",
+        "new_products": 2
+      },
+      {
+        "name": "kitchen-scale",
+        "new_products": 1
+      },
+      {
+        "name": "laundry-stain",
+        "new_products": 1
+      },
+      {
+        "name": "noise-cancelling-headphone",
+        "new_products": 1
+      },
+      {
+        "name": "party-backdrop",
+        "new_products": 1
+      },
+      {
+        "name": "portable-carpet-cleaner",
+        "new_products": 1
+      },
+      {
+        "name": "postpartum-incontinence",
+        "new_products": 1
+      },
+      {
+        "name": "potting-soil",
+        "new_products": 1
+      },
+      {
+        "name": "power-strip",
+        "new_products": 1
+      },
+      {
+        "name": "probiotic-supplement",
+        "new_products": 1
+      },
+      {
+        "name": "squishy-toy",
+        "new_products": 5
+      },
+      {
+        "name": "tablet-computer",
+        "new_products": 1
+      },
+      {
+        "name": "toothpaste",
+        "new_products": 1
+      },
+      {
+        "name": "toy-cars",
+        "new_products": 1
+      },
+      {
+        "name": "tv-remote-replacement",
+        "new_products": 1
+      },
+      {
+        "name": "video-doorbell",
+        "new_products": 1
+      },
+      {
+        "name": "water-bottle",
+        "new_products": 1
+      },
+      {
+        "name": "wild-bird-feed",
+        "new_products": 1
+      },
+      {
+        "name": "wireless-bra",
+        "new_products": 1
+      },
+      {
+        "name": "wireless-earbuds",
+        "new_products": 2
+      }
+    ],
+    "new": [
+      {
+        "name": "blackout-curtains",
+        "products": 1,
+        "description": "臥室遮光隔熱窗簾"
+      },
+      {
+        "name": "easter-egg-hunt",
+        "products": 1,
+        "description": "復活節彩蛋尋寶遊戲道具"
+      },
+      {
+        "name": "hallway-runner-rug",
+        "products": 1,
+        "description": "走廊/廚房止滑可洗長條地毯"
+      },
+      {
+        "name": "holiday-costume-accessories",
+        "products": 1,
+        "description": "節日主題派對裝飾配件（聖派翠克、復活節等）"
+      },
+      {
+        "name": "toilet-bowl-cleaner",
+        "products": 1,
+        "description": "馬桶清潔殺菌除垢"
+      }
+    ]
+  }
+}

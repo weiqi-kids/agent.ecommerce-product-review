@@ -1,14 +1,16 @@
 # 產品問題分組
 
-最後更新：2026-03-05
+最後更新：2026-03-10
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：638
-問題類別數：186
+產品總數：711
+問題類別數：199
 分組原則：按具體問題分組（v2 - 問題導向）
 本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
 本次更新（2026-03-04）：17 個產品歸入現有類別（water-bottle x2、paper-towels、collectible-coins x6、toilet-paper x2、aa-batteries、cotton-swabs、bread-toaster、electrolyte-hydration、wireless-earbuds、disposable-plates）；新增 7 個類別（7 個產品）；跳過 16 個（5 Best Buy 數位產品 + 11 已存在昨日分組/重複）
 本次更新（2026-03-05）：112 個產品歸入現有類別（aa-batteries x2、acne-treatment x3、action-figure、art-supplies x6、bath-toys x2、board-games、body-moisturizing x4、building-blocks x2、collectible-coins、cotton-swabs、creatine-supplement x2、disposable-plates、e-reader x2、electrolyte-hydration、exfoliating-toner、face-moisturizing x2、facial-cleanser、flushable-wipes x3、giant-teddy-bear、high-protein-snack x2、item-tracker x2、kids-bike、kitchen-scale、laundry-stain x2、makeup-removal、natural-deodorant、noise-cancelling-headphone x3、oil-sprayer x2、paper-towels x5、party-balloon x7、pillow-case、playing-cards、postpartum-incontinence、potting-soil、power-strip x6、probiotic-supplement、squishy-toy x11、streaming-stick x5、sun-protection、tablet-computer、toilet-paper x5、trading-cards x5、video-doorbell、wireless-earbuds x8）；新增 59 個類別（85 個產品）；跳過 2 個（數位服務/訂閱）
+本次更新（2026-03-06）：8 個產品歸入現有類別（disposable-gloves x2、toilet-paper、paper-towels、trading-cards、board-games x2、shower-curtain-liner）；新增 8 個類別（8 個產品）；跳過 1 個（已存在於分組）
+本次更新（2026-03-10）：52 個產品歸入現有類別（action-figure x2、air-purifier、art-supplies x3、bathroom-rug、board-games、body-moisturizing x2、bubble-toy、collectible-coins x2、e-reader x2、early-learning-toy、electrolyte-hydration、facial-cleanser x2、facial-hair-removal、flushable-wipes x3、high-protein-snack x2、hvac-air-filter、kids-casual-clogs x2、kitchen-scale、laundry-stain、noise-cancelling-headphone、party-backdrop、portable-carpet-cleaner、postpartum-incontinence、potting-soil、power-strip、probiotic-supplement、squishy-toy x5、tablet-computer、toothpaste、toy-cars、tv-remote-replacement、video-doorbell、water-bottle、wild-bird-feed、wireless-bra、wireless-earbuds x2）；新增 5 個類別（5 個產品）；跳過 1 個（數位服務/訂閱）
 
 ---
 
@@ -16,7 +18,7 @@
 
 | 問題類別 | 問題描述 | 產品數 | 研究狀態 |
 |---------|---------|-------|---------|
-| body-moisturizing | 身體皮膚乾燥保濕 | 12 | ⚠️ 需補充 |
+| body-moisturizing | 身體皮膚乾燥保濕 | 14 | ⚠️ 需補充 |
 | face-moisturizing | 臉部保濕護理 | 11 | ⚠️ 需補充 |
 | hand-care | 手部乾裂護理 | 1 | ✅ 已完成 |
 | anti-aging-serum | 抗老化精華護理 | 5 | ⚠️ 需補充 |
@@ -37,7 +39,7 @@
 | weighted-vest | 負重背心 | 1 | ⚠️ 需補充 |
 | walking-pad | 走步機 | 1 | ⚠️ 需補充 |
 | floor-mopping | 地板拖把清潔 | 4 | ⚠️ 需補充 |
-| laundry-stain | 衣物去污 | 6 | ⚠️ 需補充 |
+| laundry-stain | 衣物去污 | 7 | ⚠️ 需補充 |
 | dish-sponge | 洗碗海綿 | 1 | ⚠️ 需補充 |
 | drain-clog | 排水管堵塞 | 2 | ✅ 已完成 |
 | diaper-rash | 尿布疹護理 | 1 | ✅ 已完成 |
@@ -45,16 +47,16 @@
 | bath-toys | 洗澡玩具 | 3 | ⚠️ 需補充 |
 | baby-car-monitor | 車用嬰兒監視器 | 1 | ⚠️ 需補充 |
 | building-blocks | 積木組裝玩具 | 17 | ⚠️ 需補充 |
-| board-games | 桌遊 | 2 | ⚠️ 需補充 |
-| art-supplies | 繪畫用品 | 8 | ⚠️ 需補充 |
-| trading-cards | 收藏卡牌遊戲 | 9 | ✅ 已完成 |
+| board-games | 桌遊 | 5 | ⚠️ 需補充 |
+| art-supplies | 繪畫用品 | 11 | ⚠️ 需補充 |
+| trading-cards | 收藏卡牌遊戲 | 10 | ✅ 已完成 |
 | playing-cards | 撲克牌 | 2 | ✅ 已完成 |
 | kids-tent | 兒童遊戲帳篷 | 1 | ✅ 已完成 |
 | party-balloon | 派對氣球 | 8 | ⚠️ 需補充 |
 | valentine-cards | 情人節卡片禮物 | 3 | ⚠️ 需補充 |
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
 | streaming-stick | 電視串流棒 | 13 | ✅ 已完成 |
-| noise-cancelling-headphone | 降噪耳機 | 5 | ✅ 已完成 |
+| noise-cancelling-headphone | 降噪耳機 | 6 | ✅ 已完成 |
 | item-tracker | 物品追蹤器 | 4 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
 | hand-warmer | 手部暖暖包 | 2 | ⚠️ 需補充 |
@@ -63,12 +65,12 @@
 | wound-bandage | 傷口OK繃 | 1 | ✅ 已完成 |
 | acid-reflux-medicine | 胃酸逆流藥物 | 1 | ✅ 已完成 |
 | pepper-spray | 防身胡椒噴霧 | 1 | ✅ 已完成 |
-| power-strip | 延長線插座 | 9 | ✅ 已完成 |
+| power-strip | 延長線插座 | 10 | ✅ 已完成 |
 | slow-cooker | 慢燉鍋 | 1 | ⚠️ 需補充 |
 | baking-sheet | 烤盤 | 1 | ⚠️ 需補充 |
 | parchment-paper | 烘焙紙 | 1 | ⚠️ 需補充 |
 | dresser-drawer | 抽屜收納櫃 | 1 | ⚠️ 需補充 |
-| squishy-toy | 減壓軟軟玩具 | 16 | ✅ 已完成 |
+| squishy-toy | 減壓軟軟玩具 | 21 | ✅ 已完成 |
 | body-firming | 身體皮膚緊緻塑形 | 1 | ⏳ 待研究 |
 | nail-glue | 美甲固定膠 | 1 | ⏳ 待研究 |
 | party-tableware | 派對一次性餐具 | 1 | ⏳ 待研究 |
@@ -77,7 +79,7 @@
 | mascara | 睫毛增長加密 | 6 | ⏳ 待研究 |
 | makeup-removal | 卸妝清潔 | 9 | ⏳ 待研究 |
 | eye-puffiness | 眼部浮腫黑眼圈 | 1 | ⏳ 待研究 |
-| facial-cleanser | 臉部清潔洗面乳 | 5 | ⏳ 待研究 |
+| facial-cleanser | 臉部清潔洗面乳 | 7 | ⏳ 待研究 |
 | hydrating-serum | 保濕精華液 | 1 | ⏳ 待研究 |
 | exfoliating-toner | 去角質化妝水 | 3 | ⏳ 待研究 |
 | natural-deodorant | 天然體香劑 | 2 | ⏳ 待研究 |
@@ -85,12 +87,12 @@
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
 | collagen-mask | 膠原蛋白面膜 | 3 | ⏳ 待研究 |
-| wireless-earbuds | 無線藍牙耳機 | 18 | ⏳ 待研究 |
-| e-reader | 電子書閱讀器 | 4 | ⏳ 待研究 |
-| video-doorbell | 智慧門鈴監控 | 3 | ⏳ 待研究 |
-| electrolyte-hydration | 電解質補充 | 4 | ⏳ 待研究 |
-| probiotic-supplement | 益生菌補充 | 3 | ⏳ 待研究 |
-| flushable-wipes | 可沖式濕紙巾 | 5 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 20 | ⏳ 待研究 |
+| e-reader | 電子書閱讀器 | 6 | ⏳ 待研究 |
+| video-doorbell | 智慧門鈴監控 | 4 | ⏳ 待研究 |
+| electrolyte-hydration | 電解質補充 | 5 | ⏳ 待研究 |
+| probiotic-supplement | 益生菌補充 | 4 | ⏳ 待研究 |
+| flushable-wipes | 可沖式濕紙巾 | 8 | ⏳ 待研究 |
 | hair-styling-hold | 頭髮定型噴霧 | 2 | ⏳ 待研究 |
 | hair-repair-treatment | 受損髮質修復 | 2 | ⏳ 待研究 |
 | hair-frizz-control | 抗毛躁護髮 | 2 | ⏳ 待研究 |
@@ -100,11 +102,11 @@
 | kids-bike | 兒童腳踏車 | 10 | ⏳ 待研究 |
 | ride-on-toy | 騎乘玩具 | 5 | ⏳ 待研究 |
 | giant-teddy-bear | 大型絨毛玩具 | 4 | ⏳ 待研究 |
-| action-figure | 角色公仔 | 4 | ⏳ 待研究 |
-| toy-cars | 玩具車模型 | 2 | ⏳ 待研究 |
-| disposable-gloves | 一次性手套/醫療手套 | 4 | ✅ 已完成 |
-| water-bottle | 保溫瓶/隨身水壺 | 6 | ✅ 已完成 |
-| kitchen-scale | 廚房秤/食物秤 | 3 | ✅ 已完成 |
+| action-figure | 角色公仔 | 6 | ⏳ 待研究 |
+| toy-cars | 玩具車模型 | 3 | ⏳ 待研究 |
+| disposable-gloves | 一次性手套/醫療手套 | 6 | ✅ 已完成 |
+| water-bottle | 保溫瓶/隨身水壺 | 7 | ✅ 已完成 |
+| kitchen-scale | 廚房秤/食物秤 | 4 | ✅ 已完成 |
 | interactive-pet-toy | 互動式電子寵物玩具 | 1 | ⏳ 待研究 |
 | monster-truck-toy | 怪獸卡車玩具模型 | 1 | ⏳ 待研究 |
 | electric-cooktop | 額外電磁爐/電陶爐煮食 | 2 | ⏳ 待研究 |
@@ -112,46 +114,46 @@
 | range-hood | 廚房油煙排除 | 2 | ⏳ 待研究 |
 | window-ac | 窗型冷氣降溫 | 1 | ⏳ 待研究 |
 | glass-food-storage | 玻璃食物保存容器 | 1 | ⏳ 待研究 |
-| postpartum-incontinence | 產後尿失禁防護 | 2 | ⏳ 待研究 |
+| postpartum-incontinence | 產後尿失禁防護 | 3 | ⏳ 待研究 |
 | meal-replacement-protein-shake | 高蛋白餐替代奶昔 | 4 | ⏳ 待研究 |
-| high-protein-snack | 高蛋白低碳水零食 | 3 | ⏳ 待研究 |
+| high-protein-snack | 高蛋白低碳水零食 | 5 | ⏳ 待研究 |
 | baby-diaper | 嬰兒尿布防漏護膚 | 2 | ⏳ 待研究 |
 | air-mattress | 充氣床墊臨時睡眠 | 1 | ⏳ 待研究 |
 | dry-dog-food | 寵物犬日常乾糧 | 4 | ⏳ 待研究 |
 | indoor-cat-food | 室內貓乾糧體重控制 | 1 | ⏳ 待研究 |
-| potting-soil | 盆栽培養土 | 2 | ⏳ 待研究 |
-| wild-bird-feed | 後院野鳥飼料 | 1 | ⏳ 待研究 |
+| potting-soil | 盆栽培養土 | 3 | ⏳ 待研究 |
+| wild-bird-feed | 後院野鳥飼料 | 2 | ⏳ 待研究 |
 | water-softener-salt | 軟水機鹽/水垢問題 | 1 | ⏳ 待研究 |
 | damage-free-wall-hanging | 免釘痕掛鉤/牆面掛圖 | 1 | ⏳ 待研究 |
 | travel-packing-organization | 旅行行李收納整理 | 1 | ⏳ 待研究 |
 | tortilla-press | 手工玉米餅壓製 | 1 | ⏳ 待研究 |
-| toilet-paper | 廁所衛生紙舒適度與耐用性 | 11 | ⏳ 待研究 |
-| paper-towels | 廚房吸水紙巾清潔吸水性 | 8 | ⏳ 待研究 |
-| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 13 | ⏳ 待研究 |
+| toilet-paper | 廁所衛生紙舒適度與耐用性 | 12 | ⏳ 待研究 |
+| paper-towels | 廚房吸水紙巾清潔吸水性 | 9 | ⏳ 待研究 |
+| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 15 | ⏳ 待研究 |
 | cotton-swabs | 棉花棒個人衛生清潔 | 3 | ⏳ 待研究 |
 | aa-batteries | AA 鹼性電池長效續電 | 4 | ⏳ 待研究 |
 | bread-toaster | 家用烤麵包機吐司加熱 | 2 | ⏳ 待研究 |
 | oil-sprayer | 食用油噴霧器控量均勻噴灑 | 4 | ⏳ 待研究 |
 | disposable-plates | 一次性免洗紙盤便利用餐 | 3 | ⏳ 待研究 |
 | 3d-printer-filament | 3D 列印用 PLA 線材耗材 | 1 | ⏳ 待研究 |
-| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 2 | ⏳ 待研究 |
+| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 3 | ⏳ 待研究 |
 | super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
 | mens-underwear | 男性底褲舒適透氣 | 1 | ⏳ 待研究 |
 | womens-yoga-pants | 女性瑜珈/運動褲 | 1 | ⏳ 待研究 |
-| wireless-bra | 無鋼圈無線胸罩舒適支撐 | 1 | ⏳ 待研究 |
+| wireless-bra | 無鋼圈無線胸罩舒適支撐 | 2 | ⏳ 待研究 |
 | womens-basic-tops | 女性基本款上衣 | 1 | ⏳ 待研究 |
 | meat-thermometer | 肉類食物溫度精確測量 | 1 | ⏳ 待研究 |
 | kids-casual-shoes | 兒童日常休閒鞋 | 1 | ⏳ 待研究 |
 | wired-earphones | 有線耳機 USB-C 連接高品質聲音 | 1 | ⏳ 待研究 |
 
-| air-purifier | 室內空氣淨化過濾 | 1 | ⏳ 待研究 |
+| air-purifier | 室內空氣淨化過濾 | 2 | ⏳ 待研究 |
 | ant-control | 室內螞蟻防治 | 1 | ⏳ 待研究 |
-| bathroom-rug | 浴室防滑吸水地墊 | 1 | ⏳ 待研究 |
+| bathroom-rug | 浴室防滑吸水地墊 | 2 | ⏳ 待研究 |
 | bed-frame | 床架收納支撐 | 1 | ⏳ 待研究 |
 | bed-pillows | 睡眠枕頭支撐舒適 | 2 | ⏳ 待研究 |
 | bed-sheets | 床單組舒適透氣 | 4 | ⏳ 待研究 |
 | brow-pencil | 眉筆眉毛塑形 | 1 | ⏳ 待研究 |
-| bubble-toy | 防灑泡泡玩具 | 1 | ⏳ 待研究 |
+| bubble-toy | 防灑泡泡玩具 | 2 | ⏳ 待研究 |
 | cable-management | 線材整理收納 | 2 | ⏳ 待研究 |
 | clothes-hangers | 衣架收納節省空間 | 2 | ⏳ 待研究 |
 | collagen-supplement | 膠原蛋白肽粉關節皮膚保健 | 2 | ⏳ 待研究 |
@@ -159,22 +161,22 @@
 | disinfecting-wipes | 居家表面消毒清潔 | 2 | ⏳ 待研究 |
 | dog-door-mat | 寵物/玄關吸水腳踏墊 | 1 | ⏳ 待研究 |
 | dryer-vent-cleaner | 烘衣機通風管堵塞清潔 | 1 | ⏳ 待研究 |
-| early-learning-toy | 幼兒早教有聲學習 | 2 | ⏳ 待研究 |
+| early-learning-toy | 幼兒早教有聲學習 | 3 | ⏳ 待研究 |
 | earphone-accessories | 耳機替換配件 | 1 | ⏳ 待研究 |
 | eye-redness-relief | 眼睛紅血絲舒緩 | 1 | ⏳ 待研究 |
 | eyeliner | 防水眼線妝容 | 1 | ⏳ 待研究 |
-| facial-hair-removal | 臉部除毛修容 | 1 | ⏳ 待研究 |
+| facial-hair-removal | 臉部除毛修容 | 2 | ⏳ 待研究 |
 | flower-seeds | 花卉種植種子 | 1 | ⏳ 待研究 |
 | flying-insect-trap | 室內飛蟲誘捕消滅 | 1 | ⏳ 待研究 |
 | food-storage-bags | 食物保鮮密封袋 | 1 | ⏳ 待研究 |
 | hair-ties | 無痛髮圈綁髮 | 1 | ⏳ 待研究 |
 | home-security-camera | 居家無線安防監控 | 1 | ⏳ 待研究 |
 | humidifier | 室內加濕緩解乾燥 | 1 | ⏳ 待研究 |
-| hvac-air-filter | HVAC 空調濾網過敏原過濾 | 2 | ⏳ 待研究 |
+| hvac-air-filter | HVAC 空調濾網過敏原過濾 | 3 | ⏳ 待研究 |
 | infant-sensory-toy | 嬰兒感官刺激抓握 | 4 | ⏳ 待研究 |
 | instant-film | 拍立得即時成像底片 | 1 | ⏳ 待研究 |
 | insulated-tumbler | 保溫隨行杯咖啡保溫 | 1 | ⏳ 待研究 |
-| kids-casual-clogs | 兒童休閒洞洞鞋 | 1 | ⏳ 待研究 |
+| kids-casual-clogs | 兒童休閒洞洞鞋 | 3 | ⏳ 待研究 |
 | laundry-hamper | 洗衣籃收納摺疊 | 1 | ⏳ 待研究 |
 | lip-color | 持久唇彩唇釉 | 1 | ⏳ 待研究 |
 | magnesium-supplement | 鎂補充助眠抗壓 | 1 | ⏳ 待研究 |
@@ -187,22 +189,35 @@
 | omega3-supplement | Omega-3 魚油心血管保健 | 1 | ⏳ 待研究 |
 | outdoor-throw-toy | 戶外投擲飛行玩具 | 1 | ⏳ 待研究 |
 | paper-napkins | 紙餐巾清潔擦拭 | 1 | ⏳ 待研究 |
-| party-backdrop | 派對裝飾背景布幕 | 1 | ⏳ 待研究 |
+| party-backdrop | 派對裝飾背景布幕 | 2 | ⏳ 待研究 |
 | picture-frame | 相片展示掛牆相框 | 1 | ⏳ 待研究 |
 | portable-bluetooth-speaker | 可攜式藍牙音樂播放 | 1 | ⏳ 待研究 |
-| portable-carpet-cleaner | 地毯/布質清洗汙漬去除 | 1 | ⏳ 待研究 |
+| portable-carpet-cleaner | 地毯/布質清洗汙漬去除 | 2 | ⏳ 待研究 |
 | shower-curtain-hooks | 浴簾掛鉤防鏽滑順 | 1 | ⏳ 待研究 |
-| shower-curtain-liner | 浴簾/內襯防水防霉 | 5 | ⏳ 待研究 |
+| shower-curtain-liner | 浴簾/內襯防水防霉 | 6 | ⏳ 待研究 |
 | smart-speaker | 語音助理智慧音箱 | 1 | ⏳ 待研究 |
 | smartwatch | 智慧手錶健康追蹤 | 1 | ⏳ 待研究 |
 | throw-pillow-inserts | 抱枕芯裝飾填充 | 2 | ⏳ 待研究 |
-| toothpaste | 口腔清潔牙齒保健 | 1 | ⏳ 待研究 |
+| toothpaste | 口腔清潔牙齒保健 | 2 | ⏳ 待研究 |
 | trash-bags | 廚房垃圾袋防漏防臭 | 1 | ⏳ 待研究 |
-| tv-remote-replacement | 電視遙控器遺失替換 | 4 | ⏳ 待研究 |
+| tv-remote-replacement | 電視遙控器遺失替換 | 5 | ⏳ 待研究 |
 | tv-wall-mount | 電視壁掛安裝固定 | 2 | ⏳ 待研究 |
 | upright-vacuum | 直立式吸塵器居家清潔 | 1 | ⏳ 待研究 |
 | vaginal-probiotic | 陰道菌群平衡護理 | 1 | ⏳ 待研究 |
 | washing-machine-cleaner | 洗衣機內部清潔除臭 | 1 | ⏳ 待研究 |
+| 3d-printer-filament | 3D列印耗材品質（列印精度、堵頭） | 1 | ⏳ 待研究 |
+| super-glue | 快乾強力黏合劑（黏合強度、防漏） | 1 | ⏳ 待研究 |
+| interactive-plush-toy | 互動電子絨毛玩具（回應互動、音效） | 1 | ⏳ 待研究 |
+| collectible-doll | 收藏型人偶娃娃（造型精緻度、收藏價值） | 1 | ⏳ 待研究 |
+| disposable-cups | 一次性派對飲料杯（耐用度、防漏） | 1 | ⏳ 待研究 |
+| duvet-cover | 被套更換（觸感舒適、透氣、洗滌耐久） | 1 | ⏳ 待研究 |
+| blind-box-collectible | 盲盒收藏玩具（隨機款式、品質） | 1 | ⏳ 待研究 |
+| memory-foam-mattress | 記憶棉床墊舒適支撐（睡眠、散熱） | 1 | ⏳ 待研究 |
+| blackout-curtains | 臥室遮光隔熱窗簾 | 1 | ⏳ 待研究 |
+| easter-egg-hunt | 復活節彩蛋尋寶遊戲道具 | 1 | ⏳ 待研究 |
+| hallway-runner-rug | 走廊/廚房止滑可洗長條地毯 | 1 | ⏳ 待研究 |
+| holiday-costume-accessories | 節日主題派對裝飾配件（聖派翠克、復活節等） | 1 | ⏳ 待研究 |
+| toilet-bowl-cleaner | 馬桶清潔殺菌除垢 | 1 | ⏳ 待研究 |
 ---
 
 ## 詳細分組
@@ -233,6 +248,8 @@
 | B0BT1WL6KY | Method Body Wash, Simply Nourish, Paraben and Phthalate Free | 保濕沐浴乳 |
 | B00MEDOY2G | Dove Body Wash Deep Moisture for 24hr Lotion-Soft Skin Moist | 保濕沐浴乳 |
 | B0BX2TZZWG | Tree Hut Vanilla Shea Sugar Exfoliating & Hydrating Body Scr | 身體磨砂膏 |
+| B000YJ2SLG | CeraVe Daily Moisturizing Lotion for Dry Skin | 神經醯胺身體保濕乳 |
+| B0060OUV5Y | La Roche-Posay Cicaplast Balm B5 | 修護舒緩多效霜 |
 
 **研究文件**：`research/body-moisturizing--2026-02-06.md`
 **競品文件**：`competitors/body-moisturizing--2026-02-06.md`
@@ -686,6 +703,7 @@
 | B0BSNXFDML | ARM & HAMMER Plus OxiClean Odor Blasters | 除臭洗衣精 |
 | B01EIG6A4Q | Miss Mouth's Messy Eater Stain Treater Spray - 4oz Stain Rem | 去污噴劑 |
 | B0BJMV9BXJ | Tide PODS laundry detergent pacs, 3-in-1 Stain Remover, Odor | 洗衣膠囊 |
+| B085V5PPP8 | Tide Laundry Detergent Liquid Original Scent | 洗衣精去污 |
 
 **研究文件**：`research/laundry-stain--2026-02-06.md`
 **競品文件**：`competitors/laundry-stain--2026-02-06.md`
@@ -879,6 +897,9 @@
 | 878142 | UNO Card Game | 經典桌遊 (Walmart) |
 | 844802217 | Let's Get Deep Intimacy Card Game | 派對遊戲 (Walmart) |
 | B0DWGVM7RY | USAOPOLY Flip 7, The Ultimate Blend of Press Your Luck & Str | 策略卡牌桌遊 |
+| B07MWJ699K | Hasbro Gaming Guess Who? Card Game for Kids, 2 Player Guessing Game | 經典猜人桌遊 |
+| B0D87PKYYK | Official Hasbro Games Jenga Game, Digital Die for 6 More Ways to Play | 經典積木疊疊樂 |
+| B00TXI1NEW | Mattel Games UNO Splash Card Game Waterproof | UNO防水卡牌遊戲 |
 
 **研究文件**：`research/board-games--2026-02-06.md`
 **競品文件**：`competitors/board-games--2026-02-06.md`
@@ -907,6 +928,9 @@
 | B0CTHQJF57 | JoyCat Paint with Water Coloring Books for Toddlers, Waterco | 水彩/著色本 |
 | B084SKWCBS | Sunny Days Entertainment Sidewalk Chalk Set for Kids with St | 人行道粉筆 |
 | B07D4T2XKB | Crayola Mini Twistables Crayons for Kids (50ct), Essential E | 可水洗彩色筆/蠟筆 |
+| B08LQYT546 | Crayola Clicks Retractable Tip Markers 10ct | 可洗伸縮彩色筆 |
+| B01LYCJ3ND | Melissa & Doug Water Wow! Mess Free Coloring Book | 水畫著色活動冊 |
+| B08QQRFQNC | Creative Roots Paint Your Own Bunny Garden Stone | 兔子花園石頭彩繪 |
 
 **研究文件**：`research/art-supplies--2026-02-06.md`
 **競品文件**：`competitors/art-supplies--2026-02-06.md`
@@ -935,6 +959,7 @@
 | B0FR717633 | Magic: The Gathering | Teenage Mutant Ninja Turtles - Comman | MTG 指揮官套牌 |
 | B0F77H6XC5 | Pokemon Scarlet & Violet Destined Rivals Sleeve Booster | 收藏卡牌補充包 |
 | B0G3CY83L5 | Pokémon TCG: Mega Evolution—Ascended Heroes Elite Trainer Bo | 收藏卡牌補充包 |
+| B0GG11K25W | Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle | 收藏卡牌補充包 |
 
 **研究文件**：`research/trading-cards--2026-02-06.md`
 **競品文件**：`competitors/trading-cards--2026-02-06.md`
@@ -1098,6 +1123,7 @@
 | B0C3HCD34R | Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headp | 降噪耳機 |
 | B0CZPLV566 | Beats Solo 4 - Wireless On-Ear Bluetooth Headphones, Up to 5 | 頭戴式藍牙耳機 |
 | B09LYF2ST7 | BERIBES Bluetooth Headphones Over Ear, 65H Playtime and 6 EQ | 頭戴式藍牙耳機 |
+| B0C8PR4W22 | Beats Studio Pro Wireless Over-Ear Headphones | 主動降噪耳罩式耳機 |
 
 **研究文件**：`research/noise-cancelling-headphone--2026-02-06.md`
 **競品文件**：`competitors/noise-cancelling-headphone--2026-02-06.md`
@@ -1296,6 +1322,7 @@
 | B0DZ254SSR | 10Ft Extension Cord with Multiple Outlets, Flat Plug Surge P | 延長線/突波保護器 |
 | B08MTBCXWX | 6Ft Power Strip Surge Protector - Yintar Extension Cord with | 延長線/突波保護器 |
 | B0BLTYNJCK | TESSAN Surge Protector Power Strip, 5 Ft Flat Plug Extension | 延長線/突波保護器 |
+| B0CX93B7MX | Olcorife Flat Extension Cord with Outlet Cover | 扁插頭延長線 |
 
 **研究文件**：`research/power-strip--2026-02-06.md`
 **競品文件**：`competitors/power-strip--2026-02-06.md`
@@ -1408,6 +1435,11 @@
 | B0G36Z353F | Squishmallows and Hello Kitty Gelli Gels | 減壓捏捏玩具 |
 | B09LMBLYF1 | Easter Basket Stuffers,Transformable Fidget Spinners Toys 4  | 指尖紓壓玩具 |
 | B0BVNSDG2W | nobasco Squishies, 26 Pack Mochi Squishy Toys - Kawaii Cat S | 減壓捏捏玩具 |
+| B0DR7MLG17 | Schylling NeeDoh Nice Cube Sensory Squeeze Toy | 感官擠壓方塊 |
+| B0F7M16P52 | Taba Squishy Slow Rising Stress Balls | 慢回彈紓壓玩具 |
+| B0GQFMT58D | Glitter Dumpling Squishy Sensory Squeeze Toy | 亮片水餃紓壓玩具 |
+| B09T8PH369 | Easter Basket Stuffers 4 Pack Squishy Bunny Stress Balls | 復活節兔子紓壓球 |
+| B0DJ1NTQXZ | Schylling Needoh Nice Cube Sensory Toy 3 Pack | 擠壓方塊3入組 |
 
 **研究文件**：`research/squishy-toy--2026-02-06.md`
 **競品文件**：`competitors/squishy-toy--2026-02-06.md`
@@ -1604,6 +1636,8 @@
 |-----------|---------|---------------|
 | B01MSSDEPK | CeraVe Hydrating Facial Cleanser | 保濕型洗面乳 |
 | B00QY1XZ4W | Vanicream Gentle Facial Cleanser with Pump Dispenser - 8 fl  | 低敏洗面乳 |
+| B01N34XW93 | La Roche-Posay Toleriane Purifying Foaming Cleanser | 油性肌泡沫洗面乳 |
+| B01N7T7JKJ | La Roche-Posay Toleriane Hydrating Gentle Face Cleanser | 保濕溫和洗面乳 |
 
 **研究文件**：`research/facial-cleanser--{date}.md`
 **競品文件**：`competitors/facial-cleanser--{date}.md`
@@ -1786,6 +1820,8 @@
 | B09FT58QQP | TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear I | 無線藍牙耳機 |
 | B09FLNSYDZ | bmani Ear Buds Wireless Earbuds Bluetooth Headphones with 80 | 無線藍牙耳機 |
 | B0C3W4MNN1 | PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime | 無線藍牙耳機 |
+| B0BQPNMXQV | JBL Vibe Beam True Wireless Earbuds | 真無線藍牙耳機 |
+| B0FHWKYT89 | Wireless Earbuds Bluetooth 5.4 Headphones | 藍牙5.4降噪耳機 |
 
 **研究文件**：`research/wireless-earbuds--{date}.md`
 **競品文件**：`competitors/wireless-earbuds--{date}.md`
@@ -1917,6 +1953,7 @@
 | B01IT9NLHW | Liquid I.V. Hydration Multiplier | 電解質粉 | Amazon |
 | B07SH31T9V | LMNT Zero Sugar Electrolytes Raspberry Salt 30-Count | 電解質粉 | Amazon |
 | B08XQZX9K3 | Ultima Replenisher Daily Electrolyte Powder – Original Varie | 電解質粉 |
+| B0BQ4G7LY8 | Liquid I.V. Hydration Multiplier Sugar-Free Lemon Lime | 無糖電解質粉 |
 
 **研究文件**：`research/electrolyte-hydration--{date}.md`
 **競品文件**：`competitors/electrolyte-hydration--{date}.md`
@@ -2010,6 +2047,7 @@
 | B0CM4NXMV2 | Cottonelle Ultra Clean Toilet Paper with Active CleaningRipp | 衛生紙 |
 | B09YKYV9N9 | Charmin Ultra Strong Clean Touch Toilet Paper, 24 Family Meg | 衛生紙 |
 | B0CM5C15ZD | Cottonelle Ultra Comfort Toilet Paper with Cushiony Cleaning | 衛生紙 |
+| B0FLFR269F | Charmin Ultra Soft Toilet Paper, 6 Mega Rolls | 衛生紙 |
 
 **研究文件**：`research/toilet-paper--{date}.md`
 **競品文件**：`competitors/toilet-paper--{date}.md`
@@ -2035,6 +2073,7 @@
 | B0DQYPYVB6 | Bounty Select-A-Size Paper Towels, White, 8 Triple Rolls = 2 | 廚房吸水紙巾 |
 | B09BWFX1L6 | Amazon Basics 2-Ply Flex-Sheets Paper Towels, 12 Basics Roll | 廚房吸水紙巾 |
 | B09NW92T8Q | Sparkle Pick-A-Size Paper Towels, 6 Double Rolls (660 Sheets | 廚房吸水紙巾 |
+| B074CR89QG | Amazon Brand - Presto! Ultra-Strong Premium Paper Towels, Huge Roll | 廚房吸水紙巾 |
 
 **研究文件**：`research/paper-towels--{date}.md`
 **競品文件**：`competitors/paper-towels--{date}.md`
@@ -2062,6 +2101,8 @@
 | B0CQN17539 | 2025 American Silver Eagle .999 Fine Silver | 美國銀鷹幣 | Amazon |
 | B00EMGAO5Y | Walking Liberty 1 Avdp Ounce .999 Fine Copper | 行走自由女神銅圓 | Amazon |
 | B0F291VCH4 | 1795 Liberty of The Americas Peace Coin Replica Set with Exq | 復刻收藏幣 |
+| B0CH32MNY1 | US Quarter Design 1 oz Pure .999 Copper Round | 銅幣收藏 |
+| B00BUB7TM0 | Over 50 DIFFERENT World Coins Half Pound Grab Bag | 世界各國錢幣收藏 |
 
 **研究文件**：`research/collectible-coins--{date}.md`
 **競品文件**：`competitors/collectible-coins--{date}.md`
@@ -2168,6 +2209,7 @@
 |-----------|---------|---------------|------|
 | B085DTZQNZ | Owala FreeSip Insulated Stainless Steel Water Bottle with Straw 24 Oz | 吸管式不鏽鋼保溫瓶 | Amazon |
 | B0CP9YB3Q4 | STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz Flowstate | 大容量Tumbler保溫杯 | Amazon |
+| B0BZYCJK89 | Owala FreeSip Insulated Stainless Steel Water Bottle | 不鏽鋼保溫水壺 |
 
 **研究文件**：`research/water-bottle--2026-02-06.md`
 **競品文件**：`competitors/water-bottle--2026-02-06.md`
@@ -2306,6 +2348,7 @@
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
 | B0D8DZN778 | OEAK Women Deep V Wireless Comfortable Bra No Underwire Push Up Bralette | 無鋼圈深V胸罩 | Amazon |
+| B0F6VKZ4FB | LetsJoli Bras for Women Supportive Wireless Push Up | 無鋼圈支撐胸罩 |
 
 **研究文件**：`research/wireless-bra--{date}.md`
 **競品文件**：`competitors/wireless-bra--{date}.md`
@@ -2409,6 +2452,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B09GTRVJQM | LEVOIT Air Purifiers for Bedroom Home Dorm, AHAM Verified, 3 | 空氣清淨機 |
+| B07VVK39F7 | LEVOIT Air Purifier for Home Allergens Pet Hair | HEPA空氣清淨機 |
 
 ---
 
@@ -2431,6 +2475,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0CFGYFCYL | OLANLY Bathroom Rugs 30x20, Extra Soft Absorbent Chenille Ba | 浴室地墊 |
+| B07FPQZG6V | GORILLA GRIP Bath Rug Mat Chenille | 雪尼爾吸水浴室地墊 |
 
 ---
 
@@ -2490,6 +2535,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B00BN4QVF0 | Little Kids Fubbles No-Spill Tumbler Includes 4oz Bubble Sol | 防灑泡泡玩具 |
+| B09TK9JGRH | Little Kids Bubbles by Fubbles 64oz Bubble Solution | 泡泡水補充液 |
 
 ---
 
@@ -2583,6 +2629,7 @@
 |-----------|---------|---------------|
 | B0CRYJB6GK | Airbition Talking Flash Cards for Toddlers 1 2 3 4 Year Olds | 有聲學習卡 |
 | B07B6ZN7P8 | LeapFrog Learning Friends 100 Words Book, Green | 電子學習書 |
+| B0C5DD53RG | TECJOE 4 Pack LCD Writing Tablet 8.5 Inch | LCD電子畫板 |
 
 ---
 
@@ -2627,6 +2674,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B08V3JGB1F | Kitsch Dermaplane Razor for Women Face – Face Razors for Wom | 臉部除毛刀 |
+| B098NSHBQK | Ear and Nose Hair Trimmer Clipper | 耳鼻毛修剪器 |
 
 ---
 
@@ -2705,6 +2753,7 @@
 |-----------|---------|---------------|
 | B0C2Y262YK | BNX TruFilter 20x20x1 Air Filter MERV 11 (6-Pack) - MADE IN  | HVAC 空調濾網 |
 | B088BZTYFP | Amazon Basics 16x20x1 Air Filter 6-Pack, MERV 8 AC Furnace F | HVAC 空調濾網 |
+| B0BZQSK18G | BNX TruFilter 20x25x1 Air Filter MERV 8 | MERV 8 空氣濾網 |
 
 ---
 
@@ -2752,6 +2801,8 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B096423LXW | Crocs Kid's Classic Clog | 兒童洞洞鞋 |
+| B0014BYHJE | Crocs Unisex-Adult Classic Clogs | 經典洞洞鞋成人款 |
+| B0D2NVT68M | Crocs Kid's Classic Clog | 經典洞洞鞋兒童款 |
 
 ---
 
@@ -2899,6 +2950,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0DLN1B4MJ | 2 Pack Glitter Pink Backdrop, 3.28 FT x 7.05 FT Birthday Par | 派對背景布幕 |
+| B0DLNKJX9C | Tinsel Backdrop St Patricks Day Decorations | 節日派對裝飾背景 |
 
 ---
 
@@ -2932,6 +2984,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0016HF5GK | BISSELL Little Green Multi-Purpose Portable Carpet and Uphol | 手提地毯清洗機 |
+| B0DJMP6T3N | BISSELL Little Green Mini Portable Carpet Cleaner | 攜帶式地毯清洗機 |
 
 ---
 
@@ -2958,6 +3011,7 @@
 | B082KP92DF | AmazerBath Shower Curtain Liner, 72x72 Clear Shower Curtain  | 浴簾/浴簾內襯 |
 | B00LS9UD2M | LiBa Bathroom Shower Curtain Waterproof Plastic Shower Curta | 浴簾/浴簾內襯 |
 | B08BZFRQLS | ALYVIA SPRING Waterproof Fabric Shower Curtain Liner with 3  | 浴簾/浴簾內襯 |
+| B08CRPWQHB | BigFoot Clear Shower Curtain Liner, 72x72 Odorless Plastic with Magnets | 浴簾/浴簾內襯 |
 
 ---
 
@@ -3003,6 +3057,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B083JHCCV2 | Boka Fluoride Free Toothpaste, Nano Hydroxyapatite Toothpast | 無氟牙膏 |
+| B09F8FZ18G | Crest 3D White Advanced Luminous Mint Toothpaste | 美白牙膏 |
 
 ---
 
@@ -3028,6 +3083,7 @@
 | B0B7B6KLH3 | 【Pack of 2】 New Universal Remote for All Samsung TV Remote,  | 替代遙控器 |
 | B0CQF6T2K1 | Roku TV Remote Control (Official Manufacturer Product) - Sim | 替代遙控器 |
 | B08PK7TBFD | Universal for VIZIO Smart TV Remote Control Replacement XRT1 | 替代遙控器 |
+| B0DC3PZLRL | ORQRQO Replacement Remote for All Fire Series | Fire TV替換遙控器 |
 
 ---
 
@@ -3073,3 +3129,268 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B00C91Q86I | Affresh Washing Machine Cleaner, Helps Power Away Odor Causi | 洗衣機清潔錠 |
+
+---
+
+### disposable-gloves
+
+**問題描述**：一次性手套衛生防護（醫療檢查、清潔、食品處理）
+
+**問題成因**：需要手部衛生防護，避免交叉污染
+
+**常見解決方法**：
+- 丁腈（Nitrile）無粉手套
+- 乳膠手套
+- 乙烯手套
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B00GS8W3T4 | MedPride Powder-Free Nitrile Exam Gloves, Iris Blue, Medium, Box/100 | 丁腈無粉手套 | Amazon |
+| B0C9S5PMSD | Supmedic Medical Soft Max Nitrile Exam Gloves, 100 Count Latex-Free | 丁腈無粉手套 | Amazon |
+
+**研究文件**：`research/disposable-gloves--{date}.md`
+**競品文件**：`competitors/disposable-gloves--{date}.md`
+
+---
+
+### 3d-printer-filament
+
+**問題描述**：3D列印耗材品質（列印精度、堵頭、斷裂問題）
+
+**問題成因**：3D列印需要穩定品質的耗材，避免堵頭、翹曲、層間附著不良
+
+**常見解決方法**：
+- PLA 耗材（最常見、易列印）
+- ABS 耗材（耐高溫）
+- PETG 耗材（強度高）
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B07XG3RM58 | SUNLU PLA 3D Printer Filament 1.75mm | PLA 耗材 | Amazon |
+
+**研究文件**：`research/3d-printer-filament--{date}.md`
+**競品文件**：`competitors/3d-printer-filament--{date}.md`
+
+---
+
+### super-glue
+
+**問題描述**：快乾強力黏合劑（黏合強度、乾燥速度、防漏設計）
+
+**問題成因**：日常修補需要快速牢固黏合各種材質（塑膠、金屬、木材、陶瓷）
+
+**常見解決方法**：
+- 氰基丙烯酸酯凝膠型（防滴漏）
+- 氰基丙烯酸酯液態型（滲透性強）
+- 環氧樹脂雙組份膠
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B082XGL21J | Gorilla Super Glue Gel XL, 25 Gram | 氰基丙烯酸酯凝膠型 | Amazon |
+
+**研究文件**：`research/super-glue--{date}.md`
+**競品文件**：`competitors/super-glue--{date}.md`
+
+---
+
+### interactive-plush-toy
+
+**問題描述**：互動電子絨毛玩具（回應互動、音效、娛樂性）
+
+**問題成因**：兒童需要可互動的伴侶玩具，能回應觸摸、語音並產生音效
+
+**常見解決方法**：
+- 電子互動絨毛玩偶（Furby 類）
+- 語音回應玩具
+- 觸摸感應玩具
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0DNFVMZM6 | FURBY DJ Furblets Pepp-Oh-Roni Mini Electronic Plush Toy | 電子互動絨毛玩偶 | Amazon |
+
+**研究文件**：`research/interactive-plush-toy--{date}.md`
+**競品文件**：`competitors/interactive-plush-toy--{date}.md`
+
+---
+
+### collectible-doll
+
+**問題描述**：收藏型人偶娃娃（造型精緻度、可動性、收藏價值）
+
+**問題成因**：收藏愛好者與粉絲需要高品質、具收藏價值的角色人偶
+
+**常見解決方法**：
+- 授權聯名角色人偶
+- 高精細度可動關節人偶
+- 限量版收藏人偶
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0FK1GVJFV | Monster High x Wednesday Doll, Morticia Addams Collectible | 授權聯名角色人偶 | Amazon |
+
+**研究文件**：`research/collectible-doll--{date}.md`
+**競品文件**：`competitors/collectible-doll--{date}.md`
+
+---
+
+### disposable-cups
+
+**問題描述**：一次性派對飲料杯（耐用度、容量、防漏）
+
+**問題成因**：派對、聚會場景需要大量一次性飲料杯，免洗方便
+
+**常見解決方法**：
+- 塑膠派對杯（大容量、耐用）
+- 紙杯（環保）
+- 透明杯（展示飲品）
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B00OCGUG02 | Hefty Party On Disposable Plastic Cups, Assorted, 16oz, 100 Count | 塑膠派對杯 | Amazon |
+
+**研究文件**：`research/disposable-cups--{date}.md`
+**競品文件**：`competitors/disposable-cups--{date}.md`
+
+---
+
+### duvet-cover
+
+**問題描述**：被套更換（觸感舒適度、透氣性、洗滌耐久）
+
+**問題成因**：被套直接接觸皮膚，需要舒適透氣且方便清洗更換
+
+**常見解決方法**：
+- 水洗棉質感聚酯纖維被套
+- 純棉被套
+- 天絲/莫代爾被套
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B07PCQKTCN | Bedsure White Duvet Cover Queen Size, Prewashed Cotton-Like Polyester | 水洗棉質感聚酯纖維被套 | Amazon |
+
+**研究文件**：`research/duvet-cover--{date}.md`
+**競品文件**：`competitors/duvet-cover--{date}.md`
+
+---
+
+### blind-box-collectible
+
+**問題描述**：盲盒收藏玩具（隨機款式、收藏性、品質）
+
+**問題成因**：收藏愛好者追求隨機驚喜與成套收集的樂趣
+
+**常見解決方法**：
+- 設計師公仔盲盒（POP MART 類）
+- 迷你絨毛吊飾盲盒
+- 扭蛋/盲袋收藏
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0DT44TSM2 | POP MART The Monsters Big into Energy Series Vinyl Plush Pendant Blind Box | 設計師公仔盲盒 | Amazon |
+
+**研究文件**：`research/blind-box-collectible--{date}.md`
+**競品文件**：`competitors/blind-box-collectible--{date}.md`
+
+---
+
+### memory-foam-mattress
+
+**問題描述**：記憶棉床墊舒適支撐（睡眠品質、腰背支撐、散熱）
+
+**問題成因**：睡眠品質差、腰背疼痛，需要適當支撐和壓力分散的床墊
+
+**常見解決方法**：
+- 記憶棉床墊（壓力分散）
+- 混合彈簧記憶棉床墊
+- 凝膠記憶棉床墊（散熱）
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0DKT9ZGW3 | EGOHOME Full Size Memory Foam Mattress, 8 Inch with Cooling Cover | 記憶棉床墊 | Amazon |
+
+**研究文件**：`research/memory-foam-mattress--{date}.md`
+**競品文件**：`competitors/memory-foam-mattress--{date}.md`
+---
+
+### blackout-curtains
+
+**問題描述**：臥室遮光隔熱窗簾
+
+**問題成因**：待研究
+
+**常見解決方法**：
+- 待研究
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0F332CCLK | MIULEE Black Blackout Curtains for Bedroom | 遮光窗簾 |
+---
+
+### easter-egg-hunt
+
+**問題描述**：復活節彩蛋尋寶遊戲道具
+
+**問題成因**：待研究
+
+**常見解決方法**：
+- 待研究
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0CPM23LMD | JOYIN 50PCS Plastic Easter Eggs | 可填充復活節塑膠蛋 |
+---
+
+### hallway-runner-rug
+
+**問題描述**：走廊/廚房止滑可洗長條地毯
+
+**問題成因**：待研究
+
+**常見解決方法**：
+- 待研究
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0D89V1RX1 | 2x6 Hallway Washable Runner Rug Vintage Soft | 走廊止滑長條地毯 |
+---
+
+### holiday-costume-accessories
+
+**問題描述**：節日主題派對裝飾配件（聖派翠克、復活節等）
+
+**問題成因**：待研究
+
+**常見解決方法**：
+- 待研究
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0CMTKWB3R | 12PCS St Patricks Day Accessories | 聖派翠克節珠鍊配飾 |
+---
+
+### toilet-bowl-cleaner
+
+**問題描述**：馬桶清潔殺菌除垢
+
+**問題成因**：待研究
+
+**常見解決方法**：
+- 待研究
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B00371VM0Q | Lysol Toilet Bowl Cleaner Max Strength | 強力馬桶清潔凝膠 |

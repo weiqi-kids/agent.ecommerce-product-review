@@ -1,6 +1,7 @@
 ---
 title: 延長線插座比較：5 款 Amazon 熱門突波保護器安全實測
 description: 比較 ALESTOR、TESSAN、YISHU、Yintar、QINLIANF 五款延長線插座，分析 430 則評論揭露的過早故障、電擊、冒煙等安全隱患，幫助消費者選擇最安全的突波保護器。
+date: 2026-03-05
 head:
   - - meta
     - property: og:title

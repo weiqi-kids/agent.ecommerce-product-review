@@ -62,15 +62,15 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 ---
 
-## 🆕 最新報告 (2026-03-05)
+## 🆕 最新報告 (2026-03-10)
 
 | 類別 | 類型 | 重點發現 |
 |------|------|----------|
-| [延長線插座比較](/Narrator/comparisons/power-strip--2026-03-05) | 比較報告 | 5 款延長線插座安全與品質比較分析 |
-| [痘痘治療比較](/Narrator/comparisons/acne-treatment--2026-03-05) | 比較報告 | 新增 3 款產品，水楊酸 vs 水膠體貼片比較 |
-| [電視遙控器替換](/Narrator/comparisons/tv-remote-replacement--2026-03-05) | 比較報告 | 官方 vs 通用遙控器，相容性是最大痛點 |
-| [Amazon 卡牌篡改（更新）](/Narrator/warnings/trading-cards-amazon-tampering--2026-03-05) | 警告報告 | 新增 3 款產品，篡改問題持續 |
-| [紓壓玩具痛點（更新）](/Narrator/pain_points/squishy-toy--pain-points--2026-03-05) | 痛點報告 | 新增 3 款，爆裂/化學灼傷風險持續 |
+| [遮光窗簾比較](/Narrator/comparisons/blackout-curtains--2026-03-10) | 比較報告 | ChrisDowa vs Deconovo vs Amazon Basics 遮光效果比較 |
+| [復活節彩蛋尋寶道具](/Narrator/comparisons/easter-egg-hunt--2026-03-10) | 比較報告 | Eggmazing 裝飾器、預填蛋、空殼蛋完整評測 |
+| [馬桶清潔劑比較](/Narrator/comparisons/toilet-bowl-cleaner--2026-03-10) | 比較報告 | 化學式 vs 天然式 vs 物理式清潔方案實測 |
+| [節日派對裝飾配件](/Narrator/comparisons/holiday-costume-accessories--2026-03-10) | 比較報告 | 頭飾、眼鏡套組品質與安全比較 |
+| [走廊地毯痛點](/Narrator/pain_points/hallway-runner-rug--pain-points--2026-03-10) | 痛點報告 | nuLOOM 28% 掉毛率，平價產品普遍品質不佳 |
 
 ## ✅ 最新推薦
 
@@ -125,7 +125,7 @@ Amazon 評論（最新 50-200 則）
 | 深度報告 | **296+** 篇 |
 | 分析評論 | **10 萬+** 則 |
 | 產品品類 | **72+** 種 |
-| 最後更新 | **2026-03-03** |
+| 最後更新 | **2026-03-10** |
 
 </div>
 
