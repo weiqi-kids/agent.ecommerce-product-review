@@ -1,0 +1,135 @@
+{
+  "date": "2026-03-06",
+  "new_products": 17,
+  "existing_categories": [
+    {
+      "product": "MedPride Powder-Free Nitrile Exam Gloves",
+      "asin": "B00GS8W3T4",
+      "category": "disposable-gloves"
+    },
+    {
+      "product": "Supmedic Medical Soft Max Nitrile Exam Gloves",
+      "asin": "B0C9S5PMSD",
+      "category": "disposable-gloves"
+    },
+    {
+      "product": "Charmin Ultra Soft Toilet Paper",
+      "asin": "B0FLFR269F",
+      "category": "toilet-paper"
+    },
+    {
+      "product": "Amazon Brand - Presto! Ultra-Strong Premium Paper Towels",
+      "asin": "B074CR89QG",
+      "category": "paper-towels"
+    },
+    {
+      "product": "Pokémon TCG: Mega Evolution Perfect Order Booster Bundle",
+      "asin": "B0GG11K25W",
+      "category": "trading-cards"
+    },
+    {
+      "product": "Hasbro Gaming Guess Who? Card Game",
+      "asin": "B07MWJ699K",
+      "category": "board-games"
+    },
+    {
+      "product": "BigFoot Clear Shower Curtain Liner",
+      "asin": "B08CRPWQHB",
+      "category": "shower-curtain-liner"
+    },
+    {
+      "product": "Official Hasbro Games Jenga Game",
+      "asin": "B0D87PKYYK",
+      "category": "board-games"
+    }
+  ],
+  "new_categories": [
+    {
+      "category": "3d-printer-filament",
+      "description": "3D列印耗材品質（列印精度、堵頭、斷裂）",
+      "products": [
+        {
+          "product": "SUNLU PLA 3D Printer Filament 1.75mm",
+          "asin": "B07XG3RM58"
+        }
+      ]
+    },
+    {
+      "category": "super-glue",
+      "description": "快乾強力黏合劑（黏合強度、乾燥速度、防漏）",
+      "products": [
+        {
+          "product": "Gorilla Super Glue Gel XL 25 Gram",
+          "asin": "B082XGL21J"
+        }
+      ]
+    },
+    {
+      "category": "interactive-plush-toy",
+      "description": "互動電子絨毛玩具（回應互動、音效、娛樂性）",
+      "products": [
+        {
+          "product": "FURBY DJ Furblets Pepp-Oh-Roni Mini Electronic Plush Toy",
+          "asin": "B0DNFVMZM6"
+        }
+      ]
+    },
+    {
+      "category": "collectible-doll",
+      "description": "收藏型人偶娃娃（造型精緻度、可動性、收藏價值）",
+      "products": [
+        {
+          "product": "Monster High x Wednesday Doll, Morticia Addams Collectible",
+          "asin": "B0FK1GVJFV"
+        }
+      ]
+    },
+    {
+      "category": "disposable-cups",
+      "description": "一次性派對飲料杯（耐用度、容量、防漏）",
+      "products": [
+        {
+          "product": "Hefty Party On Disposable Plastic Cups 16oz 100 Count",
+          "asin": "B00OCGUG02"
+        }
+      ]
+    },
+    {
+      "category": "duvet-cover",
+      "description": "被套更換（觸感舒適度、透氣性、洗滌耐久）",
+      "products": [
+        {
+          "product": "Bedsure White Duvet Cover Queen Size",
+          "asin": "B07PCQKTCN"
+        }
+      ]
+    },
+    {
+      "category": "blind-box-collectible",
+      "description": "盲盒收藏玩具（隨機款式、收藏性、品質）",
+      "products": [
+        {
+          "product": "POP MART The Monsters Big into Energy Series Vinyl Plush Pendant Blind Box",
+          "asin": "B0DT44TSM2"
+        }
+      ]
+    },
+    {
+      "category": "memory-foam-mattress",
+      "description": "記憶棉床墊舒適支撐（睡眠品質、腰背支撐、散熱）",
+      "products": [
+        {
+          "product": "EGOHOME Full Size Memory Foam Mattress 8 Inch",
+          "asin": "B0DKT9ZGW3"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "product": "Bounty Quick Size Paper Towels 8 Family Rolls",
+      "asin": "B07MHJFRBJ",
+      "reason": "已存在於 paper-towels 類別"
+    }
+  ]
+}

@@ -241,10 +241,22 @@ async function scrapeReviewsPage(
       break;
     }
 
+    // 等待 loading overlay 消失後再點擊
+    try {
+      await page.waitForSelector('div.cr-list-loading.reviews-loading', { state: 'hidden', timeout: 5000 });
+    } catch {
+      // overlay 不存在或已消失，繼續
+    }
+
     // 點擊下一頁（模擬真實使用者）
     await nextButton.scrollIntoViewIfNeeded();
     await randomDelay(500, 1000);
-    await nextButton.click();
+    try {
+      await nextButton.click({ timeout: 5000 });
+    } catch {
+      // 點擊失敗時嘗試用 JavaScript 點擊
+      await page.evaluate((el) => (el as HTMLElement).click(), nextButton);
+    }
     await randomDelay(2000, 4000);
 
     // 等待頁面載入

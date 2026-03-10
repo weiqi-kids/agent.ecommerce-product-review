@@ -71,6 +71,7 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 | [馬桶清潔劑比較](/Narrator/comparisons/toilet-bowl-cleaner--2026-03-10) | 比較報告 | 化學式 vs 天然式 vs 物理式清潔方案實測 |
 | [節日派對裝飾配件](/Narrator/comparisons/holiday-costume-accessories--2026-03-10) | 比較報告 | 頭飾、眼鏡套組品質與安全比較 |
 | [走廊地毯痛點](/Narrator/pain_points/hallway-runner-rug--pain-points--2026-03-10) | 痛點報告 | nuLOOM 28% 掉毛率，平價產品普遍品質不佳 |
+| [女性瑜伽褲比較](/Narrator/comparisons/womens-yoga-pants--2026-03-10) | 比較報告 | Lululemon vs Colorfulkoala vs 主要競品面料與舒適度比較 |
 
 ## ✅ 最新推薦
 

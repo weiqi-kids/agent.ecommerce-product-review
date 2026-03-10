@@ -1,0 +1,123 @@
+{
+  "category": "womens-yoga-pants",
+  "date": "2026-03-10",
+  "products_compared": [
+    {
+      "product_id": "B0C7ZBNWL5",
+      "name": "G4Free EverGoing Yoga Pants Women Wide Leg Pants with Pockets High Waist",
+      "brand": "G4Free",
+      "platform": "amazon_us",
+      "avg_rating": 4.45,
+      "review_count": 5021,
+      "reviews_analyzed": 100,
+      "price_usd": null,
+      "data_source": "L1-L6 萃取（2026-03-10）",
+      "key_strengths": [
+        "comfort（93% 正評，62 mentions）：極高舒適度，描述為 buttery soft",
+        "versatility（90% 正評，28 mentions）：辦公/休閒/瑜伽兩用",
+        "waistband（89% 正評，13 mentions）：高腰設計不下滑、不勒緊",
+        "pockets（87% 正評，14 mentions）：前口袋可放手機",
+        "style_appearance（85% 正評，8 mentions）：仿正裝外觀"
+      ],
+      "negative_breakdown": {
+        "cannot_solve_problem": {
+          "percentage": "29%",
+          "issues": [
+            "thin_fabric（17%）：面料過薄，不符期望",
+            "transparency_sheerness（12%）：淺色款透視，露出內衣輪廓"
+          ]
+        },
+        "creates_new_problems": {
+          "percentage": "19%",
+          "issues": [
+            "inconsistent_sizing（10%）：尺寸不一致，部分顏色偏大/偏小",
+            "length_issues（9%）：褲長不適合矮個子或高個子"
+          ]
+        },
+        "unrelated_to_product": {
+          "percentage": "10%",
+          "issues": [
+            "shrinkage_after_washing（6%）：洗後縮水",
+            "color_variation_quality（5%）：顏色與圖片有差異",
+            "staining（4%）：易沾染污漬難清除",
+            "riding_up（3%）：大腿內側騎上"
+          ]
+        }
+      }
+    },
+    {
+      "product_id": "B0CG5P42QH",
+      "name": "G4Free EverGoing Wide Leg Yoga Pants（上次主角）",
+      "brand": "G4Free",
+      "platform": "amazon_us",
+      "avg_rating": 4.45,
+      "review_count": 4994,
+      "reviews_analyzed": 100,
+      "data_source": "前次報告（2026-03-04）",
+      "key_strengths": [
+        "舒適度 91% 正評",
+        "多功能性 92% 正評",
+        "褲長選項 93% 正評（29\"/31\"/tall）",
+        "口袋設計 88% 正評"
+      ],
+      "negative_breakdown": {
+        "cannot_solve_problem": {
+          "percentage": "32%",
+          "issues": [
+            "面料過薄（18%）",
+            "透視問題（8%）",
+            "腰帶下滑（6%）"
+          ]
+        },
+        "creates_new_problems": {
+          "percentage": "22%",
+          "issues": [
+            "尺寸不一致（9%）",
+            "顏色與圖片差異（8%）",
+            "洗後縮水（3%）",
+            "新版品質退步（2%）"
+          ]
+        },
+        "unrelated_to_product": {
+          "percentage": "3%",
+          "issues": [
+            "收到已使用品（Amazon 第三方賣家問題）"
+          ]
+        }
+      }
+    }
+  ],
+  "comparative_analysis": {
+    "same_brand_comparison": true,
+    "note": "B0C7ZBNWL5 與 B0CG5P42QH 均為 G4Free 寬版瑜伽褲，功能定位相同，屬同品牌不同款/ASIN。",
+    "b0c7zbnwl5_vs_b0cg5p42qh": {
+      "comfort": "相近，均獲高評分（93% vs 91%）",
+      "transparency": "B0C7ZBNWL5 透視率更高（12% vs 8%），面料薄問題也更嚴重（17% vs 18%，相近）",
+      "waistband": "B0C7ZBNWL5 腰帶表現更佳（89% 正評，無下滑投訴），B0CG5P42QH 有 6% 腰帶下滑",
+      "sizing": "兩者均有尺寸不一致問題（10% vs 9%）",
+      "overall": "兩款表現接近，B0C7ZBNWL5 腰帶表現略優，但透視問題略嚴重"
+    },
+    "vs_competitors": {
+      "crz_yoga_butterluxe": {
+        "data_source": "評測文章（非用戶評論萃取）",
+        "advantage": "Butterluxe 高密度 Polyamide 面料在防透視上明顯優於 G4Free；同價位（~$30）下面料技術更先進",
+        "disadvantage": "前中縫設計部分人不喜歡"
+      },
+      "colorfulkoala": {
+        "data_source": "評測文章（非用戶評論萃取）",
+        "advantage": "20,000+ 評論、Nylon/Spandex 面料耐磨，防透視佳",
+        "disadvantage": "25\" 褲腳偏短，高個子不友善"
+      }
+    }
+  },
+  "verdict": "comparison",
+  "verdict_detail": "G4Free 系列（B0C7ZBNWL5、B0CG5P42QH）能解決辦公/休閒場合的穿搭需求，但在核心瑜伽功能（防透視）上未能完全達標，競品 CRZ Yoga Butterluxe 在同價位提供更優的防透視表現。",
+  "recommendation": {
+    "for_b0c7zbnwl5": "適合辦公/休閒兼用及追求高舒適度的用戶，尤其是腰帶需求高的用戶；不適合高強度瑜伽或對透視問題敏感的用戶",
+    "better_alternative_for_yoga": "CRZ Yoga Butterluxe（~$30）—— 同價位、更優防透視"
+  },
+  "confidence": "medium",
+  "confidence_note": "B0C7ZBNWL5 基於完整 L1-L6 萃取（100 則評論），競品資料仍基於評測文章，非用戶評論直接萃取",
+  "report_action": "更新現有比較報告（womens-yoga-pants--2026-03-04.md），將 B0C7ZBNWL5 加入多產品比較框架，維持 'comparison' 類型",
+  "summary": "B0C7ZBNWL5（G4Free Wide Leg）與同類別已有主角 B0CG5P42QH（G4Free EverGoing）屬同品牌相似款，整體表現接近：舒適度佳（93%），但透視問題（12%）和面料過薄（17%）影響核心瑜伽功能。兩款相比，B0C7ZBNWL5 腰帶表現略優（無下滑投訴），透視問題稍嚴重（12% vs 8%）。類別整體 verdict 維持 comparison：G4Free 系列適合辦公/休閒場合，追求防透視瑜伽功能應選 CRZ Yoga Butterluxe。"
+}

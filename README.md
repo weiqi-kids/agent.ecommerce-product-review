@@ -123,8 +123,8 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 |------|------|
 | Discovery 產品 | 262 (Amazon) |
 | 評論分析 | 2,120 則 |
-| 新報告 | 5（4 比較 + 1 痛點） |
-| 新類別 | 5 |
+| 新報告 | 6（5 比較 + 1 痛點） |
+| 新類別 | 6 |
 | REVIEW_NEEDED | 1（評論量不足） |
 | 監控惡化 | 2（NeeDoh→critical, eos Lotion） |
 

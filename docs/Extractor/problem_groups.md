@@ -139,7 +139,7 @@
 | tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 3 | ⏳ 待研究 |
 | super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
 | mens-underwear | 男性底褲舒適透氣 | 1 | ⏳ 待研究 |
-| womens-yoga-pants | 女性瑜珈/運動褲 | 1 | ⏳ 待研究 |
+| womens-yoga-pants | 女性瑜珈/運動褲 | 2 | ⏳ 待研究 |
 | wireless-bra | 無鋼圈無線胸罩舒適支撐 | 2 | ⏳ 待研究 |
 | womens-basic-tops | 女性基本款上衣 | 1 | ⏳ 待研究 |
 | meat-thermometer | 肉類食物溫度精確測量 | 1 | ⏳ 待研究 |
@@ -2327,6 +2327,7 @@
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
 | B0CG5P42QH | G4Free EverGoing Yoga Pants Women Wide Leg with Pockets | 寬腿高腰瑜珈褲（有口袋） | Amazon |
+| B0C7ZBNWL5 | G4Free Wide Leg Pants Woman Yoga Pants with Pockets | 寬腿瑜珈褲（休閒/運動兩用） | Amazon |
 
 **研究文件**：`research/womens-yoga-pants--{date}.md`
 **競品文件**：`competitors/womens-yoga-pants--{date}.md`

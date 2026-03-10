@@ -1,0 +1,49 @@
+{
+  "date": "2026-03-06",
+  "scanned_reports": 53,
+  "gaps_identified": [
+    {
+      "report": "docs/Narrator/comparisons/foam-playmat--2026-02-21.md",
+      "gap_type": "research_insufficient",
+      "action": "retry_step5",
+      "result": "pending",
+      "reason": "WebFetch 不足 100 次（第 5 次重試，今日到期）",
+      "retry_count": 5
+    },
+    {
+      "report": "docs/Narrator/comparisons/kids-activity-book--2026-02-21.md",
+      "gap_type": "research_insufficient",
+      "action": "retry_step5",
+      "result": "pending",
+      "reason": "WebFetch 不足 100 次（第 4 次重試，今日到期）",
+      "retry_count": 4
+    },
+    {
+      "report": "docs/Narrator/comparisons/tv-remote-replacement--2026-03-05.md",
+      "gap_type": "research_insufficient",
+      "action": "no_action",
+      "result": "deferred",
+      "reason": "昨日新產出，研究不足但非到期項目，下次重試時補齊"
+    },
+    {
+      "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-05.md",
+      "gap_type": "review_manipulation",
+      "action": "no_action",
+      "result": "deferred",
+      "reason": "評論操縱問題為結構性問題，非研究不足。已加入監控。"
+    }
+  ],
+  "historical_review_needed": {
+    "count": 49,
+    "note": "歷史遺留 REVIEW_NEEDED 報告，多為研究不足或早期報告。非今日補齊對象。"
+  },
+  "summary": {
+    "total_gaps": 53,
+    "due_today": 2,
+    "attempted": 0,
+    "succeeded": 0,
+    "failed": 0,
+    "deferred": 51,
+    "pending": 2
+  }
+}
