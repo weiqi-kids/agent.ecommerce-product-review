@@ -1,9 +1,9 @@
 # 產品問題分組
 
-最後更新：2026-03-10
+最後更新：2026-03-11
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：711
+產品總數：716
 問題類別數：199
 分組原則：按具體問題分組（v2 - 問題導向）
 本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
@@ -11,6 +11,7 @@
 本次更新（2026-03-05）：112 個產品歸入現有類別（aa-batteries x2、acne-treatment x3、action-figure、art-supplies x6、bath-toys x2、board-games、body-moisturizing x4、building-blocks x2、collectible-coins、cotton-swabs、creatine-supplement x2、disposable-plates、e-reader x2、electrolyte-hydration、exfoliating-toner、face-moisturizing x2、facial-cleanser、flushable-wipes x3、giant-teddy-bear、high-protein-snack x2、item-tracker x2、kids-bike、kitchen-scale、laundry-stain x2、makeup-removal、natural-deodorant、noise-cancelling-headphone x3、oil-sprayer x2、paper-towels x5、party-balloon x7、pillow-case、playing-cards、postpartum-incontinence、potting-soil、power-strip x6、probiotic-supplement、squishy-toy x11、streaming-stick x5、sun-protection、tablet-computer、toilet-paper x5、trading-cards x5、video-doorbell、wireless-earbuds x8）；新增 59 個類別（85 個產品）；跳過 2 個（數位服務/訂閱）
 本次更新（2026-03-06）：8 個產品歸入現有類別（disposable-gloves x2、toilet-paper、paper-towels、trading-cards、board-games x2、shower-curtain-liner）；新增 8 個類別（8 個產品）；跳過 1 個（已存在於分組）
 本次更新（2026-03-10）：52 個產品歸入現有類別（action-figure x2、air-purifier、art-supplies x3、bathroom-rug、board-games、body-moisturizing x2、bubble-toy、collectible-coins x2、e-reader x2、early-learning-toy、electrolyte-hydration、facial-cleanser x2、facial-hair-removal、flushable-wipes x3、high-protein-snack x2、hvac-air-filter、kids-casual-clogs x2、kitchen-scale、laundry-stain、noise-cancelling-headphone、party-backdrop、portable-carpet-cleaner、postpartum-incontinence、potting-soil、power-strip、probiotic-supplement、squishy-toy x5、tablet-computer、toothpaste、toy-cars、tv-remote-replacement、video-doorbell、water-bottle、wild-bird-feed、wireless-bra、wireless-earbuds x2）；新增 5 個類別（5 個產品）；跳過 1 個（數位服務/訂閱）
+本次更新（2026-03-11）：5 個產品歸入現有類別（kids-casual-clogs x2、collectible-coins x2、wired-earphones x1）；新增 0 個類別；跳過 0 個
 
 ---
 
@@ -129,7 +130,7 @@
 | tortilla-press | 手工玉米餅壓製 | 1 | ⏳ 待研究 |
 | toilet-paper | 廁所衛生紙舒適度與耐用性 | 12 | ⏳ 待研究 |
 | paper-towels | 廚房吸水紙巾清潔吸水性 | 9 | ⏳ 待研究 |
-| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 15 | ⏳ 待研究 |
+| collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 17 | ⏳ 待研究 |
 | cotton-swabs | 棉花棒個人衛生清潔 | 3 | ⏳ 待研究 |
 | aa-batteries | AA 鹼性電池長效續電 | 4 | ⏳ 待研究 |
 | bread-toaster | 家用烤麵包機吐司加熱 | 2 | ⏳ 待研究 |
@@ -144,7 +145,7 @@
 | womens-basic-tops | 女性基本款上衣 | 1 | ⏳ 待研究 |
 | meat-thermometer | 肉類食物溫度精確測量 | 1 | ⏳ 待研究 |
 | kids-casual-shoes | 兒童日常休閒鞋 | 1 | ⏳ 待研究 |
-| wired-earphones | 有線耳機 USB-C 連接高品質聲音 | 1 | ⏳ 待研究 |
+| wired-earphones | 有線耳機 USB-C 連接高品質聲音 | 2 | ⏳ 待研究 |
 
 | air-purifier | 室內空氣淨化過濾 | 2 | ⏳ 待研究 |
 | ant-control | 室內螞蟻防治 | 1 | ⏳ 待研究 |
@@ -176,7 +177,7 @@
 | infant-sensory-toy | 嬰兒感官刺激抓握 | 4 | ⏳ 待研究 |
 | instant-film | 拍立得即時成像底片 | 1 | ⏳ 待研究 |
 | insulated-tumbler | 保溫隨行杯咖啡保溫 | 1 | ⏳ 待研究 |
-| kids-casual-clogs | 兒童休閒洞洞鞋 | 3 | ⏳ 待研究 |
+| kids-casual-clogs | 兒童休閒洞洞鞋 | 5 | ⏳ 待研究 |
 | laundry-hamper | 洗衣籃收納摺疊 | 1 | ⏳ 待研究 |
 | lip-color | 持久唇彩唇釉 | 1 | ⏳ 待研究 |
 | magnesium-supplement | 鎂補充助眠抗壓 | 1 | ⏳ 待研究 |
@@ -2103,6 +2104,7 @@
 | B0F291VCH4 | 1795 Liberty of The Americas Peace Coin Replica Set with Exq | 復刻收藏幣 |
 | B0CH32MNY1 | US Quarter Design 1 oz Pure .999 Copper Round | 銅幣收藏 |
 | B00BUB7TM0 | Over 50 DIFFERENT World Coins Half Pound Grab Bag | 世界各國錢幣收藏 |
+| B0F9KM51V2 | 250th Anniversary U.S. Army Commemorative Coin | 軍事紀念幣收藏 |
 
 **研究文件**：`research/collectible-coins--{date}.md`
 **競品文件**：`competitors/collectible-coins--{date}.md`
@@ -2434,6 +2436,7 @@
 | product_id | 商品名稱 | 採用的解決方法 | 來源 |
 |-----------|---------|---------------|------|
 | B0DCH8VDXF | Apple EarPods Headphones with USB-C Plug Wired | USB-C 有線耳塞 | Amazon |
+| B0D7FVQ1ZB | Apple EarPods Headphones with Lightning Connector | Lightning 有線耳塞 | Amazon |
 
 **研究文件**：`research/wired-earphones--{date}.md`
 **競品文件**：`competitors/wired-earphones--{date}.md`
@@ -2804,6 +2807,8 @@
 | B096423LXW | Crocs Kid's Classic Clog | 兒童洞洞鞋 |
 | B0014BYHJE | Crocs Unisex-Adult Classic Clogs | 經典洞洞鞋成人款 |
 | B0D2NVT68M | Crocs Kid's Classic Clog | 經典洞洞鞋兒童款 |
+| B0014C0LSY | Crocs Unisex-Adult Classic Clogs | 輕便防水休閒洞洞鞋成人款 |
+| B0D2NTJ44M | Crocs Kid's Classic Clog | 輕便防水休閒洞洞鞋兒童款 |
 
 ---
 

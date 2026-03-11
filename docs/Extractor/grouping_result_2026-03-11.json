@@ -1,0 +1,57 @@
+{
+  "date": "2026-03-11",
+  "new_products": 5,
+  "grouping_results": [
+    {
+      "asin": "B0014C0LSY",
+      "name": "Crocs Unisex-Adult Classic Clogs",
+      "category": "kids-casual-clogs",
+      "is_new_category": false,
+      "note": "成人款 Crocs 洞洞鞋，歸入現有混合成人/兒童的 kids-casual-clogs 類別"
+    },
+    {
+      "asin": "B0D2NTJ44M",
+      "name": "Crocs Kid's Classic Clog",
+      "category": "kids-casual-clogs",
+      "is_new_category": false
+    },
+    {
+      "asin": "B0CH32MNY1",
+      "name": "US Quarter Design 1 oz Pure .999 Copper Round Bullion Coin",
+      "category": "collectible-coins",
+      "is_new_category": false,
+      "note": "已存在於 collectible-coins（確認為重複 ASIN，已在 2026-03-04 歸入）"
+    },
+    {
+      "asin": "B0F9KM51V2",
+      "name": "250th Anniversary U.S. Army Commemorative Coin",
+      "category": "collectible-coins",
+      "is_new_category": false
+    },
+    {
+      "asin": "B0D7FVQ1ZB",
+      "name": "Apple EarPods Headphones with Lightning Connector",
+      "category": "wired-earphones",
+      "is_new_category": false
+    }
+  ],
+  "new_categories": [],
+  "existing_categories_updated": [
+    {
+      "category": "kids-casual-clogs",
+      "products_added": 2,
+      "new_total": 5
+    },
+    {
+      "category": "collectible-coins",
+      "products_added": 2,
+      "new_total": 17
+    },
+    {
+      "category": "wired-earphones",
+      "products_added": 1,
+      "new_total": 2
+    }
+  ],
+  "summary": "5 個產品全部歸入現有類別：kids-casual-clogs x2（Crocs 洞洞鞋成人/兒童款）、collectible-coins x2（銅幣+軍事紀念幣）、wired-earphones x1（Lightning EarPods）。無需新建類別。"
+}

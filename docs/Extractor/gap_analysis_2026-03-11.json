@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-11",
+  "scan_result": {
+    "review_needed_reports": 55,
+    "gap_categories": {
+      "research_gap": ["kids-activity-book (next_retry: 2026-03-15)"],
+      "supplement_reviews": ["interactive-pet-toy", "monster-truck-toy"],
+      "new_gaps_found": 0
+    }
+  },
+  "actions_taken": [],
+  "actions_deferred": [
+    {
+      "category": "kids-activity-book",
+      "reason": "next_retry 2026-03-15 未到期",
+      "action": "skip"
+    },
+    {
+      "category": "interactive-pet-toy",
+      "reason": "待 Amazon 評論補齊，非研究缺口",
+      "action": "record_only"
+    },
+    {
+      "category": "monster-truck-toy",
+      "reason": "待 Amazon 評論補齊，非研究缺口",
+      "action": "record_only"
+    }
+  ],
+  "summary": "無需執行補齊。kids-activity-book 延至 03-15。2 個類別待 Amazon 評論補齊。"
+}

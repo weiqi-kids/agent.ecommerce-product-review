@@ -1,0 +1,286 @@
+{
+  "category": "collectible-coins",
+  "date": "2026-03-11",
+  "previous_analysis": "2026-03-04",
+  "products_compared": [
+    {
+      "asin": "B0CQN17539",
+      "name": "2025 American Silver Eagle (Smyrnacoin)",
+      "price": 126.95,
+      "avg_rating": 4.85,
+      "sentiment_score": 0.88,
+      "review_count": 359,
+      "source": "previous_analysis"
+    },
+    {
+      "asin": "B00EMGAO5Y",
+      "name": "Walking Liberty Copper Round",
+      "price": 9.99,
+      "avg_rating": 4.75,
+      "sentiment_score": 0.82,
+      "review_count": 1711,
+      "source": "previous_analysis"
+    },
+    {
+      "asin": "B0CH32MNY1",
+      "name": "US Quarter Design 1 oz Pure .999 Copper Round Bullion Coin (Heavenly Metals)",
+      "price": 12.99,
+      "avg_rating": 4.55,
+      "sentiment_score": 0.62,
+      "review_count": 510,
+      "source": "new_2026-03-11",
+      "sentiment_breakdown": {
+        "coin_quality_appearance": 0.88,
+        "gift_suitability": 0.87,
+        "collectibility": 0.82,
+        "packaging_capsule": 0.72,
+        "copper_purity": 0.7,
+        "value_for_price": 0.55,
+        "size_larger_than_expected": 0.42,
+        "coa_certificate": 0.44,
+        "misleading_description": 0.18,
+        "missing_stand": 0.15
+      }
+    },
+    {
+      "asin": "B0F9KM51V2",
+      "name": "250th Anniversary U.S. Army Commemorative Coin (Touzanious)",
+      "price": 13.99,
+      "avg_rating": 4.3,
+      "sentiment_score": 0.45,
+      "review_count": 100,
+      "source": "new_2026-03-11",
+      "flags": [
+        "suspected_fake_reviews",
+        "inscription_error",
+        "identical_both_sides"
+      ],
+      "sentiment_breakdown": {
+        "gift_suitability": 0.88,
+        "design_quality": 0.78,
+        "weight_feel": 0.72,
+        "packaging": 0.58,
+        "value_for_money": 0.55,
+        "size": 0.52,
+        "dual_side_design": 0.28,
+        "coin_design_accuracy": 0.42,
+        "inscription_accuracy": 0.22,
+        "country_of_origin": 0.18
+      }
+    },
+    {
+      "asin": "B0CFYYBHK3",
+      "name": "Lincoln Wheat Cent 1909 S VDB Copper Round (Heavenly Metals)",
+      "price": 12.99,
+      "avg_rating": 4.55,
+      "sentiment_score": 0.52,
+      "review_count": 507,
+      "source": "previous_analysis"
+    },
+    {
+      "asin": "B07K9Q32MR",
+      "name": "Morgan Silver Dollar Pre-1921 (Wisemen Trading)",
+      "price": 84.95,
+      "avg_rating": 4.05,
+      "sentiment_score": 0.3,
+      "review_count": 635,
+      "review_needed": true,
+      "source": "previous_analysis"
+    },
+    {
+      "asin": "B07RZ4DJLL",
+      "name": "Wheat Penny Roll w/ Mercury Dime (Coin Tycoon)",
+      "price": 129.99,
+      "avg_rating": 3.85,
+      "sentiment_score": 0.22,
+      "review_count": 1578,
+      "source": "previous_analysis"
+    },
+    {
+      "asin": "B011LOOKV8",
+      "name": "50 Wheat Pennies Unsearched (Wisemen Trading)",
+      "price": 17.95,
+      "avg_rating": 3.65,
+      "sentiment_score": 0.2,
+      "review_count": 1660,
+      "source": "previous_analysis"
+    }
+  ],
+  "verdict": "comparison",
+  "summary": "本次新增兩個低價紀念銅幣（B0CH32MNY1、B0F9KM51V2），均定位禮品與入門收藏市場，強化了既有「低價銅幣」子市場的資料深度。B0CH32MNY1（US Quarter 銅圓）整體品質優異，主要問題為描述誤導（17% 買家誤以為是真幣）與缺少實物展示架；與 B0CFYYBHK3（Lincoln 銅圓）同為 Heavenly Metals 品牌，表現相近。B0F9KM51V2（250周年陸軍紀念幣）有三個嚴重產品缺陷：兩面相同設計（12%）、陸軍格言拼寫錯誤（8%）、中國製造爭議（18%），加上疑似刷評模式，實際評分可能虛高，需謹慎。整體類別三分市場格局維持不變。",
+  "rankings": [
+    {
+      "rank": 1,
+      "asin": "B0CQN17539",
+      "name": "2025 American Silver Eagle",
+      "score": 4.85,
+      "verdict": "推薦（官方認證銀幣，適合禮品與嚴肅收藏者）",
+      "negative_breakdown": {
+        "functional_failure": "price_above_spot 5%，authenticity_test_failure 1%",
+        "side_effects": "flimsy_packaging 3%，mint_label_discrepancy 1%",
+        "logistics": "shipping_issues < 2%"
+      }
+    },
+    {
+      "rank": 2,
+      "asin": "B00EMGAO5Y",
+      "name": "Walking Liberty Copper Round",
+      "score": 4.75,
+      "verdict": "推薦（低價紀念銅幣，入門收藏與小額禮品首選）",
+      "negative_breakdown": {
+        "functional_failure": "questionable_copper_purity 4%，overpriced_vs_metal_value 8%",
+        "side_effects": "tarnishing_over_time 4%",
+        "logistics": "wrong_item_shipped 1%"
+      }
+    },
+    {
+      "rank": 3,
+      "asin": "B0CH32MNY1",
+      "name": "US Quarter Copper Bullion Coin (Heavenly Metals)",
+      "score": 3.9,
+      "verdict": "條件推薦（外觀品質佳，適合了解為複製品的禮品與入門收藏買家；不適合誤以為是真幣的買家）",
+      "negative_breakdown": {
+        "functional_failure": "misleading_description 17%，coa_missing 5%，stand_not_included 5%",
+        "side_effects": "size_expectation_mismatch 13%，legal_concern 2%",
+        "logistics": "shipping_generally_positive"
+      }
+    },
+    {
+      "rank": 4,
+      "asin": "B0CFYYBHK3",
+      "name": "Lincoln Wheat Cent Copper Round (Heavenly Metals)",
+      "score": 3.8,
+      "verdict": "條件推薦（與 B0CH32MNY1 同品牌同定位，表現相近，描述誤導問題類似）",
+      "negative_breakdown": {
+        "functional_failure": "authenticity_confusion 18%，display_stand_not_included 4%，coa_missing 4%，investment_value 7%",
+        "side_effects": "legal_concern 2%，size_expectation_mismatch 6%",
+        "logistics": "shipping_generally_positive"
+      }
+    },
+    {
+      "rank": 5,
+      "asin": "B0F9KM51V2",
+      "name": "250th Anniversary U.S. Army Commemorative Coin (Touzanious)",
+      "score": 3.0,
+      "verdict": "警告：多個產品缺陷（兩面相同設計、格言拼寫錯誤、中國製造）+ 疑似刷評；適合作為情感禮品但不適合嚴肅收藏或軍事紀念",
+      "flags": [
+        "suspected_fake_reviews",
+        "inscription_typo",
+        "identical_both_sides",
+        "made_in_china"
+      ],
+      "negative_breakdown": {
+        "functional_failure": "identical_both_sides 12%，inscription_typo_error 8%，quality_below_listing 7%，listing_description_mismatch 5%",
+        "side_effects": "made_in_china_disappointment 18%，missing_items_wrong_quantity 4%",
+        "logistics": "no_packaging_case 3%"
+      }
+    },
+    {
+      "rank": 6,
+      "asin": "B07K9Q32MR",
+      "name": "Morgan Silver Dollar Pre-1921",
+      "score": 2.8,
+      "verdict": "警告（品相嚴重不符描述，listing 含矛盾真偽聲明，高價不符性價比）[REVIEW_NEEDED]",
+      "negative_breakdown": {
+        "functional_failure": "condition_worse_than_listed 38%，listing_misleading 25%，overpriced_for_condition 22%",
+        "side_effects": "authenticity_confusion 18%",
+        "logistics": "wrong_quantity 4%"
+      }
+    },
+    {
+      "rank": 7,
+      "asin": "B07RZ4DJLL",
+      "name": "Wheat Penny Roll w/ Mercury Dime",
+      "score": 2.2,
+      "verdict": "不推薦（廣告不實：48% 確認已被搜索，包裝不符，Mercury Dime 品相差）",
+      "negative_breakdown": {
+        "functional_failure": "pre_searched_coins 48%，limited_date_variety 42%，overpriced_poor_value 28%，replica_dime 3%",
+        "side_effects": "bag_not_roll 32%，duplicate_coin_years 22%",
+        "logistics": "missing_advertised_coins 10%"
+      }
+    },
+    {
+      "rank": 8,
+      "asin": "B011LOOKV8",
+      "name": "50 Wheat Pennies Unsearched",
+      "score": 1.8,
+      "verdict": "不推薦（廣告嚴重不實：52% 確認已搜索，68% 缺乏年份多樣性，實際幣值僅售價 8-37%）",
+      "negative_breakdown": {
+        "functional_failure": "unsearched_claim_false 52%，date_variety_missing 68%，value_for_money 42%，coin_condition 28%",
+        "side_effects": "packaging_not_as_described 22%，quantity_confusion 8%",
+        "logistics": "shipping_generally_fast"
+      }
+    }
+  ],
+  "new_products_analysis": {
+    "B0CH32MNY1": {
+      "segment": "低價紀念銅幣",
+      "fits_existing_segment": true,
+      "key_differentiator": "Heavenly Metals 品牌同款模式，Quarter 設計比 Lincoln 設計知名度高；COA 問題（未收到）比 Lincoln 版更多見",
+      "verdict_vs_competitors": "與 Walking Liberty Copper Round（B00EMGAO5Y）定位相近，但品牌規模較小（510 vs 1711 評論）；在 Heavenly Metals 自家產品中與 B0CFYYBHK3 並列"
+    },
+    "B0F9KM51V2": {
+      "segment": "主題紀念幣（軍事）",
+      "fits_existing_segment": false,
+      "key_differentiator": "進入新的「軍事主題紀念幣」子細分市場，但產品缺陷（拼寫錯誤、兩面相同）導致無法真正服務嚴肅軍事收藏者；情感禮品功能尚可",
+      "verdict_vs_competitors": "與同價位 B0CH32MNY1 相比，設計可信度更低，缺陷更嚴重；評論可信度受刷評疑慮影響"
+    }
+  },
+  "key_findings": [
+    {
+      "finding": "類別三分市場格局維持，新增產品落入既有子市場",
+      "detail": "B0CH32MNY1 加入「低價銅幣紀念品」子市場，未改變排名格局（Walking Liberty 仍為該細分首選）。B0F9KM51V2 嘗試進入「軍事主題」細分，但產品缺陷嚴重，無法成為該細分代表產品。"
+    },
+    {
+      "finding": "B0F9KM51V2 有三重產品缺陷 + 疑似刷評，需特別標記",
+      "detail": "① 兩面完全相同設計（12%，listing 圖片顯示不同面）②「This We'll Defend」拼寫錯誤為「This W'll Defend」（8%，對軍方格言的錯誤尤為嚴重）③ 中國製造（18% 買家認為與美國軍隊 250 周年紀念品不符）④ 12 則疑似刷評（描述其他軍種幣種，與驗證買家投訴矛盾）。"
+    },
+    {
+      "finding": "Heavenly Metals 品牌銅幣產品（B0CH32MNY1、B0CFYYBHK3）有系統性 COA 問題",
+      "detail": "兩款產品均有 4-5% 買家反映未收到 Certificate of Authenticity，且部分買家質疑 COA 的實際價值。建議在報告中統一標注此問題。"
+    },
+    {
+      "finding": "低價紀念銅幣的核心痛點是「描述誤導」而非品質問題",
+      "detail": "B0CH32MNY1（17%）、B0CFYYBHK3（18%）的主要負評均來自買家誤以為購買真幣。外觀品質本身評分高（88%、87% 正面），說明問題在 listing 設計而非製造品質。"
+    }
+  ],
+  "report_recommendation": {
+    "type": "comparison",
+    "rationale": "維持比較報告格式，新增 B0CH32MNY1 至低價銅幣子市場比較；B0F9KM51V2 因多重缺陷標記為謹慎推薦，在報告中提示注意。Morgan Silver Dollar（B07K9Q32MR）的警告報告需求維持。",
+    "warning_needed_for": [
+      "B07K9Q32MR",
+      "B0F9KM51V2"
+    ],
+    "not_recommended": [
+      "B011LOOKV8",
+      "B07RZ4DJLL"
+    ],
+    "conditional_recommended": [
+      "B0CH32MNY1",
+      "B0CFYYBHK3"
+    ]
+  },
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "percentage": "17%",
+      "examples": [
+        "誤以為真幣",
+        "雙面相同設計12%"
+      ]
+    },
+    "creates_new_problem": {
+      "percentage": "13%",
+      "examples": [
+        "格言拼寫錯誤8%",
+        "中國製造爭議18%"
+      ]
+    },
+    "unrelated_to_product": {
+      "percentage": "5%",
+      "examples": [
+        "COA未附上",
+        "展示架缺失"
+      ]
+    }
+  }
+}

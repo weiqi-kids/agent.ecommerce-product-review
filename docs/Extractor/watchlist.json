@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T03:00:00Z",
+  "last_updated": "2026-03-11T03:00:00Z",
   "products": [
     {
       "asin": "B0DCH8VDXF",
@@ -27,9 +27,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-04",
-        "status": "new_entry",
-        "notes": "Step 8 比較報告自動加入監控。2% 電擊率為嚴重安全問題。",
+        "date": "2026-03-11",
+        "status": "no_change",
+        "notes": "無新召回，靜電放電為已知舊議題，無新安全事件。",
         "report": "docs/Narrator/comparisons/wired-earphones--2026-03-04.md"
       }
     },
@@ -40,7 +40,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-04",
-      "last_checked": "2026-03-04",
+      "last_checked": "2026-03-11",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -54,9 +54,9 @@
         "review_count": 9697
       },
       "check_result": {
-        "date": "2026-03-04",
-        "status": "new_entry",
-        "notes": "Step 8 比較報告自動加入監控。扣環膠合品質問題嚴重。",
+        "date": "2026-03-11",
+        "status": "no_change",
+        "notes": "無召回，扣環問題無新惡化報告。",
         "report": "docs/Narrator/comparisons/wireless-bra--2026-03-04.md"
       }
     },
@@ -161,7 +161,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-11",
-      "last_checked": "2026-03-04",
+      "last_checked": "2026-03-11",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -188,9 +188,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-04",
+        "date": "2026-03-11",
         "status": "no_change",
-        "notes": "無新召回公告、無新火災事件。CPSC 無 Bella 烤麵包機相關召回。故障率維持改善狀態。",
+        "notes": "無新召回，僅一般安全說明書警告。CPSC 無 Bella 烤麵包機相關召回。",
         "current_metrics": {
           "failure_rate": "22%",
           "uneven_toasting_rate": "14%",
@@ -209,7 +209,7 @@
       "watch_reason": "claim_contradiction",
       "severity": "high",
       "added_date": "2026-02-11",
-      "last_checked": "2026-02-25",
+      "last_checked": "2026-03-11",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -232,9 +232,9 @@
         "review_count": 67824
       },
       "check_result": {
-        "date": "2026-02-25",
+        "date": "2026-03-11",
         "status": "no_change",
-        "notes": "防霉問題持續（~18-20%），材質過薄投訴惡化（70% 負面提及）。無官方回應或產品描述變更。產品仍以「Mildew Resistant」銷售。",
+        "notes": "無新投訴，防霉宣稱無重大矛盾。問題持續但無惡化。",
         "report": "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md"
       }
     },

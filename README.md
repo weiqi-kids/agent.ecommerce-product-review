@@ -105,8 +105,8 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-03-10 | 262 | 262 ✅ | ✅ 正常 |
-| bestbuy_us | 2026-03-04 | 7 | — 跳過 | ⚠️ 僅數位 |
+| amazon_us | 2026-03-11 | 264+ | 36 (7 新) ✅ | ✅ 正常 |
+| bestbuy_us | 2026-03-11 | 7 | 5 ⚠️ | ⚠️ selector 問題 |
 | walmart_us | — | — | ❌ 永久停用 | ❌ 停用 |
 
 ### 監控清單
@@ -117,16 +117,16 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 | 研究缺口類別 | 4 |
 | 暫緩發佈類別 | 0 |
 
-### 今日統計 (2026-03-10)
+### 今日統計 (2026-03-11)
 
 | 指標 | 數值 |
 |------|------|
-| Discovery 產品 | 262 (Amazon) |
-| 評論分析 | 2,120 則 |
-| 新報告 | 6（5 比較 + 1 痛點） |
-| 新類別 | 6 |
-| REVIEW_NEEDED | 1（評論量不足） |
-| 監控惡化 | 2（NeeDoh→critical, eos Lotion） |
+| Discovery 產品 | 36 (Amazon) |
+| 新進榜 | 5 個全新產品 |
+| 評論分析 | 500 則 |
+| 新報告 | 3（比較報告） |
+| 新類別 | 0 |
+| REVIEW_NEEDED | 3（競品不足/單一平台） |
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

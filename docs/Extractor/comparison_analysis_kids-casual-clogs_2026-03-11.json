@@ -1,0 +1,188 @@
+{
+  "category": "kids-casual-clogs",
+  "problem_statement": "輕便舒適的休閒鞋（兒童及成人日常穿著）",
+  "analysis_date": "2026-03-11",
+  "verdict": "comparison",
+  "verdict_reason": "兩款 Crocs 產品均能解決「輕便舒適休閒鞋」的核心需求，但各有不同程度的問題。B0014C0LSY（成人款）整體表現優於 B0D2NTJ44M（兒童款），後者有嚴重的第三方賣家履行問題（12% 收到二手商品）。建議消費者：成人選成人款（官方直營），兒童選購時務必確認賣家為 Crocs 官方。",
+  "products": [
+    {
+      "product_id": "B0014C0LSY",
+      "name": "Crocs Unisex-Adult Classic Clogs",
+      "rank": 1,
+      "avg_rating": 4.85,
+      "reviews_analyzed": 100,
+      "sentiment_scores": {
+        "comfort": 0.95,
+        "ease_of_use": 0.92,
+        "weight": 0.93,
+        "color_variety": 0.9,
+        "sizing_fit": 0.48,
+        "durability": 0.62,
+        "value": 0.65,
+        "traction_grip": 0.55
+      },
+      "overall_effectiveness_score": 0.82,
+      "key_strengths": [
+        "極佳舒適度（0.95，52次提及）",
+        "輕量（0.93）",
+        "易穿脫（0.92）",
+        "顏色多樣（0.90）",
+        "高回購率（多名買家第 2-25 雙）"
+      ],
+      "negative_classification": {
+        "functional_failure": [
+          {
+            "issue": "濕地滑（2%）",
+            "type": "❌ 無法解決問題",
+            "note": "列表宣稱「防滑外底」但實際濕面打滑"
+          }
+        ],
+        "new_problems_created": [
+          {
+            "issue": "尺碼縮水（熱縮，3%）",
+            "type": "⚠️ 產生新問題",
+            "note": "Croslite 材質暴露極端熱源後變形"
+          },
+          {
+            "issue": "尺碼不一致（16% 偏小，10% 與舊款不符）",
+            "type": "⚠️ 產生新問題",
+            "note": "建議買大一碼"
+          }
+        ],
+        "logistics_issues": [
+          {
+            "issue": "收到二手/缺件商品（3%）",
+            "type": "📦 與產品無關",
+            "note": "第三方賣家問題，非 Crocs 品質缺陷"
+          }
+        ]
+      },
+      "fulfillment_risk": "low",
+      "seller": "Amazon.com (amzn-direct)"
+    },
+    {
+      "product_id": "B0D2NTJ44M",
+      "name": "Crocs Kid's Classic Clog",
+      "rank": 2,
+      "avg_rating": 4.85,
+      "reviews_analyzed": 100,
+      "sentiment_scores": {
+        "kids_enjoyment": 0.95,
+        "ease_of_use": 0.92,
+        "color_variety": 0.9,
+        "lightweight": 0.9,
+        "comfort": 0.88,
+        "quality_durability": 0.68,
+        "sizing_fit": 0.62,
+        "product_condition_on_arrival": 0.12,
+        "strap_durability": 0.2,
+        "smell": 0.3
+      },
+      "overall_effectiveness_score": 0.68,
+      "key_strengths": [
+        "兒童喜愛度極高（0.95）",
+        "易穿脫（0.92，適合兒童獨立穿鞋）",
+        "顏色豐富（0.90）",
+        "輕量（0.90）",
+        "舒適（0.88）"
+      ],
+      "negative_classification": {
+        "functional_failure": [
+          {
+            "issue": "後跟帶斷裂（3%，高嚴重度）",
+            "type": "❌ 無法解決問題",
+            "note": "兒童穿著數天至數次即斷，宣稱「固定後跟設計」失效"
+          }
+        ],
+        "new_problems_created": [
+          {
+            "issue": "尺碼不一致（10%）",
+            "type": "⚠️ 產生新問題",
+            "note": "同尺碼不同批次差異大，退換也不一定合適"
+          },
+          {
+            "issue": "塑膠異味（2%）",
+            "type": "⚠️ 產生新問題",
+            "note": "新鞋氣味強烈"
+          }
+        ],
+        "logistics_issues": [
+          {
+            "issue": "收到二手/髒污商品（12%，高嚴重度）",
+            "type": "📦 與產品無關",
+            "note": "第三方賣家 GoodSprings 問題，非 Crocs 官方直營，強烈建議改買官方店鋪"
+          },
+          {
+            "issue": "配送延遲（3%）",
+            "type": "📦 與產品無關"
+          }
+        ]
+      },
+      "fulfillment_risk": "high",
+      "seller": "GoodSprings（非 Crocs 官方）"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "product_id": "B0014C0LSY",
+      "reason": "舒適度更高（0.95 vs 0.88），核心功能問題少，官方直營風險低"
+    },
+    {
+      "rank": 2,
+      "product_id": "B0D2NTJ44M",
+      "reason": "兒童專屬優勢（易穿脫、兒童喜愛），但第三方賣家 12% 二手商品問題嚴重"
+    }
+  ],
+  "key_differences": [
+    {
+      "dimension": "整體舒適度",
+      "B0014C0LSY": "0.95（成人款最高分，15+ 年忠實用戶）",
+      "B0D2NTJ44M": "0.88（兒童款表現良好）"
+    },
+    {
+      "dimension": "到貨品質風險",
+      "B0014C0LSY": "3%（低風險，Amazon 直營）",
+      "B0D2NTJ44M": "12%（高風險，第三方賣家 GoodSprings）"
+    },
+    {
+      "dimension": "耐久性問題",
+      "B0014C0LSY": "後跟帶偶爾斷裂（2%）",
+      "B0D2NTJ44M": "後跟帶斷裂（3%，且僅數次穿著即斷）"
+    },
+    {
+      "dimension": "尺碼可預測性",
+      "B0014C0LSY": "偏小 16%，建議大一碼",
+      "B0D2NTJ44M": "不一致，同尺碼批次差異大"
+    }
+  ],
+  "recommendation_for_report": {
+    "report_type": "comparison",
+    "primary_recommendation": "B0014C0LSY（成人款）整體可靠，但需注意尺碼偏小。兒童款 B0D2NTJ44M 功能性佳，但必須選 Crocs 官方賣家購買。",
+    "buyer_guidance": "無論選哪款，Crocs 的核心優勢（輕量、舒適、易穿脫）均成立；主要風險在尺碼（建議大一碼）和賣家選擇（避免第三方）。",
+    "confidence": "high（成人款）/ medium（兒童款，因賣家問題影響判斷）"
+  },
+  "competitors_data": "無同類別競品萃取資料（本次僅分析 Crocs 兩款）",
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "percentage": "5%",
+      "examples": [
+        "後跟帶斷裂",
+        "濕地打滑"
+      ]
+    },
+    "creates_new_problem": {
+      "percentage": "19%",
+      "examples": [
+        "尺碼偏小16%",
+        "熱縮3%"
+      ]
+    },
+    "unrelated_to_product": {
+      "percentage": "12%",
+      "examples": [
+        "兒童款12%收到二手品(第三方賣家)"
+      ]
+    }
+  }
+}

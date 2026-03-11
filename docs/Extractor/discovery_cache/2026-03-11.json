@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-11",
+  "platforms": {
+    "amazon": {
+      "total_products": 36,
+      "new_entries": 7,
+      "exited": 7,
+      "source": "docs/Extractor/amazon_us/discovery/all--2026-03-11.jsonl"
+    },
+    "bestbuy": {
+      "total_products": 5,
+      "new_entries": 5,
+      "note": "selector_issue: 僅抓到數位產品（遊戲/點數），非實體電子產品",
+      "source": "docs/Extractor/bestbuy_us/discovery/electronics--2026-03-11.jsonl"
+    }
+  },
+  "new_products": [
+    {
+      "product_id": "B0014C0LSY",
+      "title": "Crocs Unisex-Adult Classic Clogs",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0CH32MNY1",
+      "title": "US Quarter Design 1 oz Pure .999 Copper Round Bullion Coin",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0D2NTJ44M",
+      "title": "Crocs Kid's Classic Clog",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0D7FVQ1ZB",
+      "title": "Apple EarPods Headphones with Lightning Connector",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0F9KM51V2",
+      "title": "250th Anniversary U.S. Army Commemorative Coin",
+      "platform": "amazon",
+      "status": "new"
+    }
+  ],
+  "returning_products": [
+    {
+      "product_id": "B09PDLBFKY",
+      "title": "Power Strip (existing)",
+      "platform": "amazon",
+      "status": "existing"
+    },
+    {
+      "product_id": "B0DGHMNQ5Z",
+      "title": "Apple AirPods 4 (existing)",
+      "platform": "amazon",
+      "status": "existing"
+    }
+  ],
+  "selector_issues": [
+    {
+      "platform": "bestbuy_us",
+      "category": "electronics",
+      "error_type": "selector_issue",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "occurrences": 1,
+      "status": "pending_fix",
+      "details": "僅抓到 5 筆數位產品，.sku-item selector 效果有限"
+    }
+  ],
+  "total_products": 264,
+  "summary": "Amazon 36 個產品（7 新進榜、5 全新），Best Buy 5 個（selector 問題）。總計 264+ 個產品。"
+}

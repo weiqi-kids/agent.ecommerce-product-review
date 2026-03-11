@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-11",
+  "platform": "amazon_us",
+  "total_products": 5,
+  "total_reviews": 500,
+  "results": [
+    {
+      "asin": "B0014C0LSY",
+      "name": "Crocs Unisex-Adult Classic Clogs",
+      "category": "kids-casual-clogs",
+      "reviews_fetched": 100,
+      "reviews_extracted": 100,
+      "status": "success",
+      "output": "docs/Extractor/amazon_us/kids-casual-clogs/B0014C0LSY--amzn-direct--2026-03-11.md"
+    },
+    {
+      "asin": "B0CH32MNY1",
+      "name": "US Quarter Design Copper Bullion Coin",
+      "category": "collectible-coins",
+      "reviews_fetched": 100,
+      "reviews_extracted": 100,
+      "status": "success",
+      "output": "docs/Extractor/amazon_us/collectible-coins/B0CH32MNY1--amzn-direct--2026-03-11.md"
+    },
+    {
+      "asin": "B0D2NTJ44M",
+      "name": "Crocs Kid's Classic Clog",
+      "category": "kids-casual-clogs",
+      "reviews_fetched": 100,
+      "reviews_extracted": 100,
+      "status": "success",
+      "output": "docs/Extractor/amazon_us/kids-casual-clogs/B0D2NTJ44M--amzn-direct--2026-03-11.md"
+    },
+    {
+      "asin": "B0D7FVQ1ZB",
+      "name": "Apple EarPods Lightning",
+      "category": "wired-earphones",
+      "reviews_fetched": 100,
+      "reviews_extracted": 100,
+      "status": "success",
+      "output": "docs/Extractor/amazon_us/wired-earphones/B0D7FVQ1ZB--amzn-direct--2026-03-11.md"
+    },
+    {
+      "asin": "B0F9KM51V2",
+      "name": "250th Anniversary U.S. Army Commemorative Coin",
+      "category": "collectible-coins",
+      "reviews_fetched": 100,
+      "reviews_extracted": 100,
+      "status": "success",
+      "output": "docs/Extractor/amazon_us/collectible-coins/B0F9KM51V2--amzn-direct--2026-03-11.md"
+    }
+  ],
+  "summary": "5 個新產品全部抓取萃取成功，共 500 則評論。無 REVIEW_NEEDED。"
+}

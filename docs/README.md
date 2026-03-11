@@ -62,16 +62,13 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 ---
 
-## 🆕 最新報告 (2026-03-10)
+## 🆕 最新報告 (2026-03-11)
 
 | 類別 | 類型 | 重點發現 |
 |------|------|----------|
-| [遮光窗簾比較](/Narrator/comparisons/blackout-curtains--2026-03-10) | 比較報告 | ChrisDowa vs Deconovo vs Amazon Basics 遮光效果比較 |
-| [復活節彩蛋尋寶道具](/Narrator/comparisons/easter-egg-hunt--2026-03-10) | 比較報告 | Eggmazing 裝飾器、預填蛋、空殼蛋完整評測 |
-| [馬桶清潔劑比較](/Narrator/comparisons/toilet-bowl-cleaner--2026-03-10) | 比較報告 | 化學式 vs 天然式 vs 物理式清潔方案實測 |
-| [節日派對裝飾配件](/Narrator/comparisons/holiday-costume-accessories--2026-03-10) | 比較報告 | 頭飾、眼鏡套組品質與安全比較 |
-| [走廊地毯痛點](/Narrator/pain_points/hallway-runner-rug--pain-points--2026-03-10) | 痛點報告 | nuLOOM 28% 掉毛率，平價產品普遍品質不佳 |
-| [女性瑜伽褲比較](/Narrator/comparisons/womens-yoga-pants--2026-03-10) | 比較報告 | Lululemon vs Colorfulkoala vs 主要競品面料與舒適度比較 |
+| [兒童休閒洞洞鞋比較](/Narrator/comparisons/kids-casual-clogs--2026-03-11) | 比較報告 | Crocs 成人款 vs 兒童款，兒童款 12% 收到二手品 |
+| [收藏幣比較（更新）](/Narrator/comparisons/collectible-coins--2026-03-11) | 比較報告 | 8 款收藏幣分析，新增軍事幣三重缺陷警告 |
+| [有線耳機比較（更新）](/Narrator/comparisons/wired-earphones--2026-03-11) | 比較報告 | Lightning vs USB-C EarPods 完整比較，20% 早期故障 |
 
 ## ✅ 最新推薦
 
@@ -126,7 +123,7 @@ Amazon 評論（最新 50-200 則）
 | 深度報告 | **296+** 篇 |
 | 分析評論 | **10 萬+** 則 |
 | 產品品類 | **72+** 種 |
-| 最後更新 | **2026-03-10** |
+| 最後更新 | **2026-03-11** |
 
 </div>
 

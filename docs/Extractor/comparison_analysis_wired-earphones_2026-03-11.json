@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "category": "wired-earphones",
+    "analysis_date": "2026-03-11",
+    "products_analyzed": 2,
+    "previous_report": "docs/Narrator/comparisons/wired-earphones--2026-03-04.md",
+    "confidence": "high"
+  },
+  "verdict": {
+    "result": "comparison",
+    "summary": "Lightning EarPods 與 USB-C EarPods 兩者幾乎相同，均能解決基本有線耳機需求，但各有輕微優劣。Lightning 版耐用性略差（20% 故障 vs 22%），安全風險較低（1% 電擊 vs 2%）；USB-C 版音質稍優（0.82 vs 0.78），但麥克風可靠性更差（8% 失效 vs 3%）。兩版均不適合作為主力耳機，同價位競品（JBL Tune 310C、Moondrop Chu 2）仍是更佳選擇。",
+    "recommended_for_connector_locked_users": {
+      "lightning_users": "B0D7FVQ1ZB（Lightning）- 適合仍使用舊款 iPhone（Lightning 接口）的用戶，無可替代性",
+      "usbc_users": "JBL Tune 310C 優先，Apple EarPods USB-C 次選"
+    }
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "product_id": "B0DCH8VDXF",
+      "name": "Apple EarPods USB-C",
+      "connector": "USB-C",
+      "avg_rating": 4.65,
+      "ratings_count": 27056,
+      "scores": {
+        "sound_quality": 0.82,
+        "durability": 0.31,
+        "comfort_fit": 0.62,
+        "microphone": 0.38,
+        "value": 0.73,
+        "wired_convenience": 0.84
+      },
+      "key_issues": {
+        "premature_failure": "22%",
+        "microphone_failure": "8%",
+        "electrical_shock": "2%",
+        "counterfeit": "7%",
+        "connector_damage": "6%"
+      },
+      "rank_reason": "音質略優（0.82 vs 0.78），通用性更高（USB-C 為現行標準），但麥克風可靠性差（8% 失效）、電擊風險 2%"
+    },
+    {
+      "rank": 2,
+      "product_id": "B0D7FVQ1ZB",
+      "name": "Apple EarPods Lightning",
+      "connector": "Lightning",
+      "avg_rating": 4.65,
+      "ratings_count": 27545,
+      "scores": {
+        "sound_quality": 0.78,
+        "durability": 0.28,
+        "comfort_fit": 0.45,
+        "microphone": 0.65,
+        "value": 0.72,
+        "wired_convenience": 0.85
+      },
+      "key_issues": {
+        "early_failure": "20%",
+        "poor_ear_fit": "8%",
+        "remote_button_failure": "6%",
+        "intermittent_connectivity": "7%",
+        "safety_electrical": "1%",
+        "authenticity_concern": "2%"
+      },
+      "rank_reason": "耐用性略差（durability 0.28 vs 0.31），音質稍遜（0.78 vs 0.82），舒適度更差（0.45 vs 0.62），僅對 Lightning 設備用戶有不可替代性"
+    }
+  ],
+  "head_to_head": {
+    "sound_quality": {
+      "winner": "USB-C",
+      "usbc_score": 0.82,
+      "lightning_score": 0.78,
+      "delta": 0.04,
+      "note": "USB-C 版評論更多提及音質無延遲、清晰度高"
+    },
+    "durability": {
+      "winner": "USB-C（marginally）",
+      "usbc_failure_rate": "22%",
+      "lightning_failure_rate": "20%",
+      "note": "兩者均有嚴重耐用性問題，差異在誤差範圍內，Lightning 版連接器問題較少（無 connector_damage 問題）"
+    },
+    "safety": {
+      "winner": "Lightning",
+      "usbc_shock_rate": "2%",
+      "lightning_shock_rate": "1%",
+      "severity": "high",
+      "note": "兩版均有電擊報告，USB-C 版頻率高一倍，建議確認購買來源為官方賣家"
+    },
+    "microphone": {
+      "winner": "Lightning",
+      "usbc_score": 0.38,
+      "lightning_score": 0.65,
+      "delta": 0.27,
+      "note": "Lightning 版麥克風可靠性明顯優於 USB-C 版（8% 失效 vs 3%），通話需求應優先考量"
+    },
+    "comfort_fit": {
+      "winner": "USB-C",
+      "usbc_score": 0.62,
+      "lightning_score": 0.45,
+      "delta": 0.17,
+      "note": "Lightning 版耳機脫落問題（8%）和耳部不適（3%）比 USB-C 版更嚴重"
+    },
+    "value": {
+      "winner": "Tie",
+      "usbc_score": 0.73,
+      "lightning_score": 0.72,
+      "note": "兩版定價相似，性價比評分接近"
+    },
+    "wired_convenience": {
+      "winner": "Lightning（marginal）",
+      "usbc_score": 0.84,
+      "lightning_score": 0.85,
+      "note": "兩版均獲高度評價，差異微小"
+    }
+  },
+  "negative_review_classification": {
+    "lightning_B0D7FVQ1ZB": {
+      "functional_failure": {
+        "percentage": "~33%",
+        "items": [
+          "early_failure 20%",
+          "one_side_stops_working 7%",
+          "remote_button_failure 6%"
+        ],
+        "note": "核心功能在數週至數月內失效"
+      },
+      "new_problems_created": {
+        "percentage": "~8%",
+        "items": [
+          "safety_electrical 1%（HIGH）",
+          "intermittent_connectivity 7%（含電擊感）"
+        ],
+        "note": "間歇斷線加上偶發電擊感屬副作用問題"
+      },
+      "unrelated_to_product": {
+        "percentage": "~7%",
+        "items": [
+          "return_window_expired 5%（物流/政策）",
+          "authenticity_concern 2%（賣家問題）"
+        ],
+        "note": "與產品本身功能無關的問題"
+      }
+    },
+    "usbc_B0DCH8VDXF": {
+      "functional_failure": {
+        "percentage": "~36%",
+        "items": [
+          "premature_failure 22%",
+          "microphone_failure 8%",
+          "connector_damage 6%"
+        ],
+        "note": "核心功能在 1-4 個月內失效"
+      },
+      "new_problems_created": {
+        "percentage": "~9%",
+        "items": [
+          "electrical_shock 2%（HIGH）",
+          "random_disconnection 5%（觸發 Siri）",
+          "audio_degradation 4%"
+        ],
+        "note": "電擊屬高嚴重性安全風險"
+      },
+      "unrelated_to_product": {
+        "percentage": "~14%",
+        "items": [
+          "counterfeit 7%",
+          "used_as_new 4%",
+          "compatibility_issues 3%（舊設備）"
+        ],
+        "note": "假貨比例高，建議僅從 Apple 官方或授權賣家購買"
+      }
+    }
+  },
+  "key_differentiators": [
+    {
+      "dimension": "接口適用性",
+      "description": "Lightning 版僅適用於舊款 iPhone（iPhone 14 及以前），USB-C 版適用於 iPhone 15+ 及大多數現代設備",
+      "practical_impact": "接口選擇通常由設備決定，非自由選擇"
+    },
+    {
+      "dimension": "麥克風可靠性",
+      "description": "Lightning 版麥克風失效率 3%，USB-C 版高達 8%",
+      "practical_impact": "通話為主要用途者，Lightning 版更可靠（若設備相容）"
+    },
+    {
+      "dimension": "安全風險",
+      "description": "USB-C 版電擊報告率 2%，Lightning 版 1%",
+      "practical_impact": "兩者均建議從官方授權賣家購買以降低風險"
+    },
+    {
+      "dimension": "假貨風險",
+      "description": "USB-C 版假貨問題（7%）比 Lightning 版（2%）更嚴重",
+      "practical_impact": "USB-C 版購買時需更謹慎確認賣家身份"
+    }
+  ],
+  "update_notes": {
+    "changes_from_2026_03_04": [
+      "新增 Lightning 版（B0D7FVQ1ZB）對比分析",
+      "Lightning vs USB-C 直接比較維度已加入",
+      "整體 verdict 維持 comparison 類型（兩版均非最佳選擇，競品仍更優）"
+    ],
+    "report_action": "更新現有比較報告 wired-earphones--2026-03-04.md，新增 Lightning 版段落",
+    "competitors_still_valid": true,
+    "competitor_recommendation_unchanged": "JBL Tune 310C（USB-C 用戶）、Moondrop Chu 2（音質優先）仍為更佳選擇"
+  },
+  "negative_classification": {
+    "cannot_solve_problem": {
+      "percentage": "20%",
+      "examples": [
+        "數週內故障20%",
+        "單側失音7%"
+      ]
+    },
+    "creates_new_problem": {
+      "percentage": "3%",
+      "examples": [
+        "電擊風險1-2%",
+        "不服貼耳型8%"
+      ]
+    },
+    "unrelated_to_product": {
+      "percentage": "5%",
+      "examples": [
+        "假貨疑慮2-7%",
+        "包裝問題"
+      ]
+    }
+  }
+}

@@ -1,40 +1,40 @@
 {
-  "last_updated": "2026-03-10T12:00:00Z",
-  "last_completed_date": "2026-03-10",
+  "last_updated": "2026-03-11T12:00:00Z",
+  "last_completed_date": "2026-03-11",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "steps": {
     "step_1": {
       "status": "completed",
-      "note": "增量模式：14 個到期項目已於早前完成檢查（2 worsening、12 no_change）。7 個項目未到期。"
+      "note": "4 個到期項目檢查完成（4 no_change）。其餘 14 個未到期。"
     },
     "step_2": {
       "status": "completed",
-      "note": "增量模式：今日缺口分析已完成。foam-playmat 補齊成功，kids-activity-book 延至 03-15。"
+      "note": "無需補齊。kids-activity-book 延至 03-15，2 個類別待 Amazon 評論補齊。"
     },
     "step_3": {
       "status": "completed",
-      "note": "增量 Discovery：2 個新進榜（B0CFYYBHK3 已存在、B0C7ZBNWL5 新增），總計 264 個產品。"
+      "note": "Amazon 36 個（7 新進榜、5 全新）。Best Buy selector 問題（僅抓到數位產品）。"
     },
     "step_4": {
       "status": "completed",
-      "note": "增量分組：B0C7ZBNWL5（G4Free Yoga Pants）歸入現有 womens-yoga-pants 類別。總計 712 產品 199 類別。"
+      "note": "5 個新產品歸入 3 個現有類別：kids-casual-clogs x2、collectible-coins x2、wired-earphones x1。"
     },
     "step_5": {
       "status": "skipped",
-      "note": "增量模式跳過：womens-yoga-pants 已有現有報告（2026-03-04），無新類別。"
+      "note": "增量模式跳過：無新類別，所有研究報告未過期（≤30天）。"
     },
     "step_6": {
       "status": "completed",
-      "note": "B0C7ZBNWL5 抓取 100 則評論，L1-L6 萃取完成。修復 scraper 分頁 overlay 問題。"
+      "note": "5 個 ASIN 全部抓取成功，共 500 則評論，L1-L6 萃取完成。"
     },
     "step_7": {
       "status": "completed",
-      "note": "womens-yoga-pants 比較分析更新：verdict=comparison，G4Free 適合辦公休閒，CRZ Yoga 防透視更優。"
+      "note": "3 個類別比較分析：kids-casual-clogs(comparison)、collectible-coins(comparison)、wired-earphones(comparison)。"
     },
     "step_8": {
       "status": "completed",
-      "note": "womens-yoga-pants 比較報告更新（womens-yoga-pants--2026-03-10.md），200 則評論整合，維持 REVIEW_NEEDED。"
+      "note": "3 份比較報告產出（均標記 REVIEW_NEEDED）。index.md 已更新。"
     }
   }
 }
