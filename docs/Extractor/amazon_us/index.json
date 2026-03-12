@@ -24,6 +24,30 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "womens-yoga-pants-B0BC4S63RV--amzn-direct--2026-03-12-md",
+    "title": "THE GYM PEOPLE Thick High Waist Yoga Pants with Pockets, Tummy Control Workout Running Yoga Leggings for Women",
+    "category": "womens-yoga-pants",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "womens-yoga-pants/B0BC4S63RV--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "wireless-earbuds-B0FQFB8FMG--amzn-direct--2026-03-12-md",
+    "title": "Apple AirPods Pro 3 Wireless Earbuds",
+    "category": "wireless-earbuds",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "wireless-earbuds/B0FQFB8FMG--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "wireless-earbuds-B0FQFB8FMG--2026-02-17-md",
     "title": "Apple AirPods Pro 3 Wireless Earbuds",
     "category": "wireless-earbuds",
@@ -636,6 +660,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "tongue-scraper-B0GS5852CG--amzn-direct--2026-03-12-md",
+    "title": "MasterMedi Tongue Scraper for Adults with Multicolor Travel Cases (2 Pack), 100% Stainless Steel",
+    "category": "tongue-scraper",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "tongue-scraper/B0GS5852CG--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "toilet-bowl-cleaner-B09GK4VNK5--amazon_us--2026-03-10-md",
     "title": "Kadden 2 Pack Pumice Stone Toilet Cleaner",
     "category": "toilet-bowl-cleaner",
@@ -684,6 +720,66 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "telescope-monocular-B0GS5G9RYW--amzn-direct--2026-03-12-md",
+    "title": "Telescope for Adults & Kids & Astronomy Beginners, 80mm Aperture 600mm Portable Refractor (HUGERSTAR)",
+    "category": "telescope-monocular",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "telescope-monocular/B0GS5G9RYW--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "telescope-monocular-B0GS47XBBD--amzn-direct--2026-03-12-md",
+    "title": "MEEZAA 150EQ Newtonian Reflector Telescope for Adults Astronomy Beginners",
+    "category": "telescope-monocular",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "telescope-monocular/B0GS47XBBD--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "telescope-monocular-B0GS3LG2VB--amzn-direct--2026-03-12-md",
+    "title": "MD.LIFE 80x100 High Power Monocular Telescope with Smartphone Adapter Tripod",
+    "category": "telescope-monocular",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "telescope-monocular/B0GS3LG2VB--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "telescope-monocular-B0GS3FS4ZT--amzn-direct--2026-03-12-md",
+    "title": "KTBDING Monocular Telescope 80x100 High Power with Smartphone Adapter Tripod (Green)",
+    "category": "telescope-monocular",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "telescope-monocular/B0GS3FS4ZT--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "telescope-monocular-B0F4KSBJSK--amzn-direct--2026-03-12-md",
+    "title": "Dranbol 12X25 Mini Pocket Binoculars for Adults Kids",
+    "category": "telescope-monocular",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "telescope-monocular/B0F4KSBJSK--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "teeth-whitening-B082TPDTM2--lumineux--2026-02-13-md",
     "title": "Lumineux Teeth Whitening Strips - L1-L6 Extraction",
     "category": "teeth-whitening",
@@ -693,6 +789,30 @@
     "avg_rating": "",
     "review_count": "",
     "file": "teeth-whitening/B082TPDTM2--lumineux--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "tablet-computer-B0DZ75TN5F--amzn-direct--2026-03-12-md",
+    "title": "Apple iPad 11-inch (A16, 2025) — Liquid Retina, 128GB, Wi-Fi 6",
+    "category": "tablet-computer",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "tablet-computer/B0DZ75TN5F--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "sun-protection-B0F6TWJPMX--amzn-direct--2026-03-12-md",
+    "title": "La Roche-Posay Anthelios Tinted Mineral Sunscreen SPF 40",
+    "category": "sun-protection",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "sun-protection/B0F6TWJPMX--amzn-direct--2026-03-12.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1017,6 +1137,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "space-heater/B07V6M4MSN--amazon-basics--2026-02-13.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "smartwatch-B0DSWMYSYT--amzn-direct--2026-03-12-md",
+    "title": "Google Pixel Watch 3 (41mm) Renewed — Amazon Smartwatch",
+    "category": "smartwatch",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "smartwatch/B0DSWMYSYT--amzn-direct--2026-03-12.md",
     "source_layer": "amazon_us"
   },
   {
@@ -1653,6 +1785,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "other/B000RUJJAU--amazon_us--2026-03-10.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "noise-cancelling-headphone-B0D3PZLZ3N--amzn-direct--2026-03-12-md",
+    "title": "Beats Solo 4 Wireless On-Ear Headphones (Renewed) — Cloud Pink",
+    "category": "noise-cancelling-headphone",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "noise-cancelling-headphone/B0D3PZLZ3N--amzn-direct--2026-03-12.md",
     "source_layer": "amazon_us"
   },
   {
@@ -2796,6 +2940,18 @@
     "source_layer": "amazon_us"
   },
   {
+    "id": "food-storage-bags-B0GS3FL9MB--amzn-direct--2026-03-12-md",
+    "title": "Ziploc Sandwich and Snack Bags with EasyGuide Texture, 105 Bags Total",
+    "category": "food-storage-bags",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "food-storage-bags/B0GS3FL9MB--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
     "id": "fashion-B0DFZ5MDDF--amazon_us--2026-02-05-md",
     "title": "Zubaz NFL Women's Full Length High Waist Basic 1.0 Leggings",
     "category": "fashion",
@@ -2925,6 +3081,18 @@
     "avg_rating": "",
     "review_count": "",
     "file": "fashion/B000L3TP52--amazon_us--2026-02-05.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "facial-cleanser-B0BN2PX8V3--amzn-direct--2026-03-12-md",
+    "title": "Anua Heartleaf Pore Control Cleansing Oil 200ml",
+    "category": "facial-cleanser",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "facial-cleanser/B0BN2PX8V3--amzn-direct--2026-03-12.md",
     "source_layer": "amazon_us"
   },
   {
@@ -3573,6 +3741,42 @@
     "avg_rating": "",
     "review_count": "",
     "file": "coffee-filter/B0C4Z6SKCS--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "budget-smartphone-B0GS6Q14K2--amzn-direct--2026-03-12-md",
+    "title": "Apple iPhone SE (2nd Generation), US Version, 64GB, Black for AT&T (Renewed)",
+    "category": "budget-smartphone",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "budget-smartphone/B0GS6Q14K2--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "budget-smartphone-B0GS6CCXCJ--amzn-direct--2026-03-12-md",
+    "title": "Apple iPhone SE 3rd Gen, 64GB, RED - AT&T (Renewed)",
+    "category": "budget-smartphone",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "budget-smartphone/B0GS6CCXCJ--amzn-direct--2026-03-12.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "budget-smartphone-B0DK9VZC5B--amzn-direct--2026-03-12-md",
+    "title": "Samsung Galaxy S24 Ultra 5G, US Version, 256GB, Titanium Gray - AT&T (Renewed)",
+    "category": "budget-smartphone",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "budget-smartphone/B0DK9VZC5B--amzn-direct--2026-03-12.md",
     "source_layer": "amazon_us"
   },
   {
@@ -4269,6 +4473,18 @@
     "avg_rating": "",
     "review_count": "**Reviews Analyzed**: 50",
     "file": "anti-aging-serum/B0DK4Y2YP3--amazon_us--2026-02-11.md",
+    "source_layer": "amazon_us"
+  },
+  {
+    "id": "acne-treatment-B0GS4L56N7--amzn-direct--2026-03-12-md",
+    "title": "Large Acne Pimple Patches for Face — Daolyo 6 Sizes 142 Counts",
+    "category": "acne-treatment",
+    "product_id": "",
+    "brand": "",
+    "platform": "",
+    "avg_rating": "",
+    "review_count": "",
+    "file": "acne-treatment/B0GS4L56N7--amzn-direct--2026-03-12.md",
     "source_layer": "amazon_us"
   },
   {
