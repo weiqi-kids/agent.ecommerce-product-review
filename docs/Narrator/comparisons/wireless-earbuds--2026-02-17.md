@@ -222,4 +222,32 @@ reviewCount: 200
 - 資料擷取時間：2026-02-17
 
 ---
-*Generated: 2026-02-17 | Source: amazon_us | Reviews: 200 | Confidence: medium*
+
+## 2026-03-12 更新：AirPods Pro 3 新數據
+
+> 本次更新基於最新 100 則 Amazon 用戶評論追蹤（B0FQFB8FMG）。
+
+### 新發現：Chirping Feedback 問題（8%）
+
+AirPods Pro 3 出現一項先前未記錄的新問題——**8% 的用戶反映耳機發出異常的 chirping（啁啾聲）回饋**。此問題多在降噪模式下出現，表現為間歇性的高頻噪音，嚴重影響聆聽體驗。
+
+**負評分類**：❌ 功能失效（核心降噪功能受損）
+
+**代表性評論**：
+> "There's a random chirping sound that comes and goes when ANC is on, very annoying"
+> "Started getting a high-pitched chirp in the left earbud after a few weeks of use"
+
+### 更新後的 AirPods Pro 3 負評總覽
+
+| 類型 | 原始比例 | 更新比例 | 變化 |
+|------|---------|---------|------|
+| ❌ 功能失效 | 17% | **25%** | +8%（新增 chirping feedback） |
+| ⚠️ 副作用 | 8% | 8% | 不變 |
+| 📦 物流問題 | 11% | 11% | 不變 |
+
+### 對推薦結論的影響
+
+chirping feedback 問題（8%）進一步增加了 AirPods Pro 3 的品質風險。雖然 Pro 3 在降噪、音質、電池續航上仍然全面勝出，但功能失效比例從 17% 上升至 25%，代表每 4 位購買者中就有 1 位可能遇到某種功能問題。**從 Apple 官方管道購買並保留退貨權益變得更為重要。**
+
+---
+*Generated: 2026-02-17（2026-03-12 更新） | Source: amazon_us | Reviews: 300 | Confidence: medium*

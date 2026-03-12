@@ -1,10 +1,10 @@
 # 產品問題分組
 
-最後更新：2026-03-11
+最後更新：2026-03-12
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：716
-問題類別數：199
+產品總數：743
+問題類別數：206
 分組原則：按具體問題分組（v2 - 問題導向）
 本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
 本次更新（2026-03-04）：17 個產品歸入現有類別（water-bottle x2、paper-towels、collectible-coins x6、toilet-paper x2、aa-batteries、cotton-swabs、bread-toaster、electrolyte-hydration、wireless-earbuds、disposable-plates）；新增 7 個類別（7 個產品）；跳過 16 個（5 Best Buy 數位產品 + 11 已存在昨日分組/重複）
@@ -12,6 +12,7 @@
 本次更新（2026-03-06）：8 個產品歸入現有類別（disposable-gloves x2、toilet-paper、paper-towels、trading-cards、board-games x2、shower-curtain-liner）；新增 8 個類別（8 個產品）；跳過 1 個（已存在於分組）
 本次更新（2026-03-10）：52 個產品歸入現有類別（action-figure x2、air-purifier、art-supplies x3、bathroom-rug、board-games、body-moisturizing x2、bubble-toy、collectible-coins x2、e-reader x2、early-learning-toy、electrolyte-hydration、facial-cleanser x2、facial-hair-removal、flushable-wipes x3、high-protein-snack x2、hvac-air-filter、kids-casual-clogs x2、kitchen-scale、laundry-stain、noise-cancelling-headphone、party-backdrop、portable-carpet-cleaner、postpartum-incontinence、potting-soil、power-strip、probiotic-supplement、squishy-toy x5、tablet-computer、toothpaste、toy-cars、tv-remote-replacement、video-doorbell、water-bottle、wild-bird-feed、wireless-bra、wireless-earbuds x2）；新增 5 個類別（5 個產品）；跳過 1 個（數位服務/訂閱）
 本次更新（2026-03-11）：5 個產品歸入現有類別（kids-casual-clogs x2、collectible-coins x2、wired-earphones x1）；新增 0 個類別；跳過 0 個
+本次更新（2026-03-12）：13 個產品歸入現有類別（wireless-earbuds x2、tablet-computer x1、acne-treatment x1、sun-protection x1、exfoliating-toner x1、facial-cleanser x1、womens-yoga-pants x1、noise-cancelling-headphone x3、smartwatch x1、food-storage-bags x1）；新增 7 個類別（14 個產品）；跳過 3 個（B0GJTFXNRX 已在 item-tracker、J7XSRH5RCF 同款不同色重複、JJGCQLYK5F 跨平台同品已收錄）
 
 ---
 
@@ -24,8 +25,8 @@
 | hand-care | 手部乾裂護理 | 1 | ✅ 已完成 |
 | anti-aging-serum | 抗老化精華護理 | 5 | ⚠️ 需補充 |
 | lip-care | 嘴唇乾裂護理 | 4 | ✅ 已完成 |
-| acne-treatment | 痘痘粉刺治療 | 11 | ✅ 已完成 |
-| sun-protection | 防曬保護 | 2 | ✅ 已完成 |
+| acne-treatment | 痘痘粉刺治療 | 12 | ✅ 已完成 |
+| sun-protection | 防曬保護 | 3 | ✅ 已完成 |
 | teeth-whitening | 牙齒美白 | 1 | ✅ 已完成 |
 | hair-extension | 接髮增量 | 1 | ⚠️ 需補充 |
 | hair-styling-powder | 頭髮造型粉 | 1 | ⚠️ 需補充 |
@@ -57,7 +58,7 @@
 | valentine-cards | 情人節卡片禮物 | 3 | ⚠️ 需補充 |
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
 | streaming-stick | 電視串流棒 | 13 | ✅ 已完成 |
-| noise-cancelling-headphone | 降噪耳機 | 6 | ✅ 已完成 |
+| noise-cancelling-headphone | 降噪耳機 | 9 | ✅ 已完成 |
 | item-tracker | 物品追蹤器 | 4 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
 | hand-warmer | 手部暖暖包 | 2 | ⚠️ 需補充 |
@@ -80,15 +81,15 @@
 | mascara | 睫毛增長加密 | 6 | ⏳ 待研究 |
 | makeup-removal | 卸妝清潔 | 9 | ⏳ 待研究 |
 | eye-puffiness | 眼部浮腫黑眼圈 | 1 | ⏳ 待研究 |
-| facial-cleanser | 臉部清潔洗面乳 | 7 | ⏳ 待研究 |
+| facial-cleanser | 臉部清潔洗面乳 | 8 | ⏳ 待研究 |
 | hydrating-serum | 保濕精華液 | 1 | ⏳ 待研究 |
-| exfoliating-toner | 去角質化妝水 | 3 | ⏳ 待研究 |
+| exfoliating-toner | 去角質化妝水 | 4 | ⏳ 待研究 |
 | natural-deodorant | 天然體香劑 | 2 | ⏳ 待研究 |
 | face-towels | 一次性洗臉巾 | 1 | ⏳ 待研究 |
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
 | collagen-mask | 膠原蛋白面膜 | 3 | ⏳ 待研究 |
-| wireless-earbuds | 無線藍牙耳機 | 20 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 22 | ⏳ 待研究 |
 | e-reader | 電子書閱讀器 | 6 | ⏳ 待研究 |
 | video-doorbell | 智慧門鈴監控 | 4 | ⏳ 待研究 |
 | electrolyte-hydration | 電解質補充 | 5 | ⏳ 待研究 |
@@ -137,10 +138,10 @@
 | oil-sprayer | 食用油噴霧器控量均勻噴灑 | 4 | ⏳ 待研究 |
 | disposable-plates | 一次性免洗紙盤便利用餐 | 3 | ⏳ 待研究 |
 | 3d-printer-filament | 3D 列印用 PLA 線材耗材 | 1 | ⏳ 待研究 |
-| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 3 | ⏳ 待研究 |
+| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 4 | ⏳ 待研究 |
 | super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
 | mens-underwear | 男性底褲舒適透氣 | 1 | ⏳ 待研究 |
-| womens-yoga-pants | 女性瑜珈/運動褲 | 2 | ⏳ 待研究 |
+| womens-yoga-pants | 女性瑜珈/運動褲 | 3 | ⏳ 待研究 |
 | wireless-bra | 無鋼圈無線胸罩舒適支撐 | 2 | ⏳ 待研究 |
 | womens-basic-tops | 女性基本款上衣 | 1 | ⏳ 待研究 |
 | meat-thermometer | 肉類食物溫度精確測量 | 1 | ⏳ 待研究 |
@@ -169,7 +170,7 @@
 | facial-hair-removal | 臉部除毛修容 | 2 | ⏳ 待研究 |
 | flower-seeds | 花卉種植種子 | 1 | ⏳ 待研究 |
 | flying-insect-trap | 室內飛蟲誘捕消滅 | 1 | ⏳ 待研究 |
-| food-storage-bags | 食物保鮮密封袋 | 1 | ⏳ 待研究 |
+| food-storage-bags | 食物保鮮密封袋 | 2 | ⏳ 待研究 |
 | hair-ties | 無痛髮圈綁髮 | 1 | ⏳ 待研究 |
 | home-security-camera | 居家無線安防監控 | 1 | ⏳ 待研究 |
 | humidifier | 室內加濕緩解乾燥 | 1 | ⏳ 待研究 |
@@ -197,7 +198,7 @@
 | shower-curtain-hooks | 浴簾掛鉤防鏽滑順 | 1 | ⏳ 待研究 |
 | shower-curtain-liner | 浴簾/內襯防水防霉 | 6 | ⏳ 待研究 |
 | smart-speaker | 語音助理智慧音箱 | 1 | ⏳ 待研究 |
-| smartwatch | 智慧手錶健康追蹤 | 1 | ⏳ 待研究 |
+| smartwatch | 智慧手錶健康追蹤 | 2 | ⏳ 待研究 |
 | throw-pillow-inserts | 抱枕芯裝飾填充 | 2 | ⏳ 待研究 |
 | toothpaste | 口腔清潔牙齒保健 | 2 | ⏳ 待研究 |
 | trash-bags | 廚房垃圾袋防漏防臭 | 1 | ⏳ 待研究 |
@@ -219,6 +220,13 @@
 | hallway-runner-rug | 走廊/廚房止滑可洗長條地毯 | 1 | ⏳ 待研究 |
 | holiday-costume-accessories | 節日主題派對裝飾配件（聖派翠克、復活節等） | 1 | ⏳ 待研究 |
 | toilet-bowl-cleaner | 馬桶清潔殺菌除垢 | 1 | ⏳ 待研究 |
+| telescope-monocular | 遠距觀測望遠鏡/單筒鏡 | 6 | ⏳ 待研究 |
+| budget-smartphone | 預算型智慧手機（含翻新機） | 3 | ⏳ 待研究 |
+| tongue-scraper | 舌頭清潔刮舌器口腔衛生 | 1 | ⏳ 待研究 |
+| mirrorless-camera | 無反光鏡可換鏡相機攝影 | 1 | ⏳ 待研究 |
+| action-camera | 運動攝影機極限拍攝記錄 | 1 | ⏳ 待研究 |
+| performance-laptop | 高效能筆記型電腦（RTX 獨顯） | 2 | ⏳ 待研究 |
+| mens-socks | 男性耐用長效運動/日常襪 | 1 | ⏳ 待研究 |
 ---
 
 ## 詳細分組
@@ -358,6 +366,7 @@
 | B01MDTVZTZ | The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for  | 菸鹼醯胺控油精華 |
 | B0DBF65JYY | medicube PDRN Pink Peptide Serum with Salmon DNA | Pink Glow | 菸鹼醯胺控油精華 |
 | B0B8DXN3K2 | Silk Pillowcase for Hair and Skin, Mulberry Silk Pillow Case | 痘痘護理 |
+| B0GS4L56N7 | Daolyo Large Acne Pimple Patches 6 Sizes 142 Counts | 水膠體貼片（多尺寸） |
 
 **研究文件**：`research/acne-treatment--2026-02-06.md`
 **競品文件**：`competitors/acne-treatment--2026-02-06.md`
@@ -380,6 +389,7 @@
 |-----------|---------|---------------|
 | B0G4Z5G1NT | Organic Korean sunscreen SPF50+ PA++++ | 韓系防曬乳 |
 | B002MSN3QQ | EltaMD UV Clear Face Sunscreen SPF 46, Oil-Free Sunscreen wi | 防曬乳 |
+| B0F6TWJPMX | La Roche-Posay Anthelios Sunscreen SPF 40 Face | 臉部防曬乳 |
 
 **研究文件**：`research/sun-protection--2026-02-06.md`
 **競品文件**：`competitors/sun-protection--2026-02-06.md`
@@ -1125,6 +1135,9 @@
 | B0CZPLV566 | Beats Solo 4 - Wireless On-Ear Bluetooth Headphones, Up to 5 | 頭戴式藍牙耳機 |
 | B09LYF2ST7 | BERIBES Bluetooth Headphones Over Ear, 65H Playtime and 6 EQ | 頭戴式藍牙耳機 |
 | B0C8PR4W22 | Beats Studio Pro Wireless Over-Ear Headphones | 主動降噪耳罩式耳機 |
+| B0D3PZLZ3N | Beats Solo 4 Wireless On-Ear Headphones Cloud Pink | 頭戴式藍牙耳機 |
+| J3GW2LHS3J | Sennheiser MOMENTUM 4 Wireless Noise-Canceling Headphones | 旗艦降噪耳罩 |
+| J7XSRH5R2S | Sony WH-1000XM6 Best Wireless Noise Cancelling Headphones Midnight Blue | 旗艦降噪耳罩 |
 
 **研究文件**：`research/noise-cancelling-headphone--2026-02-06.md`
 **競品文件**：`competitors/noise-cancelling-headphone--2026-02-06.md`
@@ -1639,6 +1652,7 @@
 | B00QY1XZ4W | Vanicream Gentle Facial Cleanser with Pump Dispenser - 8 fl  | 低敏洗面乳 |
 | B01N34XW93 | La Roche-Posay Toleriane Purifying Foaming Cleanser | 油性肌泡沫洗面乳 |
 | B01N7T7JKJ | La Roche-Posay Toleriane Hydrating Gentle Face Cleanser | 保濕溫和洗面乳 |
+| B0BN2PX8V3 | Anua Heartleaf Pore Control Cleansing Oil 6.76 fl oz | 毛孔控制卸妝油潔顏 |
 
 **研究文件**：`research/facial-cleanser--{date}.md`
 **競品文件**：`competitors/facial-cleanser--{date}.md`
@@ -1682,6 +1696,7 @@
 |-----------|---------|---------------|
 | B071914GGL | The Ordinary Glycolic Acid 7% Toning Solution | 果酸化妝水 |
 | B00949CTQQ | Paula's Choice SKIN PERFECTING 2% BHA Liquid Exfoliant with  | BHA 去角質液 |
+| B0GCMKDSJB | medicube Toner Pads Deep Vita C Vitamin Water | 維生素C去角質化妝水棉片 |
 
 **研究文件**：`research/exfoliating-toner--{date}.md`
 **競品文件**：`competitors/exfoliating-toner--{date}.md`
@@ -1823,6 +1838,7 @@
 | B0C3W4MNN1 | PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime | 無線藍牙耳機 |
 | B0BQPNMXQV | JBL Vibe Beam True Wireless Earbuds | 真無線藍牙耳機 |
 | B0FHWKYT89 | Wireless Earbuds Bluetooth 5.4 Headphones | 藍牙5.4降噪耳機 |
+| JJGCQLYK5F | Apple AirPods Pro 3 (Best Buy) | 主動降噪真無線（Best Buy 跨平台） |
 
 **研究文件**：`research/wireless-earbuds--{date}.md`
 **競品文件**：`competitors/wireless-earbuds--{date}.md`
@@ -2330,6 +2346,7 @@
 |-----------|---------|---------------|------|
 | B0CG5P42QH | G4Free EverGoing Yoga Pants Women Wide Leg with Pockets | 寬腿高腰瑜珈褲（有口袋） | Amazon |
 | B0C7ZBNWL5 | G4Free Wide Leg Pants Woman Yoga Pants with Pockets | 寬腿瑜珈褲（休閒/運動兩用） | Amazon |
+| B0BC4S63RV | THE GYM PEOPLE Thick High Waist Yoga Pants with Pockets | 高腰加厚瑜珈運動褲（有口袋） | Amazon |
 
 **研究文件**：`research/womens-yoga-pants--{date}.md`
 **競品文件**：`competitors/womens-yoga-pants--{date}.md`
@@ -2712,6 +2729,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B095PQ6SX7 | Amazon Basics Sandwich Storage Bags, 300 Count (Previously S | 三明治保鮮袋 |
+| B0GS3FL9MB | Ziploc Sandwich and Snack Bags EasyGuide Texture 105 Bags | 多功能三明治/零食保鮮袋 |
 
 ---
 
@@ -3040,6 +3058,7 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0FQF9ZX7P | Apple Watch Series 11 [GPS 42mm] Smartwatch with Rose Gold A | 智慧手錶 |
+| B0DSWMYSYT | Google Pixel Watch 3 41mm Champagne Gold (Renewed) | 翻新智慧健康手錶 |
 
 ---
 
@@ -3400,3 +3419,133 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B00371VM0Q | Lysol Toilet Bowl Cleaner Max Strength | 強力馬桶清潔凝膠 |
+
+---
+
+### telescope-monocular
+
+**問題描述**：遠距觀測望遠鏡/單筒鏡，需要清晰觀看遠距離景物（自然觀賞、天文觀測、戶外活動）
+
+**問題成因**：肉眼無法清晰看清遠距離目標、戶外活動/旅遊需要攜帶輕便觀測工具
+
+**常見解決方法**：
+- 單筒望遠鏡（Monocular）
+- 雙筒望遠鏡（Binoculars）
+- 天文反射式望遠鏡（Reflector Telescope）
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0GS3FC7CS | Monocular Telescope 80x100 High Powered with Tripod | 高倍率單筒望遠鏡 |
+| B0GS5G9RYW | HUGERSTAR Telescope 80mm Aperture 600mm Portable | 可攜式反射式望遠鏡 |
+| B0GS47XBBD | MEEZAA Telescope 150EQ Newtonian Reflector | 赤道儀牛頓反射望遠鏡 |
+| B0GS3FS4ZT | Monocular Telescope 80x100 with Smartphone Adapter BAK4 Prism | BAK4 稜鏡單筒望遠鏡 |
+| B0GS3LG2VB | 80x100 High Power Monocular Telescope with BAK4 Prism | BAK4 稜鏡高倍單筒鏡 |
+| B0F4KSBJSK | DRANBOL 12X25 Mini Pocket Binoculars for Adults Kids | 迷你口袋雙筒望遠鏡 |
+
+---
+
+### budget-smartphone
+
+**問題描述**：預算有限需要可用的智慧手機（含翻新機），解決高端新機價格過高的問題
+
+**問題成因**：新款旗艦機價格昂貴、需要備用機/換機方案、環保再利用需求
+
+**常見解決方法**：
+- 入門新機（如 iPhone SE）
+- 翻新旗艦機（Renewed）
+- 平價 Android 機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0GS6CCXCJ | Apple iPhone SE 3rd Gen 64GB RED AT&T (Renewed) | 翻新入門 iPhone |
+| B0GS6Q14K2 | Apple iPhone SE 2nd Generation 64GB Black AT&T (Renewed) | 翻新入門 iPhone |
+| B0DK9VZC5B | Samsung Galaxy S24 Ultra 5G 256GB AT&T (Renewed) | 翻新旗艦 Android |
+
+---
+
+### tongue-scraper
+
+**問題描述**：舌頭積垢、口腔異味，需要舌頭清潔工具改善口腔衛生
+
+**問題成因**：舌苔細菌積累、口臭問題、牙刷難以有效清潔舌面
+
+**常見解決方法**：
+- 不鏽鋼刮舌器
+- 矽膠舌面清潔器
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0GS5852CG | MasterMedi Tongue Scraper 2 Pack Stainless Steel | 不鏽鋼刮舌器 |
+
+---
+
+### mirrorless-camera
+
+**問題描述**：需要高品質可換鏡頭攝影系統，解決固定鏡頭相機畫質和靈活性不足的問題
+
+**問題成因**：創作者需要專業畫質、固定鏡頭限制拍攝靈活度、需要輕便化替代 DSLR
+
+**常見解決方法**：
+- APS-C 無反相機
+- 全片幅無反相機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| J7C86S6Z78 | Canon EOS R7 Mirrorless Camera with RF-S18-150mm Lens | APS-C 無反相機套組 |
+
+---
+
+### action-camera
+
+**問題描述**：極限運動/戶外活動需要輕便耐用的記錄攝影機，解決普通相機無法在運動中穩定拍攝的問題
+
+**問題成因**：運動場合需要防震防水攝影、傳統相機體積過大、需要第一視角記錄
+
+**常見解決方法**：
+- 超小型 Action Cam
+- 360 度全景攝影機
+- 防水運動攝影機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| J39VLT4CHK | Insta360 GO Ultra Action Camera Black | 超小型 Action Cam |
+
+---
+
+### performance-laptop
+
+**問題描述**：需要高效能筆記型電腦（搭載獨立顯示卡）處理創作、遊戲或 AI 工作負載
+
+**問題成因**：整合顯示卡效能不足、影片編輯/3D 渲染/遊戲需要 GPU 加速、工作站替代需求
+
+**常見解決方法**：
+- RTX 獨顯輕薄筆電
+- 4K OLED 高效能筆電
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| JJGH2L926S | HP OmniBook X 16" 2K OLED Touch-Screen Laptop Core Ultra 7 RTX 4050 | RTX 4050 OLED 觸控筆電 |
+| J3K4L6J638 | Dell Premium 16.3" 4K OLED Laptop Core Ultra 7 RTX 5050 1TB | RTX 5050 4K OLED 筆電 |
+
+---
+
+### mens-socks
+
+**問題描述**：男性日常/運動襪子耐用性不足、易磨損，需要持久耐用的高品質襪子
+
+**問題成因**：低品質棉料易起毛球磨損、運動場合需要加厚緩衝、腳踝/腳趾部位易破損
+
+**常見解決方法**：
+- 加厚耐用棉質運動襪
+- 多包裝日常基本款
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0FP46WTCN | Hanes Men's Double Tough Socks Crew and Ankle | 加厚耐用雙層腳趾設計 |

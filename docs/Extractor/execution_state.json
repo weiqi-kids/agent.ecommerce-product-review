@@ -1,40 +1,16 @@
 {
-  "last_updated": "2026-03-11T12:00:00Z",
-  "last_completed_date": "2026-03-11",
+  "last_updated": "2026-03-12T12:00:00Z",
+  "last_completed_date": "2026-03-12",
   "execution_mode": "daily_incremental",
   "current_step": 8,
   "steps": {
-    "step_1": {
-      "status": "completed",
-      "note": "4 個到期項目檢查完成（4 no_change）。其餘 14 個未到期。"
-    },
-    "step_2": {
-      "status": "completed",
-      "note": "無需補齊。kids-activity-book 延至 03-15，2 個類別待 Amazon 評論補齊。"
-    },
-    "step_3": {
-      "status": "completed",
-      "note": "Amazon 36 個（7 新進榜、5 全新）。Best Buy selector 問題（僅抓到數位產品）。"
-    },
-    "step_4": {
-      "status": "completed",
-      "note": "5 個新產品歸入 3 個現有類別：kids-casual-clogs x2、collectible-coins x2、wired-earphones x1。"
-    },
-    "step_5": {
-      "status": "skipped",
-      "note": "增量模式跳過：無新類別，所有研究報告未過期（≤30天）。"
-    },
-    "step_6": {
-      "status": "completed",
-      "note": "5 個 ASIN 全部抓取成功，共 500 則評論，L1-L6 萃取完成。"
-    },
-    "step_7": {
-      "status": "completed",
-      "note": "3 個類別比較分析：kids-casual-clogs(comparison)、collectible-coins(comparison)、wired-earphones(comparison)。"
-    },
-    "step_8": {
-      "status": "completed",
-      "note": "3 份比較報告產出（均標記 REVIEW_NEEDED）。index.md 已更新。"
-    }
+    "step_1": {"status": "completed", "note": "無到期項目。所有下次檢查日期為 03-17 或更晚。"},
+    "step_2": {"status": "completed", "note": "無需補齊。kids-activity-book 延至 03-15。"},
+    "step_3": {"status": "completed", "note": "Amazon 70 個 + Best Buy 20 個 = 90 個產品。"},
+    "step_4": {"status": "completed", "note": "30 新產品：13 歸入現有類別，7 新類別（14 產品），3 跳過。"},
+    "step_5": {"status": "completed", "note": "3 類別研究完成（telescope-monocular, budget-smartphone, tongue-scraper）。4 類別暫緩（Best Buy 專屬/無評論）。"},
+    "step_6": {"status": "completed", "note": "18 ASIN 抓取成功（869 則評論），3 ASIN 無評論。L1-L6 萃取完成。"},
+    "step_7": {"status": "completed", "note": "12 類別比較分析：9 現有類別 + 3 新類別。"},
+    "step_8": {"status": "completed", "note": "12 份報告：3 警告 + 3 比較 + 3 推薦/更新 + 3 新類別報告。"}
   }
 }

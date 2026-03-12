@@ -1,0 +1,949 @@
+{
+  "date": "2026-03-12",
+  "platforms": {
+    "amazon": {
+      "total_products": 70,
+      "sources": {
+        "bestsellers": 35,
+        "movers": 36,
+        "deduplicated": 1
+      },
+      "excluded": 1,
+      "excluded_reason": "數位訂閱服務（B08JHCVHTY: blink plus plan）",
+      "new_entries": 36,
+      "note": "movers 新增大量望遠鏡/單筒望遠鏡類產品（B0GS 前綴），以及翻新手機"
+    },
+    "bestbuy": {
+      "total_products": 20,
+      "new_entries": 20,
+      "source": "docs/Extractor/bestbuy_us/discovery/electronics--2026-03-12.jsonl",
+      "note": "今日 selector 恢復正常，抓到20個實體電子產品（耳機、手機、相機、筆電）"
+    }
+  },
+  "products": {
+    "amazon": [
+      {
+        "product_id": "B0BZYCJK89",
+        "title": "Owala FreeSip Insulated Stainless Steel Water Bottle 24 Oz",
+        "rank": 1,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B09V7Z4TJG",
+        "title": "medicube Toner Pads Zero Pore Pad 2.0",
+        "rank": 1,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B011LOOKV8",
+        "title": "50 Wheat Pennies (Unsearched Shotgun Roll)",
+        "rank": 1,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0D8DZN778",
+        "title": "OEAK Womens Deep V Bras Wireless Comfortable Bra",
+        "rank": 1,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B079VP6DH5",
+        "title": "Bounty Paper Towels Quick Size, 16 Family Rolls",
+        "rank": 1,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0113UZJE2",
+        "title": "Etekcity Food Kitchen Scale, Digital Grams and Ounces",
+        "rank": 2,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B08KT2Z93D",
+        "title": "eos Shea Better Body Lotion Vanilla Cashmere",
+        "rank": 2,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0DGHMNQ5Z",
+        "title": "Apple AirPods 4 Wireless Earbuds",
+        "rank": 2,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0CFYYBHK3",
+        "title": "Lincoln Wheat Cent 1909 S VDB Design 1 oz Copper Round",
+        "rank": 2,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B07JDFPQTC",
+        "title": "Gildan Men's Crew T-Shirts Multipack",
+        "rank": 2,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B00NTCH52W",
+        "title": "Amazon Basics 20-Pack AA Alkaline Batteries 10-Year Shelf Life",
+        "rank": 2,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0CP9YB3Q4",
+        "title": "STANLEY Quencher H2.0 Tumbler 30 oz",
+        "rank": 3,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B09541P9WH",
+        "title": "Amazon Basics Double-Tipped Cotton Swabs 500 Count",
+        "rank": 3,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0D7FVQ1ZB",
+        "title": "Apple EarPods Headphones with Lightning Connector",
+        "rank": 3,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B07K9Q32MR",
+        "title": "Morgan Silver Dollar (Pre 1921)",
+        "rank": 3,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B086KSDTQ4",
+        "title": "Hanes Mens Underwear Boxer Briefs Pack",
+        "rank": 3,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B07BGLT25K",
+        "title": "Scott ComfortPlus Toilet Paper 12 Triple Rolls",
+        "rank": 3,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0CYJBB2JQ",
+        "title": "bella 2 Slice Slim Toaster",
+        "rank": 4,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B074PVTPBW",
+        "title": "Mighty Patch Original Patch from Hero Cosmetics",
+        "rank": 4,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0GJTFXNRX",
+        "title": "Apple AirTag (2nd Generation)",
+        "rank": 4,
+        "source": "bestsellers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B00BUB7TM0",
+        "title": "Over 50 DIFFERENT World Coins Half Pound Grab Bag",
+        "rank": 4,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0014C0LSY",
+        "title": "Crocs Unisex-Adult Classic Clogs",
+        "rank": 4,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B07SH31T9V",
+        "title": "LMNT Zero Sugar Electrolytes Raspberry Salt 30-Count",
+        "rank": 4,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0DF472VMZ",
+        "title": "Owala SmoothSip Slider Coffee Tumbler 12 Oz",
+        "rank": 5,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B00U2VQZDS",
+        "title": "Neutrogena Makeup Remover Wipes Micellar",
+        "rank": 5,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0FQFB8FMG",
+        "title": "Apple AirPods Pro 3 Wireless Earbuds",
+        "rank": 5,
+        "source": "bestsellers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B07RZ4DJLL",
+        "title": "Unsearched Wheat Penny Roll w/Silver Mercury Dime",
+        "rank": 5,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0F6VKZ4FB",
+        "title": "LetsJoli Bras for Women Supportive Wireless",
+        "rank": 5,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0FN4NH4K8",
+        "title": "Angel Soft Toilet Paper 18 Mega Rolls",
+        "rank": 5,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B00S93EQUK",
+        "title": "Alpha Grillers Meat Thermometer Digital",
+        "rank": 6,
+        "source": "bestsellers+movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B09542G9ZN",
+        "title": "Amazon Basics 100% Cotton Rounds for Makeup Remover",
+        "rank": 6,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0DZ75TN5F",
+        "title": "Apple iPad 11-inch A16 chip 128GB Wi-Fi 6",
+        "rank": 6,
+        "source": "bestsellers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0CH7CR5XL",
+        "title": "Welsh Red Dragon Celtic 1 oz Copper Round Bullion Coin",
+        "rank": 6,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0C7ZBNWL5",
+        "title": "G4Free EverGoing Yoga Pants Women Wide Leg",
+        "rank": 6,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0C2CY22B8",
+        "title": "Amazon Basics Everyday Disposable Paper Plates 100 Count",
+        "rank": 6,
+        "source": "bestsellers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0GS4L56N7",
+        "title": "Daolyo Large Acne Pimple Patches 6 Sizes 142 Counts",
+        "rank": 1,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GS5852CG",
+        "title": "MasterMedi Tongue Scraper 2 Pack Stainless Steel",
+        "rank": 1,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0CMM21PRL",
+        "title": "Carhartt Men's Knit Cuffed Beanie",
+        "rank": 1,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0GS6CCXCJ",
+        "title": "Apple iPhone SE 3rd Gen 64GB RED AT&T (Renewed)",
+        "rank": 1,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GS3FC7CS",
+        "title": "Monocular Telescope 80x100 High Powered with Tripod",
+        "rank": 1,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0D674YVLS",
+        "title": "STANLEY Quencher H2.0 FlowState Stainless Steel",
+        "rank": 1,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0F6TWJPMX",
+        "title": "La Roche-Posay Anthelios Sunscreen SPF 40 Face",
+        "rank": 2,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GS3FL9MB",
+        "title": "Ziploc Sandwich and Snack Bags EasyGuide Texture 105 Bags",
+        "rank": 2,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0CDBTK2VY",
+        "title": "Hanes Men's EcoSmart Hoodie Midweight Fleece",
+        "rank": 2,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0GS6Q14K2",
+        "title": "Apple iPhone SE 2nd Generation 64GB Black AT&T (Renewed)",
+        "rank": 2,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GS5G9RYW",
+        "title": "HUGERSTAR Telescope 80mm Aperture 600mm Portable",
+        "rank": 2,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GGVZWTGK",
+        "title": "GORILLA GRIP Heavy Duty Stainless Steel Manual Can Opener",
+        "rank": 2,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0GCMKDSJB",
+        "title": "medicube Toner Pads Deep Vita C Vitamin Water",
+        "rank": 3,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0D158J3Q4",
+        "title": "Sparkle Paper Towels 12=16 Regular Rolls Modern White",
+        "rank": 3,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0BZR4ZCRW",
+        "title": "Hanes Men's Sweatshirt EcoSmart Fleece Crewneck",
+        "rank": 3,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0D3PZLZ3N",
+        "title": "Beats Solo 4 Wireless On-Ear Headphones Cloud Pink",
+        "rank": 3,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GS47XBBD",
+        "title": "MEEZAA Telescope 150EQ Newtonian Reflector",
+        "rank": 3,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0BN2PX8V3",
+        "title": "Anua Heartleaf Pore Control Cleansing Oil 6.76 fl oz",
+        "rank": 4,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0D8D2LLZ6",
+        "title": "LiCB CR2032 3V Lithium Battery 10-Pack",
+        "rank": 4,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0BC4S63RV",
+        "title": "THE GYM PEOPLE Thick High Waist Yoga Pants with Pockets",
+        "rank": 4,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0DK9VZC5B",
+        "title": "Samsung Galaxy S24 Ultra 5G 256GB AT&T (Renewed)",
+        "rank": 4,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0GS3FS4ZT",
+        "title": "Monocular Telescope 80x100 with Smartphone Adapter BAK4 Prism",
+        "rank": 4,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0CQSY91WK",
+        "title": "Jiavarry Rotating Makeup Organizer 360 Spinning",
+        "rank": 4,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0D2PL6C4X",
+        "title": "Neutrogena Makeup Remover Wipes Daily Single Face Cleansing",
+        "rank": 5,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0BQP83TQH",
+        "title": "Washing Machine Cleaner Descaler 24 Pack Deep Cleaning",
+        "rank": 5,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0FP46WTCN",
+        "title": "Hanes Men's Double Tough Socks Crew and Ankle",
+        "rank": 5,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B098M6MMY4",
+        "title": "Beats Studio Buds True Wireless Noise Cancelling (Renewed Premium)",
+        "rank": 5,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0GS3LG2VB",
+        "title": "80x100 High Power Monocular Telescope with BAK4 Prism",
+        "rank": 5,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B06X9NQ8GX",
+        "title": "Amazon Basics Digital Kitchen Scale with LCD Display",
+        "rank": 5,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0DPPTWSMD",
+        "title": "grace & stella Under Eye Mask Reduce Dark Circles",
+        "rank": 6,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B07C4BLFSK",
+        "title": "Miss Mouth's Messy Eater Stain Treater 32oz Refill",
+        "rank": 6,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0CYZTNNTR",
+        "title": "ANRABESS Women Long Sleeve Shirts Rib Knit Slim Fit",
+        "rank": 6,
+        "source": "movers",
+        "platform": "Amazon"
+      },
+      {
+        "product_id": "B0DSWMYSYT",
+        "title": "Google Pixel Watch 3 41mm Champagne Gold (Renewed)",
+        "rank": 6,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0F4KSBJSK",
+        "title": "DRANBOL 12X25 Mini Pocket Binoculars for Adults Kids",
+        "rank": 6,
+        "source": "movers",
+        "platform": "Amazon",
+        "note": "新上榜"
+      },
+      {
+        "product_id": "B0CH1DZRM3",
+        "title": "Ninja Blast Portable Blender Cordless 18oz",
+        "rank": 6,
+        "source": "movers",
+        "platform": "Amazon"
+      }
+    ],
+    "bestbuy": [
+      {
+        "product_id": "J3GW2LHS3J",
+        "title": "Sennheiser MOMENTUM 4 Wireless Noise-Canceling Headphones",
+        "rank": 1,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$279.99"
+      },
+      {
+        "product_id": "JJGCQLYK5F",
+        "title": "Apple AirPods Pro 3 Wireless Active Noise Cancelling Earbuds",
+        "rank": 2,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$249.99"
+      },
+      {
+        "product_id": "J7XSRH528S",
+        "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones Blue",
+        "rank": 3,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$278.00"
+      },
+      {
+        "product_id": "J7XSRH5R2S",
+        "title": "Sony WH-1000XM6 Best Wireless Noise Cancelling Headphones Midnight Blue",
+        "rank": 4,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$398.00"
+      },
+      {
+        "product_id": "J7XSRH5RCF",
+        "title": "Sony WH-1000XM6 Best Wireless Noise Cancelling Headphones Black",
+        "rank": 5,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$398.00"
+      },
+      {
+        "product_id": "J7LXFWXL6P",
+        "title": "JBL Tune 770NC Adaptive Noise Cancelling Wireless Headphone 2024",
+        "rank": 6,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$99.95"
+      },
+      {
+        "product_id": "J3RCLGRZWL",
+        "title": "BLU G35 32GB Unlocked Gray",
+        "rank": 7,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$64.99"
+      },
+      {
+        "product_id": "JXJCJK75S6",
+        "title": "Total Wireless Motorola moto g 2025 5G 64GB Prepaid Blue",
+        "rank": 8,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$39.99"
+      },
+      {
+        "product_id": "JCQ6HHJ5RZ",
+        "title": "Apple iPhone 17 256GB Black Verizon",
+        "rank": 9,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$829.99"
+      },
+      {
+        "product_id": "J3ZYG25TTZ",
+        "title": "Samsung Galaxy S25+ 256GB Silver Shadow Verizon",
+        "rank": 10,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$999.99"
+      },
+      {
+        "product_id": "JXJCJK7CKG",
+        "title": "Total Wireless TCL 50 XE 5G Prepaid Blue Verizon",
+        "rank": 11,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$49.99"
+      },
+      {
+        "product_id": "J7XSRH455C",
+        "title": "Sony ZV-1 20.1-Megapixel Digital Camera for Content Creators",
+        "rank": 12,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$879.00"
+      },
+      {
+        "product_id": "J3YLGK759W",
+        "title": "Kodak PIXPRO FZ55-BK Black",
+        "rank": 13,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$139.99"
+      },
+      {
+        "product_id": "J3GW35FQJC",
+        "title": "GoPro HERO13 Black Action Camera",
+        "rank": 14,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$359.99"
+      },
+      {
+        "product_id": "J7C86S6Z78",
+        "title": "Canon EOS R7 Mirrorless Camera with RF-S18-150mm Lens",
+        "rank": 15,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$2,049.00"
+      },
+      {
+        "product_id": "J39VLT4CHK",
+        "title": "Insta360 GO Ultra Action Camera Black",
+        "rank": 16,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$449.99"
+      },
+      {
+        "product_id": "JJGH2YK4ZP",
+        "title": "HP 17.3\" Full HD Laptop Intel Core i7 1355U 16GB 1TB SSD",
+        "rank": 17,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$748.00"
+      },
+      {
+        "product_id": "JJGH2L926S",
+        "title": "HP OmniBook X 16\" 2K OLED Touch-Screen Laptop Core Ultra 7 RTX 4050",
+        "rank": 18,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$1,469.99"
+      },
+      {
+        "product_id": "JJGH2YK4Z2",
+        "title": "HP 15.6\" Laptop Intel N100 4GB 128GB UFS",
+        "rank": 19,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$272.00"
+      },
+      {
+        "product_id": "J3K4L6J638",
+        "title": "Dell Premium 16.3\" 4K OLED Laptop Core Ultra 7 RTX 5050 1TB",
+        "rank": 20,
+        "source": "top-rated",
+        "platform": "Best Buy",
+        "price": "$2,699.99"
+      }
+    ]
+  },
+  "cross_platform_matches": [
+    {
+      "product": "Apple AirPods Pro 3",
+      "amazon_id": "B0FQFB8FMG",
+      "bestbuy_id": "JJGCQLYK5F",
+      "note": "同一產品跨平台出現，Best Buy rank 2 / Amazon rank 5 bestsellers"
+    }
+  ],
+  "new_products": [
+    {
+      "product_id": "B0GJTFXNRX",
+      "title": "Apple AirTag (2nd Generation)",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0FQFB8FMG",
+      "title": "Apple AirPods Pro 3 Wireless Earbuds",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0DZ75TN5F",
+      "title": "Apple iPad 11-inch A16 chip 128GB",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS4L56N7",
+      "title": "Daolyo Large Acne Pimple Patches 142 Counts",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS5852CG",
+      "title": "MasterMedi Tongue Scraper 2 Pack Stainless Steel",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS6CCXCJ",
+      "title": "Apple iPhone SE 3rd Gen Renewed",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0F6TWJPMX",
+      "title": "La Roche-Posay Anthelios Sunscreen SPF 40",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS3FC7CS",
+      "title": "Monocular Telescope 80x100 (ASIN prefix B0GS)",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS5G9RYW",
+      "title": "HUGERSTAR Telescope 80mm 600mm Portable",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS47XBBD",
+      "title": "MEEZAA Telescope 150EQ Newtonian Reflector",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS3FS4ZT",
+      "title": "Monocular Telescope 80x100 BAK4 Prism",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS3LG2VB",
+      "title": "80x100 High Power Monocular BAK4 Prism",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GCMKDSJB",
+      "title": "medicube Toner Pads Deep Vita C",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0BN2PX8V3",
+      "title": "Anua Heartleaf Pore Control Cleansing Oil",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0BC4S63RV",
+      "title": "THE GYM PEOPLE High Waist Yoga Pants",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0D3PZLZ3N",
+      "title": "Beats Solo 4 Wireless On-Ear Headphones",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0DK9VZC5B",
+      "title": "Samsung Galaxy S24 Ultra 5G Renewed",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0DSWMYSYT",
+      "title": "Google Pixel Watch 3 41mm Renewed",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS6Q14K2",
+      "title": "Apple iPhone SE 2nd Gen Renewed",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0F4KSBJSK",
+      "title": "DRANBOL 12X25 Mini Pocket Binoculars",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0FP46WTCN",
+      "title": "Hanes Men's Double Tough Socks Multi-Packs",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "B0GS3FL9MB",
+      "title": "Ziploc Sandwich and Snack Bags EasyGuide 105 Bags",
+      "platform": "amazon",
+      "status": "new"
+    },
+    {
+      "product_id": "J3GW2LHS3J",
+      "title": "Sennheiser MOMENTUM 4 Wireless Headphones",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "JJGCQLYK5F",
+      "title": "Apple AirPods Pro 3 (Best Buy)",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "J7XSRH5R2S",
+      "title": "Sony WH-1000XM6 Headphones",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "J7XSRH5RCF",
+      "title": "Sony WH-1000XM6 Black",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "J7C86S6Z78",
+      "title": "Canon EOS R7 Mirrorless Camera",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "J39VLT4CHK",
+      "title": "Insta360 GO Ultra Action Camera",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "JJGH2L926S",
+      "title": "HP OmniBook X 16\" RTX 4050 Laptop",
+      "platform": "bestbuy",
+      "status": "new"
+    },
+    {
+      "product_id": "J3K4L6J638",
+      "title": "Dell Premium 16.3\" 4K OLED RTX 5050 Laptop",
+      "platform": "bestbuy",
+      "status": "new"
+    }
+  ],
+  "notable_trends": [
+    {
+      "category": "telescope_monocular",
+      "note": "望遠鏡/單筒望遠鏡類在 movers 大量出現（B0GS 前綴，5 個新產品），疑似季節性需求或促銷活動"
+    },
+    {
+      "category": "renewed_phones",
+      "note": "翻新手機在 movers 增加（iPhone SE 2代/3代、Samsung S24 Ultra、Google Pixel Watch 3）"
+    },
+    {
+      "category": "noise_cancelling_headphones",
+      "note": "Best Buy top-rated 以降噪耳機為主：Sennheiser MOMENTUM 4、Sony WH-1000XM5/XM6、JBL Tune 770NC"
+    },
+    {
+      "category": "skincare",
+      "note": "skincare movers 新增：La Roche-Posay SPF 40、medicube Deep Vita C、Anua Cleansing Oil"
+    },
+    {
+      "category": "apple_products",
+      "note": "Apple 新品集中上榜：AirTag 2代、AirPods Pro 3、iPad 11-inch 均為 bestsellers 新進榜"
+    }
+  ],
+  "exited_products": [
+    {
+      "product_id": "B0CH32MNY1",
+      "title": "US Quarter Design Copper Round Bullion Coin",
+      "platform": "amazon",
+      "note": "昨日新進榜，今日退榜"
+    },
+    {
+      "product_id": "B0D2NTJ44M",
+      "title": "Crocs Kid's Classic Clog",
+      "platform": "amazon",
+      "note": "昨日新進榜，今日退榜"
+    },
+    {
+      "product_id": "B0F9KM51V2",
+      "title": "250th Anniversary U.S. Army Commemorative Coin",
+      "platform": "amazon",
+      "note": "昨日新進榜，今日退榜"
+    },
+    {
+      "product_id": "B09PDLBFKY",
+      "title": "Power Strip (existing)",
+      "platform": "amazon",
+      "note": "昨日在榜，今日退榜"
+    }
+  ],
+  "total_products": 90,
+  "summary": "Amazon 70 個產品（35 bestsellers + 36 movers，1 去重，排除 1 個數位訂閱）+ Best Buy 20 個實體電子產品（selector 今日恢復正常）。總計 90 個新鮮產品。新進榜約 36 個（Amazon），Best Buy 昨日 selector 問題今日修復，20 個全為新增。主要趨勢：望遠鏡/單筒望遠鏡在 movers 集中出現、Apple 新品批量上榜、Best Buy 以降噪耳機為主。",
+  "dedup_stats": {
+    "total_before_dedup": 92,
+    "total_after_dedup": 90,
+    "duplicates_removed": 2,
+    "digital_excluded": 1,
+    "cross_platform_matches": 1,
+    "notes": "blink plus plan 排除（數位訂閱）; AirPods Pro 3 跨平台合併（Amazon + Best Buy）"
+  }
+}

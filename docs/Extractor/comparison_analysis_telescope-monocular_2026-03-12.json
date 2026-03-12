@@ -1,0 +1,111 @@
+{
+  "category": "telescope-monocular",
+  "date": "2026-03-12",
+  "products_analyzed": 5,
+  "total_reviews": 229,
+  "report_type": "comparison",
+  "report_path": "docs/Narrator/comparisons/telescope-monocular--2026-03-12.md",
+  "rationale": "混合結果：2 款產品規格誠實（Dranbol、HUGERSTAR），3 款存在規格虛報（KTBDING、MD.LIFE 倍率虛報，MEEZAA 口徑虛報）。非全部失敗故不適合痛點報告，但虛報問題嚴重需深入比較。",
+  "products": [
+    {
+      "product_id": "B0GS5G9RYW",
+      "brand": "HUGERSTAR",
+      "type": "refractor_telescope",
+      "price": 89.99,
+      "reviews": 50,
+      "avg_sentiment": 0.72,
+      "spec_honesty": "partial",
+      "key_issue": "高倍模糊（24%），180x 宣稱技術可達但實用範圍僅 24-60x",
+      "negative_classification": {
+        "cannot_solve_problem": { "rate": 0.12, "issues": ["blurry_at_high_magnification", "difficult_to_find_objects"] },
+        "creates_new_problems": { "rate": 0.16, "issues": ["phone_adapter_alignment_difficulty", "tripod_wobble"] },
+        "unrelated_to_product": { "rate": 0.08, "issues": ["instructions_quality"] }
+      },
+      "verdict": "入門折射望遠鏡，規格大致誠實，適合月球觀測初學者"
+    },
+    {
+      "product_id": "B0GS47XBBD",
+      "brand": "MEEZAA",
+      "type": "newtonian_reflector",
+      "price": 329.99,
+      "reviews": 50,
+      "avg_sentiment": 0.65,
+      "spec_honesty": "contradicted",
+      "key_issue": "口徑虛報（聲稱 150mm 實際 130mm，12%），腳架斷裂（8%）",
+      "negative_classification": {
+        "cannot_solve_problem": { "rate": 0.12, "issues": ["aperture_misrepresentation", "optics_blur_issues"] },
+        "creates_new_problems": { "rate": 0.08, "issues": ["tripod_failure"] },
+        "unrelated_to_product": { "rate": 0.14, "issues": ["missing_or_poor_instructions", "phone_adapter_incompatibility"] }
+      },
+      "verdict": "光學品質不錯但口徑虛報構成虛假廣告，客服優秀但不抵消誠信問題"
+    },
+    {
+      "product_id": "B0GS3FS4ZT",
+      "brand": "KTBDING",
+      "type": "monocular_80x100",
+      "price": 69.99,
+      "reviews": 29,
+      "avg_sentiment": 0.62,
+      "spec_honesty": "contradicted",
+      "key_issue": "倍率虛報（聲稱 80x 實際約 12x，14%）",
+      "negative_classification": {
+        "cannot_solve_problem": { "rate": 0.14, "issues": ["magnification_false_advertising"] },
+        "creates_new_problems": { "rate": 0.14, "issues": ["phone_adapter_incompatibility", "image_fuzzy_through_phone"] },
+        "unrelated_to_product": { "rate": 0.07, "issues": ["focus_difficulty"] }
+      },
+      "verdict": "以 12x 單筒鏡而言光學品質尚可，但虛報 80x 構成欺騙性行銷"
+    },
+    {
+      "product_id": "B0GS3LG2VB",
+      "brand": "MD.LIFE",
+      "type": "monocular_80x100",
+      "price": 35.99,
+      "reviews": 50,
+      "avg_sentiment": 0.55,
+      "spec_honesty": "contradicted",
+      "key_issue": "倍率虛報最嚴重（聲稱 80x 實際約 10-12x，28% 投訴），手機支架不相容",
+      "negative_classification": {
+        "cannot_solve_problem": { "rate": 0.28, "issues": ["magnification_false_advertising"] },
+        "creates_new_problems": { "rate": 0.12, "issues": ["phone_adapter_incompatibility", "focus_difficulty"] },
+        "unrelated_to_product": { "rate": 0.04, "issues": ["product_authenticity_concern"] }
+      },
+      "verdict": "虛報最嚴重的產品，28% 用戶明確指出 80x 宣稱為假，實際為低價 12x 單筒鏡"
+    },
+    {
+      "product_id": "B0F4KSBJSK",
+      "brand": "Dranbol",
+      "type": "compact_binoculars",
+      "price": 19.99,
+      "reviews": 50,
+      "avg_sentiment": 0.78,
+      "spec_honesty": "supported",
+      "key_issue": "僅有收納盒薄弱（8%）和眼鏡不相容（6%）等輕微問題",
+      "negative_classification": {
+        "cannot_solve_problem": { "rate": 0.04, "issues": ["magnification_spec_confusion"] },
+        "creates_new_problems": { "rate": 0.06, "issues": ["glasses_incompatibility", "stabilization_difficulty"] },
+        "unrelated_to_product": { "rate": 0.08, "issues": ["cheap_carry_case"] }
+      },
+      "verdict": "規格誠實的 12x25 迷你雙筒鏡，性價比極高，是本次分析中唯一完全通過規格驗證的產品"
+    }
+  ],
+  "cross_product_findings": {
+    "systematic_false_advertising": {
+      "affected_products": ["B0GS3FS4ZT", "B0GS3LG2VB"],
+      "issue": "80x100 單筒鏡系統性倍率虛報，實際約 10-12x",
+      "industry_pattern": "將鏡頭倍率（8-10x）乘以手機鏡頭倍率（10x）宣稱為 80-100x"
+    },
+    "aperture_misrepresentation": {
+      "affected_products": ["B0GS47XBBD"],
+      "issue": "MEEZAA 150EQ 聲稱 150mm 口徑，實際主鏡為 130mm"
+    },
+    "phone_adapter_universal_issue": {
+      "affected_products": ["B0GS5G9RYW", "B0GS47XBBD", "B0GS3FS4ZT", "B0GS3LG2VB"],
+      "issue": "4/5 產品的手機支架存在相容性問題，iPhone 用戶受影響最大"
+    }
+  },
+  "recommendation": {
+    "best_value": "B0F4KSBJSK (Dranbol 12x25)",
+    "best_for_astronomy": "B0GS5G9RYW (HUGERSTAR 80mm) — 規格大致誠實的入門折射鏡",
+    "avoid": ["B0GS3LG2VB (MD.LIFE) — 虛報最嚴重", "B0GS3FS4ZT (KTBDING) — 同樣虛報且售價過高"]
+  }
+}

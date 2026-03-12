@@ -1,0 +1,55 @@
+{
+  "category": "acne-treatment",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0GS4L56N7",
+      "name": "Daolyo 痘痘貼 (142片)",
+      "new_today": true,
+      "key_issues": ["poor_adhesion_falls_off 14%", "ineffectiveness 10%", "skin_irritation 6%"],
+      "strengths": ["value_for_money 93%", "effectiveness 70%", "size_variety 88%"],
+      "price": "$8.99"
+    },
+    {
+      "asin": "B081KL2QYJ",
+      "name": "PanOxyl 10% Benzoyl Peroxide",
+      "new_today": false,
+      "key_issues": [],
+      "strengths": ["best-selling acne wash", "benzoyl peroxide efficacy validated"],
+      "note": "不同機制產品（wash vs patch），同類別不同解決方法"
+    },
+    {
+      "asin": "B09V7Z4TJG",
+      "name": "Medicube Zero Pore Pad 2.0",
+      "new_today": false,
+      "key_issues": ["sensitive_skin_risk"],
+      "strengths": ["pore refinement 85% success", "exfoliation efficacy"],
+      "note": "化學去角質，與痘痘貼定位不同"
+    },
+    {
+      "asin": "B0DBF65JYY",
+      "name": "PDRN Salmon DNA Serum",
+      "new_today": false,
+      "key_issues": ["allergic_reaction 6%"],
+      "strengths": ["skin_glow 94%", "hydration 93%"],
+      "note": "修復精華，非直接痘痘治療"
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "Daolyo: ineffectiveness 10% — 部分用戶完全無效，退回 Mighty Patch",
+      "Daolyo: poor_adhesion 14% — 貼片脫落前無法完成治療"
+    ],
+    "creates_new_problem": [
+      "Daolyo: skin_irritation 6% — 茶樹油/水楊酸引發敏感肌刺激"
+    ],
+    "unrelated_to_product": []
+  },
+  "comparison_verdict": {
+    "daolyo_vs_mighty_patch": "Daolyo 性價比顯著更高（142片 $8.99 vs Mighty Patch 36片 ~$14），但黏著力14%不足是明顯劣勢。適合預算敏感且非敏感肌用戶。",
+    "overall": "類別內產品解決不同子問題（貼片 vs 洗面乳 vs 精華），直接比較有限。Daolyo在貼片子類別中是有競爭力的低價選項。"
+  },
+  "report_type": "comparison",
+  "report_recommendation": "在現有 acne-treatment 比較報告中新增 Daolyo 作為「預算友好替代方案」區塊。強調適用對象（非敏感肌、乾燥氣候）和不適用對象（容易流汗、敏感肌）。",
+  "conclusion": "Daolyo 作為 Mighty Patch 平價替代品有市場定位，14% 黏性問題和 10% 無效率需在報告中透明說明。更新現有比較報告而非新增獨立報告。"
+}

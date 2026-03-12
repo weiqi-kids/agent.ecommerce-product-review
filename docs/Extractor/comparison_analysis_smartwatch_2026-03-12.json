@@ -1,0 +1,47 @@
+{
+  "category": "smartwatch",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0DSWMYSYT",
+      "name": "Google Pixel Watch 3 (Renewed)",
+      "new_today": true,
+      "review_count": 35,
+      "price": "$79.99",
+      "condition": "renewed",
+      "key_issues": [
+        "carrier_lock_esim 14% — LTE 功能對多數買家無法使用",
+        "band_too_large_small_wrists 14%",
+        "lte_activation_failure 11%",
+        "missing_or_faulty_charger 11%",
+        "factory_reset_protection 6% — 前任帳號鎖定，完全無法使用"
+      ],
+      "strengths": ["health_tracking 85%", "display 80%", "value_for_money 70%", "battery_life 75%"]
+    }
+  ],
+  "data_coverage": "single_product — 今日首個 smartwatch 產品，評論數較少（35 則），信心度中等",
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "carrier_lock_esim 14% + lte_activation_failure 11% — LTE 功能對大量買家完全無法使用，是翻新機的核心已知問題",
+      "factory_reset_protection 6% — 前任帳號鎖定導致設備完全無法使用"
+    ],
+    "creates_new_problem": [
+      "missing_or_faulty_charger 11% — 收到假冒或不相容的充電配件，需額外購買稀有 5W USB-C 充電器"
+    ],
+    "unrelated_to_product": [
+      "band_too_large 14% — 部分屬於 Pixel Watch 3 本身的設計（非翻新問題）"
+    ]
+  },
+  "refurbished_specific_risks": {
+    "lte_total_failure_rate": "~25% (carrier_lock + activation_failure combined)",
+    "account_lock_rate": "6%",
+    "charger_problem_rate": "11%",
+    "assessment": "翻新智慧手錶的 eSIM/carrier lock 是業界已知高風險問題。本產品數據印證此風險，且充電器問題（5W USB-C）可能增加額外成本。"
+  },
+  "comparison_verdict": {
+    "overall": "核心健康追蹤功能獲好評，但 LTE 功能 25% 實際失效率和 6% 帳號鎖定問題對需要 LTE 的買家是嚴重障礙。WiFi-only 買家風險較低。"
+  },
+  "report_type": "warning",
+  "report_recommendation": "產出翻新機警告報告：docs/Narrator/warnings/pixel-watch3-renewed-lte-risk--2026-03-12.md。重點：(1) LTE 買家有 25% 功能失效風險，(2) 如只需 WiFi 功能風險相對低，(3) 需額外準備 5W USB-C 充電器。",
+  "conclusion": "Pixel Watch 3 翻新機 LTE 功能 25% 失效率觸發警告。健康追蹤功能本身獲好評，適合 WiFi-only 使用場景的買家風險可接受，需在報告中清楚區分。"
+}

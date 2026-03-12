@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T03:00:00Z",
+  "last_updated": "2026-03-12T12:00:00Z",
   "products": [
     {
       "asin": "B0DCH8VDXF",
@@ -681,6 +681,96 @@
         "status": "no_change",
         "notes": "無新召回或操縱報告，異常模式待下次抓取驗證",
         "report": "docs/Narrator/comparisons/water-bottle--2026-03-03.md"
+      }
+    },
+    {
+      "asin": "B0F6TWJPMX",
+      "name": "La Roche-Posay Anthelios Melt-In Milk Sunscreen SPF 40",
+      "category": "sun-protection",
+      "watch_reason": "counterfeit_risk",
+      "severity": "high",
+      "added_date": "2026-03-12",
+      "last_checked": "2026-03-12",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "counterfeit_check",
+          "description": "16% 評論報告過期/疑似假貨，監控賣家變更、官方聲明、評論模式"
+        },
+        {
+          "type": "allergy_check",
+          "description": "4% 過敏反應，監控是否與假貨相關"
+        }
+      ],
+      "baseline": {
+        "expired_rate": "16%",
+        "allergy_rate": "4%",
+        "avg_rating": 4.5
+      },
+      "check_result": {
+        "date": "2026-03-12",
+        "status": "new_entry",
+        "notes": "Step 8 警告報告觸發自動監控。16% 過期/假貨率，4% 過敏反應。"
+      }
+    },
+    {
+      "asin": "B0D3PZLZ3N",
+      "name": "Beats Solo 4 Wireless Headphones (Renewed)",
+      "category": "noise-cancelling-headphone",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-03-12",
+      "last_checked": "2026-03-12",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "hardware_defect",
+          "description": "22% 硬體缺陷（接頭鬆脫、外殼破損），監控是否改善"
+        },
+        {
+          "type": "battery_failure",
+          "description": "18% 電池失效，監控新批次是否恢復正常"
+        }
+      ],
+      "baseline": {
+        "hardware_defect_rate": "22%",
+        "battery_failure_rate": "18%",
+        "avg_rating": 3.5
+      },
+      "check_result": {
+        "date": "2026-03-12",
+        "status": "new_entry",
+        "notes": "Step 8 警告報告觸發自動監控。翻新品品質問題：22% 硬體缺陷 + 18% 電池失效。"
+      }
+    },
+    {
+      "asin": "B0DSWMYSYT",
+      "name": "Google Pixel Watch 3 (Renewed)",
+      "category": "smartwatch",
+      "watch_reason": "quality_crisis",
+      "severity": "high",
+      "added_date": "2026-03-12",
+      "last_checked": "2026-03-12",
+      "check_interval_days": 7,
+      "alerts": [
+        {
+          "type": "lte_failure",
+          "description": "25% LTE 功能失效，監控是否改善或有官方修復"
+        },
+        {
+          "type": "frp_lock",
+          "description": "6% FRP 鎖定問題（前任帳號未解除），監控賣家政策變更"
+        }
+      ],
+      "baseline": {
+        "lte_failure_rate": "25%",
+        "frp_lock_rate": "6%",
+        "avg_rating": 3.5
+      },
+      "check_result": {
+        "date": "2026-03-12",
+        "status": "new_entry",
+        "notes": "Step 8 警告報告觸發自動監控。翻新品問題：25% LTE 失效 + 6% FRP 鎖定。"
       }
     },
     {

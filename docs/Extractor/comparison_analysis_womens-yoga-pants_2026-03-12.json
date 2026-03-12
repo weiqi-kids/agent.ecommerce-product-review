@@ -1,0 +1,46 @@
+{
+  "category": "womens-yoga-pants",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0BC4S63RV",
+      "name": "THE GYM PEOPLE High Waist Yoga Pants",
+      "new_today": true,
+      "key_issues": [
+        "sizing_runs_small 24% — 需升一號",
+        "inconsistent_material_thickness 16%",
+        "pilling_fuzzing 14%",
+        "tight_waistband 12%",
+        "used_or_contaminated_product 6% — HIGH severity"
+      ],
+      "strengths": ["comfort 75%", "pockets 82%", "squat_proof 80%", "tummy_control 72%", "value_for_price positive"]
+    },
+    {
+      "asin": "B0C7ZBNWL5",
+      "name": "Wide Leg Casual Yoga Pants (03-10)",
+      "new_today": false,
+      "key_issues": ["thin_fabric 17%", "transparency_sheerness 12%", "inconsistent_sizing 10%", "shrinkage 6%"],
+      "strengths": ["comfort 93%", "versatility 90%", "waistband 89%", "pockets 87%", "style_appearance 85%"]
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "GYM PEOPLE: sizing_runs_small 24% — 24% 用戶首次購買需要退換，影響購買體驗",
+      "GYM PEOPLE: pilling_fuzzing 14% — 快速起毛球影響長期使用，降低耐用性"
+    ],
+    "creates_new_problem": [
+      "GYM PEOPLE: used_or_contaminated 6% — 收到含人/動物毛髮的使用品，衛生安全顧慮（HIGH）",
+      "GYM PEOPLE: tight_waistband 12% — 鬆緊帶過緊造成不適"
+    ],
+    "unrelated_to_product": [
+      "GYM PEOPLE: used/contaminated 6% — 可能是 Amazon fulfillment 退貨管控問題"
+    ]
+  },
+  "comparison_verdict": {
+    "gym_people_vs_wide_leg": "Wide Leg（B0C7ZBNWL5）在舒適度（93% vs 75%）和整體評價均優於 GYM PEOPLE。GYM PEOPLE 優勢在口袋深度（82% vs 87%，差距小）和價格。GYM PEOPLE 的 6% 使用品混入問題是明顯劣勢。",
+    "overall": "兩款都有尺碼問題，Wide Leg 整體表現更一致。GYM PEOPLE 用衛生問題需特別關注。"
+  },
+  "report_type": "comparison",
+  "report_recommendation": "更新現有 womens-yoga-pants 比較報告（03-10）。新增 GYM PEOPLE 並標示：(1) 建議升一號，(2) 已有 6% 使用品混入報告，建議收到後立即開箱檢查。Wide Leg B0C7ZBNWL5 維持類別更優選項。",
+  "conclusion": "GYM PEOPLE 表現中等，24% 尺碼問題和 6% 使用品問題降低其競爭力。建議更新比較報告而非新建，維持 Wide Leg 為優先推薦。"
+}

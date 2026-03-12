@@ -1,0 +1,47 @@
+{
+  "category": "facial-cleanser",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0BN2PX8V3",
+      "name": "Anua Heartleaf Pore Control 潔顏油",
+      "new_today": true,
+      "key_issues": [
+        "breakout_acne_worsening 18% — 痘痘肌用戶爆痘，宣稱「適合痘痘肌」被矛盾",
+        "pore_clogging_ingredients 8% — Ethylhexyl Palmitate 高致粉刺性成分",
+        "no_pore_improvement 6%",
+        "fragrance 4%"
+      ],
+      "strengths": ["makeup_removal 90%", "skin_feel_after 82%", "double_cleansing_compatibility 85%"]
+    },
+    {
+      "asin": "B01MSSDEPK",
+      "name": "CeraVe Hydrating Facial Cleanser",
+      "new_today": false,
+      "key_issues": ["makeup_removal_insufficient 12%", "non_foaming_texture 14%"],
+      "strengths": ["hydration 92%", "gentleness 90%", "skin_barrier_repair 94%", "longevity 95%", "price_value 85%"]
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "Anua: breakout_acne_worsening 18% — 宣稱「適合痘痘肌」但 18% 痘痘肌用戶爆痘加劇，核心宣稱直接矛盾",
+      "Anua: pore_clogging_ingredients 8% — 含高致粉刺成分，與毛孔控制定位相悖"
+    ],
+    "creates_new_problem": [
+      "Anua: 18% 痘痘肌用戶使用後新生更多痘痘"
+    ],
+    "unrelated_to_product": []
+  },
+  "claim_contradiction": {
+    "claim": "Pore Control / 適合痘痘肌",
+    "verdict": "Contradicted",
+    "evidence": "18% 痘痘肌/敏感肌用戶反映使用後爆痘加劇；成分分析顯示含 Ethylhexyl Palmitate（高致粉刺性），直接與「毛孔控制」聲明矛盾"
+  },
+  "comparison_verdict": {
+    "anua_vs_cerave": "CeraVe 在痘痘肌/敏感肌安全性遠優於 Anua（90% 溫和 vs Anua 18% 爆痘）。Anua 優勢在卸妝力（90% vs CeraVe 52% 混合評價）。不同適用族群：Anua 適合正常/乾性+需卸妝，CeraVe 適合敏感/痘痘肌。",
+    "overall": "兩款產品定位不同，但 Anua「適合痘痘肌」的行銷聲稱有誤導性，需明確糾正。"
+  },
+  "report_type": "comparison",
+  "report_recommendation": "更新 facial-cleanser 比較報告，重點警示：Anua 不適合痘痘肌/敏感肌，其「Pore Control」聲稱有 18% 反例。CeraVe 在安全性維度明顯佔優。",
+  "conclusion": "Anua 的核心宣稱（痘痘肌適用）被 18% 反例矛盾，加上含致粉刺成分，需在比較報告中明確標示適用限制。CeraVe 仍是痘痘肌/敏感肌更安全的選擇。"
+}

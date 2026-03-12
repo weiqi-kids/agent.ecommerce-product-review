@@ -1,0 +1,41 @@
+{
+  "category": "wireless-earbuds",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0FQFB8FMG",
+      "name": "AirPods Pro 3",
+      "new_today": true,
+      "key_issues": ["chirping_feedback_transparency_mode 8%", "fit_too_large 8%", "charging_failure 6%", "apple_only_compatibility 8%"],
+      "strengths": ["noise_cancellation 92% prev / 80% today", "sound_quality 85% prev", "battery_life 88%", "live_translation"]
+    },
+    {
+      "asin": "B0DGHMNQ5Z",
+      "name": "AirPods 4",
+      "new_today": false,
+      "key_issues": ["falls_out_of_ears 22%", "poor_microphone 9%", "authenticity_doubts 7%", "stops_working_prematurely 7%"],
+      "strengths": ["noise_cancellation 82%", "sound_quality 71%", "ease_of_use 78%", "value 72%"]
+    }
+  ],
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "AirPods Pro 3: chirping_feedback 8% — core transparency/ANC mode unusable for affected users; Apple support cannot resolve",
+      "AirPods 4: falls_out_of_ears 22% — fit failure prevents basic use during activity",
+      "AirPods 4: stops_working_prematurely 7% — hardware reliability failure"
+    ],
+    "creates_new_problem": [
+      "AirPods Pro 3: apple_only_compatibility 8% — live translation locked to iPhone 15+, not disclosed",
+      "AirPods 4: authenticity_doubts 7% — potential counterfeit risk via Amazon"
+    ],
+    "unrelated_to_product": [
+      "AirPods Pro 3: poor_condition_received 5% — Amazon fulfillment quality"
+    ]
+  },
+  "comparison_verdict": {
+    "airpods_pro3_vs_airpods4": "Pro 3 superior on ANC and battery, but 8% chirping feedback is a serious unresolved hardware issue unique to Pro 3. AirPods 4 has worse fit (22%) but no equivalent safety/comfort bug.",
+    "overall": "Both products remain competitive in class. Pro 3 is the premium pick if chirping is absent; AirPods 4 is lower-risk for those prioritising reliability."
+  },
+  "report_type": "update_existing",
+  "report_recommendation": "Update existing wireless-earbuds comparison report (02-17). Add chirping_feedback as a NEW critical issue for Pro 3 that was not present in Feb data. Flag that 8% of users cannot use transparency mode reliably.",
+  "conclusion": "AirPods Pro 3 今日新增數據確認 chirping feedback 8% 是持續性問題（Apple support 無法解決），應在現有報告中新增此缺陷警示。整體類別結論不變：Pro 3 降噪更強，但此新發現降低了其優先推薦強度。"
+}

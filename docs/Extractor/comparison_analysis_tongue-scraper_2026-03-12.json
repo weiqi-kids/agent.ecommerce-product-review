@@ -1,0 +1,103 @@
+{
+  "category": "tongue-scraper",
+  "date": "2026-03-12",
+  "products_analyzed": [
+    {
+      "product_id": "B0GS5852CG",
+      "name": "MasterMedi Tongue Scraper 2 Pack (Stainless Steel, Multicolor Cases)",
+      "brand": "MasterMedi",
+      "platform": "amazon_us",
+      "data_source": "L1-L6_extraction",
+      "reviews_analyzed": 50,
+      "avg_rating": 4.75,
+      "price": 9.95,
+      "effectiveness_score": 0.90,
+      "ease_of_use_score": 0.88,
+      "travel_case_score": 0.92,
+      "material_quality_score": 0.82,
+      "negative_classification": {
+        "cannot_solve_problem": {
+          "rate": "4%",
+          "issues": ["smooth_surface_reduces_effectiveness"]
+        },
+        "creates_new_problems": {
+          "rate": "4%",
+          "issues": ["material_peeling (2%)", "handle_breakage (2%)"]
+        },
+        "unrelated_to_product": {
+          "rate": "6%",
+          "issues": ["non_english_reviews"]
+        }
+      }
+    }
+  ],
+  "competitors_from_research": [
+    {
+      "product_id": "B01LAY47D0",
+      "name": "MasterMedi Tongue Scraper (Original, 2 Pack)",
+      "brand": "MasterMedi",
+      "data_source": "research_articles",
+      "reviews_count": "107,375+",
+      "avg_rating": 4.6,
+      "price_range": "$8.99-$14.99",
+      "has_extraction": false,
+      "notes": "同品牌老款，市場銷量冠軍之一，多篇評測推薦為 Best Overall"
+    },
+    {
+      "product_id": "B07QRX886L",
+      "name": "Basic Concepts / Mouthology Tongue Scraper (2 Pack)",
+      "brand": "Basic Concepts",
+      "data_source": "research_articles",
+      "reviews_count": "101,870+",
+      "avg_rating": 4.6,
+      "price_range": "$8.99-$9.78",
+      "has_extraction": false,
+      "notes": "主要競品，評論數與 MasterMedi 老款不相上下"
+    },
+    {
+      "product_id": "B000ZM7MMW",
+      "name": "DrTung's Stainless Steel Tongue Scraper",
+      "brand": "DrTung's",
+      "data_source": "research_articles",
+      "reviews_count": "76,000+",
+      "avg_rating": 4.6,
+      "price_range": "$7-$9",
+      "has_extraction": false,
+      "notes": "牙醫推薦品牌，U 形設計"
+    },
+    {
+      "product_id": "B091MBD3Q3",
+      "name": "GuruNanda Tongue Scraper (2 Pack, 420 Medical-Grade)",
+      "brand": "GuruNanda",
+      "data_source": "research_articles",
+      "reviews_count": "7,600+",
+      "avg_rating": 4.6,
+      "price_range": "$4.97-$11.99",
+      "has_extraction": false,
+      "notes": "多篇評測推薦為 Best Budget"
+    }
+  ],
+  "comparison_result": {
+    "verdict": "comparison",
+    "reason": "B0GS5852CG 能解決舌苔/口臭問題（effectiveness 0.90），但僅有 50 則評論且為新 ASIN，同品牌老款 B01LAY47D0 有 107K+ 評論和更成熟的市場驗證。material_peeling 問題（銅層脫落 vs 100% 不鏽鋼聲明）需關注。競品均無萃取資料，比較基於評測文章。",
+    "confidence": "low",
+    "confidence_reason": "僅 1 產品有 L1-L6 萃取（50 則評論），競品均基於評測文章摘要，無法進行對等比較"
+  },
+  "market_common_pain_points": [
+    {
+      "issue": "嘔吐反射（gag reflex）",
+      "prevalence": "most_products",
+      "source": "research + extraction"
+    },
+    {
+      "issue": "效果持續時間短（30 分鐘後菌落恢復）",
+      "prevalence": "all_products",
+      "source": "clinical_research"
+    },
+    {
+      "issue": "光滑金屬面刮除力不足",
+      "prevalence": "metal_scrapers",
+      "source": "extraction (4%)"
+    }
+  ]
+}

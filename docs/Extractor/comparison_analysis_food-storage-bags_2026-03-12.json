@@ -1,0 +1,38 @@
+{
+  "category": "food-storage-bags",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0GS3FL9MB",
+      "name": "Ziploc EasyGuide Sandwich Bags (105ct)",
+      "new_today": true,
+      "price": "$3.76",
+      "key_issues": [
+        "bags_too_thin 12% — 比舊版更薄",
+        "size_too_small 10% — sandwich尺寸不符預期",
+        "seam_splitting 6% — 首次使用即破裂（HIGH severity）",
+        "quality_decline 6%"
+      ],
+      "strengths": ["value 88%", "versatility 90%", "ease_of_use 85%", "seal_quality 82%", "reusability 75%"]
+    }
+  ],
+  "data_coverage": "single_product — 今日首個 food-storage-bags 產品",
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "seam_splitting 6% — 開袋即破，無法執行儲存功能（HIGH severity）",
+      "size_too_small 10% — 三明治放不下，標示尺寸不符"
+    ],
+    "creates_new_problem": [
+      "bags_too_thin 12% — 薄化導致食物保護降低，與歷史品質比較的品質下滑"
+    ],
+    "unrelated_to_product": [
+      "shipping_damage 6% — 運輸損壞，非產品本身問題"
+    ]
+  },
+  "comparison_verdict": {
+    "overall": "整體功能達標（密封82%正面，泛用性90%），6% 接縫破裂是主要品控問題。Ziploc 品牌信任度高但有質量下降趨勢的感知。$3.76/105個的性價比是強項。"
+  },
+  "report_type": "recommendation",
+  "report_recommendation": "產出推薦報告，但需標注：(1) 接縫破裂 6% 品控問題，(2) 尺寸比預期略小（適合點心而非完整三明治），(3) 物料比舊版略薄。整體仍是主流選項。",
+  "conclusion": "Ziploc EasyGuide 整體功能正常，密封效果良好，性價比突出。6% 接縫破裂率值得在報告中提醒，但不影響整體推薦。需更多競品數據（如 Glad、Hefty）才能提供完整比較。"
+}

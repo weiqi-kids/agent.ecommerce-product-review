@@ -1,0 +1,109 @@
+{
+  "category": "budget-smartphone",
+  "date": "2026-03-12",
+  "products_analyzed": [
+    {
+      "product_id": "B0GS6CCXCJ",
+      "name": "Apple iPhone SE 3rd Gen 64GB RED AT&T (Renewed)",
+      "price": 136.00,
+      "reviews_analyzed": 50,
+      "platform": "amazon_us",
+      "key_issues": {
+        "cannot_solve_problem": [
+          {"issue": "battery_below_advertised", "frequency": "16%", "severity": "high"},
+          {"issue": "device_malfunction", "frequency": "6%", "severity": "high"}
+        ],
+        "creates_new_problems": [
+          {"issue": "carrier_unlock_issues", "frequency": "6%", "severity": "high"},
+          {"issue": "non_genuine_parts", "frequency": "4%", "severity": "medium"}
+        ],
+        "unrelated_to_product": [
+          {"issue": "seller_dispute_unresolved", "frequency": "6%", "severity": "medium"},
+          {"issue": "condition_misrepresented", "frequency": "14%", "severity": "medium"}
+        ]
+      },
+      "effective_negative_rate": 0.32,
+      "verdict": "partially_solves_problem"
+    },
+    {
+      "product_id": "B0GS6Q14K2",
+      "name": "Apple iPhone SE 2nd Gen 64GB Black AT&T (Renewed)",
+      "price": 129.00,
+      "reviews_analyzed": 50,
+      "platform": "amazon_us",
+      "key_issues": {
+        "cannot_solve_problem": [
+          {"issue": "battery_below_advertised", "frequency": "18%", "severity": "high"},
+          {"issue": "premature_device_failure", "frequency": "16%", "severity": "high"},
+          {"issue": "touchscreen_malfunction", "frequency": "6%", "severity": "medium"}
+        ],
+        "creates_new_problems": [
+          {"issue": "carrier_lock_issues", "frequency": "8%", "severity": "high"},
+          {"issue": "audio_speaker_failure", "frequency": "6%", "severity": "medium"}
+        ],
+        "unrelated_to_product": [
+          {"issue": "condition_misrepresented", "frequency": "6%", "severity": "medium"}
+        ]
+      },
+      "effective_negative_rate": 0.48,
+      "verdict": "not_recommended"
+    },
+    {
+      "product_id": "B0DK9VZC5B",
+      "name": "Samsung Galaxy S24 Ultra 5G 256GB AT&T (Renewed)",
+      "price": 765.00,
+      "reviews_analyzed": 50,
+      "platform": "amazon_us",
+      "key_issues": {
+        "cannot_solve_problem": [
+          {"issue": "carrier_locked_not_unlocked", "frequency": "20%", "severity": "high"},
+          {"issue": "software_update_loop", "frequency": "6%", "severity": "high"}
+        ],
+        "creates_new_problems": [
+          {"issue": "battery_degraded", "frequency": "8%", "severity": "high"},
+          {"issue": "previous_owner_account_linked", "frequency": "4%", "severity": "medium"}
+        ],
+        "unrelated_to_product": [
+          {"issue": "condition_misrepresented", "frequency": "4%", "severity": "medium"},
+          {"issue": "samsung_logo_missing", "frequency": "6%", "severity": "medium"}
+        ]
+      },
+      "effective_negative_rate": 0.38,
+      "verdict": "better_alternatives_exist"
+    }
+  ],
+  "cross_product_pain_points": [
+    {
+      "pain_point": "carrier_lock_att",
+      "affected_products": ["B0GS6CCXCJ", "B0GS6Q14K2", "B0DK9VZC5B"],
+      "avg_frequency": "11.3%",
+      "description": "AT&T 鎖定版翻新機存在 IMEI 黑名單、無法解鎖、前帳號欠費等系統性問題"
+    },
+    {
+      "pain_point": "battery_quality_control",
+      "affected_products": ["B0GS6CCXCJ", "B0GS6Q14K2", "B0DK9VZC5B"],
+      "avg_frequency": "14%",
+      "description": "電池健康度低於廣告保證值，翻新品質管控不一致"
+    },
+    {
+      "pain_point": "condition_description_accuracy",
+      "affected_products": ["B0GS6CCXCJ", "B0GS6Q14K2", "B0DK9VZC5B"],
+      "avg_frequency": "8%",
+      "description": "實際外觀條件與賣家描述不符"
+    }
+  ],
+  "report_type": "comparison",
+  "report_reason": "三款產品均能部分解決問題（以低價取得智慧手機），但 AT&T 鎖定版存在系統性劣勢，市場上有明顯更好的替代選擇（解鎖版翻新機、Pixel 8a）",
+  "recommended_alternatives": [
+    {"name": "Google Pixel 8a Renewed (Unlocked)", "asin": "B0DQYT2751", "reason": "解鎖版、7年更新、$267-330"},
+    {"name": "iPhone SE 3rd Gen Renewed (Unlocked)", "asin": "B0BDY59V1G", "reason": "同款手機解鎖版，無 carrier lock 風險"},
+    {"name": "iPhone 13 Renewed (Unlocked)", "asin": "B09LNX6KQS", "reason": "A15 晶片、Night Mode、OLED、$250-320"},
+    {"name": "Samsung Galaxy S22 Renewed (Unlocked)", "asin": "B09VD46951", "reason": "AMOLED 120Hz、$180-280、解鎖版"}
+  ],
+  "confidence": "medium",
+  "data_sources": {
+    "amazon_reviews": 150,
+    "web_search_sources": "28 次 WebSearch, 40+ 次 WebFetch",
+    "competitors_identified": 25
+  }
+}

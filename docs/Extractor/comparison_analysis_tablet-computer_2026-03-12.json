@@ -1,0 +1,30 @@
+{
+  "category": "tablet-computer",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0DZ75TN5F",
+      "name": "iPad 11-inch (A16)",
+      "new_today": true,
+      "key_issues": ["doa_or_early_failure 12%", "setup_difficulty 4%"],
+      "strengths": ["performance_speed 90%", "design_weight 92%", "battery_life 86%", "apple_ecosystem 93%", "display_quality 88%"],
+      "avg_rating_implied": "4.75/5"
+    }
+  ],
+  "data_coverage": "single_product — 今日首個 tablet-computer 產品，無現有競品萃取可比較",
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "DOA/early_failure 12% — 高於平均的到貨即壞率，12% 用戶收到無法使用的設備"
+    ],
+    "creates_new_problem": [],
+    "unrelated_to_product": [
+      "return_window_too_short 2% — Amazon 退貨政策問題"
+    ]
+  },
+  "comparison_verdict": {
+    "overall": "整體表現優異（4.75/5），但 12% DOA/早期故障率顯著偏高，需標示為需注意項目。核心功能（性能、電池、顯示器）均獲驗證。"
+  },
+  "report_type": "recommendation",
+  "report_recommendation": "產出推薦報告，但必須突出 12% DOA 問題並建議用戶購買後立即開箱測試。需更多競品數據才能進行完整比較分析，標記 [需補充競品]。",
+  "conclusion": "iPad A16 整體表現強，可推薦，但 DOA 12% 須在報告中明確警示。類別尚無競品數據，建議標記 review_needed 等待競品萃取後補齊比較。"
+}

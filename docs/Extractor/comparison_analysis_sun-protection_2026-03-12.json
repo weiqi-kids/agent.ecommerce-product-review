@@ -1,0 +1,44 @@
+{
+  "category": "sun-protection",
+  "date": "2026-03-12",
+  "products_compared": [
+    {
+      "asin": "B0F6TWJPMX",
+      "name": "La Roche-Posay Invisible Fluid SPF 40",
+      "new_today": true,
+      "key_issues": [
+        "expired_or_spoiled_product 16% — CRITICAL",
+        "white_cast 12%",
+        "product_transfer_pilling 8%",
+        "allergic_reaction 4%"
+      ],
+      "strengths": ["texture_lightweight 88%", "sun_protection 85%", "sensitive_skin_compatibility 85%", "skin_feel 82%"]
+    }
+  ],
+  "data_coverage": "single_product — 今日首個 sun-protection 產品",
+  "negative_classification": {
+    "cannot_solve_problem": [
+      "expired_or_spoiled_product 16% — 收到變質/疑似假貨產品，無法提供有效防曬保護。嚴重程度：HIGH。涉及食品安全法規適用之消費品。"
+    ],
+    "creates_new_problem": [
+      "allergic_reaction 4% — 少數用戶出現皮膚灼燒/過敏反應",
+      "white_cast 12% — 礦物配方在深膚色留下明顯白膜"
+    ],
+    "unrelated_to_product": [
+      "expired_spoiled 16% — 部分可能是 Amazon 供應鏈/倉儲問題（假貨或倉管失當）"
+    ]
+  },
+  "critical_finding": {
+    "issue": "expired_or_spoiled_product",
+    "rate": "16%",
+    "severity": "HIGH",
+    "details": "多位用戶描述產品有腐臭味、外觀異常，疑似收到過期或假冒商品。16% 發生率遠超業界警戒線 (>5%)。",
+    "action_required": "需產出獨立警告報告，提醒消費者此 Amazon listing 存在假貨/過期品風險，並建議從官方授權零售商購買。"
+  },
+  "comparison_verdict": {
+    "overall": "La Roche-Posay SPF 40 核心防曬功效獲驗證（85%正面），但 16% 過期/變質問題是嚴重的供應鏈完整性問題，需獨立警告。"
+  },
+  "report_type": "warning",
+  "report_recommendation": "產出警告報告：docs/Narrator/warnings/la-roche-posay-spf40-counterfeit-risk--2026-03-12.md。同時加入監控清單（watch_reason: counterfeit_risk，severity: high）。",
+  "conclusion": "16% 過期/假貨率觸發警告報告門檻。即使產品本身功效良好，此 Amazon listing 的供應鏈完整性問題需明確警示消費者。"
+}
