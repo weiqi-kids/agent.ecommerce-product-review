@@ -1,0 +1,185 @@
+{
+  "date": "2026-03-22",
+  "total_products": 288,
+  "existing_categories_matched": 99,
+  "new_categories": 14,
+  "new_category_products": 15,
+  "skipped": 2,
+  "already_in_problem_groups": 172,
+  "details": {
+    "existing": [
+      {"category": "baby-diaper", "products": ["B010OVZO64", "B07M6FL57T", "B08PX2V7PG", "B0DKYRHL2Y", "B00TJ6WLV2", "B0DFRHY91R", "B07SXBX1DM", "B08QS2KQ3F", "B0795WF49L"]},
+      {"category": "baby-wipes", "products": ["B07SCL613T", "B0BJ13K7FR", "B013C9OKVU", "B008KJEYLO", "B08QRKY3NJ", "B0BJ13XWDD"]},
+      {"category": "diaper-rash", "products": ["B00ZQXT4EY"]},
+      {"category": "baby-wash", "products": ["B072QXWXS6"]},
+      {"category": "potty-training-pants", "products": ["B08SNLW94K", "B07XCVWZ51"]},
+      {"category": "baby-thermometer", "products": ["B0824XNJSW"]},
+      {"category": "bottle-washer-accessory", "products": ["B0DF1FDKR4"]},
+      {"category": "baby-bottle-nipple", "products": ["B015XBYDLM"]},
+      {"category": "stroller-fan", "products": ["B0BKQDPP1Z"]},
+      {"category": "kids-nutrition-shake", "products": ["B00BKL4KKY"]},
+      {"category": "toddler-straw-cup", "products": ["B0C54D5NCG"]},
+      {"category": "baby-pacifier", "products": ["B07TDN9MKC"]},
+      {"category": "baby-healing-ointment", "products": ["B005UEB96K"]},
+      {"category": "eyeliner", "products": ["B000H3I2JG"]},
+      {"category": "cotton-swabs", "products": ["B0014CZ16Q"]},
+      {"category": "hair-styling-powder", "products": ["B08SNSSTPZ"]},
+      {"category": "sun-protection", "products": ["B084ZP848Y"]},
+      {"category": "phone-screen-protection", "products": ["B09CSSP9C1", "B0FDQH511S", "B0F8VZ7QVX", "B0FDQH15KW", "B09F2JY5FF", "B0FH4ZWQ6X", "B0FDKJDFGZ", "B0GCBMBGBX", "B0FDQKLW48", "B0FJG9P2LB"]},
+      {"category": "phone-drop-protection", "products": ["B0FH655984", "B0FDQ3PWCX", "B0DFH8SNK5", "B0F1TNK61D", "B0FCY7L7SZ", "B0FH6HYW1H", "B0G19LH9T6", "B0DMNY6FPD", "B0FDWR2PPG", "B0DP2PYTJ2"]},
+      {"category": "smartwatch-case", "products": ["B0DFVB13XF"]},
+      {"category": "phone-charging", "products": ["B09KR8P3L5", "B0B283QP2N", "B0CPSBD68W", "B0DJFW7PNM"]},
+      {"category": "portable-charger", "products": ["B0CB1FW5FC", "B0CY2JJ4WS"]},
+      {"category": "waterproof-phone-pouch", "products": ["B079HV3TC9"]},
+      {"category": "tablet-computer", "products": ["B0DZ77D5HL", "JJGCQG39VG"]},
+      {"category": "video-doorbell", "products": ["B0DGQVYW2K"]},
+      {"category": "home-security-camera", "products": ["B0B1N7LJD3"]},
+      {"category": "smart-speaker", "products": ["B0BFC7WQ6R", "B0DC91H3JK"]},
+      {"category": "e-reader", "products": ["B0CFPJYX7P", "B0CNVCQZG1"]},
+      {"category": "noise-cancelling-headphone", "products": ["B0CZPGX972"]},
+      {"category": "performance-laptop", "products": ["B0GR6JMY9W"]},
+      {"category": "tv-remote-replacement", "products": ["B0DDZN76T9"]},
+      {"category": "cable-management", "products": ["B08TVLYB3Q"]},
+      {"category": "wireless-earbuds", "products": ["B0FHWGB7FW"]},
+      {"category": "power-strip", "products": ["B09SG2Q23M"]},
+      {"category": "aa-batteries", "products": ["B00MNV8E0C"]},
+      {"category": "flushable-wipes", "products": ["B010NE2XPC", "B07ND3WR64"]},
+      {"category": "probiotic-supplement", "products": ["B079H53D2B"]},
+      {"category": "high-protein-snack", "products": ["B00DLDH1N2", "B00GJ82VK4"]},
+      {"category": "postpartum-incontinence", "products": ["B09556SRJH"]},
+      {"category": "trash-bags", "products": ["B09CD6Z7GB"]},
+      {"category": "disposable-plates", "products": ["B0748J34WZ"]},
+      {"category": "kitchen-scale", "products": ["B0113UZJE2"]},
+      {"category": "meat-thermometer", "products": ["B00S93EQUK"]},
+      {"category": "memory-foam-mattress", "products": ["B0DKT86Z4D"]},
+      {"category": "water-bottle", "products": ["B0D6C6GS58"]},
+      {"category": "pillow-case", "products": ["B07RZSGV99"]},
+      {"category": "wild-bird-feed", "products": ["B00LHE5OSQ"]},
+      {"category": "ant-control", "products": ["B01N0TGJHB"]},
+      {"category": "modeling-clay", "products": ["B07VS46CXT"]},
+      {"category": "easter-egg-hunt", "products": ["B0CJGWRTLY", "B07NPS487W", "B0F8423BK7", "B0DTJD9939"]},
+      {"category": "art-supplies", "products": ["B08LQNW75X"]},
+      {"category": "action-figure", "products": ["B07QTZ8238"]},
+      {"category": "trading-cards", "products": ["B0GG2BM9YQ"]},
+      {"category": "early-learning-toy", "products": ["B0BGN2HQHH"]},
+      {"category": "bubble-toy", "products": ["B08YNG4RDH"]}
+    ],
+    "new": [
+      {
+        "category": "anti-colic-baby-bottle",
+        "description": "嬰兒防脹氣奶瓶",
+        "requires_step5": true,
+        "products": ["B01845QH7M"]
+      },
+      {
+        "category": "underpads-leakproof",
+        "description": "一次性防漏床墊/失禁墊",
+        "requires_step5": true,
+        "products": ["B0CPPLFQKB"]
+      },
+      {
+        "category": "body-fragrance-mist",
+        "description": "身體香氛噴霧持香",
+        "requires_step5": true,
+        "products": ["B09X3HB2BR"]
+      },
+      {
+        "category": "ipad-stylus-pen",
+        "description": "iPad 觸控筆手寫繪圖",
+        "requires_step5": true,
+        "products": ["B0831BF1FH", "JJGCQXK6ZJ"]
+      },
+      {
+        "category": "phone-grip-stand",
+        "description": "手機支架握把防滑",
+        "requires_step5": true,
+        "products": ["B07P29XQR4"]
+      },
+      {
+        "category": "budget-smart-tv",
+        "description": "平價大螢幕 4K 智慧電視",
+        "requires_step5": true,
+        "products": ["B0F1BXQNR5"]
+      },
+      {
+        "category": "kids-learning-tablet",
+        "description": "兒童教育平板電腦",
+        "requires_step5": true,
+        "products": ["B0C8C2NZMQ"]
+      },
+      {
+        "category": "computer-monitor",
+        "description": "電腦外接螢幕顯示器",
+        "requires_step5": true,
+        "products": ["B0C8ZKV5R9"]
+      },
+      {
+        "category": "essential-oil-aromatherapy",
+        "description": "精油芳療舒壓放鬆",
+        "requires_step5": true,
+        "products": ["B00TSTZQEY"]
+      },
+      {
+        "category": "garden-hose",
+        "description": "花園澆水輕量耐用軟管",
+        "requires_step5": true,
+        "products": ["B003TFE7ZM"]
+      },
+      {
+        "category": "garden-pump-sprayer",
+        "description": "手動加壓噴霧器（園藝/除蟲/清潔）",
+        "requires_step5": true,
+        "products": ["B000E28UQU"]
+      },
+      {
+        "category": "tower-fan",
+        "description": "塔扇室內靜音降溫",
+        "requires_step5": true,
+        "products": ["B09MKPDJRT"]
+      },
+      {
+        "category": "oven-mitt",
+        "description": "烘焙隔熱手套防燙",
+        "requires_step5": true,
+        "products": ["B08J8GZXKZ"]
+      },
+      {
+        "category": "kids-garden-terrarium-kit",
+        "description": "兒童生態瓶/花園造景套件",
+        "requires_step5": true,
+        "products": ["B083Z3JMGP"]
+      }
+    ],
+    "skipped": [
+      {
+        "product_id": "B00N1NBOV2",
+        "name": "Amazon Baby Registry Welcome Box",
+        "reason": "促銷禮盒，非實體消費品，無法進行評論分析"
+      },
+      {
+        "product_id": "B08JHCVHTY",
+        "name": "blink plus plan with monthly auto-renewal",
+        "reason": "數位訂閱服務，非實體產品"
+      }
+    ]
+  },
+  "next_steps": {
+    "step6_only": {
+      "description": "歸入現有類別的 99 個產品，跳過 Step 5，直接執行 Step 6-8",
+      "category_count": 54
+    },
+    "full_step5_to_8": {
+      "description": "14 個新類別（15 個產品）需要完整執行 Step 5-8",
+      "categories": [
+        "anti-colic-baby-bottle", "underpads-leakproof", "body-fragrance-mist",
+        "ipad-stylus-pen", "phone-grip-stand", "budget-smart-tv",
+        "kids-learning-tablet", "computer-monitor", "essential-oil-aromatherapy",
+        "garden-hose", "garden-pump-sprayer", "tower-fan",
+        "oven-mitt", "kids-garden-terrarium-kit"
+      ]
+    },
+    "already_processed": {
+      "description": "172 個產品已存在於 problem_groups.md，跳過（ASIN 去重）"
+    }
+  }
+}

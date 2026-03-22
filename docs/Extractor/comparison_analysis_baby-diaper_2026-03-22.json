@@ -1,0 +1,303 @@
+{
+  "category": "baby-diaper",
+  "date": "2026-03-22",
+  "products_compared": 9,
+  "recommendation": "comparison",
+  "top_product": {
+    "asin": "B010OVZO64",
+    "name": "Pampers Swaddlers Size 5, 132 Count",
+    "score": 0.96,
+    "brand": "Pampers",
+    "price_usd": 59.77,
+    "avg_rating": 4.85,
+    "total_reviews": 129930,
+    "key_differentiator": "全面向情感分數最高（0.96）、無任何★1 負評、leakprotection/softness/skin_safety 全數 0.95+ 且夜間表現突出"
+  },
+  "runner_up": {
+    "asin": "B0DKYRHL2Y",
+    "name": "Huggies Little Movers Size 4, 150 Count",
+    "score": 0.95,
+    "brand": "Huggies",
+    "price_usd": 54.99,
+    "avg_rating": 4.85,
+    "total_reviews": 23507,
+    "note": "好動嬰兒首選，Snug & Dry 夜間防漏評論明確表現優於 Snug & Dry"
+  },
+  "best_value": {
+    "asin": "B07SXBX1DM",
+    "name": "Amazon Mama Bear Gentle Touch Diapers Size 5, 132 Count",
+    "brand": "Mama Bear (Amazon Brand)",
+    "avg_rating": 4.25,
+    "total_reviews": 60743,
+    "note": "平均評分 4.25，絕大多數正面但存在極端分歧（1則完全功能失效負評）"
+  },
+  "special_use": {
+    "asin": "B0795WF49L",
+    "name": "Pampers Splashers Swim Diapers Size 4, 18 Count",
+    "brand": "Pampers",
+    "price_usd": 9.97,
+    "avg_rating": 4.85,
+    "note": "游泳專用尿布，不在水中膨脹，不可與一般尿布直接比較"
+  },
+  "products": [
+    {
+      "asin": "B00TJ6WLV2",
+      "name": "Pampers Baby Dry Size 1, 120 Count",
+      "brand": "Pampers",
+      "price_usd": "N/A (未取得)",
+      "avg_rating": 4.75,
+      "total_reviews": 98036,
+      "reviews_analyzed": 13,
+      "use_case": "新生兒/嬰兒 (Size 1)",
+      "overall_sentiment": {
+        "leak_protection": 0.92,
+        "absorbency": 0.93,
+        "fit": 0.92,
+        "skin_safety": 0.88,
+        "overall": 0.90
+      },
+      "key_strengths": ["Dual Leak-Guard 多則評論確認 zero blowouts", "Dry-Weave liner 長時間乾爽"],
+      "key_issues": [
+        {"type": "⚠️", "issue": "版本不一致（新舊版本差異大）", "frequency": "15%"},
+        {"type": "⚠️", "issue": "產品粉塵疑慮（diaper dust affecting hygiene）", "frequency": "8%"},
+        {"type": "📦", "issue": "價格上漲且數量減少", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B010OVZO64",
+      "name": "Pampers Swaddlers Size 5, 132 Count",
+      "brand": "Pampers",
+      "price_usd": 59.77,
+      "avg_rating": 4.85,
+      "total_reviews": 129930,
+      "reviews_analyzed": 13,
+      "use_case": "一般用途 (Size 5, 20-37lbs)",
+      "overall_sentiment": {
+        "softness": 0.98,
+        "leak_protection": 0.96,
+        "absorbency": 0.95,
+        "skin_safety": 0.96,
+        "fit": 0.94,
+        "nighttime_performance": 0.96,
+        "overall": 0.96
+      },
+      "key_strengths": [
+        "全面向情感評分最高",
+        "夜間使用表現最佳（sleep through the night dry）",
+        "皮膚科認證 + 無皮疹報告"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "版本不一致風險（1則）", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B0795WF49L",
+      "name": "Pampers Splashers Swim Diapers Size 4, 18 Count",
+      "brand": "Pampers",
+      "price_usd": 9.97,
+      "avg_rating": 4.85,
+      "total_reviews": 31513,
+      "reviews_analyzed": 10,
+      "use_case": "游泳專用（泳池/海灘/水上樂園）",
+      "overall_sentiment": {
+        "water_performance": 0.95,
+        "leak_protection": 0.94,
+        "ease_of_use": 0.96,
+        "overall": 0.93
+      },
+      "key_strengths": ["不在水中膨脹", "快速撕拆換尿布"],
+      "key_issues": [
+        {"type": "⚠️", "issue": "sizing guidance - 緊合版型效果最佳", "frequency": "20%"}
+      ],
+      "review_needed": false,
+      "note": "游泳專用，不與一般尿布比較"
+    },
+    {
+      "asin": "B07M6FL57T",
+      "name": "Huggies Little Snugglers Newborn, 31 Count",
+      "brand": "Huggies",
+      "price_usd": 9.94,
+      "avg_rating": 4.85,
+      "total_reviews": 88014,
+      "reviews_analyzed": 13,
+      "use_case": "新生兒 (up to 10lbs)",
+      "overall_sentiment": {
+        "softness": 0.97,
+        "leak_protection": 0.95,
+        "fit": 0.92,
+        "skin_safety": 0.96,
+        "absorbency": 0.95,
+        "overall": 0.95
+      },
+      "key_strengths": [
+        "新生兒首選，softness/skin_safety 極高",
+        "色變濕度指示條",
+        "適合敏感肌 / 濕疹嬰兒"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "sizing inconsistency - 偶有版型偏大", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B07SXBX1DM",
+      "name": "Amazon Mama Bear Gentle Touch Size 5, 132 Count",
+      "brand": "Mama Bear (Amazon Brand)",
+      "price_usd": "N/A",
+      "avg_rating": 4.25,
+      "total_reviews": 60743,
+      "reviews_analyzed": 11,
+      "use_case": "一般用途 (Size 5)",
+      "overall_sentiment": {
+        "value_for_money": 0.95,
+        "softness": 0.88,
+        "absorbency": 0.82,
+        "leak_prevention": 0.80,
+        "overall": 0.83
+      },
+      "key_strengths": [
+        "最高 CP 值（多則評論比較 Huggies/Pampers 後選擇）",
+        "大多數使用者完全正面"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "total product failure - 1則嚴重負評：全面滲漏+材質硬糙+零吸收力", "frequency": "9%"},
+        {"type": "⚠️", "issue": "sizing runs large", "frequency": "18%"}
+      ],
+      "review_needed": false,
+      "warning": "存在完全相反的使用體驗（9% 完全失效 vs 91% 正面），可能為批次品質問題"
+    },
+    {
+      "asin": "B08PX2V7PG",
+      "name": "Pampers Cruisers 360 Size 5, 128 Count",
+      "brand": "Pampers",
+      "price_usd": "N/A",
+      "avg_rating": 4.75,
+      "total_reviews": 27857,
+      "reviews_analyzed": 13,
+      "use_case": "學步兒童 (27+ lbs)，拉拉褲設計",
+      "overall_sentiment": {
+        "pull_on_design": 0.97,
+        "fit_for_active_toddlers": 0.93,
+        "softness_comfort": 0.95,
+        "leak_protection": 0.88,
+        "overall": 0.93
+      },
+      "key_strengths": [
+        "拉拉褲設計 - 「Game Changer for Active Toddlers」",
+        "360° 彈力腰帶適合好動兒"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "loose_waistband_leakage - 腰帶鬆導致便便外漏", "frequency": "8%"},
+        {"type": "⚠️", "issue": "sagging when full", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B08QS2KQ3F",
+      "name": "Huggies Overnites Size 5, Overnight Diapers",
+      "brand": "Huggies",
+      "price_usd": "N/A",
+      "avg_rating": 4.75,
+      "total_reviews": 28972,
+      "reviews_analyzed": 13,
+      "use_case": "夜間專用 (27+ lbs)",
+      "overall_sentiment": {
+        "leak_protection": 0.95,
+        "absorbency": 0.96,
+        "sleep_quality": 0.95,
+        "overall": 0.94
+      },
+      "key_strengths": [
+        "#1 暢銷夜間尿布",
+        "slept through the night for the first time (x4 評論)"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "occasional leak (12hr 偶有滲漏)", "frequency": "15%"},
+        {"type": "⚠️", "issue": "chemical smell on one batch", "frequency": "8%"},
+        {"type": "📦", "issue": "price increase 3x in 2 months", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B0DFRHY91R",
+      "name": "Huggies Snug & Dry Size 4, 92 Count",
+      "brand": "Huggies",
+      "price_usd": 19.97,
+      "avg_rating": 4.75,
+      "total_reviews": 50027,
+      "reviews_analyzed": 13,
+      "use_case": "一般用途 (22-37 lbs)",
+      "overall_sentiment": {
+        "softness": 0.97,
+        "absorbency": 0.95,
+        "leak_protection": 0.92,
+        "skin_safety": 0.96,
+        "overall": 0.94
+      },
+      "key_strengths": [
+        "2X softness CloudSoft 層",
+        "唯一全系列完全無香料品牌（leading brand）",
+        "Blowout Blocker 全系列配備"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "夜間防漏不及 Little Movers（同品牌比較）", "frequency": "8%"},
+        {"type": "⚠️", "issue": "waist fit 可再改善", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B0DKYRHL2Y",
+      "name": "Huggies Little Movers Size 4, 150 Count",
+      "brand": "Huggies",
+      "price_usd": 54.99,
+      "avg_rating": 4.85,
+      "total_reviews": 23507,
+      "reviews_analyzed": 13,
+      "use_case": "好動嬰兒 (22-37 lbs)，日夜皆宜",
+      "overall_sentiment": {
+        "leak_protection": "high (implied 0.95+)",
+        "fit_for_active": "very high",
+        "overall": 0.95
+      },
+      "key_strengths": [
+        "Double Grip Strips 確保好動嬰兒版型穩固",
+        "DryTouch Liner 鎖99%濕氣",
+        "12小時防護確認",
+        "評論明確優於 Snug & Dry 夜間使用"
+      ],
+      "key_issues": [],
+      "review_needed": false
+    }
+  ],
+  "negative_review_classification": {
+    "functional_failure": [
+      {"asin": "B07SXBX1DM", "issue": "total product failure (leaks + stiff/rough + no absorbency)", "frequency": "9%", "severity": "嚴重，但可能為批次問題"},
+      {"asin": "B08PX2V7PG", "issue": "loose waistband causing leakage", "frequency": "8%"}
+    ],
+    "side_effects": [
+      {"asin": "B00TJ6WLV2", "issue": "diaper dust products affecting baby hygiene", "frequency": "8%"},
+      {"asin": "B08QS2KQ3F", "issue": "chemical smell on batch (aired out resolved)", "frequency": "8%"}
+    ],
+    "unrelated_issues": [
+      {"asin": "B00TJ6WLV2", "issue": "price increase", "frequency": "8%"},
+      {"asin": "B08QS2KQ3F", "issue": "price increase 3x", "frequency": "8%"}
+    ]
+  },
+  "use_case_matrix": {
+    "newborn": {"best": "B07M6FL57T (Huggies Little Snugglers)", "alternative": "B00TJ6WLV2 (Pampers Baby Dry)"},
+    "day_use_general": {"best": "B010OVZO64 (Pampers Swaddlers)", "budget": "B07SXBX1DM (Mama Bear, 注意批次差異)"},
+    "active_toddler": {"best": "B0DKYRHL2Y (Huggies Little Movers)", "alternative": "B08PX2V7PG (Pampers Cruisers 360)"},
+    "nighttime": {"best": "B08QS2KQ3F (Huggies Overnites)", "alternative": "B010OVZO64 (Pampers Swaddlers)"},
+    "swimming": {"only": "B0795WF49L (Pampers Splashers)"},
+    "sensitive_skin": {"best": "B07M6FL57T 或 B0DFRHY91R (Huggies - 唯一全系列完全無香料)"}
+  },
+  "category_verdict": {
+    "can_solve_problem": true,
+    "problem": "嬰兒尿布防漏吸收",
+    "verdict": "類別內主要品牌（Pampers/Huggies）均能有效解決問題，整體評分優異（4.75-4.85）。差異主要在使用情境：Pampers Swaddlers 綜合最強，Huggies Little Movers 好動嬰兒首選，Huggies Overnites 夜間專用最佳。Amazon Mama Bear 性價比高但存在品質批次差異風險（9%完全失效）需注意。",
+    "recommendation_type": "comparison（依使用情境推薦不同產品）"
+  },
+  "summary": "9個嬰兒尿布產品涵蓋新生兒到學步兒、日夜使用到游泳專用。Pampers Swaddlers (B010OVZO64) 綜合評分最高（4.85, 情感0.96），無任何核心問題；Huggies Little Movers (B0DKYRHL2Y) 好動嬰兒最佳選擇，Huggies Overnites (B08QS2KQ3F) 夜間專用首選。需注意：Mama Bear 有9%完全失效負評，可能為批次問題；Pampers Cruisers 360 有8%腰帶鬆漏問題。建議產出：比較報告（依使用情境分類）。"
+}

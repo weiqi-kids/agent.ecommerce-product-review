@@ -1,0 +1,701 @@
+{
+  "generated_at": "2026-03-22T00:00:00Z",
+  "analysis_scope": "全量 REVIEW_NEEDED 掃描（67 份）+ 暫緩類別重試檢查",
+  "deferred_categories": {
+    "kids-activity-book": {
+      "next_retry": "2026-03-15",
+      "retry_count": 4,
+      "status": "overdue",
+      "action": "next_retry 已過期（2026-03-15），本次執行需重試 WebSearch/WebFetch 補齊",
+      "notes": "歷史最佳：WebFetch 62 次，多數網站 403/JS-only 阻擋。嘗試第 5 次，若仍失敗則升為 retry_count=5，Fibonacci 間隔 8 天，next_retry=2026-03-30"
+    }
+  },
+  "reports": [
+    {
+      "file": "docs/Narrator/warnings/beats-solo4-renewed--2026-03-12.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品無萃取", "研究不足"],
+      "priority": "高（警告報告）",
+      "immediate_action": true,
+      "action": "重新抓取 Beats Solo 4 Renewed（B0D3PZLZ3N）至 100+ 則，補充 WebSearch 競品研究"
+    },
+    {
+      "file": "docs/Narrator/warnings/la-roche-posay-spf40-expired--2026-03-12.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足"],
+      "priority": "高（警告報告，安全相關）",
+      "immediate_action": true,
+      "action": "重新抓取 La Roche-Posay SPF 40（B0F6TWJPMX）至 100+ 則，補充平台資料"
+    },
+    {
+      "file": "docs/Narrator/warnings/pixel-watch3-renewed--2026-03-12.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品不足"],
+      "priority": "高（警告報告，翻新商品問題）",
+      "immediate_action": true,
+      "action": "重新抓取 Pixel Watch 3 Renewed（B0DSWMYSYT）至 100+ 則，並補充 WebSearch 競品研究"
+    },
+    {
+      "file": "docs/Narrator/warnings/bread-toaster--warning--2026-03-04.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足"],
+      "priority": "高（警告報告）",
+      "immediate_action": true,
+      "action": "補充麵包機評論至 100+ 則，確認安全問題是否普遍"
+    },
+    {
+      "file": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-05.md",
+      "type": "pain_point",
+      "has_review_needed": true,
+      "gap_types": ["研究不足", "競品不足"],
+      "priority": "中（痛點報告，最新版本）",
+      "immediate_action": false,
+      "action": "補充 squishy-toy WebFetch 至 100+ 次，擴大競品研究範圍"
+    },
+    {
+      "file": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md",
+      "type": "pain_point",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "priority": "低（痛點報告，已有較新版本 2026-03-05）",
+      "immediate_action": false,
+      "action": "次版本，以 2026-03-05 版為主，此報告可保留歷史記錄"
+    },
+    {
+      "file": "docs/Narrator/recommendations/food-storage-bags--2026-03-12.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "中（推薦報告，評論充足但無競品對比）",
+      "immediate_action": false,
+      "action": "補充競品研究，找出至少 3 款食物保鮮袋競品（Glad、Stasher 等）並抓取評論"
+    },
+    {
+      "file": "docs/Narrator/recommendations/tablet-computer--2026-03-12.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "中（推薦報告，評論充足但無競品對比）",
+      "immediate_action": false,
+      "action": "補充競品研究，找出至少 3 款平板競品（Samsung Galaxy Tab、Amazon Fire 等）並抓取評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/budget-smartphone--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取", "研究不足"],
+      "priority": "中（比較報告，評論充足但競品未萃取，WebFetch 不足）",
+      "immediate_action": false,
+      "action": "補充 WebFetch 至 100+ 次，抓取解鎖版翻新機競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/facial-cleanser--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "中（比較報告，主產品評論充足但無競品）",
+      "immediate_action": false,
+      "action": "補充競品研究（WebSearch）並抓取至少 3 款潔顏油競品評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/telescope-monocular--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足", "競品無萃取"],
+      "priority": "低（比較報告，評論量充足，僅研究深度不足）",
+      "immediate_action": false,
+      "action": "補充 WebFetch 至 100+ 次，嘗試抓取競品（Gosky、Occer、Vortex 等）Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/tongue-scraper--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充主產品至 100+ 則，嘗試抓取競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/collectible-coins--2026-03-11.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "priority": "低（比較報告，近期報告）",
+      "immediate_action": false,
+      "action": "補充 WebFetch 至 100+ 次，加深競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/kids-casual-clogs--2026-03-11.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充兒童洞洞鞋競品研究（Crocs Kids 等）"
+    },
+    {
+      "file": "docs/Narrator/comparisons/wired-earphones--2026-03-11.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "抓取有線耳機競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/womens-yoga-pants--2026-03-10.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充女性瑜伽褲競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/holiday-costume-accessories--2026-03-10.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充節日服飾配件研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/aa-batteries--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "抓取 AA 電池競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/collectible-coins--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "priority": "低（比較報告，已有更新版 2026-03-11）",
+      "immediate_action": false,
+      "action": "以 2026-03-11 版為主，此版本可保留歷史記錄"
+    },
+    {
+      "file": "docs/Narrator/comparisons/cotton-swabs--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充棉棒競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/disposable-plates--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充免洗碟競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/electrolyte-hydration--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充電解質補充品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/mens-underwear--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "抓取男性內褲競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/womens-yoga-pants--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（比較報告，已有更新版 2026-03-10）",
+      "immediate_action": false,
+      "action": "以 2026-03-10 版為主"
+    },
+    {
+      "file": "docs/Narrator/comparisons/tv-remote-replacement--2026-03-05.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "抓取電視遙控器替換品競品評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/drain-clog--2026-03-01.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "抓取排水管疏通競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/laundry-stain--2026-03-01.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "抓取衣物去漬競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/streaming-stick--2026-03-01.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充串流棒競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/vitamin-d-supplement--2026-03-01.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充維生素 D 補充品競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/water-bottle--2026-03-04.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告，已有更新版）",
+      "immediate_action": false,
+      "action": "以最新版為主"
+    },
+    {
+      "file": "docs/Narrator/comparisons/water-bottle--2026-03-03.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "priority": "低（比較報告，較舊版本）",
+      "immediate_action": false,
+      "action": "以最新版為主"
+    },
+    {
+      "file": "docs/Narrator/recommendations/paper-towels--2026-03-04.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "priority": "低（推薦報告，但無競品）",
+      "immediate_action": false,
+      "action": "補充廚房紙巾競品"
+    },
+    {
+      "file": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-05.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足"],
+      "priority": "中（警告報告，已有 2026-03-01 版，較新版需補齊）",
+      "immediate_action": false,
+      "action": "補充 trading cards 竄改問題評論至 100+ 則"
+    },
+    {
+      "file": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足"],
+      "priority": "低（警告報告，已有更新版 2026-03-05）",
+      "immediate_action": false,
+      "action": "以 2026-03-05 版為主"
+    },
+    {
+      "file": "docs/Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["研究不足", "評論不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留，2026-02 月報告）",
+      "immediate_action": false,
+      "action": "歷史遺留，下次完整流程時順帶補齊"
+    },
+    {
+      "file": "docs/Narrator/warnings/trash-bags--2026-02-09.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足"],
+      "date": "2026-02-09",
+      "priority": "低（歷史遺留，2026-02 月報告）",
+      "immediate_action": false,
+      "action": "歷史遺留，下次完整流程時順帶補齊"
+    },
+    {
+      "file": "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品不足"],
+      "date": "2026-02-08",
+      "priority": "低（歷史遺留，2026-02 月報告）",
+      "immediate_action": false,
+      "action": "歷史遺留，下次完整流程時順帶補齊"
+    },
+    {
+      "file": "docs/Narrator/comparisons/kids-activity-book--2026-02-21.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-21",
+      "priority": "中（暫緩類別，重試已過期需執行）",
+      "immediate_action": true,
+      "deferred_retry": true,
+      "action": "kids-activity-book 暫緩類別重試（next_retry=2026-03-15 已過期），執行第 5 次 WebSearch/WebFetch 補齊嘗試"
+    },
+    {
+      "file": "docs/Narrator/comparisons/baby-care--2026-02-05.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足", "競品不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留，2026-02 月報告）",
+      "immediate_action": false,
+      "action": "歷史遺留，下次完整流程時順帶補齊"
+    },
+    {
+      "file": "docs/Narrator/comparisons/body-firming--2026-02-08.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-08",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/body-moisturizing--comparison--2026-02-07.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-07",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/children-entertainment--2026-02-05.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/collectible-blind-box--2026-02-21.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-21",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/disposable-gloves--2026-02-20.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-20",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/drain-clog--comparison--2026-02-06.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/exfoliating-toner--2026-02-15.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-15",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/eye-puffiness--2026-02-15.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-15",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/face-moisturizing--2026-02-13.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-13",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/foam-playmat--2026-02-21.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-21",
+      "priority": "低（歷史遺留，watchlist 顯示已補齊 2026-03-10）",
+      "immediate_action": false,
+      "action": "歷史遺留，報告已有更新版本"
+    },
+    {
+      "file": "docs/Narrator/comparisons/home-fitness--2026-02-05.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/infant-sensory-toy--2026-02-21.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-21",
+      "priority": "低（歷史遺留，watchlist 顯示已補齊 2026-02-25）",
+      "immediate_action": false,
+      "action": "歷史遺留，研究已補齊"
+    },
+    {
+      "file": "docs/Narrator/comparisons/kitchen-scale--2026-02-20.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "date": "2026-02-20",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/muscle-building--2026-02-05.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/nail-glue--2026-02-08.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-08",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/photo-backdrop--2026-02-11.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-11",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/playing-cards--comparison--2026-02-06.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/teeth-whitening--comparison--2026-02-06.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/toddler-learning-toy--2026-02-21.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足"],
+      "date": "2026-02-21",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/trading-cards--comparison--2026-02-06.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/water-bottle--2026-02-20.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-20",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取"],
+      "date": "2026-02-17",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/recommendations/drain-clog--2026-02-05.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/recommendations/lip-care--recommendation--2026-02-06.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/recommendations/lip-care--recommendation--2026-02-11.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-11",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/recommendations/sun-protection--2026-02-05.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/recommendations/teeth-whitening--2026-02-05.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-05",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/recommendations/vitamin-d-supplement--recommendation--2026-02-06.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    },
+    {
+      "file": "docs/Narrator/comparisons/kids-tent--comparison--2026-02-06.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "date": "2026-02-06",
+      "priority": "低（歷史遺留）",
+      "immediate_action": false,
+      "action": "歷史遺留"
+    }
+  ],
+  "summary": {
+    "total_review_needed": 67,
+    "immediate_action_required": 5,
+    "deferred_retry_due": 1,
+    "historical_legacy_low_priority": 38,
+    "gap_type_breakdown": {
+      "評論不足": 12,
+      "競品不足": 32,
+      "競品無萃取": 15,
+      "研究不足": 18
+    },
+    "priority_breakdown": {
+      "高（立即補齊）": 4,
+      "中（可排入今日）": 9,
+      "低（可延後）": 54
+    },
+    "immediate_actions": [
+      "重新抓取 beats-solo4-renewed（B0D3PZLZ3N）至 100+ 則 + WebSearch 競品（警告報告）",
+      "重新抓取 la-roche-posay-spf40-expired（B0F6TWJPMX）至 100+ 則（警告報告）",
+      "重新抓取 pixel-watch3-renewed（B0DSWMYSYT）至 100+ 則 + WebSearch 競品（警告報告）",
+      "補充 bread-toaster 評論至 100+ 則（警告報告）",
+      "kids-activity-book 暫緩類別第 5 次重試（next_retry=2026-03-15 已過期）"
+    ],
+    "medium_priority_actions": [
+      "squishy-toy pain_points（2026-03-05）補充研究",
+      "food-storage-bags 補充競品研究",
+      "tablet-computer 補充競品研究",
+      "budget-smartphone 補充 WebFetch + 競品萃取",
+      "facial-cleanser 補充競品研究",
+      "trading-cards-amazon-tampering（2026-03-05）補充評論",
+      "kids-activity-book（暫緩重試後更新報告）"
+    ],
+    "notes": [
+      "67 份 REVIEW_NEEDED 中，38 份為 2026-02 月歷史遺留報告，標記低優先",
+      "kids-activity-book 暫緩重試已過期（原 next_retry=2026-03-15），需執行第 5 次補齊嘗試",
+      "若第 5 次仍失敗：retry_count=5，Fibonacci 間隔 8 天，next_retry=2026-03-30",
+      "watchlist 中 interactive-pet-toy 和 monster-truck-toy 的 research_gap 待補齊"
+    ]
+  }
+}

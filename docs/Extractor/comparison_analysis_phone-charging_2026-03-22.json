@@ -1,0 +1,173 @@
+{
+  "category": "phone-charging",
+  "date": "2026-03-22",
+  "products_compared": 4,
+  "recommendation": "comparison",
+  "top_product": {
+    "asin": "B0DJFW7PNM",
+    "name": "Apple 20W USB-C Compact Power Adapter",
+    "score": 0.92,
+    "brand": "Apple",
+    "price_usd": "N/A (原廠定價未取得)",
+    "avg_rating": 4.85,
+    "total_reviews": 10375,
+    "key_differentiator": "原廠品質保證、build_quality_reliability 0.92、熱管理 0.85、無過熱問題；但無附線材且20W對iPhone 17不夠快"
+  },
+  "best_value": {
+    "asin": "B0B283QP2N",
+    "name": "FEEL2NICE 2 Pack Charger Blocks + 2 Pack (6FT & 10FT) USB-C to Lightning",
+    "score": 0.95,
+    "brand": "FEEL2NICE",
+    "price_usd": 9.99,
+    "avg_rating": "~4.9 (估算)",
+    "total_reviews": "N/A",
+    "key_differentiator": "value_for_money 0.95（2個充電器+2條6ft/10ft長線，$9.99），MFi認證，cable_length_variety 0.96"
+  },
+  "products": [
+    {
+      "asin": "B09KR8P3L5",
+      "name": "Novobit iPhone 17/16/15 Fast Charging USB-C Charger Block",
+      "brand": "Novobit",
+      "price_usd": 8.46,
+      "avg_rating": "~4.9 (估算)",
+      "reviews_analyzed": 8,
+      "overall_sentiment": {
+        "charging_speed": 0.92,
+        "value_for_money": 0.92,
+        "compact_size": 0.90,
+        "overall": "中高"
+      },
+      "key_strengths": [
+        "charging_speed 匹配 Apple 原廠充電器（多則確認）",
+        "compact 設計，便攜性佳",
+        "value_for_money 0.92"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "phone_overheating - 手機充電時過熱", "frequency": "13%"}
+      ],
+      "review_needed": true,
+      "review_reason": "僅8則評論，低於10則最低門檻"
+    },
+    {
+      "asin": "B0B283QP2N",
+      "name": "FEEL2NICE 2 Pack Charger Blocks + 2 Pack 6FT & 10FT Cables",
+      "brand": "FEEL2NICE",
+      "price_usd": 9.99,
+      "avg_rating": "~4.9 (估算)",
+      "reviews_analyzed": 12,
+      "overall_sentiment": {
+        "cable_length_variety": 0.96,
+        "value_for_money": 0.95,
+        "charging_speed": 0.93,
+        "build_quality": 0.90,
+        "heat_generation": 0.85,
+        "mfi_certification": 0.92,
+        "overall": "高"
+      },
+      "key_strengths": [
+        "cable_length_variety 0.96 - 6ft+10ft 雙線材設計獨一無二",
+        "value_for_money 0.95 - 2充電器+2線材共4件$9.99",
+        "Apple MFi認證確保相容性",
+        "charging_speed 0.93 - 匹配或超越OEM"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "cable_failure_after_6_months - 6個月後線材失效", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B0CPSBD68W",
+      "name": "DENGWENQIANG 2 Pack Dual Port USB-C + USB-A 20W Wall Charger",
+      "brand": "DENGWENQIANG",
+      "price_usd": 14.09,
+      "avg_rating": 4.65,
+      "total_reviews": 18103,
+      "reviews_analyzed": 13,
+      "overall_sentiment": {
+        "charging_speed": 0.82,
+        "dual_port_design": 0.85,
+        "compact_size": 0.88,
+        "value_for_price": 0.90,
+        "compatibility": 0.80,
+        "heat_safety": 0.45,
+        "overall": "中高"
+      },
+      "key_strengths": [
+        "USB-C + USB-A 雙埠設計（同時充多裝置）",
+        "compact 不遮擋插座排",
+        "廣泛相容（iPhone/Android/Garmin/Apple Watch）",
+        "value_for_price 0.90"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "overheating when charging two large devices simultaneously - 充兩大裝置時過熱", "frequency": "8%", "severity": "medium - 評論者認為不安全"},
+        {"type": "📦", "issue": "非英文評論（法文×2）", "frequency": "15%"}
+      ],
+      "review_needed": false,
+      "safety_note": "雙埠同時充兩個大型裝置時（如iPad+手機）可能過熱，建議輕負載使用"
+    },
+    {
+      "asin": "B0DJFW7PNM",
+      "name": "Apple 20W USB-C Compact Power Adapter",
+      "brand": "Apple",
+      "price_usd": "N/A (原廠定價)",
+      "avg_rating": 4.85,
+      "total_reviews": 10375,
+      "reviews_analyzed": 11,
+      "overall_sentiment": {
+        "charging_speed": 0.88,
+        "build_quality_reliability": 0.92,
+        "compact_design": 0.88,
+        "apple_brand_trust": 0.90,
+        "heat_management": 0.85,
+        "value_vs_third_party": 0.62,
+        "overall": "高"
+      },
+      "key_strengths": [
+        "build_quality_reliability 0.92 - 多年日常使用無失效",
+        "apple_brand_trust 0.90 - 無仿冒/相容性疑慮",
+        "heat_management 0.85 - 長時間使用保持涼爽",
+        "0%->50% 約30分鐘（iPhone 16確認）"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "no_cable_included - 需另購線材", "frequency": "18%"},
+        {"type": "⚠️", "issue": "speed_outdated_for_new_hardware - iPhone 17 支援40W+，20W已不夠快", "frequency": "9%"}
+      ],
+      "review_needed": false
+    }
+  ],
+  "negative_review_classification": {
+    "functional_failure": [],
+    "side_effects": [
+      {"asin": "B09KR8P3L5", "issue": "phone overheating during charging", "frequency": "13%"},
+      {"asin": "B0CPSBD68W", "issue": "overheating when charging two large devices", "frequency": "8%"}
+    ],
+    "unrelated_issues": []
+  },
+  "charging_speed_comparison": {
+    "apple_20w": "0->50% in 30 min (iPhone 16確認)",
+    "feel2nice": "Fast charging confirmed, 匹配或超越 OEM",
+    "novobit": "Matches Apple charger speed",
+    "dengwenqiang": "3X faster than 5W traditional, 20W confirmed",
+    "iphone17_note": "iPhone 17 支援40W+，所有20W充電器已非最快選擇"
+  },
+  "overheating_risk_assessment": {
+    "apple": "最低風險（原廠智能晶片，多評論確認涼爽）",
+    "feel2nice": "低風險（未見過熱報告，MFi認證）",
+    "novobit": "中等風險（13%單一評論提及手機過熱，樣本僅8則）",
+    "dengwenqiang": "雙埠重負載中等風險（8%，雙大裝置同時充電時過熱）"
+  },
+  "category_verdict": {
+    "can_solve_problem": true,
+    "problem": "手機快速充電",
+    "verdict": "4個充電器均能有效解決快速充電問題，無核心功能失效。主要差異在：安全性（Apple 原廠 vs 第三方）、附贈配件（FEEL2NICE 附長線材）、多裝置支援（DENGWENQIANG 雙埠）、成本（$8-15 vs Apple 原廠）。需注意：NOVOBIT 和 DENGWENQIANG 有過熱疑慮（低-中頻率）。iPhone 17 用戶若追求最快充電速度，應考慮40W+充電器（本批4款均20W）。",
+    "recommendation_type": "comparison（依需求：原廠安全/最佳CP值/多裝置支援）"
+  },
+  "use_case_recommendations": {
+    "safety_first": {"best": "B0DJFW7PNM (Apple 原廠，但需另購線材)"},
+    "best_value_with_cables": {"best": "B0B283QP2N (FEEL2NICE $9.99 含2充電器+2條長線，MFi認證)"},
+    "multi_device": {"best": "B0CPSBD68W (DENGWENQIANG 雙埠，但避免同時充兩大裝置)"},
+    "travel_compact": {"best": "B09KR8P3L5 (Novobit, $8.46 最便宜) 或 B0DJFW7PNM (Apple 原廠)"},
+    "iphone17_power_users": {"note": "本批4款均20W，iPhone 17支援40W+，建議考慮更高瓦數充電器"}
+  },
+  "summary": "4個手機充電器均能有效快速充電，無核心功能失效問題。Apple 原廠 (B0DJFW7PNM) 安全性最高（build_quality 0.92，熱管理佳），但價格高且不附線材；FEEL2NICE (B0B283QP2N) 最佳 CP 值（$9.99含4件組，MFi認證）；DENGWENQIANG (B0CPSBD68W) 雙埠多裝置支援但重負載有過熱疑慮（8%）。需注意：所有產品均為20W，iPhone 17用戶若追求極速充電須另尋40W+方案。建議產出：比較報告。"
+}

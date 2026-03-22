@@ -1,0 +1,64 @@
+{
+  "category": "e-reader",
+  "date": "2026-03-22",
+  "problem": "提供一部輕薄、低眼疲勞、電池持久的電子書閱讀裝置，讓使用者隨時隨地舒適閱讀",
+  "products_analyzed": [
+    {
+      "asin": "B0CFPJYX7P",
+      "name": "Amazon Kindle Paperwhite 16GB (newest model) – 7\" glare-free, 20% faster",
+      "brand": "Amazon Kindle",
+      "store": "amzn-direct",
+      "price": 119.99,
+      "avg_rating": 4.75,
+      "total_reviews": 17856,
+      "reviews_analyzed": 5,
+      "overall_sentiment": 0.92,
+      "review_needed": true,
+      "can_solve_problem": true,
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [],
+        "logistics": []
+      },
+      "note": "[REVIEW_NEEDED] 僅 5 則評論（低於 10 則門檻），信心度低"
+    },
+    {
+      "asin": "B0CNVCQZG1",
+      "name": "Amazon Kindle 16GB (newest model) – Lightest and most compact, 6\" glare-free",
+      "brand": "Amazon Kindle",
+      "store": "amzn-direct",
+      "price": 119.99,
+      "avg_rating": 4.65,
+      "total_reviews": 15309,
+      "reviews_analyzed": 6,
+      "overall_sentiment": 0.90,
+      "review_needed": true,
+      "can_solve_problem": true,
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [],
+        "logistics": []
+      },
+      "note": "[REVIEW_NEEDED] 僅 6 則評論（低於 10 則門檻），信心度低"
+    }
+  ],
+  "comparison_summary": {
+    "head_to_head": {
+      "Kindle_Paperwhite_vs_Kindle_basic": {
+        "screen_size": "Paperwhite 7\" vs Kindle 6\"",
+        "battery": "Paperwhite 12週 vs Kindle 6週",
+        "waterproof": "Paperwhite 有防水 vs Kindle 無（未明確說明）",
+        "portability": "Kindle 更輕薄，旅行首選",
+        "rating": "Paperwhite 4.75 vs Kindle 4.65（差距不大）",
+        "price": "同價 $119.99"
+      }
+    },
+    "winner": "B0CFPJYX7P（Kindle Paperwhite）",
+    "reason": "相同價格下，Paperwhite 提供更大螢幕（7\" vs 6\"）、更長電池壽命（12週 vs 6週）及防水保護，適合重度閱讀者。Kindle 基本款則是極致輕薄首選，適合通勤旅行。",
+    "cross_category_verdict": "兩款均能有效解決「隨時舒適閱讀」的核心問題，差異在於功能深度與便攜性取捨。兩款資料量均不足，結論需謹慎。",
+    "data_quality_warning": "兩款均標記 [REVIEW_NEEDED]：Paperwhite 僅 5 則、Kindle 基本款僅 6 則，低於分析門檻（10 則）。雖然 Paperwhite 有 17,856 則總評論，代表整體口碑良好，但本批萃取樣本量不足。"
+  },
+  "report_recommendation": "comparison",
+  "confidence": "low",
+  "notes": "兩款產品均為 Amazon 自家品牌，無❌功能失效問題，整體評論非常正面。資料不足為主要限制。建議補充抓取以提升信心度。"
+}

@@ -1,0 +1,80 @@
+{
+  "category": "smart-speaker",
+  "date": "2026-03-22",
+  "problem": "提供具備語音助理的智慧音箱，讓用戶透過聲音控制智慧家庭、播放音樂、設定鬧鐘，同時融入空間美觀",
+  "products_analyzed": [
+    {
+      "asin": "B0BFC7WQ6R",
+      "name": "Amazon Echo Spot (Newest Model) – Smart Alarm Clock with Alexa, Desk Display",
+      "brand": "Amazon Echo & Alexa",
+      "store": "amazon_us",
+      "price": 189.99,
+      "avg_rating": 4.9,
+      "avg_rating_note": "估算值",
+      "total_reviews": null,
+      "reviews_analyzed": 12,
+      "overall_sentiment": 0.93,
+      "can_solve_problem": true,
+      "product_type": "compact_smart_alarm_clock",
+      "key_strengths": ["voice_assistant_full_integration", "compact_small_footprint", "display_screen_with_night_mode", "sound_quality_above_expectations", "smart_home_control"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "historical_software_bugs_now_resolved", "frequency": "8%", "note": "2024-2025年初有黑屏/Ring連接問題，韌體更新後已修復；目前買家未報告"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B0DC91H3JK",
+      "name": "Amazon Echo Show 11 (Newest Model) – Full-HD 11\" Display with Spatial Audio",
+      "brand": "Amazon Echo & Alexa",
+      "store": "amzn-direct",
+      "price": 189.99,
+      "avg_rating": 4.35,
+      "total_reviews": 3182,
+      "reviews_analyzed": 9,
+      "overall_sentiment": 0.87,
+      "review_needed": true,
+      "can_solve_problem": true,
+      "product_type": "large_smart_display_hub",
+      "key_strengths": ["full_hd_11_inch_display", "spatial_audio_room_filling", "smart_home_hub_builtin", "auto_framing_camera", "alexa_plus_ai"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "missing_physical_camera_switch", "frequency": "11%", "note": "隱私敏感用戶需使用軟體關閉或貼紙解決"},
+          {"issue": "alexa_plus_early_bugs", "frequency": "11%", "note": "早期 Alexa+ 有少數錯誤，更新修復中"}
+        ],
+        "logistics": []
+      },
+      "note": "[REVIEW_NEEDED] 僅 9 則評論（低於 10 則門檻）"
+    }
+  ],
+  "comparison_summary": {
+    "positioning": {
+      "Echo_Spot": "緊湊桌面鬧鐘 + 智慧助理，臥室/書桌首選，小圓形螢幕",
+      "Echo_Show_11": "全功能智慧家庭控制中心 + 11吋大螢幕，廚房/客廳主力裝置"
+    },
+    "head_to_head": {
+      "price": "相同（$189.99）——但使用場景完全不同，Echo Spot 同樣售價功能更專一",
+      "display": "Echo Show 11 大幅勝出（11吋 Full-HD vs 小圓螢幕）",
+      "sound_quality": "Echo Show 11 室內環繞音效更佳；Echo Spot 「超越其大小」但物理限制明顯",
+      "form_factor": "Echo Spot 緊湊度勝出，適合空間有限桌面",
+      "smart_home_hub": "Echo Show 11 有內建 Zigbee Hub（比 Spot 更完整）",
+      "video_calls": "Echo Show 11 有自動取景攝影機（3.3x zoom）；Echo Spot 螢幕小，視訊功能受限",
+      "privacy": "Echo Show 11 缺少實體鏡頭開關（前代有）；Echo Spot 無此疑慮",
+      "software_stability": "Echo Spot 已知問題已修復；Echo Show 11 Alexa+ 仍有早期 bugs",
+      "rating": "Echo Spot 4.9（估算）vs Echo Show 11 4.35（明確差距）"
+    },
+    "winner_by_use_case": {
+      "bedroom_alarm_clock": "B0BFC7WQ6R（Echo Spot）——夜間模式、緊湊尺寸、高評分，臥室最佳",
+      "kitchen_command_center": "B0DC91H3JK（Echo Show 11）——11吋螢幕看食譜、串流影音、控制全屋",
+      "smart_home_hub": "B0DC91H3JK（Echo Show 11）——內建 Zigbee hub，支援更多智慧家居裝置",
+      "overall_satisfaction": "B0BFC7WQ6R（Echo Spot）——評分更高（~4.9 vs 4.35），歷史問題已解決"
+    },
+    "cross_category_verdict": "兩款均能有效解決「語音助理 + 智慧家庭控制」的核心需求，但定位完全不同。Echo Spot 是臥室/書桌緊湊型首選，使用者滿意度更高；Echo Show 11 是廚房/客廳大螢幕控制中心的最佳選擇。相同售價下，選擇取決於使用位置和螢幕需求。"
+  },
+  "report_recommendation": "comparison",
+  "confidence": "medium",
+  "notes": "Echo Show 11 標記 [REVIEW_NEEDED]（9 則，低於門檻）；Echo Spot 評分為估算值（無明確總評論數）。兩款均為 Amazon 自家品牌，整體評價良好，無安全疑慮。Echo Show 11 的隱私鏡頭設計退步值得在報告中提及。"
+}

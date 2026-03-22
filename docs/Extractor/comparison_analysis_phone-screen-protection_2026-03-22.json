@@ -1,0 +1,259 @@
+{
+  "category": "phone-screen-protection",
+  "date": "2026-03-22",
+  "products_compared": 10,
+  "recommendation": "comparison",
+  "top_product": {
+    "asin": "B0FJG9P2LB",
+    "name": "JETech Privacy Screen Protector for iPhone 17 Pro Max 6.9-Inch",
+    "score": 4.80,
+    "brand": "JETech",
+    "price_usd": 7.99,
+    "key_differentiator": "隱私保護類別中評分最高（4.80/5），安裝工具完整，品牌忠誠度強，無功能失效問題"
+  },
+  "runner_up": {
+    "asin": "B0FDKJDFGZ",
+    "name": "TOCOL Screen Protector for iPhone 17 Pro Max",
+    "score": 4.85,
+    "brand": "TOCOL",
+    "price_usd": 6.98,
+    "note": "整體分數最高（4.85），免塵安裝系統獲壓倒性好評，無功能失效問題"
+  },
+  "best_value": {
+    "asin": "B09CSSP9C1",
+    "name": "Ailun Screen Protector for iPhone 16e/14/13 (3 Pack)",
+    "score": 4.92,
+    "brand": "Ailun",
+    "price_usd": 5.98,
+    "note": "$5.98 三入裝，情感分數最高（4.92/5），但缺乏平台總評分資料"
+  },
+  "products": [
+    {
+      "asin": "B09CSSP9C1",
+      "name": "Ailun Screen Protector for iPhone 16e/14/13 3 Pack",
+      "brand": "Ailun",
+      "price_usd": 5.98,
+      "avg_rating": "N/A (rating_summary 空值)",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.92,
+      "key_strengths": [
+        "installation_ease (5.0) - 含安裝框幾乎萬無一失",
+        "drop_protection (5.0) - 車禍滾翻後手機螢幕完好",
+        "value_for_money (5.0) - 3入裝$5.98"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "glass cracks over time (保護貼本身碎裂屬正常設計)", "frequency": "20%"}
+      ],
+      "review_needed": true,
+      "review_reason": "rating_summary 空值；含德/西/中文評論"
+    },
+    {
+      "asin": "B09F2JY5FF",
+      "name": "Ailun Privacy Screen Protector for iPhone 16e/14/13",
+      "brand": "Ailun",
+      "price_usd": 6.98,
+      "avg_rating": "~4.6 (估算)",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 0.88,
+      "key_strengths": [
+        "privacy_effectiveness (0.92)",
+        "value_for_money (0.92)",
+        "installation_kit_included (0.95)"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "wrong_size_received - 型號相容性問題", "frequency": "8%"},
+        {"type": "⚠️", "issue": "halo_effect 第一片安裝", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B0F8VZ7QVX",
+      "name": "NEW'C 3 Pack Screen Protector for iPhone 17/17 Pro",
+      "brand": "NEW'C",
+      "price_usd": 6.29,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.38,
+      "key_strengths": [
+        "installation_ease (5.0)",
+        "fit_accuracy (5.0)",
+        "value_for_money (5.0)"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "FaceID interference - 影響手機核心功能", "frequency": "9%"},
+        {"type": "⚠️", "issue": "glass cracks quickly after drop", "frequency": "18%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FDKJDFGZ",
+      "name": "TOCOL Screen Protector for iPhone 17 Pro Max / 16 Pro Max",
+      "brand": "TOCOL",
+      "price_usd": 6.98,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.85,
+      "key_strengths": [
+        "installation_ease (5.0) - 免塵安裝系統",
+        "alignment_tool (5.0)",
+        "bubble_free (5.0)"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "older model 輕微貼合問題", "frequency": "9%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FDQH15KW",
+      "name": "Ailun 3 Pack Privacy Screen Protector + 3 Pack Camera Lens Protector for iPhone 17 Pro Max",
+      "brand": "Ailun",
+      "price_usd": 9.98,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.00,
+      "key_strengths": [
+        "camera_lens_protector (5.0)",
+        "value_for_money (4.5) - 6件組$9.98"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "privacy function not as advertised - 僅1片有隱私功能", "frequency": "17%"},
+        {"type": "❌", "issue": "product description mismatch / 詐騙疑慮", "frequency": "8%"}
+      ],
+      "review_needed": true,
+      "review_reason": "嚴重產品描述不符問題，需人工確認"
+    },
+    {
+      "asin": "B0FDQH511S",
+      "name": "Ailun 3 Pack Screen Protector + 3 Pack Camera Lens Protector for iPhone 17 Pro Max",
+      "brand": "Ailun",
+      "price_usd": 9.88,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 11,
+      "overall_sentiment_score": 4.78,
+      "key_strengths": [
+        "durability (5.0) - 3年耐用記錄",
+        "drop_protection (5.0)",
+        "value_for_money (5.0)"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "minor fit issue on recent model", "frequency": "11%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FDQKLW48",
+      "name": "Ailun 3 Pack Camera Lens Protector for iPhone 17 Pro Max",
+      "brand": "Ailun",
+      "price_usd": 6.88,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.10,
+      "key_strengths": [
+        "camera_lens_fit (5.0)",
+        "drop_protection (5.0) - 卡車碾壓測試"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "case incompatibility with OtterBox", "frequency": "13%"},
+        {"type": "⚠️", "issue": "photo quality concern", "frequency": "13%"}
+      ],
+      "review_needed": true,
+      "note": "此產品為純鏡頭保護貼，非標準螢幕保護貼"
+    },
+    {
+      "asin": "B0FH4ZWQ6X",
+      "name": "PEHAEL 3+3 Pack Privacy Screen Protector + Camera Lens Protector for iPhone 17 Pro Max",
+      "brand": "PEHAEL",
+      "price_usd": 9.95,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 3.89,
+      "key_strengths": [
+        "privacy_protection (4.5)",
+        "drop_protection (4.5)",
+        "longevity (5.0) - 2022年購買至2025年仍使用"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "missing installation frame (配件缺失)", "frequency": "11%"},
+        {"type": "❌", "issue": "camera protector degrades photo quality", "frequency": "11%"},
+        {"type": "📦", "issue": "wrong product received", "frequency": "11%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FJG9P2LB",
+      "name": "JETech Privacy Screen Protector for iPhone 17 Pro Max 6.9-Inch",
+      "brand": "JETech",
+      "price_usd": 7.99,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.80,
+      "key_strengths": [
+        "privacy_protection (5.0)",
+        "installation_ease (5.0)",
+        "alignment_tool (5.0)"
+      ],
+      "key_issues": [
+        {"type": "⚠️", "issue": "privacy not 100% blackout from side (設計本質，非缺陷)", "frequency": "10%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0GCBMBGBX",
+      "name": "Ailun Glass Screen Protector for Galaxy S26 Ultra + Camera Lens Protector",
+      "brand": "Ailun",
+      "price_usd": 7.98,
+      "avg_rating": "N/A",
+      "reviews_analyzed": 13,
+      "overall_sentiment_score": 4.54,
+      "key_strengths": [
+        "installation_ease (4.5)",
+        "drop_protection (5.0)",
+        "customer_service (5.0)"
+      ],
+      "key_issues": [
+        {"type": "❌", "issue": "fingerprint reader incompatibility - 指紋解鎖失效", "frequency": "17%"}
+      ],
+      "review_needed": true,
+      "review_reason": "Samsung 產品混入，且指紋讀取相容性存在嚴重問題（17%）"
+    }
+  ],
+  "negative_review_classification": {
+    "functional_failure": [
+      {"asin": "B0F8VZ7QVX", "issue": "FaceID interference", "frequency": "9%"},
+      {"asin": "B0FDQH15KW", "issue": "privacy function not as advertised (僅1片有隱私)", "frequency": "17%"},
+      {"asin": "B0GCBMBGBX", "issue": "fingerprint reader incompatibility", "frequency": "17%"},
+      {"asin": "B0FH4ZWQ6X", "issue": "camera protector degrades photo quality", "frequency": "11%"}
+    ],
+    "side_effects": [
+      {"asin": "B0FDQKLW48", "issue": "photo quality concern from lens protector", "frequency": "13%"}
+    ],
+    "unrelated_issues": [
+      {"asin": "B0FH4ZWQ6X", "issue": "wrong product received (物流)", "frequency": "11%"}
+    ]
+  },
+  "sub_category_analysis": {
+    "standard_screen_protector": {
+      "top": "B09CSSP9C1 (Ailun 3 Pack, $5.98) 或 B0FDKJDFGZ (TOCOL, $6.98)",
+      "note": "兩者均無核心功能失效問題，安裝體驗極佳"
+    },
+    "privacy_screen_protector": {
+      "top": "B0FJG9P2LB (JETech, $7.99)",
+      "note": "隱私功能評分最高且無功能問題；B0FDQH15KW 有嚴重產品描述問題應避免"
+    },
+    "camera_lens_protector": {
+      "top": "B0FDQKLW48 (Ailun, $6.88)",
+      "warning": "與 OtterBox 等厚殼不相容"
+    },
+    "combo_pack": {
+      "top": "B0FDQH511S (Ailun 3+3 Pack, $9.88)",
+      "note": "3年耐用記錄為本類最強背書，無重大問題"
+    }
+  },
+  "category_verdict": {
+    "can_solve_problem": true,
+    "problem": "手機螢幕防護",
+    "verdict": "類別中大多數產品能有效解決螢幕保護問題。主要警示：(1) NEW'C (B0F8VZ7QVX) FaceID 干擾問題（9%），(2) Ailun Privacy Combo (B0FDQH15KW) 有嚴重產品描述不符問題，(3) Ailun Galaxy (B0GCBMBGBX) 指紋讀取失效（17%）需特別注意。其餘產品表現良好。",
+    "recommendation_type": "comparison（多個好選擇，依需求選擇，另有部分產品警示）"
+  },
+  "summary": "10個螢幕保護貼整體分布良好，但需按子類型選擇。標準貼推薦 TOCOL (B0FDKJDFGZ, 4.85分) 或 Ailun 3 Pack (B09CSSP9C1, $5.98最佳CP值)；隱私貼推薦 JETech (B0FJG9P2LB, 4.80分)；組合包推薦 Ailun 3+3 Pack (B0FDQH511S, 3年耐用佐證)。需警示：Ailun Privacy Combo (B0FDQH15KW) 存在產品描述詐騙疑慮，Galaxy Ailun (B0GCBMBGBX) 指紋讀取相容性17%失效率。建議產出：比較報告（含警示區塊）。"
+}

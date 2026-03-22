@@ -1,0 +1,201 @@
+{
+  "category": "phone-drop-protection",
+  "date": "2026-03-22",
+  "products_compared": 10,
+  "recommendation": "comparison",
+  "top_product": {
+    "asin": "B0FCY7L7SZ",
+    "name": "ESR HaloLock Magnetic Clear Case for iPhone 17 Pro Max",
+    "score": 4.70,
+    "brand": "ESR",
+    "price_usd": 12.99,
+    "key_differentiator": "品牌信賴度高、Camera Control 按鍵相容、實際摔落測試（8ft 投擲）驗證"
+  },
+  "runner_up": {
+    "asin": "B0FDWR2PPG",
+    "name": "CANSHN Magnetic Case for iPhone 17 Pro",
+    "score": 4.78,
+    "brand": "CANSHN",
+    "price_usd": 19.99,
+    "note": "英文評論分數最高，但評論數較少（9則英文）"
+  },
+  "best_value": {
+    "asin": "B0DFH8SNK5",
+    "name": "FNTCASE MagSafe Translucent Matte Case",
+    "score": 4.55,
+    "brand": "FNTCASE",
+    "price_usd": 8.99,
+    "note": "24,523 評論基礎最廣泛，sub-$9 最佳 CP 值"
+  },
+  "products": [
+    {
+      "asin": "B0DFH8SNK5",
+      "name": "FNTCASE MagSafe Translucent Matte Case (iPhone 13/14/15)",
+      "brand": "FNTCASE",
+      "price_usd": 8.99,
+      "avg_rating": 4.55,
+      "total_reviews": 24523,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.88,
+      "drop_protection_score": 0.82,
+      "key_strengths": ["value_for_price (0.92)", "fit_precision (0.92)", "magsafe_compatibility (0.90)"],
+      "key_issues": [
+        {"type": "⚠️", "issue": "color_mismatch_expectation", "frequency": "8%"}
+      ],
+      "review_needed": false
+    },
+    {
+      "asin": "B0DMNY6FPD",
+      "name": "Temdan Magnetic Kickstand Case for iPhone 15 Pro Max",
+      "brand": "Temdan",
+      "price_usd": 11.69,
+      "avg_rating": 4.55,
+      "total_reviews": 10745,
+      "reviews_analyzed": 8,
+      "overall_sentiment": 4.75,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["kickstand_functionality (5.0)", "唯一含隱形支架設計"],
+      "key_issues": [
+        {"type": "📦", "issue": "cross_model_reviews混入 (iPhone 16/17)", "frequency": "38%"}
+      ],
+      "review_needed": true,
+      "review_reason": "評論數僅8則，低於最低門檻"
+    },
+    {
+      "asin": "B0DP2PYTJ2",
+      "name": "jaroco Magnetic MagSafe Matte Case for iPhone 13",
+      "brand": "jaroco",
+      "price_usd": 9.99,
+      "avg_rating": 4.55,
+      "total_reviews": 8638,
+      "reviews_analyzed": 8,
+      "overall_sentiment": 4.75,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["直比 Otterbox 品質但不笨重", "全英文評論100%正面"],
+      "key_issues": [
+        {"type": "⚠️", "issue": "two_piece_assembly學習成本", "frequency": "13%"}
+      ],
+      "review_needed": true,
+      "review_reason": "評論數僅8則"
+    },
+    {
+      "asin": "B0F1TNK61D",
+      "name": "Miracase Full-Body MagSafe Case with Built-in Screen Protector (iPhone 17e/16e)",
+      "brand": "Miracase",
+      "price_usd": 16.94,
+      "avg_rating": 4.35,
+      "total_reviews": 106365,
+      "reviews_analyzed": 11,
+      "overall_sentiment": 4.62,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["360° 全包覆含內建螢幕保護貼", "透明設計"],
+      "key_issues": [
+        {"type": "📦", "issue": "cross_model_reviews 27%", "frequency": "27%"},
+        {"type": "⚠️", "issue": "白色殼邊緣易積污", "frequency": "9%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FCY7L7SZ",
+      "name": "ESR HaloLock Magnetic Clear Case for iPhone 17 Pro Max",
+      "brand": "ESR",
+      "price_usd": 12.99,
+      "avg_rating": 4.65,
+      "total_reviews": 163182,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 4.70,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["品牌信賴度高", "Camera Control 按鍵相容", "8ft 投擲驗證"],
+      "key_issues": [
+        {"type": "📦", "issue": "cross_model_reviews (S25 Ultra)", "frequency": "15%"}
+      ],
+      "review_needed": true,
+      "review_reason": "多語言評論 (阿拉伯/葡萄牙)"
+    },
+    {
+      "asin": "B0FDQ3PWCX",
+      "name": "FNTCASE Clear MagSafe Case with Screen Protector (iPhone 17 Pro Max)",
+      "brand": "FNTCASE",
+      "price_usd": 6.99,
+      "avg_rating": 4.65,
+      "total_reviews": 67367,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 4.55,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["防黃化設計", "附贈螢幕保護貼", "最低價格($6.99)"],
+      "key_issues": [
+        {"type": "❌", "issue": "附贈螢幕保護貼品質不穩（未摔即碎邊）", "frequency": "8%"},
+        {"type": "❌", "issue": "型號不符（西班牙文評論）", "frequency": "8%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FDWR2PPG",
+      "name": "CANSHN Magnetic Matte Translucent Case for iPhone 17 Pro",
+      "brand": "CANSHN",
+      "price_usd": 19.99,
+      "avg_rating": 4.65,
+      "total_reviews": 56660,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 4.78,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["全鏡頭保護 +2.5mm 凸邊", "防指紋霧面", "樓梯跌落驗證"],
+      "key_issues": [
+        {"type": "📦", "issue": "S25 Ultra 評論混入", "frequency": "8%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FH655984",
+      "name": "SUPFINE Magnetic Case for iPhone 17 Pro Max",
+      "brand": "SUPFINE",
+      "price_usd": 9.99,
+      "avg_rating": "N/A (rating_summary 空值)",
+      "reviews_analyzed": 13,
+      "overall_sentiment": 4.69,
+      "drop_protection_score": 5.0,
+      "key_strengths": ["build_quality (5.0)", "fit_accuracy (5.0)", "透明設計"],
+      "key_issues": [
+        {"type": "📦", "issue": "收到錯誤型號", "frequency": "10%"},
+        {"type": "⚠️", "issue": "舊型號需加購磁環貼紙", "frequency": "10%"}
+      ],
+      "review_needed": true
+    },
+    {
+      "asin": "B0FH6HYW1H",
+      "name": "SuydanBox Liquid Silicone MagSafe Case with Screen Protector (iPhone 17 Pro)",
+      "brand": "SuydanBox",
+      "price_usd": 7.10,
+      "avg_rating": 4.55,
+      "total_reviews": 22143,
+      "reviews_analyzed": 13,
+      "overall_sentiment": "中高",
+      "key_strengths": ["液態矽膠材質", "附螢幕保護貼"],
+      "review_needed": true,
+      "review_reason": "德文評論佔23%，英文分析樣本有限"
+    },
+    {
+      "asin": "B0G19LH9T6",
+      "name": "iPhone 17 Pro Max Drop Protection Case (B0G19LH9T6)",
+      "price_usd": "未取得",
+      "review_needed": true
+    }
+  ],
+  "negative_review_classification": {
+    "functional_failure": [
+      {"asin": "B0FDQ3PWCX", "issue": "附贈螢幕保護貼品質不穩（未摔即碎邊）", "frequency": "8%"}
+    ],
+    "side_effects": [],
+    "unrelated_issues": [
+      {"asin": "B0FH655984", "issue": "收到錯誤型號（履行問題）", "frequency": "10%"},
+      {"asin": "B0FCY7L7SZ", "issue": "跨型號評論混入（資料雜訊）", "frequency": "15%"}
+    ]
+  },
+  "category_verdict": {
+    "can_solve_problem": true,
+    "problem": "手機防摔保護",
+    "verdict": "類別內所有產品均能有效解決手機防摔問題。主要差異在於：MagSafe 磁力強弱、是否含內建螢幕保護貼、材質（矽膠/PC/透明）、支架功能。無產品出現核心防護功能失效的嚴重問題。",
+    "recommendation_type": "comparison（多個好選擇，依需求選擇）"
+  },
+  "summary": "10個手機防摔保護殼產品整體表現良好，所有產品均聲稱軍規跌落保護且評論普遍正面確認。ESR（B0FCY7L7SZ）以品牌信賴度和 Camera Control 相容性居首，CANSHN（B0FDWR2PPG）英文評論分數最高（4.78），FNTCASE（B0DFH8SNK5）為最佳 CP 值選擇（$8.99，24K+ 評論基礎）。唯一需注意的功能問題：FNTCASE Clear 版（B0FDQ3PWCX）附贈螢幕保護貼有品質不穩問題（8%未摔即碎邊）。建議產出：比較報告。"
+}

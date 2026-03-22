@@ -1,0 +1,113 @@
+{
+  "category": "easter-egg-hunt",
+  "date": "2026-03-22",
+  "problem": "讓全家人（特別是幼兒）以簡單、無染料方式裝飾復活節彩蛋，或提供適合尋寶/派對的驚喜禮品",
+  "products_analyzed": [
+    {
+      "asin": "B07NPS487W",
+      "name": "EggMazing Easter Egg Mini Decorator Kit (6 Markers)",
+      "brand": "The Eggmazing Egg Decorator",
+      "store": "hey-buddy-hey-pal",
+      "price": 19.99,
+      "avg_rating": 4.75,
+      "total_reviews": 7657,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.87,
+      "can_solve_problem": true,
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "batteries_not_included", "frequency": "15.4%"},
+          {"issue": "loud_noise", "frequency": "7.7%"},
+          {"issue": "limited_design_variety", "frequency": "7.7%"},
+          {"issue": "wooden_eggs_not_reusable", "frequency": "7.7%"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B0CJGWRTLY",
+      "name": "The Eggmazing Egg Decorator - Peeps Bunny Edition (6 Markers)",
+      "brand": "The Eggmazing Egg Decorator",
+      "store": "hey-buddy-hey-pal",
+      "price": 13.99,
+      "avg_rating": 4.85,
+      "total_reviews": 1654,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.88,
+      "can_solve_problem": true,
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "batteries_not_included", "frequency": "23%"},
+          {"issue": "dried_out_marker", "frequency": "8%"},
+          {"issue": "single_speed_only", "frequency": "8%"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B0DTJD9939",
+      "name": "Rapean 8\" 3D Printed Dragon Eggs (Mystery Crystal, Dragon Inside)",
+      "brand": "Rapean",
+      "store": "amazon_us",
+      "price": 12.99,
+      "avg_rating": 4.65,
+      "total_reviews": 934,
+      "reviews_analyzed": 8,
+      "overall_sentiment": 0.93,
+      "can_solve_problem": true,
+      "note": "不同子類別：收藏型彩蛋禮品，非裝飾活動",
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "fragility_concern", "frequency": "25%"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B0F8423BK7",
+      "name": "Rapean 8\" 3D Printed Dragon Eggs (Articulated, Dragon Inside)",
+      "brand": "Rapean",
+      "store": "amazon_us",
+      "price": 9.99,
+      "avg_rating": 4.45,
+      "total_reviews": 60,
+      "reviews_analyzed": 8,
+      "overall_sentiment": 0.87,
+      "can_solve_problem": true,
+      "review_needed": true,
+      "note": "[REVIEW_NEEDED] 僅 60 則評論；同廠牌 B0DTJD9939 低價版（關節式龍）",
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "durability_uncertainty", "frequency": "13%"}
+        ],
+        "logistics": []
+      }
+    }
+  ],
+  "comparison_summary": {
+    "sub_categories": {
+      "diy_decorating": {
+        "products": ["B07NPS487W", "B0CJGWRTLY"],
+        "winner": "B0CJGWRTLY",
+        "reason": "Peeps Bunny 版評分更高（4.85 vs 4.75），價格更低（$13.99 vs $19.99），且同樣解決核心問題；Mini 版適合入門。兩款共同問題：電池未附，需自備 3 顆 AA。"
+      },
+      "collectible_gift": {
+        "products": ["B0DTJD9939", "B0F8423BK7"],
+        "winner": "B0DTJD9939",
+        "reason": "934 則評論（vs 60 則），資料更充分；$12.99 僅略高於 $9.99；特別適合 7-12 歲奇幻收藏愛好者及自閉症兒童。B0F8423BK7 評論過少，建議持續觀察。"
+      }
+    },
+    "cross_category_verdict": "此類別包含兩個不同使用場景：(1) 家庭裝飾活動（EggMazing 系列）；(2) 收藏/派對禮品（Rapean 龍蛋）。兩者均能有效解決問題，適合不同需求。",
+    "key_differentiators": [
+      "EggMazing：強調過程（裝飾活動），全齡適用，需電池",
+      "Rapean 龍蛋：強調結果（收藏品），適合 7 歲以上，可能易碎"
+    ]
+  },
+  "report_recommendation": "comparison",
+  "confidence": "medium",
+  "notes": "B0F8423BK7 標記 [REVIEW_NEEDED]（60 則總評論）；各產品均無❌功能失效問題，整體類別健康度良好"
+}

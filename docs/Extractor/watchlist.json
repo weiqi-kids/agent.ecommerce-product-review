@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T12:00:00Z",
+  "last_updated": "2026-03-22T12:00:00Z",
   "products": [
     {
       "asin": "B0DCH8VDXF",
@@ -8,7 +8,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-03-04",
-      "last_checked": "2026-03-04",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -27,9 +27,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-11",
+        "date": "2026-03-22",
         "status": "no_change",
-        "notes": "無新召回，靜電放電為已知舊議題，無新安全事件。",
+        "notes": "無新召回或安全警告。靜電放電為已知舊議題，無新事件報告。",
         "report": "docs/Narrator/comparisons/wired-earphones--2026-03-04.md"
       }
     },
@@ -40,7 +40,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-04",
-      "last_checked": "2026-03-11",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -54,9 +54,9 @@
         "review_count": 9697
       },
       "check_result": {
-        "date": "2026-03-11",
+        "date": "2026-03-22",
         "status": "no_change",
-        "notes": "無召回，扣環問題無新惡化報告。",
+        "notes": "無召回，扣環問題無新惡化報告，品牌無新質量警告。",
         "report": "docs/Narrator/comparisons/wireless-bra--2026-03-04.md"
       }
     },
@@ -67,7 +67,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -86,9 +86,9 @@
         "review_count": 41358
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-03-22",
         "status": "no_change",
-        "notes": "無新召回，假貨問題持續但無惡化",
+        "notes": "無新召回。假貨指南持續更新但問題無惡化，2026年仍有持續假貨警告。",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -99,7 +99,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -118,10 +118,9 @@
         "review_count": 5811
       },
       "check_result": {
-        "date": "2026-03-10",
-        "status": "no_change",
-        "notes": "iCloud Lock為已知設計，無新安全問題",
-        "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "ANC 靜電/雜音問題在兩次韌體更新後仍未解決，部分換機用戶仍有相同問題"
       }
     },
     {
@@ -131,7 +130,7 @@
       "watch_reason": "quality_crisis",
       "severity": "medium",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-22",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -161,7 +160,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-11",
-      "last_checked": "2026-03-11",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -209,7 +208,7 @@
       "watch_reason": "claim_contradiction",
       "severity": "high",
       "added_date": "2026-02-11",
-      "last_checked": "2026-03-11",
+      "last_checked": "2026-03-22",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -245,7 +244,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -282,7 +281,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -321,7 +320,7 @@
       "watch_reason": "quality_crisis",
       "severity": "medium",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-22",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -353,7 +352,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -372,9 +371,9 @@
         "review_count": 1500
       },
       "check_result": {
-        "date": "2026-03-10",
-        "status": "no_change",
-        "notes": "無召回；同類ANNQUAN/HEZI仍為召回對象"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "同類品牌 ANNQUAN/CCCEI/HEZI 2026 年陸續被 CPSC 召回，HANYCONY 尚無正式召回但風險環境升高"
       }
     },
     {
@@ -384,7 +383,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -401,9 +400,9 @@
         "avg_rating": 4.3
       },
       "check_result": {
-        "date": "2026-03-10",
-        "status": "no_change",
-        "notes": "無新召回；ANNQUAN 12口召回持續中"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "同上，中國延長線品牌召回潮持續"
       }
     },
     {
@@ -413,7 +412,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -431,9 +430,9 @@
         "review_count": 50000
       },
       "check_result": {
-        "date": "2026-03-10",
-        "status": "no_change",
-        "notes": "訴訟持續中，無新召回或判決"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "Gummy 維生素C含量低於標示 45% 集體訴訟"
       }
     },
     {
@@ -443,7 +442,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -473,7 +472,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -512,7 +511,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-07",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -552,7 +551,7 @@
       "watch_reason": "design_flaw",
       "severity": "critical",
       "added_date": "2026-03-01",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -575,16 +574,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-03-22",
         "status": "worsening",
-        "notes": "CR致函CPSC要求調查化學灼傷風險，TikTok微波挑戰導致多名兒童燒傷就醫，Schylling已新增警語但未召回。",
-        "severity_upgrade": {
-          "from": "high",
-          "to": "critical",
-          "date": "2026-03-10",
-          "reason": "CR致函CPSC要求調查，TikTok微波挑戰導致兒童燒傷"
-        },
-        "report": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md"
+        "notes": "Consumer Reports 促請 CPSC 調查化學灼傷風險，建議觸發 Step 7-8 重新分析"
       }
     },
     {
@@ -594,7 +586,7 @@
       "watch_reason": "product_integrity",
       "severity": "critical",
       "added_date": "2026-03-02",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -630,7 +622,7 @@
       "watch_reason": "design_flaw",
       "severity": "medium",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-03",
+      "last_checked": "2026-03-22",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -657,7 +649,7 @@
       "watch_reason": "review_anomaly",
       "severity": "medium",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -690,7 +682,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-03-12",
-      "last_checked": "2026-03-12",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -708,9 +700,9 @@
         "avg_rating": 4.5
       },
       "check_result": {
-        "date": "2026-03-12",
-        "status": "new_entry",
-        "notes": "Step 8 警告報告觸發自動監控。16% 過期/假貨率，4% 過敏反應。"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "SPF 標示集體訴訟進行中（含 SPF 60 版本）"
       }
     },
     {
@@ -720,7 +712,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-12",
-      "last_checked": "2026-03-12",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -738,9 +730,9 @@
         "avg_rating": 3.5
       },
       "check_result": {
-        "date": "2026-03-12",
-        "status": "new_entry",
-        "notes": "Step 8 警告報告觸發自動監控。翻新品品質問題：22% 硬體缺陷 + 18% 電池失效。"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "2026-02 法律事務所發起藍牙/音訊/結構缺陷調查"
       }
     },
     {
@@ -750,7 +742,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-12",
-      "last_checked": "2026-03-12",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -768,9 +760,9 @@
         "avg_rating": 3.5
       },
       "check_result": {
-        "date": "2026-03-12",
-        "status": "new_entry",
-        "notes": "Step 8 警告報告觸發自動監控。翻新品問題：25% LTE 失效 + 6% FRP 鎖定。"
+        "date": "2026-03-22",
+        "status": "monitoring",
+        "notes": "2026-03 更新破壞 SpO2/健康追蹤，外殼塗層問題調查中"
       }
     },
     {
@@ -780,7 +772,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-10",
+      "last_checked": "2026-03-22",
       "check_interval_days": 7,
       "alerts": [
         {

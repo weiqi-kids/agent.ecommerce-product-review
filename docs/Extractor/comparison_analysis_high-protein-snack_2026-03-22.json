@@ -1,0 +1,74 @@
+{
+  "category": "high-protein-snack",
+  "date": "2026-03-22",
+  "problem": "提供高蛋白、低糖的美味點心替代品，讓健身人士或節食者在飲食控制期間仍能滿足對甜食的渴望",
+  "products_analyzed": [
+    {
+      "asin": "B00DLDH1N2",
+      "name": "Quest Nutrition Chocolate Chip Cookie Dough Protein Bars (12 Count)",
+      "brand": "Quest",
+      "store": "amzn-direct",
+      "price": 23.83,
+      "avg_rating": 4.45,
+      "total_reviews": 20488,
+      "reviews_analyzed": 8,
+      "overall_sentiment": 0.82,
+      "can_solve_problem": true,
+      "macros": {"protein": "21g", "net_carbs": "4g", "sugar": "1g"},
+      "key_strengths": ["dessert_like_taste", "low_carb_keto_friendly", "soft_chewy_texture", "bulk_value"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "price_too_high", "frequency": "12.5%"},
+          {"issue": "kids_dont_like_taste", "frequency": "12.5%", "note": "目標族群為成人健身者，非兒童"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B00GJ82VK4",
+      "name": "Pure Protein Chocolate Peanut Butter Protein Bars – 20g Protein, 3g Sugar (12 count)",
+      "brand": "Pure Protein",
+      "store": "amzn-direct",
+      "price": null,
+      "avg_rating": 4.55,
+      "total_reviews": 21647,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.83,
+      "can_solve_problem": true,
+      "macros": {"protein": "20g", "calories": 190, "sugar": "3g"},
+      "key_strengths": ["candy_bar_taste", "low_sugar", "balanced_macros", "great_value"],
+      "negative_classification": {
+        "functional_failure": [
+          {"issue": "chalky_taste_texture", "frequency": "7.7%", "note": "少數評論反映質地粉粉"}
+        ],
+        "new_problems": [],
+        "logistics": [
+          {"issue": "arrived_melted", "frequency": "7.7%", "note": "物流溫控問題，非產品問題"}
+        ]
+      }
+    }
+  ],
+  "comparison_summary": {
+    "head_to_head": {
+      "taste_profile": "Quest：甜餅乾麵糰口味；Pure Protein：最接近真實巧克力棒的口感",
+      "protein": "Quest 21g vs Pure Protein 20g（相當）",
+      "sugar": "Quest 1g（更低）vs Pure Protein 3g",
+      "carbs": "Quest 4g net carbs（更低，keto 首選）",
+      "calories": "Pure Protein 190cal（已知）；Quest 未提及",
+      "price": "Quest $23.83/12條 = $1.99/條；Pure Protein 未標價",
+      "rating": "Pure Protein 4.55 vs Quest 4.45（Pure Protein 略高）",
+      "texture_consistency": "Quest 更穩定（soft/chewy）；Pure Protein 有少數 chalky 問題（7.7%）"
+    },
+    "winner_by_use_case": {
+      "keto_low_carb": "B00DLDH1N2（Quest）——4g net carbs，1g sugar，明確 keto 友好",
+      "best_taste": "B00GJ82VK4（Pure Protein）——被多位評論者評為「最接近真實糖果棒」",
+      "value": "B00GJ82VK4（Pure Protein）——被評論者評為「定價合理」；Quest 偶有「稍貴」反映"
+    },
+    "cross_category_verdict": "兩款均能有效解決「高蛋白 + 好口味」的核心問題。Quest 在低碳水方面更勝一籌；Pure Protein 在口味接近真實糖果棒方面更受讚譽，且評分更高。整體此類別競爭健康，兩款均值得推薦。",
+    "shared_weaknesses": ["蛋白棒類通常不受兒童歡迎", "夏季高溫運送有融化風險（已歸類為物流問題）"]
+  },
+  "report_recommendation": "comparison",
+  "confidence": "high",
+  "notes": "兩款均有 2 萬+ 評論，高信心度。Pure Protein 有 1 則 chalky 問題（7.7%）為唯一功能性疑慮，但比例極低，不影響整體推薦。"
+}

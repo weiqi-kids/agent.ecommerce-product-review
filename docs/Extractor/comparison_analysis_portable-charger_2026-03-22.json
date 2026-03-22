@@ -1,0 +1,74 @@
+{
+  "category": "portable-charger",
+  "date": "2026-03-22",
+  "problem": "提供輕便、隨身攜帶的備用電源，讓使用者在無插座環境中為手機/多裝置快速充電",
+  "products_analyzed": [
+    {
+      "asin": "B0CB1FW5FC",
+      "name": "INIU Portable Charger, Ultra Slim 45W Fast Charging with Attached USB C Cable, 10000mAh",
+      "brand": "INIU",
+      "store": "amzn-direct",
+      "price": 19.99,
+      "avg_rating": 4.55,
+      "total_reviews": 75044,
+      "reviews_analyzed": 10,
+      "overall_sentiment": 0.85,
+      "can_solve_problem": true,
+      "key_specs": {"capacity": "10000mAh", "max_wattage": "45W", "built_in_cable": "USB-C", "tsa_compliant": true},
+      "key_strengths": ["ultra_slim_compact", "45W_fast_charging", "built_in_usb_c_cable", "tsa_compliant", "travel_optimized"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "cable_incompatibility_older_iphone", "frequency": "10%", "note": "內建 USB-C 纜線不相容 iPhone 12 及更舊 Lightning 機型"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B0CY2JJ4WS",
+      "name": "charmast Portable Charger with Built in Cables, Slim 10000mAh, 6 Outputs 3 Inputs",
+      "brand": "charmast",
+      "store": "amzn-direct",
+      "price": 17.52,
+      "avg_rating": 4.65,
+      "total_reviews": 20285,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.83,
+      "can_solve_problem": true,
+      "key_specs": {"capacity": "10000mAh", "max_wattage": "3A", "outputs": 6, "inputs": 3, "built_in_cables": ["USB-C", "micro_USB", "lightning"]},
+      "key_strengths": ["multi_type_built_in_cables", "6_output_multi_device", "digital_battery_indicator", "value_for_price", "universal_compatibility"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "slow_self_recharge", "frequency": "23%", "note": "自身充電需 4-5 小時，被多數用戶接受為合理取捨"},
+          {"issue": "heavier_than_slim_alternatives", "frequency": "8%"}
+        ],
+        "logistics": []
+      }
+    }
+  ],
+  "comparison_summary": {
+    "head_to_head": {
+      "capacity": "相同（10000mAh）——均符合 TSA 航空規定",
+      "charging_speed": "INIU 45W 快充明顯勝出；charmast 3A（約 15W）",
+      "built_in_cables": "charmast 優勢——同時內建 USB-C + micro-USB + Lightning（全型號覆蓋）；INIU 僅 USB-C",
+      "output_ports": "charmast 6 輸出口勝出（適合家庭多裝置）；INIU 3 輸出口",
+      "portability": "INIU 更輕薄（標榜比同容量小 30%）；charmast 較重",
+      "self_recharge_time": "charmast 4-5 小時（慢）；INIU 未明確提及",
+      "price": "charmast $17.52 vs INIU $19.99（charmast 更便宜）",
+      "rating": "charmast 4.65 vs INIU 4.55",
+      "digital_indicator": "charmast 有數字百分比顯示；INIU 未提及",
+      "iphone_older_compatibility": "charmast 支援（有 Lightning 線）；INIU 不支援 iPhone 12 以前機型"
+    },
+    "winner_by_use_case": {
+      "fast_charging_single_device": "B0CB1FW5FC（INIU）——45W 快充，$25 分鐘充 iPhone 15 至 60%",
+      "travel_ultralight": "B0CB1FW5FC（INIU）——更輕薄，TSA 合規，旅遊首選",
+      "family_multi_device": "B0CY2JJ4WS（charmast）——6 輸出口 + 三種內建線材，一條搞定全家裝置",
+      "budget_universal": "B0CY2JJ4WS（charmast）——更低價格，更高評分，支援所有主流接頭"
+    },
+    "cross_category_verdict": "兩款均能有效解決「隨身備用電源」的核心問題，且均無嚴重功能性問題。INIU 是旅行快充專家；charmast 是家庭多裝置萬用充。選擇取決於使用場景，各有明確優勢。"
+  },
+  "report_recommendation": "comparison",
+  "confidence": "medium",
+  "notes": "INIU 有 75,044 則評論（高信心）；charmast 有 20,285 則（中高信心）。兩款均標記 medium 信心度（非 high），因各自樣本量（10 和 13 則）有限。整體類別無安全疑慮。"
+}

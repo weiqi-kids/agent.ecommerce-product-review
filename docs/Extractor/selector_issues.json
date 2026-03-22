@@ -1,78 +1,14 @@
 {
-  "last_updated": "2026-03-03T00:00:00Z",
   "issues": [
     {
-      "platform": "walmart_us",
-      "category": "all",
-      "error_type": "selector_issue",
-      "first_seen": "2026-03-03",
-      "last_seen": "2026-03-03",
-      "occurrences": 1,
-      "status": "pending_fix",
-      "details": "best-sellers 全站頁面未找到商品元素，所有 productGrid 選擇器均無匹配，返回 0 筆"
-    },
-    {
       "platform": "bestbuy_us",
-      "category": "all",
-      "error_type": "url_redirection",
-      "first_seen": "2026-02-20",
-      "last_seen": "2026-03-01",
-      "occurrences": 4,
-      "status": "partial_fix",
-      "details": "best-sellers 頁面已修復（可抓取 10+ 商品），deals/top-rated 頁面的 sku-block 元素使用 JS 動態載入，暫時跳過",
-      "selector": ".sku-item",
-      "fix_applied": "2026-02-22",
-      "fix_notes": "改進選擇器排除廣告和分隔線元素，best-sellers 使用 .sku-item 選擇器可正常工作"
-    },
-    {
-      "platform": "walmart_us",
-      "category": "home",
+      "category": "electronics",
       "error_type": "selector_issue",
-      "first_seen": "2026-02-20",
-      "last_seen": "2026-02-20",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
       "occurrences": 1,
       "status": "pending_fix",
-      "details": "未找到商品元素"
-    },
-    {
-      "platform": "walmart_us",
-      "category": "food-beverage",
-      "error_type": "selector_issue",
-      "first_seen": "2026-02-20",
-      "last_seen": "2026-02-20",
-      "occurrences": 1,
-      "status": "pending_fix",
-      "details": "未找到商品元素"
-    },
-    {
-      "platform": "walmart_us",
-      "category": "beauty",
-      "error_type": "selector_issue",
-      "first_seen": "2026-02-19",
-      "last_seen": "2026-02-25",
-      "occurrences": 3,
-      "status": "pending_fix",
-      "details": "未找到商品元素"
-    },
-    {
-      "platform": "walmart_us",
-      "category": "baby",
-      "error_type": "selector_issue",
-      "first_seen": "2026-02-25",
-      "last_seen": "2026-02-25",
-      "occurrences": 1,
-      "status": "pending_fix",
-      "details": "未找到商品元素"
-    },
-    {
-      "platform": "walmart_us",
-      "category": "toys",
-      "error_type": "selector_issue",
-      "first_seen": "2026-02-25",
-      "last_seen": "2026-02-25",
-      "occurrences": 1,
-      "status": "pending_fix",
-      "details": "未找到商品元素"
+      "details": "selector .product-list-item 僅匹配到 4/50 個商品，Best Buy 頁面結構可能有動態載入或反爬蟲機制"
     }
   ]
 }

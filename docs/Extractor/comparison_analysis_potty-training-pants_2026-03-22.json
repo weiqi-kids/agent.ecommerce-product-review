@@ -1,0 +1,77 @@
+{
+  "category": "potty-training-pants",
+  "date": "2026-03-22",
+  "problem": "協助幼兒（2T-6T）順利完成如廁訓練，在訓練過程中提供防漏保護，同時讓孩子學習自主穿脫",
+  "products_analyzed": [
+    {
+      "asin": "B07XCVWZ51",
+      "name": "Pull-Ups Boys' Potty Training Pants, Size 3T-4T, 112 Count",
+      "brand": "Pull-Ups",
+      "store": "amzn-direct",
+      "price": 47.49,
+      "avg_rating": 4.85,
+      "total_reviews": 39191,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.89,
+      "can_solve_problem": true,
+      "key_strengths": ["ease_of_pull_up_down", "disney_character_motivation", "leak_protection", "fit_comfort", "skin_safety"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "overnight_insufficient_heavy_wetting", "frequency": "8%"},
+          {"issue": "size_runs_small", "frequency": "15%", "note": "建議買大一號"},
+          {"issue": "lint_pilling", "frequency": "8%", "note": "表面起毛，非功能問題"},
+          {"issue": "non_resealable_packaging", "frequency": "8%"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B08SNLW94K",
+      "name": "Pampers Easy Ups Boys & Girls Bluey – Size 5T-6T, 84 Count",
+      "brand": "Pampers",
+      "store": "amazon_us",
+      "price": 45.94,
+      "avg_rating": null,
+      "avg_rating_estimated": 4.77,
+      "total_reviews": null,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.89,
+      "review_needed": true,
+      "can_solve_problem": true,
+      "key_strengths": ["pull_up_ease", "strong_absorbency", "soft_skin_compatible", "bluey_character_motivation", "independence_training"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [],
+        "logistics": [
+          {"issue": "wrong_character_packaging", "frequency": "11%", "note": "收到 PJ Masks 而非 Bluey 圖案，推測為庫存混裝"}
+        ]
+      },
+      "note": "[REVIEW_NEEDED] 評分/總評論數缺失；含 23% 西班牙文評論；包裝角色錯誤問題"
+    }
+  ],
+  "comparison_summary": {
+    "positioning": {
+      "Pull-Ups_B07XCVWZ51": "3T-4T（體重 32-40 lbs）男童，Disney Mickey Mouse 圖案，112 片",
+      "Pampers_Easy_Ups_B08SNLW94K": "5T-6T（體重 40+ lbs）男女兒童，Bluey 圖案，84 片"
+    },
+    "head_to_head": {
+      "size_range": "兩款覆蓋不同年齡段（3T-4T vs 5T-6T），非直接競爭",
+      "absorbency": "兩款均獲高度評價，無明確差異",
+      "character_motivation": "Pull-Ups（Disney Mickey）vs Pampers（Bluey）——均能激勵幼兒使用",
+      "skin_compatibility": "Pampers Easy Ups 特別受皮膚敏感幼兒家長推薦",
+      "price": "Pull-Ups $47.49/112片 = $0.42/片；Pampers $45.94/84片 = $0.55/片（Pull-Ups 更划算）",
+      "data_quality": "Pull-Ups 39,191 則評論（高信心）；Pampers 評論數未知（低信心）"
+    },
+    "winner_by_use_case": {
+      "value": "B07XCVWZ51（Pull-Ups）——每片成本更低，評論量更充分",
+      "sensitive_skin": "B08SNLW94K（Pampers Easy Ups）——特別適合易起疹子的敏感肌幼兒",
+      "older_toddlers_5T6T": "B08SNLW94K（Pampers Easy Ups）——5T-6T 尺寸，Pull-Ups 無此選項"
+    },
+    "cross_category_verdict": "兩款均能有效協助幼兒完成如廁訓練，整體評分均高（4.85 和估算 4.77）。主要差異在於尺寸範圍（3T-4T vs 5T-6T），實際上是互補而非競爭。Pull-Ups 資料更充分；Pampers 在敏感肌和大尺碼方面有優勢。",
+    "shared_note": "兩款均強調幼兒自主穿脫設計作為核心訓練機制，此功能均獲高評分。"
+  },
+  "report_recommendation": "comparison",
+  "confidence": "medium",
+  "notes": "B08SNLW94K 標記 [REVIEW_NEEDED]（評分/總評論數缺失）。整體類別無❌功能失效問題，安全性良好。尺寸偏小是 Pull-Ups 唯一共同反映（建議買大一號）。"
+}

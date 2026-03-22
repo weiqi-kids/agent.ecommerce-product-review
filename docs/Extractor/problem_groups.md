@@ -1,11 +1,13 @@
 # 產品問題分組
 
-最後更新：2026-03-12
+最後更新：2026-03-22
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：743
-問題類別數：206
+產品總數：933
+問題類別數：237
 分組原則：按具體問題分組（v2 - 問題導向）
+本次更新（2026-03-22）：99 個歸入現有類別（baby-diaper x9、baby-wipes x6、phone-drop-protection x10、phone-screen-protection x10、phone-charging x4、easter-egg-hunt x5、smart-speaker x2、e-reader x2、tablet-computer x2、portable-charger x2、potty-training-pants x2、flushable-wipes x2、video-doorbell x1、home-security-camera x1、wireless-earbuds x1、art-supplies x1、trading-cards x1、modeling-clay x1、action-figure x1、early-learning-toy x1、bubble-toy x1、high-protein-snack x2、probiotic-supplement x1、aa-batteries x1、postpartum-incontinence x1、trash-bags x1、disposable-plates x1、flushable-wipes x2、noise-cancelling-headphone x1、performance-laptop x1、power-strip x1、smartwatch-case x1、waterproof-phone-pouch x1、water-bottle x1、kitchen-scale x1、meat-thermometer x1、memory-foam-mattress x1、pillow-case x1、wild-bird-feed x1、tv-remote-replacement x1、diaper-rash x1、baby-healing-ointment x1、baby-wash x1、baby-thermometer x1、stroller-fan x1、baby-pacifier x1、baby-bottle-nipple x1、bottle-washer-accessory x1、toddler-straw-cup x1、kids-nutrition-shake x1、cotton-swabs x1、eyeliner x1、sun-protection x1、hair-styling-powder x1、cable-management x1、ant-control x1）；新增 14 個類別（15 個產品）（anti-colic-baby-bottle、underpads-leakproof、body-fragrance-mist、ipad-stylus-pen x2、phone-grip-stand、budget-smart-tv、kids-learning-tablet、computer-monitor、essential-oil-aromatherapy、garden-hose、garden-pump-sprayer、tower-fan、oven-mitt、kids-garden-terrarium-kit）；跳過 2 個（B00N1NBOV2 促銷禮盒、B08JHCVHTY 數位訂閱）
+本次更新（2026-03-13）：19 個產品歸入現有類別（tablet-computer x1、e-reader x2、video-doorbell x1、wireless-earbuds x1、item-tracker x1、flushable-wipes x2、probiotic-supplement x1、high-protein-snack x1、squishy-toy x2、action-figure x1、kitchen-scale x1、baby-diaper x9、diaper-rash x1、smartwatch x1、performance-laptop x1、easter-egg-hunt x1）；新增 17 個類別（56 個產品）；跳過 0 個
 本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
 本次更新（2026-03-04）：17 個產品歸入現有類別（water-bottle x2、paper-towels、collectible-coins x6、toilet-paper x2、aa-batteries、cotton-swabs、bread-toaster、electrolyte-hydration、wireless-earbuds、disposable-plates）；新增 7 個類別（7 個產品）；跳過 16 個（5 Best Buy 數位產品 + 11 已存在昨日分組/重複）
 本次更新（2026-03-05）：112 個產品歸入現有類別（aa-batteries x2、acne-treatment x3、action-figure、art-supplies x6、bath-toys x2、board-games、body-moisturizing x4、building-blocks x2、collectible-coins、cotton-swabs、creatine-supplement x2、disposable-plates、e-reader x2、electrolyte-hydration、exfoliating-toner、face-moisturizing x2、facial-cleanser、flushable-wipes x3、giant-teddy-bear、high-protein-snack x2、item-tracker x2、kids-bike、kitchen-scale、laundry-stain x2、makeup-removal、natural-deodorant、noise-cancelling-headphone x3、oil-sprayer x2、paper-towels x5、party-balloon x7、pillow-case、playing-cards、postpartum-incontinence、potting-soil、power-strip x6、probiotic-supplement、squishy-toy x11、streaming-stick x5、sun-protection、tablet-computer、toilet-paper x5、trading-cards x5、video-doorbell、wireless-earbuds x8）；新增 59 個類別（85 個產品）；跳過 2 個（數位服務/訂閱）
@@ -44,7 +46,7 @@
 | laundry-stain | 衣物去污 | 7 | ⚠️ 需補充 |
 | dish-sponge | 洗碗海綿 | 1 | ⚠️ 需補充 |
 | drain-clog | 排水管堵塞 | 2 | ✅ 已完成 |
-| diaper-rash | 尿布疹護理 | 1 | ✅ 已完成 |
+| diaper-rash | 尿布疹護理 | 2 | ✅ 已完成 |
 | cradle-cap | 嬰兒頭皮乳痂 | 1 | ⚠️ 需補充 |
 | bath-toys | 洗澡玩具 | 3 | ⚠️ 需補充 |
 | baby-car-monitor | 車用嬰兒監視器 | 1 | ⚠️ 需補充 |
@@ -59,7 +61,7 @@
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
 | streaming-stick | 電視串流棒 | 13 | ✅ 已完成 |
 | noise-cancelling-headphone | 降噪耳機 | 9 | ✅ 已完成 |
-| item-tracker | 物品追蹤器 | 4 | ⚠️ 需補充 |
+| item-tracker | 物品追蹤器 | 5 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
 | hand-warmer | 手部暖暖包 | 2 | ⚠️ 需補充 |
 | space-heater | 陶瓷暖氣機 | 2 | ⚠️ 需補充 |
@@ -72,7 +74,7 @@
 | baking-sheet | 烤盤 | 1 | ⚠️ 需補充 |
 | parchment-paper | 烘焙紙 | 1 | ⚠️ 需補充 |
 | dresser-drawer | 抽屜收納櫃 | 1 | ⚠️ 需補充 |
-| squishy-toy | 減壓軟軟玩具 | 21 | ✅ 已完成 |
+| squishy-toy | 減壓軟軟玩具 | 23 | ✅ 已完成 |
 | body-firming | 身體皮膚緊緻塑形 | 1 | ⏳ 待研究 |
 | nail-glue | 美甲固定膠 | 1 | ⏳ 待研究 |
 | party-tableware | 派對一次性餐具 | 1 | ⏳ 待研究 |
@@ -89,12 +91,12 @@
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
 | collagen-mask | 膠原蛋白面膜 | 3 | ⏳ 待研究 |
-| wireless-earbuds | 無線藍牙耳機 | 22 | ⏳ 待研究 |
-| e-reader | 電子書閱讀器 | 6 | ⏳ 待研究 |
-| video-doorbell | 智慧門鈴監控 | 4 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 23 | ⏳ 待研究 |
+| e-reader | 電子書閱讀器 | 8 | ⏳ 待研究 |
+| video-doorbell | 智慧門鈴監控 | 5 | ⏳ 待研究 |
 | electrolyte-hydration | 電解質補充 | 5 | ⏳ 待研究 |
-| probiotic-supplement | 益生菌補充 | 4 | ⏳ 待研究 |
-| flushable-wipes | 可沖式濕紙巾 | 8 | ⏳ 待研究 |
+| probiotic-supplement | 益生菌補充 | 5 | ⏳ 待研究 |
+| flushable-wipes | 可沖式濕紙巾 | 10 | ⏳ 待研究 |
 | hair-styling-hold | 頭髮定型噴霧 | 2 | ⏳ 待研究 |
 | hair-repair-treatment | 受損髮質修復 | 2 | ⏳ 待研究 |
 | hair-frizz-control | 抗毛躁護髮 | 2 | ⏳ 待研究 |
@@ -104,11 +106,11 @@
 | kids-bike | 兒童腳踏車 | 10 | ⏳ 待研究 |
 | ride-on-toy | 騎乘玩具 | 5 | ⏳ 待研究 |
 | giant-teddy-bear | 大型絨毛玩具 | 4 | ⏳ 待研究 |
-| action-figure | 角色公仔 | 6 | ⏳ 待研究 |
+| action-figure | 角色公仔 | 7 | ⏳ 待研究 |
 | toy-cars | 玩具車模型 | 3 | ⏳ 待研究 |
 | disposable-gloves | 一次性手套/醫療手套 | 6 | ✅ 已完成 |
 | water-bottle | 保溫瓶/隨身水壺 | 7 | ✅ 已完成 |
-| kitchen-scale | 廚房秤/食物秤 | 4 | ✅ 已完成 |
+| kitchen-scale | 廚房秤/食物秤 | 5 | ✅ 已完成 |
 | interactive-pet-toy | 互動式電子寵物玩具 | 1 | ⏳ 待研究 |
 | monster-truck-toy | 怪獸卡車玩具模型 | 1 | ⏳ 待研究 |
 | electric-cooktop | 額外電磁爐/電陶爐煮食 | 2 | ⏳ 待研究 |
@@ -118,8 +120,8 @@
 | glass-food-storage | 玻璃食物保存容器 | 1 | ⏳ 待研究 |
 | postpartum-incontinence | 產後尿失禁防護 | 3 | ⏳ 待研究 |
 | meal-replacement-protein-shake | 高蛋白餐替代奶昔 | 4 | ⏳ 待研究 |
-| high-protein-snack | 高蛋白低碳水零食 | 5 | ⏳ 待研究 |
-| baby-diaper | 嬰兒尿布防漏護膚 | 2 | ⏳ 待研究 |
+| high-protein-snack | 高蛋白低碳水零食 | 6 | ⏳ 待研究 |
+| baby-diaper | 嬰兒尿布防漏護膚 | 11 | ⏳ 待研究 |
 | air-mattress | 充氣床墊臨時睡眠 | 1 | ⏳ 待研究 |
 | dry-dog-food | 寵物犬日常乾糧 | 4 | ⏳ 待研究 |
 | indoor-cat-food | 室內貓乾糧體重控制 | 1 | ⏳ 待研究 |
@@ -138,7 +140,7 @@
 | oil-sprayer | 食用油噴霧器控量均勻噴灑 | 4 | ⏳ 待研究 |
 | disposable-plates | 一次性免洗紙盤便利用餐 | 3 | ⏳ 待研究 |
 | 3d-printer-filament | 3D 列印用 PLA 線材耗材 | 1 | ⏳ 待研究 |
-| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 4 | ⏳ 待研究 |
+| tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 5 | ⏳ 待研究 |
 | super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
 | mens-underwear | 男性底褲舒適透氣 | 1 | ⏳ 待研究 |
 | womens-yoga-pants | 女性瑜珈/運動褲 | 3 | ⏳ 待研究 |
@@ -198,7 +200,7 @@
 | shower-curtain-hooks | 浴簾掛鉤防鏽滑順 | 1 | ⏳ 待研究 |
 | shower-curtain-liner | 浴簾/內襯防水防霉 | 6 | ⏳ 待研究 |
 | smart-speaker | 語音助理智慧音箱 | 1 | ⏳ 待研究 |
-| smartwatch | 智慧手錶健康追蹤 | 2 | ⏳ 待研究 |
+| smartwatch | 智慧手錶健康追蹤 | 3 | ⏳ 待研究 |
 | throw-pillow-inserts | 抱枕芯裝飾填充 | 2 | ⏳ 待研究 |
 | toothpaste | 口腔清潔牙齒保健 | 2 | ⏳ 待研究 |
 | trash-bags | 廚房垃圾袋防漏防臭 | 1 | ⏳ 待研究 |
@@ -216,7 +218,7 @@
 | blind-box-collectible | 盲盒收藏玩具（隨機款式、品質） | 1 | ⏳ 待研究 |
 | memory-foam-mattress | 記憶棉床墊舒適支撐（睡眠、散熱） | 1 | ⏳ 待研究 |
 | blackout-curtains | 臥室遮光隔熱窗簾 | 1 | ⏳ 待研究 |
-| easter-egg-hunt | 復活節彩蛋尋寶遊戲道具 | 1 | ⏳ 待研究 |
+| easter-egg-hunt | 復活節彩蛋尋寶遊戲道具 | 2 | ⏳ 待研究 |
 | hallway-runner-rug | 走廊/廚房止滑可洗長條地毯 | 1 | ⏳ 待研究 |
 | holiday-costume-accessories | 節日主題派對裝飾配件（聖派翠克、復活節等） | 1 | ⏳ 待研究 |
 | toilet-bowl-cleaner | 馬桶清潔殺菌除垢 | 1 | ⏳ 待研究 |
@@ -225,8 +227,39 @@
 | tongue-scraper | 舌頭清潔刮舌器口腔衛生 | 1 | ⏳ 待研究 |
 | mirrorless-camera | 無反光鏡可換鏡相機攝影 | 1 | ⏳ 待研究 |
 | action-camera | 運動攝影機極限拍攝記錄 | 1 | ⏳ 待研究 |
-| performance-laptop | 高效能筆記型電腦（RTX 獨顯） | 2 | ⏳ 待研究 |
+| performance-laptop | 高效能筆記型電腦（RTX 獨顯） | 3 | ⏳ 待研究 |
 | mens-socks | 男性耐用長效運動/日常襪 | 1 | ⏳ 待研究 |
+| baby-wipes | 嬰兒皮膚清潔濕紙巾（非可沖式） | 5 | ⏳ 待研究 |
+| baby-wash | 嬰兒洗髮沐浴清潔 | 2 | ⏳ 待研究 |
+| baby-healing-ointment | 嬰兒皮膚修護萬用膏 | 2 | ⏳ 待研究 |
+| baby-bottle-nipple | 嬰兒奶嘴/奶瓶配件 | 2 | ⏳ 待研究 |
+| baby-thermometer | 嬰兒體溫非接觸式量測 | 1 | ⏳ 待研究 |
+| potty-training-pants | 幼兒如廁訓練褲 | 2 | ⏳ 待研究 |
+| baby-pacifier | 嬰兒安撫奶嘴 | 1 | ⏳ 待研究 |
+| toddler-straw-cup | 幼兒學習吸管水杯 | 2 | ⏳ 待研究 |
+| stroller-fan | 嬰兒推車夾扇降溫 | 1 | ⏳ 待研究 |
+| bottle-washer-accessory | 奶瓶清洗機配件更換 | 1 | ⏳ 待研究 |
+| kids-nutrition-shake | 兒童營養補充奶昔 | 1 | ⏳ 待研究 |
+| phone-drop-protection | 手機防摔保護殼 | 11 | ⏳ 待研究 |
+| phone-screen-protection | 手機螢幕/鏡頭防刮保護貼 | 10 | ⏳ 待研究 |
+| phone-charging | 手機有線充電器 | 5 | ⏳ 待研究 |
+| portable-charger | 行動電源隨身充電 | 2 | ⏳ 待研究 |
+| smartwatch-case | 智慧手錶保護殼 | 1 | ⏳ 待研究 |
+| waterproof-phone-pouch | 防水手機袋水中保護 | 1 | ⏳ 待研究 |
+| anti-colic-baby-bottle | 嬰兒防脹氣奶瓶 | 1 | ⏳ 待研究 |
+| underpads-leakproof | 一次性防漏床墊/失禁墊 | 1 | ⏳ 待研究 |
+| body-fragrance-mist | 身體香氛噴霧持香 | 1 | ⏳ 待研究 |
+| ipad-stylus-pen | iPad 觸控筆手寫繪圖 | 2 | ⏳ 待研究 |
+| phone-grip-stand | 手機支架握把防滑 | 1 | ⏳ 待研究 |
+| budget-smart-tv | 平價大螢幕 4K 智慧電視 | 1 | ⏳ 待研究 |
+| kids-learning-tablet | 兒童教育平板電腦 | 1 | ⏳ 待研究 |
+| computer-monitor | 電腦外接螢幕顯示器 | 1 | ⏳ 待研究 |
+| essential-oil-aromatherapy | 精油芳療舒壓放鬆 | 1 | ⏳ 待研究 |
+| garden-hose | 花園澆水輕量耐用軟管 | 1 | ⏳ 待研究 |
+| garden-pump-sprayer | 手動加壓噴霧器（園藝/除蟲/清潔） | 1 | ⏳ 待研究 |
+| tower-fan | 塔扇室內靜音降溫 | 1 | ⏳ 待研究 |
+| oven-mitt | 烘焙隔熱手套防燙 | 1 | ⏳ 待研究 |
+| kids-garden-terrarium-kit | 兒童生態瓶/花園造景套件 | 1 | ⏳ 待研究 |
 ---
 
 ## 詳細分組
@@ -3549,3 +3582,243 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B0FP46WTCN | Hanes Men's Double Tough Socks Crew and Ankle | 加厚耐用雙層腳趾設計 |
+---
+
+### anti-colic-baby-bottle
+
+**問題描述**：嬰兒喝奶時吸入空氣造成脹氣腸絞痛，需要防脹氣奶瓶減少不適
+
+**問題成因**：傳統奶瓶設計讓嬰兒吸入過多空氣、哺餵時間過長、嬰兒腸道尚未發育完全
+
+**常見解決方法**：
+- 防脹氣內導管奶瓶（Dr. Brown's）
+- 防空氣抽入斜角奶瓶
+- 可調節流速奶嘴
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B01845QH7M | Dr. Brown's Natural Flow Anti-Colic Options+ Narrow Baby Bottle 8oz | 防脹氣內導管奶瓶 |
+
+---
+
+### underpads-leakproof
+
+**問題描述**：臥床病患/術後/嬰兒護理時防止體液/排泄物污染床褥，需要一次性防漏墊
+
+**問題成因**：術後/生產後體液控制困難、嬰兒哺乳換尿布漏液、老人失禁護理需求
+
+**常見解決方法**：
+- 一次性超吸水防漏床墊
+- 可水洗防水護理墊
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0CPPLFQKB | Wowflash Super Absorbency Disposable Leakproof Underpads | 一次性超吸水防漏床墊 |
+
+---
+
+### body-fragrance-mist
+
+**問題描述**：希望全身留有輕盈持久的香氛，解決傳統香水濃度過高或身體保養品無香氣的問題
+
+**問題成因**：香水直接噴皮膚刺激性強、護膚品通常無香氣、需要輕盈日常體香
+
+**常見解決方法**：
+- 身體香氛噴霧（Body Mist）
+- 護膚型保濕香氛噴霧
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B09X3HB2BR | Sol de Janeiro Hair & Body Perfume Mist | 輕盈持香身體香氛噴霧 |
+
+---
+
+### ipad-stylus-pen
+
+**問題描述**：iPad 手寫/繪圖時需要精準觸控筆，解決手指操作精度不足和繪圖體驗差的問題
+
+**問題成因**：手指觸控面積大精度低、筆記手寫需求增加、繪圖創作需要壓力感應筆
+
+**常見解決方法**：
+- Apple Pencil 官方觸控筆
+- 第三方相容觸控筆
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 | 來源 |
+|-----------|---------|---------------|------|
+| B0831BF1FH | Stylus Pen for iPad 6th-11th Generation 2X Fast Charge | 第三方相容觸控筆 | Amazon |
+| JJGCQXK6ZJ | Apple Pencil (USB-C) - White | 官方 USB-C 觸控筆 | Best Buy |
+
+---
+
+### phone-grip-stand
+
+**問題描述**：手機難以單手握持、缺乏支撐直立觀看，需要附加握把或支架
+
+**問題成因**：大螢幕手機握持不穩易滑落、看影片需要支撐、自拍角度有限
+
+**常見解決方法**：
+- 黏貼式 PopSocket 握把
+- 手機環扣支架
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B07P29XQR4 | PopSockets Adhesive Phone Grip Holder Phone Stand Black | 黏貼式折疊握把支架 |
+
+---
+
+### budget-smart-tv
+
+**問題描述**：需要大螢幕高畫質智慧電視但預算有限，解決旗艦電視價格過高的問題
+
+**問題成因**：主流品牌 4K 電視價格偏高、自帶串流平台需求、客廳娛樂升級需求
+
+**常見解決方法**：
+- 平價品牌 LED 4K Smart TV（Insignia、TCL）
+- Fire TV 整合平台電視
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0F1BXQNR5 | INSIGNIA 55-inch Class F50 Series LED 4K UHD Smart Fire TV | 平價 55 吋 4K 智慧電視 |
+
+---
+
+### kids-learning-tablet
+
+**問題描述**：兒童需要適齡的數位學習裝置，解決普通平板不耐摔且內容不適齡的問題
+
+**問題成因**：幼兒好奇心強易摔壞裝置、需要家長控管功能、成人平板內容不適齡
+
+**常見解決方法**：
+- 兒童版平板（附保護殼）
+- 家長控管+兒童內容訂閱
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0C8C2NZMQ | Amazon Fire 7 Kids tablet (newest model) ages 3-7 | 兒童專用平板含家長控管 |
+
+---
+
+### computer-monitor
+
+**問題描述**：桌上型電腦或筆電外接時需要額外顯示器，解決單螢幕工作效率低的問題
+
+**問題成因**：單螢幕多工效率低、筆電螢幕尺寸偏小、遠端工作需求增加
+
+**常見解決方法**：
+- Full HD IPS 顯示器
+- 4K 設計師螢幕
+- 高刷新率電競螢幕
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0C8ZKV5R9 | Philips 24 inch Frameless Full HD (1920x1080) 100Hz Monitor | Full HD 入門顯示器 |
+
+---
+
+### essential-oil-aromatherapy
+
+**問題描述**：需要天然精油進行芳療放鬆、情緒舒緩或居家加濕，解決化學合成香料刺激問題
+
+**問題成因**：壓力焦慮需要舒壓方式、合成香料易致敏、搭配水氧機使用需求
+
+**常見解決方法**：
+- 100% 純天然單方精油
+- 複方薰衣草/薄荷/茶樹精油
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B00TSTZQEY | Majestic Pure Essential Oil with Glass Dropper 100% Pure | 純天然單方精油組合 |
+
+---
+
+### garden-hose
+
+**問題描述**：需要輕量耐用的花園澆水軟管，解決傳統橡膠管過重易打結的問題
+
+**問題成因**：傳統橡膠管重且硬難以收納、噴頭接頭易漏水、極端氣溫下容易龜裂
+
+**常見解決方法**：
+- 混合纖維輕量軟管（Flexzilla）
+- 可伸縮伸展軟管
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B003TFE7ZM | Flexzilla Garden Hose 5/8 in. x 50 ft. Lightweight All-Weather | 混合纖維輕量耐候軟管 |
+
+---
+
+### garden-pump-sprayer
+
+**問題描述**：需要手動加壓噴霧器進行園藝噴水、殺蟲劑施用或清潔，解決澆水壺噴灑不均勻的問題
+
+**問題成因**：手動澆水壺無法均勻噴灑、殺蟲劑/除草劑施用需要精準控制、清潔大面積需要持續噴水
+
+**常見解決方法**：
+- 手動打氣加壓背包噴霧器
+- 桌上型小型加壓噴瓶
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B000E28UQU | Chapin 20004 Pump Sprayer 1-Gallon SureSpray Translucent Tank | 1 加侖手動加壓噴霧器 |
+
+---
+
+### tower-fan
+
+**問題描述**：夏季室內悶熱，需要靜音高效的塔扇降溫，解決傳統吊扇/桌扇噪音大或覆蓋面積小的問題
+
+**問題成因**：中央空調費電、桌扇佔空間且噪音大、需要定向送風或 360 度旋轉
+
+**常見解決方法**：
+- DC 無刷馬達靜音塔扇
+- 智慧溫控塔扇
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B09MKPDJRT | DREO Tower Fan for Bedroom 2026 Upgraded DC Motor 20dB | DC 馬達超靜音塔扇 |
+
+---
+
+### oven-mitt
+
+**問題描述**：烤箱/爐灶取出高溫烤盤或鍋具時防止燙傷，解決普通棉質隔熱手套防熱效果差的問題
+
+**問題成因**：高溫烤盤（250°C+）容易燙傷、普通棉質手套隔熱效果有限、矽膠材質防滑耐高溫
+
+**常見解決方法**：
+- 矽膠隔熱烤箱手套
+- 棉+矽膠複合材質手套
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B08J8GZXKZ | KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set 7.5"x13" | 矽膠隔熱烤箱手套組 |
+
+---
+
+### kids-garden-terrarium-kit
+
+**問題描述**：親子/兒童需要動手種植或生態造景的創意活動，解決室內缺乏自然體驗的問題
+
+**問題成因**：城市兒童缺乏自然接觸機會、STEM 教育需要動手操作、美人魚/森林主題創意需求
+
+**常見解決方法**：
+- 兒童生態瓶套件（含種子、土壤、裝飾）
+- 室內迷你花園種植組
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B083Z3JMGP | Creativity for Kids Mini Garden: Mermaid Terrarium Kit | 美人魚主題兒童生態瓶套件 |

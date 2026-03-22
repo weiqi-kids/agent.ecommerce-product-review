@@ -1,0 +1,68 @@
+{
+  "category": "flushable-wipes",
+  "date": "2026-03-22",
+  "problem": "提供比乾衛生紙更徹底清潔的如廁衛生解決方案，同時保持皮膚溫和，且可安全沖入馬桶",
+  "products_analyzed": [
+    {
+      "asin": "B010NE2XPC",
+      "name": "DUDE Wipes Unscented Flushable Wipes (6 Pack, 288 Count)",
+      "brand": "DUDE",
+      "store": "amzn-direct",
+      "price": 25.99,
+      "avg_rating": 4.75,
+      "total_reviews": 233848,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.84,
+      "can_solve_problem": true,
+      "key_strengths": ["extra_large_size", "thickness_durability", "snap_seal_moisture_retention", "alcohol_free_hypoallergenic"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "flushability_concerns_plumbing", "frequency": "7.7%", "note": "部分使用者選擇丟垃圾桶而非沖廁"},
+          {"issue": "higher_price_vs_store_brands", "frequency": "15.4%"}
+        ],
+        "logistics": []
+      }
+    },
+    {
+      "asin": "B07ND3WR64",
+      "name": "Cottonelle Fresh Feel Flushable Wet Wipes (8 Flip-Top Packs, 336 Count)",
+      "brand": "Cottonelle",
+      "store": "amzn-direct",
+      "price": 15.79,
+      "avg_rating": 4.75,
+      "total_reviews": 149532,
+      "reviews_analyzed": 13,
+      "overall_sentiment": 0.84,
+      "can_solve_problem": true,
+      "key_strengths": ["softness", "cleaning_effectiveness", "confirmed_flushability", "light_scent", "flip_top_packaging"],
+      "negative_classification": {
+        "functional_failure": [],
+        "new_problems": [
+          {"issue": "packaging_quality_decline", "frequency": "7.7%"}
+        ],
+        "logistics": []
+      }
+    }
+  ],
+  "comparison_summary": {
+    "head_to_head": {
+      "size": "DUDE Wipes 超大尺寸勝出，適合男性用戶；Cottonelle 標準尺寸",
+      "flushability": "Cottonelle 明確沖廁安全（無堵塞報告）；DUDE 部分用戶有疑慮",
+      "price": "Cottonelle $15.79（336片）= $0.047/片；DUDE $25.99（288片）= $0.090/片，Cottonelle 性價比更高",
+      "softness": "Cottonelle 更柔軟，明確勝過 Charmin Freshmates 等競品",
+      "scent": "DUDE 無香（unscented）；Cottonelle 輕微清新香氣",
+      "packaging": "DUDE snap-seal 保濕效果優秀；Cottonelle flip-top 有退化趨勢"
+    },
+    "winner_by_use_case": {
+      "flushability_priority": "B07ND3WR64（Cottonelle）——評論明確確認無管道堵塞問題",
+      "size_durability_priority": "B010NE2XPC（DUDE Wipes）——超大尺寸適合需要更大覆蓋面的用戶",
+      "value_priority": "B07ND3WR64（Cottonelle）——每片成本低一半"
+    },
+    "cross_category_verdict": "兩款均能有效解決「比乾衛生紙更潔淨」的核心問題，整體評分相同（4.75）。Cottonelle 在沖廁安全性和性價比上佔優；DUDE 在超大尺寸和無香配方上有優勢。無功能性失效問題，屬良好競爭類別。",
+    "flushability_note": "重要提示：環保組織指出「可沖式」濕紙巾實際上對管道和環境有潛在風險；建議投入垃圾桶。Cottonelle 在評論中無堵塞報告，但整體「可沖式」聲明仍有爭議。"
+  },
+  "report_recommendation": "comparison",
+  "confidence": "high",
+  "notes": "兩款均有大量評論（23萬+、15萬+），高信心度分析。整體類別評價優秀，無嚴重問題。"
+}

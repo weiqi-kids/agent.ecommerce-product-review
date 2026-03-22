@@ -1,6 +1,7 @@
 ---
 title: 翻新手機比較：AT&T 鎖定版三大陷阱，解鎖版與 Pixel 8a 才是正解
 description: 比較 3 款 Amazon 翻新手機（iPhone SE 3rd/2nd Gen、Galaxy S24 Ultra AT&T 版），揭露 carrier lock、電池虛標、IMEI 黑名單等系統性問題，推薦更安全的解鎖版替代方案。
+date: 2026-03-12
 head:
   - - meta
     - property: og:title
@@ -77,7 +78,7 @@ Amazon 上三款 AT&T 鎖定版翻新手機（iPhone SE 3rd Gen $136、iPhone SE
 
 | 類型 | 佔比 | 說明 | 代表性評論 |
 |------|------|------|-----------|
-| ❌ 無法解決問題 | 22% | 電池低於廣告值 (16%)、裝置故障 (6%) | "Battery health only 80% minimum but phone came < 80%"; "phone is on autoloop and won't do anything" |
+| ❌ 無法解決問題 | 22% | 電池低於廣告值 (16%)、裝置故障 (6%) | "Battery health only 80% minimum but phone came less than 80%"; "phone is on autoloop and won't do anything" |
 | ⚠️ 產生新問題 | 10% | carrier lock 問題 (6%)、非原廠零件 (4%) | "Cost more to unlock than what I paid"; "Phone does not come with genuine Apple battery" |
 | 📦 與產品無關 | 20% | 條件描述不實 (14%)、賣家糾紛 (6%) | "Advertised as excellent but scratches visible from 12 inches"; "company only gave half refund" |
 
