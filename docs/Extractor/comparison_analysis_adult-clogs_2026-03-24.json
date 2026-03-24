@@ -1,0 +1,200 @@
+{
+  "category": "adult-clogs",
+  "date": "2026-03-24",
+  "products_analyzed": 25,
+  "verdict": "comparison",
+  "analysis_summary": "成人洞洞鞋市場高度分化：多數產品（22/25）確實能解決「舒適穿著」基本需求（comfort sentiment 平均 0.87），但不同使用場景的最佳選擇差異顯著。市場存在清晰的三層定位——日常/休閒、工作/醫護、足部問題復健——無單一產品能跨場景稱霸。判定為比較報告（各場景有明確推薦，非全面失效）。",
+  "segment_analysis": {
+    "daily_casual": {
+      "label": "日常休閒（舒適+時尚）",
+      "top_picks": ["B0014C0LSY（Crocs Classic, 4.85★, comfort 1.00）", "B0CG112JCG（Crocs Echo, 4.65★, comfort 0.97）"],
+      "note": "Crocs Classic 以壓倒性評論數（33萬+）確立標竿，Echo 升級時尚外觀同維持高舒適"
+    },
+    "work_medical": {
+      "label": "工作/醫護（防滑+長時站立）",
+      "top_picks": ["B0BW1GG1YD（Dansko Kane, 4.25★, comfort 0.85）", "B0942S3DZ7（Sanita Pro, 4.25★）", "B00AO0C6Y4（Alegria Kayla, 4.35★）"],
+      "note": "Dansko Kane 最多 comfort mentions（10/13），Sanita 丹麥製 APMA 認可，Alegria 護士彈性楦型"
+    },
+    "recovery_orthotic": {
+      "label": "足部恢復/正骨支撐",
+      "top_picks": ["B0DDVH2NK2（OOFOS OOcloog, 4.35★, effectiveness 0.92）", "B08RN8MQLT（ERGOfoot, 4.25★, comfort 0.94）"],
+      "note": "OOFOS OOFoam 吸震技術獲護士/長時站立用戶高度驗證；ERGOfoot 深跟杯適合足底筋膜炎"
+    },
+    "birkenstock_style": {
+      "label": "Birkenstock 風格（軟木鞋床）",
+      "top_picks": ["B0CGB1GDSK（KIDMI, 4.45★, comfort 0.83）", "B0CFQFY5Y8（CUSHIONAIRE, 4.35★, comfort 0.89）"],
+      "note": "KIDMI/CUSHIONAIRE 為 $26-$50 平價替代，功能相近但評論量更能反映大眾體驗；原版 Birkenstock（B000HDNWFK）comfort 偏低（0.69）且需磨合期"
+    }
+  },
+  "top_products": [
+    {
+      "rank": 1,
+      "asin": "B0014C0LSY",
+      "name": "Crocs Classic Clog（Unisex）",
+      "brand": "Crocs",
+      "avg_rating": 4.85,
+      "reviews_total": 330178,
+      "price_usd": null,
+      "comfort_score": 1.00,
+      "l5_issues": "no_major_issues",
+      "review_needed": false,
+      "segment": "日常休閒",
+      "verdict_note": "市場最高評分+最大評論量，舒適感頂滿分，無顯著問題，但足弓支撐僅中等，不適合嚴重足部問題"
+    },
+    {
+      "rank": 2,
+      "asin": "B0CG112JCG",
+      "name": "Crocs Echo Clog（Unisex）",
+      "brand": "Crocs",
+      "avg_rating": 4.65,
+      "reviews_total": 9612,
+      "price_usd": null,
+      "comfort_score": 0.97,
+      "l5_issues": "general_negative(1/13, 8%, medium)",
+      "review_needed": false,
+      "segment": "日常休閒+時尚",
+      "verdict_note": "比 Classic 更時尚，comfort/durability/waterproof 全高分，值得推薦"
+    },
+    {
+      "rank": 3,
+      "asin": "B0DDVH2NK2",
+      "name": "OOFOS OOcloog Recovery Clog",
+      "brand": "OOFOS",
+      "avg_rating": 4.35,
+      "reviews_total": 11010,
+      "price_usd": 36.99,
+      "comfort_score": 0.88,
+      "effectiveness_score": 0.92,
+      "l5_issues": "no_major_issues",
+      "review_needed": false,
+      "segment": "足部恢復",
+      "verdict_note": "effectiveness 0.92（護士+長時站立場景強力驗證），OOFoam 技術有科學背書，價格合理"
+    },
+    {
+      "rank": 4,
+      "asin": "B0BW1GG1YD",
+      "name": "Dansko Kane Slip-On Mule Clog",
+      "brand": "Dansko",
+      "avg_rating": 4.25,
+      "reviews_total": 7080,
+      "price_usd": null,
+      "comfort_score": 0.85,
+      "l5_issues": "no_major_issues",
+      "review_needed": false,
+      "segment": "工作/日常",
+      "verdict_note": "comfort mentions 最多（10/13），material_quality 0.88，Dansko 品牌信任度高，EVA 易清潔"
+    },
+    {
+      "rank": 5,
+      "asin": "B0CDX45NQH",
+      "name": "Merrell Hydro Moc（Men）",
+      "brand": "Merrell",
+      "avg_rating": 4.65,
+      "reviews_total": 1159,
+      "price_usd": null,
+      "comfort_score": 0.97,
+      "l5_issues": "no_major_issues",
+      "review_needed": false,
+      "segment": "戶外/輕量",
+      "verdict_note": "comfort 0.97 與 Echo 並列第二，輕量 EVA + 戶外適用，價格異常值（15995 USD 疑為顯示錯誤）"
+    }
+  ],
+  "full_product_scores": [
+    {"asin": "B0014C0LSY", "brand": "Crocs", "rating": 4.85, "comfort": 1.00, "issues": "none"},
+    {"asin": "B0CG112JCG", "brand": "Crocs", "rating": 4.65, "comfort": 0.97, "issues": "minor_qc(8%)"},
+    {"asin": "B0CDX45NQH", "brand": "Merrell", "rating": 4.65, "comfort": 0.97, "issues": "none"},
+    {"asin": "B0CFQFY5Y8", "brand": "CUSHIONAIRE", "rating": 4.35, "comfort": 0.89, "issues": "none"},
+    {"asin": "B0DDVH2NK2", "brand": "OOFOS", "rating": 4.35, "comfort": 0.88, "issues": "none"},
+    {"asin": "B0BW1GG1YD", "brand": "Dansko", "rating": 4.25, "comfort": 0.85, "issues": "none"},
+    {"asin": "B0CGB1GDSK", "brand": "KIDMI", "rating": 4.45, "comfort": 0.83, "issues": "minor(8%)"},
+    {"asin": "B0BFWC11BP", "brand": "Crocs", "rating": 4.45, "comfort": 0.75, "issues": "general_neg(8%)"},
+    {"asin": "B0BHGBTRV9", "brand": "Merrell", "rating": 4.45, "comfort": 0.86, "issues": "general_neg(8%)"},
+    {"asin": "B000HDNWFK", "brand": "Birkenstock", "rating": 4.45, "comfort": 0.69, "issues": "functional_fail(8%)"},
+    {"asin": "B00AO0C6Y4", "brand": "Alegria", "rating": 4.35, "comfort": 0.91, "issues": "sizing(17%),general_neg(8%)"},
+    {"asin": "B0CKKY58L5", "brand": "VKTRY", "rating": 4.45, "comfort": 1.00, "issues": "logistics(10%)"},
+    {"asin": "B08RN8MQLT", "brand": "ERGOfoot", "rating": 4.25, "comfort": 0.94, "issues": "general_neg(8%)"},
+    {"asin": "B09P4RLXWK", "brand": "KEEN", "rating": 4.25, "comfort": 1.00, "issues": "general_neg(8%)"},
+    {"asin": "B0942S3DZ7", "brand": "Sanita", "rating": 4.25, "comfort": 0.75, "issues": "new_problems(8%)"},
+    {"asin": "B0F8Y5NLBP", "brand": "Orthofeet", "rating": 4.25, "comfort": 0.90, "issues": "logistics(12%)", "review_needed": true},
+    {"asin": "B0CJR8731D", "brand": "Amoji", "rating": 4.35, "comfort": 0.86, "issues": "sizing(17%)"},
+    {"asin": "B00HZ6N388", "brand": "KEEN", "rating": 3.95, "comfort": 0.86, "issues": "general_neg(15%)"},
+    {"asin": "B0FCJQRX2Y", "brand": "Birkenstock", "rating": 3.65, "comfort": 0.65, "issues": "general_neg(25%),functional_fail(12%)", "review_needed": true},
+    {"asin": "B0CR6S4K17", "brand": "Nike", "rating": 3.85, "comfort": 0.51, "issues": "general_neg(67%)", "review_needed": true},
+    {"asin": "B001EJMRVQ", "brand": "Dansko", "rating": 3.25, "comfort": 1.00, "issues": "general_neg(17%)", "review_needed": true, "note": "僅6評論，低可信度"},
+    {"asin": "B07NRMY9CX", "brand": "Crocs", "rating": 3.45, "comfort": 1.00, "issues": "general_neg(33%)", "review_needed": true, "note": "僅3評論"},
+    {"asin": "B07DX3QQM4", "brand": "Dansko", "rating": 5.05, "comfort": null, "issues": "none", "review_needed": true, "note": "僅1評論，資料不足"},
+    {"asin": "B07G97NX94", "brand": "Crocs", "rating": 2.05, "comfort": null, "issues": "none", "review_needed": true, "note": "僅1評論，資料不足"},
+    {"asin": "B08C1FBWYD", "brand": "Crocs", "rating": 2.05, "comfort": null, "issues": "none", "review_needed": true, "note": "僅1評論，資料不足"}
+  ],
+  "key_findings": [
+    "整體市場健康：22/25 產品 comfort sentiment ≥ 0.65，洞洞鞋作為品類確實能解決舒適穿著問題",
+    "場景分化明顯：日常休閒首選 Crocs Classic/Echo；醫護工作首選 Dansko/Sanita；足部恢復首選 OOFOS；Birkenstock 風格有平價替代（KIDMI/CUSHIONAIRE）效果相近",
+    "Crocs Classic（B0014C0LSY）以 33 萬評論+4.85 星確立品類標竿，但足弓支撐僅中等（研究報告評級 ⭐⭐），不適合足底筋膜炎等足部問題用戶",
+    "Nike Calm Mule（B0CR6S4K17）表現最差：comfort 0.51，67% 負評率，屬典型「品牌溢價但功能不足」",
+    "價格與表現未必正比：Birkenstock Super-Birki（B0FCJQRX2Y）售 $129.90，comfort 僅 0.65，25% 高負評；而 CUSHIONAIRE（$35-$55）comfort 達 0.89",
+    "6 個產品評論數 ≤ 3，資料可信度低（[REVIEW_NEEDED]），主要為 B07G97NX94/B08C1FBWYD（Crocs Bistro 系列）和 B07DX3QQM4（Dansko XP 2.0）",
+    "唯一「產生新問題」類別：B0942S3DZ7（Sanita Pro）有 new_problems issue，可能涉及使用後不適"
+  ],
+  "negative_classification": {
+    "cannot_solve": [
+      {
+        "asin": "B0CR6S4K17",
+        "name": "Nike Calm Mule",
+        "issue": "comfort_fail",
+        "evidence": "comfort score 0.51，67% 負評率（2/3 評論），核心舒適功能明顯不足",
+        "severity": "high"
+      },
+      {
+        "asin": "B0FCJQRX2Y",
+        "name": "Birkenstock Super-Birki",
+        "issue": "comfort_and_functional_fail",
+        "evidence": "comfort 0.65，functional_fail 12%，25% 一般負評，且售價 $129.90 高於同功能競品",
+        "severity": "medium",
+        "note": "[REVIEW_NEEDED] 僅8評論"
+      }
+    ],
+    "creates_new_problems": [
+      {
+        "asin": "B0942S3DZ7",
+        "name": "Sanita Pro Professional Clog",
+        "issue": "new_problems(1/13, 8%, medium)",
+        "evidence": "L5 偵測到 new_problems 類型 issue，具體內容需進一步確認",
+        "severity": "medium"
+      },
+      {
+        "asin": "B000HDNWFK",
+        "name": "Birkenstock Boston Suede（皮革）",
+        "issue": "磨合期疼痛",
+        "evidence": "functional_fail 8%，comfort 0.69（混合），需磨合期，短期穿著可能足部疼痛",
+        "severity": "low"
+      }
+    ],
+    "unrelated": [
+      {
+        "asin": "B0CKKY58L5",
+        "name": "VKTRY Recovery Clog",
+        "issue": "logistics(1/10, 10%, medium)",
+        "evidence": "物流/配送問題，與產品功能本身無關"
+      },
+      {
+        "asin": "B0F8Y5NLBP",
+        "name": "Orthofeet Casey",
+        "issue": "logistics(1/8, 12%, medium)",
+        "evidence": "物流/配送問題，產品功能評分正常（comfort 0.90）"
+      }
+    ]
+  },
+  "recommendation_by_use_case": {
+    "best_overall": "B0014C0LSY（Crocs Classic）— 最廣泛適用，最高評分",
+    "best_for_work_medical": "B0BW1GG1YD（Dansko Kane）— comfort mentions 最多，易清潔，醫護推薦品牌",
+    "best_for_recovery": "B0DDVH2NK2（OOFOS OOcloog）— 科學背書，護士/久站場景驗證",
+    "best_value_birkenstock_alternative": "B0CGB1GDSK（KIDMI）或 B0CFQFY5Y8（CUSHIONAIRE）— $26-$50 達 Birkenstock 7-8 成功能",
+    "avoid": "B0CR6S4K17（Nike Calm Mule）— 高負評率；B0FCJQRX2Y（Birkenstock Super-Birki）— 高價低效"
+  },
+  "data_quality_notes": {
+    "review_needed_count": 7,
+    "low_review_count_asins": ["B07DX3QQM4(1)", "B07G97NX94(1)", "B08C1FBWYD(1)", "B07NRMY9CX(3)", "B0CR6S4K17(3)", "B001EJMRVQ(6)", "B0FCJQRX2Y(8)"],
+    "research_report_status": "[REVIEW_NEEDED] WebFetch 僅 20/100 次（403/SSL 阻擋），研究報告資料相對有限，但競品清單完整（26 個競品）",
+    "price_anomalies": ["B0CDX45NQH 顯示 $15995（疑為資料錯誤）", "B0CGB1GDSK 顯示 $3199（疑為資料錯誤）"]
+  }
+}

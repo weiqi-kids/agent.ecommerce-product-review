@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-03-22T12:00:00Z",
-  "last_completed_date": "2026-03-22",
+  "last_updated": "2026-03-24T12:00:00Z",
+  "last_completed_date": "2026-03-24",
   "execution_mode": "full_rerun",
   "current_step": 8,
   "steps": {
-    "step_1": {"status": "completed", "note": "24 產品追蹤，7 需關注（NeeDoh CPSC、Emergen-C 訴訟等）"},
-    "step_2": {"status": "completed", "note": "67 REVIEW_NEEDED 分析，4 高優先，kids-activity-book 暫緩重試"},
-    "step_3": {"status": "completed", "note": "Amazon 286 + Best Buy 4 = 290 產品（BB selector 問題記錄）"},
-    "step_4": {"status": "completed", "note": "99 歸入現有，14 新類別（15 產品），172 已存在跳過"},
-    "step_5": {"status": "completed", "note": "4/14 新類別研究完成，10 待研究"},
-    "step_6": {"status": "completed", "note": "99 ASIN 抓取，97 萃取成功，2 零評論"},
-    "step_7": {"status": "completed", "note": "12 類別比較分析完成"},
-    "step_8": {"status": "completed", "note": "12 份報告：11 比較 + 1 推薦"}
+    "step_1": {"status": "completed", "note": "24 產品追蹤，無到期項目（上次檢查 3/22，間隔 2 天）"},
+    "step_2": {"status": "completed", "note": "72 REVIEW_NEEDED 分析，4 高優先列入 Step 6，kids-activity-book 延後至 3/30"},
+    "step_3": {"status": "completed", "note": "Amazon 366 + Best Buy 5 = 371 產品（BB selector 問題第 3 次）"},
+    "step_4": {"status": "completed", "note": "30 歸入現有，3 新類別（adult-clogs/powder-foundation/outdoor-inflatable-pool），11 跳過"},
+    "step_5": {"status": "completed", "note": "3 新類別研究完成（WebFetch 不足，標記 REVIEW_NEEDED）"},
+    "step_6": {"status": "completed", "note": "118 ASIN 抓取（0 失敗），112 萃取成功，6 零評論，36 REVIEW_NEEDED"},
+    "step_7": {"status": "completed", "note": "3 新類別比較分析完成，均判定為比較報告"},
+    "step_8": {"status": "completed", "note": "3 份比較報告：adult-clogs + powder-foundation + outdoor-inflatable-pool"}
   }
 }

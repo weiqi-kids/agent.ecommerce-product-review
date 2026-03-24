@@ -62,22 +62,21 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 ---
 
-## 🆕 最新報告 (2026-03-22)
+## 🆕 最新報告 (2026-03-24)
 
 | 類別 | 類型 | 重點發現 |
 |------|------|----------|
-| [嬰兒濕紙巾推薦](/Narrator/recommendations/baby-wipes--2026-03-22) | ✅ 推薦報告 | 6 款全數通過溫和測試，依需求選最適合 |
-| [嬰兒紙尿褲比較](/Narrator/comparisons/baby-diaper--2026-03-22) | 📊 比較報告 | 多款品牌吸收力與皮膚友善度完整分析 |
-| [電子書閱讀器比較](/Narrator/comparisons/e-reader--2026-03-22) | 📊 比較報告 | Kindle 系列 vs 競品全面比較 |
-| [復活節彩蛋比較](/Narrator/comparisons/easter-egg-hunt--2026-03-22) | 📊 比較報告 | 裝飾器、預填蛋、空殼蛋完整評測 |
-| [可沖馬桶濕紙巾比較](/Narrator/comparisons/flushable-wipes--2026-03-22) | 📊 比較報告 | 可沖性與清潔效果評測 |
-| [高蛋白零食比較](/Narrator/comparisons/high-protein-snack--2026-03-22) | 📊 比較報告 | 蛋白質含量、口味與性價比分析 |
-| [手機充電解決方案比較](/Narrator/comparisons/phone-charging--2026-03-22) | 📊 比較報告 | 有線 vs 無線充電速度與相容性 |
-| [手機防摔保護比較](/Narrator/comparisons/phone-drop-protection--2026-03-22) | 📊 比較報告 | MIL-SPEC 認證 vs 實測防護效果 |
-| [手機螢幕保護貼比較](/Narrator/comparisons/phone-screen-protection--2026-03-22) | 📊 比較報告 | 鋼化玻璃 vs 軟膜耐刮與觸感分析 |
-| [行動電源比較](/Narrator/comparisons/portable-charger--2026-03-22) | 📊 比較報告 | 容量、充電速度與重量完整比較 |
-| [如廁訓練褲比較](/Narrator/comparisons/potty-training-pants--2026-03-22) | 📊 比較報告 | 吸收力與穿脫便利性分析 |
-| [智慧音箱比較](/Narrator/comparisons/smart-speaker--2026-03-22) | 📊 比較報告 | Echo、Google Nest 等多款音質與智慧功能對比 |
+| [成人洞洞鞋比較](/Narrator/comparisons/adult-clogs--2026-03-24) | ⚖️ 比較報告 | 25 款 Crocs/OOFOS/Dansko 依場景完整評測，Crocs Classic 稱霸 |
+| [粉底粉餅比較](/Narrator/comparisons/powder-foundation--2026-03-24) | ⚖️ 比較報告 | 36 款遮瑕效果實測，IT Cosmetics CC+ 最適熟齡肌 |
+| [充氣泳池比較](/Narrator/comparisons/outdoor-inflatable-pool--2026-03-24) | ⚖️ 比較報告 | 8 款 Intex/Bestway 後院泳池評測，MINNIDIP 25% 出廠漏氣 |
+
+### 前次更新 (2026-03-22)
+
+| 類別 | 類型 | 重點發現 |
+|------|------|----------|
+| [嬰兒濕紙巾推薦](/Narrator/recommendations/baby-wipes--2026-03-22) | ✅ 推薦報告 | 6 款全數通過溫和測試 |
+| [電子書閱讀器比較](/Narrator/comparisons/e-reader--2026-03-22) | ⚖️ 比較報告 | Kindle 系列 vs 競品全面比較 |
+| [智慧音箱比較](/Narrator/comparisons/smart-speaker--2026-03-22) | ⚖️ 比較報告 | Echo Spot vs Echo Show 對比 |
 
 ## ✅ 最新推薦
 

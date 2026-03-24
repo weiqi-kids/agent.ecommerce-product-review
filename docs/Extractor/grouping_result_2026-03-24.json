@@ -1,0 +1,87 @@
+{
+  "date": "2026-03-24",
+  "total_products_in_discovery": 366,
+  "new_products_today": 44,
+  "summary": {
+    "assigned_to_existing": 30,
+    "new_categories": 3,
+    "skipped": 11
+  },
+  "assigned_to_existing": [
+    { "product_id": "B09BKCDXZC", "name": "Roku Streaming Stick 4K", "category": "streaming-stick" },
+    { "product_id": "B0CNV9F72P", "name": "Amazon Kindle 16 GB", "category": "e-reader" },
+    { "product_id": "B086LKQDJG", "name": "The Honest Company Baby Wipes", "category": "baby-wipes" },
+    { "product_id": "B0CKV2VGX1", "name": "The Honest Company Comfort Dry Disposable Diapers Newborn", "category": "baby-diaper" },
+    { "product_id": "B083VT9WN3", "name": "Blue Lizard BABY Mineral Sunscreen Stick SPF 50+", "category": "baby-sunscreen" },
+    { "product_id": "B00JHKTDQG", "name": "Safety 1st Electrical Outlet Baby Proof Covers 36 Count", "category": "baby-safety-lock" },
+    { "product_id": "B0FHWKYT89", "name": "Wireless Earbuds Bluetooth 5.4 Headphones", "category": "wireless-earbuds" },
+    { "product_id": "B0FFGCH231", "name": "TAURI for iPhone 17 Pro Case with Screen Protector", "category": "phone-drop-protection" },
+    { "product_id": "B0FFT8P8XP", "name": "FireNova Magnetic for iPhone 17 Pro Case MagSafe", "category": "phone-drop-protection" },
+    { "product_id": "B0009IR3UI", "name": "Prang Construction Paper 10 Assorted Colors 12x18", "category": "art-supplies" },
+    { "product_id": "B0GQZBWFXS", "name": "Colorful Dumpling Squishes Stress Balls", "category": "squishy-toy" },
+    { "product_id": "B0GRR2HS6J", "name": "Dumpling Squishy Mystery Box Slow Rising", "category": "squishy-toy" },
+    { "product_id": "B0BDQXLT4C", "name": "PartyWoo White Balloons 140pcs Different Sizes", "category": "party-balloon" },
+    { "product_id": "B09CD6Z7GB", "name": "Amazon Basics Tall Kitchen Drawstring Trash Bags 200 Count", "category": "trash-bags" },
+    { "product_id": "B093WMWKBP", "name": "Amazon Basics Reclosable Gallon Food Storage Bags 120 Count", "category": "food-storage-bags" },
+    { "product_id": "B01MSSDEPK", "name": "CeraVe Hydrating Facial Cleanser", "category": "facial-cleanser" },
+    { "product_id": "B086KSDTQ4", "name": "Hanes mens Underwear Boxer Briefs Pack", "category": "mens-underwear" },
+    { "product_id": "B0D8DZN778", "name": "OEAK Womens Deep V Bras Wireless", "category": "wireless-bra" },
+    { "product_id": "B0F6VKZ4FB", "name": "LetsJoli Bras for Women Supportive Wireless Push Up Bra", "category": "wireless-bra" },
+    { "product_id": "B0DFWRY3KQ", "name": "4 Pairs Replacement Ear Tips for AirPods Pro 2nd/1st Gen", "category": "earphone-accessories" },
+    { "product_id": "B07SHFPD8S", "name": "Pipishell Full Motion TV Wall Mount 13-43 Inch", "category": "tv-wall-mount" },
+    { "product_id": "B07HF6YDYV", "name": "AUTOMAN Garden Hose Nozzle 7 Adjustable Patterns", "category": "garden-hose" },
+    { "product_id": "B09NMCQDC8", "name": "Crocs Kid's Classic Clog", "category": "kids-casual-clogs" },
+    { "product_id": "B07JCS8NRC", "name": "Gildan Men's Crew T-Shirts Multipack", "category": "mens-basic-tshirt" },
+    { "product_id": "B0FLFR269F", "name": "Charmin Ultra Soft Toilet Paper 6 Mega Rolls", "category": "toilet-paper" },
+    { "product_id": "B0FTGJGPTM", "name": "LMNT Zero Sugar Electrolytes Variety Pack 18-Count", "category": "electrolyte-hydration" },
+    { "product_id": "B01K1K0K6M", "name": "Step2 Rain Showers Splash Pond Water Table", "category": "bath-toys" },
+    { "product_id": "B07JCFWJ98", "name": "HOME GROWN Herb Seeds for Planting 15-Pack", "category": "vegetable-seeds" },
+    { "product_id": "B0DGXBJ51X", "name": "FNTCASE for Galaxy A17/A16 5G Phone Case", "category": "phone-drop-protection" }
+  ],
+  "new_categories": [
+    {
+      "category": "adult-clogs",
+      "description": "成人洞洞鞋舒適日常穿著",
+      "products": [
+        { "product_id": "B0014C0LSY", "name": "Crocs Unisex-Adult Classic Clog" }
+      ]
+    },
+    {
+      "category": "powder-foundation",
+      "description": "底妝粉底遮瑕均勻膚色",
+      "products": [
+        { "product_id": "B0725YPBPR", "name": "LAURA GELLER NEW YORK Baked Balance-n-Brighten Color Correcting Powder Foundation" }
+      ]
+    },
+    {
+      "category": "outdoor-inflatable-pool",
+      "description": "戶外充氣水池/日光浴泳池（成人戶外水上休閒）",
+      "products": [
+        { "product_id": "B09NVFT7HP", "name": "Jasonwell Inflatable Tanning Pool Lounger Float 4 in 1" }
+      ]
+    }
+  ],
+  "skipped": [
+    { "product_id": "B097C6KBV8", "name": "Metallica", "reason": "音樂唱片/非實體消費品" },
+    { "product_id": "B0GGSMCJQ4", "name": "BTS The 5th Album ARIRANG Living Legend Ver.", "reason": "K-Pop 音樂唱片" },
+    { "product_id": "B0GGTC8K2B", "name": "BTS The 5th Album ARIRANG Rooted in Korea Ver.", "reason": "K-Pop 音樂唱片" },
+    { "product_id": "B0GGTTQT46", "name": "BTS The 5th Album ARIRANG Rooted in Music Ver.", "reason": "K-Pop 音樂唱片" },
+    { "product_id": "B0FG888V4D", "name": "KPop Demon Hunters Soundtrack LP", "reason": "音樂唱片" },
+    { "product_id": "B0G9TQ36NQ", "name": "The Way I Am", "reason": "音樂唱片/書籍" },
+    { "product_id": "JCQ6HR559F", "name": "Carnival Games Standard Edition Windows Digital", "reason": "數位遊戲訂閱" },
+    { "product_id": "J33V32CTJ7", "name": "Blizzard Entertainment $50 Blizzard Balance Code Digital", "reason": "數位點數/訂閱" },
+    { "product_id": "JCQ6HSYTX9", "name": "Carnival Games Xbox One Digital", "reason": "數位遊戲訂閱" },
+    { "product_id": "JCQ6HWT5CQ", "name": "EA Sports FC 25 Standard Edition Windows Digital", "reason": "數位遊戲訂閱" },
+    { "product_id": "JJGXP2VCS6", "name": "EA Sports FC 25 Ultimate Edition Xbox Series X Digital", "reason": "數位遊戲訂閱" }
+  ],
+  "category_distribution": {
+    "existing_categories_updated": [
+      "streaming-stick", "e-reader", "baby-wipes", "baby-diaper", "baby-sunscreen",
+      "baby-safety-lock", "wireless-earbuds", "phone-drop-protection", "art-supplies",
+      "squishy-toy", "party-balloon", "trash-bags", "food-storage-bags", "facial-cleanser",
+      "mens-underwear", "wireless-bra", "earphone-accessories", "tv-wall-mount",
+      "garden-hose", "kids-casual-clogs", "mens-basic-tshirt", "toilet-paper",
+      "electrolyte-hydration", "bath-toys", "vegetable-seeds"
+    ]
+  }
+}

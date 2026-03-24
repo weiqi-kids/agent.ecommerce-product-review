@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-24",
+  "platform": "amazon_us",
+  "fetch_stats": {
+    "total_asins": 118,
+    "successful": 118,
+    "failed": 0,
+    "zero_reviews": 6,
+    "jsonl_files": 112
+  },
+  "extraction_stats": {
+    "total_extracted": 112,
+    "review_needed": 36,
+    "clean": 76
+  },
+  "review_distribution": {
+    "0_reviews": 6,
+    "1_to_9_reviews": 30,
+    "10_plus_reviews": 76
+  },
+  "sources": {
+    "existing_categories": 30,
+    "new_categories": 3,
+    "competitors": 81,
+    "gap_fill": 4
+  },
+  "new_categories": ["adult-clogs", "powder-foundation", "outdoor-inflatable-pool"],
+  "gap_fill_asins": ["B0D3PZLZ3N", "B0F6TWJPMX", "B0DSWMYSYT", "B0CYJBB2JQ"],
+  "notes": "初次使用 --headless false 模式（Amazon ERR_FAILED 封鎖 headless）。每產品平均 8-13 則評論（商品頁模式，非登入評論專頁）。"
+}

@@ -1,341 +1,118 @@
-# Amazon US 商品 URL 清單
-# 每行一個 URL，# 開頭為註解
-# 格式：https://www.amazon.com/dp/{ASIN}
-
-# === 測試商品（熱門電子產品）===
-https://www.amazon.com/dp/B0D1XD1ZV3
-# Apple AirPods Pro (2nd Gen, USB-C) — electronics
-
-https://www.amazon.com/dp/B09XS7JWHH
-# Sony WH-1000XM5 — electronics
-
-https://www.amazon.com/dp/B0BSHF7WHW
-# Anker Soundcore Space A40 — electronics
-
-# === 測試商品（美妝保養）===
-https://www.amazon.com/dp/B00TTD9BRC
-# CeraVe Moisturizing Cream — beauty
-
-# === 派對用品（Party Supplies）===
-https://www.amazon.com/dp/B093672RHQ
-# GOER Number 30 Balloons for 30th Birthday — party-supplies
-
-https://www.amazon.com/dp/B0DK8HSQ9L
-# 50 PCS Football Party Supplies Napkins — party-supplies
-
-https://www.amazon.com/dp/B0DK22Y1KZ
-# JOYIN 28 PCS Valentines Cards with Keychains — party-supplies
-
-https://www.amazon.com/dp/B0G43VCG7C
-# Valentine Day Cards for Kids Classroom — party-supplies
-
-https://www.amazon.com/dp/B0G451Y3YF
-# 24 Pcs Monster Valentines Day Gifts — party-supplies
-
-https://www.amazon.com/dp/B0G3P71JWG
-# 6 Pcs Wooden Hearts Valentines Decor — party-supplies
-
-https://www.amazon.com/dp/B0G1L8J8PK
-# 50th Birthday Gifts for Her — party-supplies
-
-https://www.amazon.com/dp/B0G1Y9KZ3P
-# 100 Days of School Costume for Boys — party-supplies
-
-# === 競品（Step 3 研究發現）===
-https://www.amazon.com/dp/B074PVTPBW
-# Mighty Patch Original — acne-treatment (競品)
-
-# Differin Gel (Adapalene 0.1%) — acne-treatment (競品)
-
-https://www.amazon.com/dp/B00A6H33OW
-# Burt's Bees Original Beeswax Lip Balm — lip-care (競品)
-
-https://www.amazon.com/dp/B082TPDTM2
-# Lumineux Teeth Whitening Strips — teeth-whitening (競品)
-
-https://www.amazon.com/dp/B001T6JTMY
-# If You Care Parchment Paper — parchment-paper (競品)
-
-https://www.amazon.com/dp/B00006IDL6
-# Band-Aid Flexible Fabric — wound-bandage (競品)
-
-https://www.amazon.com/dp/B0B6R8N6WQ
-# Sabre Quick Release Keychain Pepper Spray — pepper-spray (競品)
-
-https://www.amazon.com/dp/B0CH38DGNY
-# DUMOS 9-Drawer Dresser — dresser-drawer (競品)
-
-# === 2026-02-07 排行榜發現（Playwright 抓取）===
-https://www.amazon.com/dp/B09V7Z4TJG
-# Medicube Zero Pore Pads 2.0 — acne-treatment
-
-https://www.amazon.com/dp/B081KL2QYJ
-# PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash — acne-treatment
-
-https://www.amazon.com/dp/B0CM2PPNMW
-# Medicube Collagen Jelly Cream — face-moisturizing
-
-https://www.amazon.com/dp/B0B2RM68G2
-# Biodance Bio-Collagen Real Deep Mask — face-moisturizing
-
-https://www.amazon.com/dp/B08KT2Z93D
-# eos Shea Better Body Lotion Vanilla Cashmere — body-moisturizing
-
-https://www.amazon.com/dp/B0D4NKT1TH
-# Tree Hut Vanilla Foaming Gel Wash — body-moisturizing
-
-# === 2026-02-08 排行榜發現（增量更新）===
-https://www.amazon.com/dp/B0DBRVHR38
-# RoC Derm Correxion Retinol Firming Serum Stick — body-firming
-
-https://www.amazon.com/dp/B0FB9LWGY5
-# (待識別) — Beauty #48
-
-https://www.amazon.com/dp/B0B854YTCF
-# (待識別) — Beauty #49
-
-https://www.amazon.com/dp/B0B1CNJL7N
-# upsimples 8x10 Picture Frame — picture-frame
-
-https://www.amazon.com/dp/B07V6M4MSN
-# Amazon Basics Ceramic Space Heater — space-heater
-
-https://www.amazon.com/dp/B00OCGUG02
-# (待識別) — Home-Kitchen #44
-
-https://www.amazon.com/dp/B01M0AGUPO
-# (待識別) — Home-Kitchen #50
-
-# === 2026-02-09 推薦替代品 ===
-https://www.amazon.com/dp/B099XCDQDS
-# Hefty ECOSAVE Compostable Plates — party-tableware (推薦替代 Hefty Party Cups B00OCGUG02)
-
-# === 2026-02-10 排行榜發現 ===
-https://www.amazon.com/dp/B011KMZ2WW
-# O'Keeffe's Working Hands Hand Cream 3oz — hand-care (新類別)
-
-https://www.amazon.com/dp/B00SNPCSUY
-# CeraVe Skin Renewing Night Cream — face-moisturizing
-
-# === 2026-02-11 排行榜發現 ===
-https://www.amazon.com/dp/B0DK4Y2YP3
-# celimax The Vita A Retinal Shot Tightening Booster — anti-aging-serum
-
-https://www.amazon.com/dp/B07SRRLVQ1
-# Aquaphor Lip Repair Stick — lip-care
-
-# === 2026-02-11 補充處理（原跳過產品）===
-https://www.amazon.com/dp/B08CRPWQHB
-# BigFoot Shower Curtain — shower-curtain (新類別)
-
-https://www.amazon.com/dp/B0BQR2BQYZ
-# upsimples 11x14 Picture Frame — picture-frame
-
-https://www.amazon.com/dp/B0C4Z6SKCS
-# Amazon Basics Coffee Filters — coffee-filter (新類別)
-
-https://www.amazon.com/dp/B0CYJBB2JQ
-# bella Toaster — toaster (新類別)
-
-https://www.amazon.com/dp/B0DLN1B4MJ
-# Pink Backdrop — photo-backdrop (新類別)
-
-# === 2026-02-13 新發現產品 ===
-# Step 5 研究發現的新類別產品
-
-# dandruff-treatment
-https://www.amazon.com/dp/B00AINMFAC
-# Nizoral Anti-Dandruff Shampoo
-
-# mascara
-https://www.amazon.com/dp/B00T0C9XRK
-# essence Lash Princess
-https://www.amazon.com/dp/B08H3JPH74
-# Maybelline Sky High
-
-# makeup-removal
-https://www.amazon.com/dp/B00U2VQZDS
-# Neutrogena Makeup Remover Wipes
-https://www.amazon.com/dp/B07GKVBQDG
-# Neutrogena Wipes Singles
-
-# eye-puffiness
-https://www.amazon.com/dp/B014E2D6BY
-# grace & stella Under Eye Mask
-
-# facial-cleanser
-https://www.amazon.com/dp/B01MSSDEPK
-# CeraVe Hydrating Facial Cleanser
-
-# hydrating-serum
-https://www.amazon.com/dp/B01MYEZPC8
-# The Ordinary Hyaluronic Acid 2% + B5
-
-# exfoliating-toner
-https://www.amazon.com/dp/B071914GGL
-# The Ordinary Glycolic Acid 7%
-
-# natural-deodorant
-https://www.amazon.com/dp/B07GB3NVN1
-# Native Deodorant
-
-# face-towels
-https://www.amazon.com/dp/B07PBXXNCY
-# Clean Skin Club Clean Towels XL
-
-# hair-growth-supplement
-https://www.amazon.com/dp/B07QZ5CTTF
-# Nutrafol Women's Balance
-
-# brightening-serum
-https://www.amazon.com/dp/B0D8W1YVBX
-# EQQUALBERRY Vitamin C Serum
-
-# collagen-mask
-https://www.amazon.com/dp/B0BRMYHMS5
-# medicube Collagen Wrapping Mask
-
-# === 2026-02-20 新類別競品 ===
-
-# disposable-gloves（一次性手套）
-https://www.amazon.com/dp/B00GS8W3T4
-# MedPride Nitrile Exam Gloves — disposable-gloves
-https://www.amazon.com/dp/B008N0W9IA
-# AMMEX Blue Nitrile Gloves — disposable-gloves
-https://www.amazon.com/dp/B0035LTDMW
-# AMMEX Black Nitrile Gloves — disposable-gloves
-https://www.amazon.com/dp/B00MGSGRIS
-# Curad Nitrile Exam Gloves — disposable-gloves
-https://www.amazon.com/dp/B086GJ5NM7
-# Venom Steel Nitrile Gloves — disposable-gloves
-https://www.amazon.com/dp/B08697R55N
-# Hardy Latex-Free Nitrile Gloves — disposable-gloves
-https://www.amazon.com/dp/B097CBWMYR
-# Gloveworks Black Nitrile Gloves — disposable-gloves
-https://www.amazon.com/dp/B0GNP61R9B
-# Ventyv NE1 Nitrile Gloves — disposable-gloves
-
-# water-bottle（保溫瓶）
-https://www.amazon.com/dp/B085DTZQNZ
-# Owala FreeSip Water Bottle — water-bottle
-https://www.amazon.com/dp/B0CRMTWY41
-# Stanley Quencher H2.0 Tumbler — water-bottle
-https://www.amazon.com/dp/B09HSS42P7
-# Hydro Flask Standard Mouth — water-bottle
-https://www.amazon.com/dp/B0CKWJ3XDZ
-# YETI Rambler — water-bottle
-https://www.amazon.com/dp/B0DF4LJGV5
-# S'well Stainless Steel Bottle — water-bottle
-
-# kitchen-scale（廚房秤）
-https://www.amazon.com/dp/B079D9B82W
-# OXO Good Grips Kitchen Scale — kitchen-scale
-https://www.amazon.com/dp/B0007GAWRS
-# Escali Primo Digital Scale — kitchen-scale
-https://www.amazon.com/dp/B0113UZJE2
-# Etekcity Food Kitchen Scale — kitchen-scale
-https://www.amazon.com/dp/B004164SRA
-# Ozeri Pronto Digital Scale — kitchen-scale
-https://www.amazon.com/dp/B00VEKX35Y
-# MyWeigh KD-8000 Scale — kitchen-scale
-https://www.amazon.com/dp/B0CF9PYFTZ
-# Greater Goods Kitchen Scale — kitchen-scale
-https://www.amazon.com/dp/B07S6F6LHQ
-# Nicewell 22-lb Scale — kitchen-scale
-https://www.amazon.com/dp/B06X9NQ8GX
-# Etekcity Luminary Scale — kitchen-scale
-https://www.amazon.com/dp/B085VPPGZG
-# KitchenTour Digital Scale — kitchen-scale
-https://www.amazon.com/dp/B07YP9KN8P
-# INEVIFIT Kitchen Scale — kitchen-scale
-https://www.amazon.com/dp/B002SVNEWA
-# American Weigh Scales LB-501 — kitchen-scale
-https://www.amazon.com/dp/B06XCZFDZG
-# Amazon Basics Kitchen Scale — kitchen-scale
-https://www.amazon.com/dp/B086H6ZF37
-# KOIOS Kitchen Scale — kitchen-scale
-https://www.amazon.com/dp/B0885Q6S45
-# Etekcity Nutrition Scale — kitchen-scale
-
-# Discovery 新產品（2026-02-20）
-https://www.amazon.com/dp/B0C2CY22B8
-# Amazon Basics Paper Plates — party-tableware
-https://www.amazon.com/dp/B0DCH8VDXF
-# Apple EarPods USB-C — wired-earbuds
-
-# === 2026-03-04 排行榜發現 ===
-https://www.amazon.com/dp/B07MHJFRBJ
-# Bounty Quick Size Paper Towels — paper-towels
-
-https://www.amazon.com/dp/B011LOOKV8
-# 50 Wheat Pennies Unsearched — collectible-coins
-
-https://www.amazon.com/dp/B0CFYYBHK3
-# Lincoln Wheat Cent Copper Round — collectible-coins
-
-https://www.amazon.com/dp/B00NTCH52W
-# Amazon Basics 20-Pack AA Batteries — aa-batteries
-
-https://www.amazon.com/dp/B09541P9WH
-# Amazon Basics Cotton Swabs 500 Count — cotton-swabs
-
-https://www.amazon.com/dp/B07K9Q32MR
-# Morgan Silver Dollar Pre 1921 — collectible-coins
-
-https://www.amazon.com/dp/B07RZ4DJLL
-# Unsearched Wheat Penny Roll w/Mercury Dime — collectible-coins
-
-https://www.amazon.com/dp/B07SH31T9V
-# LMNT Zero Sugar Electrolytes — electrolyte-hydration
-
-https://www.amazon.com/dp/B0CQN17539
-# 2025 American Silver Eagle — collectible-coins
-
-https://www.amazon.com/dp/B00EMGAO5Y
-# Walking Liberty Fine Copper — collectible-coins
-
-https://www.amazon.com/dp/B086KSDTQ4
-# Hanes Men's Boxer Briefs — mens-underwear
-
-https://www.amazon.com/dp/B0CG5P42QH
-# G4Free Wide Leg Yoga Pants — womens-yoga-pants
-
-https://www.amazon.com/dp/B0D8DZN778
-# OEAK Women Deep V Wireless Bra — wireless-bra
-
-https://www.amazon.com/dp/B0CYZM5RSM
-# ANRABESS Women Rib Knit T-Shirt — womens-basic-tops
-
-https://www.amazon.com/dp/B0F5X4FM3Q
-# 0.5 Sec Instant Read Meat Thermometer — meat-thermometer
-
-https://www.amazon.com/dp/B09NMFFG8B
-# Crocs Kid's Classic Clog — kids-casual-shoes
-
-https://www.amazon.com/dp/B0CP9YB3Q4
-# STANLEY Quencher H2.0 Tumbler 30 oz — water-bottle
-
-# 2026-03-12 Discovery - Existing Categories
-https://www.amazon.com/dp/B0FQFB8FMG
-https://www.amazon.com/dp/B0DZ75TN5F
-https://www.amazon.com/dp/B0GS4L56N7
-https://www.amazon.com/dp/B0F6TWJPMX
-https://www.amazon.com/dp/B0GCMKDSJB
-https://www.amazon.com/dp/B0BN2PX8V3
-https://www.amazon.com/dp/B0BC4S63RV
-https://www.amazon.com/dp/B0D3PZLZ3N
-https://www.amazon.com/dp/B0DSWMYSYT
-https://www.amazon.com/dp/B0GS3FL9MB
-
-# 2026-03-12 Discovery - New Categories
-https://www.amazon.com/dp/B0GS3FC7CS
-https://www.amazon.com/dp/B0GS5G9RYW
-https://www.amazon.com/dp/B0GS47XBBD
-https://www.amazon.com/dp/B0GS3FS4ZT
-https://www.amazon.com/dp/B0GS3LG2VB
-https://www.amazon.com/dp/B0F4KSBJSK
-https://www.amazon.com/dp/B0GS6CCXCJ
-https://www.amazon.com/dp/B0GS6Q14K2
-https://www.amazon.com/dp/B0DK9VZC5B
-https://www.amazon.com/dp/B0GS5852CG
-https://www.amazon.com/dp/B0FP46WTCN
+B0009IR3UI
+B000ALBLXE
+B000HDNWFK
+B000HKXDS4
+B000MBUOOO
+B000MBVTZM
+B000O1B04U
+B0014C0LSY
+B0017QK4DE
+B001BKLOJO
+B001EJMRVQ
+B001GKRZLU
+B001T9D35U
+B006ZUGF3U
+B0080G8Q2U
+B00AO0C6Y4
+B00BGSRIBE
+B00C78UMU6
+B00HZ6N388
+B00JHKTDQG
+B00PFCSNWA
+B00PFCSO1U
+B00PFCSQCC
+B00SSFLYZY
+B00VQS4IPS
+B01BRD1RZU
+B01BRD1TIU
+B01BRD1TPI
+B01K1K0K6M
+B01KQ2XA3A
+B01M30IPBS
+B01MSSDEPK
+B06Y48N3YT
+B0725YPBPR
+B073FK34DJ
+B073FQN4QD
+B078X5V3K9
+B07DX3QQM4
+B07G97NX94
+B07HF6YDYV
+B07JCFWJ98
+B07JCS8NRC
+B07NLDQLTN
+B07NRMY9CX
+B07P7GTFLX
+B07SHFPD8S
+B07ZG7D8M2
+B083VT9WN3
+B0856RFPR5
+B0856WC7TV
+B08576C8K7
+B086KSDTQ4
+B086LKQDJG
+B087ZQKV1T
+B08C1FBWYD
+B08GR514T1
+B08GR5ZKVR
+B08GR69YJX
+B08QZZ32WM
+B08R2WZ7DT
+B08RN8MQLT
+B093WMWKBP
+B0942S3DZ7
+B095KX121H
+B09BKCDXZC
+B09CD6Z7GB
+B09K4FPY9H
+B09NMCQDC8
+B09NVFT7HP
+B09P4RLXWK
+B09VTBP678
+B09WF9K711
+B0B2VMYM7W
+B0B51DMYJB
+B0B51F821P
+B0BDQXLT4C
+B0BFWC11BP
+B0BHGBTRV9
+B0BW1GG1YD
+B0BXHNVQX6
+B0CCPJWK7M
+B0CCPKY84Q
+B0CCPKZS7R
+B0CCPL84MT
+B0CCPM3BBY
+B0CDX45NQH
+B0CFQFY5Y8
+B0CG112JCG
+B0CGB1GDSK
+B0CJR8731D
+B0CKKY58L5
+B0CKV2VGX1
+B0CNV9F72P
+B0CR6S4K17
+B0CRK18NFJ
+B0CXXXWS8M
+B0CYJBB2JQ
+B0D3PZLZ3N
+B0D8DZN778
+B0DDVH2NK2
+B0DFWRY3KQ
+B0DGXBJ51X
+B0DKTMPJDN
+B0DN6TZG4C
+B0DSWMYSYT
+B0DTV5W8FL
+B0DVQCFCC6
+B0F6TWJPMX
+B0F6VKZ4FB
+B0F8Y5NLBP
+B0FCJQRX2Y
+B0FFGCH231
+B0FFT8P8XP
+B0FHWKYT89
+B0FLFR269F
+B0FTGJGPTM
+B0GQZBWFXS
+B0GRR2HS6J

@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "category": "outdoor-inflatable-pool",
+    "date": "2026-03-24",
+    "problem_definition": "在後院快速架設可供家人夏季戲水/消暑的泳池，成本低、安裝簡便、安全耐用",
+    "products_analyzed": 8,
+    "total_products_in_category": 18,
+    "data_confidence": "low-medium（多數產品評論數 7-13 則，低於理想值）"
+  },
+
+  "overall_verdict": {
+    "can_solve_problem": true,
+    "verdict_summary": "充氣泳池整體上能解決「後院消暑戲水」需求，但產品品質差異明顯。入門充氣式（Intex Easy Set、Bestway Fast Set）功能有效但壽命有限（1-2 個夏季）；設計師品牌（MINNIDIP）品質不達標，不建議購買；框架式（Intex Prism Frame）耐用性更佳但安裝較複雜。報告類型建議：比較報告（能解決問題但有明顯選擇差異）。"
+  },
+
+  "negative_classification": {
+    "functional_failure": {
+      "label": "❌ 無法解決問題（漏氣/破裂）",
+      "affected_products": ["B087ZQKV1T（MINNIDIP）"],
+      "description": "MINNIDIP 25% 用戶回報出廠即有針孔漏氣、接縫坍塌，waterproof 分數僅 0.33，durability 僅 0.18，核心功能失效率高"
+    },
+    "new_problems": {
+      "label": "⚠️ 產生新問題（副作用）",
+      "affected_products": ["B09WF9K711（Funsicle Great Escape）", "B073FK34DJ（Intex Prism Frame）"],
+      "description": "Funsicle 排水口位於底部，排水時整個泳池需翻轉，實際使用中會造成水漬堆積與清潔困難；Prism Frame 12% 用戶回報出廠瑕疵（泳池蓋破損），客服評分僅 0.51"
+    },
+    "unrelated_issues": {
+      "label": "📦 與產品無關（物流/使用誤解）",
+      "affected_products": ["B000O1B04U（Intex Family Lounge）", "B08QZZ32WM（Bestway Paradise Palms）", "B095KX121H（Bestway Fast Set 10ft）"],
+      "description": "部分充氣環不保氣問題源自閥門未鎖緊（操作問題）；Bestway Paradise Palms 棕櫚樹噴水功能在大風環境下效果差（地理環境限制）；8% 物流投訴"
+    }
+  },
+
+  "product_comparison": [
+    {
+      "rank": 1,
+      "asin": "B073FQN4QD",
+      "name": "Intex Easy Set 15ft x 42in",
+      "price": "N/A（通常 $100-$150）",
+      "avg_rating": 4.05,
+      "review_count": 13778,
+      "segment": "快速充氣大尺寸",
+      "scores": {
+        "functionality": 0.95,
+        "safety": 0.90,
+        "value": 1.00,
+        "usability": 0.80
+      },
+      "composite_score": 0.91,
+      "strengths": ["最多用戶評論（13,778 則），市場驗證充分", "ease_of_use 0.80、value_for_money 1.00", "附 1,000 GPH 幫浦+梯子+蓋子+地墊，完整套組"],
+      "weaknesses": ["1/7 評論提及接縫漏水（低信心度）", "需完全水平地面"],
+      "recommendation": "大家庭首選，CP 值最高"
+    },
+    {
+      "rank": 2,
+      "asin": "B000MBUOOO",
+      "name": "Intex Easy Set 10ft x 30in",
+      "price": 57.15,
+      "avg_rating": 4.15,
+      "review_count": 10070,
+      "segment": "快速充氣入門",
+      "scores": {
+        "functionality": 0.90,
+        "safety": 0.85,
+        "value": 1.00,
+        "usability": 0.96
+      },
+      "composite_score": 0.93,
+      "strengths": ["ease_of_use 0.96 最高分", "value_for_money 1.00", "10,070 則評論廣泛驗證", "$57 入門首選"],
+      "weaknesses": ["僅 8 則評論分析（信心度低）", "頂環長期保氣需定期補氣（競品清單記錄）"],
+      "recommendation": "預算有限、小家庭最佳選擇"
+    },
+    {
+      "rank": 3,
+      "asin": "B000O1B04U",
+      "name": "Intex Swim Center Family Lounge",
+      "price": 22.99,
+      "avg_rating": 4.15,
+      "review_count": 19154,
+      "segment": "家庭座椅休閒款",
+      "scores": {
+        "functionality": 0.76,
+        "safety": 0.80,
+        "value": 0.76,
+        "usability": 0.39
+      },
+      "composite_score": 0.68,
+      "strengths": ["評論數最多（19,154 則），最高市場驗證", "$22.99 最平價", "4 座附靠背+杯架"],
+      "weaknesses": ["comfort 0.39（坐著時雙腳易碰觸）", "ease_of_use 0.39（低於市場均值）", "水深不足（26 吋）"],
+      "recommendation": "成人泡水/聊天用途，非主動戲水首選"
+    },
+    {
+      "rank": 4,
+      "asin": "B095KX121H",
+      "name": "Bestway Fast Set 10ft x 26in",
+      "price": 70.50,
+      "avg_rating": 3.75,
+      "review_count": 543,
+      "segment": "快速充氣競品",
+      "scores": {
+        "functionality": 0.76,
+        "safety": 0.75,
+        "value": 0.76,
+        "usability": 0.63
+      },
+      "composite_score": 0.73,
+      "strengths": ["Tritech 三層材質", "waterproof 0.76、durability 0.76"],
+      "weaknesses": ["customer_service 0.43（最低分）", "幫浦不含在內（需另購）", "說明書不清晰"],
+      "recommendation": "可接受，但 Intex Easy Set 同價位競爭力更強"
+    },
+    {
+      "rank": 5,
+      "asin": "B073FK34DJ",
+      "name": "Intex Prism Frame 15ft x 42in",
+      "price": 51399,
+      "avg_rating": 3.65,
+      "review_count": 78,
+      "segment": "框架式（耐用）",
+      "scores": {
+        "functionality": 0.82,
+        "safety": 0.70,
+        "value": 0.86,
+        "usability": 0.65
+      },
+      "composite_score": 0.76,
+      "notes": "⚠️ 價格顯示 $51,399 疑為資料錯誤，實際市場價 $200-$400",
+      "strengths": ["durability 0.82（最耐用框架式）", "value_for_money 0.86", "適合長期使用（4-5 年壽命）"],
+      "weaknesses": ["ease_of_use 0.65（組裝實際 3 小時）", "customer_service 0.51（出廠瑕疵問題）", "評論數僅 78 則（信心度低）"],
+      "recommendation": "長期投資首選，短期娛樂不划算"
+    },
+    {
+      "rank": 6,
+      "asin": "B09WF9K711",
+      "name": "Funsicle Great Escape 8.7ft",
+      "price": 13229,
+      "avg_rating": 4.15,
+      "review_count": 73,
+      "segment": "家庭座椅休閒款",
+      "scores": {
+        "functionality": 0.51,
+        "safety": 0.70,
+        "value": 0.63,
+        "usability": 0.51
+      },
+      "composite_score": 0.59,
+      "notes": "⚠️ 價格顯示 $13,229 疑為資料錯誤，實際市場價 $100-$150",
+      "strengths": ["comfort 0.88（座椅設計佳）", "2025 Family Choice Award"],
+      "weaknesses": ["waterproof 0.51（需每日補水）", "排水孔設計不良（底部）", "durability 0.26（材質偏薄）"],
+      "recommendation": "座椅設計有亮點但防漏問題未解決，謹慎選購"
+    },
+    {
+      "rank": 7,
+      "asin": "B08QZZ32WM",
+      "name": "Bestway Paradise Palms 15ft x 33in",
+      "price": "N/A（$120-$180）",
+      "avg_rating": 3.75,
+      "review_count": 543,
+      "segment": "設計師/功能款",
+      "scores": {
+        "functionality": 0.76,
+        "safety": 0.70,
+        "value": 0.76,
+        "usability": 0.63
+      },
+      "composite_score": 0.71,
+      "strengths": ["棕櫚樹噴水功能增加趣味", "DuraPlus 三層材質", "waterproof 0.76"],
+      "weaknesses": ["功能特色（棕櫚樹）在大風環境失效", "customer_service 0.43", "競品清單記錄評分 3.4★（較低）"],
+      "recommendation": "若重視視覺吸引力可考慮，但核心功能與 Bestway Fast Set 10ft 相同卻更貴"
+    },
+    {
+      "rank": 8,
+      "asin": "B087ZQKV1T",
+      "name": "MINNIDIP Blushing Palms",
+      "price": 23.99,
+      "avg_rating": 3.25,
+      "review_count": 51,
+      "segment": "設計師品牌",
+      "scores": {
+        "functionality": 0.33,
+        "safety": 0.50,
+        "value": 0.51,
+        "usability": 0.39
+      },
+      "composite_score": 0.43,
+      "strengths": ["設計美觀", "快速出貨"],
+      "weaknesses": ["waterproof 0.33（核心功能嚴重失效）", "durability 0.18（最低分）", "25% 用戶回報出廠漏氣/接縫問題", "退貨成本高（$39 運費）"],
+      "warning": "❌ 不建議購買：核心防漏功能失效，且售後服務差，退貨困難",
+      "recommendation": "不推薦"
+    }
+  ],
+
+  "segment_verdicts": {
+    "快速充氣入門款（Easy Set/Fast Set）": {
+      "verdict": "✅ 能解決問題",
+      "best_pick": "Intex Easy Set 10ft（B000MBUOOO）或 15ft（B073FQN4QD）",
+      "notes": "壽命 1-2 個夏季，接受此前提下 CP 值最高"
+    },
+    "家庭座椅休閒款": {
+      "verdict": "⚖️ 部分解決問題",
+      "best_pick": "Intex Family Lounge（B000O1B04U）",
+      "notes": "主動戲水需求不足，適合成人泡水聊天"
+    },
+    "框架式": {
+      "verdict": "✅ 能解決問題（最耐用）",
+      "best_pick": "Intex Prism Frame 15ft（B073FK34DJ）",
+      "notes": "適合長期投資，安裝複雜但壽命 4-5 年"
+    },
+    "設計師品牌": {
+      "verdict": "❌ MINNIDIP 不能解決問題；Bestway Paradise Palms 勉強",
+      "best_pick": "N/A",
+      "notes": "設計溢價但品質不支撐功能需求"
+    }
+  },
+
+  "cross_product_insights": {
+    "universal_limitation": "所有充氣泳池（框架式除外）壽命有限，1-2 個夏季後需更換，屬消耗品心態",
+    "pump_issue": "幾乎所有產品的附贈過濾幫浦功率不足，長期使用需升級幫浦（建議另購 Intex 1,500+ GPH 幫浦）",
+    "surface_requirement": "所有產品均需完全水平地面，這是最常被忽略的使用條件",
+    "chemical_safety": "MINNIDIP 聲稱 phthalate-free/non-toxic；Evajoy 聲稱 BPA-free PVC。其他品牌未明確標示，安全意識高的家庭應優先選擇有明確標示的產品"
+  },
+
+  "recommended_report_type": "comparison",
+  "report_rationale": "多數產品能解決問題但品質差異顯著，有明確的優劣排名，適合比較報告。MINNIDIP 可獨立出一條警告訊息附在報告內。",
+
+  "data_quality_notes": {
+    "price_anomalies": ["B073FK34DJ 價格顯示 $51,399（異常，實際約 $200-$400）", "B09WF9K711 價格顯示 $13,229（異常，實際約 $100-$150）"],
+    "low_review_count": ["大多數產品評論樣本 7-13 則，信心度 low-medium", "B087ZQKV1T（51 則）、B073FK34DJ（78 則）評論基礎較薄"],
+    "review_needed_flags": ["B000MBUOOO、B073FK34DJ、B087ZQKV1T、B09WF9K711、B073FQN4QD 標記 [REVIEW_NEEDED]"]
+  }
+}

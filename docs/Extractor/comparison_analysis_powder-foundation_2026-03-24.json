@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "category": "powder-foundation",
+    "analysis_date": "2026-03-24",
+    "products_analyzed": 36,
+    "products_sampled": 8,
+    "data_sources": ["amazon_us"],
+    "research_file": "docs/Extractor/research/powder-foundation--2026-03-24.md",
+    "competitors_file": "docs/Extractor/competitors/powder-foundation--2026-03-24.md"
+  },
+  "core_question": "這些粉底產品相比競品，是否真的能解決「膚色不均/瑕疵遮蓋」問題？",
+  "verdict": "能解決問題，但勝出產品依膚質和預算而異",
+  "verdict_type": "比較報告",
+
+  "dimension_scores": {
+    "functionality": {
+      "label": "遮瑕力 + 持妝度",
+      "notes": "多數產品可解決膚色不均，但遮蓋力聲稱普遍誇大（「全遮蓋」實際為中等）；IT CC+ Airbrush 和 bareMinerals BAREPRO 在持妝度方面評論最一致"
+    },
+    "safety": {
+      "label": "安全性 + 成分",
+      "notes": "整體安全性良好；IT Cosmetics 含膠原蛋白/玻尿酸積極加分；IT Celebration 有少數乾澀/不適回報（⚠️ 產生新問題：乾性肌適用性差）；MUFE Amazon 抽樣僅 2 則評論，其中 50% 負評（卡粉、色號不符），資料不足"
+    },
+    "value": {
+      "label": "性價比",
+      "notes": "Maybelline Fit Me（$3.29）和 L'Oréal Infallible（$14.97）性價比最高；高端品 Shiseido（~$45）和 Dior（~$65）功效溢價有限"
+    },
+    "experience": {
+      "label": "使用體驗 + 膚感 + 色號匹配",
+      "notes": "色號命名問題（Shiseido 色號命名不直觀、Laura Geller 色號有限）為跨品牌共同痛點；bareMinerals BAREPRO 的「dewy but not greasy」描述獲高頻重複；Tarte 有氣味偏舊問題"
+    }
+  },
+
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "type": "❌ 無法解決問題（遮蓋不住、脫妝）",
+      "products_affected": [
+        {
+          "asin": "B00BGSRIBE",
+          "name": "IT Cosmetics Celebration Foundation",
+          "evidence": "「Super drying, no coverage, tight dry uncomfortable cakey feeling」— 疑似配方改變導致部分用戶遮蓋失效",
+          "rate": "約 8%（1/12）"
+        },
+        {
+          "asin": "B0856RFPR5",
+          "name": "Shiseido Synchro Skin",
+          "evidence": "「لا تشترون」（阿拉伯語：不要買）— 語言異常，信心度中等",
+          "rate": "約 8%（1/13）"
+        }
+      ]
+    },
+    "creates_new_problem": {
+      "type": "⚠️ 產生新問題（乾澀、卡紋路、堵毛孔）",
+      "products_affected": [
+        {
+          "asin": "B00BGSRIBE",
+          "name": "IT Cosmetics Celebration Foundation",
+          "evidence": "「Have they changed it? Super drying, no coverage, tight dry uncomfortable cakey feeling on my skin」",
+          "issue": "配方疑似改動，乾性肌用戶反映強調細紋"
+        },
+        {
+          "asin": "B0CCPKY84Q",
+          "name": "Make Up For Ever HD Skin（Amazon 版本）",
+          "evidence": "「Makes my skin look cakey and not my color match. Also sits in my pores oddly」",
+          "note": "僅 2 則評論，資料不足，標記 [REVIEW_NEEDED]"
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "type": "📦 與產品無關（物流、包裝破損）",
+      "products_affected": [
+        {
+          "asin": "B08GR514T1",
+          "name": "L'Oréal Infallible Fresh Wear",
+          "evidence": "「El producto llega todo roto」（包裝破損）",
+          "rate": "約 8%（1/13）"
+        },
+        {
+          "asin": "B00PFCSNWA",
+          "name": "Maybelline Fit Me",
+          "evidence": "「constantly having to repurchase from wherever I can to receive a quick delivery」— 配送延遲問題",
+          "rate": "局部（shipping_packaging: 0.51）"
+        }
+      ]
+    }
+  },
+
+  "product_rankings": [
+    {
+      "rank": 1,
+      "asin": "B07ZG7D8M2",
+      "name": "IT Cosmetics CC+ Airbrush Perfecting Powder Foundation",
+      "price_usd": 38.00,
+      "avg_rating": 4.55,
+      "reviews_count": 3579,
+      "reviews_analyzed": 8,
+      "confidence": "low（需更多評論支撐）",
+      "review_needed": true,
+      "composite_score": 0.96,
+      "strengths": ["持妝度 0.96", "易用性 0.96", "毛孔模糊效果佳", "含抗老成分（膠原蛋白、玻尿酸、菸鹼醯胺）", "L5 無重大問題"],
+      "weaknesses": ["乾性肌易強調細紋"],
+      "best_for": "混合肌至油性肌、熟齡肌抗老需求",
+      "recommendation_count": "5+ 篇評測"
+    },
+    {
+      "rank": 2,
+      "asin": "B0DN6TZG4C",
+      "name": "bareMinerals BAREPRO 24HR Skin-Perfecting Powder Foundation",
+      "price_usd": null,
+      "avg_rating": 4.65,
+      "reviews_count": 1787,
+      "reviews_analyzed": 13,
+      "confidence": "medium",
+      "review_needed": false,
+      "composite_score": 0.95,
+      "strengths": ["外觀設計 0.97", "易用性 0.95", "無 Talc、純素、非粉刺性", "持妝度 0.76（部分用戶反映不足）", "L5 無重大問題"],
+      "weaknesses": ["持妝聲稱（24 小時）有部分反例：「doesn't last long」"],
+      "best_for": "油性至混合肌、清潔成分需求用戶",
+      "recommendation_count": "3+ 篇評測"
+    },
+    {
+      "rank": 3,
+      "asin": "B00PFCSNWA",
+      "name": "Maybelline Fit Me Matte + Poreless",
+      "price_usd": 3.29,
+      "avg_rating": 4.65,
+      "reviews_count": 82561,
+      "reviews_analyzed": 13,
+      "confidence": "medium",
+      "review_needed": false,
+      "composite_score": 0.92,
+      "strengths": ["性價比最高（$3.29，性能媲美高端品）", "效果 0.90", "易用性 0.90", "一個粉餅可用 2 年以上", "82,000+ 評論最高可信度"],
+      "weaknesses": ["遮蓋力有限（輕薄至中等）", "非全遮蓋需求者不適合"],
+      "best_for": "預算有限、輕遮瑕/控油定妝需求",
+      "recommendation_count": "4+ 篇評測"
+    },
+    {
+      "rank": 4,
+      "asin": "B08GR514T1",
+      "name": "L'Oréal Infallible 24HR Fresh Wear Foundation in a Powder",
+      "price_usd": 14.97,
+      "avg_rating": 4.35,
+      "reviews_count": 35445,
+      "reviews_analyzed": 13,
+      "confidence": "medium",
+      "review_needed": false,
+      "composite_score": 0.97,
+      "strengths": ["持妝度 0.88", "外觀 1.00", "性價比 1.00", "防水、無香精、色號多"],
+      "weaknesses": ["部分色號粉碎（物流問題）", "遮蓋力廣告稱「全遮蓋」實際偏中等"],
+      "best_for": "中等預算、需要防水持妝、中等遮蓋",
+      "recommendation_count": "3+ 篇評測"
+    },
+    {
+      "rank": 5,
+      "asin": "B001GKRZLU",
+      "name": "Clinique Stay-Matte Sheer Pressed Powder",
+      "price_usd": 32.40,
+      "avg_rating": 4.65,
+      "reviews_count": 3612,
+      "reviews_analyzed": 13,
+      "confidence": "medium",
+      "review_needed": false,
+      "composite_score": 0.91,
+      "strengths": ["外觀 0.92", "控油效果", "過敏測試通過、無香精"],
+      "weaknesses": ["僅薄透遮蓋（定妝用途而非基礎粉底）", "評論數少（L3 僅 9 mentions）"],
+      "best_for": "油性肌定妝補粉，非遮蓋主力",
+      "recommendation_count": "2+ 篇評測"
+    },
+    {
+      "rank": 6,
+      "asin": "B0856RFPR5",
+      "name": "Shiseido Synchro Skin Self-Refreshing Powder Foundation",
+      "price_usd": 24.00,
+      "avg_rating": 4.65,
+      "reviews_count": 315,
+      "reviews_analyzed": 13,
+      "confidence": "medium（評論數少）",
+      "review_needed": false,
+      "composite_score": 0.97,
+      "strengths": ["外觀 0.95", "24 小時持妝技術", "防藍光/抗汙染"],
+      "weaknesses": ["色號命名不直觀（Shell/Linen/Quartz）難以選色", "16 色號偏少", "僅 315 評論，可信度受限"],
+      "best_for": "混合/油性肌、追求日系科技粉底",
+      "recommendation_count": "2+ 篇評測"
+    },
+    {
+      "rank": 7,
+      "asin": "B00BGSRIBE",
+      "name": "IT Cosmetics Celebration Foundation",
+      "price_usd": 39.50,
+      "avg_rating": 4.65,
+      "reviews_count": 3608,
+      "reviews_analyzed": 12,
+      "confidence": "medium",
+      "review_needed": false,
+      "composite_score": 0.84,
+      "strengths": ["易用性 0.84", "外觀 1.00", "含抗老成分"],
+      "weaknesses": ["⚠️ 疑似配方改動：有乾澀/無遮蓋力/卡粉回報", "material_quality 0.51（mixed）", "comfort 0.01（最低）"],
+      "best_for": "正常至偏乾性肌（乾性肌需謹慎）",
+      "recommendation_count": "2+ 篇評測",
+      "flag": "⚠️ 疑似配方改動，需持續監控"
+    },
+    {
+      "rank": 8,
+      "asin": "B0CCPJWK7M",
+      "name": "Tarte Amazonian Clay Blurring Powder Foundation",
+      "price_usd": null,
+      "avg_rating": 4.25,
+      "reviews_count": 164,
+      "reviews_analyzed": 8,
+      "confidence": "low",
+      "review_needed": true,
+      "composite_score": 0.88,
+      "strengths": ["外觀 1.00", "遮瑕效果好（無需底妝層疊）", "純素配方"],
+      "weaknesses": ["氣味有酸敗感（「smells really old and dusty」）", "有包裝品質投訴（$40 卻崩散）", "評論數僅 164 筆"],
+      "best_for": "油性至混合肌，需要全遮蓋單品",
+      "recommendation_count": "2+ 篇評測",
+      "flag": "⚠️ 氣味問題需關注；評論數少，信心度低"
+    }
+  ],
+
+  "cross_competitor_verdict": {
+    "solves_core_problem": true,
+    "explanation": "整體而言，本次分析的粉底產品確實能解決「膚色不均/瑕疵遮蓋」問題，但效果分化明顯。IT Cosmetics CC+ Airbrush（第 1 名）和 bareMinerals BAREPRO（第 2 名）在功效與使用體驗上持續領先；Maybelline Fit Me 以極低價格達到相近效果，性價比最優。但無一產品在「全遮蓋」聲稱上得到完整評論驗證，均為「Partially Supported」。",
+    "key_differentiators": [
+      "膚質匹配：油性肌 → IT CC+ / bareMinerals BAREPRO；乾性肌 → 避開 Celebration Foundation 新配方",
+      "預算：$3.29（Maybelline）→ $14.97（L'Oréal）→ $38（IT CC+）→ ~$45（Shiseido）",
+      "色號需求：50 色（Fenty，本批未完整抽樣）> 30 色（MUFE）> 16 色（Shiseido，但 Amazon 版本資料不足）"
+    ],
+    "report_type_recommendation": "比較報告（⚖️ 能解決問題，但需依膚質選品）"
+  },
+
+  "data_quality_flags": [
+    {
+      "asin": "B0CCPKY84Q",
+      "name": "Make Up For Ever HD Skin",
+      "issue": "僅 2 則評論，且 50% 為高嚴重度負評；Amazon 售價 $3,907 為異常（可能第三方售價）",
+      "action": "排除出主要排名；評測文章資料（多篇推薦）仍可作參考"
+    },
+    {
+      "asin": "B07ZG7D8M2",
+      "name": "IT Cosmetics CC+ Airbrush",
+      "issue": "[REVIEW_NEEDED] 標記（8 則評論，信心度 low）",
+      "action": "排名第 1 基於極高正向情感；建議補充抓取更多評論"
+    },
+    {
+      "asin": "B0CCPJWK7M",
+      "name": "Tarte Amazonian Clay",
+      "issue": "[REVIEW_NEEDED] 標記（8 則評論，信心度 low）",
+      "action": "氣味問題和包裝品質需更多評論驗證"
+    }
+  ],
+
+  "recommended_report_type": "comparison",
+  "recommended_output_path": "docs/Narrator/comparisons/powder-foundation--2026-03-24.md"
+}

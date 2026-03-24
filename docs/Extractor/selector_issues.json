@@ -5,8 +5,8 @@
       "category": "electronics",
       "error_type": "selector_issue",
       "first_seen": "2026-03-22",
-      "last_seen": "2026-03-22",
-      "occurrences": 1,
+      "last_seen": "2026-03-24",
+      "occurrences": 3,
       "status": "pending_fix",
       "details": "selector .product-list-item 僅匹配到 4/50 個商品，Best Buy 頁面結構可能有動態載入或反爬蟲機制"
     }

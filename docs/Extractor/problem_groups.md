@@ -1,11 +1,13 @@
 # 產品問題分組
 
-最後更新：2026-03-22
+最後更新：2026-03-24
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：933
-問題類別數：237
+產品總數：1119
+問題類別數：266
 分組原則：按具體問題分組（v2 - 問題導向）
+本次更新（2026-03-24）：30 個歸入現有類別（streaming-stick x1、e-reader x1、baby-wipes x1、baby-diaper x1、baby-sunscreen x1、baby-safety-lock x1、wireless-earbuds x1、phone-drop-protection x2、art-supplies x1、squishy-toy x2、party-balloon x1、trash-bags x1、food-storage-bags x1、facial-cleanser x1、mens-underwear x1、wireless-bra x2、earphone-accessories x1、tv-wall-mount x1、garden-hose x1、kids-casual-clogs x1、mens-basic-tshirt x1、toilet-paper x1、electrolyte-hydration x1、bath-toys x1、vegetable-seeds x1）；新增 3 個類別（adult-clogs x1、powder-foundation x1、outdoor-inflatable-pool x1）；跳過 11 個（B097C6KBV8/B0GGSMCJQ4/B0GGTC8K2B/B0GGTTQT46/B0FG888V4D/B0G9TQ36NQ 音樂唱片、JCQ6HR559F/J33V32CTJ7/JCQ6HSYTX9/JCQ6HWT5CQ/JJGXP2VCS6 數位遊戲/點數）
+本次更新（2026-03-23）：77 個歸入現有類別（baby-diaper x11、baby-wipes x8、diaper-rash x1、baby-wash x3、baby-healing-ointment x2、baby-pacifier x1、toddler-straw-cup x2、potty-training-pants x2、stroller-fan x1、bottle-washer-accessory x1、baby-bottle-nipple x2、baby-thermometer x1、kids-nutrition-shake x1、eyeliner x1、sun-protection x1、cotton-swabs x1、body-fragrance-mist x1、kitchen-scale x1、wild-bird-feed x1、smart-speaker x1、blackout-curtains x1、meat-thermometer x1、pillow-case x1、water-bottle x1、memory-foam-mattress x1、e-reader x2、video-doorbell x1、home-security-camera x1、tv-remote-replacement x1、cable-management x2、power-strip x1、wireless-earbuds x1、squishy-toy x1、bubble-toy x1、art-supplies x2、easter-egg-hunt x3、action-figure x1、early-learning-toy x1、phone-screen-protection x14、phone-drop-protection x13、phone-charging x8、portable-charger x2、ipad-stylus-pen x2、waterproof-phone-pouch x1、phone-grip-stand x1、smartwatch-case x1、aa-batteries x1、flushable-wipes x2、probiotic-supplement x1、high-protein-snack x2、postpartum-incontinence x1、disposable-plates x1）；新增 26 個類別（baby-swim-diaper、newborn-swaddle、nursing-pads、nipple-cream、baby-safety-lock、baby-grooming-kit、baby-burp-cloth、booster-car-seat、infant-gas-relief、baby-monitor、baby-sunscreen、anti-insect-indoor、lawn-fertilizer-weed、smart-display、shampoo-conditioner、car-phone-mount、wireless-charging-station x2、apple-watch-band、apple-watch-charger、vegetable-seeds x3、egg-decorator x2、fidget-spinner、water-balloon、toddler-balance-bike、novelty-easter-toy x4）；跳過 5 個（B08JHCVHTY 數位訂閱、B00N1NBOV2 促銷禮盒、JCQ6HTHSKP 數位遊戲訂閱、JJGCQLYK5F 跨平台同品、JJGCQXK6ZJ 跨平台同品）
 本次更新（2026-03-22）：99 個歸入現有類別（baby-diaper x9、baby-wipes x6、phone-drop-protection x10、phone-screen-protection x10、phone-charging x4、easter-egg-hunt x5、smart-speaker x2、e-reader x2、tablet-computer x2、portable-charger x2、potty-training-pants x2、flushable-wipes x2、video-doorbell x1、home-security-camera x1、wireless-earbuds x1、art-supplies x1、trading-cards x1、modeling-clay x1、action-figure x1、early-learning-toy x1、bubble-toy x1、high-protein-snack x2、probiotic-supplement x1、aa-batteries x1、postpartum-incontinence x1、trash-bags x1、disposable-plates x1、flushable-wipes x2、noise-cancelling-headphone x1、performance-laptop x1、power-strip x1、smartwatch-case x1、waterproof-phone-pouch x1、water-bottle x1、kitchen-scale x1、meat-thermometer x1、memory-foam-mattress x1、pillow-case x1、wild-bird-feed x1、tv-remote-replacement x1、diaper-rash x1、baby-healing-ointment x1、baby-wash x1、baby-thermometer x1、stroller-fan x1、baby-pacifier x1、baby-bottle-nipple x1、bottle-washer-accessory x1、toddler-straw-cup x1、kids-nutrition-shake x1、cotton-swabs x1、eyeliner x1、sun-protection x1、hair-styling-powder x1、cable-management x1、ant-control x1）；新增 14 個類別（15 個產品）（anti-colic-baby-bottle、underpads-leakproof、body-fragrance-mist、ipad-stylus-pen x2、phone-grip-stand、budget-smart-tv、kids-learning-tablet、computer-monitor、essential-oil-aromatherapy、garden-hose、garden-pump-sprayer、tower-fan、oven-mitt、kids-garden-terrarium-kit）；跳過 2 個（B00N1NBOV2 促銷禮盒、B08JHCVHTY 數位訂閱）
 本次更新（2026-03-13）：19 個產品歸入現有類別（tablet-computer x1、e-reader x2、video-doorbell x1、wireless-earbuds x1、item-tracker x1、flushable-wipes x2、probiotic-supplement x1、high-protein-snack x1、squishy-toy x2、action-figure x1、kitchen-scale x1、baby-diaper x9、diaper-rash x1、smartwatch x1、performance-laptop x1、easter-egg-hunt x1）；新增 17 個類別（56 個產品）；跳過 0 個
 本次更新（2026-03-03）：21 個產品歸入現有類別（water-bottle x2、exfoliating-toner、disposable-gloves x2、kitchen-scale、body-moisturizing、wireless-earbuds x2、item-tracker、acne-treatment、streaming-stick、makeup-removal、toilet-paper x2、collagen-mask）；新增 12 個類別（31 個產品）；跳過 5 個（數位服務/訂閱）
@@ -48,18 +50,18 @@
 | drain-clog | 排水管堵塞 | 2 | ✅ 已完成 |
 | diaper-rash | 尿布疹護理 | 2 | ✅ 已完成 |
 | cradle-cap | 嬰兒頭皮乳痂 | 1 | ⚠️ 需補充 |
-| bath-toys | 洗澡玩具 | 3 | ⚠️ 需補充 |
+| bath-toys | 洗澡玩具 | 4 | ⚠️ 需補充 |
 | baby-car-monitor | 車用嬰兒監視器 | 1 | ⚠️ 需補充 |
 | building-blocks | 積木組裝玩具 | 17 | ⚠️ 需補充 |
 | board-games | 桌遊 | 5 | ⚠️ 需補充 |
-| art-supplies | 繪畫用品 | 11 | ⚠️ 需補充 |
+| art-supplies | 繪畫用品 | 12 | ⚠️ 需補充 |
 | trading-cards | 收藏卡牌遊戲 | 10 | ✅ 已完成 |
 | playing-cards | 撲克牌 | 2 | ✅ 已完成 |
 | kids-tent | 兒童遊戲帳篷 | 1 | ✅ 已完成 |
-| party-balloon | 派對氣球 | 8 | ⚠️ 需補充 |
+| party-balloon | 派對氣球 | 9 | ⚠️ 需補充 |
 | valentine-cards | 情人節卡片禮物 | 3 | ⚠️ 需補充 |
 | school-costume | 學校活動服裝 | 1 | ⚠️ 需補充 |
-| streaming-stick | 電視串流棒 | 13 | ✅ 已完成 |
+| streaming-stick | 電視串流棒 | 14 | ✅ 已完成 |
 | noise-cancelling-headphone | 降噪耳機 | 9 | ✅ 已完成 |
 | item-tracker | 物品追蹤器 | 5 | ⚠️ 需補充 |
 | smart-ring | 智慧戒指 | 1 | ⚠️ 需補充 |
@@ -74,7 +76,7 @@
 | baking-sheet | 烤盤 | 1 | ⚠️ 需補充 |
 | parchment-paper | 烘焙紙 | 1 | ⚠️ 需補充 |
 | dresser-drawer | 抽屜收納櫃 | 1 | ⚠️ 需補充 |
-| squishy-toy | 減壓軟軟玩具 | 23 | ✅ 已完成 |
+| squishy-toy | 減壓軟軟玩具 | 25 | ✅ 已完成 |
 | body-firming | 身體皮膚緊緻塑形 | 1 | ⏳ 待研究 |
 | nail-glue | 美甲固定膠 | 1 | ⏳ 待研究 |
 | party-tableware | 派對一次性餐具 | 1 | ⏳ 待研究 |
@@ -83,7 +85,7 @@
 | mascara | 睫毛增長加密 | 6 | ⏳ 待研究 |
 | makeup-removal | 卸妝清潔 | 9 | ⏳ 待研究 |
 | eye-puffiness | 眼部浮腫黑眼圈 | 1 | ⏳ 待研究 |
-| facial-cleanser | 臉部清潔洗面乳 | 8 | ⏳ 待研究 |
+| facial-cleanser | 臉部清潔洗面乳 | 9 | ⏳ 待研究 |
 | hydrating-serum | 保濕精華液 | 1 | ⏳ 待研究 |
 | exfoliating-toner | 去角質化妝水 | 4 | ⏳ 待研究 |
 | natural-deodorant | 天然體香劑 | 2 | ⏳ 待研究 |
@@ -91,10 +93,10 @@
 | hair-growth-supplement | 女性頭髮生長補充劑 | 1 | ⏳ 待研究 |
 | brightening-serum | 美白亮膚精華 | 1 | ⏳ 待研究 |
 | collagen-mask | 膠原蛋白面膜 | 3 | ⏳ 待研究 |
-| wireless-earbuds | 無線藍牙耳機 | 23 | ⏳ 待研究 |
-| e-reader | 電子書閱讀器 | 8 | ⏳ 待研究 |
+| wireless-earbuds | 無線藍牙耳機 | 24 | ⏳ 待研究 |
+| e-reader | 電子書閱讀器 | 9 | ⏳ 待研究 |
 | video-doorbell | 智慧門鈴監控 | 5 | ⏳ 待研究 |
-| electrolyte-hydration | 電解質補充 | 5 | ⏳ 待研究 |
+| electrolyte-hydration | 電解質補充 | 6 | ⏳ 待研究 |
 | probiotic-supplement | 益生菌補充 | 5 | ⏳ 待研究 |
 | flushable-wipes | 可沖式濕紙巾 | 10 | ⏳ 待研究 |
 | hair-styling-hold | 頭髮定型噴霧 | 2 | ⏳ 待研究 |
@@ -121,7 +123,7 @@
 | postpartum-incontinence | 產後尿失禁防護 | 3 | ⏳ 待研究 |
 | meal-replacement-protein-shake | 高蛋白餐替代奶昔 | 4 | ⏳ 待研究 |
 | high-protein-snack | 高蛋白低碳水零食 | 6 | ⏳ 待研究 |
-| baby-diaper | 嬰兒尿布防漏護膚 | 11 | ⏳ 待研究 |
+| baby-diaper | 嬰兒尿布防漏護膚 | 12 | ⏳ 待研究 |
 | air-mattress | 充氣床墊臨時睡眠 | 1 | ⏳ 待研究 |
 | dry-dog-food | 寵物犬日常乾糧 | 4 | ⏳ 待研究 |
 | indoor-cat-food | 室內貓乾糧體重控制 | 1 | ⏳ 待研究 |
@@ -131,7 +133,7 @@
 | damage-free-wall-hanging | 免釘痕掛鉤/牆面掛圖 | 1 | ⏳ 待研究 |
 | travel-packing-organization | 旅行行李收納整理 | 1 | ⏳ 待研究 |
 | tortilla-press | 手工玉米餅壓製 | 1 | ⏳ 待研究 |
-| toilet-paper | 廁所衛生紙舒適度與耐用性 | 12 | ⏳ 待研究 |
+| toilet-paper | 廁所衛生紙舒適度與耐用性 | 13 | ⏳ 待研究 |
 | paper-towels | 廚房吸水紙巾清潔吸水性 | 9 | ⏳ 待研究 |
 | collectible-coins | 收藏型古幣/錢幣（Wheat Penny、Silver Dollar 等） | 17 | ⏳ 待研究 |
 | cotton-swabs | 棉花棒個人衛生清潔 | 3 | ⏳ 待研究 |
@@ -142,9 +144,9 @@
 | 3d-printer-filament | 3D 列印用 PLA 線材耗材 | 1 | ⏳ 待研究 |
 | tablet-computer | 平板電腦多功能使用（學習、娛樂、工作） | 5 | ⏳ 待研究 |
 | super-glue | 強力瞬間膠黏合修補 | 1 | ⏳ 待研究 |
-| mens-underwear | 男性底褲舒適透氣 | 1 | ⏳ 待研究 |
+| mens-underwear | 男性底褲舒適透氣 | 2 | ⏳ 待研究 |
 | womens-yoga-pants | 女性瑜珈/運動褲 | 3 | ⏳ 待研究 |
-| wireless-bra | 無鋼圈無線胸罩舒適支撐 | 2 | ⏳ 待研究 |
+| wireless-bra | 無鋼圈無線胸罩舒適支撐 | 4 | ⏳ 待研究 |
 | womens-basic-tops | 女性基本款上衣 | 1 | ⏳ 待研究 |
 | meat-thermometer | 肉類食物溫度精確測量 | 1 | ⏳ 待研究 |
 | kids-casual-shoes | 兒童日常休閒鞋 | 1 | ⏳ 待研究 |
@@ -166,13 +168,13 @@
 | dog-door-mat | 寵物/玄關吸水腳踏墊 | 1 | ⏳ 待研究 |
 | dryer-vent-cleaner | 烘衣機通風管堵塞清潔 | 1 | ⏳ 待研究 |
 | early-learning-toy | 幼兒早教有聲學習 | 3 | ⏳ 待研究 |
-| earphone-accessories | 耳機替換配件 | 1 | ⏳ 待研究 |
+| earphone-accessories | 耳機替換配件 | 2 | ⏳ 待研究 |
 | eye-redness-relief | 眼睛紅血絲舒緩 | 1 | ⏳ 待研究 |
 | eyeliner | 防水眼線妝容 | 1 | ⏳ 待研究 |
 | facial-hair-removal | 臉部除毛修容 | 2 | ⏳ 待研究 |
 | flower-seeds | 花卉種植種子 | 1 | ⏳ 待研究 |
 | flying-insect-trap | 室內飛蟲誘捕消滅 | 1 | ⏳ 待研究 |
-| food-storage-bags | 食物保鮮密封袋 | 2 | ⏳ 待研究 |
+| food-storage-bags | 食物保鮮密封袋 | 3 | ⏳ 待研究 |
 | hair-ties | 無痛髮圈綁髮 | 1 | ⏳ 待研究 |
 | home-security-camera | 居家無線安防監控 | 1 | ⏳ 待研究 |
 | humidifier | 室內加濕緩解乾燥 | 1 | ⏳ 待研究 |
@@ -180,13 +182,14 @@
 | infant-sensory-toy | 嬰兒感官刺激抓握 | 4 | ⏳ 待研究 |
 | instant-film | 拍立得即時成像底片 | 1 | ⏳ 待研究 |
 | insulated-tumbler | 保溫隨行杯咖啡保溫 | 1 | ⏳ 待研究 |
-| kids-casual-clogs | 兒童休閒洞洞鞋 | 5 | ⏳ 待研究 |
+| kids-casual-clogs | 兒童休閒洞洞鞋 | 6 | ⏳ 待研究 |
+| adult-clogs | 成人洞洞鞋舒適日常穿著 | 1 | ⏳ 待研究 |
 | laundry-hamper | 洗衣籃收納摺疊 | 1 | ⏳ 待研究 |
 | lip-color | 持久唇彩唇釉 | 1 | ⏳ 待研究 |
 | magnesium-supplement | 鎂補充助眠抗壓 | 1 | ⏳ 待研究 |
 | mattress-protector | 床墊防水防蟎保護 | 3 | ⏳ 待研究 |
 | mattress-topper | 床墊加厚增加舒適度 | 2 | ⏳ 待研究 |
-| mens-basic-tshirt | 男性基本款圓領T恤 | 1 | ⏳ 待研究 |
+| mens-basic-tshirt | 男性基本款圓領T恤 | 2 | ⏳ 待研究 |
 | milk-frother | 手持奶泡器拿鐵製作 | 1 | ⏳ 待研究 |
 | modeling-clay | 黏土造型創意遊戲 | 2 | ⏳ 待研究 |
 | muscle-soak | 肌肉痠痛泡浴舒緩 | 1 | ⏳ 待研究 |
@@ -203,9 +206,9 @@
 | smartwatch | 智慧手錶健康追蹤 | 3 | ⏳ 待研究 |
 | throw-pillow-inserts | 抱枕芯裝飾填充 | 2 | ⏳ 待研究 |
 | toothpaste | 口腔清潔牙齒保健 | 2 | ⏳ 待研究 |
-| trash-bags | 廚房垃圾袋防漏防臭 | 1 | ⏳ 待研究 |
+| trash-bags | 廚房垃圾袋防漏防臭 | 2 | ⏳ 待研究 |
 | tv-remote-replacement | 電視遙控器遺失替換 | 5 | ⏳ 待研究 |
-| tv-wall-mount | 電視壁掛安裝固定 | 2 | ⏳ 待研究 |
+| tv-wall-mount | 電視壁掛安裝固定 | 3 | ⏳ 待研究 |
 | upright-vacuum | 直立式吸塵器居家清潔 | 1 | ⏳ 待研究 |
 | vaginal-probiotic | 陰道菌群平衡護理 | 1 | ⏳ 待研究 |
 | washing-machine-cleaner | 洗衣機內部清潔除臭 | 1 | ⏳ 待研究 |
@@ -229,7 +232,7 @@
 | action-camera | 運動攝影機極限拍攝記錄 | 1 | ⏳ 待研究 |
 | performance-laptop | 高效能筆記型電腦（RTX 獨顯） | 3 | ⏳ 待研究 |
 | mens-socks | 男性耐用長效運動/日常襪 | 1 | ⏳ 待研究 |
-| baby-wipes | 嬰兒皮膚清潔濕紙巾（非可沖式） | 5 | ⏳ 待研究 |
+| baby-wipes | 嬰兒皮膚清潔濕紙巾（非可沖式） | 6 | ⏳ 待研究 |
 | baby-wash | 嬰兒洗髮沐浴清潔 | 2 | ⏳ 待研究 |
 | baby-healing-ointment | 嬰兒皮膚修護萬用膏 | 2 | ⏳ 待研究 |
 | baby-bottle-nipple | 嬰兒奶嘴/奶瓶配件 | 2 | ⏳ 待研究 |
@@ -240,7 +243,7 @@
 | stroller-fan | 嬰兒推車夾扇降溫 | 1 | ⏳ 待研究 |
 | bottle-washer-accessory | 奶瓶清洗機配件更換 | 1 | ⏳ 待研究 |
 | kids-nutrition-shake | 兒童營養補充奶昔 | 1 | ⏳ 待研究 |
-| phone-drop-protection | 手機防摔保護殼 | 11 | ⏳ 待研究 |
+| phone-drop-protection | 手機防摔保護殼 | 13 | ⏳ 待研究 |
 | phone-screen-protection | 手機螢幕/鏡頭防刮保護貼 | 10 | ⏳ 待研究 |
 | phone-charging | 手機有線充電器 | 5 | ⏳ 待研究 |
 | portable-charger | 行動電源隨身充電 | 2 | ⏳ 待研究 |
@@ -255,11 +258,40 @@
 | kids-learning-tablet | 兒童教育平板電腦 | 1 | ⏳ 待研究 |
 | computer-monitor | 電腦外接螢幕顯示器 | 1 | ⏳ 待研究 |
 | essential-oil-aromatherapy | 精油芳療舒壓放鬆 | 1 | ⏳ 待研究 |
-| garden-hose | 花園澆水輕量耐用軟管 | 1 | ⏳ 待研究 |
+| garden-hose | 花園澆水輕量耐用軟管 | 2 | ⏳ 待研究 |
 | garden-pump-sprayer | 手動加壓噴霧器（園藝/除蟲/清潔） | 1 | ⏳ 待研究 |
 | tower-fan | 塔扇室內靜音降溫 | 1 | ⏳ 待研究 |
 | oven-mitt | 烘焙隔熱手套防燙 | 1 | ⏳ 待研究 |
 | kids-garden-terrarium-kit | 兒童生態瓶/花園造景套件 | 1 | ⏳ 待研究 |
+| baby-swim-diaper | 嬰幼兒游泳防漏尿布 | 1 | ⏳ 待研究 |
+| newborn-swaddle | 新生兒包巾/睡袋防驚嚇反射 | 1 | ⏳ 待研究 |
+| nursing-pads | 哺乳溢乳墊（防溢乳滲漏） | 1 | ⏳ 待研究 |
+| nipple-cream | 哺乳乳頭護理乳霜（龜裂護理） | 1 | ⏳ 待研究 |
+| baby-safety-lock | 嬰幼兒安全鎖/兒童防護門鎖 | 2 | ⏳ 待研究 |
+| baby-grooming-kit | 嬰兒護理工具套組（剪指甲、梳頭、吸鼻器） | 1 | ⏳ 待研究 |
+| baby-burp-cloth | 嬰兒防吐奶拍嗝巾 | 1 | ⏳ 待研究 |
+| booster-car-seat | 兒童汽車增高坐墊/輔助座椅 | 1 | ⏳ 待研究 |
+| infant-gas-relief | 嬰兒腸脹氣舒緩滴劑 | 1 | ⏳ 待研究 |
+| baby-monitor | 嬰兒室內影音監視器（無 WiFi） | 1 | ⏳ 待研究 |
+| baby-sunscreen | 嬰兒/幼兒防曬霜（礦物質配方） | 2 | ⏳ 待研究 |
+| anti-insect-indoor | 室內昆蟲/害蟲防治（室內蟲害消滅） | 1 | ⏳ 待研究 |
+| lawn-fertilizer-weed | 草坪除草施肥（草坪護理） | 1 | ⏳ 待研究 |
+| smart-display | 智慧顯示螢幕（帶螢幕的語音助理裝置） | 1 | ⏳ 待研究 |
+| shampoo-conditioner | 日常洗髮精與護髮素 | 1 | ⏳ 待研究 |
+| car-phone-mount | 車用手機支架（磁吸固定） | 1 | ⏳ 待研究 |
+| wireless-charging-station | 多裝置無線充電座（iPhone+Apple Watch+AirPods） | 2 | ⏳ 待研究 |
+| apple-watch-band | Apple Watch 替換錶帶 | 1 | ⏳ 待研究 |
+| apple-watch-charger | Apple Watch 磁吸充電線 | 1 | ⏳ 待研究 |
+| vegetable-seeds | 蔬果/花卉種植種子（居家園藝） | 4 | ⏳ 待研究 |
+| egg-decorator | 復活節彩蛋裝飾套件（蛋彩繪工具） | 2 | ⏳ 待研究 |
+| fidget-spinner | 指尖陀螺/轉轉玩具（手部感統紓壓） | 1 | ⏳ 待研究 |
+| water-balloon | 快速充水水球（戶外玩水） | 1 | ⏳ 待研究 |
+| toddler-balance-bike | 幼兒學步四輪滑步車 | 1 | ⏳ 待研究 |
+| novelty-easter-toy | 復活節趣味/創意玩具（3D 龍蛋等） | 4 | ⏳ 待研究 |
+| performance-laptop | 高效能筆記型電腦（AI/商務用） | 5 | ⏳ 待研究 |
+| adult-clogs | 成人洞洞鞋舒適日常穿著 | 1 | ⏳ 待研究 |
+| powder-foundation | 底妝粉底遮瑕均勻膚色 | 1 | ⏳ 待研究 |
+| outdoor-inflatable-pool | 戶外充氣水池/日光浴泳池 | 1 | ⏳ 待研究 |
 ---
 
 ## 詳細分組

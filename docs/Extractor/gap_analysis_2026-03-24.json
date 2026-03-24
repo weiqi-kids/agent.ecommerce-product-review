@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-03-24T00:00:00Z",
+  "analysis_scope": "全量 REVIEW_NEEDED 掃描（72 份）+ 暫緩類別重試檢查",
+  "deferred_categories": {
+    "kids-activity-book": {
+      "next_retry": "2026-03-30",
+      "retry_count": 5,
+      "status": "waiting",
+      "action": "next_retry 為 2026-03-30，本次不重試",
+      "notes": "歷史最佳：WebFetch 62 次，多數網站 403/JS-only 阻擋。Fibonacci 間隔 8 天"
+    }
+  },
+  "high_priority_gaps": [
+    {
+      "file": "docs/Narrator/warnings/beats-solo4-renewed--2026-03-12.md",
+      "type": "warning",
+      "gap_types": ["評論不足", "競品無萃取", "研究不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0D3PZLZ3N 至 100+ 則",
+      "last_extraction": "2026-03-12",
+      "status": "persistent_gap"
+    },
+    {
+      "file": "docs/Narrator/warnings/la-roche-posay-spf40-expired--2026-03-12.md",
+      "type": "warning",
+      "gap_types": ["評論不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0F6TWJPMX 至 100+ 則",
+      "last_extraction": "2026-03-12",
+      "status": "persistent_gap"
+    },
+    {
+      "file": "docs/Narrator/warnings/pixel-watch3-renewed--2026-03-12.md",
+      "type": "warning",
+      "gap_types": ["評論不足", "競品不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0DSWMYSYT 至 100+ 則",
+      "last_extraction": "2026-03-12",
+      "status": "persistent_gap"
+    },
+    {
+      "file": "docs/Narrator/warnings/bread-toaster--warning--2026-03-04.md",
+      "type": "warning",
+      "gap_types": ["評論不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0CYJBB2JQ 至 100+ 則",
+      "last_extraction": "2026-02-11",
+      "status": "persistent_gap"
+    }
+  ],
+  "medium_priority_gaps": [
+    {
+      "file": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-05.md",
+      "type": "pain_point",
+      "gap_types": ["研究不足", "競品不足"],
+      "priority": "中",
+      "action": "補充 squishy-toy WebFetch 至 100+ 次",
+      "status": "persistent_gap"
+    }
+  ],
+  "summary": {
+    "total_review_needed": 72,
+    "high_priority": 4,
+    "medium_priority": 1,
+    "low_priority": 67,
+    "deferred": 1,
+    "action_plan": "高優先 4 個產品列入 Step 6 優先抓取清單（B0D3PZLZ3N, B0F6TWJPMX, B0DSWMYSYT, B0CYJBB2JQ），中優先 squishy-toy 下次研究時補齊，kids-activity-book 延後至 3/30"
+  }
+}
