@@ -1,5 +1,13 @@
 [
   {
+    "id": "writing-notepad--2026-03-25-md",
+    "title": "辦公便條簿選購指南：13 款產品實測比較",
+    "date": "2026-03-25",
+    "product_id": "",
+    "file": "writing-notepad--2026-03-25.md",
+    "source_mode": "comparisons"
+  },
+  {
     "id": "wound-bandage--comparison--2026-02-06-md",
     "title": "傷口繃帶選購指南",
     "date": "2026-02-06",
@@ -248,6 +256,22 @@
     "source_mode": "comparisons"
   },
   {
+    "id": "printer-paper--2026-03-25-md",
+    "title": "印表機用紙選購指南：13 款產品實測比較",
+    "date": "2026-03-25",
+    "product_id": "",
+    "file": "printer-paper--2026-03-25.md",
+    "source_mode": "comparisons"
+  },
+  {
+    "id": "printer-ink--2026-03-25-md",
+    "title": "HP 64 墨水匣選購指南：原廠 vs 副廠 6 款比較",
+    "date": "2026-03-25",
+    "product_id": "",
+    "file": "printer-ink--2026-03-25.md",
+    "source_mode": "comparisons"
+  },
+  {
     "id": "pretend-play-kitchen--2026-02-21-md",
     "title": "兒童廚房玩具比較指南",
     "date": "2026-02-21",
@@ -381,6 +405,14 @@
     "date": "2026-02-09",
     "product_id": "",
     "file": "paper-towel--2026-02-09.md",
+    "source_mode": "comparisons"
+  },
+  {
+    "id": "packing-tape--2026-03-25-md",
+    "title": "封箱膠帶選購指南：12 款產品實測比較",
+    "date": "2026-03-25",
+    "product_id": "",
+    "file": "packing-tape--2026-03-25.md",
     "source_mode": "comparisons"
   },
   {
@@ -893,6 +925,14 @@
     "date": "2026-02-05",
     "product_id": "",
     "file": "children-entertainment--2026-02-05.md",
+    "source_mode": "comparisons"
+  },
+  {
+    "id": "can-opener--2026-03-25-md",
+    "title": "開罐器選購指南：12 款產品實測比較",
+    "date": "2026-03-25",
+    "product_id": "",
+    "file": "can-opener--2026-03-25.md",
     "source_mode": "comparisons"
   },
   {
