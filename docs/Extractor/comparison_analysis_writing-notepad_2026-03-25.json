@@ -1,0 +1,698 @@
+{
+  "meta": {
+    "category": "writing-notepad",
+    "date": "2026-03-25",
+    "analysis_type": "multi_product_comparison",
+    "products_analyzed": 13,
+    "primary_question": "能否解決每日書寫記錄需求？Amazon Basics 與競品誰更好？"
+  },
+  "products": [
+    {
+      "asin": "B00QSR9URI",
+      "name": "Amazon Basics Wide Ruled Writing Note Pads 8.5x11 (12-pack)",
+      "role": "primary_product",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "paper_quality": 0.68,
+        "value": 0.93,
+        "perforations": 0.4,
+        "backing_rigidity": 0.8,
+        "ink_bleed_resistance": 0.78
+      },
+      "l5_issues": [
+        {
+          "issue": "unclean_tear_perforations",
+          "frequency": "23%",
+          "severity": "medium"
+        },
+        {
+          "issue": "quality_degradation_over_time",
+          "frequency": "15%",
+          "severity": "medium"
+        },
+        {
+          "issue": "thin_paper",
+          "frequency": "15%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [
+          "unclean perforation tears → 撕頁殘留碎邊，影響美觀"
+        ],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "極優性價比（12 pads < $12）",
+        "wide ruled 適合大字體",
+        "無滲墨問題"
+      ],
+      "weaknesses": [
+        "撕頁不整齊（23%）",
+        "紙張偏薄",
+        "品質有下滑趨勢（15%）"
+      ]
+    },
+    {
+      "asin": "B0006HWRK8",
+      "name": "TOPS The Legal Pad 8.5x11 Canary Yellow (12-pack)",
+      "role": "competitor",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "paper_quality": 0.88,
+        "value": 0.9,
+        "color": 0.85,
+        "perforations": 0.75,
+        "backing_strength": 0.8
+      },
+      "l5_issues": [
+        {
+          "issue": "pages_bubble_when_writing",
+          "frequency": "8%",
+          "severity": "low"
+        },
+        {
+          "issue": "thin_paper",
+          "frequency": "8%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [
+          "pages bubble with ballpoint (8%)"
+        ],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "紙質優於 Amazon Basics（20lb vs 16lb）",
+        "金絲雀黃易閱讀",
+        "撕頁整齊",
+        "品牌認知度高（辦公室首選）"
+      ],
+      "weaknesses": [
+        "偶有頁面起泡（ballpoint）8%",
+        "比 Amazon Basics 略貴"
+      ]
+    },
+    {
+      "asin": "B000F3ZK2K",
+      "name": "TOPS The Legal Pad 5x8 Junior Canary Yellow (12-pack)",
+      "role": "competitor",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "size_convenience": 0.92,
+        "paper_quality": 0.9,
+        "portability": 0.9,
+        "value": 0.85,
+        "color": 0.88
+      },
+      "l5_issues": [
+        {
+          "issue": "poor_shipping_packaging",
+          "frequency": "8%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [],
+        "unrelated_to_product": [
+          "shipping packaging damage (8%)"
+        ]
+      },
+      "strengths": [
+        "攜帶型最佳選擇",
+        "高品質紙張",
+        "尺寸靈活"
+      ],
+      "weaknesses": [
+        "運送包裝較差（8%）"
+      ]
+    },
+    {
+      "asin": "B003UCL77U",
+      "name": "Rhodia dotPad No. 16 A5 Dot Grid (Clairefontaine 80g Vellum)",
+      "role": "competitor_premium",
+      "review_count": 8,
+      "confidence": "low",
+      "l4_summary": {
+        "paper_quality": 0.97,
+        "ink_performance": 0.93,
+        "smoothness": 0.95,
+        "fountain_pen_compatibility": 0.92,
+        "ink_bleed_resistance": 0.9
+      },
+      "l5_issues": [
+        {
+          "issue": "fountain_pen_feathering_with_wet_nibs",
+          "frequency": "13%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [
+          "wet nib feathering (13%) — trade-off with paper density"
+        ],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "頂級 Clairefontaine 80g vellum 紙張",
+        "鋼筆專用最佳選擇",
+        "無滲墨/羽化/顯影",
+        "dot grid 設計"
+      ],
+      "weaknesses": [
+        "價格最高",
+        "僅 A5 dot grid 版型（非 legal pad）",
+        "極濕鋼筆筆尖仍有輕微羽化"
+      ]
+    },
+    {
+      "asin": "B007FPLI2W",
+      "name": "Maruman Mnemosyne Special Memo Notepad A4",
+      "role": "competitor_premium",
+      "review_count": 9,
+      "confidence": "low",
+      "l4_summary": {
+        "paper_quality": 0.93,
+        "fountain_pen_compatibility": 0.9,
+        "smoothness": 0.92,
+        "build_quality": 0.9,
+        "ink_bleed_resistance": 0.88
+      },
+      "l5_issues": [
+        {
+          "issue": "off_white_paper_color",
+          "frequency": "11%",
+          "severity": "low"
+        },
+        {
+          "issue": "wet_nib_feathering",
+          "frequency": "11%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "Mnemosyne 紙張被譽為最佳書寫紙",
+        "鋼筆體驗出色",
+        "工藝精良"
+      ],
+      "weaknesses": [
+        "非純白紙（off-white）",
+        "極濕筆尖可能羽化"
+      ]
+    },
+    {
+      "asin": "B07Q4R7T2Y",
+      "name": "Mintra Office Canary Legal Pads",
+      "role": "competitor",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "paper_quality": 0.9,
+        "perforations": 0.88,
+        "value": 0.9,
+        "fountain_pen_compatibility": 0.85,
+        "smoothness": 0.88
+      },
+      "l5_issues": [
+        {
+          "issue": "none_significant",
+          "frequency": "0%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "無顯著問題",
+        "高品質微孔穿孔（整齊撕頁）",
+        "鋼筆友好",
+        "性價比極優"
+      ],
+      "weaknesses": [
+        "無重大缺點（評論數尚可）"
+      ]
+    },
+    {
+      "asin": "B005G8SG1G",
+      "name": "Cornell Note-Taking Notepad (3-Section Layout)",
+      "role": "competitor_specialty",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "layout_design": 0.88,
+        "note_organization": 0.85,
+        "paper_quality": 0.6,
+        "print_quality": 0.35,
+        "paper_thickness": 0.4
+      },
+      "l5_issues": [
+        {
+          "issue": "poor_print_quality",
+          "frequency": "23%",
+          "severity": "medium"
+        },
+        {
+          "issue": "thin_paper",
+          "frequency": "23%",
+          "severity": "medium"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [
+          "印刷模糊影響使用（23%）— 無法清楚看到欄位區隔"
+        ],
+        "creates_new_problems": [
+          "薄紙導致滲墨（23%）"
+        ],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "Cornell 三欄布局利於整理筆記",
+        "適合學習/工作"
+      ],
+      "weaknesses": [
+        "印刷品質不穩定（23%）",
+        "紙張偏薄（23%）",
+        "品質控制差"
+      ]
+    },
+    {
+      "asin": "B006OI292E",
+      "name": "Ampad Veritas Premium Legal Pad (Ivory)",
+      "role": "competitor",
+      "review_count": 8,
+      "confidence": "low",
+      "l4_summary": {
+        "ivory_color": 0.85,
+        "fountain_pen_compatibility": 0.88,
+        "paper_quality": 0.82,
+        "quality_consistency": 0.2
+      },
+      "l5_issues": [
+        {
+          "issue": "quality_regression",
+          "frequency": "25%",
+          "severity": "high"
+        },
+        {
+          "issue": "line_color_change",
+          "frequency": "13%",
+          "severity": "medium"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [
+          "品質退步後紙張鬆軟（25%）— 核心賣點消失"
+        ],
+        "creates_new_problems": [],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "獨特象牙白紙色",
+        "鋼筆兼容性高（歷史表現）"
+      ],
+      "weaknesses": [
+        "近期品質嚴重退步（25%）",
+        "產品設計改版（線條顏色）引發忠實客戶不滿"
+      ]
+    },
+    {
+      "asin": "B09F6ZLXVM",
+      "name": "Ampad Veritas Premium Legal Pad (Ivory) - variant",
+      "role": "competitor",
+      "review_count": 2,
+      "confidence": "very_low",
+      "l5_issues": [
+        {
+          "issue": "misleading_ivory_color",
+          "frequency": "100%",
+          "severity": "high"
+        },
+        {
+          "issue": "reduced_backing_thickness",
+          "frequency": "50%",
+          "severity": "high"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [
+          "顏色與描述不符（100%）— 廣告象牙白實為黃色"
+        ],
+        "creates_new_problems": [],
+        "unrelated_to_product": []
+      },
+      "strengths": [],
+      "weaknesses": [
+        "嚴重誤導性產品描述",
+        "品質退步"
+      ]
+    },
+    {
+      "asin": "B000093L15",
+      "name": "TOPS The Legal Pad 8.5x11 White",
+      "role": "competitor",
+      "review_count": 9,
+      "confidence": "low",
+      "l4_summary": {
+        "paper_quality": 0.88,
+        "backing_rigidity": 0.9,
+        "paper_thickness": 0.85,
+        "perforations": 0.35,
+        "value": 0.82
+      },
+      "l5_issues": [
+        {
+          "issue": "incomplete_perforations",
+          "frequency": "11%",
+          "severity": "low"
+        },
+        {
+          "issue": "paper_texture_below_premium",
+          "frequency": "11%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [
+          "incomplete perforations (11%)"
+        ],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "超厚 cardboard 背板（單手書寫）",
+        "較厚紙張（20lb）",
+        "白色紙面清晰"
+      ],
+      "weaknesses": [
+        "穿孔不完整（11%）"
+      ]
+    },
+    {
+      "asin": "B0BNF3BDSW",
+      "name": "Amazon Basics Junior Notepads 5x8 (6-pack)",
+      "role": "primary_product_variant",
+      "review_count": 8,
+      "confidence": "low",
+      "l4_summary": {
+        "size_convenience": 0.9,
+        "paper_quality": 0.85,
+        "portability": 0.9,
+        "value": 0.88
+      },
+      "l5_issues": [
+        {
+          "issue": "loose_binding",
+          "frequency": "13%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [
+          "loose binding causes page tearing (13%)"
+        ],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "攜帶方便",
+        "良好紙質",
+        "性價比高（$6.99/6 pads）"
+      ],
+      "weaknesses": [
+        "裝訂鬆散（13%）"
+      ]
+    },
+    {
+      "asin": "B0C7RPNWM2",
+      "name": "Oxford 8.5x11 Legal Pads 12 Pack White",
+      "role": "competitor",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "paper_quality": 0.9,
+        "value": 0.88,
+        "perforations": 0.85,
+        "fountain_pen_compatibility": 0.8,
+        "ruling_layout": 0.82
+      },
+      "l5_issues": [
+        {
+          "issue": "line_spacing_too_wide",
+          "frequency": "8%",
+          "severity": "low"
+        },
+        {
+          "issue": "rough_line_printing",
+          "frequency": "8%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [],
+        "unrelated_to_product": []
+      },
+      "strengths": [
+        "白色紙清晰易讀",
+        "撕頁整齊（85%）",
+        "made in USA（Tennessee）",
+        "鋼筆可用"
+      ],
+      "weaknesses": [
+        "行距偏寬（非 college ruled）8%",
+        "線條印刷略粗 8%"
+      ]
+    },
+    {
+      "asin": "B0C7RR3QGT",
+      "name": "Oxford 5x8 Junior Legal Pads 12 Pack White",
+      "role": "competitor",
+      "review_count": 13,
+      "confidence": "medium",
+      "l4_summary": {
+        "size_convenience": 0.9,
+        "paper_quality": 0.68,
+        "value": 0.88,
+        "portability": 0.88
+      },
+      "l5_issues": [
+        {
+          "issue": "thin_paper",
+          "frequency": "15%",
+          "severity": "low"
+        },
+        {
+          "issue": "difficult_page_removal",
+          "frequency": "15%",
+          "severity": "low"
+        }
+      ],
+      "negative_classification": {
+        "cannot_solve_problem": [],
+        "creates_new_problems": [
+          "difficult page removal (15%)"
+        ],
+        "unrelated_to_product": [
+          "shipping damage risk (8%)"
+        ]
+      },
+      "strengths": [
+        "尺寸完美（5x8 junior）",
+        "性價比高（12 pads）",
+        "多用途"
+      ],
+      "weaknesses": [
+        "紙張偏薄（15%）",
+        "撕頁稍難（15%）"
+      ]
+    }
+  ],
+  "comparison_dimensions": {
+    "paper_quality": {
+      "ranking": [
+        {
+          "rank": 1,
+          "product": "Rhodia dotPad (B003UCL77U)",
+          "score": 0.97,
+          "note": "頂級 Clairefontaine 80g，鋼筆首選"
+        },
+        {
+          "rank": 2,
+          "product": "Maruman Mnemosyne (B007FPLI2W)",
+          "score": 0.93,
+          "note": "日本製，書寫感極優"
+        },
+        {
+          "rank": 3,
+          "product": "Mintra Office (B07Q4R7T2Y)",
+          "score": 0.9,
+          "note": "無顯著問題，性價比最優紙質"
+        },
+        {
+          "rank": 4,
+          "product": "Oxford 8.5x11 (B0C7RPNWM2)",
+          "score": 0.9,
+          "note": "白色紙，made in USA"
+        },
+        {
+          "rank": 5,
+          "product": "TOPS 8.5x11 Yellow (B0006HWRK8)",
+          "score": 0.88,
+          "note": "20lb 黃色，辦公室標準"
+        },
+        {
+          "rank": 6,
+          "product": "Amazon Basics 8.5x11 (B00QSR9URI)",
+          "score": 0.68,
+          "note": "16lb 偏薄，有下滑趨勢"
+        }
+      ]
+    },
+    "perforation_quality": {
+      "ranking": [
+        {
+          "rank": 1,
+          "product": "Mintra Office (B07Q4R7T2Y)",
+          "score": 0.88,
+          "note": "微孔穿孔，零投訴"
+        },
+        {
+          "rank": 2,
+          "product": "Oxford 8.5x11 (B0C7RPNWM2)",
+          "score": 0.85,
+          "note": "撕頁整齊"
+        },
+        {
+          "rank": 3,
+          "product": "TOPS 8.5x11 Yellow (B0006HWRK8)",
+          "score": 0.75,
+          "note": "大多數可整齊撕頁"
+        },
+        {
+          "rank": 4,
+          "product": "Amazon Basics 8.5x11 (B00QSR9URI)",
+          "score": 0.4,
+          "note": "23% 不整齊 — 最大弱點"
+        }
+      ]
+    },
+    "value": {
+      "ranking": [
+        {
+          "rank": 1,
+          "product": "Amazon Basics 8.5x11 (B00QSR9URI)",
+          "score": 0.93,
+          "note": "12 pads < $12，最低每頁成本"
+        },
+        {
+          "rank": 2,
+          "product": "Mintra Office (B07Q4R7T2Y)",
+          "score": 0.9,
+          "note": "高品質但同樣平價"
+        },
+        {
+          "rank": 3,
+          "product": "TOPS 8.5x11 Yellow (B0006HWRK8)",
+          "score": 0.9,
+          "note": "12 pads $16，品質換算合理"
+        }
+      ]
+    },
+    "writing_experience": {
+      "ranking": [
+        {
+          "rank": 1,
+          "product": "Rhodia dotPad (B003UCL77U)",
+          "score": 0.95,
+          "note": "書寫最滑順，鋼筆首選"
+        },
+        {
+          "rank": 2,
+          "product": "Maruman Mnemosyne (B007FPLI2W)",
+          "score": 0.92,
+          "note": "Mnemosyne 紙張被譽同類最佳"
+        },
+        {
+          "rank": 3,
+          "product": "Mintra Office (B07Q4R7T2Y)",
+          "score": 0.88,
+          "note": "各類筆書寫俱佳"
+        },
+        {
+          "rank": 4,
+          "product": "Amazon Basics 8.5x11 (B00QSR9URI)",
+          "score": 0.7,
+          "note": "一般書寫尚可，不適合鋼筆/馬克筆"
+        }
+      ]
+    }
+  },
+  "verdict": {
+    "amazon_basics_vs_competitors": {
+      "conclusion": "Amazon Basics 能解決基本書寫記錄需求，但在紙質、撕頁品質方面劣於主要競品",
+      "can_solve_problem": true,
+      "better_than_competitors": false,
+      "best_competitor": "Mintra Office Canary (B07Q4R7T2Y)",
+      "reasoning": "Mintra Office 在紙質（0.90）、撕頁（0.88）、書寫體驗（0.88）均優於 Amazon Basics（0.68/0.40/0.70），且性價比同樣出色（0.90），且無任何顯著問題（0% 嚴重投訴），是 Amazon Basics 的直接優選替代品。Oxford 8.5x11（B0C7RPNWM2）亦在三項指標全面超越 Amazon Basics，製造地（USA）為加分項。",
+      "amazon_basics_use_case": "Amazon Basics 適合對撕頁整齊度和紙張厚度不在意、只需大量廉價書寫用紙的用戶",
+      "report_type_recommendation": "comparison"
+    },
+    "segment_winners": {
+      "best_overall_value": "Mintra Office Canary (B07Q4R7T2Y) — 最高性價比且無顯著問題",
+      "best_office_standard": "TOPS The Legal Pad 8.5x11 (B0006HWRK8) — 辦公室公認品牌，20lb 紙張",
+      "best_fountain_pen": "Rhodia dotPad (B003UCL77U) — 鋼筆專用頂選",
+      "best_portable": "TOPS 5x8 (B000F3ZK2K) — 攜帶型第一選",
+      "best_cornell_layout": "Cornell Notepad (B005G8SG1G) — 布局設計優但品質控制差",
+      "avoid": "Ampad Veritas variants (B006OI292E, B09F6ZLXVM) — 品質退步嚴重，不建議"
+    }
+  },
+  "flagged_products": [
+    {
+      "asin": "B09F6ZLXVM",
+      "reason": "misleading_product_description",
+      "severity": "high",
+      "action": "警告報告候選 — 廣告象牙白實為黃色（100% 投訴），嚴重誤導消費者"
+    },
+    {
+      "asin": "B006OI292E",
+      "reason": "quality_regression",
+      "severity": "high",
+      "action": "警告報告候選 — 近期品質嚴重退步（25%），製造商悄然更改產品規格"
+    },
+    {
+      "asin": "B005G8SG1G",
+      "reason": "inconsistent_print_quality",
+      "severity": "medium",
+      "action": "警告報告候選 — 23% 收到印刷模糊的產品，品質控制問題"
+    }
+  ],
+  "data_quality": {
+    "low_confidence_products": [
+      "B000093L15 (9 reviews)",
+      "B003UCL77U (8 reviews)",
+      "B006OI292E (8 reviews)",
+      "B007FPLI2W (9 reviews)",
+      "B09F6ZLXVM (2 reviews — very low)",
+      "B0BNF3BDSW (8 reviews)"
+    ],
+    "note": "B09F6ZLXVM 僅 2 則評論，結論參考性有限但方向一致"
+  },
+  "category": "writing-notepad"
+}

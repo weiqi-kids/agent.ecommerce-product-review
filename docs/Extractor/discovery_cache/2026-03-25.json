@@ -1,0 +1,532 @@
+{
+  "date": "2026-03-25",
+  "total_products": 36,
+  "by_platform": {
+    "amazon": 36,
+    "bestbuy": 0
+  },
+  "by_category": {
+    "all": 36
+  },
+  "sources": {
+    "amazon": {
+      "count": 36,
+      "categories": [
+        "all"
+      ],
+      "note": "bestsellers - all categories combined"
+    },
+    "bestbuy": {
+      "count": 0,
+      "note": "skipped - selector issues"
+    }
+  },
+  "changes": {
+    "new": 14,
+    "rank_changed": 7,
+    "delisted": 331,
+    "new_entries": [
+      "B0D8DZN778",
+      "B01FV0F8H8",
+      "B09NMFCJ61",
+      "B000J07BRQ",
+      "B0014C0LSY",
+      "B001AFL8GY",
+      "B086KSDTQ4",
+      "B0FTGJGPTM",
+      "B06ZY9LP74",
+      "B07JCS8NRC",
+      "B00006IFHD",
+      "B07YP2VH4B",
+      "B0000ANHT7",
+      "B00QSR9URI"
+    ],
+    "rank_changes": [
+      {
+        "id": "B0CP9YB3Q4",
+        "old_rank": 10,
+        "new_rank": 2
+      },
+      {
+        "id": "B00S93EQUK",
+        "old_rank": 22,
+        "new_rank": 3
+      },
+      {
+        "id": "B0113UZJE2",
+        "old_rank": 17,
+        "new_rank": 4
+      },
+      {
+        "id": "B09542G9ZN",
+        "old_rank": 7,
+        "new_rank": 5
+      },
+      {
+        "id": "B0D6C6GS58",
+        "old_rank": 41,
+        "new_rank": 5
+      },
+      {
+        "id": "B00LH3DMUO",
+        "old_rank": 8,
+        "new_rank": 5
+      },
+      {
+        "id": "B07PBXXNCY",
+        "old_rank": 8,
+        "new_rank": 6
+      }
+    ],
+    "dropped": [
+      "B084ZP848Y",
+      "B0BQ4G7LY8",
+      "B0DQNQ1ZVZ",
+      "B0F7M16P52",
+      "B00IGJ1XOO",
+      "B0DFVB13XF",
+      "B08WVHWYND",
+      "B08QRFZ6TH",
+      "B0FDKJDFGZ",
+      "B071914GGL",
+      "B0CPSBD68W",
+      "B00HSC9F2C",
+      "B0D89V1RX1",
+      "B07SXBX1DM",
+      "B095PQ6SX7",
+      "B0FDQKLW48",
+      "B08LQNW75X",
+      "B0DV4BFJBY",
+      "B07RZSGV99",
+      "B09SDKSXLZ",
+      "B0829FT44S",
+      "B072QXWXS6",
+      "B0DC3PZLRL",
+      "B0748J34WZ",
+      "B0D84YX465",
+      "B0BT1WL6KY",
+      "B09PDLBFKY",
+      "B07GB3NVN1",
+      "B009108SGS",
+      "B0DDZN76T9",
+      "B0824XNJSW",
+      "B0C8PR4W22",
+      "B0BDRKG478",
+      "B00TSTZQEY",
+      "B0FQF9ZX7P",
+      "B07GPFDL1K",
+      "B01LYNW421",
+      "B003TFE7ZM",
+      "B014E2D6BY",
+      "B0DSMHJ2FF",
+      "B07SCL613T",
+      "B008J1QP7Y",
+      "JJGSH2ZQWS",
+      "B07P5K7DQP",
+      "B0772WYFPP",
+      "B0GDDHQ7KJ",
+      "B09Z6Q2MLC",
+      "B09B8V1LZ3",
+      "B08G1XHF76",
+      "B0B1N7LJD3"
+    ]
+  },
+  "products": [
+    {
+      "id": "B08JHCVHTY",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 1,
+      "title": "blink plus plan with monthly auto-renewal",
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "review_count": "273,474",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B09V7Z4TJG",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 1,
+      "title": "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation and Pore Care with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid | Ideal for All, Korean Skin Care, 70 Pads (1 Pack)",
+      "price": "KRW 28,327",
+      "rating": "4.6 out of 5 stars",
+      "review_count": "20,179",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0BZYCJK89",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 1,
+      "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz, Denim",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "114,251",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0D8DZN778",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 1,
+      "title": "OEAK Womens Deep V Bras Wireless Comfortable Bra Supportive No Underwire Bras Tshirt Push Up Bralettes Plunge Seamless Bra",
+      "price": null,
+      "rating": "4.0 out of 5 stars",
+      "review_count": "10,397",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B07MHJFRBJ",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 1,
+      "title": "Bounty Quick Size Paper Towels, White, 8 Family Rolls",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "230,153",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B01FV0F8H8",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 1,
+      "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "215,734",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0DCH8VDXF",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 2,
+      "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+      "price": "KRW 26,769",
+      "rating": "4.6 out of 5 stars",
+      "review_count": "11,581",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B08KT2Z93D",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 2,
+      "title": "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightweight & Non-Greasy, Natural Shea, Vegan, Vanilla Body Lotion, 16 fl oz",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "67,129",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0CP9YB3Q4",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 2,
+      "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel | Insulated Stainless Steel Cup | BPA-Free | Rose Quartz 2.0",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "88,520",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B09NMFCJ61",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 2,
+      "title": "Crocs Kid's Classic Clog",
+      "price": "KRW 51,199",
+      "rating": "4.8 out of 5 stars",
+      "review_count": "89,081",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B00MNV8E0C",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 2,
+      "title": "Amazon Basics 48-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life, Long-lasting, No Leakage",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "923,793",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B000J07BRQ",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 2,
+      "title": "Scotch Heavy Duty Shipping Packing Tape, Clear, Packing Tape for Moving Boxes and Packaging Supplies, 1.88 in. x 22.2 yd., 6 Roll Dispensers, Moving Supplies",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "107,456",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0DGHMNQ5Z",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 3,
+      "title": "Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones, Personalized Spatial Audio, Sweat and Water Resistant, USB-C Charging Case, H2 Chip, Up to 30 Hours of Battery Life, Effortless Setup for iPhone",
+      "price": "KRW 141,921",
+      "rating": "4.5 out of 5 stars",
+      "review_count": "44,975",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B074PVTPBW",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 3,
+      "title": "Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Patches for Face, Shrinking Zits & Whiteheads in 1 Use, Nighttime Spot Pimple Stickers for Face, 36 Count",
+      "price": "KRW 28,477",
+      "rating": "4.6 out of 5 stars",
+      "review_count": "182,400",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B00S93EQUK",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 3,
+      "title": "Alpha Grillers Meat Thermometer Digital – Instant Read Food Thermometer for Cooking & Grilling – Professional Kitchen Gift for Men, Dad & Mom",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "86,910",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0014C0LSY",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 3,
+      "title": "Crocs Unisex-Adult Classic Clog, Clogs for Women and Men",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "330,218",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0FN4NH4K8",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 3,
+      "title": "Angel Soft Toilet Paper, 18 Mega Rolls = 72 Regular Rolls, Soft and Strong Toilet Tissue",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "97,588",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B001AFL8GY",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 3,
+      "title": "HP Printer Paper | 8.5 x 11 Paper | Copy &Print 20 lb | 1 Ream Case - 500 Sheets| 92 Bright | FSC Certified | 200060",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "97,965",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0GJTFXNRX",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 4,
+      "title": "Apple AirTag 2nd Generation Tracker",
+      "price": "KRW 43,465",
+      "rating": "4.6 out of 5 stars",
+      "review_count": "1,250",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B00U2VQZDS",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 4,
+      "title": "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes Remove Waterproof Mascara & Oil, Compostable 100% Plant-Based Cloth, Dermatologist & Ophthalmologist Tested, Twin Pack 2 x 25 ct",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "117,815",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0113UZJE2",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 4,
+      "title": "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss, Baking, Cooking, Keto and Meal Prep, LCD Display, Medium, 304 Stainless Steel",
+      "price": "KRW 14,299",
+      "rating": "4.6 out of 5 stars",
+      "review_count": "144,464",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B086KSDTQ4",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 4,
+      "title": "Hanes mens Underwear Boxer Briefs Pack, Cool & Breathable Cotton Moisture-wicking Underwear for Men, No Ride Up",
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "127,615",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0FTGJGPTM",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 4,
+      "title": "LMNT Zero Sugar Electrolytes - Variety Pack Bundle | Drink Mix | 18-Count",
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "24,339",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B06ZY9LP74",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 4,
+      "title": "HP 64 Black & Tri-Color Ink Cartridges Printers (Combo Pack) | Works with Printer Series: Inspire 7950e; Envy Photo 6200, 7100, 7800; Tango | Eligible for Instant Ink | X4D92AN",
+      "price": null,
+      "rating": null,
+      "review_count": null,
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0FQFB8FMG",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 5,
+      "title": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, High-Fidelity Sound, USB-C Charging",
+      "price": "KRW 274,400",
+      "rating": "4.4 out of 5 stars",
+      "review_count": "7,225",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B09542G9ZN",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 5,
+      "title": "Amazon Basics Hypoallergenic Cotton Rounds for Makeup Removal and Skincare, 100 Count, 1 Pack",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "48,643",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0D6C6GS58",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 5,
+      "title": "HydroJug Traveler - 32 oz Water Bottle with Handle & Flip Straw - Fits in Cup Holder, Leak Resistant Tumbler-Reusable Insulated Stainless Steel & Rubber Base - Gifts for Women & Men, Pink Sand",
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "review_count": "18,538",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B07JCS8NRC",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 5,
+      "title": "Gildan Men's Crew T-Shirts, Multipack, Style G1100",
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "review_count": "327,136",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B00LH3DMUO",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 5,
+      "title": "Amazon Basics AAA Long-Lasting Alkaline Batteries, 36-Count, 1.5 Volt, Reliable Performance, 10-Year Shelf Life, Emergency Storage",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "659,065",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B00006IFHD",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 5,
+      "title": "Sharpie Permanent Markers, Fine Tip, Black, 12 Count - Office Supplies, Quick Drying, Fade Resistant, For Wood, Plastic, Paper, Metal, And More",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "44,122",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0F7Z4QZTT",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 6,
+      "title": "Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search, Wi-Fi 6, stream over 1.8 million movies and shows, free & live TV, find shows faster with Alexa+",
+      "price": "KRW 37,455",
+      "rating": "4.7 out of 5 stars",
+      "review_count": "106,152",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B07PBXXNCY",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 6,
+      "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ultra Soft, 1 Pack, 50 Ct",
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "review_count": "42,560",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B07YP2VH4B",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 6,
+      "title": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to Use, Razor Sharp Stainless Steel Cutting Wheel, Soft Ergonomic Handles, Black",
+      "price": "KRW 16,622",
+      "rating": "4.5 out of 5 stars",
+      "review_count": "89,423",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B0000ANHT7",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 6,
+      "title": "Carhartt Men's Iconic K87 Pocket T-Shirt",
+      "price": "KRW 27,818",
+      "rating": "4.7 out of 5 stars",
+      "review_count": "120,864",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B095CN96JS",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 6,
+      "title": "Amazon Basics 2-Ply Soft Toilet Paper, 30 Rolls (5 Packs of 6), 350 Sheets per Roll, Septic Safe, Equivalent to 185 Regular Rolls",
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "review_count": "95,788",
+      "source": "bestsellers"
+    },
+    {
+      "id": "B00QSR9URI",
+      "platform": "amazon",
+      "category": "all",
+      "rank": 6,
+      "title": "Amazon Basics Wide Ruled Lined Writing Note Pads for Office Supplies, 8.5\" x 11.75\", White, 12-Pack of 50 Perforated Sheets",
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "review_count": "117,174",
+      "source": "bestsellers"
+    }
+  ]
+}

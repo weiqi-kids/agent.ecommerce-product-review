@@ -1,0 +1,326 @@
+{
+  "category": "printer-ink",
+  "date": "2026-03-25",
+  "problem_statement": "HP Envy Photo / Tango 系列印表機的墨水補充（HP 64 / 64XL）",
+  "products_analyzed": [
+    {
+      "asin": "B06ZY9LP74",
+      "brand": "HP",
+      "type": "OEM",
+      "name": "HP 64 Black & Tri-Color Combo Pack (標準版)",
+      "price_usd": 55.89,
+      "reviews_analyzed": 13,
+      "confidence": "medium",
+      "review_needed": false,
+      "l4_summary": {
+        "print_quality": 0.92,
+        "compatibility": 0.75,
+        "value": 0.80,
+        "reliability": 0.88,
+        "ease_of_installation": 0.95
+      },
+      "l5_issues": [
+        {
+          "issue": "non_functional_cartridge",
+          "frequency_pct": 8,
+          "severity": "high",
+          "classification": "無法解決問題"
+        },
+        {
+          "issue": "high_price",
+          "frequency_pct": 15,
+          "severity": "low",
+          "classification": "與產品無關（相對價格感知）"
+        }
+      ]
+    },
+    {
+      "asin": "B085PT2JBR",
+      "brand": "ColoWorld",
+      "type": "Remanufactured",
+      "name": "ColoWorld HP 64XL Combo Pack (1B+1C)",
+      "price_usd": 44.20,
+      "reviews_analyzed": 8,
+      "confidence": "low",
+      "review_needed": true,
+      "l4_summary": {
+        "print_quality": 0.85,
+        "compatibility": 0.60,
+        "value": 0.82,
+        "cartridge_longevity": 0.85,
+        "customer_service": 0.90
+      },
+      "l5_issues": [
+        {
+          "issue": "printer_incompatibility",
+          "frequency_pct": 25,
+          "severity": "high",
+          "classification": "無法解決問題（印表機拒絕識別）"
+        }
+      ]
+    },
+    {
+      "asin": "B07ZF5GH98",
+      "brand": "ColoWorld",
+      "type": "Remanufactured",
+      "name": "ColoWorld HP 64XL Black (2-Pack)",
+      "price_usd": 39.97,
+      "reviews_analyzed": 8,
+      "confidence": "low",
+      "review_needed": true,
+      "l4_summary": {
+        "print_quality": 0.80,
+        "compatibility": 0.55,
+        "value": 0.80,
+        "cartridge_recognition": 0.25
+      },
+      "l5_issues": [
+        {
+          "issue": "printer_counterfeit_flag",
+          "frequency_pct": 13,
+          "severity": "high",
+          "classification": "無法解決問題（HP 韌體封鎖）"
+        },
+        {
+          "issue": "incompatible_cartridge",
+          "frequency_pct": 13,
+          "severity": "high",
+          "classification": "無法解決問題（物理不相容）"
+        },
+        {
+          "issue": "fulfillment_errors",
+          "frequency_pct": 13,
+          "severity": "medium",
+          "classification": "📦 與產品無關（物流/出貨錯誤）"
+        },
+        {
+          "issue": "cartridge_leak",
+          "frequency_pct": 13,
+          "severity": "medium",
+          "classification": "⚠️ 產生新問題（漏墨風險）"
+        }
+      ]
+    },
+    {
+      "asin": "B0852XPR1N",
+      "brand": "ColoWorld",
+      "type": "Remanufactured",
+      "name": "ColoWorld HP 64XL Color (1-Pack)",
+      "price_usd": 44.20,
+      "reviews_analyzed": 8,
+      "confidence": "low",
+      "review_needed": true,
+      "l4_summary": {
+        "print_quality": 0.85,
+        "value": 0.60,
+        "cartridge_longevity": 0.80,
+        "compatibility": 0.65,
+        "customer_service": 0.90
+      },
+      "l5_issues": [
+        {
+          "issue": "missing_ink_color",
+          "frequency_pct": 13,
+          "severity": "high",
+          "classification": "❌ 無法解決問題（缺少青色墨水）"
+        },
+        {
+          "issue": "non_functional_cartridge",
+          "frequency_pct": 13,
+          "severity": "high",
+          "classification": "❌ 無法解決問題（印後 3 頁即報錯）"
+        }
+      ]
+    },
+    {
+      "asin": "B07PLFLSS7",
+      "brand": "Inktopia",
+      "type": "Remanufactured",
+      "name": "Inktopia HP 64XL Combo Pack",
+      "price_usd": 40.99,
+      "reviews_analyzed": 8,
+      "confidence": "low",
+      "review_needed": true,
+      "l4_summary": {
+        "print_quality": 0.85,
+        "compatibility": 0.65,
+        "value": 0.80,
+        "reliability": 0.55,
+        "cartridge_lifespan": 0.30
+      },
+      "l5_issues": [
+        {
+          "issue": "color_cartridge_failure",
+          "frequency_pct": 25,
+          "severity": "high",
+          "classification": "❌ 無法解決問題（彩色匣不被識別）"
+        },
+        {
+          "issue": "premature_cartridge_failure",
+          "frequency_pct": 13,
+          "severity": "medium",
+          "classification": "❌ 無法解決問題（超過退貨期後失效）"
+        },
+        {
+          "issue": "short_lifespan",
+          "frequency_pct": 13,
+          "severity": "medium",
+          "classification": "❌ 無法解決問題（墨水耗盡速度過快）"
+        }
+      ]
+    },
+    {
+      "asin": "B0CNKD21Q3",
+      "brand": "EaseFusion",
+      "type": "Remanufactured",
+      "name": "EaseFusion HP 64XL Combo Pack",
+      "price_usd": 52.99,
+      "reviews_analyzed": 9,
+      "confidence": "medium",
+      "review_needed": false,
+      "l4_summary": {
+        "print_quality": 0.88,
+        "compatibility": 0.70,
+        "ease_of_installation": 0.90,
+        "cartridge_longevity": 0.82,
+        "customer_service": 0.85
+      },
+      "l5_issues": [
+        {
+          "issue": "printer_communication_error",
+          "frequency_pct": 22,
+          "severity": "high",
+          "classification": "❌ 無法解決問題（使用一段時間後通訊中斷）"
+        }
+      ]
+    }
+  ],
+  "negative_review_classification": {
+    "cannot_solve_problem": [
+      "printer_counterfeit_flag（ColoWorld 黑色 13%）—— HP 韌體封鎖副廠匣",
+      "incompatible_cartridge（ColoWorld 黑色 13%）—— 物理不相容 HP Envy 7800",
+      "missing_ink_color（ColoWorld 彩色 13%）—— 缺少青色無法全彩列印",
+      "non_functional_cartridge（ColoWorld 彩色 13%）—— 3 頁後印表機報錯",
+      "color_cartridge_failure（Inktopia 25%）—— 彩色匣不被識別",
+      "premature_cartridge_failure（Inktopia 13%）—— 超過退貨期後失效",
+      "short_lifespan（Inktopia 13%）—— 耗盡速度過快",
+      "printer_incompatibility（ColoWorld combo 25%）—— 新機型或韌體更新後拒絕",
+      "printer_communication_error（EaseFusion 22%）—— 使用後通訊中斷"
+    ],
+    "creates_new_problems": [
+      "cartridge_leak（ColoWorld 黑色 13%）—— 漏墨污染印表機"
+    ],
+    "unrelated_to_product": [
+      "fulfillment_errors（ColoWorld 黑色 13%）—— 出貨錯誤（空匣或錯誤品項）",
+      "high_price（HP OEM 15%，ColoWorld 彩色 25%）—— 相對價格感知"
+    ]
+  },
+  "comparison_matrix": {
+    "print_quality": {
+      "hp_oem": 0.92,
+      "coloworld_combo": 0.85,
+      "coloworld_black": 0.80,
+      "coloworld_color": 0.85,
+      "inktopia": 0.85,
+      "easefusion": 0.88,
+      "winner": "HP OEM"
+    },
+    "compatibility_reliability": {
+      "hp_oem": 0.75,
+      "coloworld_combo": 0.60,
+      "coloworld_black": 0.55,
+      "coloworld_color": 0.65,
+      "inktopia": 0.65,
+      "easefusion": 0.70,
+      "winner": "HP OEM（但仍有 8% 非功能案例）",
+      "note": "所有副廠均有 13-25% 相容性問題；EaseFusion 最接近 OEM"
+    },
+    "page_yield_claimed": {
+      "hp_oem_standard": "200B / 165C",
+      "hp_oem_xl": "600B / 415C",
+      "coloworld_xl": "660B / 450C",
+      "inktopia_xl": "700B / 450C",
+      "easefusion_xl": "680B / 460C",
+      "note": "副廠宣稱頁數比 OEM XL 高，但用戶驗證有限；部分用戶回報副廠耗盡速度快"
+    },
+    "value_per_page": {
+      "hp_oem_standard": "$0.28B / $0.34C（極差）",
+      "hp_oem_xl": "$0.12B（較好）",
+      "coloworld_xl_combo_44usd": "$0.033B（計算）",
+      "inktopia_combo_41usd": "$0.029B（計算）",
+      "easefusion_combo_53usd": "$0.039B（計算）",
+      "winner": "副廠整體節省 60-75%，Inktopia 每頁成本最低"
+    },
+    "firmware_safety": {
+      "hp_oem": "完全相容",
+      "coloworld": "⚠️ 未標榜韌體安全，HP+ 機型不支援",
+      "inktopia": "⚠️ 未知，有 25% 彩色識別失敗",
+      "easefusion": "⚠️ 聲稱最新晶片但 22% 通訊錯誤",
+      "true_image_ybToner": "✅ 明確韌體安全（無 Amazon 萃取數據）"
+    }
+  },
+  "verdict": {
+    "question": "HP 64 原廠 vs 副廠，哪個更值？",
+    "answer": "視用戶機型與使用需求而定，無法一概而論",
+    "recommendation_by_user_type": {
+      "hp_plus_users": {
+        "label": "HP+ 機型用戶（型號末尾 -e）",
+        "recommendation": "僅能使用 OEM 或明確標榜韌體安全的相容品（True Image、YB Toner）",
+        "avoid": "所有本次分析的副廠產品（ColoWorld、Inktopia、EaseFusion）"
+      },
+      "standard_hp_envy_users": {
+        "label": "標準 HP Envy / Tango 機型用戶",
+        "recommendation": "EaseFusion 在本次分析中副廠表現最佳（列印品質 0.88，相容性 0.70），但仍有 22% 通訊錯誤風險",
+        "best_value": "若接受風險，副廠可節省 60-75% 成本；ColoWorld combo 在多數用戶中表現尚可",
+        "safest": "HP 64XL OEM（非標準版）提供最穩定體驗，但每頁成本高出 3-5 倍"
+      },
+      "high_volume_users": {
+        "label": "高列印量用戶",
+        "recommendation": "考慮 True Image 或 YB Toner（韌體安全，2 年保固），或長期看考慮更換為墨水槽印表機"
+      }
+    },
+    "overall_assessment": "能部分解決問題，但有重大相容性風險",
+    "confidence": "low（所有副廠樣本僅 8 則評論，OEM 有 13 則；數據偏少）",
+    "report_type_recommendation": "比較報告（comparison）—— HP OEM 能解決問題但副廠有更低成本選項，需詳細比較"
+  },
+  "third_party_competitors_without_extraction": [
+    {
+      "name": "True Image HP 64XL",
+      "type": "Compatible (Firmware Safe)",
+      "estimated_price_combo": 44.95,
+      "firmware_safe": true,
+      "note": "評測中被明確推薦，但無 Amazon 萃取數據；為 HP+ 機型最佳副廠選擇"
+    },
+    {
+      "name": "YB Toner HP 64XL",
+      "type": "Compatible (Firmware Safe)",
+      "estimated_price_combo": 49.95,
+      "firmware_safe": true,
+      "note": "30 天退款保證，2 年保固，無 Amazon 萃取數據"
+    },
+    {
+      "name": "LD Products HP 64XL",
+      "type": "Remanufactured",
+      "estimated_price_combo": 42,
+      "firmware_safe": "部分型號",
+      "note": "終身保固，無 Amazon 萃取數據"
+    }
+  ],
+  "data_limitations": [
+    "所有副廠產品評論數僅 8 則，信心度低，結果可能不具代表性",
+    "OEM 雖有 127,806 則評分但僅分析 13 則，需更大樣本",
+    "韌體更新時間點影響相容性，評論日期分布不明",
+    "True Image / YB Toner 等評測推薦品牌無 Amazon 萃取數據，無法直接比較"
+  ],
+  "generated_at": "2026-03-25",
+  "input_files": [
+    "docs/Extractor/amazon_us/printer-ink/B06ZY9LP74--bee-happy-supplies--2026-03-25.md",
+    "docs/Extractor/amazon_us/printer-ink/B07PLFLSS7--inktopia--2026-03-25.md",
+    "docs/Extractor/amazon_us/printer-ink/B07ZF5GH98--amzn-direct--2026-03-25.md",
+    "docs/Extractor/amazon_us/printer-ink/B0852XPR1N--amzn-direct--2026-03-25.md",
+    "docs/Extractor/amazon_us/printer-ink/B085PT2JBR--amzn-direct--2026-03-25.md",
+    "docs/Extractor/amazon_us/printer-ink/B0CNKD21Q3--inkvibe-limited--2026-03-25.md",
+    "docs/Extractor/research/printer-ink--2026-03-25.md",
+    "docs/Extractor/competitors/printer-ink--2026-03-25.md"
+  ]
+}

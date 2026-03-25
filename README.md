@@ -105,8 +105,8 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-03-24 | 410+ | 366 (33 新) ✅ | ✅ 正常 |
-| bestbuy_us | 2026-03-24 | 32 | 5 ⚠️ selector 問題 x3 | ⚠️ 需關注 |
+| amazon_us | 2026-03-25 | 661+ | — | ✅ 正常 |
+| bestbuy_us | 2026-03-24 | 32 | — ⚠️ selector 問題 | ⚠️ 需關注 |
 | walmart_us | — | — | ❌ 永久停用 | ❌ 停用 |
 
 ### 監控清單
@@ -117,16 +117,13 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 | 研究缺口類別 | 10 |
 | 暫緩發佈類別 | 1（kids-activity-book） |
 
-### 今日統計 (2026-03-24)
+### 今日統計 (2026-03-25)
 
 | 指標 | 數值 |
 |------|------|
-| Discovery 產品 | 371（Amazon 366 + Best Buy 5） |
-| 新進榜 | 44 個新產品（30 歸入現有 + 3 新類別 + 11 跳過） |
-| 評論分析 | 112 ASIN 萃取成功（6 零評論） |
-| 新報告 | 3 份比較報告 |
-| 新類別 | 3（adult-clogs, powder-foundation, outdoor-inflatable-pool） |
-| REVIEW_NEEDED | 36（評論不足） + 3（研究不足） |
+| 新報告 | 5 份比較報告 |
+| 新類別 | 5（printer-paper, packing-tape, printer-ink, can-opener, writing-notepad） |
+| REVIEW_NEEDED | printer-ink（WebFetch 不足）、can-opener（WebFetch 不足） |
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

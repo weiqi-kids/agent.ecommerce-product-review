@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-03-24T12:00:00Z",
-  "last_completed_date": "2026-03-24",
-  "execution_mode": "full_rerun",
+  "last_updated": "2026-03-25T12:00:00Z",
+  "last_completed_date": "2026-03-25",
+  "execution_mode": "daily_standard",
   "current_step": 8,
   "steps": {
-    "step_1": {"status": "completed", "note": "24 產品追蹤，無到期項目（上次檢查 3/22，間隔 2 天）"},
-    "step_2": {"status": "completed", "note": "72 REVIEW_NEEDED 分析，4 高優先列入 Step 6，kids-activity-book 延後至 3/30"},
-    "step_3": {"status": "completed", "note": "Amazon 366 + Best Buy 5 = 371 產品（BB selector 問題第 3 次）"},
-    "step_4": {"status": "completed", "note": "30 歸入現有，3 新類別（adult-clogs/powder-foundation/outdoor-inflatable-pool），11 跳過"},
-    "step_5": {"status": "completed", "note": "3 新類別研究完成（WebFetch 不足，標記 REVIEW_NEEDED）"},
-    "step_6": {"status": "completed", "note": "118 ASIN 抓取（0 失敗），112 萃取成功，6 零評論，36 REVIEW_NEEDED"},
-    "step_7": {"status": "completed", "note": "3 新類別比較分析完成，均判定為比較報告"},
-    "step_8": {"status": "completed", "note": "3 份比較報告：adult-clogs + powder-foundation + outdoor-inflatable-pool"}
+    "step_1": {"status": "completed", "note": "24 產品追蹤，無到期項目（上次檢查 3/22，最早到期 3/29）"},
+    "step_2": {"status": "completed", "note": "75 REVIEW_NEEDED 分析，4 高優先持續，3 新增低優先"},
+    "step_3": {"status": "completed", "note": "Amazon 36 產品，Best Buy 跳過（selector 連續 3 次失敗降為每週）"},
+    "step_4": {"status": "completed", "note": "27 歸入現有，5 新類別（printer-paper/packing-tape/printer-ink/can-opener/writing-notepad），1 跳過"},
+    "step_5": {"status": "completed", "note": "5 新類別研究完成（WebFetch 均不足 100，標記 REVIEW_NEEDED）"},
+    "step_6": {"status": "completed", "note": "82 ASIN 抓取（0 失敗，3 零評論），79 萃取成功，29 REVIEW_NEEDED"},
+    "step_7": {"status": "completed", "note": "5 新類別比較分析完成，均判定為比較報告"},
+    "step_8": {"status": "completed", "note": "5 份比較報告：printer-paper + packing-tape + printer-ink + can-opener + writing-notepad"}
   }
 }

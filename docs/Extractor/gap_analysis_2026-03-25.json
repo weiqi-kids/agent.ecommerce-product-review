@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-03-25T00:00:00Z",
+  "analysis_scope": "全量 REVIEW_NEEDED 掃描（75 份）+ 暫緩類別重試檢查",
+  "delta_from_last": {
+    "previous_analysis": "2026-03-23",
+    "previous_total": 72,
+    "current_total": 75,
+    "new_review_needed": [
+      "docs/Narrator/comparisons/adult-clogs--2026-03-24.md",
+      "docs/Narrator/comparisons/outdoor-inflatable-pool--2026-03-24.md",
+      "docs/Narrator/comparisons/powder-foundation--2026-03-24.md"
+    ],
+    "gap_type_for_new": "研究不足（WebFetch 均 < 25/100，原因：403/SSL 阻擋）"
+  },
+  "deferred_categories": {
+    "kids-activity-book": {
+      "next_retry": "2026-03-30",
+      "retry_count": 5,
+      "status": "waiting",
+      "action": "next_retry 為 2026-03-30，本次不重試",
+      "notes": "歷史最佳：WebFetch 62 次，多數網站 403/JS-only 阻擋。上次重試 2026-03-22 仍失敗，Fibonacci 間隔 8 天"
+    }
+  },
+  "high_priority_gaps": [
+    {
+      "file": "docs/Narrator/warnings/beats-solo4-renewed--2026-03-12.md",
+      "type": "warning",
+      "gap_types": ["評論不足", "競品無萃取", "研究不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0D3PZLZ3N 至 100+ 則",
+      "last_extraction": "2026-03-12",
+      "status": "persistent_gap"
+    },
+    {
+      "file": "docs/Narrator/warnings/la-roche-posay-spf40-expired--2026-03-12.md",
+      "type": "warning",
+      "gap_types": ["評論不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0F6TWJPMX 至 100+ 則",
+      "last_extraction": "2026-03-12",
+      "status": "persistent_gap"
+    },
+    {
+      "file": "docs/Narrator/warnings/pixel-watch3-renewed--2026-03-12.md",
+      "type": "warning",
+      "gap_types": ["評論不足", "競品不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0DSWMYSYT 至 100+ 則",
+      "last_extraction": "2026-03-12",
+      "status": "persistent_gap"
+    },
+    {
+      "file": "docs/Narrator/warnings/bread-toaster--warning--2026-03-04.md",
+      "type": "warning",
+      "gap_types": ["評論不足"],
+      "priority": "高",
+      "action": "Step 6 重新抓取 B0CYJBB2JQ 至 100+ 則",
+      "last_extraction": "2026-02-11",
+      "status": "persistent_gap"
+    }
+  ],
+  "medium_priority_gaps": [
+    {
+      "file": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-05.md",
+      "type": "pain_point",
+      "gap_types": ["研究不足", "競品不足"],
+      "priority": "中",
+      "action": "補充 squishy-toy WebFetch 至 100+ 次",
+      "status": "persistent_gap"
+    }
+  ],
+  "low_priority_gaps": {
+    "count": 70,
+    "new_since_last_analysis": 3,
+    "note": "新增 3 份（2026-03-24）均為研究 WebFetch 不足（403/SSL 阻擋），結論仍有效，維持低優先",
+    "new_items": [
+      {
+        "file": "docs/Narrator/comparisons/adult-clogs--2026-03-24.md",
+        "gap_types": ["研究不足"],
+        "webfetch_count": 20,
+        "note": "403/SSL 阻擋，結論仍有效"
+      },
+      {
+        "file": "docs/Narrator/comparisons/outdoor-inflatable-pool--2026-03-24.md",
+        "gap_types": ["研究不足"],
+        "webfetch_count": 10,
+        "note": "403/SSL 阻擋 + 部分價格資料異常"
+      },
+      {
+        "file": "docs/Narrator/comparisons/powder-foundation--2026-03-24.md",
+        "gap_types": ["研究不足"],
+        "webfetch_count": 18,
+        "note": "403/SSL 阻擋，評論 105 則，結論仍有效"
+      }
+    ]
+  },
+  "summary": {
+    "total_review_needed": 75,
+    "by_type": {
+      "warnings": 9,
+      "pain_points": 2,
+      "comparisons": 55,
+      "recommendations": 9
+    },
+    "high_priority": 4,
+    "medium_priority": 1,
+    "low_priority": 70,
+    "deferred": 1,
+    "action_plan": "高優先 4 個產品列入 Step 6 優先抓取清單（持續自 2026-03-23），中優先 squishy-toy 下次研究更新時補齊，低優先 70 份（含 3 份新增）維持現狀，kids-activity-book 暫緩至 2026-03-30 重試"
+  }
+}

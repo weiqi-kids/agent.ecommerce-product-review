@@ -1,0 +1,319 @@
+{
+  "category": "packing-tape",
+  "analysis_date": "2026-03-25",
+  "problem_statement": "可靠封箱：提供足夠黏性與耐用性，確保箱子在搬運、倉儲、寄件過程中不會開封",
+  "products_analyzed": [
+    {
+      "asin": "B000J07BRQ",
+      "name": "Scotch Heavy Duty Shipping Packing Tape, Clear, 6 Rolls with Dispensers",
+      "scores": {
+        "adhesive_strength": 0.95,
+        "durability": 0.90,
+        "ease_of_use": 0.85,
+        "value": 0.87
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [],
+        "unrelated_to_product": [
+          "dispenser_awkward (8%) — 操作不便，與封箱功能無關",
+          "non_english_reviews (15%) — 資料品質問題，非產品問題"
+        ]
+      },
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B000XJOBUS",
+      "name": "Duck HP260 High Performance Clear Packing Tape Refills, 8 Rolls",
+      "scores": {
+        "adhesive_strength": 0.88,
+        "tape_thickness": 0.90,
+        "ease_of_use": 0.85,
+        "value": 0.82
+      },
+      "negative_review_classification": {
+        "functional_failure": [
+          "initial_adhesion_weakness (8%, medium) — 初始黏性不足，有開箱紀錄"
+        ],
+        "new_problems_created": [
+          "strong_adhesive_smell (15%, low) — 強烈氣味"
+        ],
+        "unrelated_to_product": [
+          "non_english_reviews (15%) — 資料品質問題"
+        ]
+      },
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B00464740A",
+      "name": "Scotch Sure Start Packing Tape, Clear, Quiet Unwind, 6 Rolls with Dispensers",
+      "scores": {
+        "adhesive_strength": 0.90,
+        "ease_of_use": 0.93,
+        "value": 0.85
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [],
+        "unrelated_to_product": [
+          "price_not_listed (8%) — 資料擷取問題",
+          "non_english_reviews (15%) — 資料品質問題"
+        ]
+      },
+      "key_differentiator": "Quiet unwind — 安靜撕膠帶，適合深夜包裝環境",
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B01JIRH1XO",
+      "name": "Gorilla Heavy Duty Packing Tape with Dispenser, 3.4mil, 12 Pack",
+      "scores": {
+        "adhesive_strength": 0.88,
+        "tape_thickness": 0.92,
+        "ease_of_use": 0.88,
+        "value": 0.80
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [],
+        "unrelated_to_product": [
+          "misleading_quantity_advertising (8%, high) — 廣告宣稱 2 捲只寄 1 捲，屬賣家/物流問題",
+          "non_english_reviews (23%) — 資料品質問題"
+        ]
+      },
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B01K0Z9QYK",
+      "name": "Tape King Clear Packing Tape, 60 Yards Per Roll, Pack of 6 Rolls",
+      "scores": {
+        "adhesive_strength": 0.88,
+        "roll_length": 0.90,
+        "ease_of_use": 0.85,
+        "value": 0.88
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [
+          "occasional_strong_smell (15%, low) — 偶有強烈氣味"
+        ],
+        "unrelated_to_product": [
+          "non_english_reviews (15%) — 資料品質問題"
+        ]
+      },
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B074FFFVCZ",
+      "name": "Tape King Clear Packing Tape Ultra Thick, 60 Yards Per Roll, 12 Rolls",
+      "scores": {
+        "adhesive_strength": 0.82,
+        "durability": 0.80,
+        "value": 0.85
+      },
+      "negative_review_classification": {
+        "functional_failure": [
+          "tape_edge_lifting (15%, medium) — 膠帶邊緣翹起，封箱可靠性受損",
+          "thickness_inconsistency (8%, medium) — 厚度不一致，品質不穩定"
+        ],
+        "new_problems_created": [],
+        "unrelated_to_product": []
+      },
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B078XXVZLQ",
+      "name": "Gorilla Heavy Duty Packing Tape (variant)",
+      "scores": {
+        "adhesive_strength": 0.88,
+        "tape_thickness": 0.92,
+        "ease_of_use": 0.88,
+        "value": 0.80
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [],
+        "unrelated_to_product": [
+          "misleading_quantity_advertising (8%, high) — 廣告宣稱 2 捲只寄 1 捲",
+          "non_english_reviews (23%) — 資料品質問題"
+        ]
+      },
+      "note": "與 B01JIRH1XO（Gorilla 12-pack）為同品牌，評論高度重疊",
+      "review_count": 13,
+      "confidence": "low"
+    },
+    {
+      "asin": "B07V68JCVF",
+      "name": "JARLINK Clear Packing Tape, 12 Rolls, Heavy Duty, 1.88\" x 60 Yards",
+      "scores": {
+        "adhesive_strength": 0.90,
+        "value": 0.92,
+        "ease_of_use": 0.85
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [],
+        "unrelated_to_product": []
+      },
+      "key_differentiator": "無重大問題；最佳性價比；小企業首選",
+      "review_count": 13,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B08D4MT4WQ",
+      "name": "Amazon Basics Heavy Duty Packaging Tape with Dispenser, 1.88\" x 22.2 yds, 6 Pack",
+      "scores": {
+        "adhesive_strength": 0.87,
+        "value": 0.85
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [],
+        "unrelated_to_product": [
+          "no_refill_compatibility (18%, medium) — 膠台不相容替換捲，屬設計限制而非封箱失效",
+          "off_topic_review (9%) — 錯誤評論，資料品質問題"
+        ]
+      },
+      "review_count": 11,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B08KWJR7LW",
+      "name": "Scotch Box Lock Packing Tape, Clear, Extreme Grip, 6 Rolls with Dispensers",
+      "scores": {
+        "adhesive_strength": 0.88,
+        "dispenser_quality": 0.90,
+        "value": 0.85
+      },
+      "negative_review_classification": {
+        "functional_failure": [
+          "poor_adhesion_to_cardboard (8%, high) — 黏不住紙箱，核心功能失效"
+        ],
+        "new_problems_created": [],
+        "unrelated_to_product": [
+          "no_refill_compatibility (17%, medium) — 膠台不相容",
+          "short_tape_length (8%, medium) — 長度短，性價比問題"
+        ]
+      },
+      "review_count": 12,
+      "confidence": "medium"
+    },
+    {
+      "asin": "B08LNNPSSK",
+      "name": "JARLINK Clearer Packing Tape, 12 Rolls, Heavy Duty, 1.88\" x 60 Yards",
+      "scores": {
+        "adhesive_strength": 0.88,
+        "durability": 0.85,
+        "value": 0.87
+      },
+      "negative_review_classification": {
+        "functional_failure": [],
+        "new_problems_created": [
+          "strong_adhesive_smell (25%, low) — 強烈氣味及黏手",
+          "glue_on_fingers (25%, low) — 黏手問題"
+        ],
+        "unrelated_to_product": []
+      },
+      "review_count": 8,
+      "confidence": "low"
+    },
+    {
+      "asin": "B09D3TLFZB",
+      "name": "JARLINK No Noise Clear Quiet Packing Tape, 12 Rolls, Heavy Duty, 1.88\" x 60 Yards",
+      "scores": {
+        "adhesive_strength": 0.60,
+        "tape_thickness": 0.82,
+        "value": 0.80
+      },
+      "negative_review_classification": {
+        "functional_failure": [
+          "adhesion_inconsistency (25%, medium) — 黏性不穩定，尤舊紙箱失效",
+          "noise_claim_disputed (25%, medium) — 「安靜」宣稱不實，部分評論稱仍有噪音"
+        ],
+        "new_problems_created": [],
+        "unrelated_to_product": []
+      },
+      "review_count": 8,
+      "confidence": "low"
+    }
+  ],
+  "dimension_comparison": {
+    "adhesive_strength": {
+      "winner": "B000J07BRQ",
+      "winner_name": "Scotch Heavy Duty",
+      "score": 0.95,
+      "ranking": [
+        {"asin": "B000J07BRQ", "score": 0.95},
+        {"asin": "B07V68JCVF", "score": 0.90},
+        {"asin": "B00464740A", "score": 0.90},
+        {"asin": "B000XJOBUS", "score": 0.88},
+        {"asin": "B01JIRH1XO", "score": 0.88},
+        {"asin": "B01K0Z9QYK", "score": 0.88},
+        {"asin": "B08D4MT4WQ", "score": 0.87},
+        {"asin": "B074FFFVCZ", "score": 0.82},
+        {"asin": "B09D3TLFZB", "score": 0.60}
+      ]
+    },
+    "durability": {
+      "winner": "B01JIRH1XO",
+      "winner_name": "Gorilla Heavy Duty 3.4mil",
+      "note": "3.4mil 厚度顯著高於標準，最耐撕裂"
+    },
+    "ease_of_use": {
+      "winner": "B00464740A",
+      "winner_name": "Scotch Sure Start",
+      "score": 0.93,
+      "note": "最容易找到膠帶頭、安靜撕取，解決常見使用挫折感"
+    },
+    "value": {
+      "winner": "B07V68JCVF",
+      "winner_name": "JARLINK 12-Roll",
+      "score": 0.92,
+      "note": "12 捲大包裝，每碼成本最低，無重大缺陷"
+    }
+  },
+  "overall_verdict": {
+    "best_for_reliable_sealing": {
+      "asin": "B000J07BRQ",
+      "name": "Scotch Heavy Duty Shipping Packing Tape, 6 Rolls with Dispensers",
+      "reason": "黏性分數最高（0.95），無核心功能失效記錄，包含膠台方便使用，多位使用者從 Duck 等競品轉投後給予高度評價。適合一般家用及中量寄件。"
+    },
+    "best_value_for_business": {
+      "asin": "B07V68JCVF",
+      "name": "JARLINK Clear Packing Tape, 12 Rolls",
+      "reason": "性價比最高（0.92），黏性良好（0.90），12 捲大包裝，評論中無重大問題，小企業主首選。"
+    },
+    "best_heavy_duty": {
+      "asin": "B01JIRH1XO",
+      "name": "Gorilla Heavy Duty Packing Tape, 3.4mil, 12 Pack",
+      "reason": "3.4mil 厚度為市場最厚，適合重型包裝及搬家。廣告宣稱問題屬賣家問題，非產品問題。"
+    },
+    "best_quiet_use": {
+      "asin": "B00464740A",
+      "name": "Scotch Sure Start Packing Tape, Quiet Unwind",
+      "reason": "使用體驗最佳（0.93），安靜撕取無噪音，適合深夜或安靜環境包裝。"
+    },
+    "avoid": [
+      {
+        "asin": "B09D3TLFZB",
+        "name": "JARLINK No Noise Quiet Packing Tape",
+        "reason": "黏性分數偏低（0.60），25% 使用者反映黏性不穩定，且安靜宣稱被多位使用者質疑不實。",
+        "verdict": "❌ 核心功能（可靠封箱）無法保證"
+      },
+      {
+        "asin": "B074FFFVCZ",
+        "name": "Tape King Ultra Thick, 12 Rolls",
+        "reason": "15% 使用者反映膠帶邊緣翹起，封箱可靠性受損；厚度不一致。",
+        "verdict": "⚠️ 品質不穩定，有封箱失效風險"
+      }
+    ]
+  },
+  "report_recommendation": "comparison",
+  "confidence_overall": "medium",
+  "notes": "所有產品評論數均較少（8-13 則），結論信心度為 medium。B08LNNPSSK 和 B09D3TLFZB 僅 8 則評論，標記 confidence: low。B078XXVZLQ（Gorilla variant）與 B01JIRH1XO 評論高度重疊，分析以 B01JIRH1XO 為準。"
+}

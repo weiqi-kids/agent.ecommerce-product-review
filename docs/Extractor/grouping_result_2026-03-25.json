@@ -1,0 +1,93 @@
+{
+  "date": "2026-03-25",
+  "total_products": 36,
+  "processed": 35,
+  "skipped": 1,
+  "existing_categories": 27,
+  "new_categories": 5,
+  "summary": {
+    "existing_category_products": 27,
+    "new_category_products": 6,
+    "skipped_products": 1
+  },
+  "existing_categories": [
+    { "category": "exfoliating-toner", "asins": ["B09V7Z4TJG"], "count": 1 },
+    { "category": "water-bottle", "asins": ["B0BZYCJK89", "B0CP9YB3Q4", "B0D6C6GS58"], "count": 3 },
+    { "category": "wireless-bra", "asins": ["B0D8DZN778"], "count": 1 },
+    { "category": "paper-towels", "asins": ["B07MHJFRBJ"], "count": 1 },
+    { "category": "aa-batteries", "asins": ["B00MNV8E0C", "B00LH3DMUO"], "count": 2 },
+    { "category": "wired-earphones", "asins": ["B0DCH8VDXF"], "count": 1 },
+    { "category": "body-moisturizing", "asins": ["B08KT2Z93D"], "count": 1 },
+    { "category": "kids-casual-clogs", "asins": ["B09NMFCJ61"], "count": 1 },
+    { "category": "wireless-earbuds", "asins": ["B0DGHMNQ5Z", "B0FQFB8FMG"], "count": 2 },
+    { "category": "acne-treatment", "asins": ["B074PVTPBW"], "count": 1 },
+    { "category": "meat-thermometer", "asins": ["B00S93EQUK"], "count": 1 },
+    { "category": "adult-clogs", "asins": ["B0014C0LSY"], "count": 1 },
+    { "category": "toilet-paper", "asins": ["B0FN4NH4K8", "B095CN96JS"], "count": 2 },
+    { "category": "item-tracker", "asins": ["B0GJTFXNRX"], "count": 1 },
+    { "category": "makeup-removal", "asins": ["B00U2VQZDS"], "count": 1 },
+    { "category": "kitchen-scale", "asins": ["B0113UZJE2"], "count": 1 },
+    { "category": "mens-underwear", "asins": ["B086KSDTQ4"], "count": 1 },
+    { "category": "electrolyte-hydration", "asins": ["B0FTGJGPTM"], "count": 1 },
+    { "category": "streaming-stick", "asins": ["B0F7Z4QZTT"], "count": 1 },
+    { "category": "mens-basic-tshirt", "asins": ["B07JCS8NRC", "B0000ANHT7"], "count": 2 },
+    { "category": "cotton-swabs", "asins": ["B09542G9ZN"], "count": 1 },
+    { "category": "art-supplies", "asins": ["B00006IFHD"], "count": 1, "note": "Sharpie 麥克筆歸入書寫/繪圖用品" },
+    { "category": "face-towels", "asins": ["B07PBXXNCY"], "count": 1, "note": "Clean Skin Club XL 一次性洗臉巾" }
+  ],
+  "new_categories": [
+    {
+      "category": "printer-paper",
+      "description": "辦公室/印表機用紙（重量、亮度、卡紙率）",
+      "asins": ["B01FV0F8H8", "B001AFL8GY"],
+      "count": 2,
+      "products": [
+        { "asin": "B01FV0F8H8", "name": "Amazon Basics Multipurpose Copy Printer Paper" },
+        { "asin": "B001AFL8GY", "name": "HP Printer Paper 8.5 x 11 Copy&Print 20 lb" }
+      ]
+    },
+    {
+      "category": "packing-tape",
+      "description": "包裝封箱膠帶（黏性、撕取、防水）",
+      "asins": ["B000J07BRQ"],
+      "count": 1,
+      "products": [
+        { "asin": "B000J07BRQ", "name": "Scotch Heavy Duty Shipping Packing Tape" }
+      ]
+    },
+    {
+      "category": "printer-ink",
+      "description": "印表機墨水匣（兼容性、顏色品質、性價比）",
+      "asins": ["B06ZY9LP74"],
+      "count": 1,
+      "products": [
+        { "asin": "B06ZY9LP74", "name": "HP 64 Black & Tri-Color Ink Cartridges" }
+      ]
+    },
+    {
+      "category": "can-opener",
+      "description": "廚房罐頭開罐器（省力、不殘留鐵屑、耐用）",
+      "asins": ["B07YP2VH4B"],
+      "count": 1,
+      "products": [
+        { "asin": "B07YP2VH4B", "name": "KitchenAid Classic Multifunction Can Opener" }
+      ]
+    },
+    {
+      "category": "writing-notepad",
+      "description": "書寫筆記本（紙質、線條規格、撕除性）",
+      "asins": ["B00QSR9URI"],
+      "count": 1,
+      "products": [
+        { "asin": "B00QSR9URI", "name": "Amazon Basics Wide Ruled Writing Note Pads" }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "asin": "B08JHCVHTY",
+      "name": "blink plus plan with monthly auto-renewal",
+      "reason": "數位訂閱服務，非實體產品"
+    }
+  ]
+}

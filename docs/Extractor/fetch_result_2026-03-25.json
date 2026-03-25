@@ -1,0 +1,17 @@
+{
+  "date": "2026-03-25",
+  "total_asins": 82,
+  "scraped": 82,
+  "failed": 0,
+  "zero_reviews": 3,
+  "extracted": 79,
+  "review_needed": 29,
+  "categories": {
+    "printer-paper": {"extracted": 13, "review_needed": 8},
+    "packing-tape": {"extracted": 12, "review_needed": 2},
+    "printer-ink": {"extracted": 6, "review_needed": 5},
+    "can-opener": {"extracted": 12, "review_needed": 4},
+    "writing-notepad": {"extracted": 13, "review_needed": 7},
+    "existing-refresh": {"extracted": 23, "review_needed": 3}
+  }
+}
