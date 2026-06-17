@@ -11,6 +11,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0F6TWJPMX |
+| **UPC/EAN** | — |
+| **ASIN** | B0F6TWJPMX |
+| **Brand** | — |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | sun-protection |
+| **Language** | en-US |
+| **Price** | 0.35 USD |
+| **Avg Rating** | 4.55 (31471 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0F6TWJPMX |
+| **Fetched At** | 2026-06-17T06:29:49.365Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | **標題** | La Roche-Posay Anthelios Sunscreen SPF 40, Ultra-Light Fluid Broad Spectrum SPF 40, Face Sunscreen with Titanium Dioxide Mineral, Lightweight & Fast-Absorbing, Oil-Free, Matte Finish |

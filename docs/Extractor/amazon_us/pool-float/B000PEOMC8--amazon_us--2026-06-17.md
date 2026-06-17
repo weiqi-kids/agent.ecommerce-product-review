@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B000PEOMC8 |
+| **UPC/EAN** | — |
+| **ASIN** | B000PEOMC8 |
+| **Brand** | — |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | pool-float |
+| **Language** | en-US |
+| **Price** | 0.18 USD |
+| **Avg Rating** | 4.65 (19407 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B000PEOMC8 |
+| **Fetched At** | 2026-06-17T06:22:39.056Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | INTEX 58825EP River Run 1 Inflatable Floating Lounge: Comfortable Backrest – Built-in Cup Holders |

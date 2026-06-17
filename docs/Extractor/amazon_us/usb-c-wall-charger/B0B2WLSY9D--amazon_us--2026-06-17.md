@@ -11,6 +11,23 @@
 
 ## L1：產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0B2WLSY9D |
+| **UPC/EAN** | — |
+| **ASIN** | B0B2WLSY9D |
+| **Brand** | CXX |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | usb-c-wall-charger |
+| **Language** | en-US |
+| **Price** | 0.13 USD |
+| **Avg Rating** | 4.65 (11899 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0B2WLSY9D |
+| **Fetched At** | 2026-06-17T06:25:02.965Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 品牌 | CXX |

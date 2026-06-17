@@ -10,6 +10,23 @@
 
 ## L1 基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B08M3LNC6K |
+| **UPC/EAN** | — |
+| **ASIN** | B08M3LNC6K |
+| **Brand** | Coreykin |
+| **Platform** | amazon_us |
+| **Store** | JIE XIN Trading (jie-xin-trading) |
+| **Category** | usb-c-wall-charger |
+| **Language** | en-US |
+| **Price** | 0.07 USD |
+| **Avg Rating** | 4.35 (19149 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B08M3LNC6K |
+| **Fetched At** | 2026-06-17T06:23:51.339Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 值 |
 |------|-----|
 | 品牌 | Coreykin |

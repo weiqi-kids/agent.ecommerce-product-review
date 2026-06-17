@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0D68VRKS2 |
+| **UPC/EAN** | — |
+| **ASIN** | B0D68VRKS2 |
+| **Brand** | Aqua LEISURE |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | pool-float |
+| **Language** | en-US |
+| **Price** | 0.25 USD |
+| **Avg Rating** | 4.55 (67978 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0D68VRKS2 |
+| **Fetched At** | 2026-06-17T06:27:48.231Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Aqua 4-in-1 Monterey Hammock Pool Float & Water Hammock, Multi-Purpose, Inflatable Pool Floats for Adults |

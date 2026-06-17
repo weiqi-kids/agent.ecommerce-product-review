@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0GCD9F4LC |
+| **UPC/EAN** | — |
+| **ASIN** | B0GCD9F4LC |
+| **Brand** | firtstnow |
+| **Platform** | amazon_us |
+| **Store** | CHENXIN-Direct (chenxin-direct) |
+| **Category** | phone-screen-protector |
+| **Language** | en-US |
+| **Price** | 0.08 USD |
+| **Avg Rating** | 4.65 (13227 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0GCD9F4LC |
+| **Fetched At** | 2026-06-17T06:33:10.854Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Samsung Galaxy S25 Ultra 螢幕保護貼 + 鏡頭保護貼組合（三件組） |

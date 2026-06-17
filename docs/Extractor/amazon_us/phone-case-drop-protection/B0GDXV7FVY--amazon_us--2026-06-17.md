@@ -13,6 +13,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0GDXV7FVY |
+| **UPC/EAN** | — |
+| **ASIN** | B0GDXV7FVY |
+| **Brand** | SleekCover |
+| **Platform** | amazon_us |
+| **Store** | TIANLI LTD. (tianli-ltd-) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.10 USD |
+| **Avg Rating** | 4.65 (181 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0GDXV7FVY |
+| **Fetched At** | 2026-06-17T06:33:26.838Z |
+| **Reviews Analyzed** | 8 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Compatible with iPhone 13/14 Case, Cute Aesthetic Striped Pattern Cover for Women Girls, Soft TPU Shockproof Protective Stylish Kawaii Case for iPhone 13/14 6.1", Pink/Yellow |

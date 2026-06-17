@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0F1GCBNYQ |
+| **UPC/EAN** | — |
+| **ASIN** | B0F1GCBNYQ |
+| **Brand** | Red Bull |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | energy-drink |
+| **Language** | en-US |
+| **Price** | 63.18 USD |
+| **Avg Rating** | 4.85 (830 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0F1GCBNYQ |
+| **Fetched At** | 2026-06-17T06:29:14.859Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Red Bull Peach Edition Energy Drink, White Peach, 12 fl. oz., 24 cans, with 114mg Caffeine, Taurine & B Vitamins |

@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0F9PCWWNM |
+| **UPC/EAN** | — |
+| **ASIN** | B0F9PCWWNM |
+| **Brand** | UNBREAKcable |
+| **Platform** | amazon_us |
+| **Store** | UNBREAKcable Brand Store (unbreakcable-brand-store) |
+| **Category** | phone-screen-protector |
+| **Language** | en-US |
+| **Price** | 0.19 USD |
+| **Avg Rating** | 4.45 (67724 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0F9PCWWNM |
+| **Fetched At** | 2026-06-17T06:30:07.370Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | UNBREAKcable iPhone 螢幕保護貼（鋼化玻璃，高透明度） |

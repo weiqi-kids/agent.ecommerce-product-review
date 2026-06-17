@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0BRV88TXF |
+| **UPC/EAN** | — |
+| **ASIN** | B0BRV88TXF |
+| **Brand** | EZIGO |
+| **Platform** | amazon_us |
+| **Store** | RS Star (rs-star) |
+| **Category** | pool-float |
+| **Language** | en-US |
+| **Price** | 0.26 USD |
+| **Avg Rating** | 4.75 (1562 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0BRV88TXF |
+| **Fetched At** | 2026-06-17T06:26:35.650Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | EZIGO Baby Pool Float with Canopy UPF50+ Sun Protection, Inflatable Kids Pool Floats with Ocean Animals |

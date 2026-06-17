@@ -10,6 +10,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0FH65ZLHV |
+| **UPC/EAN** | — |
+| **ASIN** | B0FH65ZLHV |
+| **Brand** | SUPFINE |
+| **Platform** | amazon_us |
+| **Store** | SUPFINE-US (supfine-us) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.10 USD |
+| **Avg Rating** | 4.65 (68726 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0FH65ZLHV |
+| **Fetched At** | 2026-06-17T06:31:04.805Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | SUPFINE Magnetic for iPhone 17 Case (Compatible with MagSafe)(Military Grade Drop Protection) Translucent Matte Shockproof with Anti-Fingerprint Phone Cover, Black |

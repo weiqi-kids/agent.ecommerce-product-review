@@ -10,6 +10,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0FSNCV7VV |
+| **UPC/EAN** | — |
+| **ASIN** | B0FSNCV7VV |
+| **Brand** | — |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.00 USD |
+| **Avg Rating** | 4.65 (3078 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0FSNCV7VV |
+| **Fetched At** | 2026-06-17T06:32:37.564Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | OtterBox iPhone 17 Pro Max Defender Pro Series Case - Black - Tough, Rugged & Durable iPhone Case, Snaps on MagSafe |

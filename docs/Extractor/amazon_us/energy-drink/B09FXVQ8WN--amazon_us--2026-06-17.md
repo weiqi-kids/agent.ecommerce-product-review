@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B09FXVQ8WN |
+| **UPC/EAN** | — |
+| **ASIN** | B09FXVQ8WN |
+| **Brand** | C4 |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | energy-drink |
+| **Language** | en-US |
+| **Price** | 0.25 USD |
+| **Avg Rating** | 4.65 (6720 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B09FXVQ8WN |
+| **Fetched At** | 2026-06-17T06:24:43.540Z |
+| **Reviews Analyzed** | 11 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | C4 Performance Energy Drink \| Strawberry Blast \| Zero Sugar Carbonated Preworkout Energy \| 200mg Caffeine with Beta Alanine \| 16 Fl Oz (12 Pack) |

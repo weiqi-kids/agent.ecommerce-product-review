@@ -10,6 +10,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B099JVC9HL |
+| **UPC/EAN** | — |
+| **ASIN** | B099JVC9HL |
+| **Brand** | — |
+| **Platform** | amazon_us |
+| **Store** | Minghutech-US (minghutech-us) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.13 USD |
+| **Avg Rating** | 4.75 (130328 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B099JVC9HL |
+| **Fetched At** | 2026-06-17T06:24:23.500Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | ESR for iPhone 14/iPhone 13 Case, Compatible with MagSafe, Shockproof Military-Grade Protection, Scratch-Resistant Back, Magnetic Phone Case for iPhone 14/iPhone 13, Classic Hybrid Case, Clear |

@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0BKTP6ZGL |
+| **UPC/EAN** | — |
+| **ASIN** | B0BKTP6ZGL |
+| **Brand** | Sloosh |
+| **Platform** | amazon_us |
+| **Store** | JoyinDirect (joyindirect) |
+| **Category** | pool-float |
+| **Language** | en-US |
+| **Price** | 0.40 USD |
+| **Avg Rating** | 4.45 (5888 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0BKTP6ZGL |
+| **Fetched At** | 2026-06-17T06:25:44.764Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | SLOOSH Inflatable Tanning Pool Lounger Float, 85" x 57" Extra Large Pool Floats Adult with Pillow |

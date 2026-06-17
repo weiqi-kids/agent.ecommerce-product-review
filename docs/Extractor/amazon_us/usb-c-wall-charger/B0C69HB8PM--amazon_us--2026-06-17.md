@@ -9,6 +9,23 @@
 
 ## L1：產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0C69HB8PM |
+| **UPC/EAN** | — |
+| **ASIN** | B0C69HB8PM |
+| **Brand** | Icseio |
+| **Platform** | amazon_us |
+| **Store** | XGous (xgous) |
+| **Category** | usb-c-wall-charger |
+| **Language** | en-US |
+| **Price** | 0.10 USD |
+| **Avg Rating** | 4.75 (10308 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0C69HB8PM |
+| **Fetched At** | 2026-06-17T06:26:54.268Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 品牌 | Icseio |

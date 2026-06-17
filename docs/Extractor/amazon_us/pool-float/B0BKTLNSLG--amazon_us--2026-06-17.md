@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0BKTLNSLG |
+| **UPC/EAN** | — |
+| **ASIN** | B0BKTLNSLG |
+| **Brand** | Sloosh |
+| **Platform** | amazon_us |
+| **Store** | JoyinDirect (joyindirect) |
+| **Category** | pool-float |
+| **Language** | en-US |
+| **Price** | 0.40 USD |
+| **Avg Rating** | 4.25 (5119 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0BKTLNSLG |
+| **Fetched At** | 2026-06-17T06:25:21.684Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | SLOOSH Inflatable Pool Floats Adult, 2 Packs Floating Lounge Chairs, Blow up Pool Noodles for Adults |

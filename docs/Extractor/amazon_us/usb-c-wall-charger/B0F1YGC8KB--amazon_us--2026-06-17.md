@@ -12,6 +12,23 @@
 
 ## L1：產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0F1YGC8KB |
+| **UPC/EAN** | — |
+| **ASIN** | B0F1YGC8KB |
+| **Brand** | Auorld |
+| **Platform** | amazon_us |
+| **Store** | Huokis (huokis) |
+| **Category** | usb-c-wall-charger |
+| **Language** | en-US |
+| **Price** | 0.22 USD |
+| **Avg Rating** | 4.65 (2292 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0F1YGC8KB |
+| **Fetched At** | 2026-06-17T06:29:30.830Z |
+| **Reviews Analyzed** | 9 |
+
+
 - **品牌**：Auorld
 - **標題**：USB C Fast Charger Block, 60W USBC Wall Charger Plug, 2Pack 5-Port Type C Phone Charging Cubes Power Adapter Multiport Brick for iPhone 17/16/15/14/13/12/11/Pro Max/Plus/Air, iPad mini/Pro,Galaxy S25
 - **圖片 URL**：https://m.media-amazon.com/images/I/51U8pdPwMaL._AC_SL1500_.jpg

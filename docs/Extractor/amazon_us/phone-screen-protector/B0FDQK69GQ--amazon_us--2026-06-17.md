@@ -9,6 +9,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0FDQK69GQ |
+| **UPC/EAN** | — |
+| **ASIN** | B0FDQK69GQ |
+| **Brand** | Ailun |
+| **Platform** | amazon_us |
+| **Store** | AilunUS (ailunus) |
+| **Category** | phone-screen-protector |
+| **Language** | en-US |
+| **Price** | 0.07 USD |
+| **Avg Rating** | 4.65 (1132464 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0FDQK69GQ |
+| **Fetched At** | 2026-06-17T06:30:46.317Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Ailun iPhone 隱私螢幕保護貼（三件組） |

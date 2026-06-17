@@ -11,6 +11,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0D3PZLZ3N |
+| **UPC/EAN** | — |
+| **ASIN** | B0D3PZLZ3N |
+| **Brand** | Amazon Renewed |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | noise-cancelling-headphone |
+| **Language** | en-US |
+| **Price** | 0.14 USD |
+| **Avg Rating** | 4.45 (525 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0D3PZLZ3N |
+| **Fetched At** | 2026-06-17T06:27:29.082Z |
+| **Reviews Analyzed** | 11 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | **標題** | Beats Solo 4 - Wireless Bluetooth On-Ear Headphones, Apple & Android Compatible, Up to 50 Hours of Battery Life - Cloud Pink (Renewed) |

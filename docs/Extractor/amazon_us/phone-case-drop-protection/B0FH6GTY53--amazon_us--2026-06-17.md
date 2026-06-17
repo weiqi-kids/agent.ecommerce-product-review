@@ -10,6 +10,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0FH6GTY53 |
+| **UPC/EAN** | — |
+| **ASIN** | B0FH6GTY53 |
+| **Brand** | SuydanBox |
+| **Platform** | amazon_us |
+| **Store** | NINGWO (ningwo) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.10 USD |
+| **Avg Rating** | 4.55 (25411 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0FH6GTY53 |
+| **Fetched At** | 2026-06-17T06:31:23.735Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Magnetic for iPhone 17 Pro Max Case, Compatible with MagSafe, [Full Camera Protection][Screen Protector] Silicone Shockproof Protective Phone Case for iPhone 17 Pro Max 6.9", Calke Green |

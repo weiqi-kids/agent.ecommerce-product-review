@@ -10,6 +10,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0DB1B46LD |
+| **UPC/EAN** | — |
+| **ASIN** | B0DB1B46LD |
+| **Brand** | Temdan |
+| **Platform** | amazon_us |
+| **Store** | LongGuoSeng (longguoseng) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.13 USD |
+| **Avg Rating** | 4.55 (13868 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0DB1B46LD |
+| **Fetched At** | 2026-06-17T06:28:40.801Z |
+| **Reviews Analyzed** | 11 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Magnetic Compatible with iPhone 16 Pro Max Case, [Built-in Invisible Kickstand][Compatible with MagSafe][Military Grade Shockproof] Slim Translucent Matte Phone Case for iPhone 16 Pro Max 6.9" |

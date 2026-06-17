@@ -11,6 +11,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0D9M7ST5H |
+| **UPC/EAN** | — |
+| **ASIN** | B0D9M7ST5H |
+| **Brand** | Schylling |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | squishy-toy |
+| **Language** | en-US |
+| **Price** | 0.09 USD |
+| **Avg Rating** | 4.35 (469 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0D9M7ST5H |
+| **Fetched At** | 2026-06-17T06:28:21.505Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | **標題** | Schylling NeeDoh Rainboh Teenie - Sensory Squeeze Toy - Contains 6 Mini Groovy Globs - 1.5" Wide - Multicolored |

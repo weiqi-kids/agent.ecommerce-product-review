@@ -13,6 +13,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0G4Z5G1NT |
+| **UPC/EAN** | — |
+| **ASIN** | B0G4Z5G1NT |
+| **Brand** | RELIEF SUN |
+| **Platform** | amazon_us |
+| **Store** | KEHOO (kehoo) |
+| **Category** | sun-protection |
+| **Language** | en-US |
+| **Price** | 0.19 USD |
+| **Avg Rating** | 4.15 (623 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0G4Z5G1NT |
+| **Fetched At** | 2026-06-17T06:32:53.226Z |
+| **Reviews Analyzed** | 8 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | **標題** | Organic Korean sunscreen SPF50+, PA++++ Rice and Probiotics \| Korean Skin Care Solution for All Skin Types Nourishing Skin Protection and UV Def（1PCS) |

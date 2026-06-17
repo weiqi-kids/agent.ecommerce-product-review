@@ -10,6 +10,23 @@
 
 ## L1：產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0C8HHV9DK |
+| **UPC/EAN** | — |
+| **ASIN** | B0C8HHV9DK |
+| **Brand** | — |
+| **Platform** | amazon_us |
+| **Store** | Amazon.com (amzn-direct) |
+| **Category** | usb-c-wall-charger |
+| **Language** | en-US |
+| **Price** | 0.08 USD |
+| **Avg Rating** | 4.65 (29327 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0C8HHV9DK |
+| **Fetched At** | 2026-06-17T06:27:13.338Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | **品牌** | Anker |

@@ -10,6 +10,23 @@
 
 ## L1 產品基本資訊
 
+| Field | Value |
+|---|---|
+| **product_id** | B0FHGQZ9P5 |
+| **UPC/EAN** | — |
+| **ASIN** | B0FHGQZ9P5 |
+| **Brand** | SKYLMW |
+| **Platform** | amazon_us |
+| **Store** | Shenzhen G-TECH communication co,.ltd. (shenzhen-g-tech-communication-co--ltd-) |
+| **Category** | phone-case-drop-protection |
+| **Language** | en-US |
+| **Price** | 0.30 USD |
+| **Avg Rating** | 4.45 (13947 ratings) |
+| **Source URL** | https://www.amazon.com/dp/B0FHGQZ9P5 |
+| **Fetched At** | 2026-06-17T06:31:43.188Z |
+| **Reviews Analyzed** | 13 |
+
+
 | 欄位 | 內容 |
 |------|------|
 | 標題 | Compatible with iPhone 17 Case with Invisible Magnetic O-Ring Stand Military-Grade Phone Case for iPhone 17 6.3" [Compatible with Mag-Safe][Great Grip Feeling], Translucent |
