@@ -16,7 +16,8 @@
     "seo:fix": "node scripts/fix-seo.js",
     "seo:validate-site": "node scripts/validate-site.js",
     "report:check": "bash scripts/check-report-integrity.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:extraction": "node scripts/validate-extraction.js"
   },
   "repository": {
     "type": "git",

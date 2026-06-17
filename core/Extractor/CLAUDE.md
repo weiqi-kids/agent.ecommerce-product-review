@@ -191,6 +191,11 @@ Extractor 負責從電商平台擷取商品評論資料，並透過 L1-L6 六層
 
 ## 萃取輸出 .md 模板
 
+> ⚠️ **強制：L1 必須包含下方的英文 metadata 表**（`| **product_id** |`、`| **Source URL** |`、`| **Avg Rating** |`、`| **Store** |`、`| **Reviews Analyzed** |` 等）。
+> `update.sh` 用 grep 擷取這些欄位做 Qdrant 向量化，且 upsert 閘門為 `[[ -n "$source_url" ]]`。
+> **缺這些欄位 → 向量化會被靜默跳過**（2026-06-17 曾因萃取只用中文區段而踩坑）。
+> 不可只寫中文區段（如「**產品識別碼**：...」）取代英文表格。萃取後可執行 `npm run validate:extraction` 驗證。
+
 ```markdown
 # {canonical_title}
 

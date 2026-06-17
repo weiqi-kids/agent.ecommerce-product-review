@@ -719,7 +719,9 @@ Step 5 競品（有 Amazon ASIN）
 2. **定位 JSONL** — `ls docs/Extractor/{layer}/raw/*.jsonl` 取得所有 JSONL 檔案路徑
 3. **萃取** — 對每個 JSONL 逐行處理（見下方 JSONL 處理規範）
 4. **合併**（若 `batch_total > 1`）— 讀取所有 batch .md，合併為最終 `{product_id}--{store_id}--{date}.md`
-5. **update** — 將**最終版 .md** 路徑傳入 `update.sh`
+5. **驗證格式** — 執行 `npm run validate:extraction`（或 `node scripts/validate-extraction.js --date {date}`）。
+   ⚠️ 萃取 .md **必須**含 L1 英文 metadata 表（`**product_id**`/`**Source URL**`/`**Avg Rating**`/`**Store**`/`**Reviews Analyzed**`），否則 `update.sh` 的 Qdrant 向量化會**靜默跳過**。驗證未過 → 補欄位後再進 update。
+6. **update** — 將**最終版 .md** 路徑傳入 `update.sh`。注意其結尾的「向量化結果」摘要：**成功 upsert 數應等於處理檔數**，否則代表有檔未寫入 Qdrant，須排查。
 
 #### 執行流程（社群來源 - MCP Fetch）
 
