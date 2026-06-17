@@ -1,48 +1,4 @@
 {
-  "last_updated": "2026-03-01T20:10:00Z",
   "pending_decisions": [],
-  "resolved_decisions": [
-    {
-      "category": "laundry-stain",
-      "report_type": "comparison",
-      "reason": "評論數不足、競品資料僅來自評測文章",
-      "resolution": "gap_filled",
-      "resolved_at": "2026-03-01T20:10:00Z",
-      "notes": "補齊 3 競品 ASIN（OxiClean B005N7EUSS、Shout B000VDX2SS、Tide B00ME8P9MU），評論數從 50 增至 350，移除 REVIEW_NEEDED"
-    },
-    {
-      "category": "vitamin-d-supplement",
-      "report_type": "comparison",
-      "reason": "競品不足（僅 1 個無 ASIN 競品）",
-      "resolution": "gap_filled",
-      "resolved_at": "2026-03-01T20:10:00Z",
-      "notes": "補齊 3 競品 ASIN（Nature Made B004GJYTF8、NOW Foods B001UZPY1O、Thorne B0038NF8MG），產品數從 2 增至 5，移除 REVIEW_NEEDED"
-    },
-    {
-      "category": "drain-clog",
-      "report_type": "comparison",
-      "reason": "評論數不足、競品缺少 Amazon 評論",
-      "resolution": "gap_filled",
-      "resolved_at": "2026-03-01T20:10:00Z",
-      "notes": "補齊 3 競品 ASIN（Drano B003TS2R1A、Green Gobbler B079K94HHV、Liquid-Plumr B00CZ5GE30），評論數從 50 增至 350，移除 REVIEW_NEEDED"
-    },
-    {
-      "category": "trading-cards",
-      "report_type": "warning",
-      "reason": "評論數不足、研究資料嚴重不足、無競品 ASIN",
-      "resolution": "gap_filled_and_upgraded",
-      "resolved_at": "2026-03-01T20:10:00Z",
-      "notes": "補齊 3 競品 ASIN（Pokémon Mega Evo B0G3CY83L5、Prismatic Evo B0DLPL7LC5、MTG B0DNV3NV61），評論數從 50 增至 268。發現系統性篡改問題（13-45%），報告從 comparison 升級為 warning"
-    },
-    {
-      "category": "body-moisturizing",
-      "product": "B08KT2Z93D",
-      "product_name": "eos Shea Better Body Lotion",
-      "report_type": "watchlist_candidate",
-      "reason": "近期批次（2025末-2026初）6% 評論報告化學味取代香草味，威脅產品核心價值",
-      "resolution": "added_to_watchlist",
-      "resolved_at": "2026-02-07T01:05:00Z",
-      "notes": "直接加入 watchlist.json，不依賴 pending_decisions 機制"
-    }
-  ]
+  "note": "2026-06-17 的 2 份 review_insufficient 報告已決策（見 decision_log）"
 }

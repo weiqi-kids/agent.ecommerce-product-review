@@ -1,5 +1,24 @@
 {
   "last_updated": "2026-02-07T10:00:00Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "category": "phone-case-drop-protection",
+      "report_type": "comparison",
+      "reason": "研究/評論不足（review_insufficient）",
+      "user_decision": "直接發佈（標記 [REVIEW_NEEDED] 保留）",
+      "decided_at": "2026-06-17T07:45:00Z",
+      "context": "SleekCover 僅 8 則評論；Amazon /dp/ 頁評論數有上限，無法靠重抓補齊，由後續增量自然累積後重評",
+      "auto": false
+    },
+    {
+      "category": "energy-drink",
+      "report_type": "comparison",
+      "reason": "研究/評論不足（review_insufficient）",
+      "user_decision": "直接發佈（標記 [REVIEW_NEEDED] 保留）",
+      "decided_at": "2026-06-17T07:45:00Z",
+      "context": "3 款 <10 則評論；Amazon /dp/ 頁評論數有上限，無法靠重抓補齊，由後續增量自然累積後重評",
+      "auto": false
+    }
+  ],
   "auto_rules": []
 }
