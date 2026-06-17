@@ -1,0 +1,138 @@
+{
+  "date": "2026-03-13",
+  "total_products_processed": 75,
+  "assigned_to_existing": 19,
+  "assigned_to_new": 56,
+  "skipped": 0,
+  "existing_categories_updated": [
+    { "category": "tablet-computer", "added": ["B0DZ75TN5F"], "count_before": 4, "count_after": 5 },
+    { "category": "e-reader", "added": ["B0CFPJYX7P", "B0CNV9F72P"], "count_before": 6, "count_after": 8 },
+    { "category": "video-doorbell", "added": ["B0DGQVYW2K"], "count_before": 4, "count_after": 5 },
+    { "category": "wireless-earbuds", "added": ["B0FHWGB7FW"], "count_before": 22, "count_after": 23 },
+    { "category": "item-tracker", "added": ["B0CWXNS552"], "count_before": 4, "count_after": 5 },
+    { "category": "flushable-wipes", "added": ["B010NE2XPC", "B07ND3WR64"], "count_before": 8, "count_after": 10 },
+    { "category": "probiotic-supplement", "added": ["B079H53D2B"], "count_before": 4, "count_after": 5 },
+    { "category": "high-protein-snack", "added": ["B00DLDH1N2"], "count_before": 5, "count_after": 6 },
+    { "category": "squishy-toy", "added": ["B0DR7PH993", "B0BQZFVJTB"], "count_before": 21, "count_after": 23 },
+    { "category": "action-figure", "added": ["B07PQFT83F"], "count_before": 6, "count_after": 7 },
+    { "category": "kitchen-scale", "added": ["B0113UZJE2"], "count_before": 4, "count_after": 5 },
+    { "category": "baby-diaper", "added": ["B010OVZO64", "B07M6FL57T", "B0DFRHY91R", "B08PX2V7PG", "B00TJ6WLV2", "B0DKYWMHDX", "B08QS2KQ3F", "B07SXBX1DM", "B0CKV2VGX1"], "count_before": 2, "count_after": 11 },
+    { "category": "diaper-rash", "added": ["B00ZQX T4EY"], "count_before": 1, "count_after": 2 },
+    { "category": "smartwatch", "added": ["B0FQF9ZX7P"], "count_before": 2, "count_after": 3 },
+    { "category": "performance-laptop", "added": ["B0GR685V9X"], "count_before": 2, "count_after": 3 },
+    { "category": "easter-egg-hunt", "added": ["B0DP2FDVYV"], "count_before": 1, "count_after": 2, "note": "B0DP2FDVYV 為 120 PCS Gold Coins 派對道具，非 collectible-coins（缺乏收藏價值），歸入 easter-egg-hunt" }
+  ],
+  "new_categories": [
+    {
+      "category": "baby-wipes",
+      "description": "嬰兒皮膚清潔濕紙巾（非可沖式）",
+      "products": ["B07SCL613T", "B008KJEYLO", "B0BJ13K7FR", "B086LKQDJG", "B08QRKY3NJ"],
+      "count": 5
+    },
+    {
+      "category": "baby-wash",
+      "description": "嬰兒洗髮沐浴清潔",
+      "products": ["B072QXWXS6", "B09MVMNW5M"],
+      "count": 2
+    },
+    {
+      "category": "baby-healing-ointment",
+      "description": "嬰兒皮膚修護萬用膏（尿布疹、乾燥、擦傷）",
+      "products": ["B005UEB96K", "B0107QPFBU"],
+      "count": 2,
+      "note": "Aquaphor 為多用途修護膏，不限於尿布疹；diaper-rash 類別為尿布疹專用，故新建此類別"
+    },
+    {
+      "category": "baby-bottle-nipple",
+      "description": "嬰兒奶嘴/奶瓶配件更換",
+      "products": ["B015XBYDLM", "B0F457DSNG"],
+      "count": 2
+    },
+    {
+      "category": "baby-thermometer",
+      "description": "嬰兒體溫非接觸式量測",
+      "products": ["B0824XNJSW"],
+      "count": 1
+    },
+    {
+      "category": "potty-training-pants",
+      "description": "幼兒如廁訓練褲",
+      "products": ["B08SNLW94K", "B07XCVWZ51"],
+      "count": 2
+    },
+    {
+      "category": "baby-pacifier",
+      "description": "嬰兒安撫奶嘴",
+      "products": ["B07TDN9MKC"],
+      "count": 1
+    },
+    {
+      "category": "toddler-straw-cup",
+      "description": "幼兒學習吸管水杯",
+      "products": ["B0C54D5NCG", "B0BTYQ7Q5Y"],
+      "count": 2
+    },
+    {
+      "category": "stroller-fan",
+      "description": "嬰兒推車夾扇降溫",
+      "products": ["B0BKQDPP1Z"],
+      "count": 1
+    },
+    {
+      "category": "bottle-washer-accessory",
+      "description": "奶瓶清洗機配件更換",
+      "products": ["B0DF1FDKR4"],
+      "count": 1
+    },
+    {
+      "category": "kids-nutrition-shake",
+      "description": "兒童營養補充奶昔",
+      "products": ["B00BKL4KKY"],
+      "count": 1
+    },
+    {
+      "category": "phone-drop-protection",
+      "description": "手機防摔保護殼",
+      "products": ["B0FCXX2ZLC", "B0FDQ3PWCX", "B0FH655984", "B0FDWR2PPG", "B0FCY7L7SZ", "B0FCXX62ZT", "B0FH6HYW1H", "B0FM23CNBM", "B0DP2PYTJ2", "B0GDDHQ7KJ", "B0F1TNK61D"],
+      "count": 11
+    },
+    {
+      "category": "phone-screen-protection",
+      "description": "手機螢幕/鏡頭防刮保護貼",
+      "products": ["B0CCYM3F1V", "B0FDQH511S", "B0F8VZ7QVX", "B0FDQH15KW", "B0FH4ZWQ6X", "B09F2JY5FF", "B0FJG9P2LB", "B0GCBMBGBX", "B0FDKJDFGZ", "B0FDQKLW48"],
+      "count": 10
+    },
+    {
+      "category": "phone-charging",
+      "description": "手機有線充電器",
+      "products": ["B09KR8P3L5", "B0B283QP2N", "B0B2WLSY9D", "B0CPSBD68W", "B0DJFW7PNM"],
+      "count": 5
+    },
+    {
+      "category": "portable-charger",
+      "description": "行動電源隨身充電",
+      "products": ["B0CB1FW5FC", "B0CY2JJ4WS"],
+      "count": 2
+    },
+    {
+      "category": "smartwatch-case",
+      "description": "智慧手錶保護殼",
+      "products": ["B0DFVB13XF"],
+      "count": 1
+    },
+    {
+      "category": "waterproof-phone-pouch",
+      "description": "防水手機袋水中保護",
+      "products": ["B079HV3TC9"],
+      "count": 1
+    }
+  ],
+  "skipped_products": [],
+  "summary": {
+    "existing_categories_count_before": 206,
+    "new_categories_added": 17,
+    "existing_categories_count_after": 223,
+    "total_products_before": 743,
+    "total_products_after": 818
+  }
+}

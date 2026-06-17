@@ -1,0 +1,101 @@
+{
+  "date": "2026-04-26",
+  "total_review_needed": 80,
+  "by_priority": {
+    "high": {
+      "count": 9,
+      "type": "warnings",
+      "reports": [
+        "pixel-watch3-renewed--2026-03-12.md",
+        "trash-bags--2026-02-09.md",
+        "B0G4Z5G1NT--warning--2026-02-06.md",
+        "la-roche-posay-spf40-expired--2026-03-12.md",
+        "trading-cards-amazon-tampering--2026-03-05.md",
+        "upsimples-picture-frame--2026-02-08.md",
+        "trading-cards-amazon-tampering--2026-03-01.md",
+        "bread-toaster--warning--2026-03-04.md",
+        "beats-solo4-renewed--2026-03-12.md"
+      ]
+    },
+    "medium": {
+      "count": 2,
+      "type": "pain_points",
+      "reports": [
+        "squishy-toy--pain-points--2026-03-01.md",
+        "squishy-toy--pain-points--2026-03-05.md"
+      ]
+    },
+    "low": {
+      "count": 69,
+      "type": "comparisons",
+      "note": "大多數為研究資料不足（WebFetch 不足 100 次），不影響核心結論"
+    }
+  },
+  "research_gaps": {
+    "active": [
+      {
+        "name": "kids-activity-book",
+        "action": "supplement_research",
+        "priority": "medium",
+        "retry_count": 4,
+        "next_retry": "2026-03-15",
+        "status": "overdue",
+        "note": "已過期超過 40 天，多數網站 403/JS-only 阻擋"
+      },
+      {
+        "name": "interactive-pet-toy",
+        "action": "supplement_reviews",
+        "priority": "medium",
+        "note": "待 Amazon 評論補齊"
+      },
+      {
+        "name": "monster-truck-toy",
+        "action": "supplement_reviews",
+        "priority": "medium",
+        "note": "待 Amazon 評論補齊"
+      },
+      {
+        "name": "printer-paper",
+        "action": "supplement_research",
+        "priority": "low",
+        "note": "新類別，WebFetch 不足 100 次"
+      },
+      {
+        "name": "packing-tape",
+        "action": "supplement_research",
+        "priority": "low",
+        "note": "新類別，WebFetch 不足 100 次"
+      },
+      {
+        "name": "printer-ink",
+        "action": "supplement_research",
+        "priority": "low",
+        "note": "新類別，WebFetch 不足 100 次"
+      },
+      {
+        "name": "can-opener",
+        "action": "supplement_research",
+        "priority": "low",
+        "note": "新類別，WebFetch 不足 100 次"
+      },
+      {
+        "name": "writing-notepad",
+        "action": "supplement_research",
+        "priority": "low",
+        "note": "新類別，WebFetch 不足 100 次"
+      }
+    ]
+  },
+  "step1_triggers": {
+    "squishy-toy": {
+      "reason": "worsening - Consumer Reports 促 CPSC 調查，TikTok 挑戰致兒童燒傷",
+      "action": "觸發 Step 7-8 重新分析"
+    }
+  },
+  "decisions": {
+    "high_priority_gaps": "今日執行 Step 3-8 時自然補齊（新 Discovery 會覆蓋這些類別的產品）",
+    "medium_priority_gaps": "kids-activity-book 第 5 次重試；interactive-pet-toy 和 monster-truck-toy 待 Step 6 補齊評論",
+    "low_priority_gaps": "今日不額外補齊，隨日常流程自然改善",
+    "squishy_toy_reanalysis": "在 Step 7-8 重新分析 squishy-toy 類別"
+  }
+}

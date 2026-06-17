@@ -105,7 +105,7 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | Layer | 最後更新 | 商品數 | 今日 Discovery | 狀態 |
 |-------|----------|--------|---------------|------|
-| amazon_us | 2026-03-25 | 661+ | — | ✅ 正常 |
+| amazon_us | 2026-06-17 | 698+ | 460（10 品類） | ✅ 正常 |
 | bestbuy_us | 2026-03-24 | 32 | — ⚠️ selector 問題 | ⚠️ 需關注 |
 | walmart_us | — | — | ❌ 永久停用 | ❌ 停用 |
 
@@ -113,17 +113,19 @@ cd scrapers && npx tsx src/walmart/discovery.ts --source best-sellers --limit 10
 
 | 類型 | 數量 |
 |------|------|
-| 監控產品 | 24 |
+| 監控產品 | 26 |
 | 研究缺口類別 | 10 |
 | 暫緩發佈類別 | 1（kids-activity-book） |
 
-### 今日統計 (2026-03-25)
+### 今日統計 (2026-06-17)
 
 | 指標 | 數值 |
 |------|------|
-| 新報告 | 5 份比較報告 |
-| 新類別 | 5（printer-paper, packing-tape, printer-ink, can-opener, writing-notepad） |
-| REVIEW_NEEDED | printer-ink（WebFetch 不足）、can-opener（WebFetch 不足） |
+| 新報告 | 10 份（5 比較 + 4 警告 + 1 假貨） |
+| 新類別研究 | 5（energy-drink, phone-case-drop-protection, phone-screen-protector, usb-c-wall-charger, pool-float） |
+| 新產品分組 | 332（153 既有 / 88 新類 / 17 skip） |
+| REVIEW_NEEDED | 6 份（評論<10 則） |
+| 重大修復 | Amazon /dp/ 評論 widget parser（body 失效）已修復 |
 
 > 詳細資訊見 `docs/Extractor/watchlist.json`
 

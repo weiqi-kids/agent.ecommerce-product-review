@@ -1,0 +1,64 @@
+{
+  "category": "sun-protection",
+  "date": "2026-06-17",
+  "products": [
+    {
+      "asin": "B0G4Z5G1NT",
+      "name": "RELIEF SUN SPF50+ Korean Sunscreen (Rice & Probiotics)",
+      "solves_problem": false,
+      "strengths": [
+        "SPF50+/PA++++ 廣效防護",
+        "輕盈無油感質地",
+        "含米萃取物與益生菌，主打護膚兼防曬",
+        "部分用戶反映保濕效果良好"
+      ],
+      "weaknesses": [
+        "監控標記 counterfeit_risk — 平台出現配方與正品不符疑慮",
+        "部分評論措辭高度雷同，存在刷評疑慮（authenticity score: 0.30）",
+        "1 則負評描述與正品用戶體驗嚴重落差，疑似收到非正品",
+        "假貨風險使 SPF 防護可信度下降"
+      ],
+      "neg_classification": {
+        "cant_solve": 2,
+        "new_problem": 0,
+        "unrelated": 0
+      }
+    },
+    {
+      "asin": "B0F6TWJPMX",
+      "name": "La Roche-Posay Anthelios SPF 40 Ultra-Light Fluid",
+      "solves_problem": false,
+      "strengths": [
+        "皮膚科醫師推薦品牌，SPF 40 礦物配方",
+        "10/13 評論對防護效果正面（sun_protection score: 0.85）",
+        "超輕盈快速吸收，無油霧面效果",
+        "適合敏感肌與玫瑰痤瘡膚質"
+      ],
+      "weaknesses": [
+        "SPF 誤標訴訟（監控觸發）：品牌遭集體訴訟指控 SPF 40 標示誇大，消費者保護問題尚未解決",
+        "假貨風險（counterfeit_risk）：1 則評論明確指出氣味與前次正品不同，疑似假貨混入（authenticity score: 0.35）",
+        "法律訴訟背景對品牌信任度造成重大衝擊",
+        "Amazon 通路假貨比例不明，無法保障每次購買為正品"
+      ],
+      "neg_classification": {
+        "cant_solve": 2,
+        "new_problem": 1,
+        "unrelated": 0
+      }
+    }
+  ],
+  "competitors_context": {
+    "source": "docs/Extractor/competitors/sun-protection--2026-02-05.md",
+    "key_alternatives": [
+      "EltaMD UV Clear SPF 46（皮膚科醫師首選，無假貨爭議，適合痘痘肌）",
+      "Supergoop! Unseen Sunscreen SPF 50（隱形質地，品牌信譽佳）",
+      "CeraVe AM Facial Moisturizing Lotion SPF 30（開架高 CP 值，大品牌假貨風險低）"
+    ],
+    "note": "所有主要競品均為美國大型零售商有實體通路銷售，假貨風險遠低於 Amazon 第三方賣家"
+  },
+  "report_type": "counterfeit",
+  "report_rationale": "兩款產品均觸發監控標記 counterfeit_risk，且均有用戶評論佐證假貨疑慮（B0G4Z5G1NT：評論模式雷同疑刷評；B0F6TWJPMX：用戶明確指出氣味異常疑似假貨）。La Roche-Posay 另有 SPF 誤標集體訴訟，進一步損害產品可信度。此類假貨問題直接影響防曬功能的可靠性（SPF 防護值無法驗證），屬於核心功能失效（cant_solve）。主要競品（EltaMD、Supergoop!、CeraVe）在大型零售商均有實體通路，假貨風險顯著較低。判定以 counterfeit 警告為主報告類型。",
+  "monitoring_context": "Step 1 監控觸發：B0G4Z5G1NT（counterfeit_risk，7 天間隔），B0F6TWJPMX（SPF 誤標訴訟 + counterfeit_risk，7 天間隔）。本次重新分析確認假貨疑慮持續存在，SPF 訴訟法律進展未更新，建議維持高頻監控。",
+  "confidence": "medium",
+  "confidence_note": "B0G4Z5G1NT 僅 8 則評論（batch 1/1），數量偏少；B0F6TWJPMX 13 則評論，佐證較充分。假貨判定主要依賴監控標記與 1-2 則用戶直接陳述，非統計顯著。"
+}

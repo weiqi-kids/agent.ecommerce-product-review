@@ -1,0 +1,393 @@
+{
+  "category": "energy-drink",
+  "date": "2026-06-17",
+  "core_problem": "提神不崩潰（clean energy without jitter/crash）",
+  "products": [
+    {
+      "asin": "B008JA73RG",
+      "name": "V8 Energy Peach Mango Energy Drink",
+      "brand": "V8",
+      "avg_rating": 4.75,
+      "review_count": 8,
+      "review_needed": true,
+      "caffeine_mg": 80,
+      "sugar": "無添加糖",
+      "price_usd": 24.99,
+      "solves_problem": true,
+      "strengths": [
+        "天然蔬果汁 + 茶葉咖啡因，健康形象最強",
+        "無碳酸，口感滑順，桃芒口味廣受好評（taste 0.97）",
+        "低卡無添加糖，clean energy boost（energy_boost 0.90）",
+        "無抖動/崩潰感問題回報"
+      ],
+      "weaknesses": [
+        "咖啡因含量最低（80mg），強度提神效果較弱",
+        "樣本量僅 8 則，信心度低",
+        "成癮性消費傾向（正面但可能過度依賴）"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 0,
+        "unrelated": 0
+      },
+      "scores": {
+        "taste": 0.97,
+        "energy_boost": 0.90,
+        "no_jitter": null,
+        "no_crash": null,
+        "price_value": 0.85,
+        "health": 0.95
+      }
+    },
+    {
+      "asin": "B06X6J5266",
+      "name": "CELSIUS Assorted Flavors Official Variety Pack",
+      "brand": "CELSIUS",
+      "avg_rating": 4.65,
+      "review_count": 10,
+      "review_needed": false,
+      "caffeine_mg": 200,
+      "sugar": "零糖",
+      "price_usd": 34.68,
+      "solves_problem": true,
+      "strengths": [
+        "高咖啡因（200mg）強力提神，適合高強度需求者",
+        "口味多樣，零糖配方（taste 0.88, energy_boost 0.90）",
+        "全站 27,421 則評論，市場認可度最高"
+      ],
+      "weaknesses": [
+        "過期產品問題（物流/庫存管理）",
+        "200mg 咖啡因對部分人偏高",
+        "含蔗糖素（Sucralose），腸道健康疑慮",
+        "綜合口味包含滯銷口味，性價比感知下降"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 2,
+        "unrelated": 3
+      },
+      "scores": {
+        "taste": 0.88,
+        "energy_boost": 0.90,
+        "no_jitter": null,
+        "no_crash": null,
+        "price_value": 0.75,
+        "health": 0.80
+      }
+    },
+    {
+      "asin": "B07XB745PC",
+      "name": "CELSIUS On-The-Go Powder Sticks Dragonfruit Lime",
+      "brand": "CELSIUS",
+      "avg_rating": 4.65,
+      "review_count": 10,
+      "review_needed": false,
+      "caffeine_mg": 200,
+      "sugar": "零糖",
+      "price_usd": 11.47,
+      "solves_problem": true,
+      "strengths": [
+        "明確無抖動/無崩潰感（jitter 0.92, crash 0.90）— 最能解決核心需求",
+        "能量提升評分高（energy_boost 0.92）",
+        "粉末便攜劑型，價格最低，性價比佳",
+        "Dragon Fruit Lime 口味高評（taste 0.88）"
+      ],
+      "weaknesses": [
+        "包裝被打開/缺少產品（1 件物流問題）",
+        "特定口味（藍莓檸檬水）有化學味",
+        "沖調濃度需個人調整"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 1,
+        "unrelated": 2
+      },
+      "scores": {
+        "taste": 0.88,
+        "energy_boost": 0.92,
+        "no_jitter": 0.92,
+        "no_crash": 0.90,
+        "price_value": 0.90,
+        "health": 0.85
+      }
+    },
+    {
+      "asin": "B095Q98Z97",
+      "name": "CELSIUS Sparkling Tropical Vibe",
+      "brand": "CELSIUS",
+      "avg_rating": 4.75,
+      "review_count": 8,
+      "review_needed": true,
+      "caffeine_mg": 200,
+      "sugar": "零糖",
+      "price_usd": 19.98,
+      "solves_problem": true,
+      "strengths": [
+        "口味清爽，熱帶水果風味真實（taste 0.95，最高之一）",
+        "無抖動/崩潰感明確（jitter 0.90, crash 0.88）",
+        "energy_boost 0.93，提神效果強"
+      ],
+      "weaknesses": [
+        "樣本量僅 8 則，信心度低",
+        "200mg 咖啡因需注意用量上限（每日 ≤2 罐）"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 1,
+        "unrelated": 0
+      },
+      "scores": {
+        "taste": 0.95,
+        "energy_boost": 0.93,
+        "no_jitter": 0.90,
+        "no_crash": 0.88,
+        "price_value": 0.85,
+        "health": 0.82
+      }
+    },
+    {
+      "asin": "B09FXVQ8WN",
+      "name": "C4 Performance Energy Drink Strawberry Blast",
+      "brand": "C4",
+      "avg_rating": 4.65,
+      "review_count": 11,
+      "review_needed": false,
+      "caffeine_mg": 200,
+      "sugar": "零糖",
+      "price_usd": 24.99,
+      "solves_problem": true,
+      "strengths": [
+        "Pre-workout 定位，能量持久全天（energy_boost 0.92）",
+        "無抖動評分高（jitter 0.90）",
+        "含 Beta Alanine，運動表現加乘"
+      ],
+      "weaknesses": [
+        "人工口感明顯（artificial_taste 問題）",
+        "草莓口味在 C4 系列中評價偏普通",
+        "Beta Alanine 可能造成皮膚刺麻感（新問題）"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 2,
+        "unrelated": 0
+      },
+      "scores": {
+        "taste": 0.82,
+        "energy_boost": 0.92,
+        "no_jitter": 0.90,
+        "no_crash": null,
+        "price_value": 0.80,
+        "health": 0.78
+      }
+    },
+    {
+      "asin": "B0BL7316GD",
+      "name": "Monster Energy Zero Ultra",
+      "brand": "Monster",
+      "avg_rating": 4.75,
+      "review_count": 13,
+      "review_needed": false,
+      "caffeine_mg": 150,
+      "sugar": "零糖",
+      "price_usd": 27.48,
+      "solves_problem": true,
+      "strengths": [
+        "最大樣本量（13 則），全站 35,106 則評論，信心度最高",
+        "口味廣受好評（taste 0.90，熱帶/神秘水果風格）",
+        "零糖全口味（sugar_content 0.95）",
+        "長班工作提神效果佳（energy_boost 0.90）"
+      ],
+      "weaknesses": [
+        "缺罐/漏罐包裝損壞（物流問題）",
+        "部分非英文評論難以評估品質",
+        "未明確提及無抖動/崩潰感"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 0,
+        "unrelated": 4
+      },
+      "scores": {
+        "taste": 0.90,
+        "energy_boost": 0.90,
+        "no_jitter": null,
+        "no_crash": null,
+        "price_value": 0.82,
+        "health": 0.85
+      }
+    },
+    {
+      "asin": "B0BL756S36",
+      "name": "Monster Rehab Tea + Lemonade + Energy",
+      "brand": "Monster",
+      "avg_rating": 4.75,
+      "review_count": 11,
+      "review_needed": false,
+      "caffeine_mg": 160,
+      "sugar": "低糖",
+      "price_usd": 5.13,
+      "solves_problem": true,
+      "strengths": [
+        "口味評分最高之一（taste 0.97），茶+檸檬水組合獨特且滑順",
+        "無碳酸（類似 V8 定位），口感溫和",
+        "Amazon 價格明顯低於實體店",
+        "粉絲忠誠度極高，線下缺貨仍網購"
+      ],
+      "weaknesses": [
+        "實體店/海外難以取得（限定性問題）",
+        "energy_boost 0.88，提神力道在樣本中偏低",
+        "未明確無抖動/崩潰感記錄"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 0,
+        "unrelated": 3
+      },
+      "scores": {
+        "taste": 0.97,
+        "energy_boost": 0.88,
+        "no_jitter": null,
+        "no_crash": null,
+        "price_value": 0.90,
+        "health": 0.80
+      }
+    },
+    {
+      "asin": "B0DF1L929C",
+      "name": "GHOST Energy Drink Welch's Grape",
+      "brand": "GHOST",
+      "avg_rating": 4.65,
+      "review_count": 13,
+      "review_needed": false,
+      "caffeine_mg": 200,
+      "sugar": "零糖",
+      "price_usd": 29.99,
+      "solves_problem": true,
+      "strengths": [
+        "口味真實性極高（taste 0.92，like Welch's grape juice），非人工葡萄味",
+        "無抖動（jitter 0.88），天然咖啡因來源",
+        "energy_boost 0.92，提神效果強",
+        "全素食/無麩質，L-Carnitine + Taurine 成分加值"
+      ],
+      "weaknesses": [
+        "嚴重包裝損壞（整箱凹損且無法退貨，高嚴重度）",
+        "高酸度影響牙齒敏感者（⚠️新問題）",
+        "部分口味偏苦/過酸"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 2,
+        "unrelated": 2
+      },
+      "scores": {
+        "taste": 0.92,
+        "energy_boost": 0.92,
+        "no_jitter": 0.88,
+        "no_crash": null,
+        "price_value": 0.82,
+        "health": 0.85
+      }
+    },
+    {
+      "asin": "B0F1GCBNYQ",
+      "name": "Red Bull Peach Edition Energy Drink White Peach",
+      "brand": "Red Bull",
+      "avg_rating": 4.85,
+      "review_count": 13,
+      "review_needed": false,
+      "caffeine_mg": 114,
+      "sugar": "有糖",
+      "price_usd": 63.18,
+      "solves_problem": true,
+      "strengths": [
+        "評分最高（4.85/5），口味評分最高（taste 0.97，「like biting into a fresh peach」）",
+        "Red Bull 品牌信賴度強，全球認可",
+        "輕度提神（114mg），適合日常/早晨使用"
+      ],
+      "weaknesses": [
+        "含糖（非零糖），不適合低糖需求者",
+        "咖啡因含量最低之一（114mg），強力提神效果有限",
+        "季節限定口味，供應不穩定",
+        "每箱價格最高（$63.18/24 罐）",
+        "energy_boost 0.88，提神評分偏低"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 0,
+        "unrelated": 3
+      },
+      "scores": {
+        "taste": 0.97,
+        "energy_boost": 0.88,
+        "no_jitter": null,
+        "no_crash": null,
+        "price_value": 0.65,
+        "health": 0.70
+      }
+    },
+    {
+      "asin": "B0FL9GK819",
+      "name": "Bloom Nutrition Sparkling Energy Drink Crisp Apple",
+      "brand": "Bloom Nutrition",
+      "avg_rating": 4.85,
+      "review_count": 8,
+      "review_needed": true,
+      "caffeine_mg": 180,
+      "sugar": "零糖",
+      "price_usd": 20.63,
+      "solves_problem": true,
+      "strengths": [
+        "無抖動/崩潰感評分最高（jitter 0.93, crash 0.92）— 核心需求最優解之一",
+        "評分最高（並列 4.85/5），能量提升最高（energy_boost 0.95）",
+        "天然咖啡因（綠咖啡豆 + 綠茶），含益生元",
+        "口味清爽真實（taste 0.97），無甜膩感",
+        "零糖，健康定位明確"
+      ],
+      "weaknesses": [
+        "樣本量僅 8 則，信心度低（REVIEW_NEEDED）",
+        "品牌知名度相對較新，市場驗證不足"
+      ],
+      "neg_classification": {
+        "cant_solve": 0,
+        "new_problem": 0,
+        "unrelated": 2
+      },
+      "scores": {
+        "taste": 0.97,
+        "energy_boost": 0.95,
+        "no_jitter": 0.93,
+        "no_crash": 0.92,
+        "price_value": 0.85,
+        "health": 0.92
+      }
+    }
+  ],
+  "cross_product_comparison": {
+    "best_taste": ["B008JA73RG（V8）", "B0BL756S36（Monster Rehab）", "B0F1GCBNYQ（Red Bull）", "B0FL9GK819（Bloom）"],
+    "best_energy_boost": ["B0FL9GK819（Bloom, 0.95）", "B095Q98Z97（CELSIUS Tropical, 0.93）", "B07XB745PC（CELSIUS Powder, 0.92）", "B09FXVQ8WN（C4, 0.92）"],
+    "best_no_jitter_crash": ["B0FL9GK819（Bloom, jitter 0.93/crash 0.92）", "B07XB745PC（CELSIUS Powder, jitter 0.92/crash 0.90）", "B095Q98Z97（CELSIUS Tropical, jitter 0.90/crash 0.88）"],
+    "best_price_value": ["B07XB745PC（CELSIUS Powder, $11.47）", "B0BL756S36（Monster Rehab, $5.13 per can）", "B0FL9GK819（Bloom, $20.63/12）"],
+    "best_health_profile": ["B0FL9GK819（Bloom, 天然咖啡因 + 益生元）", "B008JA73RG（V8, 蔬果汁 + 茶葉）", "B0DF1L929C（GHOST, 全素食/無麩質）"],
+    "highest_confidence": ["B0BL7316GD（Monster Zero Ultra, 13 則 + 35,106 全站）", "B0F1GCBNYQ（Red Bull, 13 則 + 830 全站）", "B0DF1L929C（GHOST, 13 則 + 13,855 全站）"]
+  },
+  "comparison_winner": "B0FL9GK819",
+  "winner_rationale": "Bloom Nutrition Crisp Apple 在「提神不崩潰」核心需求上綜合評分最高：energy_boost 0.95（10 款最高）、jitter 0.93（最高）、crash 0.92（最高），taste 0.97（並列最高），天然咖啡因 + 益生元健康定位差異化，零糖配方。唯一劣勢為樣本量僅 8 則，信心度受限。若以信心度優先，CELSIUS Powder Sticks（B07XB745PC）為最穩健選擇：明確無抖動/崩潰感、性價比最佳、10 則評論品質穩定。",
+  "report_type": "comparison",
+  "report_rationale": "10 款產品均能解決「提神」基本需求（solves_problem: true），無功能性失效案例。但各產品存在明顯的取捨差異：Bloom 提神無崩潰最優但樣本不足；CELSIUS 系列咖啡因強但有蔗糖素疑慮；Red Bull 口味最佳但含糖且價格高；Monster 系列品牌信賴度強但提神效果相對溫和；GHOST 口味創新但包裝損壞率高。沒有任何一款在所有維度全面勝出，適合依使用場景（日常 vs 運動前/重度提神）給出分組推薦，因此採用比較報告。",
+  "key_findings": [
+    "全部 10 款產品均能提供有效提神效果，無安全性紅線問題",
+    "「提神不崩潰」最佳：Bloom Nutrition（新品）> CELSIUS Powder Sticks（穩健）",
+    "口味最佳（並列）：V8、Monster Rehab、Red Bull Peach、Bloom（皆 0.97）",
+    "最主要負評來源為物流/包裝損壞（📦），而非功能失效",
+    "GHOST Welch's Grape 包裝損壞問題嚴重（整箱凹損且不可退貨），需注意",
+    "3 款 REVIEW_NEEDED（B008JA73RG、B095Q98Z97、B0FL9GK819）因樣本 <10 則",
+    "咖啡因分層清晰：V8 80mg（輕） → Red Bull 114mg（中） → Monster Rehab 160mg → Bloom 180mg → CELSIUS/C4/GHOST 200mg（強）"
+  ],
+  "warnings": [
+    "GHOST（B0DF1L929C）：包裝損壞嚴重且無法退貨，建議在報告中標注",
+    "CELSIUS（B06X6J5266）：過期產品問題，應提醒消費者檢查效期",
+    "Red Bull Peach（B0F1GCBNYQ）：季節限定 + 含糖，不適合長期低糖需求者"
+  ],
+  "confidence": "medium",
+  "confidence_note": "10 款產品中 3 款評論數不足（<10 則），整體信心度為中等。Monster Zero Ultra（35,106 全站評論）和 CELSIUS Variety Pack（27,421 全站評論）個別信心度高。"
+}

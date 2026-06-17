@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-03-13T00:00:00Z",
+  "analysis_scope": "昨日新增 REVIEW_NEEDED 報告（2026-03-12）+ 暫緩類別狀態",
+  "deferred_categories": {
+    "kids-activity-book": {
+      "next_retry": "2026-03-15",
+      "retry_count": 4,
+      "status": "waiting",
+      "action": "2026-03-15 才重試，今日跳過"
+    }
+  },
+  "reports": [
+    {
+      "file": "docs/Narrator/warnings/la-roche-posay-spf40-expired--2026-03-12.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足"],
+      "details": {
+        "reviews_analyzed": 50,
+        "reviews_required": 100,
+        "websearch_count": null,
+        "webfetch_count": null,
+        "competitors_with_extraction": 0
+      },
+      "priority": "高（警告報告，安全相關）",
+      "immediate_action": true,
+      "action": "重新抓取 La Roche-Posay SPF 40（B0F6TWJPMX）至 100+ 則，補充 Best Buy 等平台資料"
+    },
+    {
+      "file": "docs/Narrator/warnings/pixel-watch3-renewed--2026-03-12.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品不足"],
+      "details": {
+        "reviews_analyzed": 35,
+        "reviews_required": 100,
+        "websearch_count": null,
+        "webfetch_count": null,
+        "competitors_with_extraction": 0
+      },
+      "priority": "高（警告報告，翻新商品問題）",
+      "immediate_action": true,
+      "action": "重新抓取 Pixel Watch 3 Renewed（B0DSWMYSYT）至 100+ 則，並補充 WebSearch 競品研究"
+    },
+    {
+      "file": "docs/Narrator/warnings/beats-solo4-renewed--2026-03-12.md",
+      "type": "warning",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品無萃取", "研究不足"],
+      "details": {
+        "reviews_analyzed": 50,
+        "reviews_required": 100,
+        "websearch_count": null,
+        "webfetch_count": null,
+        "competitors_with_extraction": 0
+      },
+      "priority": "高（警告報告）",
+      "immediate_action": true,
+      "action": "重新抓取 Beats Solo 4 Renewed（B0D3PZLZ3N）至 100+ 則，補充 WebSearch 競品研究"
+    },
+    {
+      "file": "docs/Narrator/comparisons/telescope-monocular--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["研究不足", "競品無萃取"],
+      "details": {
+        "reviews_analyzed": 229,
+        "reviews_required": 100,
+        "websearch_count": 25,
+        "webfetch_count": 35,
+        "webfetch_required": 100,
+        "competitors_count": 5,
+        "competitors_with_extraction": 0,
+        "competitor_data_source": "評測文章"
+      },
+      "priority": "低（比較報告，評論量充足，僅研究深度不足）",
+      "immediate_action": false,
+      "action": "補充 WebFetch 至 100+ 次，嘗試抓取競品（Gosky、Occer、Vortex 等）Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/tongue-scraper--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["評論不足", "競品無萃取"],
+      "details": {
+        "reviews_analyzed": 50,
+        "reviews_required": 100,
+        "competitors_count": 4,
+        "competitors_with_extraction": 0,
+        "competitor_data_source": "評測文章"
+      },
+      "priority": "低（比較報告）",
+      "immediate_action": false,
+      "action": "補充主產品至 100+ 則，嘗試抓取競品 Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/facial-cleanser--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "details": {
+        "reviews_analyzed": 100,
+        "reviews_required": 100,
+        "competitors_count": 0,
+        "competitors_required": 3
+      },
+      "priority": "中（比較報告，主產品評論充足但無競品）",
+      "immediate_action": false,
+      "action": "補充競品研究（WebSearch）並抓取至少 3 款潔顏油競品評論"
+    },
+    {
+      "file": "docs/Narrator/comparisons/budget-smartphone--2026-03-12.md",
+      "type": "comparison",
+      "has_review_needed": true,
+      "gap_types": ["競品無萃取", "研究不足"],
+      "details": {
+        "reviews_analyzed": 150,
+        "reviews_required": 100,
+        "websearch_count": 28,
+        "webfetch_count": 40,
+        "webfetch_required": 100,
+        "competitors_count": 25,
+        "competitors_with_extraction": 0,
+        "competitor_data_source": "評測文章"
+      },
+      "priority": "中（比較報告，評論充足但競品未萃取，WebFetch 不足）",
+      "immediate_action": false,
+      "action": "補充 WebFetch 至 100+ 次，抓取解鎖版翻新機競品（Google Pixel 8a Renewed 等）Amazon 評論"
+    },
+    {
+      "file": "docs/Narrator/recommendations/food-storage-bags--2026-03-12.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "details": {
+        "reviews_analyzed": 100,
+        "reviews_required": 100,
+        "competitors_count": 0,
+        "competitors_required": 3
+      },
+      "priority": "中（推薦報告，評論充足但無競品對比）",
+      "immediate_action": false,
+      "action": "補充競品研究，找出至少 3 款食物保鮮袋競品（Glad、Stasher 等）並抓取評論"
+    },
+    {
+      "file": "docs/Narrator/recommendations/tablet-computer--2026-03-12.md",
+      "type": "recommendation",
+      "has_review_needed": true,
+      "gap_types": ["競品不足"],
+      "details": {
+        "reviews_analyzed": 100,
+        "reviews_required": 100,
+        "competitors_count": 0,
+        "competitors_required": 3
+      },
+      "priority": "中（推薦報告，評論充足但無競品對比）",
+      "immediate_action": false,
+      "action": "補充競品研究，找出至少 3 款平板競品（Samsung Galaxy Tab、Amazon Fire 等）並抓取評論"
+    }
+  ],
+  "summary": {
+    "total_review_needed": 9,
+    "immediate_action_required": 3,
+    "deferred_no_action_today": 1,
+    "gap_type_breakdown": {
+      "評論不足": 4,
+      "競品不足": 4,
+      "競品無萃取": 4,
+      "研究不足": 3
+    },
+    "priority_breakdown": {
+      "高（立即補齊）": 3,
+      "中（可排入今日）": 4,
+      "低（可延後）": 2
+    },
+    "immediate_actions": [
+      "重新抓取 la-roche-posay-spf40-expired 至 100+ 則（警告報告）",
+      "重新抓取 pixel-watch3-renewed 至 100+ 則 + WebSearch 競品（警告報告）",
+      "重新抓取 beats-solo4-renewed 至 100+ 則 + WebSearch 競品（警告報告）"
+    ]
+  }
+}

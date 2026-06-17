@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-17",
+  "total_review_needed": 81,
+  "note": "部分報告（如 vitamin-d-supplement--2026-03-01、drain-clog--2026-03-01、streaming-stick--2026-03-01、laundry-stain--2026-03-01）雖含 REVIEW_NEEDED 字串，但為「審核通過」說明文字，非真實缺口；實際缺口報告約 76 份。下列統計以確認含有真實缺口的報告為基礎。",
+  "by_priority": {
+    "high": 10,
+    "medium": 2,
+    "low": 60,
+    "recommendations_with_gaps": 9
+  },
+  "by_gap_type": {
+    "research_insufficient": 28,
+    "competitor_insufficient": 22,
+    "review_insufficient": 18,
+    "competitor_no_extract": 20,
+    "data_integrity": 5,
+    "multiple_gaps": 21
+  },
+  "gap_type_definitions": {
+    "research_insufficient": "WebSearch<20 或 WebFetch<100（如 WebFetch 0、3、9-20 次）",
+    "competitor_insufficient": "有 ASIN 競品 <3 或競品資料完全缺失",
+    "review_insufficient": "分析評論 <50 則（含 <10 則極低樣本）",
+    "competitor_no_extract": "競品有 ASIN 但無 L1-L6 萃取，僅有評測文章摘要",
+    "data_integrity": "聲明矛盾、產品-評論錯配、疑似刷評模式",
+    "multiple_gaps": "同時具備 2 種以上缺口類型的報告（已分別計入各缺口類型）"
+  },
+  "high_priority_items": [
+    {
+      "report": "docs/Narrator/warnings/B0G4Z5G1NT--warning--2026-02-06.md",
+      "gap_type": "review_insufficient",
+      "reason": "樣本極少（7 則評論、0% 驗證購買），真實性高度存疑"
+    },
+    {
+      "report": "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md",
+      "gap_type": "competitor_insufficient",
+      "reason": "無競品研究（Step 5 未執行），無法判斷問題是否為產業通病"
+    },
+    {
+      "report": "docs/Narrator/warnings/trash-bags--2026-02-09.md",
+      "gap_type": "review_insufficient",
+      "reason": "評論不足（50 則 < 100 則標準），缺乏跨平台佐證"
+    },
+    {
+      "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md",
+      "gap_type": "data_integrity",
+      "reason": "Prismatic Evolutions 萃取存在大量直接矛盾聲明（[REVIEW_NEEDED] 傳播）"
+    },
+    {
+      "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-05.md",
+      "gap_type": "data_integrity",
+      "reason": "同上，更新版本仍有聲明矛盾問題"
+    },
+    {
+      "report": "docs/Narrator/warnings/bread-toaster--warning--2026-03-04.md",
+      "gap_type": "review_insufficient",
+      "reason": "僅 50 則評論（低於 100 則標準），雖問題模式一致但缺統計信心"
+    },
+    {
+      "report": "docs/Narrator/warnings/fire-tv-stick-4k-select--2026-03-03.md",
+      "gap_type": "review_insufficient",
+      "reason": "約 25% 西班牙語評論，樣本代表性存疑（medium 信心度）"
+    },
+    {
+      "report": "docs/Narrator/warnings/pixel-watch3-renewed--2026-03-12.md",
+      "gap_type": "review_insufficient",
+      "reason": "僅 35 則評論（低於 100 則標準），信心度 low"
+    },
+    {
+      "report": "docs/Narrator/warnings/la-roche-posay-spf40-expired--2026-03-12.md",
+      "gap_type": "review_insufficient",
+      "reason": "評論不足（50 則）且僅單一平台"
+    },
+    {
+      "report": "docs/Narrator/warnings/beats-solo4-renewed--2026-03-12.md",
+      "gap_type": "review_insufficient",
+      "reason": "評論僅 50 則（低於 100 則標準），缺乏競品萃取與網路研究補充"
+    },
+    {
+      "report": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-01.md",
+      "gap_type": "review_insufficient",
+      "reason": "Toymendous Squishy Carrot 僅 3 則評論，樣本嚴重不足"
+    },
+    {
+      "report": "docs/Narrator/pain_points/squishy-toy--pain-points--2026-03-05.md",
+      "gap_type": "review_insufficient",
+      "reason": "同上，重新發布版本仍有 3 則評論問題未解決"
+    }
+  ],
+  "top_gap_examples_by_type": {
+    "research_insufficient_examples": [
+      "comparisons/foam-playmat--2026-02-21.md（WebFetch 0 次）",
+      "comparisons/kids-activity-book--2026-02-21.md（WebFetch 0 次）",
+      "comparisons/collectible-blind-box--2026-02-21.md（WebFetch 0 次）",
+      "comparisons/outdoor-inflatable-pool--2026-03-24.md（WebFetch 10/100 次）",
+      "comparisons/womens-yoga-pants--2026-03-04.md（WebFetch 3 次）"
+    ],
+    "competitor_insufficient_examples": [
+      "comparisons/body-moisturizing--comparison--2026-02-07.md（僅 2 產品）",
+      "comparisons/kids-casual-clogs--2026-03-11.md（僅 Crocs 品牌，WebFetch 0）",
+      "comparisons/playing-cards--comparison--2026-02-06.md（無同類競品萃取）",
+      "comparisons/facial-cleanser--2026-03-12.md（無競品，僅分析單一產品）",
+      "recommendations/food-storage-bags--2026-03-12.md（無競品比較）"
+    ],
+    "competitor_no_extract_examples": [
+      "comparisons/electrolyte-hydration--2026-03-04.md（競品無萃取，僅規格資訊）",
+      "comparisons/aa-batteries--2026-03-04.md（Duracell/Energizer 無獨立萃取）",
+      "comparisons/holiday-costume-accessories--2026-03-10.md（有 ASIN 競品未萃取）",
+      "comparisons/disposable-plates--2026-03-04.md（競品缺乏獨立萃取資料）",
+      "comparisons/tongue-scraper--2026-03-12.md（5 競品無萃取，僅評測文章）"
+    ]
+  },
+  "remediation_summary": {
+    "immediate_step5_needed": 15,
+    "immediate_step6_needed": 25,
+    "step5_plus_step6_needed": 20,
+    "data_integrity_review_needed": 5,
+    "deferred_or_low_priority": 11
+  }
+}

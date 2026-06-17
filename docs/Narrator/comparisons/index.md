@@ -101,9 +101,14 @@ description: 產品比較分析報告，幫助消費者在同類產品中做出�
 
 - [手機充電器比較：Apple 原廠 vs 第三方 4 款 20W 充電器安全與 CP 值分析（2026-03-22）](./phone-charging--2026-03-22)
 - [手機防摔殼比較：10 款 MagSafe 保護殼實測，ESR 品牌最穩（2026-03-22）](./phone-drop-protection--2026-03-22)
+- [手機防摔殼比較：7 款 MagSafe 軍規殼實測，ESR 黃化 31%（2026-06-17）](./phone-case-drop-protection--2026-06-17)
 - [螢幕保護貼比較：10 款 iPhone/Galaxy 保護貼分類評測（2026-03-22）](./phone-screen-protection--2026-03-22)
+- [iPhone 17 螢幕保護貼比較：5 款實測選購，Spigen AluminaCore 居首（2026-06-17）](./phone-screen-protector--2026-06-17)
 
 ## 電子產品
+
+### 充電配件
+- [USB-C 充電頭比較：5 款 20-60W 快充實測，Anker 最佳，Coreykin 31% 耐用性失效（2026-06-17）](./usb-c-wall-charger--2026-06-17)
 
 - [智慧音箱比較：Echo Spot 鬧鐘 vs Echo Show 11 控制中心（2026-03-22）](./smart-speaker--2026-03-22)
 - [行動電源比較：INIU 快充 vs charmast 萬用充（2026-03-22）](./portable-charger--2026-03-22)
@@ -172,6 +177,11 @@ description: 產品比較分析報告，幫助消費者在同類產品中做出�
 
 - [高蛋白點心棒比較：Quest vs Pure Protein 誰更好吃？（2026-03-22）](./high-protein-snack--2026-03-22)
 
+## 食品飲料
+
+### 能量飲料
+- [能量飲料比較：10 款提神不崩潰實測（2026-06-17）](./energy-drink--2026-06-17)
+
 ## 日用品
 
 - [封箱膠帶選購指南：12 款產品實測比較（2026-03-25）](./packing-tape--2026-03-25)
@@ -193,6 +203,7 @@ description: 產品比較分析報告，幫助消費者在同類產品中做出�
 
 ## 戶外休閒
 
+- [成人泳池浮床比較：5 款實測，INTEX River Run 最耐用（2026-06-17）](./pool-float--2026-06-17)
 - [充氣泳池比較：8 款 Intex/Bestway 後院泳池依場景完整評測（2026-03-24）](./outdoor-inflatable-pool--2026-03-24)
 
 ## 健身與運動

@@ -120,18 +120,33 @@ export async function parseReview(element: any): Promise<Review | null> {
       reviewId = `amz-${Math.abs(hashCode).toString(36)}`;
     }
 
-    // 評分
+    // 評分：文字格式為 "5 out of 5 stars" / "4.0 out of 5 stars"
+    // 取 "out of" 前的數字（舊邏輯 replace 全部非數字會把 "5 out of 5" 變 "55"）
     const ratingEl = await element.$(SELECTORS.reviews.rating);
-    const ratingText = ratingEl ? await ratingEl.textContent() : '';
-    const rating = ratingText ? parseFloat(ratingText.replace(/[^0-9.]/g, '')) || 0 : 0;
+    const ratingText = ratingEl ? (await ratingEl.textContent()) || '' : '';
+    let rating = 0;
+    const ratingMatch = ratingText.match(/([0-9]+(?:\.[0-9]+)?)\s*out of/i);
+    if (ratingMatch) {
+      rating = parseFloat(ratingMatch[1]);
+    } else if (ratingText) {
+      // fallback：取第一個數字
+      const firstNum = ratingText.match(/[0-9]+(?:\.[0-9]+)?/);
+      rating = firstNum ? parseFloat(firstNum[0]) : 0;
+    }
 
-    // 標題
+    // 標題（新 widget hook=reviewTitle，舊 hook=review-title）
     const titleEl = await element.$(SELECTORS.reviews.title);
     const title = titleEl ? (await titleEl.textContent())?.trim() || '' : '';
 
-    // 內文
+    // 內文（新 widget hook=reviewRichContentContainer，舊 hook=review-body）
     const bodyEl = await element.$(SELECTORS.reviews.body);
-    const body = bodyEl ? (await bodyEl.textContent())?.trim() || '' : '';
+    let body = bodyEl ? (await bodyEl.textContent())?.trim() || '' : '';
+    // 移除新 widget 可能殘留的展開提示文字
+    body = body
+      .replace(/Brief content visible, double tap to read full content\.?/gi, '')
+      .replace(/Full content visible, double tap to read brief content\.?/gi, '')
+      .replace(/\s*Read more\s*Read less\s*/gi, ' ')
+      .trim();
 
     // 日期
     const dateEl = await element.$(SELECTORS.reviews.date);

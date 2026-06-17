@@ -1,0 +1,246 @@
+{
+  "category": "phone-screen-protector",
+  "analysis_date": "2026-06-17",
+  "problem_statement": "手機螢幕因日常摩擦、跌落造成刮傷與破裂，需要犧牲性保護層吸收衝擊",
+  "products_analyzed": [
+    {
+      "asin": "B0D84YX465",
+      "name": "Spigen AluminaCore / GlasTR EZ FIT",
+      "brand": "Spigen",
+      "rating": 4.9,
+      "review_count": 13,
+      "platform": "amazon_us"
+    },
+    {
+      "asin": "B0F9PCWWNM",
+      "name": "UNBREAKcable iPhone 螢幕保護貼（長效耐用款）",
+      "brand": "UNBREAKcable",
+      "rating": 4.9,
+      "review_count": 13,
+      "platform": "amazon_us"
+    },
+    {
+      "asin": "B0FBW8NVZG",
+      "name": "UNBREAKcable iPhone 螢幕保護貼（附安裝導框）",
+      "brand": "UNBREAKcable",
+      "rating": 4.8,
+      "review_count": 13,
+      "platform": "amazon_us"
+    },
+    {
+      "asin": "B0FDQK69GQ",
+      "name": "Ailun iPhone 隱私螢幕保護貼（三件組）",
+      "brand": "Ailun",
+      "rating": 4.9,
+      "review_count": 13,
+      "platform": "amazon_us"
+    },
+    {
+      "asin": "B0FJS7782G",
+      "name": "TOCOL iPhone 螢幕保護貼（附對齊框安裝系統）",
+      "brand": "TOCOL",
+      "rating": 4.9,
+      "review_count": 13,
+      "platform": "amazon_us"
+    },
+    {
+      "asin": "B0GCD9F4LC",
+      "name": "Samsung Galaxy S25 Ultra 螢幕保護貼（三件組）",
+      "brand": "N/A",
+      "rating": 4.1,
+      "review_count": 13,
+      "platform": "amazon_us"
+    }
+  ],
+  "negative_review_classification": {
+    "cannot_solve_problem": {
+      "label": "❌ 無法解決問題（功能失效）",
+      "items": [
+        {
+          "asin": "B0GCD9F4LC",
+          "issue": "fingerprint_unlock_failure",
+          "frequency": "2/13 (15%)",
+          "severity": "高",
+          "quote": "once installed, it negates the fingerprint sensor. I 'wasted' and removed the first protector, just to be sure it wasn't a rogue piece of glass.",
+          "note": "換了第二片仍無法使用指紋解鎖，屬產品與機型不相容的核心功能失效"
+        }
+      ]
+    },
+    "creates_new_problem": {
+      "label": "⚠️ 產生新問題（副作用）",
+      "items": [
+        {
+          "asin": "B0FBW8NVZG",
+          "issue": "fragility_on_minor_drop",
+          "frequency": "1/13 (8%)",
+          "severity": "中",
+          "quote": "it seems to crack a little more easily than I expected. After a minor drop, it developed a crack",
+          "note": "輕微碰撞即破裂，玻璃脆性高於預期"
+        },
+        {
+          "asin": "B0FBW8NVZG",
+          "issue": "edge_size_slightly_small",
+          "frequency": "1/13 (8%)",
+          "severity": "低",
+          "quote": "estaría mejor si fuera un pelin más grande, llega hasta donde empieza lo negro de la pantalla",
+          "note": "邊緣覆蓋略小，未完整覆蓋螢幕邊緣"
+        },
+        {
+          "asin": "B0FJS7782G",
+          "issue": "edge_gap_on_iphone14",
+          "frequency": "1/13 (8%)",
+          "severity": "中",
+          "quote": "the protector does have a slight gap between the screen and the metal edge of the phone. they advertise there is no gap.",
+          "note": "iPhone 14 上有輕微邊緣縫隙，與廣告「無縫隙」不符"
+        },
+        {
+          "asin": "B0GCD9F4LC",
+          "issue": "wrong_size_camera_lens",
+          "frequency": "1/13 (8%)",
+          "severity": "中",
+          "quote": "العدسة غير متطابقة مع حجم الكاميرا S25 FE",
+          "note": "鏡頭保護貼尺寸與 S25 FE 不符，型號相容性問題"
+        }
+      ]
+    },
+    "unrelated_to_product": {
+      "label": "📦 與產品無關（物流/出貨）",
+      "items": [
+        {
+          "asin": "B0F9PCWWNM",
+          "issue": "delivery_delay",
+          "frequency": "1/13 (8%)",
+          "severity": "低",
+          "quote": "It arrived 2 days late, but in excellent condition and excellent product",
+          "note": "物流延遲，不影響產品品質"
+        },
+        {
+          "asin": "B0FJS7782G",
+          "issue": "wrong_item_shipped",
+          "frequency": "1/13 (8%)",
+          "severity": "中",
+          "quote": "I ordered the clear screen protector, but received the privacy screen protector",
+          "note": "出貨錯誤（清晰貼vs隱私貼），屬物流/倉儲問題，用戶最終評價安裝方式正面"
+        }
+      ]
+    }
+  },
+  "dimension_comparison": {
+    "dimensions": ["installation", "bubble_free", "clarity", "touch_sensitivity", "scratch_resistance", "fingerprint_unlock_compatibility"],
+    "products": [
+      {
+        "asin": "B0D84YX465",
+        "name": "Spigen AluminaCore EZ FIT",
+        "installation": { "score": 0.97, "note": "EZ FIT 剛性托盤系統，史上最簡單安裝體驗，成功率 95%+" },
+        "bubble_free": { "score": 0.93, "note": "無氣泡、無灰塵問題，對齊零失誤" },
+        "clarity": { "score": 0.93, "note": "觸感與原廠玻璃無異，清晰度極佳" },
+        "touch_sensitivity": { "score": null, "note": "未直接提及，觸感評論隱含良好" },
+        "scratch_resistance": { "score": 0.85, "note": "AluminaCore 鋁強化技術，強度比標準鋼化玻璃高 40%" },
+        "fingerprint_unlock_compatibility": { "score": null, "note": "評論未提及（iPhone 機型，無超音波指紋感應器問題）" }
+      },
+      {
+        "asin": "B0F9PCWWNM",
+        "name": "UNBREAKcable 長效耐用款",
+        "installation": { "score": 0.93, "note": "Easy installation，附安裝說明，多位回購用戶確認安裝簡便" },
+        "bubble_free": { "score": 0.92, "note": "aucune bulle，無氣泡安裝成功率高" },
+        "clarity": { "score": 0.93, "note": "不影響原廠螢幕品質，細緻清晰" },
+        "touch_sensitivity": { "score": 0.93, "note": "觸控靈敏度維持良好，無操作遲滯" },
+        "scratch_resistance": { "score": 0.90, "note": "使用數月至4年以上仍零刮傷，耐用性強" },
+        "fingerprint_unlock_compatibility": { "score": null, "note": "評論未提及（iPhone 機型）" }
+      },
+      {
+        "asin": "B0FBW8NVZG",
+        "name": "UNBREAKcable 附安裝導框",
+        "installation": { "score": 0.93, "note": "附安裝導框，初次用戶成功率高，夢幻般順暢" },
+        "bubble_free": { "score": 0.90, "note": "首次零氣泡成功率高，多位用戶首次即成功" },
+        "clarity": { "score": 0.90, "note": "Crystal clear，清晰度良好" },
+        "touch_sensitivity": { "score": 0.88, "note": "觸控靈敏度和螢幕清晰度都好" },
+        "scratch_resistance": { "score": 0.65, "note": "輕微碰撞後即出現裂紋，脆性略高於預期" },
+        "fingerprint_unlock_compatibility": { "score": null, "note": "Face ID 相容（德文評論確認），無超音波指紋問題" }
+      },
+      {
+        "asin": "B0FDQK69GQ",
+        "name": "Ailun 隱私三件組",
+        "installation": { "score": 0.95, "note": "附對齊工具，首次即可正確安裝" },
+        "bubble_free": { "score": 0.93, "note": "no bubbles or hassle，角落不翹起" },
+        "clarity": { "score": 0.95, "note": "幾乎感受不到保護貼存在，brightness/sharpness 不受影響" },
+        "touch_sensitivity": { "score": 0.90, "note": "觸感接近原廠玻璃，操作流暢" },
+        "scratch_resistance": { "score": 0.82, "note": "保護用途達標（螢幕保護貼碎裂但手機保住），額外隱私功能" },
+        "fingerprint_unlock_compatibility": { "score": null, "note": "評論未提及（iPhone 機型）" }
+      },
+      {
+        "asin": "B0FJS7782G",
+        "name": "TOCOL 對齊框安裝系統",
+        "installation": { "score": 0.97, "note": "對齊框系統讓安裝失敗幾乎不可能，1 分鐘內完成，附 QR Code 教學" },
+        "bubble_free": { "score": 0.95, "note": "No bubbles, no dust, no frustration，僅1則花10分鐘排泡" },
+        "clarity": { "score": 0.93, "note": "Absolutely Outstanding，玻璃質感優異" },
+        "touch_sensitivity": { "score": 0.90, "note": "觸控靈敏度維持良好" },
+        "scratch_resistance": { "score": 0.85, "note": "礫石地面跌落後存活，實際驗證耐用性" },
+        "fingerprint_unlock_compatibility": { "score": null, "note": "評論未提及（iPhone 機型）" }
+      },
+      {
+        "asin": "B0GCD9F4LC",
+        "name": "Samsung Galaxy S25 Ultra 三件組",
+        "installation": { "score": 0.90, "note": "Easiest install ever，安裝便利" },
+        "bubble_free": { "score": 0.88, "note": "100% Bubble-free，氣泡消除方法簡單" },
+        "clarity": { "score": 0.92, "note": "crystal clear，幾乎感覺不到" },
+        "touch_sensitivity": { "score": 0.55, "note": "觸控有評論正面有負面，一則指出需調整指紋靈敏度設定" },
+        "scratch_resistance": { "score": 0.80, "note": "類似玻璃質感，硬度宣稱良好" },
+        "fingerprint_unlock_compatibility": { "score": 0.25, "note": "2/13 (15%) 反映安裝後完全無法使用超音波指紋解鎖，換第二片仍失效，屬嚴重相容性問題" }
+      }
+    ]
+  },
+  "cross_product_summary": {
+    "top_performers": [
+      {
+        "asin": "B0D84YX465",
+        "reason": "EZ FIT 安裝系統業界標竿，AluminaCore 強度領先，近乎滿分評價，無重大缺陷"
+      },
+      {
+        "asin": "B0FJS7782G",
+        "reason": "對齊框系統安裝最輕鬆，QR Code 教學、耐摔實測驗證，唯邊緣縫隙問題需注意 iPhone 14"
+      },
+      {
+        "asin": "B0F9PCWWNM",
+        "reason": "長效耐用（4年以上記錄），高回購率背書，觸控靈敏度最佳，抗油指紋"
+      }
+    ],
+    "notable_concerns": [
+      {
+        "asin": "B0GCD9F4LC",
+        "concern": "指紋解鎖失效（15% 用戶），Samsung 超音波感應器相容性嚴重問題，建議 Galaxy S25 Ultra 用戶優先選用廠商認證貼"
+      },
+      {
+        "asin": "B0FBW8NVZG",
+        "concern": "輕微碰撞即裂，脆性略高，若主要訴求為抗摔則遜於同品牌長效款"
+      }
+    ]
+  },
+  "verdict": {
+    "can_solve_problem": true,
+    "overall_assessment": "5 款 iPhone 螢幕保護貼均能有效解決螢幕刮傷保護需求；B0GCD9F4LC (Samsung) 因指紋解鎖失效（15%）屬部分功能失效，無法向 Galaxy S25 Ultra 超音波指紋用戶推薦。",
+    "winner": "B0D84YX465",
+    "winner_reason": "Spigen AluminaCore EZ FIT 以 EZ FIT 安裝系統+AluminaCore 強化玻璃組合，在安裝體驗、防護強度、使用感受三項均達頂尖，且無任何重大問題記錄",
+    "runner_up": "B0FJS7782G",
+    "runner_up_reason": "TOCOL 安裝對齊系統同樣出色，礫石地面跌落存活驗證耐用性，適合 iPhone 用戶",
+    "special_mention": "B0FDQK69GQ 為唯一提供隱私防窺功能的選項，適合有資料保護需求的用戶",
+    "warning_product": "B0GCD9F4LC",
+    "warning_reason": "Samsung Galaxy S25 Ultra 超音波指紋感應器相容性問題（15% 失效率），核心使用功能受損，需謹慎"
+  },
+  "report_type": "comparison",
+  "report_type_reason": "多數產品能解決螢幕保護核心問題，但各有特色差異（安裝便利性、耐久度、隱私功能、平台相容性），且 B0GCD9F4LC 存在警告級問題（指紋解鎖失效），需比較報告提供選購建議",
+  "recommended_report_outputs": [
+    {
+      "type": "comparison",
+      "path": "docs/Narrator/comparisons/phone-screen-protector--2026-06-17.md",
+      "scope": "5 款 iPhone 保護貼比較（B0D84YX465 為首選）"
+    },
+    {
+      "type": "warning",
+      "path": "docs/Narrator/warnings/B0GCD9F4LC-samsung-galaxy-s25-screen-protector--2026-06-17.md",
+      "scope": "B0GCD9F4LC 指紋解鎖失效警告"
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "每產品僅 13 則評論，樣本數偏少；核心結論（指紋失效、安裝優劣）有多則一致佐證，可靠性足夠，但整體評分應保守解讀"
+}

@@ -1,0 +1,44 @@
+{
+  "category": "noise-cancelling-headphone",
+  "date": "2026-06-17",
+  "products": [
+    {
+      "asin": "B0D3PZLZ3N",
+      "name": "Beats Solo 4 Wireless Headphones (Renewed)",
+      "solves_problem": false,
+      "strengths": [
+        "多數用戶藍牙連接正常，音質評價尚可（bluetooth_connection score: 0.60）",
+        "價格相對正品較低（Renewed 翻新品定位）",
+        "部分用戶表示外觀良好"
+      ],
+      "weaknesses": [
+        "高假貨/非正品率（authenticity score: 0.20）：27% 評論（3/11）直接指向非正品問題 — 非 Beats 原廠包裝、顏色不符、藍牙配對名稱錯誤",
+        "結構缺陷（build_quality score: 0.55）：頭帶斷裂（保固到期當天）、污漬、非原廠包裝 — 3 則相關負評",
+        "藍牙配對失敗（1/11，9%）：疑似與假貨直接相關，配對時顯示非 Beats 設備名稱",
+        "律所調查背景（2026-02，監控觸發）：藍牙斷線與結構缺陷問題遭律所關注，潛在法律風險",
+        "Renewed 品管無法保障：翻新品品質不一，非正品混入 Renewed 通路問題嚴重"
+      ],
+      "neg_classification": {
+        "cant_solve": 2,
+        "new_problem": 2,
+        "unrelated": 1
+      }
+    }
+  ],
+  "competitors_context": {
+    "source": "docs/Extractor/competitors/noise-cancelling-headphone--2026-02-05.md",
+    "key_alternatives": [
+      "Sony WH-1000XM6（最佳整體，降噪與音質領先，新品無假貨疑慮）",
+      "Sony WH-CH720N（最佳預算 $98，35 小時續航，正品通路可靠）",
+      "Anker Soundcore Life Q30/Q35（$80-150，預算 ANC 首選，品質穩定）",
+      "Apple AirPods 4 ANC（$120 促銷，Apple 品牌品質管控嚴格）",
+      "Bose QuietComfort Ultra（最強降噪，舒適度極佳，正品有保障）"
+    ],
+    "note": "所有主要競品均為新品，無翻新品假貨風險。Sony WH-CH720N 價位接近 Beats Renewed，但品質穩定性遠優於翻新品"
+  },
+  "report_type": "warning",
+  "report_rationale": "B0D3PZLZ3N 的 authenticity 問題最為嚴重：27% 評論直接指出非正品（score: 0.20 — 最低評分面向），包含「顏色不符」「藍牙配對顯示非 Beats 名稱」等明確假貨特徵。Renewed 通路本即存在品質不一風險，本批次數據確認假貨問題已滲入此通路。結合律所 2026-02 對藍牙斷線/結構缺陷的調查背景，判定產品在 Renewed 通路的可靠性不足以解決降噪耳機需求（cant_solve）。頭帶結構缺陷（build_quality）進一步造成新問題。考量競品（Sony WH-CH720N）在相近價位提供更高品質保障，此 Renewed 產品不值得推薦。判定 warning 報告，重點警示 Renewed 通路假貨問題及律所調查背景。",
+  "monitoring_context": "Step 1 監控觸發：quality_crisis（7 天間隔），監控原因為律所 2026-02 調查藍牙斷線問題與結構缺陷。本次重新分析確認假貨比例達 27%（3/11），遠超警戒線，且藍牙問題與假貨直接相關。建議繼續高頻監控，追蹤律所調查進展與 Amazon 對 Renewed 通路的管控措施。",
+  "confidence": "medium",
+  "confidence_note": "本批次 11 則評論（batch 1/1），authenticity 問題有統計基礎（3/11 = 27%）。律所調查背景依賴監控標記，非本批次評論直接佐證。評論數量偏少，建議後續補充抓取更多評論以提升信心度。"
+}

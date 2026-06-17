@@ -174,70 +174,36 @@ async function scrapeProduct(
   const product = await parseProduct(page, url);
   const ratingSummary = await parseRatingSummary(page);
 
-  // 抓取評論
+  // 抓取評論（從商品頁內嵌評論）
+  // 注意：Amazon 已停用 /product-reviews/ 頁面（2026-03 確認），
+  // 僅能從商品頁取得 8-15 則內嵌評論
   const reviews: Review[] = [];
   const seenIds = new Set<string>();
 
-  // 導航到評論頁
-  const reviewsUrl = buildReviewsUrl(asin, 'www.amazon.com', 1);
-  await page.goto(reviewsUrl, { waitUntil: 'domcontentloaded' });
-  await randomDelay(2000, 3000);
+  // 捲動到評論區以觸發懶載入
+  for (let scrollY = 1000; scrollY <= 6000; scrollY += 1000) {
+    await page.evaluate((y) => window.scrollTo({ top: y, behavior: 'smooth' }), scrollY);
+    await randomDelay(500, 800);
+  }
+  await randomDelay(1500, 2500);
 
-  // 檢查是否被導向登入頁
-  if (await isSessionExpired(page)) {
-    return { asin, status: 'failed', reviewCount: 0, error: 'Session expired' };
+  // 從商品頁提取內嵌評論
+  try {
+    await page.waitForSelector('[data-hook="review"]', { timeout: 10000 });
+  } catch {
+    // 無內嵌評論
   }
 
-  let pageNumber = 1;
-  let consecutiveEmptyPages = 0;
+  const reviewElements = await page.$$(SELECTORS.reviews.container);
+  for (const element of reviewElements) {
+    if (reviews.length >= maxReviews) break;
 
-  while (reviews.length < maxReviews && consecutiveEmptyPages < 3) {
-    // 等待評論容器
-    try {
-      await page.waitForSelector('[data-hook="review"]', { timeout: 10000 });
-    } catch {
-      break;
+    const review = await parseReview(element);
+    if (review && !seenIds.has(review.review_id)) {
+      seenIds.add(review.review_id);
+      review.language = 'en';
+      reviews.push(review);
     }
-
-    // 取得評論元素
-    const reviewElements = await page.$$(SELECTORS.reviews.container);
-    if (reviewElements.length === 0) break;
-
-    let newCount = 0;
-    for (const element of reviewElements) {
-      if (reviews.length >= maxReviews) break;
-
-      const review = await parseReview(element);
-      if (review && !seenIds.has(review.review_id)) {
-        seenIds.add(review.review_id);
-        review.language = 'en';
-        reviews.push(review);
-        newCount++;
-      }
-    }
-
-    if (newCount === 0) {
-      consecutiveEmptyPages++;
-    } else {
-      consecutiveEmptyPages = 0;
-    }
-
-    // 點擊下一頁
-    const nextButton = await page.$(SELECTORS.reviews.pagination.nextPage);
-    if (!nextButton) break;
-
-    await nextButton.scrollIntoViewIfNeeded();
-    await randomDelay(500, 1000);
-    await nextButton.click();
-    await randomDelay(2000, 4000);
-
-    try {
-      await page.waitForLoadState('domcontentloaded', { timeout: 10000 });
-    } catch {
-      // 繼續
-    }
-
-    pageNumber++;
   }
 
   // 寫入 JSONL

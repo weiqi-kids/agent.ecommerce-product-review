@@ -1,0 +1,3270 @@
+{
+  "date": "2026-03-27",
+  "platforms": {
+    "amazon_us": {
+      "total": 386,
+      "categories": {
+        "all": 36,
+        "baby": 50,
+        "beauty": 50,
+        "cell-phones": 50,
+        "electronics": 50,
+        "health": 50,
+        "home-kitchen": 50,
+        "toys": 50
+      }
+    }
+  },
+  "total_unique_products": 361,
+  "products": [
+    {
+      "asin": "B08JHCVHTY",
+      "title": "blink plus plan with monthly auto-renewal",
+      "category": "all",
+      "rank": 1,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09V7Z4TJG",
+      "title": "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation and Pore Care with 4.5% AHA Lactic Acid, 0.45%…",
+      "category": "all",
+      "rank": 1,
+      "price": "CAD 20.62",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07MHJFRBJ",
+      "title": "Bounty Quick Size Paper Towels, White, 8 Family Rolls",
+      "category": "all",
+      "rank": 1,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BZYCJK89",
+      "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz, Denim",
+      "category": "all",
+      "rank": 1,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09313VG36",
+      "title": "Gildan Men's Crew T-Shirts, Multipack, Style G1100",
+      "category": "all",
+      "rank": 1,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F1LM11ZY",
+      "title": "Hunt The Villain: A Dark MM College Mafia Romance",
+      "category": "all",
+      "rank": 1,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07DC8BR3B",
+      "title": "Pampers Swaddlers Diapers, Size 4 (15-34 lbs), 150 Count, Absorbent, Keeps Baby Dry and Comfortable, Skin Safe Disposable Baby Diaper (Packaging May Vary)",
+      "category": "baby",
+      "rank": 1,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09CSSP9C1",
+      "title": "Ailun Screen Protector for iPhone 17e / iPhone 16e / iPhone 14 / iPhone 13 / iPhone 13 Pro [6.1 Inch] Display 3 Pack Tempered Glass, Case Friendly [Not for iPhone 16 6.1 Inch]",
+      "category": "cell-phones",
+      "rank": 1,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01M16WBW1",
+      "title": "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Bed Sheets Set - Hotel Luxury Bedding for Women, Men, Kids, Teens, Boys & Girls - Deep Pockets, Ultra-Soft, Wrinkle Free - Oeko-Tex - White",
+      "category": "home-kitchen",
+      "rank": 1,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08HDJC2JF",
+      "title": "Foam Airplanes - Easter Basket Stuffers for Kids All Ages 4 5 6 7 8 9 10 Year Old - Best Toy Gift - Boy Toys Basket Stuffer Gifts - Fun Easter Gifts for Boys & Girls Party Favors - Air Plane Gift Idea",
+      "category": "toys",
+      "rank": 1,
+      "price": "CAD 11.72",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DCH8VDXF",
+      "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+      "category": "all",
+      "rank": 2,
+      "price": "CAD 22.87",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DBF65JYY",
+      "title": "medicube PDRN Pink Peptide Serum with Salmon DNA | Pink Glow Serum with Peptides & Niacinamide for Hydration & Firm…",
+      "category": "all",
+      "rank": 2,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00MNV8E0C",
+      "title": "Amazon Basics 48-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life, Long-lasting, No Leakage",
+      "category": "all",
+      "rank": 2,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CP9YB3Q4",
+      "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel |…",
+      "category": "all",
+      "rank": 2,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D8DZN778",
+      "title": "OEAK Womens Deep V Bras Wireless Comfortable Bra Supportive No Underwire Bras Tshirt Push Up Bralettes Plunge…",
+      "category": "all",
+      "rank": 2,
+      "price": null,
+      "rating": "4.0 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08FHBV4ZX",
+      "title": "Project Hail Mary: A Novel",
+      "category": "all",
+      "rank": 2,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07SCL613T",
+      "title": "Huggies Natural Care Sensitive Baby Wipes, Unscented, Hypoallergenic, 99% Purified Water, 12 Flip-Top Packs (768 Wipes Total), Packaging May Vary",
+      "category": "baby",
+      "rank": 2,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FDQH511S",
+      "title": "Ailun 3 Pack Screen Protector for iPhone 17 Pro Max [6.9 inch] + 3 Pack Camera Lens Protector with Installation Frame,Dynamic Island Compatible,Case Friendly[Not for iPhone 17/17 Pro/iPhone Air]",
+      "category": "cell-phones",
+      "rank": 2,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07VS46CXT",
+      "title": "Play-Doh Eggs 24-Pack, Dinosaur & Dragon Egg Hunt Toys, Modeling Compound for Birthday Gifts & Party Favors, Easter Basket Stuffers, Kids Ages 2 and Up (Amazon Exclusive)",
+      "category": "toys",
+      "rank": 2,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DGHMNQ5Z",
+      "title": "Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones, Personalized Spatial Audio, Sweat and Water Resistant, USB-C…",
+      "category": "all",
+      "rank": 3,
+      "price": "CAD 131.01",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BRMYHMS5",
+      "title": "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness |…",
+      "category": "all",
+      "rank": 3,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BMF11RVJ",
+      "title": "Miss Mouth's Messy Eater Stain Treater - 16oz Refill - Newborn & Baby Essentials - No Dry Cleaning Food, Grease, Coffee Off…",
+      "category": "all",
+      "rank": 3,
+      "price": "CAD 25.62",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0113UZJE2",
+      "title": "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss, Baking, Cooking, Keto and Meal Prep, LCD Display, Medium,…",
+      "category": "all",
+      "rank": 3,
+      "price": "CAD 13.20",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09NMFCJ61",
+      "title": "Crocs Kid's Classic Clog",
+      "category": "all",
+      "rank": 3,
+      "price": "CAD 47.20",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FLX3GB4H",
+      "title": "The Night We Met",
+      "category": "all",
+      "rank": 3,
+      "price": null,
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B013C9OKVU",
+      "title": "The Honest Company Hypoallergenic Multi-Use Baby Wipes for Sensitive Skin, Geo Mood, 288 Count",
+      "category": "baby",
+      "rank": 3,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FH655984",
+      "title": "SUPFINE Magnetic for iPhone 17 Pro Max Case (Compatible with MagSafe)(Military Grade Drop Protection) Translucent Matte Shockproof with Anti-Fingerprint Phone Cover, Black",
+      "category": "cell-phones",
+      "rank": 3,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00E4GACB8",
+      "title": "TERRO Ant Killer Bait Stations T300B - Liquid Bait to Eliminate Ants - Bait System - 12 Count Stations for Effective Indoor Ant Control",
+      "category": "home-kitchen",
+      "rank": 3,
+      "price": "CAD 14.51",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DQNQ1ZVZ",
+      "title": "Schylling NeeDoh Nice Cube -Sensory Squeeze Toy with Super Solid Squish - 2.25\" Cube",
+      "category": "toys",
+      "rank": 3,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0GJTFXNRX",
+      "title": "AirTag 2nd Generation Tracker",
+      "category": "all",
+      "rank": 4,
+      "price": "CAD 37.73",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B2RM68G2",
+      "title": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping,…",
+      "category": "all",
+      "rank": 4,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07BGLT25K",
+      "title": "Scott ComfortPlus Toilet Paper, 12 Triple Rolls, 231 Sheets per Roll, Septic-Safe, 1-Ply Toilet Tissue",
+      "category": "all",
+      "rank": 4,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00S93EQUK",
+      "title": "Alpha Grillers Meat Thermometer Digital – Instant Read Food Thermometer for Cooking & Grilling – Professional Kitchen Gift for…",
+      "category": "all",
+      "rank": 4,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0014C0LSY",
+      "title": "Crocs Unisex-Adult Classic Clog, Clogs for Women and Men",
+      "category": "all",
+      "rank": 4,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FXBCK15V",
+      "title": "The Price of Honey (Deadly Ambition collection)",
+      "category": "all",
+      "rank": 4,
+      "price": null,
+      "rating": "3.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BJ13K7FR",
+      "title": "Pampers Sensitive Baby Wipes, Water Based, Hypoallergenic and Unscented, 18 Flip-Top Packs (1008 Wipes Total) [Packaging May Vary]",
+      "category": "baby",
+      "rank": 4,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FDQ3PWCX",
+      "title": "FNTCASE for iPhone 17 Pro-Max Case: Clear Magnetic Phone Cases with Screen Protector Compatible with Magsafe Slim Anti Yellowing Rugged Shockproof Protective Transparent Cell Cover (A-Clear)",
+      "category": "cell-phones",
+      "rank": 4,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DQ59R1LB",
+      "title": "HOME GROWN Zinnia Dahlia Seeds Pack for 2026 Non GMO 524 Flower Seeds | Vibrant Zinnia Elegans for Pollinator Gardens, Borders & Containers | Easy-to-Grow Outdoor Blooms",
+      "category": "home-kitchen",
+      "rank": 4,
+      "price": "CAD 11.06",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BZCHMVTK",
+      "title": "Bezente Assorted Rainbow Latex Balloons, 100 Pack 12 inch Round Helium Bright Color Balloons for Birthday Bridal Shower Wedding Party Decorations",
+      "category": "toys",
+      "rank": 4,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FQFB8FMG",
+      "title": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Feature,…",
+      "category": "all",
+      "rank": 5,
+      "price": "CAD 253.31",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B074PVTPBW",
+      "title": "Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Patches for Face, Shrinking Zits & Whiteheads in 1…",
+      "category": "all",
+      "rank": 5,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CHN5D13P",
+      "title": "Liquid I.V.® Hydration Multiplier - Popsicle Firecracker | Electrolyte Powder Drink Mix | 1 Pack (16 Servings)",
+      "category": "all",
+      "rank": 5,
+      "price": "CAD 24.52",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CYJBB2JQ",
+      "title": "bella 2 Slice Slim Toaster, Fits-anywhere™ Kitchenware, 6 Setting Shade Control with Reheat & Cancel Buttons, Fits sourdough,…",
+      "category": "all",
+      "rank": 5,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B086KSDTQ4",
+      "title": "Hanes mens Underwear Boxer Briefs Pack, Cool & Breathable Cotton Moisture-wicking Underwear for Men, No Ride Up",
+      "category": "all",
+      "rank": 5,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FTT3XSRZ",
+      "title": "Theo of Golden: A Novel",
+      "category": "all",
+      "rank": 5,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07M6FL57T",
+      "title": "Huggies Size Newborn Diapers, Little Snugglers Baby Diapers, Size Newborn (up to 10 lbs), 31 Count, Packaging May Vary",
+      "category": "baby",
+      "rank": 5,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F8VZ7QVX",
+      "title": "NEW'C 3 Pack Designed for iPhone 17/17 Pro, iPhone 16 Pro Screen Protector (6.3 inches), Enhanced Tempered Glass Protection with easy installation tool included, Case Friendly",
+      "category": "cell-phones",
+      "rank": 5,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BQR2BQYZ",
+      "title": "upsimples 11x14 Picture Frame, Display Pictures 8x10 with Mat or 11x14 Without Mat, Wall Hanging Photo Frame, Black, 1 Pack",
+      "category": "home-kitchen",
+      "rank": 5,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BDQLJMFV",
+      "title": "PartyWoo Black Balloons 140 pcs Different Sizes of 18 12 10 5 Inch Black Balloons Arch Kit Garland for Baby Shower Birthday Graduation Casino Gaming Anniversary Retirement Party Decorations Black-Y18",
+      "category": "toys",
+      "rank": 5,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F7Z4QZTT",
+      "title": "Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search, Wi-Fi 6, stream over 1.8 million movies and…",
+      "category": "all",
+      "rank": 6,
+      "price": "CAD 34.58",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00U2VQZDS",
+      "title": "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes Remove Waterproof Mascara & Oil, Compostable…",
+      "category": "all",
+      "rank": 6,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FN4NH4K8",
+      "title": "Angel Soft Toilet Paper, 18 Mega Rolls = 72 Regular Rolls, Soft and Strong Toilet Tissue",
+      "category": "all",
+      "rank": 6,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DF472VMZ",
+      "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12…",
+      "category": "all",
+      "rank": 6,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DJV8N5QB",
+      "title": "Levi's Women's 501 Original Shorts (Also Available in Plus)",
+      "category": "all",
+      "rank": 6,
+      "price": "CAD 53.46",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FJTF5MJB",
+      "title": "Dear Debbie",
+      "category": "all",
+      "rank": 6,
+      "price": null,
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B008KJEYLO",
+      "title": "WaterWipes Sensitive+ Newborn & Baby Wipes, 3-In-1 Cleans, Cares, Protects, 99.9% Water, Unscented & Hypoallergenic, 720 Count (12 Packs)",
+      "category": "baby",
+      "rank": 6,
+      "price": "CAD 55.50",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09KR8P3L5",
+      "title": "iPhone 17 16 15 Charger Fast Charging Type C Chargers USB C Charger Block iPhone 17 16 15 Air Pro Max Chargers with 6FT Cable for iPhone 17/17 Plus/17 Pro Max/16/16 Plus/16 Pro Max/15 Pro Max/iPad Pro",
+      "category": "cell-phones",
+      "rank": 6,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00FXNAAW2",
+      "title": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, Closet Organizer, Black, 50-Pack",
+      "category": "home-kitchen",
+      "rank": 6,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D9ZTW7PS",
+      "title": "Schylling NeeDoh Nice Ice Baby - Sensory Squeeze Toy - Super Solid Squish - 1.25\" Wide - Color May Vary (Pack of 1)",
+      "category": "toys",
+      "rank": 6,
+      "price": "CAD 16.59",
+      "rating": "4.0 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00ZQXT4EY",
+      "title": "Desitin Maximum Strength Baby Diaper Rash Cream, 40% Zinc Oxide, Hypoallergenic No Added Parabens & Dyes, Protects & Relieves Baby’s Skin for Up to 12 Hours, Prevents Diaper Rash, 4.8 oz Tube",
+      "category": "baby",
+      "rank": 7,
+      "price": "CAD 10.46",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08KT2Z93D",
+      "title": "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightweight & Non-Greasy, Natural Shea, Vegan, Vanilla Body Lotion, 16 fl oz",
+      "category": "beauty",
+      "rank": 7,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FDQH15KW",
+      "title": "Ailun 3 Pack for iPhone 17 Pro Max Privacy Screen Protector [6.9 inch]+ 3 Pack Camera Lens Protector with Installation Frame,Dynamic Island Compatible,Anti Spy Tempered Glass[9H Hardness]-HD",
+      "category": "cell-phones",
+      "rank": 7,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D54JZTHY",
+      "title": "Apple AirTag (1st Generation) - 4 Pack. Keep Track of and find Your Keys, Wallet, Luggage, Backpack, and More. Simple one-tap Set up with iPhone or iPad, Bluetooth",
+      "category": "electronics",
+      "rank": 7,
+      "price": "CAD 125.20",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B095CN96JS",
+      "title": "Amazon Basics 2-Ply Soft Toilet Paper, 30 Rolls (5 Packs of 6), 350 Sheets per Roll, Septic Safe, Equivalent to 185 Regular Rolls",
+      "category": "health",
+      "rank": 7,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01LYNW421",
+      "title": "Beckham Hotel Collection Bed Pillows Standard/Queen Size Set of 2 - Original Soft Down Alternative Pillow for Sleeping - Soft Support for Back, Stomach or Side Sleepers",
+      "category": "home-kitchen",
+      "rank": 7,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09LMBLYF1",
+      "title": "Easter Basket Stuffers,Transformable Fidget Spinners Toys 4 Pcs for Kids and Adults Stress Relief Sensory Toys for Boys and Girls Age 8-13 Fingertip Gyros Easter Party Favors Birthday Gifts for Teens",
+      "category": "toys",
+      "rank": 7,
+      "price": "CAD 13.13",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DF1FDKR4",
+      "title": "Momcozy Official Washing Block for Momcozy KleanPal Pro Baby Bottle Washer, 120 Detergent Tablets",
+      "category": "baby",
+      "rank": 8,
+      "price": "CAD 23.51",
+      "rating": "4.9 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CM2PPNMW",
+      "title": "medicube Jelly Cream with Collagen, Niacinamide | Freeze-Dried Hydrolyzed Collagen for Skin Barrier Hydration & 24H Glow | Plumper, Firmer looking skin | 3.71 fl.oz",
+      "category": "beauty",
+      "rank": 8,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09F2JY5FF",
+      "title": "Ailun Privacy Screen Protector for iPhone 17e / iPhone 16e / iPhone 14 / iPhone 13 / iPhone 13 Pro [6.1 Inch] 2 Pack Anti Spy Private Tempered Glass Case Friendly [Not for iPhone 16 6.1 Inch]",
+      "category": "cell-phones",
+      "rank": 8,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DZ75TN5F",
+      "title": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Battery Life — Blue",
+      "category": "electronics",
+      "rank": 8,
+      "price": "CAD 381.35",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FTGJGPTM",
+      "title": "LMNT Zero Sugar Electrolytes - Variety Pack Bundle | Drink Mix | 18-Count",
+      "category": "health",
+      "rank": 8,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08QRFZ6TH",
+      "title": "Barossa Design Plastic Shower Liner Clear - Premium PEVA Shower Curtain Liner with Rustproof Grommets and 3 Magnets, Waterproof Cute Lightweight Standard Size Bathroom Curtains - Clear",
+      "category": "home-kitchen",
+      "rank": 8,
+      "price": "CAD 11.75",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08G1XHF76",
+      "title": "The Dreidel Company Fillable Easter Eggs 50-Pack with Hinge Bulk Colorful Bright Plastic Easter Eggs, Perfect for Easter Egg Hunt, Suprise Egg, Easter Hunt, 2.25\" Assorted Colors (50-Pack)",
+      "category": "toys",
+      "rank": 8,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B072QXWXS6",
+      "title": "The Honest Company 2-in-1 Baby Shampoo & Body Wash, Fragrance-Free, Tear-Free, Hypoallergenic, Naturally Derived, Sensitive Skin, 10 fl oz",
+      "category": "baby",
+      "rank": 9,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D2Z3GGCY",
+      "title": "medicube Capsule Cream with Deep Vitamin C | Liposome Vitamin C Golden Capsule for Radiance & Firm-Looking Skin | Hydrating Glow Gel Texture | Korean Skincare, 1.94 oz",
+      "category": "beauty",
+      "rank": 9,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F1TNK61D",
+      "title": "Miracase for iPhone 17e & 16e Case, Full-Body Phone with Built-in Glass Screen Protector, [Magnetic with MagSafe] Military Drop Proof 17 E/ 16 E Cover Bumper 6.1 inch, Black",
+      "category": "cell-phones",
+      "rank": 9,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DGQVYW2K",
+      "title": "Blink Video Doorbell (newest model) – Head-to-toe HD view, two-year battery life, and simple setup. Required Sync Module not included – Add-On (Black)",
+      "category": "electronics",
+      "rank": 9,
+      "price": "CAD 31.12",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0798DVT68",
+      "title": "Charmin Ultra Soft Cushiony Touch Toilet Paper, 24 Family Mega = 123 Regular Rolls, White",
+      "category": "health",
+      "rank": 9,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C1NNYJGB",
+      "title": "BEDLORE Waterproof Mattress Protector, Queen Size Mattress Pad Noiseless with Deep Pocket 6\"-18\" Depth, Soft Breathable Dirt-Proof Bed Mattress Cover Washable for Home, Bedroom, Hotel (Gray)",
+      "category": "home-kitchen",
+      "rank": 9,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DG2VRFV7",
+      "title": "30 Pack Squishy Toys, Kawaii Squishies Party Favors for Kids 4-8 8-12 Treasure Box Toys for Classroom Birthday Xmas Gifts Goodie Bag Mini Animals Mochi Squishy Stress Relief Sensory Toys Random",
+      "category": "toys",
+      "rank": 9,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08QRKY3NJ",
+      "title": "Huggies Simply Clean Unscented Baby Diaper Wipes, 11 Flip-Top Packs (704 Wipes Total), Packaging May Vary",
+      "category": "baby",
+      "rank": 10,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07PBXXNCY",
+      "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ultra Soft, 1 Pack, 50 Ct",
+      "category": "beauty",
+      "rank": 10,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FH4ZWQ6X",
+      "title": "PEHAEL 3+3 Pack for iPhone 17 Pro Max Privacy Screen Protector with Camera Lens Protector Full Coverage Anti-Spy Tempered Glass Film 9H Hardness Easy Installation Bubble Free [6.9 inch]",
+      "category": "cell-phones",
+      "rank": 10,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C6W3D4RM",
+      "title": "Amazon Fire TV Stick 4K Select (newest model), start streaming in 4K, AI-powered search, and free & live TV, find shows faster with Alexa+",
+      "category": "electronics",
+      "rank": 10,
+      "price": "CAD 24.89",
+      "rating": "4.1 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09RTVD1GF",
+      "title": "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
+      "category": "health",
+      "rank": 10,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DJMP6T3N",
+      "title": "BISSELL Little Green Mini Portable Carpet and Upholstery Deep Cleaner, Car/Auto Detailer, with HydroRinse Self-Cleaning Tool and 4\" Tough Stain Tool, Tea Green, 4075",
+      "category": "home-kitchen",
+      "rank": 10,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FMYST4JS",
+      "title": "LEGO Easter Bunny and Chick Egg Hunt Building Toy for Girls & Boys - Springtime Playset for Kids, Ages 8+ - Basket Stuffer or Gift Idea for Easter - 40808",
+      "category": "toys",
+      "rank": 10,
+      "price": "CAD 20.69",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08PX2V7PG",
+      "title": "Pampers Diapers - Cruisers 360 - Size 5, 128 Count, Babyproof up to 100% Leakproof Pull-On Diaper",
+      "category": "baby",
+      "rank": 11,
+      "price": "CAD 60.88",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08H3JPH74",
+      "title": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Blackest Black, 1 Count",
+      "category": "beauty",
+      "rank": 11,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DFH8SNK5",
+      "title": "FNTCASE for iPhone 15 Case: for iPhone 14 Case & iPhone 13 Case [Compatible with Magsafe] Translucent Matte Magnetic Phone Cover - Military Grade Drop Protection Shockproof Protective Cases - Pink",
+      "category": "cell-phones",
+      "rank": 11,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CFPJYX7P",
+      "title": "Amazon Kindle Paperwhite 16GB (newest model) – 20% faster, with new 7\" glare-free display and weeks of battery life – Black",
+      "category": "electronics",
+      "rank": 11,
+      "price": "CAD 164.36",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00LH3DMUO",
+      "title": "Amazon Basics AAA Long-Lasting Alkaline Batteries, 36-Count, 1.5 Volt, Reliable Performance, 10-Year Shelf Life, Emergency Storage",
+      "category": "health",
+      "rank": 11,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00NX0WXQI",
+      "title": "Utopia Bedding Queen Size Sheet Set – 4 Piece Bed Sheets, Soft and Breathable Microfiber, Includes 1 Fitted Sheet, 1 Flat Sheet and 2 Pillowcases – Oeko Tex (Grey)",
+      "category": "home-kitchen",
+      "rank": 11,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07NPS487W",
+      "title": "EggMazing Easter Egg Mini Decorator Kit Arts and Crafts Set - Includes Egg Decorating Spinner and 6 Markers - Ages 3 and Up [Packaging May Vary]",
+      "category": "toys",
+      "rank": 11,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B015XBYDLM",
+      "title": "Dr. Brown’s Natural Flow Level 2 Narrow Baby Bottle Silicone Nipple, Medium Flow, 3m+, 100% Silicone Bottle Nipple, 6 Count",
+      "category": "baby",
+      "rank": 12,
+      "price": null,
+      "rating": "4.9 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09542G9ZN",
+      "title": "Amazon Basics Hypoallergenic Cotton Rounds for Makeup Removal and Skincare, 100 Count, 1 Pack",
+      "category": "beauty",
+      "rank": 12,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DFVB13XF",
+      "title": "Misxi 2 Pack Tempered Glass Case Compatible for Apple Watch Series 11 (2025) Series 10 46mm, Screen Protector Cover for iWatch, Black",
+      "category": "cell-phones",
+      "rank": 12,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CQMRKRV5",
+      "title": "Amazon Fire TV Stick HD (newest model), free and live TV, Alexa Voice Remote, smart home controls, HD streaming",
+      "category": "electronics",
+      "rank": 12,
+      "price": "CAD 23.51",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B002DYIZEO",
+      "title": "Optimum Nutrition Micronized Creatine Monohydrate Powder, Unflavored, 120 Servings, 600 Grams (Packaging May Vary)",
+      "category": "health",
+      "rank": 12,
+      "price": "CAD 37.95",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CFGYFCYL",
+      "title": "OLANLY Bathroom Rugs 30x20, Extra Soft Absorbent Chenille Bath Rugs, Rubber Backing Quick Dry, Machine Washable Bath Mats for Bathroom Floor, Tub and Shower, Home Decor Accessories, Grey",
+      "category": "home-kitchen",
+      "rank": 12,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B079DF63FW",
+      "title": "Creative Roots Mosaic Butterfly Stepping Stone Kit, Includes 7-Inch Ceramic Stepping Stone & 6 Vibrant Paints, Paint Your Own Stepping Stone, DIY Stepping Stone for Kids Ages 8+ White",
+      "category": "toys",
+      "rank": 12,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00TJ6WLV2",
+      "title": "Pampers Diapers - Baby Dry - Size 1, 120 Count, Absorbent Disposable Infant Diaper (Packaging May Vary)",
+      "category": "baby",
+      "rank": 13,
+      "price": "CAD 39.39",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D8W1YVBX",
+      "title": "EQQUALBERRY Vitamin Illuminating Serum | Niacinamide 4% + Brightening Vitamin C Face Serum with Hyaluronic Acid & Vitamin E | Dark Spot, Uneven Tone Care | Korean Skincare, 1.01 fl.oz",
+      "category": "beauty",
+      "rank": 13,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FCY7L7SZ",
+      "title": "ESR for iPhone 17 Pro Max Case, Camera Control, Compatible with MagSafe, Shockproof Military-Grade Protection, Magnetic Phone Case for iPhone 17 Pro Max, Classic Hybrid Case, Clear",
+      "category": "cell-phones",
+      "rank": 13,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08R6S1M1K",
+      "title": "Wall Charger, Surge Protector, QINLIANF 5 Outlet Extender with 4 USB Charging Ports, 3-Sided 1680J Power Strip Multi Plug Adapter Spaced for Home Travel Office",
+      "category": "electronics",
+      "rank": 13,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DF8RSVJK",
+      "title": "Scott Paper Towels, Choose-A-Sheet, 6 Double Rolls = 12 Regular Rolls (108 Sheets Per Roll)",
+      "category": "health",
+      "rank": 13,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08LQYT546",
+      "title": "Crayola Clicks Retractable Tip Markers (10ct), Washable Cone Tip Art Marker Set, Easter Basket Stuffer Essentials, Easter Craft Supplies for Coloring Books, Ages 3+",
+      "category": "toys",
+      "rank": 13,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0824XNJSW",
+      "title": "No-Touch Thermometer for Adults and Kids, Accurate Digital Baby Thermometer, Fever Alarm & Silent Mode, 2 in 1 Forehead & Object Mode",
+      "category": "baby",
+      "rank": 14,
+      "price": "CAD 23.49",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DGTMR754",
+      "title": "medicube Jelly Gel Mask with Salmon DNA PDRN Pink Collagen | Overnight Face Mask for Glass Glow Skin | Elasticity, Hydrating, Firming and Moisturizing | Korean Skincare, 28g x 4ea",
+      "category": "beauty",
+      "rank": 14,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CB1FW5FC",
+      "title": "INIU Portable Charger, Ultra Slim 45W Fast Charging with Attached USB C Cable, Flight-Safe 10000mAh PD Power Bank Battery Pack, Travel Essential Phone Powerbank for iPhone 17 16 Samsung S25 Google etc",
+      "category": "cell-phones",
+      "rank": 14,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CQ1CVW3Z",
+      "title": "JBL Live 670NC - Wireless On-Ear Headphones with Adaptive Noise Cancelling with Smart Ambient, Up to 65H Battery Life with Speed Charge, Lightweight, Comfortable and Foldable Design (Black)",
+      "category": "electronics",
+      "rank": 14,
+      "price": "CAD 103.45",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B010NE2XPC",
+      "title": "DUDE Wipes Unscented Flushable Wipes - Extra-Large Adult Wet Wipes for Sensitive Skin - 6 Pack (288 Count) - Infused with Vitamin E and Aloe - Septic and Sewer Safe",
+      "category": "health",
+      "rank": 14,
+      "price": "CAD 28.47",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C3FTCYZL",
+      "title": "Zevo Flying Insect Trap Official Refill Cartridges - Fits Both Zevo Trap & MAX Indoor Fly Trap - Authentic Trap+Lock Technology to Catch Gnats, House & Fruit Flies (4 Official Refill Cartridges)",
+      "category": "home-kitchen",
+      "rank": 14,
+      "price": "CAD 20.71",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DPGSL5WT",
+      "title": "The Eggmazing Egg Decorator - Peeps Bunny - Arts and Craft Set Includes 6 Colorful Quick Drying, Non-Toxic Markers (Green, Ages 3 and Up)",
+      "category": "toys",
+      "rank": 14,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DKYWMHDX",
+      "title": "Huggies Size 5 Diapers, Little Movers Baby Diapers, Size 5 (27+ lbs), 132 Count (2 Packs of 66), Packaging May Vary",
+      "category": "baby",
+      "rank": 15,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B071914GGL",
+      "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+      "category": "beauty",
+      "rank": 15,
+      "price": "CAD 18.68",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B283QP2N",
+      "title": "iPhone Charger Fast Charging 2 Pack Type C Wall Charger Block with 2 Pack [6FT&10FT] Long USB C to Lightning Cable for iPhone 14/13/12/12 Pro Max/11/Xs Max/XR/X,AirPods Pro",
+      "category": "cell-phones",
+      "rank": 15,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B1N7LJD3",
+      "title": "Blink Outdoor 4 – Wireless smart security camera, two-year battery life, two-way talk. Required Sync Module not included – Add-on camera",
+      "category": "electronics",
+      "rank": 15,
+      "price": "CAD 52.56",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07P5K7DQP",
+      "title": "Pure Encapsulations Magnesium (Glycinate) - Supplement to Support Stress Relief, Sleep, Heart Health, Nerves, Muscles, and Metabolism* - with Magnesium Glycinate - 90 Capsules",
+      "category": "health",
+      "rank": 15,
+      "price": "CAD 37.36",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "title": "Utopia Bedding 18x18 Pillow Inserts, Set of 2, White – Indoor Decorative Throw Pillows for Bed, Sofa & Couch – Soft, Supportive & Fluffy Cushion Inserts",
+      "category": "home-kitchen",
+      "rank": 15,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0GQZBWFXS",
+      "title": "Colorful Dumpling Squishes Stress Balls with Steamer, Cute Anxiety Relief Toy, Soft Squeeze Decompression Dough for Adults, Simulation Food Squishies Bun (Glitter White, 1pcs)",
+      "category": "toys",
+      "rank": 15,
+      "price": "CAD 13.82",
+      "rating": "5.0 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07SXBX1DM",
+      "title": "Amazon Brand - Mama Bear Gentle Touch Diapers, Size 5, 132 Count (4 packs of 33)",
+      "category": "baby",
+      "rank": 16,
+      "price": "CAD 41.20",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00PBX3L7K",
+      "title": "COSRX Snail Mucin Repairing Serum 100ml, Hydrating Serum for Face with Snail Secretion Filtrate for Dull Skin & Fine Lines, Korean Skin Care",
+      "category": "beauty",
+      "rank": 16,
+      "price": "CAD 17.97",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FDKJDFGZ",
+      "title": "TOCOL for iPhone 17 Pro Max Screen Protector/iPhone 16 Pro Max Screen Protector 6.9-Inch Instant Installation Tempered Glass HD Clear Full Coverage Protection Case Friendly 2 Pack",
+      "category": "cell-phones",
+      "rank": 16,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BP9SNVH9",
+      "title": "Amazon Fire TV Stick 4K Max streaming device, with AI-powered Fire TV Search, supports Wi-Fi 6E, free & live TV without cable or satellite, find shows faster with Alexa+",
+      "category": "electronics",
+      "rank": 16,
+      "price": "CAD 48.41",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09BWFX1L6",
+      "title": "Amazon Basics 2-Ply Flex-Sheets Paper Towels, 12 Basics Rolls = 40 Regular Rolls, Everyday Value with 150 Sheets per Roll, Packaging May Vary",
+      "category": "health",
+      "rank": 16,
+      "price": null,
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09SDKSXLZ",
+      "title": "Bicycle Rider Back Playing Cards, Standard Poker Size Deck of Cards, Red & Blue (2 Pack), Classic Cards for Poker, Blackjack, Family Game Night & Card Games, Fun for All Ages",
+      "category": "toys",
+      "rank": 16,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08SNLW94K",
+      "title": "Pampers Training Pants - Easy Ups Boys & Girls Bluey - Size 5T-6T, 84 Count, Children's Potty Underwear (Packaging May Vary)",
+      "category": "baby",
+      "rank": 17,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B002MSN3QQ",
+      "title": "EltaMD UV Clear Face Sunscreen SPF 46, Oil-Free Sunscreen with Zinc Oxide, Dermatologist Recommended",
+      "category": "beauty",
+      "rank": 17,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CY2JJ4WS",
+      "title": "charmast Portable Charger with Built in Cables, Power Bank with Cords Wires, Slim 10000mAh Travel Battery Pack 6 Outputs 3 Inputs 3A Fast Charging for Samsung Google Pixel LG Moto iPhone iPad",
+      "category": "cell-phones",
+      "rank": 17,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BQPNMXQV",
+      "title": "JBL Vibe Beam - True Wireless JBL Deep Bass Sound Earbuds, Bluetooth 5.2, Water & Dust Resistant, Hands-Free Call with VoiceAware, Up to 32 Hours of Battery Life (Black)",
+      "category": "electronics",
+      "rank": 17,
+      "price": "CAD 41.43",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BQ4G7LY8",
+      "title": "Liquid I.V. Hydration Multiplier Sugar-Free - Lemon Lime | Electrolyte Powder Drink Mix | 1 Pack (14 Servings)",
+      "category": "health",
+      "rank": 17,
+      "price": "CAD 21.27",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09PGVGCH5",
+      "title": "Horizon Group USA Bluey Aqua Art - Reusable Water Reveal Activity Pages With Water Pen for No-Mess Drawing and Coloring",
+      "category": "toys",
+      "rank": 17,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00BKL4KKY",
+      "title": "Orgain Organic Kids Nutritional Protein Shake, Chocolate, Healthy Kids Snacks, 8g Dairy Protein, 3g Fiber, 22 Vitamins & Minerals, No Soy Ingredients, Gluten Free, Non-GMO, 8.25 Fl Oz (Pack of 12)",
+      "category": "baby",
+      "rank": 18,
+      "price": "CAD 31.63",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00AINMFAC",
+      "title": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz",
+      "category": "beauty",
+      "rank": 18,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FH6HYW1H",
+      "title": "SuydanBox Magnetic for iPhone 17 Pro Case, Compatible with MagSafe, [Full Camera Protection][Screen Protector] Silicone Shockproof Protective Phone Case for iPhone 17 Pro 6.3\", Calke Green",
+      "category": "cell-phones",
+      "rank": 18,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09B8V1LZ3",
+      "title": "Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
+      "category": "electronics",
+      "rank": 18,
+      "price": "CAD 55.33",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DQYPYVB6",
+      "title": "Bounty Select-A-Size Paper Towels, White, 8 Triple Rolls = 24 Regular Roll",
+      "category": "health",
+      "rank": 18,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0725WFLMB",
+      "title": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Closure, Room Decor Gifts for Women Men, Silver Grey, 20x30 Inches, 2pcs",
+      "category": "home-kitchen",
+      "rank": 18,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B083Z3JMGP",
+      "title": "Creativity for Kids Mini Garden: Mermaid Terrarium Kit - Mermaid Gifts for Girls, Crafts and Toys, Stocking Stuffers for Kids (Ages 6+)",
+      "category": "toys",
+      "rank": 18,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08QS2KQ3F",
+      "title": "Huggies Overnites Size 5 Overnight Diapers (27+ lbs), 50 Ct, Packaging May Vary",
+      "category": "baby",
+      "rank": 19,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DPHQRLJC",
+      "title": "eos Body Wash, Vanilla, Moisturizing Creamy Gel Formula with Shea Butter, Glycerin, Vitamin E, pH Balanced, Sensitive Skin, Vegan, 16 fl oz",
+      "category": "beauty",
+      "rank": 19,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CPSBD68W",
+      "title": "2 Pack USB C Charger Block, Dual Port Type C Wall Charger Fast Charging 20W Power Adapter Cube for iPhone 14/14 Pro/14 Pro Max/14 Plus/13/12/11, XS/XR/X, iPad, Samsung, More",
+      "category": "cell-phones",
+      "rank": 19,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FQF9ZX7P",
+      "title": "Apple Watch Series 11 [GPS 42mm] Smartwatch with Rose Gold Aluminum Case with Light Blush Sport Band - S/M. Sleep Score, Fitness Tracker, Health Monitoring, Always-On Display, Water Resistant",
+      "category": "electronics",
+      "rank": 19,
+      "price": "CAD 376.47",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00GL2HMES",
+      "title": "Nutricost Creatine Monohydrate Micronized Powder 500G, 5000mg Per Serv (5g) - 100 Servings, 17.9 Oz",
+      "category": "health",
+      "rank": 19,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07D5DN269",
+      "title": "Ultra Soft Queen Size Mattress Topper - Viscose Made from Bamboo Pillow Top Mattress Pad for Back Pain Relief - Naturally Cooling for Hot Sleepers, Green",
+      "category": "home-kitchen",
+      "rank": 19,
+      "price": "CAD 60.87",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00JM5GW10",
+      "title": "Play Doh Modeling Compound 10-Pack Case of Assorted Colors, Non-Toxic 2 oz. Cans, Back to School Gifts, Prizes, & Party Favors, Preschool Toys for Kids, Ages 2+ (Amazon Exclusive)",
+      "category": "toys",
+      "rank": 19,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DFRHY91R",
+      "title": "Huggies Size 4 Diapers, Snug & Dry Baby Diapers, Size 4 (22-37 lbs), 92 Count, Packaging May Vary",
+      "category": "baby",
+      "rank": 20,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00T0C9XRK",
+      "title": "essence | Lash Princess False Lash Effect Mascara | Volumizing & Lengthening | Cruelty Free & Paraben Free",
+      "category": "beauty",
+      "rank": 20,
+      "price": "CAD 8.29",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B079HV3TC9",
+      "title": "Hiearcool Waterproof Phone Pouch, IPX8 Waterproof Phone Case for iPhone 17/16/15/14 Pro Max, Cell Phone Dry Bag for Beach & Cruise Essentials, Touch Screen, Lanyard Included, 2 Pack (Fits Up to 8.9”)",
+      "category": "cell-phones",
+      "rank": 20,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C3HCD34R",
+      "title": "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones, Wireless Over-Ear Bluetooth, 40H Long ANC Playtime, Hi-Res Audio, Big Bass, Customize via an App, Transparency Mode",
+      "category": "electronics",
+      "rank": 20,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B083JHCCV2",
+      "title": "Boka Fluoride Free Toothpaste, Nano Hydroxyapatite Toothpaste, Appropriate for Sensitive Teeth - for Adult Oral Care - Ela Mint Flavor, 4 Fl Oz 1Pk US Manufactured",
+      "category": "health",
+      "rank": 20,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01N0TGJHB",
+      "title": "Ortho Home Defense Insect Killer for Indoor and Perimeter2 with Comfort Wand - Ready-To-Use Bug Spray, Kills Ants, Cockroaches & Spiders, 1.33 gal.",
+      "category": "home-kitchen",
+      "rank": 20,
+      "price": "CAD 23.51",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B098PMWSVS",
+      "title": "Animals Habitat 500+ Kids Sticker Book by Cupkin Toddler Airplane Travel Activity Coloring and Sticker Book, Easter Basket Stuffer, 12 Coloring Pages + 12 Scenes for Children's of 2-8 Years",
+      "category": "toys",
+      "rank": 20,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BKQDPP1Z",
+      "title": "Gaiatop Mini Portable Stroller Fan, Battery Operated Small Clip on, Detachable 3 Speed Rechargeable, 360° Rotate Flexible Tripod Better Cooling for Car Seat Crib Treadmill Travel Black",
+      "category": "baby",
+      "rank": 21,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B081KL2QYJ",
+      "title": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+      "category": "beauty",
+      "rank": 21,
+      "price": "CAD 13.82",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FDQKLW48",
+      "title": "Ailun 3 Pack Camera Lens Protector for iPhone 17 Pro Max,Tempered Glass,9H Hardness,Ultra HD,Anti-Scratch,Case Friendly,Does not Affect Night Shots[Not for iPhone 17/17 Pro/iPhone Air]",
+      "category": "cell-phones",
+      "rank": 21,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DZ254SSR",
+      "title": "10Ft Extension Cord with Multiple Outlets, Flat Plug Surge Protector Power Strip 10 Ft Long Cord, 8 Outlets & 4 USB Ports (2 USB C), Desk Charging Station for Home Office, College Dorm Room Essentials",
+      "category": "electronics",
+      "rank": 21,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B002DYIZH6",
+      "title": "Optimum Nutrition Gold Standard 100% Whey Protein Powder, Double Rich Chocolate 1.98 Pound (Packaging May Vary)",
+      "category": "health",
+      "rank": 21,
+      "price": "CAD 73.30",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B003TFE7ZM",
+      "title": "Flexzilla Garden Hose 5/8 in. x 50 ft., Lightweight All-Weather Water Hose, Durable and Flexible, Leak-Free Connections",
+      "category": "home-kitchen",
+      "rank": 21,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0GFPRYGT8",
+      "title": "Schylling NeeDoh Nice Cube Swirl - Sensory Toy with a Super Solid Squish - Unique, Swirling Color Blend - Ages 3 and Up - Color May Vary - 2 Pack",
+      "category": "toys",
+      "rank": 21,
+      "price": "CAD 33.14",
+      "rating": "4.1 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09MVMNW5M",
+      "title": "Cetaphil Baby Wash & Shampoo, 13.5oz Pack of 2, Hypoallergenic, Gentle Enough for Everyday Use, Soap Free",
+      "category": "baby",
+      "rank": 22,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09HHDHXWX",
+      "title": "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, Triclosan-Free, Dermatologist-Tested, pH Balanced, Cruelty-Free, 50 Fluid Ounces, 1-Pack (Previously Solimo)",
+      "category": "beauty",
+      "rank": 22,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0G19LH9T6",
+      "title": "Miracase Magnetic for iPhone 17 Case, Compatible with MagSafe, Integrated Silicone Camera Control Cover, 3.0mm Thicken Shockproof Drop Protection Phone Case for 17, Black",
+      "category": "cell-phones",
+      "rank": 22,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DXXYS4BJ",
+      "title": "Roku Streaming Stick HD — HD Streaming Device for TV with Roku Voice Remote, Free & Live TV",
+      "category": "electronics",
+      "rank": 22,
+      "price": "CAD 34.27",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CM4NXMV2",
+      "title": "Cottonelle Ultra Clean Toilet Paper with Active CleaningRipples Texture, Strong Bath Tissue, 1-Ply, White, 24 Family Mega = 132 Regular Rolls (4 Packs of 6)",
+      "category": "health",
+      "rank": 22,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CKY689WQ",
+      "title": "Zevo Flying Insect Trap & 3 Refill Cartridges - Plug in Fly Trap & Indoor Bug Catcher for Gnats, House & Fruit Flies - Blue & UV Light Technology, Mess-Free Alternative to Bug Zapper",
+      "category": "home-kitchen",
+      "rank": 22,
+      "price": "CAD 33.48",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0GQH2H2QM",
+      "title": "Dumpling Squishies, Glitter Dumpling Mystery Box, Colorful Dumplings Stress Balls Fidget Sensory Toy, Easter Basket Stuffers, Stocking Stuffers with Food Steamer Stretchy Desk Toys",
+      "category": "toys",
+      "rank": 22,
+      "price": "CAD 12.44",
+      "rating": "3.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00N1NBOV2",
+      "title": "Amazon Baby Registry Welcome Box",
+      "category": "baby",
+      "rank": 23,
+      "price": null,
+      "rating": "3.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DWMSM6Y9",
+      "title": "medicube Eye Serum with Salmon DNA PDRN & Pink Peptides | 99% Purity Retinol for Fine Lines | PDRN & Niacinamide for Uneven Skin Tone | Korean Skincare, 1.01 fl.oz",
+      "category": "beauty",
+      "rank": 23,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F3J1GXTD",
+      "title": "Braided Stretchy Band Compatible with Apple Watch Bands 38mm 40mm 41mm 42mm 44mm 45mm 46mm 49mm Women Men, Soft Nylon Solo Loop Magnetic Sport Strap for iWatch Series 11 10 9 8 7 6 5 4 3 2 1 SE Ultra",
+      "category": "cell-phones",
+      "rank": 23,
+      "price": "CAD 10.46",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BFC7WQ6R",
+      "title": "Amazon Echo Spot (newest model), Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Black",
+      "category": "electronics",
+      "rank": 23,
+      "price": "CAD 69.17",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09NW92T8Q",
+      "title": "Sparkle Pick-A-Size Paper Towels, 6 Double Rolls (660 Sheets Total) - Strong 2-Ply Towels for Kitchen Cleanup and Everyday Messes",
+      "category": "health",
+      "rank": 23,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B000E28UQU",
+      "title": "Chapin 20004 Pump Sprayer, 1-Gallon SureSpray Translucent Tank with an Easy Fill Funnel-Top Opening, Adjustable Cone Nozzle & 34\" Long Reach Hose, Used for Fertilizer, Pesticides, Weeds & Pests",
+      "category": "home-kitchen",
+      "rank": 23,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0829FT44S",
+      "title": "50+ Official Pokemon Cards Collection with 5 Foils in Any Combination and at Least 1 Rarity, GX, EX, FA, Tag Team, Or Secret Rare",
+      "category": "toys",
+      "rank": 23,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0795WF49L",
+      "title": "Pampers Swim Diapers - Splashers - Size 4, 18 Count, Gap-Free Disposable Baby Swimming Pants",
+      "category": "baby",
+      "rank": 24,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DYTQ5GYQ",
+      "title": "medicube Facial Cleanser Zero Pore Capsule Cleansing Foam | Daily Gentle Cleanser for Skin Texture, Blackhead & Pore Care | AHA, BHA & PHA for Deep Cleansing | Korean Skincare, 4.23 oz",
+      "category": "beauty",
+      "rank": 24,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0GCBMBGBX",
+      "title": "Ailun Glass Screen Protector for Galaxy S26 Ultra [6.9 Inch] 3Pack + 2Pack Camera Lens Tempered Glass Fingerprint Unlock 0.25mm Ultra Clear Anti-Scratch Case Friendly [Not For S26/S26 Plus]",
+      "category": "cell-phones",
+      "rank": 24,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09Z6Q2MLC",
+      "title": "(Pack of 2) Replacement Remote Control Only for Roku TV, Compatible for TCL Roku/Hisense Roku/Onn Roku/Sharp Roku/Element Roku/Westinghouse Roku/Philips Roku Smart TVs (Not for Roku Stick and Box)",
+      "category": "electronics",
+      "rank": 24,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F5Z1W4Y1",
+      "title": "Brawny Tear-A-Square 3-Ply Paper Towels, 12 XL Family Rolls = 30 Regular Rolls, Strong, Absorbent, and Durable with 3 Sheet Sizes (Quarter, Half, Full)",
+      "category": "health",
+      "rank": 24,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08NJ6VF9T",
+      "title": "Mrs Awesome Clear Shower Curtain Liner with 3 Magnets, 72x72 Premium Flexible Sturdy Plastic Shower Curtain for Bathroom Lightweight, Waterproof, Clear",
+      "category": "home-kitchen",
+      "rank": 24,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DV4BFJBY",
+      "title": "Schylling NeeDoh Nice Cube Glow - Squeeze Toy with a Super Solid Squish - Glows in The Dark - 2.25\" Cube - Color May Vary (Pack of 1)",
+      "category": "toys",
+      "rank": 24,
+      "price": "CAD 27.67",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07TDN9MKC",
+      "title": "Philips Avent Soothie Baby Pacifiers - 100% Silicone Pacifiers for Babies 0-3 Months, One-Piece Design, BPA-Free, Extra Durable, Green, 4 Pack, Model SCF190/41",
+      "category": "baby",
+      "rank": 25,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07GKVBQDG",
+      "title": "Neutrogena Makeup Remover Wipes, Daily Single Face Cleansing Towelettes, Makeup Removing Cleansing Wipes Removes Dirt & Oil, Alcohol-Free Face Towelettes, 20 ct",
+      "category": "beauty",
+      "rank": 25,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DJFW7PNM",
+      "title": "Apple 20W USB-C Compact Power Adapter: Fast and Convenient Charging, Type C Wall Charger",
+      "category": "cell-phones",
+      "rank": 25,
+      "price": "CAD 19.00",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09PDLBFKY",
+      "title": "6 Ft Surge Protector Power Strip - 8 Widely Outlets with 4 USB Ports, 3 Side Outlet Extender with 6 Feet Extension Cord, Flat Plug, Wall Mount, Desk USB Charging Station, ETL,White",
+      "category": "electronics",
+      "rank": 25,
+      "price": "CAD 17.28",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B079H53D2B",
+      "title": "Physician's CHOICE Probiotics 60 Billion CFU - 10 Strains + Organic Prebiotics - Immune, Digestive & Gut Health - Supports Occasional Constipation, Diarrhea, Gas & Bloating - for Women & Men - 30ct",
+      "category": "health",
+      "rank": 25,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D89V1RX1",
+      "title": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Room Floor Mat Stain Resistant Carpet for Bedroom Bathroom Distressed Beside Rug",
+      "category": "home-kitchen",
+      "rank": 25,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DSVTXFNW",
+      "title": "luckdoor Silicone Magnetic Balls Fidget Toys for Adults & Teens,4PCS Stress Relief Sensory Toys for Autism ADHD Anxiety,Fun Textures Gadgets,Office Desk Toy,Stocking Stuffers for Women Men Teen Gift",
+      "category": "toys",
+      "rank": 25,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CLPGQWNB",
+      "title": "Comfy Cubs Muslin Burp Cloths 20\" x 10\", Pack of 10 - Large, 6-Layer, Ultra Absorbent 100% Cotton for Baby Drool and Messes - Soft, Safe & Gentle Baby Burp Cloths for Boys & Girls - Multi",
+      "category": "baby",
+      "rank": 26,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0107QPFBU",
+      "title": "Aquaphor Healing Ointment Advanced Therapy Skin Protectant, Dry Skin Body Moisturizer, 7 Oz Tube",
+      "category": "beauty",
+      "rank": 26,
+      "price": "CAD 17.95",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D4215HCX",
+      "title": "LISEN Retractable Car Charger, Gifts for Him Her, Cars Adapter USB C Fast Charger, gifts for Mothers Day Travel Essentials Car Accessories for Men Women Gifts for iPhone 17 16 15 14 13 12, Samsung S26",
+      "category": "cell-phones",
+      "rank": 26,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00EB4ADQW",
+      "title": "FUJIFILM Instax Mini Instant Film Twin Pack (White), 20 Photos",
+      "category": "electronics",
+      "rank": 26,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07ND3WR64",
+      "title": "Cottonelle Fresh Feel Flushable Wet Wipes, Adult Wet Wipes, 8 Flip-Top Packs, 42 Wipes Per Pack (336 Total Wipes), Packaging May Vary",
+      "category": "health",
+      "rank": 26,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C2C9NHZW",
+      "title": "LEVOIT Top Fill Humidifiers for Bedroom, 2.5L Tank for Large Room, Easy to Fill & Clean, 28dB Quiet Cool Mist Air Humidifier for Home Baby Nursery & Plants, Auto Shut-off for Safety, 25H",
+      "category": "home-kitchen",
+      "rank": 26,
+      "price": null,
+      "rating": null,
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DWGVM7RY",
+      "title": "USAOPOLY Flip 7, The Ultimate Blend of Press Your Luck & Strategy, Fast-Paced Addictive Card Game,Quick to Learn & Easy to Teach,Perfect for Game Nights, 3+ Players, Ages 8 & Up, 20 Minutes Play Time",
+      "category": "toys",
+      "rank": 26,
+      "price": null,
+      "rating": "4.9 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B005UEB96K",
+      "title": "Aquaphor Baby Healing Ointment Advanced Therapy Skin Protectant for Chapped or Dry Skin, Drool Rash and Diaper Rash Ointment, 14 Oz Jar",
+      "category": "baby",
+      "rank": 27,
+      "price": "CAD 25.42",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01H1V7WQU",
+      "title": "LAURA GELLER NEW YORK Award-Winning Baked Balance-n-Brighten Color Correcting Powder Foundation - Light - Buildable Light to Medium Coverage - Demi-Matte Natural Finish",
+      "category": "beauty",
+      "rank": 27,
+      "price": null,
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C8HHV9DK",
+      "title": "Anker iPhone 17/16 Charger, 2-Pack 20W Fast USB C Charger Block, for iPhone 16/16 Pro Max/15 Series/iPad Pro and More (Black, 2 Pack & 2 Cable)",
+      "category": "cell-phones",
+      "rank": 27,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C8RR4WN3",
+      "title": "Amazon Kindle Paperwhite Signature Edition 32GB (newest model) – 20% faster with auto-adjusting front light, wireless charging, and weeks of battery life – Metallic Black",
+      "category": "electronics",
+      "rank": 27,
+      "price": "CAD 221.37",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BJMV9BXJ",
+      "title": "Tide PODS laundry detergent pacs, 3-in-1 Stain Remover, Odor Fighter, Color Protector, 112 Count, HE compatible, Spring Meadow Scent",
+      "category": "health",
+      "rank": 27,
+      "price": "CAD 36.00",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B21ZM7LJ",
+      "title": "Infinno Baby Wrist Rattle Socks and Foot Finder Set, Perfect Baby Toys for 0-12 Months Newborn Boys and Girls As Shower Gifts, Garden Bug Series",
+      "category": "toys",
+      "rank": 27,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C54D5NCG",
+      "title": "Dr. Brown's Milestones Baby's First Straw Cup, Training Cup with Weighted Straw, 9oz/270mL, Dark Blue/Vintage Yellow, BPA Free, 6m+, 2 Pack",
+      "category": "baby",
+      "rank": 28,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01N9SPQHQ",
+      "title": "La Roche-Posay Toleriane Double Repair Face Moisturizer, Daily Moisturizer Face Cream with Ceramide & Niacinamide for All Skin Types, Immediate Comfort & Long Lasting Hydration, Fragrance Free",
+      "category": "beauty",
+      "rank": 28,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FJG9P2LB",
+      "title": "JETech Privacy Screen Protector for iPhone 17 Pro Max 6.9-Inch, Anti-Spy Tempered Glass Film with Easy Installation Tool, 2-Pack",
+      "category": "cell-phones",
+      "rank": 28,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CXGXT6W8",
+      "title": "JLab Go Air Pop+ True Wireless Earbuds, in Ear Headphones, Bluetooth Earphones, 35H Playtime Ear Buds, Bluetooth Earbuds with Microphone, USB-C Charging Case, Dual Connect, EQ3 Sound, Black",
+      "category": "electronics",
+      "rank": 28,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09YKYV9N9",
+      "title": "Charmin Ultra Strong Clean Touch Toilet Paper, 24 Family Mega Rolls = 120 Regular Rolls",
+      "category": "health",
+      "rank": 28,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01IE7P2VW",
+      "title": "Utopia Bedding Queen Fitted Sheet - Bottom Sheet - Deep Pocket - Soft Microfiber - Shrinkage and Fade Resistant - Easy Care -1 Fitted Sheet Only (Grey)",
+      "category": "home-kitchen",
+      "rank": 28,
+      "price": "CAD 13.13",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F8423BK7",
+      "title": "Rapean 8\" 3D Printed Dragon Eggs, Easter Basket Stuffers for Kids and Teens, Articulated Dragon Toys for Children, Unique Easter Gifts for Boys & Girls (4Pack)",
+      "category": "toys",
+      "rank": 28,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07XCVWZ51",
+      "title": "Pull-Ups Boys' Potty Training Pants, Size 3T-4T Training Underwear (32-40 lbs), 112 Count (4 Packs of 28), Packaging May Vary",
+      "category": "baby",
+      "rank": 29,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07GB3NVN1",
+      "title": "Native Deodorant Contains Naturally Derived Ingredients, 72 Hour Odor Control, Deodorant for Women and Men, Aluminum Free, Coconut & Vanilla 2.65oz",
+      "category": "beauty",
+      "rank": 29,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B2WLSY9D",
+      "title": "[4 Pack] USB C Charger Block Fast Charging Multiport Adpater [PD 20W USB-C & QC 3.0 USB-A Port] for iPhone 17/16/15/14/13/12/11/X/8, iPad, Galaxy, Google & More",
+      "category": "cell-phones",
+      "rank": 29,
+      "price": "CAD 17.42",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CQF6T2K1",
+      "title": "Roku TV Remote Control (Official Manufacturer Product) - Simple Setup, & Pre-Set App Shortcuts - Replacement Remote Compatible with RokuTV Models ONLY (Not Roku Players)",
+      "category": "electronics",
+      "rank": 29,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08XQZX9K3",
+      "title": "Ultima Replenisher Daily Electrolyte Powder – Original Variety Pack, 20 Stickpacks – Zero Sugar Hydration Packets with 6 Electrolytes and Minerals – Sugar Free, Plant Based & Keto Friendly​ Drink Mix",
+      "category": "health",
+      "rank": 29,
+      "price": "CAD 23.23",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00MRH9NCK",
+      "title": "Twin Size Mattress Protector Waterproof, Premium 200 GSM Terry Mattress Cover, Soft & Breathable Bed Cover, Fitted Sheet Style Stretchable Deep Pockets 15\" by Utopia Bedding (White)",
+      "category": "home-kitchen",
+      "rank": 29,
+      "price": "CAD 20.74",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08SGH7NKX",
+      "title": "SEREED Baby Balance Bike for 1 Year Old Boys Girls 12-24 Month Toddler Balance Bike, 4 Wheels Toddler First Bike, First Birthday Gifts",
+      "category": "toys",
+      "rank": 29,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BJ14XCDV",
+      "title": "Pampers ZZZ Overnight Diapers, Size 7 (41+ lbs), 36 Count, Nighttime Protection Disposable Baby Diaper, Night Time Leak and Skin Protection",
+      "category": "baby",
+      "rank": 30,
+      "price": "CAD 41.47",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00949CTQQ",
+      "title": "Paula's Choice SKIN PERFECTING 2% BHA Liquid Exfoliant with Salicylic Acid, Facial Polish for Enlarged Pores, Wrinkles & Fine Lines, Suitable for Blackhead-Prone Skin, Fragrance-Free",
+      "category": "beauty",
+      "rank": 30,
+      "price": "CAD 40.94",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FFT8P8XP",
+      "title": "FireNova Magnetic for iPhone 17 Pro Case, Compatible with MagSafe, [Integrated Silicone Camera Control Button] [Camera Protection] Anti-Scratch Microfiber Lining Phone Case, 6.3\", Calke Green",
+      "category": "cell-phones",
+      "rank": 30,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09DT48V16",
+      "title": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+      "category": "electronics",
+      "rank": 30,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00C91Q86I",
+      "title": "Affresh Washing Machine Cleaner, Helps Power Away Odor Causing Bacteria & Grime Deep Inside Pump, Valve & Hoses, 6 Time Release Tablets, 6 Month Supply",
+      "category": "health",
+      "rank": 30,
+      "price": "CAD 12.31",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C4Z6SKCS",
+      "title": "Amazon Basics Basket Coffee Filters for 8-12 Cup Coffee Makers, White, 200 Count",
+      "category": "home-kitchen",
+      "rank": 30,
+      "price": "CAD 2.91",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DTJD9939",
+      "title": "Rapean 8\" 3D Printed Dragon Eggs, Easter Basket Stuffers for Kids and Teens, Unique Easter Toys & Decor for Children, Mysterious Dragon Toys Gifts for Boys & Girls (4 Pack)",
+      "category": "toys",
+      "rank": 30,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01LDZJHAE",
+      "title": "The Honest Company Foaming Bubble Bath & Baby Wash, Tear-Free, Hypoallergenic, Natural Formula, Lavender Calm Scent, 12 fl oz",
+      "category": "baby",
+      "rank": 31,
+      "price": "CAD 14.76",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01MYEZPC8",
+      "title": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin",
+      "category": "beauty",
+      "rank": 31,
+      "price": "CAD 13.68",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FDWR2PPG",
+      "title": "CANSHN Magnetic Compatible with iPhone 17 Pro Case, Upgraded [Full Camera Protection] [Compatible with Magsafe] [Translucent Matte] Shockproof Protective Phone Cover 6.3 Inch - Deep Blue",
+      "category": "cell-phones",
+      "rank": 31,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CNV9F72P",
+      "title": "Amazon Kindle 16 GB (newest model) - Lightest and most compact Kindle, now with faster page turns, and higher contrast ratio, for an enhanced reading experience - Black",
+      "category": "electronics",
+      "rank": 31,
+      "price": "CAD 114.18",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B095PQ6SX7",
+      "title": "Amazon Basics Resealable Double Zipper Sandwich Storage Bags for Food Storage, 300 Count (Previously Solimo)",
+      "category": "health",
+      "rank": 31,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09D8T11YS",
+      "title": "Zulay Kitchen Powerful Milk Frother Wand With 2 Duracell Batteries - Ultra Fast Handheld Drink Mixer - Electric Whisk Foam Maker for Coffee, Lattes, Cappuccino, Matcha, Hot Chocolate & Creamer - Black",
+      "category": "home-kitchen",
+      "rank": 31,
+      "price": "CAD 13.82",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09TK9JGRH",
+      "title": "Little Kids Bubbles by Fubbles | Made in The USA | 64oz Non Toxic Bubble Solution | Refill Solution for Bubble Machines and Bubble Toys",
+      "category": "toys",
+      "rank": 31,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BJ13XWDD",
+      "title": "Pampers Aqua Pure Baby Wipes, 99% Water, Fragrance Free, 672 Baby Wipes Total (12X Flip-Top Packs) [Packaging May Vary]",
+      "category": "baby",
+      "rank": 32,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01AXQP6AE",
+      "title": "Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 100% Cotton 625 Count",
+      "category": "beauty",
+      "rank": 32,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B2R7G9ML",
+      "title": "𝟐𝟎𝟐𝟔 𝐔𝐩𝐠𝐫𝐚𝐝𝐞𝐝 for Apple Watch Charger Magnetic Fast Charging Cable [Portable] Magnetic Wireless Charging Compatible with iWatch Series Ultra/SE/11/10/9/8/7/6/5/4/-[3.3FT] White",
+      "category": "cell-phones",
+      "rank": 32,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08MTBCXWX",
+      "title": "6Ft Power Strip Surge Protector - Yintar Extension Cord with 6 AC Outlets and 3 USB Ports for for Home, Office, Dorm Essentials, 1680 Joules, ETL Listed, (Black)",
+      "category": "electronics",
+      "rank": 32,
+      "price": "CAD 17.97",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00DLDH1N2",
+      "title": "Quest Nutrition Chocolate Chip Cookie Dough Protein Bars, High Protein, Low Carb, Gluten Free, Keto Friendly, 12 Count",
+      "category": "health",
+      "rank": 32,
+      "price": "CAD 53.93",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00LS9UD2M",
+      "title": "LiBa Bathroom Shower Curtain Waterproof Plastic Shower Curtain Premium PEVA Non-Toxic with Rust Proof Grommets Clear 8G Bathroom Accessories 72x72",
+      "category": "home-kitchen",
+      "rank": 32,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BJZRS4KR",
+      "title": "40 Inch Beige Number 1 Balloon for 1st Birthday Decoration, Large Self Inflating Cream Foil Number Balloons 0-9 for Boys Girls, White Sand 1 Helium Balloons for Women Men Party Anniversary Supplies",
+      "category": "toys",
+      "rank": 32,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B011EVPAHG",
+      "title": "MYLICON Infants Gas Relief Drops for Infants and Babies, Dye Free Formula, 1 Fluid Ounce",
+      "category": "baby",
+      "rank": 33,
+      "price": "CAD 13.64",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01LW1983J",
+      "title": "Julep Eyeshadow 101 Cream-to-Powder Waterproof Shadow Stick – Champagne Shimmer – Long-Lasting, Crease-Proof, Medium Golden-Beige Shimmer Cream Eyeshadow with Built-in Smudger",
+      "category": "beauty",
+      "rank": 33,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DN1S1YLV",
+      "title": "ANDERY Car Phone Holder for Magsafe [78+LBS Strongest Suction & 2400gf Magnetic] 360° Adjustable Car Phone Mount, Phone Holders for Your Car for iPhone 17-12 Pro Max Plus Air, Carbon Fiber",
+      "category": "cell-phones",
+      "rank": 33,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F1BXQNR5",
+      "title": "INSIGNIA 55-inch Class F50 Series LED 4K UHD Smart Fire TV with Alexa Voice Remote (NS-55F501NA26)",
+      "category": "electronics",
+      "rank": 33,
+      "price": "CAD 249.02",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00GJ82VK4",
+      "title": "Pure Protein Chocolate Peanut Butter Protein Bars – 20g Protein, 3g Sugar, 190 Calories (12 count) Low Sugar* High Protein Snack - Gluten Free - Perfect for a Healthy Snack",
+      "category": "health",
+      "rank": 33,
+      "price": "CAD 20.59",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08CRPWQHB",
+      "title": "BigFoot Clear Shower Curtain Liner - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Shower Liner, Rust-Proof Bathroom Essentials",
+      "category": "home-kitchen",
+      "rank": 33,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CNX5CNQX",
+      "title": "TBOLINE 12\" 3D Printed Dragon Egg, Easter Basket Stuffers, Large Prefilled Easter Eggs for Kids, Stuffed Egg Hunt Fillers with Easter Toys, 3D Printer Animals Fidget Toys for Boys Teen 5-7 4-6 8-12",
+      "category": "toys",
+      "rank": 33,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0081GJ038",
+      "title": "Love to Dream Swaddle UP, Baby Sleep Sack, Self-Soothing Swaddles for Newborns, Improves Sleep, Snug Fit Helps Calm Startle Reflex, New Born Essentials for Baby, Small 8-13lbs, Gray",
+      "category": "baby",
+      "rank": 34,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01MSSDEPK",
+      "title": "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For Dry Skin, Hyaluronic Acid + Ceramides + Glycerin, Hydrating Cleanser For Normal To Dry Skin, National Eczema Association Certified",
+      "category": "beauty",
+      "rank": 34,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FC2CRDPV",
+      "title": "ESR 3 Pack for iPhone 17 Pro Max Screen Protector, Military-Grade Shatterproof, 9H Hardness, Full Coverage Tempered Glass with Ultra Fit Tray",
+      "category": "cell-phones",
+      "rank": 34,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07FW3GTXB",
+      "title": "Alex Tech 10ft - 1/2 inch Cord Protector Wire Loom Tubing Cable Sleeve Split Sleeving For USB Cable Power Cord Audio Video Cable – Protect Cat From Chewing - Black",
+      "category": "electronics",
+      "rank": 34,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0748J34WZ",
+      "title": "Dixie Medium Paper Plates, 8.5 Inch, 90 Count, 2X Stronger*, Microwave-Safe, Soak-Proof, Cut Resistant, Disposable Plates For Everyday Breakfast, Lunch, & Dinner Meals",
+      "category": "health",
+      "rank": 34,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09GTRVJQM",
+      "title": "LEVOIT Air Purifiers for Bedroom Home Dorm, AHAM Verified, 3-in-1 Filter Cleaner With Aroma Pad, Filters Smoke, Allergens, Pet Dander, Odor, Dust, Office, Desktop, Core Mini-P, White",
+      "category": "home-kitchen",
+      "rank": 34,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B008J1QP7Y",
+      "title": "Bright Starts Oball Shaker Rattle Toy, Ages Newborn Plus",
+      "category": "toys",
+      "rank": 34,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BTYN9KLC",
+      "title": "Zak Designs Disney Princess Kelso Toddler Cups For Travel or Home, 15oz 2-Pack Plastic Sippy Cups, Leak-Proof For Kids (Ariel, Aurora, Belle, Cinderella, Jasmine, Mulan, Rapunzel, Tiana)",
+      "category": "baby",
+      "rank": 35,
+      "price": "CAD 19.36",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08BW46XXK",
+      "title": "Vanicream Daily Facial Moisturizer With Ceramides and Hyaluronic Acid - Formulated Without Common Irritants for Those with Sensitive Skin, 3 fl oz (Pack of 1)",
+      "category": "beauty",
+      "rank": 35,
+      "price": "CAD 20.95",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BMW2985V",
+      "title": "Charmast Portable Charger with Built in Cables, Power Bank with Cords Wires, Slim 10000mAh Travel Battery Pack 6 Outputs 3 Inputs 3A Fast Charging for Samsung Google Pixel LG Moto iPhone iPad",
+      "category": "cell-phones",
+      "rank": 35,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FHWKYT89",
+      "title": "Wireless Earbuds, Bluetooth 5.4 Headphones Bass Stereo, Ear Buds with Noise Cancelling Mic, LED Display in Ear Earphones Clear Calls, IP7 Waterproof Bluetooth Earbuds for Phones/Sports/Laptop, White",
+      "category": "electronics",
+      "rank": 35,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CM5C15ZD",
+      "title": "Cottonelle Ultra Comfort Toilet Paper with Cushiony CleaningRipples Texture, Strong Bath Tissue, 24 Family Mega Rolls = 108 Regular Rolls (4 Packs of 6)",
+      "category": "health",
+      "rank": 35,
+      "price": "CAD 32.45",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08DTH86Q2",
+      "title": "Utopia Bedding Bed Pillows for Sleeping Queen Size (White), Set of 2, Soft & Fluffy Pillow with Down Alternative Filling, Cooling, Hotel Quality, Gusseted Pillow for Back, Stomach or Side Sleepers",
+      "category": "home-kitchen",
+      "rank": 35,
+      "price": "CAD 36.38",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09T8PH369",
+      "title": "Easter Basket Stuffers, 4 Pack Squishy Easter Bunny Stress Balls for Adults, Easter Basket Stuffers, Easter Toys Stress Relief Fidget Balls ,Easter Basket Ideas Gifts",
+      "category": "toys",
+      "rank": 35,
+      "price": "CAD 22.12",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0070SKP1O",
+      "title": "Lansinoh Stay Dry Disposable Nursing Pads, Soft and Super Absorbent Breast Pads, Breastfeeding Essentials for Moms, 100 Count",
+      "category": "baby",
+      "rank": 36,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01MDTVZTZ",
+      "title": "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin",
+      "category": "beauty",
+      "rank": 36,
+      "price": "CAD 8.30",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FBWM4FY5",
+      "title": "UNBREAKcable 2-Pack Screen Protector for iPhone 17 Pro, Double Shatterproof Tempered Glass [Easy Installation Frame] [9H Hardness] [99.99% HD Clear] [Case Friendly] for Apple iPhone 17 Pro 6.3 inch",
+      "category": "cell-phones",
+      "rank": 36,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CGVSKR1G",
+      "title": "Amazon Kindle Colorsoft 16 GB (newest model) – With color display and adjustable warm light – No Ads – Black",
+      "category": "electronics",
+      "rank": 36,
+      "price": "CAD 235.20",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09CD6Z7GB",
+      "title": "Amazon Basics Tall Kitchen Drawstring Trash Bags, Sturdy, 13 Gallon, Unscented, 200 Count",
+      "category": "health",
+      "rank": 36,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D5RMVMWF",
+      "title": "AirScent Hotel Diffuser Oil No. 1014 - The Iconic 5-Star Hotel Coastal Blend - Lemon Bergamot Sea Breeze - 10 mL Premium Fragrance Oil for Ultrasonic and Waterless Diffusers and Crafting",
+      "category": "home-kitchen",
+      "rank": 36,
+      "price": "CAD 7.85",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C4KTZMVM",
+      "title": "NewFamily Dustless Chalk for Kids, Colored Sidewalk Chalk With Holder,Non-Toxic Washable Toddlers Chalks Drawing Writing for Outdoor Art Play,Blackboard(12 Pcs)",
+      "category": "toys",
+      "rank": 36,
+      "price": null,
+      "rating": "4.1 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B01845QH7M",
+      "title": "Dr. Brown's Natural Flow Anti-Colic Options+ Narrow Baby Bottle, 8 oz/250 mL, with Level 1 Slow Flow Nipples, 0m+, 4 Pack",
+      "category": "baby",
+      "rank": 37,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FVT77ZLL",
+      "title": "ANUA PDRN Collagen Glow Facial Serum Spray, Hydrating Face Mist, Hyaluronic Acid, dewy glass finish, All Skin Types, Instant Plumping Hydration, Firming Care, Korean Skincare, 3.38 fl oz",
+      "category": "beauty",
+      "rank": 37,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DMNY6FPD",
+      "title": "Temdan Magnetic Compatible with iPhone 15 Pro Max Case, [Built-in Invisible Kickstand][Compatible with MagSafe] [Military Grade Shockproof] Slim Translucent Matte Phone Case for iPhone 15 Pro Max 6.7\"",
+      "category": "cell-phones",
+      "rank": 37,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D2HKCMBP",
+      "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless Sport Earphones for Running, Workouts - Sweat Resistant, Secure Comfortable Fit -Deep Bass, Smart Mic, Reflective Strip",
+      "category": "electronics",
+      "rank": 37,
+      "price": "CAD 193.64",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09RQBHRCT",
+      "title": "Vital Proteins Collagen Peptides Powder - Supports Hair, Nail, Skin, Bone & Joint Health, Unflavored, Collagen Protein 9.33 OZ",
+      "category": "health",
+      "rank": 37,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DKT86Z4D",
+      "title": "EGOHOME 8 Inch Twin Mattress, Memory Foam Mattress with Cooling Green Tea Gel, Relieve Pressure with Medium Firm Support, CertiPUR-US Certified, 75''L x 38''W, White",
+      "category": "home-kitchen",
+      "rank": 37,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08YNG4RDH",
+      "title": "Little Kids Disney Minnie Mouse Light and Sound Musical Bubble Wand, Includes Bubble Solution, Multi (2051)",
+      "category": "toys",
+      "rank": 37,
+      "price": null,
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B082QBSJ6L",
+      "title": "Pampers Pure Protection Baby Diapers, Size 1 (8-14 lbs), 82 Count, Up to 100% Leakproof, Premium Plant-based Skin Protection, Hypoallergenic Soft Diapers",
+      "category": "baby",
+      "rank": 38,
+      "price": "CAD 32.81",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B077RTL1HJ",
+      "title": "Illiyoon Ceramide Ato Concentrate Cream | Moisturizer for Dry & Sensitive Skin, 100hr Lasting Hydration, For Face & Body, Gentle for Infants, Moisture Barrier Repair, Vegan Certified, 6.76 fl.oz.",
+      "category": "beauty",
+      "rank": 38,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DGXBJ51X",
+      "title": "FNTCASE for Galaxy A17/A16 5G Phone Case - Samsung A17 Military Grade Drop Protection, 14ft Drop Tested, Screen Protector Included, Anti-Slip Matte Textured, TPU+PC Dual Layer Shockproof Cover (Black)",
+      "category": "cell-phones",
+      "rank": 38,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DC91H3JK",
+      "title": "Amazon Echo Show 11 (newest model), Vibrant Full-HD 11\" display with more viewing area and spatial audio, Designed for Alexa+, Graphite",
+      "category": "electronics",
+      "rank": 38,
+      "price": "CAD 235.20",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07F246YG1",
+      "title": "Amazon Basics Disinfecting Wipes, Lemon & Fresh Scent, Sanitizes/Cleans/Disinfects/Deodorizes, 255 Count (2 Packs Lemon, 1 Pack Fresh Scent)",
+      "category": "health",
+      "rank": 38,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00XJM8KMQ",
+      "title": "Scotts Turf Builder Weed and Feed3 - Weed Killer Plus Lawn Fertilizer, Controls Dandelion and Clover, Grass Fertilizer For Up To 5,000 sq. ft., 14.29 lbs.",
+      "category": "home-kitchen",
+      "rank": 38,
+      "price": "CAD 31.12",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00ZRD99C0",
+      "title": "Bright Starts Oball Easy Grasp Classic Ball BPA-Free Infant Toy in Red, Yellow, Green, Blue, Age Newborn and up, 4 Inches",
+      "category": "toys",
+      "rank": 38,
+      "price": null,
+      "rating": "4.9 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00569GU18",
+      "title": "Boudreaux’s Butt Paste Max Strength Diaper Rash Cream for Baby, Ointment With Zinc Oxide, 4 oz Tube",
+      "category": "baby",
+      "rank": 39,
+      "price": "CAD 9.13",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07RK4HST7",
+      "title": "CeraVe Daily Moisturizing Lotion for Dry Skin, Body Lotion & Face Moisturizer with Hyaluronic Acid and Ceramides, Daily Moisturizer, Fragrance Free, Oil-Free, 19 Ounce",
+      "category": "beauty",
+      "rank": 39,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BMQPWBK6",
+      "title": "NEW'C 3 Pack Designed for Samsung Galaxy S23 Screen Protector Tempered Glass, Anti Scratch, Bubble Free, Ultra Resistant",
+      "category": "cell-phones",
+      "rank": 39,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C8C2NZMQ",
+      "title": "Amazon Fire 7 Kids tablet (newest model) ages 3-7. Top-selling 7\" kids tablet on Amazon. Includes 6 months of ad-free and exclusive content, easy parental controls, 10-hr battery, 16 GB, Blue",
+      "category": "electronics",
+      "rank": 39,
+      "price": "CAD 83.00",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C2CY22B8",
+      "title": "Amazon Basics Everyday Disposable Paper Plates, 8.62 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 100 Count, Packaging May Vary",
+      "category": "health",
+      "rank": 39,
+      "price": "CAD 8.26",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0714K41PB",
+      "title": "Utopia Bedding Throw Pillows (Set of 4, White) – 18 x 18 Inches Down Alternative Pillows for Bed, Sofa, and Couch - Fluffy Decorative Stuffer Pillow for Indoors & Outdoors",
+      "category": "home-kitchen",
+      "rank": 39,
+      "price": "CAD 32.71",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09TYRGYTM",
+      "title": "Easter Bunny Poppers, Bunny Carrot Pop Bubble Fidget Sensory Toy, Puzzle Popper, Easter Gifts for Kids,Toddler, Easter Basket for Toddlers Girl, Easter Toys, Stocking Easter Basket Stuffers (White)",
+      "category": "toys",
+      "rank": 39,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07KGL6L56",
+      "title": "Pampers Baby Wipes, Complete Clean Baby Fresh Scented Wipe, Gently Cleans Head to Toe, 72 Total (1 Flip-Top Packs)",
+      "category": "baby",
+      "rank": 40,
+      "price": "CAD 3.86",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CNCL35CH",
+      "title": "Dr.Melaxin Cemenrete Calcium Multi Balm 9g Korean Skin Care All In One Calcium Volume Stick Collagen Wrinkles Face Eye treatment Balm",
+      "category": "beauty",
+      "rank": 40,
+      "price": null,
+      "rating": "4.0 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07P29XQR4",
+      "title": "PopSockets Adhesive Phone Grip, Holder, Phone Stand, Black - Black",
+      "category": "cell-phones",
+      "rank": 40,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B092J8LPWR",
+      "title": "Surge Protector Power Strip - HANYCONY 8 Outlets 4 USB (2 USB C) Charging Ports, Multi Plug Outlet Extender, 5Ft Braided Extension Cord, Flat Plug Wall Mount Desk Charging Station for Home Office ETL",
+      "category": "electronics",
+      "rank": 40,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D5FZGY8W",
+      "title": "O Positiv URO Vaginal Probiotics for Women pH Balance with Prebiotics & Lactobacillus – Vaginal Health Supplement – Promote Healthy Vaginal Odor & Flora, 60 Count (Pack of 1), 1 Month Supply",
+      "category": "health",
+      "rank": 40,
+      "price": "CAD 40.08",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00U6HREPQ",
+      "title": "Utopia Bedding Mattress Protector Zippered Queen Size, 100% Waterproof Bed Bug and Dust Mite Proof Mattress Encasement, Absorbent 6 Sided Mattress Cover",
+      "category": "home-kitchen",
+      "rank": 40,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07D4T2XKB",
+      "title": "Crayola Mini Twistables Crayons for Kids (50ct), Essential Easter Basket Stuffers, No Peel Crayons for Coloring Books, Gift for Toddlers & Kids, Arts & Crafts Supplies, 3+",
+      "category": "toys",
+      "rank": 40,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09GM8JZM9",
+      "title": "HelloBaby No WiFi Baby Monitor 5\" Screen 30-Hour Battery Pan-Tilt-Zoom Video Upgrade with Camera and Audio, Night Vision, VOX, 2-Way Talk, 8 Lullabies and 1000ft Range, HB6550",
+      "category": "baby",
+      "rank": 41,
+      "price": "CAD 87.38",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DWFLY18Y",
+      "title": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream, Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare (2.02 fl oz)",
+      "category": "beauty",
+      "rank": 41,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C69HB8PM",
+      "title": "iPhone 17 16 15 Charger Fast Charging,2Pack 20W Apple iPad USB C Wall Chrager Block with 6FT USB C to C Cable for iPhone 17/Pro/Pro Max/17 Air/ 16/16 Pro/16 Pro Max/15/Plus/Pro/Pro Max (White)",
+      "category": "cell-phones",
+      "rank": 41,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09FT58QQP",
+      "title": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+      "category": "electronics",
+      "rank": 41,
+      "price": "CAD 27.66",
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00HSC9F2C",
+      "title": "Clorox Disinfecting Cleaning Wipes for Spring Cleaning & Allergy Season, Bleach Free, Fresh Scent and Crisp Lemon, 75 Count Each, Pack of 3",
+      "category": "health",
+      "rank": 41,
+      "price": "CAD 17.68",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B088BWBD95",
+      "title": "Amazon Basics 20x20x1 Air Filter 6-Pack, MERV 11 AC Furnace Filters, Dust, Pet, Allergy Control, Electrostatic (Actual Size: 19.75 x 19.75 x .75)",
+      "category": "home-kitchen",
+      "rank": 41,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DQL42H6V",
+      "title": "2 Pack Dragon Eggs with Dragon Inside, Dragon Egg Fidget Toy, 3D Dragon Eggs with Dragon Inside, Mystery Dragon Egg, 3D Printed Dragon Egg, Stocking Easter Basket Stuffers",
+      "category": "toys",
+      "rank": 41,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CPPLFQKB",
+      "title": "Wowflash Super Absorbency Disposable Leakproof Underpads with Quick Drying for Baby, Adults, Puppy, Dog Bed Pee Pads, Extra Large, XXL Incontinence Pads, 30” x 36”, 50 Count",
+      "category": "baby",
+      "rank": 42,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DG1DQ2S7",
+      "title": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum, Facial Serum for Blemish-Prone & Oily-Prone Skin, Lightweight & Hydrating Blemish Care, Hyaluronic Acid, Korean Skincare, 1.01 fl oz.",
+      "category": "beauty",
+      "rank": 42,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DP2PYTJ2",
+      "title": "jaroco Magnetic for iPhone 13 Case, [Compatible with MagSafe][Military Grade Drop Protection][Heavy Duty Protection][Non-Slip][Shockproof] 2-Layer Durable Bumper Phone Case 6.1''-Black",
+      "category": "cell-phones",
+      "rank": 42,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C8PR4W22",
+      "title": "Beats Studio Pro - Premium Wireless Over-Ear Headphones- Up to 40-Hour Battery Life, Active Noise Cancelling, USB-C Lossless Audio, Apple & Android Compatible - Black",
+      "category": "electronics",
+      "rank": 42,
+      "price": "CAD 198.52",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07BVYZL88",
+      "title": "LUMIFY Eye Drops for Red Eyes, Redness Reliever for Brighter Looking Eyes, Works in 1 Minute & Lasts Up to 8 Hours, Eye Drops, 0.25 Fl Oz (7.5mL)",
+      "category": "health",
+      "rank": 42,
+      "price": "CAD 27.06",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0GSQPZPWK",
+      "title": "Glitter Dumpling Squishy - Random Dumpling Squishy Mystery Box, 10 Colors Dumplings Squishy Toy, More Surprises (Random-1PC)",
+      "category": "toys",
+      "rank": 42,
+      "price": null,
+      "rating": "5.0 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B019OAWUZ4",
+      "title": "SKYLA HOMES Baby Locks (8-Pack) Child Safety Cabinet Proofing - Safe Quick and Easy 3M Adhesive Cabinet Drawer Door Latches No Screws & Magnets Multi-Purpose for Furniture Kitchen Ovens Toilet Seats",
+      "category": "baby",
+      "rank": 43,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00WAJAKOU",
+      "title": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Precise, Fine Tip, Shapes, Defines, Fills Brows, Contours, Combs, Tames, Neutral Brown, 0.006 Oz",
+      "category": "beauty",
+      "rank": 43,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FH4948KP",
+      "title": "Temdan for iPhone 17 Case Clear with Screen Protector, [Compatible with Magsafe][Anti-Yellowing][Military-Grade Protection] Shockproof Slim Magnetic Phone Case 6.3 inch, Transparent",
+      "category": "cell-phones",
+      "rank": 43,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DN45YMP6",
+      "title": "JBL Vibe Beam 2 - True Wireless Noise Cancelling Earbuds with JBL Pure Bass Sound & Smart Ambient technology, 4mics for crisp, clear calls, up to 40Hrs of Playback, IP54 Dust & Water resistant (Black)",
+      "category": "electronics",
+      "rank": 43,
+      "price": "CAD 48.43",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09556SRJH",
+      "title": "Depend Fresh Protection Adult Diapers, Incontinence & Postpartum Bladder Leak Underwear for Women, Disposable, Maximum, Large, Blush, 72 Count (2 Packs of 36), Packaging May Vary",
+      "category": "health",
+      "rank": 43,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0B8VQLN6Y",
+      "title": "NEW JETO Metal Bed Frame,Queen Size Bed Frame with Storage Space,Heavy Duty Sturdy Mattress Foundation,Easy Assembly,No Box Spring Needed, Black,14 Inch,Queen",
+      "category": "home-kitchen",
+      "rank": 43,
+      "price": "CAD 74.70",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07PQFT83F",
+      "title": "Disney Store Official Buzz Lightyear Interactive Talking Action Figure from Toy Story, Features 10+ English Phrases, Interacts with Other Figures and Toys",
+      "category": "toys",
+      "rank": 43,
+      "price": "CAD 55.28",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B000JVCBBG",
+      "title": "Earth Mama Organic Nipple Butter™ | Nipple Cream Safe for Breastfeeding | Postpartum Essentials for Nursing | Non Lanolin Nipple Cream, 2-Fluid Ounce",
+      "category": "baby",
+      "rank": 44,
+      "price": "CAD 19.33",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B084ZP848Y",
+      "title": "Blue Lizard Sensitive Mineral SPF 50 Sunscreen Lotion, 100% Mineral Sunscreen, UVA/UVB Protection, Infused with organic Aloe Vera, Soothes and Hydrates, 5 fl oz | with Zinc Oxide, 50+, Water Resistant, UVAUVB Protection, Sensitve",
+      "category": "beauty",
+      "rank": 44,
+      "price": "CAD 26.97",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0C2BMNHW2",
+      "title": "Wireless Charger iPhone Charging Station: 3 in 1 Charger Stand Multiple Devices for Apple - iPhone 17 16e 16 15 14 Pro Max 13 12 11 - Watch 11 10 9 8 7 6 5 4 3 2 SE and Ultra Series - Airpods 4 3 Pro",
+      "category": "cell-phones",
+      "rank": 44,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DC3PZLRL",
+      "title": "ORQRQO Replacement Remote for All Fire Series, TV Stick (HD, 4K, 4K Max, Lite), TV Cube and Omni, Insignia, Toshiba, Smart TVs, with Voice Control",
+      "category": "electronics",
+      "rank": 44,
+      "price": "CAD 13.81",
+      "rating": "4.2 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B095KCG1Q2",
+      "title": "Amazon Basics Adult Wet Wipes Flushable formulated without Fragrance, 126 Count (3 Packs of 42) Packaging May Vary",
+      "category": "health",
+      "rank": 44,
+      "price": "CAD 5.15",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BPLB81LX",
+      "title": "Bedsure GentleSoft White Throw Blanket for Couch - Soft Cozy Fleece Throw Blankets for Women Girls, Mothers Graduation Birthday Gifts for Women Her Mom, Room Home Spring Decor, Off White, 50x60 Inches",
+      "category": "home-kitchen",
+      "rank": 44,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08P29SC84",
+      "title": "Nerf Vortex Aero Howler Foam Ball, Classic Long-Distance Football, Flight-Optimizing Tail, Whistling Sound, Indoor & Outdoor Fun, Christmas Stocking Stuffers for Kids",
+      "category": "toys",
+      "rank": 44,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0107QP1VE",
+      "title": "Aquaphor Baby Healing Ointment Advanced Therapy Skin Protectant, Dry Skin and Diaper Rash Ointment, 7 Oz Tube",
+      "category": "baby",
+      "rank": 45,
+      "price": "CAD 17.95",
+      "rating": "4.9 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07QZ5CTTF",
+      "title": "Nutrafol Women's Balance Hair Growth Supplements, Ages 45 and Up, Clinically Proven for Visibly Thicker Hair and Scalp Coverage, Dermatologist Recommended - 1 Month Supply",
+      "category": "beauty",
+      "rank": 45,
+      "price": null,
+      "rating": "4.1 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09XHZ8F7F",
+      "title": "EUCOS 62\" Phone Tripod, Tripod for iPhone & Selfie Stick with Remote, Extendable Cell Phone Stand & Ultimate Phone Holder, Solidest Phone Stand Compatible with iPhone/Android",
+      "category": "cell-phones",
+      "rank": 45,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00SFSU53G",
+      "title": "Mounting Dream TV Wall Mount for 32-65 Inch Television,Mount with Swivel and Tilt, Full Motion Bracket with Articulating Dual Arms, Fits 16inch Studs, Max VESA 400X400 mm, 99lbs, MD2380",
+      "category": "electronics",
+      "rank": 45,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07DX89ZHN",
+      "title": "Sports Research® Omega-3 Fish Oil 1250 - Triple Strength Fish Oil Supplement from Wild Alaska Pollock - MSC Certified Sustainable · Non-GMO · Soy Free - 90 Softgel Capsules",
+      "category": "health",
+      "rank": 45,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00LHE5OSQ",
+      "title": "Wagner's 53002 Farmer's Delight Wild Bird Food with Cherry Flavor, 10-Pound Bag",
+      "category": "home-kitchen",
+      "rank": 45,
+      "price": "CAD 15.97",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09995133G",
+      "title": "Magnetic Rings Fidget Toy Set, Idea ADHD Fidget Toys, Adult Fidget Magnets Spinner Rings for Anxiety Relief Therapy, Fidget Pack Great Gift for Adults Teens Kids Easter Basket Stuffers (3PCS)",
+      "category": "toys",
+      "rank": 45,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08YYVRXLM",
+      "title": "Momcozy Pregnancy Pillows for Sleeping, U Shaped Full Body Maternity Pillow with Removable Cover - Support for Back, Legs, Belly, HIPS for Pregnant Women, 57 Inch Pregnancy Pillow for Women, Grey",
+      "category": "baby",
+      "rank": 46,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0FKGJYFC8",
+      "title": "Dr.Althea 345 Relief Cream | Daily Face Moisturizer for Soothing Recovery and Blemish Care with PDRN & Niacinamide | Korean Vegan Skincare for All Skin Types, 1.69 Fl Oz (Ver.2 - Pack of 1)",
+      "category": "beauty",
+      "rank": 46,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DSPWQWYH",
+      "title": "SPIDERCASE for iPhone 15 Case, Magnetic Translucent Matte Case with 2PCS Tempered Glass Screen Protector Slim Phone Case for iPhone 15 6.1'', Black",
+      "category": "cell-phones",
+      "rank": 46,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DDQLGDY3",
+      "title": "Beats Solo 4 - Wireless On-Ear Bluetooth Headphones, Up to 50-Hour Battery Life, Ultra-Lightweight Comfort, Powerful and Balanced Sound, Apple & Android Compatible - Black & Gold",
+      "category": "electronics",
+      "rank": 46,
+      "price": "CAD 157.72",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0739KKHWL",
+      "title": "Nordic Naturals Ultimate Omega, Lemon Flavor - 90 Soft Gels - 1280 mg Omega-3 - High-Potency Omega-3 Fish Oil Supplement with EPA & DHA - Promotes Brain & Heart Health - Non-GMO - 45 Servings",
+      "category": "health",
+      "rank": 46,
+      "price": "CAD 46.68",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00G466HBU",
+      "title": "Stomp Rocket Jr Multi-Color Rocket Launcher for Kids, 8 Rockets - Fun Outdoor Kids Gifts for Boys & Girls - STEM Toy Foam Blaster Set Soars Up to 100 Feet - Ages 3 & Up",
+      "category": "toys",
+      "rank": 46,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07X8ND2B6",
+      "title": "Pull-Ups Girls' Potty Training Pants, Size 3T-4T Training Underwear (32-40 lbs), 112 Count (4 Packs of 28)",
+      "category": "baby",
+      "rank": 47,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00IGJ1XOO",
+      "title": "Goody Ouchless Hair Elastics - No Pull, No Breakage, Tangle-Free Hold for Thick, Curly, Coily & Textured Hair - 30 Count, Black, Long-Lasting Ponytail Holders for Women & Men",
+      "category": "beauty",
+      "rank": 47,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CL7J12YK",
+      "title": "Apple Pencil (USB-C): Device Compatibility Check Required - Pixel-Perfect Precision, Tilt Sensitivity, Perfect for Note-Taking, Drawing, and Signing Documents. Charges and Pairs with USB-C",
+      "category": "cell-phones",
+      "rank": 47,
+      "price": "CAD 74.29",
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08TVLYB3Q",
+      "title": "Cable Zip Ties,400 Pack Black Assorted Sizes 12+8+6+4 Inch,Multi-Purpose Self-Locking Nylon Cable Cord Management,Plastic Wire Ties for Home,Office,Garden,Workshop. By HAVE ME TD",
+      "category": "electronics",
+      "rank": 47,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00K6JUG4K",
+      "title": "Vital Proteins Collagen Peptides Powder Advanced with Hyaluronic Acid & Vitamin C, 20oz Collagen Protein, Unflavored, 27 Servings",
+      "category": "health",
+      "rank": 47,
+      "price": "CAD 59.48",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0D6C6GS58",
+      "title": "HydroJug Traveler - 32 oz Water Bottle with Handle & Flip Straw - Fits in Cup Holder, Leak Resistant Tumbler-Reusable Insulated Stainless Steel & Rubber Base - Gifts for Women & Men, Pink Sand",
+      "category": "home-kitchen",
+      "rank": 47,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00TXI1NEW",
+      "title": "Mattel Games UNO Splash Card Game with Waterproof Cards and Portable Clip for Travel, Camping and Game Nights Away",
+      "category": "toys",
+      "rank": 47,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CKV2VGX1",
+      "title": "The Honest Company Comfort Dry Disposable Diapers for Sensitive Skin, Hypoallergenic, Above It All + All The Alpacas, Club Box Size Newborn 72 Count",
+      "category": "baby",
+      "rank": 48,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00MEDOY2G",
+      "title": "Dove Body Wash Deep Moisture for 24hr Lotion-Soft Skin Moisture Moisturizing Skin Cleanser with No Sulfates No Parabens 30.6 oz",
+      "category": "beauty",
+      "rank": 48,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0F9PCWWNM",
+      "title": "UNBREAKcable 3-Pack Screen Protector for iPhone 17 Pro Max, Double Shatterproof Tempered Glass [Easy Installation Frame] [9H Hardness] [99.99% HD Clear] [Case Friendly] for iPhone 6.9 inch",
+      "category": "cell-phones",
+      "rank": 48,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BTYCRJSS",
+      "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (Black)",
+      "category": "electronics",
+      "rank": 48,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B074PY4Y8Y",
+      "title": "Dixie Large Paper Plates, 10 Inch, 150 Count, 2X Stronger*, Microwave-Safe, Soak-Proof, Cut Resistant, Disposable Plates For Everyday Breakfast, Lunch, & Dinner Meals",
+      "category": "health",
+      "rank": 48,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08VPTBYM5",
+      "title": "STANLEY IceFlow Flip Straw Tumbler with Handle 20 oz | Twist On Lid and Flip Up Straw | Leak Resistant Water Bottle | Insulated Stainless Steel |BPA-Free | Polar",
+      "category": "home-kitchen",
+      "rank": 48,
+      "price": "CAD 59.15",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CRYJB6GK",
+      "title": "Airbition Talking Flash Cards for Toddlers 1 2 3 4 Year Olds, Montessori Language Learning with 224 Words, Pocket Speech Therapy Tools, and Speech Development Educational Playthings for Children",
+      "category": "toys",
+      "rank": 48,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CWLHKQNT",
+      "title": "Momcozy KleanPal Pro Baby Bottle Washer, Sterilizer & Dryer - All-in-One Cleaning Machine for Bottles, Pump Parts & Baby Essentials - Time-Saving & Effortless Care",
+      "category": "baby",
+      "rank": 49,
+      "price": "CAD 332.05",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B017PCGABI",
+      "title": "Garnier Micellar Water, Hydrating Facial Cleanser & Makeup Remover, Suitable for Sensitive Skin, Vegan, Cruelty Free, 13.5 Fl Oz (400mL), 1 Count",
+      "category": "beauty",
+      "rank": 49,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BFCC18FS",
+      "title": "Anlmz 3 in 1 Charging Station for iPhone, Wireless Charger for iPhone 17 16e 16 15 14 13 12 11 X Pro Max & Apple Watch - Wireless Charging Station for AirPods 4 3 Pro",
+      "category": "cell-phones",
+      "rank": 49,
+      "price": null,
+      "rating": "4.3 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0CTNWBT1Z",
+      "title": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL Pro Sound with Punchy bass, 7-Hour Built-in Battery, Made in Part with Recycled Materials (Black)",
+      "category": "electronics",
+      "rank": 49,
+      "price": "CAD 61.94",
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B00GB85JR4",
+      "title": "NatureWise Vitamin D3 5000iu (125 mcg) 1 Year Supply for Immune Support, Healthy Muscle Function, and Bone Health - Non-GMO, Gluten Free in Organic Extra Virgin Olive Oil, (Mini Softgel), 360 Count",
+      "category": "health",
+      "rank": 49,
+      "price": "CAD 17.61",
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0DRNRC5H5",
+      "title": "Vacbird Vacuum Bags for Travel with Rechargeable air Pump, Carry-on Size Compression Packing Bags for Luggage and Suitcase, Space Saver for Clothes and Clothing 15 Combo Travel Size",
+      "category": "home-kitchen",
+      "rank": 49,
+      "price": null,
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B0BLVJV2YG",
+      "title": "LEEZZIZZ 30Pcs Punch Balloons, Thickened Neon Punching Balloon Heavy Duty Party Favors for Kids with Rubber Band Handle, Bouncy Balls for Birthday Weddings Goodie Bag Stuffer Supply",
+      "category": "toys",
+      "rank": 49,
+      "price": null,
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B07DM86Z43",
+      "title": "Baby Einstein Sea Dreams Soother Musical Crib Toy and Sound Machine, Newborn and up",
+      "category": "baby",
+      "rank": 50,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08WYXNVQ7",
+      "title": "Salt & Stone Aluminum Free Deodorant | Extra Strength 48 Hour Protection for Women & Men | Made with Seaweed Extracts, Niacinamide & Prebiotics | Santal & Vetiver",
+      "category": "beauty",
+      "rank": 50,
+      "price": "CAD 27.67",
+      "rating": "4.1 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08WVHWYND",
+      "title": "PopSockets Adhesive Phone Grip, Holder, Phone Stand, Clear - Clear",
+      "category": "cell-phones",
+      "rank": 50,
+      "price": null,
+      "rating": "4.6 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B09BKCDXZC",
+      "title": "Roku Streaming Stick 4K - HDR & Dolby Vision Roku Streaming Device for TV with Voice Remote & Long-Range Wi-Fi - Free & Live TV",
+      "category": "electronics",
+      "rank": 50,
+      "price": null,
+      "rating": "4.7 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B08KWGDMJW",
+      "title": "Barebells Protein Bars Cookies & Cream - 12 Count, 20g High Protein Treats - Chocolate Nutrition Bar with 1g Total Sugars - On-The-Go Breakfast or Post-Workout Snack",
+      "category": "health",
+      "rank": 50,
+      "price": "CAD 42.74",
+      "rating": "4.5 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B082KP92DF",
+      "title": "AmazerBath Shower Curtain Liner, 72x72 Clear Shower Curtain Liner, Waterproof Plastic Shower Liner, Cute Lightweight PEVA Shower Curtain for Bathroom with 3 Magnets and 12 Rustproof Metal Grommets",
+      "category": "home-kitchen",
+      "rank": 50,
+      "price": "CAD 9.39",
+      "rating": "4.4 out of 5 stars",
+      "source": "bestsellers"
+    },
+    {
+      "asin": "B013RQPB5C",
+      "title": "Crayola Ultra Clean Washable Markers (40ct), Broad Line Colored Markers for Kids, Coloring Book & Art Marker Set, Gifts for Kids. Ages 3+",
+      "category": "toys",
+      "rank": 50,
+      "price": null,
+      "rating": "4.8 out of 5 stars",
+      "source": "bestsellers"
+    }
+  ]
+}

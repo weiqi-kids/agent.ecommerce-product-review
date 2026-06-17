@@ -62,15 +62,20 @@ AI 深度分析數千則評論，找出星級背後的產品問題
 
 ---
 
-## 🆕 最新報告 (2026-03-25)
+## 🆕 最新報告 (2026-06-17)
 
 | 類別 | 類型 | 重點發現 |
 |------|------|----------|
-| [印表機用紙選購指南](/Narrator/comparisons/printer-paper--2026-03-25) | ⚖️ 比較報告 | 13 款實測，Hammermill Copy Plus 日常首選，HP Premium 32lb 書寫最佳 |
-| [封箱膠帶選購指南](/Narrator/comparisons/packing-tape--2026-03-25) | ⚖️ 比較報告 | 12 款實測，Scotch Heavy Duty 黏性最強，Gorilla 3.4 mil 最耐用 |
-| [HP 64 墨水匣選購指南](/Narrator/comparisons/printer-ink--2026-03-25) | ⚖️ 比較報告 | 原廠 vs 副廠 6 款比較，資料有限請參考 [REVIEW_NEEDED] |
-| [開罐器選購指南](/Narrator/comparisons/can-opener--2026-03-25) | ⚖️ 比較報告 | 12 款實測，基於 139 則評論分析 |
-| [辦公便條簿選購指南](/Narrator/comparisons/writing-notepad--2026-03-25) | ⚖️ 比較報告 | 13 款實測，Mintra Office Canary 全面超越 Amazon Basics |
+| [防曬假貨風險](/Narrator/counterfeits/sun-protection-counterfeit--2026-06-17) | 🚨 假貨警示 | RELIEF SUN 與 La Roche-Posay 假貨氾濫 + SPF 誤標訴訟，防曬失效健康風險 |
+| [嬰兒泳池浮圈安全警告](/Narrator/warnings/baby-pool-float-safety--2026-06-17) | ⚠️ 警告報告 | CPSC 2026-04 緊急警告（翻覆溺死）+ 2009 年 400 萬件召回史 |
+| [NeeDoh 擠壓玩具警告](/Narrator/warnings/needoh-squishy-leak--2026-06-17) | ⚠️ 警告報告 | 23% 破裂洩漏 + 燒傷風險（勿微波）+ 同類石棉召回背景 |
+| [Beats Solo 4 翻新品警告](/Narrator/warnings/beats-solo-4-renewed-counterfeit--2026-06-17) | ⚠️ 警告報告 | Renewed 通路 27% 評論指向假貨，藍牙斷線 |
+| [Samsung 保護貼指紋失效](/Narrator/warnings/samsung-screen-protector-fingerprint--2026-06-17) | ⚠️ 警告報告 | 超音波指紋解鎖失效 15%，換片仍失效 |
+| [能量飲料比較](/Narrator/comparisons/energy-drink--2026-06-17) | ⚖️ 比較報告 | 10 款提神不崩潰實測，Bloom/CELSIUS 領先 |
+| [手機防摔殼比較](/Narrator/comparisons/phone-case-drop-protection--2026-06-17) | ⚖️ 比較報告 | 7 款 MagSafe 軍規殼，OtterBox 防護最強，ESR 黃化 31% |
+| [iPhone 17 螢幕保護貼比較](/Narrator/comparisons/phone-screen-protector--2026-06-17) | ⚖️ 比較報告 | 5 款實測，Spigen AluminaCore 勝出 |
+| [USB-C 充電頭比較](/Narrator/comparisons/usb-c-wall-charger--2026-06-17) | ⚖️ 比較報告 | 5 款 20-60W 快充，Anker 全面領先 |
+| [成人泳池浮床比較](/Narrator/comparisons/pool-float--2026-06-17) | ⚖️ 比較報告 | 5 款實測，INTEX River Run 最耐用零漏氣 |
 
 ### 前次更新 (2026-03-24)
 

@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "category": "phone-case-drop-protection",
+    "date": "2026-06-17",
+    "generated_by": "Step 7 比較分析代理",
+    "product_count": 7,
+    "sources": ["amazon_us"],
+    "research_file": "docs/Extractor/research/phone-case-drop-protection--2026-06-17.md",
+    "competitors_file": "docs/Extractor/competitors/phone-case-drop-protection--2026-06-17.md"
+  },
+  "products": [
+    {
+      "asin": "B099JVC9HL",
+      "name": "ESR for iPhone 14/iPhone 13 MagSafe 軍規防摔透明殼",
+      "brand": "ESR",
+      "price": 12.99,
+      "platform_rating": 4.75,
+      "review_count_platform": 130328,
+      "review_count_sample": 13,
+      "role": "排行榜產品",
+      "l4_scores": {
+        "drop_protection": 0.88,
+        "magsafe_compatibility": 0.90,
+        "fit": 0.87,
+        "build_quality": 0.82,
+        "appearance": 0.80,
+        "value": 0.85,
+        "yellowing": 0.30,
+        "longevity": 0.60
+      },
+      "l5_issues": [
+        { "issue": "透明殼黃化", "frequency_pct": 31, "severity": "中", "category": "新問題" },
+        { "issue": "廠商防黃聲明失實", "frequency_pct": 15, "severity": "中", "category": "新問題" },
+        { "issue": "側邊磨損老化（3 年後）", "frequency_pct": 8, "severity": "低", "category": "新問題" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": ["黃化（31%）—與廠商「不黃」聲明直接矛盾", "側邊橡膠長期磨損"],
+        "logistics_unrelated": []
+      },
+      "claim_vs_reality": {
+        "軍規防摔": "✅ 通過",
+        "MagSafe 磁力 1500g": "✅ 通過",
+        "不會黃化": "❌ 失實 — 31% 用戶回報黃化"
+      },
+      "verdict": "防摔有效，MagSafe 強勁，但黃化聲明失實是明確缺陷"
+    },
+    {
+      "asin": "B0DB1B46LD",
+      "name": "Temdan iPhone 16 Pro Max 磁力隱藏支架軍規半透明磨砂殼",
+      "brand": "Temdan",
+      "price": null,
+      "platform_rating": 4.55,
+      "review_count_platform": 13868,
+      "review_count_sample": 11,
+      "role": "排行榜產品",
+      "l4_scores": {
+        "drop_protection": 0.85,
+        "magsafe_compatibility": 0.88,
+        "kickstand": 0.87,
+        "build_quality": 0.82,
+        "fit": 0.85,
+        "appearance": 0.80,
+        "kickstand_defect": 0.10,
+        "wireless_charging_issue": 0.20
+      },
+      "l5_issues": [
+        { "issue": "支架方向設計瑕疵（無法使用按鍵）", "frequency_pct": 9, "severity": "高", "category": "新問題" },
+        { "issue": "無線充電墊相容性問題", "frequency_pct": 9, "severity": "中", "category": "新問題" },
+        { "issue": "輕微黃化", "frequency_pct": 9, "severity": "低", "category": "新問題" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": ["支架安裝方向錯誤（遮蔽音量鍵）", "無線充電墊相容問題", "輕微黃化"],
+        "logistics_unrelated": []
+      },
+      "claim_vs_reality": {
+        "軍規防摔": "✅ 通過",
+        "磁力支架": "⚠️ 部分單位支架方向裝反",
+        "MagSafe 磁力": "✅ 通過"
+      },
+      "verdict": "防摔核心功能有效，但支架品質管制問題（個別單位裝反）影響使用體驗"
+    },
+    {
+      "asin": "B0FH65ZLHV",
+      "name": "SUPFINE iPhone 17 磁力軍規防摔半透明磨砂殼（MagSafe）",
+      "brand": "SUPFINE",
+      "price": 9.99,
+      "platform_rating": 4.65,
+      "review_count_platform": 68726,
+      "review_count_sample": 13,
+      "role": "排行榜產品",
+      "l4_scores": {
+        "drop_protection": 0.88,
+        "magsafe_compatibility": 0.91,
+        "build_quality": 0.87,
+        "grip": 0.85,
+        "appearance": 0.88,
+        "fit": 0.87,
+        "value": 0.90,
+        "anti_fingerprint": 0.60,
+        "anti_fingerprint_claim": 0.10
+      },
+      "l5_issues": [
+        { "issue": "防指紋聲明誇大", "frequency_pct": 8, "severity": "中", "category": "新問題" },
+        { "issue": "頂部喇叭未覆蓋（無防塵蓋）", "frequency_pct": 8, "severity": "低", "category": "新問題" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": ["防指紋聲明誇大（實際仍留指紋）", "頂部喇叭缺少防塵設計"],
+        "logistics_unrelated": []
+      },
+      "claim_vs_reality": {
+        "軍規防摔 10 英尺": "✅ 通過",
+        "超強 MagSafe 磁力": "✅ 通過",
+        "防指紋": "❌ 失實 — 至少 1 名用戶明確指出仍留指紋",
+        "精確開孔": "✅ 通過"
+      },
+      "verdict": "最佳 CP 值選手（$9.99 / 68K 評論），防摔與 MagSafe 俱佳，防指紋聲明略誇大但無礙核心功能"
+    },
+    {
+      "asin": "B0FH6GTY53",
+      "name": "SuydanBox iPhone 17 Pro Max 液態矽膠 MagSafe 軍規殼（含螢幕貼）",
+      "brand": "SuydanBox",
+      "price": 9.99,
+      "platform_rating": 4.55,
+      "review_count_platform": 25411,
+      "review_count_sample": 13,
+      "role": "排行榜產品",
+      "l4_scores": {
+        "drop_protection": 0.88,
+        "magsafe_compatibility": 0.87,
+        "camera_protection": 0.90,
+        "fit": 0.88,
+        "screen_protector": 0.82,
+        "appearance": 0.82,
+        "grip": 0.78,
+        "pocket_friction": 0.25,
+        "color_accuracy": 0.35
+      },
+      "l5_issues": [
+        { "issue": "矽膠材質口袋摩擦大", "frequency_pct": 23, "severity": "中", "category": "新問題" },
+        { "issue": "初期偏滑（1 天後改善）", "frequency_pct": 15, "severity": "低", "category": "新問題" },
+        { "issue": "顏色與照片有落差", "frequency_pct": 15, "severity": "低", "category": "物流無關" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": ["矽膠材質口袋滑入困難（23%）", "初期手感偏滑"],
+        "logistics_unrelated": ["顏色與照片落差（預期管理問題）"]
+      },
+      "claim_vs_reality": {
+        "軍規防摔": "✅ 多次跌落無損傷",
+        "MagSafe 相容": "✅ 通過",
+        "附贈螢幕貼": "✅ 用戶驚喜肯定"
+      },
+      "verdict": "防摔可靠，鏡頭保護設計突出，附贈螢幕貼增加價值；矽膠材質口袋摩擦感為主要缺點"
+    },
+    {
+      "asin": "B0FHGQZ9P5",
+      "name": "SKYLMW iPhone 17 磁力環形支架軍規防摔半透明殼",
+      "brand": "SKYLMW",
+      "price": 29.99,
+      "platform_rating": 4.45,
+      "review_count_platform": 13947,
+      "review_count_sample": 13,
+      "role": "排行榜產品",
+      "l4_scores": {
+        "drop_protection": 0.84,
+        "magsafe_compatibility": 0.88,
+        "kickstand": 0.87,
+        "grip": 0.82,
+        "appearance": 0.85,
+        "build_quality": 0.80,
+        "color_fading": 0.25,
+        "scratch_resistance": 0.50
+      },
+      "l5_issues": [
+        { "issue": "顏色褪色（6 個月後）", "frequency_pct": 15, "severity": "中", "category": "新問題" },
+        { "issue": "輕微刮傷", "frequency_pct": 8, "severity": "低", "category": "新問題" },
+        { "issue": "無線充電墊相容性問題", "frequency_pct": 8, "severity": "中", "category": "新問題" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": ["顏色 6 個月後褪色", "輕微刮傷問題", "部分無線充電墊不相容"],
+        "logistics_unrelated": []
+      },
+      "claim_vs_reality": {
+        "軍規防摔": "✅ 通過",
+        "MagSafe 磁力": "✅ 通過，車載表現佳",
+        "顏色持久度": "⚠️ 6 個月後出現褪色"
+      },
+      "verdict": "防摔有效，磁力卓越，支架功能實用；顏色耐久度有隱患，定價 $29.99 在平價方案中偏高"
+    },
+    {
+      "asin": "B0FSNCV7VV",
+      "name": "OtterBox iPhone 17 Pro Max Defender Pro Series 防摔殼",
+      "brand": "OtterBox",
+      "price": null,
+      "price_note": "品牌定價通常 $49.95–$59.95，本次樣本未取得明確數字",
+      "platform_rating": 4.65,
+      "review_count_platform": 3078,
+      "review_count_sample": 13,
+      "role": "高階競品（指定）",
+      "l4_scores": {
+        "drop_protection": 0.95,
+        "grip": 0.88,
+        "build_quality": 0.90,
+        "fit": 0.85,
+        "magsafe_compatibility": 0.80,
+        "port_covers": 0.85,
+        "brand_trust": 0.92,
+        "bulk": 0.55,
+        "installation": 0.30
+      },
+      "l5_issues": [
+        { "issue": "安裝說明不清，需尋外部教學", "frequency_pct": 15, "severity": "低", "category": "新問題" },
+        { "issue": "體積偏厚（用戶普遍接受）", "frequency_pct": 31, "severity": "低", "category": "新問題" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": ["體積明顯偏厚（31%，但用戶視為必要取捨）", "安裝說明不夠清晰"],
+        "logistics_unrelated": []
+      },
+      "claim_vs_reality": {
+        "7 倍軍規跌落認證": "✅ 多個極端案例佐證（40mph 車頂掉落、瀝青衝擊）",
+        "優質握持": "✅ 廣泛用戶確認",
+        "MagSafe 相容": "✅ 通過",
+        "精準貼合": "✅ 用戶確認零間隙"
+      },
+      "verdict": "本批最強防摔能力（drop_protection 0.95），三層結構 + 7 倍軍規 + 防塵埠蓋；代價是體積偏厚且售價最高"
+    },
+    {
+      "asin": "B0GDXV7FVY",
+      "name": "SleekCover iPhone 13/14 條紋圖案軟殼",
+      "brand": "SleekCover",
+      "price": 9.99,
+      "platform_rating": 4.65,
+      "review_count_platform": 181,
+      "review_count_sample": 8,
+      "role": "排行榜產品",
+      "confidence": "low",
+      "confidence_note": "評論數僅 8 則，低於 10 則門檻，結論僅供參考",
+      "l4_scores": {
+        "appearance": 0.95,
+        "drop_protection": 0.82,
+        "fit": 0.88,
+        "build_quality": 0.85,
+        "value": 0.90
+      },
+      "l5_issues": [
+        { "issue": "型號相容性描述混亂（標 13/14，有用戶稱 16）", "frequency_pct": 13, "severity": "低", "category": "物流無關" }
+      ],
+      "negative_triclass": {
+        "functional_failure": [],
+        "new_problems": [],
+        "logistics_unrelated": ["型號描述混亂，可能造成錯誤購買"]
+      },
+      "claim_vs_reality": {
+        "防震保護": "⚠️ 評論正面但樣本過少（僅 8 則，4 則提及防護）",
+        "可愛條紋設計": "✅ 所有用戶認同"
+      },
+      "verdict": "[REVIEW_NEEDED] 外觀高分，但評論數量過少（8 則）且無軍規認證，防摔可靠性無法充分驗證"
+    }
+  ],
+  "negative_triclass_summary": {
+    "functional_failure_❌": {
+      "count": 0,
+      "detail": "所有產品防摔核心功能均通過用戶實測，無防護完全失效案例"
+    },
+    "new_problems_⚠️": {
+      "count": 10,
+      "top_issues": [
+        { "issue": "透明/彩色殼體黃化或褪色", "products": ["ESR B099JVC9HL (31%)", "Temdan B0DB1B46LD (輕微)", "SKYLMW B0FHGQZ9P5 (褪色15%)"], "severity": "中" },
+        { "issue": "矽膠材質口袋摩擦感", "products": ["SuydanBox B0FH6GTY53 (23%)"], "severity": "中" },
+        { "issue": "支架設計瑕疵", "products": ["Temdan B0DB1B46LD (支架裝反)", "SKYLMW B0FHGQZ9P5 (無線充電不相容)"], "severity": "高/中" },
+        { "issue": "防指紋/防黃化聲明誇大", "products": ["ESR B099JVC9HL", "SUPFINE B0FH65ZLHV"], "severity": "中" },
+        { "issue": "體積偏厚", "products": ["OtterBox B0FSNCV7VV (31%)"], "severity": "低（用戶接受）" }
+      ]
+    },
+    "logistics_unrelated_📦": {
+      "count": 2,
+      "top_issues": [
+        { "issue": "顏色與照片落差", "products": ["SuydanBox B0FH6GTY53"] },
+        { "issue": "型號描述混亂", "products": ["SleekCover B0GDXV7FVY"] }
+      ]
+    }
+  },
+  "comparison_matrix": {
+    "drop_protection": {
+      "winner": "OtterBox B0FSNCV7VV",
+      "scores": {
+        "B0FSNCV7VV": 0.95,
+        "B099JVC9HL": 0.88,
+        "B0FH65ZLHV": 0.88,
+        "B0FH6GTY53": 0.88,
+        "B0DB1B46LD": 0.85,
+        "B0FHGQZ9P5": 0.84,
+        "B0GDXV7FVY": 0.82
+      },
+      "note": "OtterBox 以三層防護 + 7 倍軍規認證 + 極端跌落真實案例獨占鰲頭；其餘 6 款評分集中在 0.82–0.88，差異不顯著"
+    },
+    "magsafe_compatibility": {
+      "winner": "SUPFINE B0FH65ZLHV",
+      "scores": {
+        "B0FH65ZLHV": 0.91,
+        "B0FHGQZ9P5": 0.88,
+        "B0DB1B46LD": 0.88,
+        "B0FH6GTY53": 0.87,
+        "B099JVC9HL": 0.90,
+        "B0FSNCV7VV": 0.80,
+        "B0GDXV7FVY": null
+      },
+      "note": "SUPFINE 和 ESR 的 MagSafe 磁力表現最穩定（0.90–0.91）；OtterBox 受三層殼體結構影響，磁力評分相對較低（0.80）"
+    },
+    "build_quality": {
+      "winner": "OtterBox B0FSNCV7VV",
+      "scores": {
+        "B0FSNCV7VV": 0.90,
+        "B0FH65ZLHV": 0.87,
+        "B0GDXV7FVY": 0.85,
+        "B099JVC9HL": 0.82,
+        "B0DB1B46LD": 0.82,
+        "B0FH6GTY53": null,
+        "B0FHGQZ9P5": 0.80
+      }
+    },
+    "fit": {
+      "winner": "SuydanBox B0FH6GTY53 / SUPFINE B0FH65ZLHV",
+      "scores": {
+        "B0FH6GTY53": 0.88,
+        "B0FH65ZLHV": 0.87,
+        "B099JVC9HL": 0.87,
+        "B0DB1B46LD": 0.85,
+        "B0FSNCV7VV": 0.85,
+        "B0GDXV7FVY": 0.88,
+        "B0FHGQZ9P5": null
+      }
+    },
+    "appearance": {
+      "winner": "SleekCover B0GDXV7FVY（外觀導向）/ SUPFINE B0FH65ZLHV（功能殼最高）",
+      "scores": {
+        "B0GDXV7FVY": 0.95,
+        "B0FH65ZLHV": 0.88,
+        "B0FHGQZ9P5": 0.85,
+        "B0FH6GTY53": 0.82,
+        "B099JVC9HL": 0.80,
+        "B0DB1B46LD": 0.80,
+        "B0FSNCV7VV": null
+      }
+    },
+    "value": {
+      "winner": "SUPFINE B0FH65ZLHV",
+      "scores": {
+        "B0FH65ZLHV": 0.90,
+        "B0GDXV7FVY": 0.90,
+        "B0FH6GTY53": null,
+        "B099JVC9HL": 0.85,
+        "B0DB1B46LD": null,
+        "B0FHGQZ9P5": null,
+        "B0FSNCV7VV": null
+      },
+      "note": "SUPFINE $9.99 / 68K 評論，為最具市場規模驗證的 CP 值選手"
+    }
+  },
+  "core_question_verdict": {
+    "question": "這款手機殼能否有效保護手機免於跌落損傷？",
+    "answer": "✅ 所有 7 款產品均能解決核心防摔需求；OtterBox 防護力最強，SUPFINE 為最佳 CP 值，SleekCover 數據不足須謹慎",
+    "differentiation": "各產品在「防摔有效」前提下，差異在於保護等級、MagSafe 磁力、外觀選擇、價格區間、附加功能（支架、螢幕貼）",
+    "recommendation_basis": "OtterBox > SUPFINE ≈ SuydanBox > ESR > Temdan ≈ SKYLMW > SleekCover（依綜合防護可靠性排序）"
+  },
+  "report_type": "comparison",
+  "report_type_rationale": "所有產品均能解決防摔核心問題（無 ❌ 功能失效），但各有顯著差異：防護深度（OtterBox vs 平價方案）、價格區間（$9.99–$60+）、附加功能（支架/螢幕貼/矽膠材質）。用戶需在「最強防護 vs 最高 CP 值 vs 附加功能」間選擇，適合產出比較報告協助決策。",
+  "winner": {
+    "overall": "OtterBox Defender Pro（B0FSNCV7VV）",
+    "best_value": "SUPFINE（B0FH65ZLHV）",
+    "best_for_camera_protection": "SuydanBox（B0FH6GTY53）",
+    "best_with_kickstand": "SKYLMW（B0FHGQZ9P5）",
+    "best_appearance": "SleekCover（B0GDXV7FVY，但評論過少）"
+  },
+  "key_findings": [
+    "OtterBox Defender Pro 防摔能力最強（L4 drop_protection 0.95），真實案例包含 40mph 車頂掉落無損，但體積厚且定價最高",
+    "SUPFINE 是最佳 CP 值（$9.99）：68,726 評論驗證、防摔達標、MagSafe 最強（0.91），唯防指紋聲明誇大",
+    "黃化問題為透明/半透明殼的共同隱患：ESR 黃化率最高（31%）且廠商聲明失實，SKYLMW 顏色褪色需 6 個月才顯現",
+    "矽膠殼（SuydanBox）口袋摩擦感達 23%，對習慣將手機滑入口袋的用戶是顯著缺點",
+    "Temdan 支架個別單位方向裝反（遮蔽音量鍵），屬品質管制問題，嚴重影響使用體驗",
+    "SleekCover 僅 8 則評論，數據不足以可靠判斷，建議標記 [REVIEW_NEEDED]",
+    "平價競品（SUPFINE, SuydanBox）在防摔核心功能上與 OtterBox 差距有限（0.88 vs 0.95），差距主要在極端保護場景與品牌保固"
+  ],
+  "competitor_context": {
+    "note": "研究顯示市場上最受推薦競品為 Spigen Ultra Hybrid MagFit（~$45，Wirecutter/Tom's Guide 一致推薦）與 UAG Monarch Pro（~$80, 25ft 認證），本批排行榜產品中 SUPFINE 的 CP 值表現接近 Spigen 的平價替代地位，OtterBox 則定位在 UAG 同級的高防護市場",
+    "top_external_competitors": ["Spigen Ultra Hybrid MagFit (B0FD1TT96X)", "UAG Monarch Pro (B0FH4YPN3Z)", "Mous Limitless (B0FHGC33XS)"]
+  }
+}

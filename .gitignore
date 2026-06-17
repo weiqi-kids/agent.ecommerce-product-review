@@ -35,3 +35,7 @@ docs/.vitepress/dist/
 # Build output
 dist/
 site-validation-result.json
+
+# 監控重抓與 discovery 原始資料（資料產物，不入庫）
+docs/Extractor/*/monitor_raw/
+docs/Extractor/*/discovery/*.jsonl

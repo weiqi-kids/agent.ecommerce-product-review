@@ -1,0 +1,43 @@
+{
+  "category": "squishy-toy",
+  "date": "2026-06-17",
+  "products": [
+    {
+      "asin": "B0D9M7ST5H",
+      "name": "NeeDoh The Groovy Glob Squishy Stress Ball",
+      "solves_problem": false,
+      "strengths": [
+        "觸感柔軟，多數用戶反映基本解壓功能有效",
+        "造型多樣，適合兒童感官刺激需求",
+        "價格親民，適合作為禮物"
+      ],
+      "weaknesses": [
+        "設計缺陷（design_flaw）：23% 評論（3/13）提及耐用性問題，易破裂/撕裂（design_flaw score: 0.30）",
+        "燒傷/安全事故風險（監控觸發）：監控標記記錄微波加熱導致燒傷事故，設計上未有充分警示",
+        "填充物洩漏風險（leakage score: 0.40）：破裂後內部填充物外漏，成分安全性未獲充分揭露",
+        "同類產品石棉召回事件（監控背景）：市場上相似擠壓玩具曾因石棉污染被召回，增加此類產品的整體安全疑慮",
+        "內容物危害未獲充分告知：消費者對破裂後填充物的化學成分認知不足"
+      ],
+      "neg_classification": {
+        "cant_solve": 1,
+        "new_problem": 3,
+        "unrelated": 0
+      }
+    }
+  ],
+  "competitors_context": {
+    "source": "docs/Extractor/competitors/squishy-toy--2026-02-07.md",
+    "key_alternatives": [
+      "NeeDoh Original by Schylling（ASIN: B076FGVCRH）— 同品牌正版，耐用性評價較佳",
+      "Crazy Aaron's Thinking Putty — 封閉容器設計，洩漏風險低，安全成分透明",
+      "Tangle Jr Texture Fidget（ASIN: B01KQL7C0S）— 無填充物設計，不存在洩漏/燒傷風險",
+      "Speks Geodes（ASIN: B07W7FLKRW）— 固體材質，無填充物洩漏問題"
+    ],
+    "note": "主要競品中，採用固體材質或封閉容器設計的替代品不存在洩漏及填充物燒傷風險，安全性顯著優於填充型擠壓玩具"
+  },
+  "report_type": "warning",
+  "report_rationale": "B0D9M7ST5H 的監控標記記錄微波加熱導致燒傷事故（設計缺陷觸發），本次萃取進一步確認 23% 用戶評論指出易破裂問題。破裂後填充物洩漏（leakage score: 0.40）與燒傷風險直接相關，屬於「產生新問題」（new_problem）分類主導。結合市場上同類擠壓玩具石棉召回背景，此類設計缺陷的安全疑慮屬結構性風險而非個案。競品中有多款採用固體/封閉設計可完全規避此類風險。判定為 warning 報告，重點警示填充物洩漏燒傷風險及破裂率。",
+  "monitoring_context": "Step 1 監控觸發：design_flaw（14 天間隔），監控原因包含微波加熱燒傷事故與同類市場石棉召回事件。本次重新分析確認破裂/耐用性問題持續存在（23% 提及率），安全風險未改善。建議維持監控，關注是否有產品版本更新或填充物成分披露。",
+  "confidence": "medium",
+  "confidence_note": "本批次僅 13 則評論（batch 1/1），設計缺陷問題有統計基礎（3/13 = 23%），但燒傷事故主要依賴監控標記記錄而非本批次評論直接佐證。"
+}

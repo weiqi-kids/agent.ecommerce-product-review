@@ -1,0 +1,687 @@
+{
+  "date": "2026-06-17",
+  "total_grouped": 332,
+  "mapped_to_existing": 153,
+  "new_category_products": 162,
+  "skipped": 17,
+  "existing_categories_touched": 82,
+  "new_categories_count": 88,
+  "existing_assignments": {
+    "anti-colic-baby-bottle": [
+      "B0F457DSNG",
+      "B01845QH7M"
+    ],
+    "diaper-rash": [
+      "B0107QP1VE"
+    ],
+    "underpads-leakproof": [
+      "B0CPPLFQKB"
+    ],
+    "electrolyte-hydration": [
+      "B002U58PRI",
+      "B07MVM3Y4M",
+      "B0CHN5D13P",
+      "B08XQZX9K3"
+    ],
+    "ant-control": [
+      "B00E4GACB8"
+    ],
+    "bed-sheets": [
+      "B01M16WBW1",
+      "B00NX0XK1K",
+      "B01IE7P2VW"
+    ],
+    "flying-insect-trap": [
+      "B07T869RNY",
+      "B0C3FTCYZL",
+      "B0C3PDTYYX",
+      "B09T3T1FYN"
+    ],
+    "clothes-hangers": [
+      "B01M7S9C6N"
+    ],
+    "shower-curtain-liner": [
+      "B08QRFZ6TH",
+      "B08NJ6VF9T",
+      "B082KP92DF"
+    ],
+    "tower-fan": [
+      "B001R1RXUG",
+      "B09MKPDJRT",
+      "B0BVZFQ4DF"
+    ],
+    "mattress-protector": [
+      "B0C1NNYJGB"
+    ],
+    "garden-hose": [
+      "B003TFE7ZM",
+      "B0GWFN7Y8T"
+    ],
+    "portable-carpet-cleaner": [
+      "B0DJMP6T3N"
+    ],
+    "mattress-topper": [
+      "B07D5DN269"
+    ],
+    "garden-pump-sprayer": [
+      "B000E28UQU"
+    ],
+    "bathroom-rug": [
+      "B0CFGYFCYL"
+    ],
+    "insulated-tumbler": [
+      "B0CRMP3RQT"
+    ],
+    "bed-pillows": [
+      "B08DTH86Q2"
+    ],
+    "throw-pillow-inserts": [
+      "B01NBNDC1T"
+    ],
+    "hvac-air-filter": [
+      "B088BZTYFP"
+    ],
+    "blackout-curtains": [
+      "B01CS31R94"
+    ],
+    "milk-frother": [
+      "B082314NFL"
+    ],
+    "memory-foam-mattress": [
+      "B0DKT9ZGW3"
+    ],
+    "travel-compression-bags": [
+      "B0DRNRC5H5"
+    ],
+    "smart-speaker": [
+      "B09B8V1LZ3"
+    ],
+    "streaming-stick": [
+      "B0DJGDC3BD",
+      "B0DXXYS4BJ",
+      "B0BP9SNVH9"
+    ],
+    "power-strip": [
+      "B0DZ254SSR",
+      "B0B1DKN9HG"
+    ],
+    "smart-ring": [
+      "B0GRKC9NJP"
+    ],
+    "smartwatch": [
+      "B0FQF5BZ8Z",
+      "B0F3J1GXTD"
+    ],
+    "home-security-camera": [
+      "B0DHLTCYWH"
+    ],
+    "kids-learning-tablet": [
+      "B0BL8WSCH3"
+    ],
+    "wireless-earbuds": [
+      "B0BS1PRC4L",
+      "B09DT48V16",
+      "B0CXGXT6W8",
+      "B0C3W4MNN1"
+    ],
+    "portable-bluetooth-speaker": [
+      "B0CTNWBT1Z",
+      "B08KW1KR5H",
+      "B0BRKPVZB4",
+      "B01MTB55WH"
+    ],
+    "noise-cancelling-headphone": [
+      "B0CRTYZG5C",
+      "B0DN45YMP6",
+      "B0CZPLV566",
+      "B0C3HCD34R",
+      "B0C8PR4W22"
+    ],
+    "budget-smart-tv": [
+      "B0F19KLHG3",
+      "B0F7RZ1MS9"
+    ],
+    "cable-management": [
+      "B07FW3GTXB"
+    ],
+    "tv-wall-mount": [
+      "B01KBEOL5E"
+    ],
+    "phone-tripod": [
+      "B09XHZ8F7F"
+    ],
+    "phone-grip-stand": [
+      "B09KX1LKGR"
+    ],
+    "ipad-stylus-pen": [
+      "B0831BF1FH"
+    ],
+    "sun-protection": [
+      "B002MSN3QQ",
+      "B01MQXX9US",
+      "B004XGPM32",
+      "B004XGLDTY"
+    ],
+    "body-moisturizing": [
+      "B0DPHQRLJC",
+      "B0B1PDDLGZ",
+      "B00MEDOY2G",
+      "B07RK4HST7",
+      "B00SK71SAG"
+    ],
+    "face-moisturizing": [
+      "B01N9SPQHQ",
+      "B08BW46XXK",
+      "B0FKGJYFC8"
+    ],
+    "muscle-soak": [
+      "B0BXTS6L35"
+    ],
+    "exfoliating-toner": [
+      "B00949CTQQ"
+    ],
+    "natural-deodorant": [
+      "B08WYXNVQ7",
+      "B075JRT85B"
+    ],
+    "facial-cleanser": [
+      "B00QY1XZ4W",
+      "B01N34XW93",
+      "B07RJ18VMF"
+    ],
+    "brow-pencil": [
+      "B07PBQZ3KF"
+    ],
+    "hydrating-serum": [
+      "B0FVT77ZLL"
+    ],
+    "party-balloon": [
+      "B0BDQLJMFV",
+      "B0BZCHMVTK",
+      "B0BJZRS4KR",
+      "B0B1B14DRT",
+      "B09PHDGWTJ",
+      "B0991XM8YL",
+      "B09L7MDNH6",
+      "B0BZHHVYY9"
+    ],
+    "playing-cards": [
+      "B00E4AMFKK",
+      "B000J3Z7TC"
+    ],
+    "interactive-plush-toy": [
+      "B07PQFT83F"
+    ],
+    "outdoor-throw-toy": [
+      "B0B459CY9W",
+      "B0BRZXJFHM"
+    ],
+    "early-learning-toy": [
+      "B098PMWSVS",
+      "B07B6ZN7P8"
+    ],
+    "infant-sensory-toy": [
+      "B00ZRD99C0",
+      "B0B21ZM7LJ"
+    ],
+    "modeling-clay": [
+      "B00JM5GW10"
+    ],
+    "building-blocks": [
+      "B0FMYW35D4",
+      "B0DJ196YL1"
+    ],
+    "art-supplies": [
+      "B09PGVGCH5",
+      "B00Y4QBJAQ",
+      "B084SKWCBS"
+    ],
+    "squishy-toy": [
+      "B0F7M16P52",
+      "B0GH7H2GZF",
+      "B0GVM6394K"
+    ],
+    "ride-on-toy": [
+      "B08SGH7NKX"
+    ],
+    "trading-cards": [
+      "B0GR6Q72ND",
+      "B01CYZHGC8",
+      "B0GQJNCMT4"
+    ],
+    "board-games": [
+      "B0DWGVM7RY"
+    ],
+    "bath-toys": [
+      "B0D6YSZ8WM"
+    ],
+    "outdoor-sports-toy": [
+      "B07FNQFLJ5",
+      "B08P29SC84"
+    ],
+    "paper-towels": [
+      "B079VP6DH5",
+      "B0DQYR6X8R",
+      "B09BWFX1L6",
+      "B0DF8RSVJK",
+      "B09NW92T8Q"
+    ],
+    "water-bottle": [
+      "B0DR9GN2PM",
+      "B0FK1C3GDW"
+    ],
+    "dumbbell": [
+      "B01LR5RG08"
+    ],
+    "kids-casual-clogs": [
+      "B096437YCK"
+    ],
+    "oven-mitt": [
+      "B08J8GZXKZ"
+    ],
+    "laundry-stain": [
+      "B01EIG6A4Q"
+    ],
+    "magnesium-supplement": [
+      "B07P5K7DQP"
+    ],
+    "toilet-paper": [
+      "B0798DVT68",
+      "B0BB3JGBH5",
+      "B0CM4NXMV2",
+      "B09YKYV9N9"
+    ],
+    "aa-batteries": [
+      "B09RTVD1GF"
+    ],
+    "toothpaste": [
+      "B083JHCCV2"
+    ],
+    "wound-bandage": [
+      "B00B6A6XOK"
+    ],
+    "washing-machine-cleaner": [
+      "B00C91Q86I"
+    ],
+    "creatine-supplement": [
+      "B00GL2HMES",
+      "B07978VPPH"
+    ],
+    "collagen-supplement": [
+      "B09RQBHRCT",
+      "B00K6JUG4K"
+    ],
+    "disinfecting-wipes": [
+      "B00HSC9F2C",
+      "B07F246YG1"
+    ],
+    "eye-redness-relief": [
+      "B07BVYZL88"
+    ],
+    "vaginal-probiotic": [
+      "B0D5FZGY8W"
+    ],
+    "food-storage-bags": [
+      "B0CH929RS5"
+    ]
+  },
+  "new_categories": {
+    "baby-wipes": [
+      "B0CMVJXXZ2",
+      "B09ZLL7MRQ",
+      "B07KGL6L56"
+    ],
+    "disposable-diapers": [
+      "B0DKYWMHDX",
+      "B0DFR4MG96",
+      "B082QBSJ6L"
+    ],
+    "swim-diapers": [
+      "B00394DQGO"
+    ],
+    "potty-training-pants": [
+      "B078W9SH24",
+      "B07X8ND2B6"
+    ],
+    "baby-sunscreen": [
+      "B084ZP1H7B",
+      "B004CDQ73K",
+      "B083VXQ7MG"
+    ],
+    "baby-straw-cup-transition": [
+      "B0C54CYDS3"
+    ],
+    "overnight-diaper-leakage": [
+      "B0BJ14XCDV"
+    ],
+    "toddler-spill-proof-cup": [
+      "B0DQTHVDJZ"
+    ],
+    "newborn-startle-reflex": [
+      "B0CK2KCBLS"
+    ],
+    "infant-gas-relief": [
+      "B011EVPAHG"
+    ],
+    "breastfeeding-leakage": [
+      "B0070SKP1O"
+    ],
+    "baby-skin-cleansing": [
+      "B09MVMNW5M",
+      "B01LDZJHAE"
+    ],
+    "infant-formula": [
+      "B09DTGC3MC"
+    ],
+    "baby-safety-gate": [
+      "B001OC5UMQ"
+    ],
+    "nipple-soreness-breastfeeding": [
+      "B000JVCBBG"
+    ],
+    "coffee-pods": [
+      "B01N05APQY",
+      "B07NYQ6ML7",
+      "B0BZJVFFNM"
+    ],
+    "energy-drink": [
+      "B06X6J5266",
+      "B0BL7316GD",
+      "B0FL9GK819",
+      "B095Q98Z97",
+      "B008JA73RG",
+      "B0BL756S36",
+      "B0DF1L929C",
+      "B07XB745PC",
+      "B09FXVQ8WN",
+      "B0F1GCBNYQ"
+    ],
+    "protein-shake": [
+      "B008JGIZGS",
+      "B07MJL8NXR",
+      "B01DDIRDZA",
+      "B07LD2NV9X"
+    ],
+    "flavored-sparkling-water": [
+      "B003P02EGU",
+      "B0DZDKC2FB",
+      "B09C7QXQRG",
+      "B002N3NRIO",
+      "B0787FVBBP"
+    ],
+    "drink-syrup": [
+      "B0849N8W1M",
+      "B0DBJ9S6V9"
+    ],
+    "diet-soda": [
+      "B000T9WLUY",
+      "B000T9UV2O"
+    ],
+    "flavored-water": [
+      "B01E6WOVX4"
+    ],
+    "sugar-free-gum": [
+      "B00ARABK20",
+      "B001NI0MQ0"
+    ],
+    "alkaline-water": [
+      "B005HG9ESG"
+    ],
+    "whole-bean-coffee": [
+      "B00P0ZMWEC"
+    ],
+    "snack-variety-pack": [
+      "B076H6F974",
+      "B01GQ5GQEG"
+    ],
+    "purified-bottled-water": [
+      "B0D17X879B",
+      "B00091S3K4"
+    ],
+    "sandwich-crackers": [
+      "B01N7QS7JU"
+    ],
+    "protein-bar": [
+      "B07Y7H3FHB",
+      "B0178ENI4K"
+    ],
+    "mosquito-control": [
+      "B0000AH849",
+      "B0001AUF8G"
+    ],
+    "portable-handheld-fan": [
+      "B07QK9C9KT",
+      "B0F43SPZCY"
+    ],
+    "plant-pest-fungicide": [
+      "B007CRG4CW"
+    ],
+    "clothes-moving-storage-bags": [
+      "B0DGF616XN"
+    ],
+    "plant-fertilizer": [
+      "B01N4GLFK8"
+    ],
+    "cockroach-control": [
+      "B0148W0WOE"
+    ],
+    "hummingbird-feeding": [
+      "B007FJ0FJU"
+    ],
+    "pool-water-treatment": [
+      "B09R839DJ1"
+    ],
+    "phone-screen-protector": [
+      "B0FDQK69GQ",
+      "B0FJS7782G",
+      "B0FBW8NVZG",
+      "B0F9PCWWNM",
+      "B0D84YX465",
+      "B0GCD9F4LC"
+    ],
+    "phone-case-drop-protection": [
+      "B0FH65ZLHV",
+      "B0FH6GTY53",
+      "B0DB1B46LD",
+      "B099JVC9HL",
+      "B0GDXV7FVY",
+      "B0FHGQZ9P5",
+      "B0FSNCV7VV"
+    ],
+    "privacy-screen-protector": [
+      "B0CCYM3S2L",
+      "B0DNP6LRBB",
+      "B0FG2QT2KN"
+    ],
+    "car-phone-mount": [
+      "B0DN1S1YLV"
+    ],
+    "car-usb-charger": [
+      "B0D4215HCX"
+    ],
+    "usb-c-wall-charger": [
+      "B0C69HB8PM",
+      "B0C8HHV9DK",
+      "B0B2WLSY9D",
+      "B08M3LNC6K",
+      "B0F1YGC8KB"
+    ],
+    "multi-device-wireless-charger": [
+      "B0C2BMNHW2",
+      "B0BFCC18FS",
+      "B0GGPBR4YP"
+    ],
+    "portable-phone-battery": [
+      "B0CSW947RH"
+    ],
+    "hand-soap": [
+      "B07MFMWFYL",
+      "B09HHDHXWX",
+      "B081FFRGZB",
+      "B07TJG79HP"
+    ],
+    "dry-skin-repair": [
+      "B0107QPFBU"
+    ],
+    "splash-pad": [
+      "B07MNMT3M7"
+    ],
+    "glow-party-supplies": [
+      "B00N1QPNMA"
+    ],
+    "pool-float": [
+      "B0BKTLNSLG",
+      "B0BKTP6ZGL",
+      "B0D68VRKS2",
+      "B0BRV88TXF",
+      "B000PEOMC8"
+    ],
+    "water-gun": [
+      "B0796JVBJ8"
+    ],
+    "swim-learning-toy": [
+      "B0DBM12XRM"
+    ],
+    "kiddie-pool": [
+      "B00HIWWKPQ"
+    ],
+    "kids-swim-goggles": [
+      "B08XQ35T47"
+    ],
+    "mens-cargo-shorts": [
+      "B0BT51D747"
+    ],
+    "womens-casual-pants": [
+      "B0FP5BYXVR"
+    ],
+    "mens-golf-shirt": [
+      "B01GH5KNR6"
+    ],
+    "golf-balls": [
+      "B0DHT5XZR1"
+    ],
+    "printer-ink": [
+      "B084131T6G",
+      "B08412PTS8",
+      "B00L1G7K50",
+      "B07N3FYTW5",
+      "B0GLTX2PNR"
+    ],
+    "binder-sheet-protector": [
+      "B07R8D1RHS"
+    ],
+    "packing-tape": [
+      "B000MVV6AA",
+      "B000087KUA",
+      "B00RSB6I1E"
+    ],
+    "thermal-laminating": [
+      "B079KL4C91"
+    ],
+    "office-tape": [
+      "B01C5IHGJW"
+    ],
+    "file-folder": [
+      "B01LYHE49W",
+      "B00V5DG6IQ"
+    ],
+    "printer-paper": [
+      "B072FVQNWM"
+    ],
+    "desk-mat": [
+      "B086BLQZ5L",
+      "B0BMTSL48B"
+    ],
+    "permanent-marker": [
+      "B000I0TZO4"
+    ],
+    "gel-pen": [
+      "B001GAOTSW",
+      "B0C9W8DD9S"
+    ],
+    "double-sided-tape": [
+      "B07VNSXY31",
+      "B082TQ3KB5"
+    ],
+    "office-scissors": [
+      "B07YDDX4JL"
+    ],
+    "ballpoint-pen": [
+      "B0012YVGOW"
+    ],
+    "dry-erase-marker": [
+      "B0004F7GUI",
+      "B0B9CDZ9BL"
+    ],
+    "writing-notebook": [
+      "B0CT4HX4T9",
+      "B07L4JCG7T",
+      "B0CWS5JNNV"
+    ],
+    "bubble-wrap-packing": [
+      "B07S1JPBL3"
+    ],
+    "index-cards": [
+      "B077K8JVW4"
+    ],
+    "text-highlighter": [
+      "B000Q5ZGIA"
+    ],
+    "rubber-bands": [
+      "B074B1KCXD"
+    ],
+    "wood-pencil": [
+      "B071JM699B"
+    ],
+    "sticky-notes": [
+      "B01D8F5FKS"
+    ],
+    "mounting-putty": [
+      "B0CS4VSCP7"
+    ],
+    "paper-shredder": [
+      "B0C6LZG69W"
+    ],
+    "writing-notepad": [
+      "B0D4YX9DW3"
+    ],
+    "mechanical-pencil": [
+      "B08MQRQTKJ"
+    ],
+    "mailing-envelopes": [
+      "B01D0OANU4"
+    ],
+    "antiseptic-skin-prep": [
+      "B07F2MQ9NJ"
+    ],
+    "laundry-detergent": [
+      "B0BJMV9BXJ"
+    ],
+    "dish-soap": [
+      "B0FX5X647R"
+    ],
+    "high-protein-snack-bar": [
+      "B07J2MM23Z",
+      "B00MNXGSAI"
+    ]
+  },
+  "skipped_ids": [
+    "B00N1NBOV2",
+    "B07ZLFPXHC",
+    "B003AYKYIG",
+    "B000NOGKN4",
+    "B07ZLF9G83",
+    "B000P6J0SM",
+    "B003AYKZF8",
+    "B000P6G12U",
+    "B07ZLF9WQ5",
+    "B000NSFQIU",
+    "B07WNSHZVC",
+    "B08JHCVHTY",
+    "B09T9BSWBY",
+    "B0DBWBJJ66",
+    "B0GVCCQ3Q3",
+    "B0GVC82XW6",
+    "B0GVC975MM"
+  ]
+}

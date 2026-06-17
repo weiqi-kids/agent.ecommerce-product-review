@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-27",
+  "total_products": 182,
+  "existing_category": 166,
+  "new_category": 10,
+  "skipped": 6,
+  "details": {
+    "existing_summary": [
+      "phone-screen-protection x21",
+      "baby-diaper x12",
+      "phone-drop-protection x9",
+      "phone-charging x7",
+      "easter-egg-hunt x7",
+      "baby-wipes x6",
+      "squishy-toy x5",
+      "e-reader x4",
+      "art-supplies x3",
+      "baby-wash x3",
+      "portable-charger x3",
+      "noise-cancelling-headphone x3",
+      "flushable-wipes x3",
+      "potty-training-pants x3",
+      "high-protein-snack x3",
+      "face-moisturizing x3",
+      "electrolyte-hydration x2",
+      "bottle-washer-accessory x2",
+      "tablet-computer x2",
+      "hydrating-serum x2",
+      "anti-insect-indoor x2",
+      "baby-healing-ointment x2",
+      "toddler-straw-cup x2",
+      "early-learning-toy x2",
+      "wireless-charging-station x2",
+      "water-bottle x2",
+      "mens-basic-tshirt x1",
+      "bed-sheets x1",
+      "aa-batteries x1",
+      "laundry-stain x1",
+      "kitchen-scale x1",
+      "kids-casual-clogs x1",
+      "meat-thermometer x1",
+      "diaper-rash x1",
+      "brightening-serum x1",
+      "video-doorbell x1",
+      "baby-bottle-nipple x1",
+      "creatine-supplement x1",
+      "baby-thermometer x1",
+      "collagen-mask x1",
+      "home-security-camera x1",
+      "kids-nutrition-shake x1",
+      "stroller-fan x1",
+      "eye-puffiness x1",
+      "apple-watch-band x1",
+      "smart-speaker x1",
+      "baby-swim-diaper x1",
+      "facial-cleanser x1",
+      "paper-towels x1",
+      "baby-pacifier x1",
+      "probiotic-supplement x1",
+      "baby-burp-cloth x1",
+      "powder-foundation x1",
+      "apple-watch-charger x1",
+      "infant-gas-relief x1",
+      "car-phone-mount x1",
+      "newborn-swaddle x1",
+      "disposable-plates x1",
+      "nursing-pads x1",
+      "trash-bags x1",
+      "memory-foam-mattress x1",
+      "bubble-toy x1",
+      "smart-display x1",
+      "lawn-fertilizer-weed x1",
+      "hvac-air-filter x1",
+      "acne-treatment x1",
+      "baby-safety-lock x1",
+      "postpartum-incontinence x1",
+      "action-figure x1",
+      "nipple-cream x1",
+      "sun-protection x1",
+      "omega3-supplement x1",
+      "wild-bird-feed x1",
+      "ipad-stylus-pen x1",
+      "cable-management x1",
+      "phone-grip-stand x1",
+      "baby-monitor x1"
+    ],
+    "new_categories": [
+      {
+        "category": "womens-denim-shorts",
+        "description": "女性牛仔短褲（日常休閒穿搭底褲）",
+        "products": [
+          {
+            "asin": "B0DJV8N5QB",
+            "title": "Levi's Women's 501 Original Shorts (Also Available in Plus)"
+          }
+        ]
+      },
+      {
+        "category": "eyeshadow",
+        "description": "眼影（眼部彩妝著色增強眼神）",
+        "products": [
+          {
+            "asin": "B01LW1983J",
+            "title": "Julep Eyeshadow 101 Cream-to-Powder Waterproof Shadow Stick – Champagne Shimmer "
+          }
+        ]
+      },
+      {
+        "category": "home-fragrance-diffuser",
+        "description": "居家香氛擴香油（室內空間氣味改善）",
+        "products": [
+          {
+            "asin": "B0D5RMVMWF",
+            "title": "AirScent Hotel Diffuser Oil No. 1014 - The Iconic 5-Star Hotel Coastal Blend - L"
+          }
+        ]
+      },
+      {
+        "category": "bone-conduction-headphone",
+        "description": "骨傳導耳機（開放式設計，不堵塞耳道）",
+        "products": [
+          {
+            "asin": "B0D2HKCMBP",
+            "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless"
+          }
+        ]
+      },
+      {
+        "category": "throw-blanket",
+        "description": "毛毯/沙發毯（居家保暖柔軟休閒用品）",
+        "products": [
+          {
+            "asin": "B0BPLB81LX",
+            "title": "Bedsure GentleSoft White Throw Blanket for Couch - Soft Cozy Fleece Throw Blanke"
+          }
+        ]
+      },
+      {
+        "category": "outdoor-sports-toy",
+        "description": "兒童戶外運動拋擲玩具（泡沫球/火箭戶外活動）",
+        "products": [
+          {
+            "asin": "B08P29SC84",
+            "title": "Nerf Vortex Aero Howler Foam Ball, Classic Long-Distance Football, Flight-Optimi"
+          },
+          {
+            "asin": "B00G466HBU",
+            "title": "Stomp Rocket Jr Multi-Color Rocket Launcher for Kids, 8 Rockets - Fun Outdoor Ki"
+          }
+        ]
+      },
+      {
+        "category": "phone-tripod",
+        "description": "手機三腳架自拍棒（穩定拍攝支架）",
+        "products": [
+          {
+            "asin": "B09XHZ8F7F",
+            "title": "EUCOS 62\" Phone Tripod, Tripod for iPhone & Selfie Stick with Remote, Extendable"
+          }
+        ]
+      },
+      {
+        "category": "maternity-pillow",
+        "description": "孕婦枕（懷孕期間側睡支撐減壓）",
+        "products": [
+          {
+            "asin": "B08YYVRXLM",
+            "title": "Momcozy Pregnancy Pillows for Sleeping, U Shaped Full Body Maternity Pillow with"
+          }
+        ]
+      },
+      {
+        "category": "travel-compression-bags",
+        "description": "旅行真空壓縮袋（行李收納空間最大化）",
+        "products": [
+          {
+            "asin": "B0DRNRC5H5",
+            "title": "Vacbird Vacuum Bags for Travel with Rechargeable air Pump, Carry-on Size Compres"
+          }
+        ]
+      }
+    ],
+    "skipped": [
+      {
+        "asin": "B0F1LM11ZY",
+        "title": "Hunt The Villain: A Dark MM College Mafia Romance",
+        "reason": "小說/書籍，非實體消費品"
+      },
+      {
+        "asin": "B08FHBV4ZX",
+        "title": "Project Hail Mary: A Novel",
+        "reason": "小說/書籍，非實體消費品"
+      },
+      {
+        "asin": "B0FLX3GB4H",
+        "title": "The Night We Met",
+        "reason": "小說/書籍，非實體消費品"
+      },
+      {
+        "asin": "B0FXBCK15V",
+        "title": "The Price of Honey (Deadly Ambition collection)",
+        "reason": "小說/書籍，非實體消費品"
+      },
+      {
+        "asin": "B0FTT3XSRZ",
+        "title": "Theo of Golden: A Novel",
+        "reason": "小說/書籍，非實體消費品"
+      },
+      {
+        "asin": "B0FJTF5MJB",
+        "title": "Dear Debbie",
+        "reason": "小說/書籍，非實體消費品"
+      }
+    ]
+  }
+}

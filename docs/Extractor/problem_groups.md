@@ -1,11 +1,14 @@
 # 產品問題分組
 
-最後更新：2026-03-25
+最後更新：2026-04-30
 研究文件版本：v2（問題導向重組）
 生成日期：2026-02-05
-產品總數：1152
-問題類別數：271
+產品總數：2001
+問題類別數：295
 分組原則：按具體問題分組（v2 - 問題導向）
+本次更新（2026-04-30）：340 個歸入現有類別（baby-diaper x14、phone-drop-protection x15、phone-screen-protection x14、party-balloon x12、squishy-toy x10、wireless-earbuds x8、paper-towels x7、phone-charging x7、power-strip x7、toilet-paper x7、baby-wipes x7、shower-curtain-liner x6、streaming-stick x5、bed-sheets x4、electrolyte-hydration x4、ipad-stylus-pen x4、trading-cards x4、water-bottle x3、potty-training-pants x3、infant-sensory-toy x3、e-reader x3、noise-cancelling-headphone x3、art-supplies x4、hand-soap x3、early-learning-toy x3、face-moisturizing x3、body-moisturizing x3、cotton-swabs x2、diaper-rash x2、baby-wash x3、portable-charger x2、creatine-supplement x2、flushable-wipes x2、high-protein-snack x2、disposable-gloves x2、collagen-mask x2、wireless-bra x2、exfoliating-toner x2、acne-treatment x2、disinfecting-wipes x2、baby-safety-lock x2、anti-colic-baby-bottle x2、tv-remote-replacement x3、cable-management x2、earphone-accessories x2、mattress-protector x3、pillow-case x2、throw-pillow-inserts x2、performance-laptop x2、moving-bags x2、modeling-clay x2、glow-sticks x2、flying-insect-trap x2、trash-bags x2、disposable-plates x2、wild-bird-feed x2、brightening-serum x2、mascara x2、baby-diaper x14 及其他各 x1）；新增 3 個類別（nipple-cover x1、body-wash x1、moving-bags x2）；跳過 4 個（B08JHCVHTY/B0FST7KRR2 數位訂閱、B00N1NBOV2 禮盒、B07Z66MK6L 已過濾）
+本次更新（2026-04-26）：313 個歸入現有類別（baby-diaper x14、phone-screen-protection x11、party-balloon x11、squishy-toy x11、phone-drop-protection x10、wireless-earbuds x9、toilet-paper x8、paper-towels x7、baby-wipes x7、power-strip x7、streaming-stick x5、tv-remote-replacement x5、travel-compression-bags x4、phone-charging x4、noise-cancelling-headphone x4、electrolyte-hydration x4、bed-sheets x4、shower-curtain-liner x4、trading-cards x4、infant-sensory-toy x4、water-bottle x3、aa-batteries x3、baby-wash x3、face-moisturizing x3、flushable-wipes x3、early-learning-toy x3、art-supplies x3、action-figure x3、toilet-paper x2、wireless-bra x2、acne-treatment x2、exfoliating-toner x2、collagen-mask x2、baby-healing-ointment x2、potty-training-pants x2、baby-safety-lock x2、anti-colic-baby-bottle x2、mascara x2、cotton-swabs x2、portable-charger x2、e-reader x2、tv-wall-mount x2、cable-management x2、portable-bluetooth-speaker x2、toothpaste x2、creatine-supplement x2、laundry-stain x2、high-protein-snack x2、disinfecting-wipes x2、disposable-plates x2、ant-control x2、flying-insect-trap x2、mattress-protector x2、garden-hose x2、wild-bird-feed x2、throw-pillow-inserts x2、bed-pillows x2、pillow-case x2、lawn-fertilizer-weed x2、bubble-toy x2 及其他各 x1）；新增 12 個類別（hand-soap x2、cotton-pads x1、body-scrub x1、syringe x1、alcohol-prep-pads x1、cr2032-battery x1、coffee-filters x1、clothes-steamer x1、sticker-activity-book x1、glow-sticks x1、punch-balloon x1、pool-float x1）；跳過 2 個（B08JHCVHTY 數位訂閱、B00N1NBOV2 促銷禮盒）
+本次更新（2026-03-27）：166 個歸入現有類別（phone-screen-protection x21、baby-diaper x12、phone-drop-protection x9、phone-charging x7、easter-egg-hunt x7、baby-wipes x6、squishy-toy x5、e-reader x4、portable-charger x3、noise-cancelling-headphone x3、flushable-wipes x3、high-protein-snack x3、face-moisturizing x3、art-supplies x3、baby-wash x3、electrolyte-hydration x2、bottle-washer-accessory x2、tablet-computer x2、hydrating-serum x2、anti-insect-indoor x2、baby-healing-ointment x2、toddler-straw-cup x2、potty-training-pants x2、early-learning-toy x2、wireless-charging-station x2、water-bottle x2 及其他各 x1）；新增 9 個類別（womens-denim-shorts x1、eyeshadow x1、home-fragrance-diffuser x1、bone-conduction-headphone x1、throw-blanket x1、outdoor-sports-toy x2、phone-tripod x1、maternity-pillow x1、travel-compression-bags x1）；跳過 6 個（B0F1LM11ZY/B08FHBV4ZX/B0FLX3GB4H/B0FXBCK15V/B0FTT3XSRZ/B0FJTF5MJB 小說書籍）
 本次更新（2026-03-25）：27 個歸入現有類別（exfoliating-toner x1、water-bottle x3、wireless-bra x1、paper-towels x1、aa-batteries x2、wired-earphones x1、body-moisturizing x1、kids-casual-clogs x1、wireless-earbuds x2、acne-treatment x1、meat-thermometer x1、adult-clogs x1、toilet-paper x2、item-tracker x1、makeup-removal x1、kitchen-scale x1、mens-underwear x1、electrolyte-hydration x1、streaming-stick x1、mens-basic-tshirt x2、cotton-swabs x1、art-supplies x1、face-towels x1）；新增 5 個類別（printer-paper x2、packing-tape x1、printer-ink x1、can-opener x1、writing-notepad x1）；跳過 1 個（B08JHCVHTY 數位訂閱）
 本次更新（2026-03-24）：30 個歸入現有類別（streaming-stick x1、e-reader x1、baby-wipes x1、baby-diaper x1、baby-sunscreen x1、baby-safety-lock x1、wireless-earbuds x1、phone-drop-protection x2、art-supplies x1、squishy-toy x2、party-balloon x1、trash-bags x1、food-storage-bags x1、facial-cleanser x1、mens-underwear x1、wireless-bra x2、earphone-accessories x1、tv-wall-mount x1、garden-hose x1、kids-casual-clogs x1、mens-basic-tshirt x1、toilet-paper x1、electrolyte-hydration x1、bath-toys x1、vegetable-seeds x1）；新增 3 個類別（adult-clogs x1、powder-foundation x1、outdoor-inflatable-pool x1）；跳過 11 個（B097C6KBV8/B0GGSMCJQ4/B0GGTC8K2B/B0GGTTQT46/B0FG888V4D/B0G9TQ36NQ 音樂唱片、JCQ6HR559F/J33V32CTJ7/JCQ6HSYTX9/JCQ6HWT5CQ/JJGXP2VCS6 數位遊戲/點數）
 本次更新（2026-03-23）：77 個歸入現有類別（baby-diaper x11、baby-wipes x8、diaper-rash x1、baby-wash x3、baby-healing-ointment x2、baby-pacifier x1、toddler-straw-cup x2、potty-training-pants x2、stroller-fan x1、bottle-washer-accessory x1、baby-bottle-nipple x2、baby-thermometer x1、kids-nutrition-shake x1、eyeliner x1、sun-protection x1、cotton-swabs x1、body-fragrance-mist x1、kitchen-scale x1、wild-bird-feed x1、smart-speaker x1、blackout-curtains x1、meat-thermometer x1、pillow-case x1、water-bottle x1、memory-foam-mattress x1、e-reader x2、video-doorbell x1、home-security-camera x1、tv-remote-replacement x1、cable-management x2、power-strip x1、wireless-earbuds x1、squishy-toy x1、bubble-toy x1、art-supplies x2、easter-egg-hunt x3、action-figure x1、early-learning-toy x1、phone-screen-protection x14、phone-drop-protection x13、phone-charging x8、portable-charger x2、ipad-stylus-pen x2、waterproof-phone-pouch x1、phone-grip-stand x1、smartwatch-case x1、aa-batteries x1、flushable-wipes x2、probiotic-supplement x1、high-protein-snack x2、postpartum-incontinence x1、disposable-plates x1）；新增 26 個類別（baby-swim-diaper、newborn-swaddle、nursing-pads、nipple-cream、baby-safety-lock、baby-grooming-kit、baby-burp-cloth、booster-car-seat、infant-gas-relief、baby-monitor、baby-sunscreen、anti-insect-indoor、lawn-fertilizer-weed、smart-display、shampoo-conditioner、car-phone-mount、wireless-charging-station x2、apple-watch-band、apple-watch-charger、vegetable-seeds x3、egg-decorator x2、fidget-spinner、water-balloon、toddler-balance-bike、novelty-easter-toy x4）；跳過 5 個（B08JHCVHTY 數位訂閱、B00N1NBOV2 促銷禮盒、JCQ6HTHSKP 數位遊戲訂閱、JJGCQLYK5F 跨平台同品、JJGCQXK6ZJ 跨平台同品）
@@ -298,6 +301,30 @@
 | printer-ink | 印表機墨水匣（兼容性、顏色品質、性價比） | 1 | ⏳ 待研究 |
 | can-opener | 廚房罐頭開罐器（省力、不殘留鐵屑、耐用） | 1 | ⏳ 待研究 |
 | writing-notepad | 書寫筆記本（紙質、線條規格、撕除性） | 1 | ⏳ 待研究 |
+| womens-denim-shorts | 女性牛仔短褲（日常休閒穿搭底褲） | 1 | ⏳ 待研究 |
+| eyeshadow | 眼影（眼部彩妝著色增強眼神） | 1 | ⏳ 待研究 |
+| home-fragrance-diffuser | 居家香氛擴香油（室內空間氣味改善） | 1 | ⏳ 待研究 |
+| bone-conduction-headphone | 骨傳導耳機（開放式設計，不堵塞耳道） | 1 | ⏳ 待研究 |
+| throw-blanket | 毛毯/沙發毯（居家保暖柔軟休閒用品） | 1 | ⏳ 待研究 |
+| outdoor-sports-toy | 兒童戶外運動拋擲玩具（泡沫球/火箭戶外活動） | 2 | ⏳ 待研究 |
+| phone-tripod | 手機三腳架自拍棒（穩定拍攝支架） | 1 | ⏳ 待研究 |
+| maternity-pillow | 孕婦枕（懷孕期間側睡支撐減壓） | 1 | ⏳ 待研究 |
+| travel-compression-bags | 旅行真空壓縮袋（行李收納空間最大化） | 5 | ⏳ 待研究 |
+| hand-soap | 洗手皂液體清潔保濕（含補充裝） | 2 | ⏳ 待研究 |
+| cotton-pads | 棉片卸妝/護膚化妝棉 | 1 | ⏳ 待研究 |
+| body-scrub | 身體去角質糖霜磨砂 | 1 | ⏳ 待研究 |
+| syringe | 注射用針筒（胰島素/醫療用） | 1 | ⏳ 待研究 |
+| alcohol-prep-pads | 酒精消毒棉片（醫療清潔消毒） | 1 | ⏳ 待研究 |
+| cr2032-battery | CR2032 鋰電池（鑰匙扣/遙控器用） | 1 | ⏳ 待研究 |
+| coffee-filters | 咖啡機濾紙（滴濾式咖啡沖泡） | 1 | ⏳ 待研究 |
+| clothes-steamer | 手持蒸汽掛燙機去皺 | 1 | ⏳ 待研究 |
+| sticker-activity-book | 兒童貼紙塗色活動書 | 1 | ⏳ 待研究 |
+| glow-sticks | 螢光棒派對裝飾發光道具 | 1 | ⏳ 待研究 |
+| punch-balloon | 打擊充氣拳擊氣球玩具 | 1 | ⏳ 待研究 |
+| pool-float | 充氣游泳池浮具/躺椅夏季水上休閒 | 2 | ⏳ 待研究 |
+| nipple-cover | 女性乳頭隱形遮蓋防透視摩擦 | 1 | ⏳ 待研究 |
+| body-wash | 身體清潔沐浴乳 | 1 | ⏳ 待研究 |
+| moving-bags | 搬家大容量耐重收納袋 | 2 | ⏳ 待研究 |
 ---
 
 ## 詳細分組
@@ -3860,3 +3887,253 @@
 | product_id | 商品名稱 | 採用的解決方法 |
 |-----------|---------|---------------|
 | B083Z3JMGP | Creativity for Kids Mini Garden: Mermaid Terrarium Kit | 美人魚主題兒童生態瓶套件 |
+
+---
+
+### womens-denim-shorts
+
+**問題描述**：女性尋找合身舒適的日常休閒牛仔短褲
+
+**問題成因**：一般牛仔褲悶熱不適合夏季、短裙不夠休閒、需要兼顧舒適與日常風格
+
+**常見解決方法**：
+- 高腰牛仔短褲
+- 彈力修身版型
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0DJV8N5QB | Levi's Women's 501 Original Shorts | 經典直筒高腰牛仔短褲 |
+
+---
+
+### eyeshadow
+
+**問題描述**：眼部彩妝著色，增強眼神深邃感
+
+**問題成因**：眼皮容易出油脫妝、粉質眼影易暈染、需要持久顯色
+
+**常見解決方法**：
+- 奶油霜眼影棒（防水持久）
+- 粉質盤裝眼影
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B01LW1983J | Julep Eyeshadow 101 Cream-to-Powder Waterproof Shadow Stick | 奶油轉粉防水眼影棒 |
+
+---
+
+### home-fragrance-diffuser
+
+**問題描述**：室內空間氣味改善，打造飯店般的香氛環境
+
+**問題成因**：室內空氣悶、家中有寵物或烹飪氣味、想要持久清新氣息
+
+**常見解決方法**：
+- 擴香機搭配香氛油
+- 蠟燭或空氣清新劑
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0D5RMVMWF | AirScent Hotel Diffuser Oil No. 1014 - Coastal Blend | 飯店同款擴香油 |
+
+---
+
+### bone-conduction-headphone
+
+**問題描述**：運動時需要聆聽音樂同時保持環境聲音感知（安全需求）
+
+**問題成因**：傳統耳塞運動時危險（聽不到車聲/環境音）、耳道悶熱不舒適、長期佩戴壓迫感
+
+**常見解決方法**：
+- 骨傳導耳機（振動顴骨傳聲，耳道保持開放）
+- 開放式氣導耳機
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0D2HKCMBP | SHOKZ OpenRun Pro 2 Bone Conduction Headphones | 骨傳導開放式藍牙耳機 |
+
+---
+
+### throw-blanket
+
+**問題描述**：沙發休閒或睡眠時需要輕便柔軟保暖的毛毯
+
+**問題成因**：棉被太重不方便、冬季客廳取暖需求、居家沙發舒適佈置
+
+**常見解決方法**：
+- 法蘭絨/刷毛毯（輕薄保暖）
+- 加厚羊羔絨毯
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0BPLB81LX | Bedsure GentleSoft White Throw Blanket for Couch | 超柔刷毛沙發毯 |
+
+---
+
+### outdoor-sports-toy
+
+**問題描述**：兒童戶外活動需要可拋擲、飛行的運動玩具
+
+**問題成因**：兒童缺乏戶外運動動機、需要能跑跳的互動玩具、培養手眼協調能力
+
+**常見解決方法**：
+- 泡沫拋擲球/橄欖球
+- 氣壓式火箭發射器
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B08P29SC84 | Nerf Vortex Aero Howler Foam Ball | 泡沫遠距離拋擲橄欖球 |
+| B00G466HBU | Stomp Rocket Jr Multi-Color Rocket Launcher for Kids | 氣壓踩踏式火箭發射器 |
+
+---
+
+### phone-tripod
+
+**問題描述**：拍照錄影時需要穩定支架，解決手持晃動或無法自拍的問題
+
+**問題成因**：拍照時手抖、錄影需要固定角度、一個人想自拍或拍全家福
+
+**常見解決方法**：
+- 可伸縮三腳架附藍牙遙控
+- 夾持式自拍棒
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B09XHZ8F7F | EUCOS 62" Phone Tripod with Remote, Extendable | 62 吋可伸縮手機三腳架附遙控 |
+
+---
+
+### maternity-pillow
+
+**問題描述**：孕婦懷孕中後期側睡時腰背疼痛、難以找到舒適姿勢
+
+**問題成因**：腹部重量增加導致側睡壓力大、腰椎負擔加重、普通枕頭無法給予全身支撐
+
+**常見解決方法**：
+- U 型全身孕婦枕（同時支撐背部和腹部）
+- C 型孕婦側睡枕
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B08YYVRXLM | Momcozy U Shaped Full Body Maternity Pillow | U 型全身孕婦枕 |
+
+---
+
+### travel-compression-bags
+
+**問題描述**：旅行時行李箱空間不足，衣物佔據過多空間
+
+**問題成因**：衣物蓬鬆佔空間、行李超重費用高、需要在攜帶型行李中塞入更多物品
+
+**常見解決方法**：
+- 真空壓縮袋（附充電式氣泵）
+- 手卷壓縮袋（無需氣泵）
+
+**包含產品**：
+| product_id | 商品名稱 | 採用的解決方法 |
+|-----------|---------|---------------|
+| B0DRNRC5H5 | Vacbird Vacuum Bags for Travel with Rechargeable Air Pump | 旅行真空壓縮袋附充電氣泵 |
+
+---
+## 2026-06-17 新增類別（冷啟動分組）
+本日 Discovery 共 332 新產品分組：映射既有 153，新類別 162（88 類），skip 17。
+> 本次完整研究（Step 5-8）的新類別標 🔄；其餘標 ⏳ 待研究，由後續每日增量處理。
+
+| 新類別 | 產品數 | 狀態 |
+|------|------|------|
+| energy-drink | 10 | 🔄 研究中 |
+| phone-case-drop-protection | 7 | 🔄 研究中 |
+| phone-screen-protector | 6 | 🔄 研究中 |
+| flavored-sparkling-water | 5 | ⏳ 待研究 |
+| usb-c-wall-charger | 5 | 🔄 研究中 |
+| pool-float | 5 | 🔄 研究中 |
+| printer-ink | 5 | ⏳ 待研究 |
+| protein-shake | 4 | ⏳ 待研究 |
+| hand-soap | 4 | ⏳ 待研究 |
+| baby-wipes | 3 | ⏳ 待研究 |
+| disposable-diapers | 3 | ⏳ 待研究 |
+| baby-sunscreen | 3 | ⏳ 待研究 |
+| coffee-pods | 3 | ⏳ 待研究 |
+| privacy-screen-protector | 3 | ⏳ 待研究 |
+| multi-device-wireless-charger | 3 | ⏳ 待研究 |
+| packing-tape | 3 | ⏳ 待研究 |
+| writing-notebook | 3 | ⏳ 待研究 |
+| potty-training-pants | 2 | ⏳ 待研究 |
+| baby-skin-cleansing | 2 | ⏳ 待研究 |
+| drink-syrup | 2 | ⏳ 待研究 |
+| diet-soda | 2 | ⏳ 待研究 |
+| sugar-free-gum | 2 | ⏳ 待研究 |
+| snack-variety-pack | 2 | ⏳ 待研究 |
+| purified-bottled-water | 2 | ⏳ 待研究 |
+| protein-bar | 2 | ⏳ 待研究 |
+| mosquito-control | 2 | ⏳ 待研究 |
+| portable-handheld-fan | 2 | ⏳ 待研究 |
+| file-folder | 2 | ⏳ 待研究 |
+| desk-mat | 2 | ⏳ 待研究 |
+| gel-pen | 2 | ⏳ 待研究 |
+| double-sided-tape | 2 | ⏳ 待研究 |
+| dry-erase-marker | 2 | ⏳ 待研究 |
+| high-protein-snack-bar | 2 | ⏳ 待研究 |
+| swim-diapers | 1 | ⏳ 待研究 |
+| baby-straw-cup-transition | 1 | ⏳ 待研究 |
+| overnight-diaper-leakage | 1 | ⏳ 待研究 |
+| toddler-spill-proof-cup | 1 | ⏳ 待研究 |
+| newborn-startle-reflex | 1 | ⏳ 待研究 |
+| infant-gas-relief | 1 | ⏳ 待研究 |
+| breastfeeding-leakage | 1 | ⏳ 待研究 |
+| infant-formula | 1 | ⏳ 待研究 |
+| baby-safety-gate | 1 | ⏳ 待研究 |
+| nipple-soreness-breastfeeding | 1 | ⏳ 待研究 |
+| flavored-water | 1 | ⏳ 待研究 |
+| alkaline-water | 1 | ⏳ 待研究 |
+| whole-bean-coffee | 1 | ⏳ 待研究 |
+| sandwich-crackers | 1 | ⏳ 待研究 |
+| plant-pest-fungicide | 1 | ⏳ 待研究 |
+| clothes-moving-storage-bags | 1 | ⏳ 待研究 |
+| plant-fertilizer | 1 | ⏳ 待研究 |
+| cockroach-control | 1 | ⏳ 待研究 |
+| hummingbird-feeding | 1 | ⏳ 待研究 |
+| pool-water-treatment | 1 | ⏳ 待研究 |
+| car-phone-mount | 1 | ⏳ 待研究 |
+| car-usb-charger | 1 | ⏳ 待研究 |
+| portable-phone-battery | 1 | ⏳ 待研究 |
+| dry-skin-repair | 1 | ⏳ 待研究 |
+| splash-pad | 1 | ⏳ 待研究 |
+| glow-party-supplies | 1 | ⏳ 待研究 |
+| water-gun | 1 | ⏳ 待研究 |
+| swim-learning-toy | 1 | ⏳ 待研究 |
+| kiddie-pool | 1 | ⏳ 待研究 |
+| kids-swim-goggles | 1 | ⏳ 待研究 |
+| mens-cargo-shorts | 1 | ⏳ 待研究 |
+| womens-casual-pants | 1 | ⏳ 待研究 |
+| mens-golf-shirt | 1 | ⏳ 待研究 |
+| golf-balls | 1 | ⏳ 待研究 |
+| binder-sheet-protector | 1 | ⏳ 待研究 |
+| thermal-laminating | 1 | ⏳ 待研究 |
+| office-tape | 1 | ⏳ 待研究 |
+| printer-paper | 1 | ⏳ 待研究 |
+| permanent-marker | 1 | ⏳ 待研究 |
+| office-scissors | 1 | ⏳ 待研究 |
+| ballpoint-pen | 1 | ⏳ 待研究 |
+| bubble-wrap-packing | 1 | ⏳ 待研究 |
+| index-cards | 1 | ⏳ 待研究 |
+| text-highlighter | 1 | ⏳ 待研究 |
+| rubber-bands | 1 | ⏳ 待研究 |
+| wood-pencil | 1 | ⏳ 待研究 |
+| sticky-notes | 1 | ⏳ 待研究 |
+| mounting-putty | 1 | ⏳ 待研究 |
+| paper-shredder | 1 | ⏳ 待研究 |
+| writing-notepad | 1 | ⏳ 待研究 |
+| mechanical-pencil | 1 | ⏳ 待研究 |
+| mailing-envelopes | 1 | ⏳ 待研究 |
+| antiseptic-skin-prep | 1 | ⏳ 待研究 |
+| laundry-detergent | 1 | ⏳ 待研究 |
+| dish-soap | 1 | ⏳ 待研究 |

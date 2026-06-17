@@ -13,6 +13,8 @@ description: 產品安全警告報告列表，幫助消費者避開有安全風�
 
 ## 電子產品與電器
 
+- [Samsung S26/S25 保護貼警告：超音波指紋解鎖失效](./samsung-screen-protector-fingerprint--2026-06-17) - 15% 指紋失效、換片仍無效
+- [Beats Solo 4 翻新品警告：27% 評論指向假貨](./beats-solo-4-renewed-counterfeit--2026-06-17) - Renewed 通路假貨 + 律所調查
 - [Beats Solo 4 翻新品警告：22% 硬體缺陷、18% 電池失效](./beats-solo4-renewed--2026-03-12) - 翻新品質不穩定
 - [Pixel Watch 3 翻新品警告：25% LTE 功能失效 + 帳號鎖定風險](./pixel-watch3-renewed--2026-03-12) - 翻新品 eSIM 鎖定 + FRP 問題
 - [Fire TV Stick 4K Select 警告：Vega OS 封閉系統致 76% 負評](./fire-tv-stick-4k-select--2026-03-03) - Vega OS 封閉系統
@@ -45,6 +47,14 @@ description: 產品安全警告報告列表，幫助消費者避開有安全風�
 ## 健康與保健
 
 - [Emergen-C 1000mg 維生素 C](./B00016RL9G--warning--2026-02-06) - 安全警告
+
+## 玩具與感官玩具
+
+- [NeeDoh 擠壓玩具警告：23% 破裂洩漏與燒傷風險](./needoh-squishy-leak--2026-06-17) - 填充物洩漏、微波燒傷事故、同類石棉召回背景
+
+## 嬰幼兒與兒童
+
+- [嬰兒泳池浮圈安全警告：CPSC 翻覆溺死緊急警告 + 400 萬件召回史](./baby-pool-float-safety--2026-06-17) - CPSC 2026-04 緊急警告；類別性溺水風險
 
 ## 收藏品
 

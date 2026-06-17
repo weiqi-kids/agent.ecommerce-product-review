@@ -29,12 +29,14 @@ export const SELECTORS = {
       '.a-section.review',
       '#customerReviews [data-hook="review"]',
     ],
-    title: '[data-hook="review-title"] span:not(.a-color-secondary)',
-    body: '[data-hook="review-body"] span',
+    // 2026-06 Amazon /dp/ 評論 widget 改版：新 hook reviewTitle / reviewRichContentContainer
+    // 新 selector 優先，舊 selector 作 fallback（comma 取 DOM 順序首個命中）
+    title: '[data-hook="reviewTitle"], [data-hook="review-title"] span:not(.a-color-secondary)',
+    body: '[data-hook="reviewRichContentContainer"], [data-hook="review-body"] span',
     rating: '[data-hook="review-star-rating"] .a-icon-alt, [data-hook="cmps-review-star-rating"] .a-icon-alt',
     date: '[data-hook="review-date"]',
     verifiedPurchase: '[data-hook="avp-badge"]',
-    helpfulVotes: '[data-hook="helpful-vote-statement"]',
+    helpfulVotes: '[data-hook="helpfulVoteWidget"], [data-hook="helpful-vote-statement"]',
     reviewId: '[data-hook="review"]',
     pagination: {
       nextPage: 'li.a-last a',

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T12:00:00Z",
+  "last_updated": "2026-06-17T07:00:00Z",
   "products": [
     {
       "asin": "B0DCH8VDXF",
@@ -8,7 +8,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-03-04",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -27,9 +27,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-22",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無新召回或安全警告。靜電放電為已知舊議題，無新事件報告。",
+        "notes": "無新召回或安全警告，持續監控中",
         "report": "docs/Narrator/comparisons/wired-earphones--2026-03-04.md"
       }
     },
@@ -40,7 +40,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-04",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -54,9 +54,9 @@
         "review_count": 9697
       },
       "check_result": {
-        "date": "2026-03-22",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無召回，扣環問題無新惡化報告，品牌無新質量警告。",
+        "notes": "無新品質危機報告",
         "report": "docs/Narrator/comparisons/wireless-bra--2026-03-04.md"
       }
     },
@@ -67,7 +67,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -86,9 +86,9 @@
         "review_count": 41358
       },
       "check_result": {
-        "date": "2026-03-22",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無新召回。假貨指南持續更新但問題無惡化，2026年仍有持續假貨警告。",
+        "notes": "假貨問題持續，序號偽造仍是主要手段",
         "report": "docs/Narrator/comparisons/wireless-earbuds--2026-02-17.md"
       }
     },
@@ -99,7 +99,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -118,9 +118,9 @@
         "review_count": 5811
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "ANC 靜電/雜音問題在兩次韌體更新後仍未解決，部分換機用戶仍有相同問題"
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "韌體 8B34 部分用戶 ANC 品質反而下降，問題未全面修復"
       }
     },
     {
@@ -130,7 +130,7 @@
       "watch_reason": "quality_crisis",
       "severity": "medium",
       "added_date": "2026-02-17",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -148,9 +148,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-03",
+        "date": "2026-04-26",
         "status": "improved",
-        "notes": "iOS 26.2.1 已發佈，連接問題獲改善。軟體相容性為主因。持續改善中。"
+        "notes": "韌體更新含 bug fix，連線表現優於一代"
       }
     },
     {
@@ -160,7 +160,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-11",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -187,9 +187,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-11",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無新召回，僅一般安全說明書警告。CPSC 無 Bella 烤麵包機相關召回。",
+        "notes": "無新召回，2023 Bella 召回為壓力鍋非烤麵包機",
         "current_metrics": {
           "failure_rate": "22%",
           "uneven_toasting_rate": "14%",
@@ -208,7 +208,7 @@
       "watch_reason": "claim_contradiction",
       "severity": "high",
       "added_date": "2026-02-11",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -231,9 +231,9 @@
         "review_count": 67824
       },
       "check_result": {
-        "date": "2026-03-11",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無新投訴，防霉宣稱無重大矛盾。問題持續但無惡化。",
+        "notes": "無新發霉事件報告，問題維持基線",
         "report": "docs/Narrator/warnings/bigfoot-shower-curtain--2026-02-11.md"
       }
     },
@@ -244,7 +244,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -268,9 +268,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無2026新召回，僅2019舊召回記錄",
+        "notes": "無新召回，2019 大規模召回後未見新事件",
         "report": "docs/Narrator/warnings/B07V6M4MSN--warning--2026-02-13.md"
       }
     },
@@ -281,7 +281,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -300,9 +300,9 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無召回、無新品質事件",
+        "notes": "無召回，無新品質警告",
         "report": "docs/Narrator/warnings/hefty-party-cups--2026-02-08.md"
       },
       "recommended_alternative": {
@@ -320,7 +320,7 @@
       "watch_reason": "quality_crisis",
       "severity": "medium",
       "added_date": "2026-02-08",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -339,9 +339,9 @@
         "success_rate": "24%"
       },
       "check_result": {
-        "date": "2026-03-03",
-        "status": "improved",
-        "notes": "2026 年品牌評價持續正面（4.5/5 星），品質改善趨勢維持。主要問題為材質透明度。",
+        "date": "2026-04-26",
+        "status": "no_change",
+        "notes": "無新品質投訴，仍屬正面評價",
         "report": "docs/Narrator/warnings/upsimples-picture-frame--2026-02-08.md"
       }
     },
@@ -352,7 +352,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -371,9 +371,9 @@
         "review_count": 1500
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "同類品牌 ANNQUAN/CCCEI/HEZI 2026 年陸續被 CPSC 召回，HANYCONY 尚無正式召回但風險環境升高"
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "同類品牌 ANNQUAN/CCCEI/HEZI 2026 持續被 CPSC 召回，HANYCONY 本身尚無召回但風險環境持續惡化"
       }
     },
     {
@@ -383,7 +383,7 @@
       "watch_reason": "fire_hazard",
       "severity": "critical",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -400,9 +400,9 @@
         "avg_rating": 4.3
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "同上，中國延長線品牌召回潮持續"
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "同上，中國製排插全線高危"
       }
     },
     {
@@ -412,7 +412,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -430,9 +430,9 @@
         "review_count": 50000
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "Gummy 維生素C含量低於標示 45% 集體訴訟"
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "Gummy 維生素C含量低於標示 45% 集體訴訟持續中，尚無和解"
       }
     },
     {
@@ -442,7 +442,7 @@
       "watch_reason": "product_integrity",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -459,9 +459,9 @@
         "missing_content_rate": "8%"
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "重新密封問題持續，Amazon退貨政策仍為主因",
+        "notes": "Amazon FBA 重新密封舊問題持續存在",
         "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       }
     },
@@ -472,7 +472,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-02-06",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -498,11 +498,13 @@
         "review_count": 7
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "假貨仍流通，品牌已加QR驗證碼",
+        "notes": "假貨問題持續，BoJ 已加 QR 碼驗真",
         "report": "docs/Narrator/counterfeits/beauty-of-joseon-relief-sun--2026-02-08.md"
-      }
+      },
+      "reanalysis_flagged_date": "2026-06-17",
+      "last_reanalyzed": "2026-06-17"
     },
     {
       "asin": "B08KT2Z93D",
@@ -511,7 +513,7 @@
       "watch_reason": "quality_crisis",
       "severity": "critical",
       "added_date": "2026-02-07",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -539,9 +541,9 @@
       },
       "discovery_source": "L5 issue detection from 2026-02-07 extraction",
       "check_result": {
-        "date": "2026-03-10",
-        "status": "worsening",
-        "notes": "化學味投訴擴散至TikTok/Lemon8/Reddit等多平台，品牌未回應。疑含EU禁用成分Butylphenyl methylpropional。"
+        "date": "2026-04-26",
+        "status": "no_change",
+        "notes": "無新增召回或配方投訴，品牌未公開回應"
       }
     },
     {
@@ -551,7 +553,7 @@
       "watch_reason": "design_flaw",
       "severity": "critical",
       "added_date": "2026-03-01",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -574,10 +576,12 @@
         "review_count": 50
       },
       "check_result": {
-        "date": "2026-03-22",
+        "date": "2026-04-26",
         "status": "worsening",
-        "notes": "Consumer Reports 促請 CPSC 調查化學灼傷風險，建議觸發 Step 7-8 重新分析"
-      }
+        "notes": "Consumer Reports 促 CPSC 調查化學灼傷風險，TikTok 挑戰致兒童燒傷住院案例，建議觸發 Step 7-8 重新分析"
+      },
+      "reanalysis_flagged_date": "2026-06-17",
+      "last_reanalyzed": "2026-06-17"
     },
     {
       "asin": "B0DLPL7LC5",
@@ -586,7 +590,7 @@
       "watch_reason": "product_integrity",
       "severity": "critical",
       "added_date": "2026-03-02",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -609,9 +613,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-10",
-        "status": "no_change",
-        "notes": "無新篡改報告；平台仍有通用竄改問題",
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "2026 年篡改/重封詐騙影片持續增加，Amazon 評論警告避開假貨",
         "report": "docs/Narrator/warnings/trading-cards-amazon-tampering--2026-03-01.md"
       }
     },
@@ -622,7 +626,7 @@
       "watch_reason": "design_flaw",
       "severity": "medium",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 14,
       "alerts": [
         {
@@ -636,9 +640,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-03",
-        "status": "new_entry",
-        "notes": "Step 8 警告報告觸發自動監控。76% 負評屬核心功能失效（Vega OS 封閉系統）。",
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "Amazon 官方確認所有新款 Fire TV Stick 改用 Vega OS，永久移除側載能力",
         "report": "docs/Narrator/warnings/fire-tv-stick-4k-select--2026-03-03.md"
       }
     },
@@ -649,7 +653,7 @@
       "watch_reason": "review_anomaly",
       "severity": "medium",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -669,9 +673,9 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無新召回或操縱報告，異常模式待下次抓取驗證",
+        "notes": "漏液屬已知設計限制，無新假評論事件",
         "report": "docs/Narrator/comparisons/water-bottle--2026-03-03.md"
       }
     },
@@ -682,7 +686,7 @@
       "watch_reason": "counterfeit_risk",
       "severity": "high",
       "added_date": "2026-03-12",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -700,10 +704,12 @@
         "avg_rating": 4.5
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "SPF 標示集體訴訟進行中（含 SPF 60 版本）"
-      }
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "SPF 集體訴訟仍在進行中，尚無和解"
+      },
+      "reanalysis_flagged_date": "2026-06-17",
+      "last_reanalyzed": "2026-06-17"
     },
     {
       "asin": "B0D3PZLZ3N",
@@ -712,7 +718,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-12",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -730,10 +736,12 @@
         "avg_rating": 3.5
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "2026-02 法律事務所發起藍牙/音訊/結構缺陷調查"
-      }
+        "date": "2026-04-26",
+        "status": "worsening",
+        "notes": "法律事務所調查持續，藍牙/充電/結構缺陷仍有新投訴"
+      },
+      "reanalysis_flagged_date": "2026-06-17",
+      "last_reanalyzed": "2026-06-17"
     },
     {
       "asin": "B0DSWMYSYT",
@@ -742,7 +750,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-12",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -760,9 +768,9 @@
         "avg_rating": 3.5
       },
       "check_result": {
-        "date": "2026-03-22",
-        "status": "monitoring",
-        "notes": "2026-03 更新破壞 SpO2/健康追蹤，外殼塗層問題調查中"
+        "date": "2026-04-26",
+        "status": "improved",
+        "notes": "LTE 3月更新已於3/31補發，問題緩解"
       }
     },
     {
@@ -772,7 +780,7 @@
       "watch_reason": "quality_crisis",
       "severity": "high",
       "added_date": "2026-03-03",
-      "last_checked": "2026-03-22",
+      "last_checked": "2026-06-17",
       "check_interval_days": 7,
       "alerts": [
         {
@@ -792,10 +800,49 @@
         "review_count": 100
       },
       "check_result": {
-        "date": "2026-03-10",
+        "date": "2026-04-26",
         "status": "no_change",
-        "notes": "無召回或新品質問題報告",
+        "notes": "無召回或新品質事件",
         "report": "docs/Narrator/comparisons/disposable-gloves--2026-03-03.md"
+      }
+    },
+    {
+      "asin": "B0BRV88TXF",
+      "name": "EZIGO Baby Pool Float with Canopy",
+      "category": "pool-float",
+      "watch_reason": "design_flaw",
+      "severity": "medium",
+      "added_date": "2026-06-17",
+      "last_checked": "2026-06-17",
+      "check_interval_days": 14,
+      "alerts": [
+        {
+          "type": "safety_check",
+          "description": "監控嬰兒浮圈翻覆/溺水安全事故"
+        }
+      ],
+      "baseline": {
+        "review_count": 13,
+        "safety_incidents": 0
+      }
+    },
+    {
+      "asin": "B0GCD9F4LC",
+      "name": "firtstnow Samsung Galaxy S26 Ultra Screen Protector",
+      "category": "phone-screen-protector",
+      "watch_reason": "design_flaw",
+      "severity": "medium",
+      "added_date": "2026-06-17",
+      "last_checked": "2026-06-17",
+      "check_interval_days": 14,
+      "alerts": [
+        {
+          "type": "compatibility_check",
+          "description": "監控超音波指紋解鎖失效率"
+        }
+      ],
+      "baseline": {
+        "fingerprint_failure_rate": "15%"
       }
     }
   ],
@@ -895,7 +942,7 @@
       "title": "重新評估 Walmart 評論抓取方案",
       "description": "Walmart PerimeterX 反機器人系統封鎖了評論抓取。Q2 時檢查是否有新的解決方案（代理服務、API、或 PerimeterX bypass 技術）",
       "created_date": "2026-02-22",
-      "status": "pending"
+      "status": "overdue"
     }
   ],
   "completed_gap_fills": {

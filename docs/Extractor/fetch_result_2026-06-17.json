@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-17",
+  "total_scraped": 37,
+  "scrape_failed": 0,
+  "total_extracted": 37,
+  "review_needed": [
+    "B0F1YGC8KB",
+    "B008JA73RG",
+    "B0FL9GK819",
+    "B095Q98Z97",
+    "B0GDXV7FVY",
+    "B0G4Z5G1NT"
+  ],
+  "by_category": {
+    "usb-c-wall-charger": 5,
+    "energy-drink": 10,
+    "noise-cancelling-headphone": 1,
+    "squishy-toy": 1,
+    "phone-case-drop-protection": 7,
+    "pool-float": 5,
+    "sun-protection": 2,
+    "phone-screen-protector": 6
+  }
+}

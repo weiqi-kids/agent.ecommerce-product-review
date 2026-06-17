@@ -1,0 +1,116 @@
+# Step 6 抓取清單 — 2026-03-13
+# 現有類別新產品 + 新類別產品
+
+# === 現有類別 ===
+# tablet-computer
+https://www.amazon.com/dp/B0DZ75TN5F
+# e-reader
+https://www.amazon.com/dp/B0CFPJYX7P
+https://www.amazon.com/dp/B0CNV9F72P
+# video-doorbell
+https://www.amazon.com/dp/B0DGQVYW2K
+# wireless-earbuds
+https://www.amazon.com/dp/B0FHWGB7FW
+# item-tracker
+https://www.amazon.com/dp/B0CWXNS552
+# flushable-wipes
+https://www.amazon.com/dp/B010NE2XPC
+https://www.amazon.com/dp/B07ND3WR64
+# probiotic-supplement
+https://www.amazon.com/dp/B079H53D2B
+# high-protein-snack
+https://www.amazon.com/dp/B00DLDH1N2
+# squishy-toy
+https://www.amazon.com/dp/B0DR7PH993
+https://www.amazon.com/dp/B0BQZFVJTB
+# action-figure
+https://www.amazon.com/dp/B07PQFT83F
+# kitchen-scale
+https://www.amazon.com/dp/B0113UZJE2
+# baby-diaper
+https://www.amazon.com/dp/B010OVZO64
+https://www.amazon.com/dp/B07M6FL57T
+https://www.amazon.com/dp/B0DFRHY91R
+https://www.amazon.com/dp/B08PX2V7PG
+https://www.amazon.com/dp/B00TJ6WLV2
+https://www.amazon.com/dp/B0DKYWMHDX
+https://www.amazon.com/dp/B08QS2KQ3F
+https://www.amazon.com/dp/B07SXBX1DM
+https://www.amazon.com/dp/B0CKV2VGX1
+# diaper-rash
+https://www.amazon.com/dp/B00ZQXT4EY
+# smartwatch
+https://www.amazon.com/dp/B0FQF9ZX7P
+# performance-laptop
+https://www.amazon.com/dp/B0GR685V9X
+# easter-egg-hunt
+https://www.amazon.com/dp/B0DP2FDVYV
+
+# === 新類別（最高優先） ===
+# phone-drop-protection (11)
+https://www.amazon.com/dp/B0FCXX2ZLC
+https://www.amazon.com/dp/B0FDQ3PWCX
+https://www.amazon.com/dp/B0FH655984
+https://www.amazon.com/dp/B0FDWR2PPG
+https://www.amazon.com/dp/B0FCY7L7SZ
+https://www.amazon.com/dp/B0FCXX62ZT
+https://www.amazon.com/dp/B0FH6HYW1H
+https://www.amazon.com/dp/B0FM23CNBM
+https://www.amazon.com/dp/B0DP2PYTJ2
+https://www.amazon.com/dp/B0GDDHQ7KJ
+https://www.amazon.com/dp/B0F1TNK61D
+# phone-screen-protection (10)
+https://www.amazon.com/dp/B0CCYM3F1V
+https://www.amazon.com/dp/B0FDQH511S
+https://www.amazon.com/dp/B0F8VZ7QVX
+https://www.amazon.com/dp/B0FDQH15KW
+https://www.amazon.com/dp/B0FH4ZWQ6X
+https://www.amazon.com/dp/B09F2JY5FF
+https://www.amazon.com/dp/B0FJG9P2LB
+https://www.amazon.com/dp/B0GCBMBGBX
+https://www.amazon.com/dp/B0FDKJDFGZ
+https://www.amazon.com/dp/B0FDQKLW48
+# phone-charging (5)
+https://www.amazon.com/dp/B09KR8P3L5
+https://www.amazon.com/dp/B0B283QP2N
+https://www.amazon.com/dp/B0B2WLSY9D
+https://www.amazon.com/dp/B0CPSBD68W
+https://www.amazon.com/dp/B0DJFW7PNM
+# portable-charger (2)
+https://www.amazon.com/dp/B0CB1FW5FC
+https://www.amazon.com/dp/B0CY2JJ4WS
+# baby-wipes (5)
+https://www.amazon.com/dp/B07SCL613T
+https://www.amazon.com/dp/B008KJEYLO
+https://www.amazon.com/dp/B0BJ13K7FR
+https://www.amazon.com/dp/B086LKQDJG
+https://www.amazon.com/dp/B08QRKY3NJ
+# baby-wash (2)
+https://www.amazon.com/dp/B072QXWXS6
+https://www.amazon.com/dp/B09MVMNW5M
+# baby-healing-ointment (2)
+https://www.amazon.com/dp/B005UEB96K
+https://www.amazon.com/dp/B0107QPFBU
+# baby-bottle-nipple (2)
+https://www.amazon.com/dp/B015XBYDLM
+https://www.amazon.com/dp/B0F457DSNG
+# baby-thermometer (1)
+https://www.amazon.com/dp/B0824XNJSW
+# potty-training-pants (2)
+https://www.amazon.com/dp/B08SNLW94K
+https://www.amazon.com/dp/B07XCVWZ51
+# baby-pacifier (1)
+https://www.amazon.com/dp/B07TDN9MKC
+# toddler-straw-cup (2)
+https://www.amazon.com/dp/B0C54D5NCG
+https://www.amazon.com/dp/B0BTYQ7Q5Y
+# stroller-fan (1)
+https://www.amazon.com/dp/B0BKQDPP1Z
+# bottle-washer-accessory (1)
+https://www.amazon.com/dp/B0DF1FDKR4
+# kids-nutrition-shake (1)
+https://www.amazon.com/dp/B00BKL4KKY
+# smartwatch-case (1)
+https://www.amazon.com/dp/B0DFVB13XF
+# waterproof-phone-pouch (1)
+https://www.amazon.com/dp/B079HV3TC9

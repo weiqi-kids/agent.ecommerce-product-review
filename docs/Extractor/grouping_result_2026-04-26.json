@@ -1,0 +1,700 @@
+{
+  "date": "2026-04-26",
+  "total_products": 323,
+  "existing_categories": {
+    "paper-towels": [
+      "B07MHJFRBJ",
+      "B074CR89QG",
+      "B09BWFX1L6",
+      "B09NW92T8Q",
+      "B0DF8RSVJK",
+      "B0DQYR6X8R",
+      "B0DFHMZ922"
+    ],
+    "water-bottle": [
+      "B0BZYCJK89",
+      "B0CV64341S",
+      "B0D6C6GS58"
+    ],
+    "mens-underwear": [
+      "B086KSDTQ4"
+    ],
+    "disposable-gloves": [
+      "B0C9S5PMSD",
+      "B00GS8W3T4"
+    ],
+    "toilet-paper": [
+      "B07BGLT25K",
+      "B095CN96JS",
+      "B0798DVT68",
+      "B0CM4NXMV2",
+      "B09YKYV9N9",
+      "B0CM5C15ZD",
+      "B0FLFR269F",
+      "B0FN4NH4K8"
+    ],
+    "body-moisturizing": [
+      "B08KT2Z93D",
+      "B0DPHQRLJC"
+    ],
+    "wired-earphones": [
+      "B0DCH8VDXF"
+    ],
+    "wireless-bra": [
+      "B0D8DZN778",
+      "B0FNMC64GM"
+    ],
+    "aa-batteries": [
+      "B00NTCH52W",
+      "B00LH3DMUO",
+      "B09RTVD1GF"
+    ],
+    "acne-treatment": [
+      "B074PVTPBW",
+      "B081KL2QYJ"
+    ],
+    "kitchen-scale": [
+      "B0113UZJE2"
+    ],
+    "item-tracker": [
+      "B0GJTFXNRX"
+    ],
+    "exfoliating-toner": [
+      "B09V7Z4TJG",
+      "B071914GGL"
+    ],
+    "bread-toaster": [
+      "B0CYJBB2JQ"
+    ],
+    "wireless-earbuds": [
+      "B0DGHMNQ5Z",
+      "B0FQFB8FMG",
+      "B0BQPNMXQV",
+      "B09DT48V16",
+      "B09FT58QQP",
+      "B0BTYCRJSS",
+      "B0D5NJ1CKG",
+      "B09FLNSYDZ",
+      "B0FHWGB7FW"
+    ],
+    "3d-printer-filament": [
+      "B07XG3RM58"
+    ],
+    "womens-basic-tops": [
+      "B0FNC4GM8V"
+    ],
+    "mens-basic-tshirt": [
+      "B07JCS8NRC"
+    ],
+    "collagen-mask": [
+      "B0B2RM68G2",
+      "B0BRMYHMS5"
+    ],
+    "meat-thermometer": [
+      "B00S93EQUK"
+    ],
+    "streaming-stick": [
+      "B0DXXYS4BJ",
+      "B0F7Z4QZTT",
+      "B0CQMRKRV5",
+      "B0BP9SNVH9",
+      "B0C6W3D4RM"
+    ],
+    "adult-clogs": [
+      "B0014BYHJE"
+    ],
+    "travel-compression-bags": [
+      "B0973DGD8P",
+      "B0DRNS5R5C",
+      "B086WNKLTM",
+      "B0DGF616XN"
+    ],
+    "baby-diaper": [
+      "B07DC8BR3B",
+      "B07M6FL57T",
+      "B08PX2V7PG",
+      "B0DKYWMHDX",
+      "B00TJ6WLV2",
+      "B08QS2KQ3F",
+      "B07SXBX1DM",
+      "B0DFRHY91R",
+      "B0F647WPQJ",
+      "B0BJ14XCDV",
+      "B082QBSJ6L",
+      "B09HY9P5HW",
+      "B0DKYRHL2Y",
+      "B0CKV2VGX1"
+    ],
+    "baby-wipes": [
+      "B07SCL613T",
+      "B013C9OKVU",
+      "B0BJ13K7FR",
+      "B008KJEYLO",
+      "B08QRKY3NJ",
+      "B07KGL6L56",
+      "B0BJ13XWDD"
+    ],
+    "diaper-rash": [
+      "B00ZQXT4EY"
+    ],
+    "baby-wash": [
+      "B072QXWXS6",
+      "B09MVMNW5M",
+      "B01LDZJHAE"
+    ],
+    "baby-healing-ointment": [
+      "B005UEB96K",
+      "B0107QPFBU"
+    ],
+    "baby-thermometer": [
+      "B0824XNJSW"
+    ],
+    "potty-training-pants": [
+      "B08SNLW94K",
+      "B07XCVWZ51",
+      "B07X8ND2B6"
+    ],
+    "bottle-washer-accessory": [
+      "B0DF1FDKR4"
+    ],
+    "kids-nutrition-shake": [
+      "B00BKL4KKY"
+    ],
+    "baby-swim-diaper": [
+      "B0795WF49L"
+    ],
+    "baby-burp-cloth": [
+      "B0CLPGQWNB"
+    ],
+    "baby-monitor": [
+      "B09GM8JZM9"
+    ],
+    "baby-grooming-kit": [
+      "B0DSMHJ2FF"
+    ],
+    "baby-safety-lock": [
+      "B001OC5UMQ",
+      "B019OAWUZ4"
+    ],
+    "anti-colic-baby-bottle": [
+      "B01845QH7M",
+      "B0964CHD65"
+    ],
+    "nursing-pads": [
+      "B0070SKP1O"
+    ],
+    "nipple-cream": [
+      "B000JVCBBG"
+    ],
+    "newborn-swaddle": [
+      "B0081GJ038"
+    ],
+    "baby-sunscreen": [
+      "B084ZP1H7B"
+    ],
+    "underpads-leakproof": [
+      "B0CPPLFQKB"
+    ],
+    "infant-gas-relief": [
+      "B011EVPAHG"
+    ],
+    "baby-bottle-nipple": [
+      "B0F452HXC2"
+    ],
+    "stroller-fan": [
+      "B0BKQDPP1Z"
+    ],
+    "toddler-straw-cup": [
+      "B0BTYQ7Q5Y"
+    ],
+    "mascara": [
+      "B08H3JPH74",
+      "B00T0C9XRK"
+    ],
+    "face-towels": [
+      "B07PBXXNCY"
+    ],
+    "facial-cleanser": [
+      "B01MSSDEPK"
+    ],
+    "sun-protection": [
+      "B002MSN3QQ"
+    ],
+    "cotton-swabs": [
+      "B09541P9WH",
+      "B01AXP6AE",
+      "B01AXQP6AE"
+    ],
+    "face-moisturizing": [
+      "B08BW46XXK",
+      "B07RK4HST7",
+      "B01N9SPQHQ"
+    ],
+    "hydrating-serum": [
+      "B01MYEZPC8"
+    ],
+    "natural-deodorant": [
+      "B08WYXNVQ7"
+    ],
+    "hair-growth-supplement": [
+      "B07QZ5CTTF"
+    ],
+    "dandruff-treatment": [
+      "B00AINMFAC"
+    ],
+    "brightening-serum": [
+      "B01MDTVZTZ"
+    ],
+    "phone-screen-protection": [
+      "B0FDQK69GQ",
+      "B0FDQH511S",
+      "B0FDQH15KW",
+      "B0FH4ZWQ6X",
+      "B0CCYM3S2L",
+      "B0F8VZ7QVX",
+      "B0FDKJDFGZ",
+      "B0FBWM4FY5",
+      "B0GCBMBGBX",
+      "B0FDQKLW48",
+      "B0FJRR3QPV"
+    ],
+    "phone-drop-protection": [
+      "B0D9VS4PV7",
+      "B0FDQ3PWCX",
+      "B0FCXX2ZLC",
+      "B0F1TNK61D",
+      "B0FH6GTY53",
+      "B0FCY7L7SZ",
+      "B0FDKWQF6V",
+      "B0FDW734NW",
+      "B0G19LH9T6",
+      "B0FFT8P8XP"
+    ],
+    "phone-charging": [
+      "B09KR8P3L5",
+      "B0B283QP2N",
+      "B0CPSBD68W",
+      "B0DJFW7PNM"
+    ],
+    "portable-charger": [
+      "B0CB1FW5FC",
+      "B0CY2JJ4WS"
+    ],
+    "smartwatch-case": [
+      "B0DFVB13XF"
+    ],
+    "apple-watch-band": [
+      "B0F3J1GXTD"
+    ],
+    "car-phone-mount": [
+      "B0DN1S1YLV"
+    ],
+    "earphone-accessories": [
+      "B0DFWRY3KQ"
+    ],
+    "video-doorbell": [
+      "B0DGQVYW2K"
+    ],
+    "tablet-computer": [
+      "B0DZ75TN5F"
+    ],
+    "e-reader": [
+      "B0CFPJYX7P",
+      "B0CNVCQZG1"
+    ],
+    "smart-speaker": [
+      "B09B8V1LZ3"
+    ],
+    "tv-remote-replacement": [
+      "B09Z6Q2MLC",
+      "B0CQF6T2K1",
+      "B0B7B6KLH3",
+      "B0DDZN76T9",
+      "B0DC3PZLRL"
+    ],
+    "power-strip": [
+      "B08R6S1M1K",
+      "B09PDLBFKY",
+      "B0BJ1SWDNB",
+      "B0DZ254SSR",
+      "B092J8LPWR",
+      "B0BLTYNJCK",
+      "B08MTBCXWX"
+    ],
+    "smartwatch": [
+      "B0FQF9ZX7P"
+    ],
+    "tv-wall-mount": [
+      "B01KBEOL5E",
+      "B00SFSU53G"
+    ],
+    "noise-cancelling-headphone": [
+      "B0C3HCD34R",
+      "B09LYF2ST7",
+      "B0CZPGX972",
+      "B0BS1PRC4L"
+    ],
+    "cable-management": [
+      "B07FW3GTXB",
+      "B0C2Z4L3S6"
+    ],
+    "home-security-camera": [
+      "B0DHLSWJXL"
+    ],
+    "portable-bluetooth-speaker": [
+      "B01MTB55WH",
+      "B0CTNTFBNX"
+    ],
+    "instant-film": [
+      "B00EB4ADQW"
+    ],
+    "smart-ring": [
+      "B0D9WVWXR1"
+    ],
+    "performance-laptop": [
+      "B0GR6FHGXX"
+    ],
+    "flushable-wipes": [
+      "B010NE2XPC",
+      "B07ND3WR64",
+      "B095KCG1Q2"
+    ],
+    "electrolyte-hydration": [
+      "B0FTGJGPTM",
+      "B01IT9NLHW",
+      "B0BQ4G7LY8",
+      "B08XQZX9K3"
+    ],
+    "toothpaste": [
+      "B083JHCCV2",
+      "B09F8FZ18G"
+    ],
+    "magnesium-supplement": [
+      "B07P5K7DQP"
+    ],
+    "creatine-supplement": [
+      "B002DYIZEE",
+      "B00GL2HMES"
+    ],
+    "laundry-stain": [
+      "B01EIG6A4O",
+      "B0BJMV9BXJ",
+      "B01EIG6A4Q"
+    ],
+    "whey-protein": [
+      "B002DYIZH6"
+    ],
+    "probiotic-supplement": [
+      "B079H53D2B"
+    ],
+    "collagen-supplement": [
+      "B09QV3XG8B"
+    ],
+    "postpartum-incontinence": [
+      "B09556SRJH"
+    ],
+    "high-protein-snack": [
+      "B00DLDH1N2",
+      "B00GJ82VK4"
+    ],
+    "eye-redness-relief": [
+      "B07BVYZL88"
+    ],
+    "wound-bandage": [
+      "B00006IDL6"
+    ],
+    "disinfecting-wipes": [
+      "B07F246YG1",
+      "B00HSC9F2C"
+    ],
+    "vaginal-probiotic": [
+      "B0D5FZGY8W"
+    ],
+    "washing-machine-cleaner": [
+      "B00C91Q86I"
+    ],
+    "food-storage-bags": [
+      "B095PQ6SX7"
+    ],
+    "disposable-plates": [
+      "B0C2CY22B8",
+      "B074PY4Y8Y"
+    ],
+    "omega3-supplement": [
+      "B0739KKHWL"
+    ],
+    "toilet-bowl-cleaner": [
+      "B00371VM0Q"
+    ],
+    "ant-control": [
+      "B00E4GACB8",
+      "B01N0TGJHB"
+    ],
+    "bed-sheets": [
+      "B01M16WBW1",
+      "B00NX0WXQI",
+      "B07F97MPYT",
+      "B01IE7P2VW"
+    ],
+    "flower-seeds": [
+      "B0DQ59R1LB"
+    ],
+    "flying-insect-trap": [
+      "B0C3FTCYZL",
+      "B0CKY689WQ"
+    ],
+    "mattress-protector": [
+      "B0C1NNYJGB",
+      "B00MRH9NCK"
+    ],
+    "picture-frame": [
+      "B0BQR2BQYZ"
+    ],
+    "clothes-hangers": [
+      "B00FXNAAW2"
+    ],
+    "shower-curtain-liner": [
+      "B08QRFZ6TH",
+      "B08CRPWQHB",
+      "B082KP92DF",
+      "B08NJ6VF9T"
+    ],
+    "bathroom-rug": [
+      "B0CFGYFCYL"
+    ],
+    "garden-hose": [
+      "B003TFE7ZM",
+      "B07HF6YDYV"
+    ],
+    "garden-pump-sprayer": [
+      "B000E28UQU"
+    ],
+    "wild-bird-feed": [
+      "B00LHE5OSQ",
+      "B007FJ0FJU"
+    ],
+    "throw-pillow-inserts": [
+      "B01NBNDC1T",
+      "B0714K41PB"
+    ],
+    "bed-pillows": [
+      "B08DTH86Q2",
+      "B01LYNW421"
+    ],
+    "pillow-case": [
+      "B08616PS69",
+      "B01M0AGUPO"
+    ],
+    "milk-frother": [
+      "B09D8T11YS"
+    ],
+    "anti-insect-indoor": [
+      "B0000AH849"
+    ],
+    "mattress-topper": [
+      "B07D5DN269"
+    ],
+    "portable-carpet-cleaner": [
+      "B0016HF5GK"
+    ],
+    "lawn-fertilizer-weed": [
+      "B0BBN6RHBY",
+      "B01N4GLFK8"
+    ],
+    "throw-blanket": [
+      "B0BPLB81LX"
+    ],
+    "hallway-runner-rug": [
+      "B0D89V1RX1"
+    ],
+    "party-backdrop": [
+      "B0DLN1B4MJ"
+    ],
+    "bed-frame": [
+      "B0B8VQLN6Y"
+    ],
+    "air-purifier": [
+      "B09GTRVJQM"
+    ],
+    "party-balloon": [
+      "B0BDQLJMFV",
+      "B0BZCHMVTK",
+      "B0BJZRS4KR",
+      "B0B1B14DRT",
+      "B0BZR3B5CG",
+      "B09L7MDNH6",
+      "B0991XM8YL",
+      "B0CB6B572D",
+      "B0989R8D6D",
+      "B00N1QPNMA",
+      "B0BLVJV2YG"
+    ],
+    "playing-cards": [
+      "B09SDKSXLZ"
+    ],
+    "bubble-toy": [
+      "B09TK9JGRH",
+      "B0CB3Y6PPW"
+    ],
+    "trading-cards": [
+      "B0829FT44S",
+      "B0G3CV6Z9D",
+      "B0GG11K25W",
+      "B01CYZHGC8"
+    ],
+    "squishy-toy": [
+      "B0DR7PH993",
+      "B0DG2VRFV7",
+      "B0GX1XP72Z",
+      "B0GWPWCD9H",
+      "B0D9ZTW7PS",
+      "B0C6XBP4CW",
+      "B0F7QX1PDH",
+      "B0G36WL2LN",
+      "B0GWMHTF84",
+      "B0FHB51R29",
+      "B0DSVTXFNW",
+      "B0F8LLT3JR"
+    ],
+    "modeling-clay": [
+      "B00JM5GW10"
+    ],
+    "toddler-balance-bike": [
+      "B08SGSJKSXLZ",
+      "B08SGH7NKX"
+    ],
+    "early-learning-toy": [
+      "B07B6ZN7P8",
+      "B0CRYJB6GK",
+      "B0BGN2HQHH"
+    ],
+    "infant-sensory-toy": [
+      "B00ZRD99C0",
+      "B0B21ZM7LJ",
+      "B008J1QP7Y",
+      "B08X1YQ2N9"
+    ],
+    "art-supplies": [
+      "B09PGVGCH5",
+      "B0033VHDK8",
+      "B00006RVTS"
+    ],
+    "action-figure": [
+      "B0G1TXWSG4",
+      "B0G1TXHCM1",
+      "B07PQFT83F"
+    ],
+    "board-games": [
+      "B0DWGVM7RY"
+    ],
+    "bath-toys": [
+      "B01K1K0K6M"
+    ],
+    "makeup-removal": [
+      "B00U2VQZDS"
+    ],
+    "anti-aging-serum": [
+      "B0CNCL35CH"
+    ],
+    "building-blocks": [
+      "B007GE75HY"
+    ]
+  },
+  "new_categories": [
+    {
+      "name": "hand-soap",
+      "description": "洗手皂液體清潔保濕（含補充裝）",
+      "products": [
+        "B07MFMWFYL",
+        "B09HHDHXWX"
+      ]
+    },
+    {
+      "name": "cotton-pads",
+      "description": "棉片卸妝/護膚化妝棉",
+      "products": [
+        "B09542G9ZN"
+      ]
+    },
+    {
+      "name": "body-scrub",
+      "description": "身體去角質糖霜磨砂",
+      "products": [
+        "B0BX2TZZWG"
+      ]
+    },
+    {
+      "name": "syringe",
+      "description": "注射用針筒（胰島素/醫療用）",
+      "products": [
+        "B0C6ZW1GKC"
+      ]
+    },
+    {
+      "name": "alcohol-prep-pads",
+      "description": "酒精消毒棉片（醫療清潔消毒）",
+      "products": [
+        "B07F2MQ9NJ"
+      ]
+    },
+    {
+      "name": "cr2032-battery",
+      "description": "CR2032 鋰電池（鑰匙扣/遙控器用）",
+      "products": [
+        "B009108SGS"
+      ]
+    },
+    {
+      "name": "coffee-filters",
+      "description": "咖啡機濾紙（滴濾式咖啡沖泡）",
+      "products": [
+        "B0C4Z6SKCS"
+      ]
+    },
+    {
+      "name": "clothes-steamer",
+      "description": "手持蒸汽掛燙機去皺",
+      "products": [
+        "B07HF3X6Y4"
+      ]
+    },
+    {
+      "name": "sticker-activity-book",
+      "description": "兒童貼紙塗色活動書",
+      "products": [
+        "B098PMWSVS"
+      ]
+    },
+    {
+      "name": "glow-sticks",
+      "description": "螢光棒派對裝飾發光道具",
+      "products": [
+        "B00N1QPNMA"
+      ]
+    },
+    {
+      "name": "punch-balloon",
+      "description": "打擊充氣拳擊氣球玩具",
+      "products": [
+        "B0BLVJV2YG"
+      ]
+    },
+    {
+      "name": "pool-float",
+      "description": "充氣游泳池浮具/躺椅夏季水上休閒",
+      "products": [
+        "B0BKTLNSLG"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "asin": "B08JHCVHTY",
+      "reason": "數位訂閱（blink plus plan）"
+    },
+    {
+      "asin": "B00N1NBOV2",
+      "reason": "促銷禮盒（Amazon Baby Registry Welcome Box）"
+    }
+  ]
+}
