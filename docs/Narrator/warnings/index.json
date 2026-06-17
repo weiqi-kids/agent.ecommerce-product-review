@@ -40,6 +40,14 @@
     "source_mode": "warnings"
   },
   {
+    "id": "samsung-screen-protector-fingerprint--2026-06-17-md",
+    "title": "Samsung S26/S25 保護貼警告：指紋解鎖失效",
+    "date": "2026-06-17",
+    "product_id": "",
+    "file": "samsung-screen-protector-fingerprint--2026-06-17.md",
+    "source_mode": "warnings"
+  },
+  {
     "id": "pokemon-collector-chest--warning--2026-02-06-md",
     "title": "產品安全警告：Pokemon TCG Collector Chest - Fall 2025",
     "date": "2026-02-06",
@@ -53,6 +61,14 @@
     "date": "2026-03-12",
     "product_id": "",
     "file": "pixel-watch3-renewed--2026-03-12.md",
+    "source_mode": "warnings"
+  },
+  {
+    "id": "needoh-squishy-leak--2026-06-17-md",
+    "title": "NeeDoh 擠壓玩具警告：23% 破裂洩漏與燒傷風險",
+    "date": "2026-06-17",
+    "product_id": "",
+    "file": "needoh-squishy-leak--2026-06-17.md",
     "source_mode": "warnings"
   },
   {
@@ -141,6 +157,22 @@
     "date": "2026-03-12",
     "product_id": "",
     "file": "beats-solo4-renewed--2026-03-12.md",
+    "source_mode": "warnings"
+  },
+  {
+    "id": "beats-solo-4-renewed-counterfeit--2026-06-17-md",
+    "title": "Beats Solo 4 翻新品警告：27% 評論指向假貨",
+    "date": "2026-06-17",
+    "product_id": "",
+    "file": "beats-solo-4-renewed-counterfeit--2026-06-17.md",
+    "source_mode": "warnings"
+  },
+  {
+    "id": "baby-pool-float-safety--2026-06-17-md",
+    "title": "嬰兒泳池浮圈安全警告：CPSC 翻覆溺死緊急警告",
+    "date": "2026-06-17",
+    "product_id": "",
+    "file": "baby-pool-float-safety--2026-06-17.md",
     "source_mode": "warnings"
   },
   {
